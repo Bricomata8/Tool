@@ -1,0 +1,6 @@
+#! /bin/sh
+mypath=`realpath $0`
+directory=`dirname $mypath`
+filename=`basename $0`
+
+gedit ~/Aghiles/Redaction*/$filename/paper/paper.tex

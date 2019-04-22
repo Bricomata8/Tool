@@ -1,0 +1,396 @@
+#!/bin/bash
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom31/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom32/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom33/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom34/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom35/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom36/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom37/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom38/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom39/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom40/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom41/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom42/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom43/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom44/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom45/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom46/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom47/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom48/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom49/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom50/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom51/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom52/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom53/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom54/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom55/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom56/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom57/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom58/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom59/'
+]"
+
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name 'Screenshot'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command 'gnome-screenshot -i'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding '<Super>Print'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ name 'Search'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ command 'sh Aghiles/Tool/search'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ binding '<Primary><Super>p'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ name 'Terminal'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ command 'gnome-terminal'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '<Primary><Alt>t'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/ name 'Zotero'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/ command 'sh Aghiles/Tool/zotero'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/ binding '<Primary><Shift>p'
+
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/ name 'paper1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/ command 'sh Aghiles/Tool/shotcuts/paper/1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/ binding '<Primary>ampersand'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/ name 'paper2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/ command 'sh Aghiles/Tool/shotcuts/paper/2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/ binding '<Primary>eacute'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/ name 'paper3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/ command 'sh Aghiles/Tool/shotcuts/paper/3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/ binding '<Primary>quotedbl'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/ name 'paper4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/ command 'sh Aghiles/Tool/shotcuts/paper/4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/ binding '<Primary>apostrophe'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/ name 'paper5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/ command 'sh Aghiles/Tool/shotcuts/paper/5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/ binding '<Primary>parenleft'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/ name 'paper6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/ command 'sh Aghiles/Tool/shotcuts/paper/6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/ binding '<Primary>minus'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/ name 'paper7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/ command 'sh Aghiles/Tool/shotcuts/paper/7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/ binding '<Primary>egrave'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/ name 'paper8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/ command 'sh Aghiles/Tool/shotcuts/paper/8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/ binding '<Primary>underscore'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/ name 'paper9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/ command 'sh Aghiles/Tool/shotcuts/paper/9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/ binding '<Primary>ccedilla'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/ name 'paper0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/ command 'sh Aghiles/Tool/shotcuts/paper/0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/ binding '<Primary>agrave'
+
+
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/ name 'slide1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/ command 'sh Aghiles/Tool/shotcuts/slide/1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/ binding '<Primary><Shift>1'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/ name 'slide2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/ command 'sh Aghiles/Tool/shotcuts/slide/2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/ binding '<Primary><Shift>2'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/ name 'slide3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/ command 'sh Aghiles/Tool/shotcuts/slide/3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/ binding '<Primary><Shift>3'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/ name 'slide4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/ command 'sh Aghiles/Tool/shotcuts/slide/4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/ binding '<Primary><Shift>4'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/ name 'slide5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/ command 'sh Aghiles/Tool/shotcuts/slide/5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/ binding '<Primary><Shift>5'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/ name 'slide6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/ command 'sh Aghiles/Tool/shotcuts/slide/6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/ binding '<Primary><Shift>6'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/ name 'slide7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/ command 'sh Aghiles/Tool/shotcuts/slide/7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/ binding '<Primary><Shift>7'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/ name 'slide8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/ command 'sh Aghiles/Tool/shotcuts/slide/8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/ binding '<Primary><Shift>8'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/ name 'slide9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/ command 'sh Aghiles/Tool/shotcuts/slide/9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/ binding '<Primary><Shift>9'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/ name 'slide0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/ command 'sh Aghiles/Tool/shotcuts/slide/0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/ binding '<Primary><Shift>0'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/ name 'link1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/ command 'sh Aghiles/Tool/shotcuts/link/link1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/ binding '<Primary><Alt>ampersand'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/ name 'link2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/ command 'sh Aghiles/Tool/shotcuts/link/link2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/ binding '<Primary><Alt>eacute'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/ name 'link3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/ command 'sh Aghiles/Tool/shotcuts/link/link3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/ binding '<Primary><Alt>quotedbl'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/ name 'link4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/ command 'sh Aghiles/Tool/shotcuts/link/link4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/ binding '<Primary><Alt>apostrophe'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/ name 'link5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/ command 'sh Aghiles/Tool/shotcuts/link/link5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/ binding '<Primary><Alt>parenleft'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/ name 'link6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/ command 'sh Aghiles/Tool/shotcuts/link/link6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/ binding '<Primary><Alt>minus'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/ name 'link7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/ command 'sh Aghiles/Tool/shotcuts/link/link7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/ binding '<Primary><Alt>egrave'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom31/ name 'link8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom31/ command 'sh Aghiles/Tool/shotcuts/link/link8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom31/ binding '<Primary><Alt>underscore'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom32/ name 'link9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom32/ command 'sh Aghiles/Tool/shotcuts/link/link9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom32/ binding '<Primary><Alt>ccedilla'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom33/ name 'link0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom33/ command 'sh Aghiles/Tool/shotcuts/link/link0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom33/ binding '<Primary><Alt>agrave'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom34/ name 'speaker fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom34/ command 'Aghiles/Tool/speaker-fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom34/ binding '<Primary><Alt>e'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom35/ name 'speaker en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom35/ command 'Aghiles/Tool/speaker-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom35/ binding '<Primary><Super>e'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom36/ name 'calendar'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom36/ command 'Aghiles/Tool/calendar'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom36/ binding '<Primary><Shift><Alt>e'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom37/ name 'tasks'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom37/ command 'Aghiles/Tool/tasks'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom37/ binding '<Primary><Shift>e'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom38/ name 'tasks'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom38/ command 'Aghiles/Tool/tasks'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom38/ binding '<Primary><Super><Alt>e'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom39/ name 'pkill speaker'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom39/ command 'Aghiles/Tool/pkill_speaker'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom39/ binding '<Primary><Shift><Super>e'
+
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom40/ name 'code1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom40/ command 'sh Aghiles/Tool/shotcuts/code/code1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom40/ binding '<Primary><Super>ampersand'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom41/ name 'code2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom41/ command 'sh Aghiles/Tool/shotcuts/code/code2'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom41/ binding '<Primary><Super>eacute'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom42/ name 'code3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom42/ command 'sh Aghiles/Tool/shotcuts/code/code3'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom42/ binding '<Primary><Super>quotedbl'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom43/ name 'code4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom43/ command 'sh Aghiles/Tool/shotcuts/code/code4'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom43/ binding '<Primary><Super>apostrophe'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom44/ name 'code5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom44/ command 'sh Aghiles/Tool/shotcuts/code/code5'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom44/ binding '<Primary><Super>parenleft'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom45/ name 'code6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom45/ command 'sh Aghiles/Tool/shotcuts/code/code6'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom45/ binding '<Primary><Super>minus'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom46/ name 'code7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom46/ command 'sh Aghiles/Tool/shotcuts/code/code7'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom46/ binding '<Primary><Super>egrave'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom47/ name 'code8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom47/ command 'sh Aghiles/Tool/shotcuts/code/code8'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom47/ binding '<Primary><Super>underscore'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom48/ name 'code9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom48/ command 'sh Aghiles/Tool/shotcuts/code/code9'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom48/ binding '<Primary><Super>ccedilla'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom49/ name 'code0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom49/ command 'sh Aghiles/Tool/shotcuts/code/code0'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom49/ binding '<Primary><Super>agrave'
+
+
+
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/ name 'Trello'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/ command 'sh Aghiles/Tool/shotcuts/link/link1'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/ binding '<Primary><Alt>y'
+
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/ name 'TheLounge'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/ command 'sh Aghiles/Tool/shotcuts/link/link2'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/ binding '<Primary><Super>y'
+
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/ name 'Workshop'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/ command 'sh Aghiles/Tool/workshop'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/ binding '<Primary><Shift><Alt>y'
+
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/ name 'Run all'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/ command 'sh Aghiles/Tool/run'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/ binding '<Primary><Shift>y'
+
+
+
+
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/ name 'pkill speaker'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/ command 'Aghiles/Tool/pkillunderscorespeaker'
+#gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/ binding '<Primary><Super><Alt>e'
+
+
+#####
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom50/ name 'HDMI-right'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom50/ command 'Aghiles/Tool/HDMI-right'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom50/ binding '<Primary><Alt>equal'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom51/ name 'HDMI-same'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom51/ command 'Aghiles/Tool/HDMI-same'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom51/ binding '<Primary><Super>equal'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom52/ name 'HDMI-off'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom52/ command 'Aghiles/Tool/HDMI-off'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom52/ binding '<Primary><Shift>plus'
+
+
+
+
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom53/ name 'cv-fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom53/ command 'sh Aghiles/Tool/shotcuts/cv-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom53/ binding '<Primary>comma'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom54/ name 'cv-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom54/ command 'sh Aghiles/Tool/shotcuts/cv-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom54/ binding '<Primary><Shift>question'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom55/ name 'lettre-fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom55/ command 'sh Aghiles/Tool/shotcuts/lettre-fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom55/ binding '<Primary>semicolon'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom56/ name 'lettre-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom56/ command 'sh Aghiles/Tool/shotcuts/lettre-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom56/ binding '<Primary><Shift>period'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom57/ name 'lm-fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom57/ command 'sh Aghiles/Tool/shotcuts/lm-fr'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom57/ binding '<Primary>colon'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom58/ name 'lm-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom58/ command 'sh Aghiles/Tool/shotcuts/lm-en'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom58/ binding '<Primary><Shift>slash'
+
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom59/ name 'draft'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom59/ command 'sh Aghiles/Tool/shotcuts/draft'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom59/ binding '<Primary>exclam'
+
+#gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+	#Adwaita-dark, Ambiance
+#dconf-editor
+#unity-tweak-tool
+#gnome-tweaks
+#gnome-control-center
+
+
+#https://fsymbols.com/keyboard/linux/compose/
+
+
+
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Primary><Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Primary><Alt>Right']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Primary><Alt>Up']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Primary><Alt>Down']"
+
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "['<Shift><Primary><Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "['<Shift><Primary><Alt>Right']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Shift><Primary><Alt>Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Shift><Primary><Alt>Down']"
+
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-left "['<Super><Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-right "['<Super><Alt>Right']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-up "['<Super><Alt>Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-down "['<Super><Alt>Down']"
+
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-nw "['<Primary><Super><Alt>Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-ne "['<Primary><Super><Alt>Down']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-sw "['<Primary><Super><Alt>Right']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-se "['<Primary><Super><Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-side-n "['<Primary><Super>Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-side-s "['<Primary><Super>Down']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-side-e "['<Primary><Super>Right']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-side-w "['<Primary><Super>Left']"
+
+sudo usermod -a -G dialout aghiles
+
+#sudo dpkg-reconfigure tzdata
+
+
+

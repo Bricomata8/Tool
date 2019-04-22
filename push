@@ -1,0 +1,32 @@
+#!/bin/bash
+
+mypath=`realpath $0`
+directory=`dirname $mypath`
+filename=`basename $directory`
+cd $directory
+
+git config --global user.email "papierpourgithub@gmail.com"
+git remote add $filename https://github.com/BRICOMATA8/$filename.git
+
+mkdir config
+mkdir config/gedit-config
+mkdir config/gedit-local-share
+
+cp -r -v \
+	~/.bashrc \
+	~/.hidden \
+	~/.bash_history \
+	~/.Renviron \
+	~/.zotero \
+	config/
+
+cp -r -v ~/.config/gedit config/gedit-config/
+cp -r -v ~/.local/share/gedit config/gedit-local-share/
+cp -r -v ~/.mozilla/firefox/*.default/extensions config/
+cp -r -v ~/.config/Mailspring/"Local Storage" config/
+
+git add -v .
+git commit -m "commit"
+git push -u -f $filename master
+#firefox https://github.com/BRICOMATA8/$filename.git
+

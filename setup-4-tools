@@ -1,0 +1,108 @@
+#!/bin/sh
+
+sudo apt update
+
+# Contiki
+sudo apt install git curl graphviz unzip wget zip build-essential automake gettext automake software-properties-common 
+sudo apt install lib32z1 lib32ncurses5 gcc-arm-none-eabi gdb-arm-none-eabi gcc gcc-msp430 libc6-i386 net-tools gcc-arm-none-eabi
+sudo apt -o Dpkg::Options::="--force-overwrite" install gdb-arm-none-eabi
+sudo apt install openjdk-8-jdk
+
+##################################################################################
+
+sudo mkdir -p /opt/net
+directory=/opt/net
+
+# Onos
+cd $directory
+sudo git clone git://github.com/sdnwiselab/onos
+
+# Mininet
+sudo git clone git://github.com/mininet/mininet
+
+# Application: Downlad Apache Karaf
+sudo mkdir $directory/Applications
+sudo wget http://archive.apache.org/dist/karaf/3.0.2/apache-karaf-3.0.2.tar.gz -P $directory/Applications
+sudo tar -zxvf $directory/Applications/apache-karaf-3.0.2.tar.gz -C $directory/Applications/
+
+# Add ONOS and SDN-WISE to Karaf
+sudo sed -i '/featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features/c\featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features,mvn:org.onosproject\/onos-features\/1.0.2-SNAPSHOT\/xml\/features' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+sudo sed -i '/featuresBoot=config,standard,region,package,kar,ssh,management/c\featuresBoot=config,standard,region,package,kar,ssh,management,onos-api,onos-core-trivial,onos-cli,onos-openflow,onos-app-fwd,onos-app-mobility,onos-gui,onos-sdnwise,onos-sdnwise-providers' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+
+# Setup environment variables
+sudo echo "export ONOS_ROOT=$directory/onos" >> ~/.bashrc
+source ~/.bashrc
+source $ONOS_ROOT/tools/dev/bash_profile
+
+
+cd /opt/net
+# Mininet
+sudo mininet/util/install.sh -nfv
+
+# Onos
+cd /opt/net/onos
+sudo tools/build/onos-buck build onos --show-output 
+#tools/build/onos-buck run onos-local -- clean debug
+
+##################################################################################
+
+sudo apt-get install python-pip
+sudo pip install --upgrade pip
+sudo pip install paho-mqtt
+sudo python -m pip install pyserial
+sudo python -m pip install networkx
+
+sudo apt install ubuntu-unity-desktop 
+sudo apt install gedit-plugins 
+sudo apt install gedit-source-code-browser-plugin
+sudo apt install gedit-latex-plugin 
+sudo apt install dconf-editor 
+sudo apt install notify-osd 
+sudo apt install unity-tweak-tool 
+sudo apt install gnome-tweaks 
+sudo apt install gnome-control-center 
+sudo apt install texlive-full 
+sudo apt install okular 
+sudo apt install r-base 
+sudo apt install r-cran-*
+#sudo apt install vagrant 
+#sudo apt install virtualbox 
+#sudo apt install virtualbox-ext-pack 
+sudo apt install xsel 
+sudo apt install mpg123 
+sudo apt install liballegro4-dev
+sudo apt install gdebi-core
+sudo apt install hunspell-fr
+sudo apt install texmaker
+sudo apt install poppler-utils
+sudo apt install xpdf
+sudo apt install clang-format # C format
+sudo apt install snapd
+sudo snap install mailspring
+sudo apt install gnome-todo
+sudo apt install plotutils
+sudo apt-get install subversion
+sudo apt install adb
+sudo apt install httrack
+sudo apt-get install maven redis-server mongodb mysql-server
+sudo apt install dspdfviewer
+sudo apt install pdfgrep
+sudo apt install wireshark
+sudo apt install mosquitto
+sudo apt install amqp-tools
+sudo apt install nodejs
+
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install -y nodejs
+sudo npm install coap-cli -g
+sudo npm install -g --unsafe-perm node-red
+npm install node-red-contrib-coap
+npm install node-red-contrib-amqp
+
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.deb.sh | sudo bash
+
+#windowsdell344@gmail.com
+
+#sudo gedit /etc/apt/sources.list
+#sudo dd if=xxx  of=xxx bs=9M status=progress
+

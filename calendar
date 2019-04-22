@@ -1,0 +1,21 @@
+#!/bin/bash
+
+directory="Aghiles/.Calendar"
+cd $directory
+
+./wget_teaching
+
+sed -r -i -z "s/\nDTSTART([^\n]*\n)(.[^U])/\nDTSTART\1DUE\1\2/g" *.ics
+
+sed -r -i -z "s/(\n[^D][^\n]*\n)DUE([^\n]*)/\1DTSTART\2\nDUE\2/g" *.ics
+
+sed -r -i -z "s/\n(DTSTART[^:]*:........)([^T])/\n\1T080000\2/g" *.ics
+
+sed -r -i -z "s/DTSTART([^\n]*)\nDUE([^\n]*)/DTSTART\1\nDUE\1/g" *.ics
+
+sed -r -i -z "s/VTODO/VEVENT/g" *.ics
+
+gnome-calendar
+
+
+#sed -r -i -z "s/DTSTART([^\n]*)/$(date +"%Y%m%d" -d "+1 days")/g" Test.ics
