@@ -1112,3 +1112,58 @@ gedit /etc/6lbr/6lbr.conf
 sudo gedit /etc/6lbr/6lbr.conf
 gedit /etc/network/interfaces
 git init
+ping google.com
+cd ~/Downloads/6lbr/examples/ipv6/slip-radio/
+make TARGET=zoul savetarget
+sudo BOARD=remote make login PORT=/dev/ttyUSB0
+cd Downloads/
+cd /home/aghiles/Downloads/6lbr/examples/ipv6/slip-radio/
+make TARGET=zoul savetarget
+sudo BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
+cd /user/contiki/examples/mqtt
+cd ../..
+ls
+cd 
+cd ~/Downloads/6lbr/examples/ipv6/slip-radio/
+cd ~/Downloads/6lbr/apps/mqtt
+BOARD=remote make mqtt-example.upload PORT=/dev/ttyUSB1
+BOARD=remote make mqtt.upload PORT=/dev/ttyUSB1
+cd ~/Downloads/6lbr/examples/cc2538-common/mqtt-demo
+BOARD=remote make mqtt-demo.upload PORT=/dev/ttyUSB1
+BOARD=remote make login PORT=/dev/ttyUSB0
+sudo BOARD=remote make login PORT=/dev/ttyUSB0
+cd ~/Downloads/6lbr/examples/cc2538-common/mqtt-demo
+sudo BOARD=remote make login PORT=/dev/ttyUSB1
+make TARGET=zoul savetarget
+sudo BOARD=remote make login PORT=/dev/ttyUSB1
+sudo gedit /etc/mosquitto/mosquitto.conf
+sudo echo "
+MODE=ROUTER
+RAW_ETH=0
+BRIDGE=1
+DEV_BRIDGE=br0
+DEV_TAP=tap0
+DEV_ETH=ens33
+RAW_ETH_FCS=0
+DEV_RADIO=/dev/ttyUSB0
+BAUDRATE=115200
+LOG_LEVEL=3
+" > /etc/6lbr/6lbr.conf
+sudo -s
+sudo service 6lbr restart
+sudo service 6lbr status
+sudo gedit /etc/network/interfaces
+sudo /etc/init.d/networking restart
+sudo ifconfig
+./x-compile 
+sudo gedit /etc/6lbr/6lbr.conf
+sudo -s
+sudo service 6lbr stop
+./x-compile 
+sudo service 6lbr restart
+gedit 6lbr-start
+./6lbr-start 
+sudo service 6lbr status
+gedit border-config
+sudo ifconfig
+gedit /etc/6lbr/6lbr.conf

@@ -46,6 +46,10 @@ sudo tools/build/onos-buck build onos --show-output
 
 ##################################################################################
 
+#6lbr
+sudo apt install libncurses5-dev bridge-utils libssl-dev ares.dev libwebsockets.dev uuid.dev
+sudo apt install cmake g++ libc-ares-dev uuid-dev xsltproc docbook-xsl
+
 sudo apt-get install python-pip
 sudo pip install --upgrade pip
 sudo pip install paho-mqtt
