@@ -1167,3 +1167,163 @@ sudo service 6lbr status
 gedit border-config
 sudo ifconfig
 gedit /etc/6lbr/6lbr.conf
+redshift -O 3500
+redshift -t DAY:NIGHT
+redshift -t 6500:5000
+redshift -b 1.0:0.6
+reshift -t 6500:5000 -b 1.0:0.8
+redshift -t 6500:5000 -b 1.0:0.8
+redshift -O 3500
+redshift -O 4500
+redshift -O 2500
+redshift -O 1500
+redshift -O 2500
+redshift -O 1500
+redshift -O 500
+redshift -O 1000
+redshift -O 2000
+redshift -O 1000
+redshift -3 1000
+redshift -1 1000
+redshift -0 1000
+redshift -O 1000
+sudo apt install redshift
+redshift
+man redshift
+sudo redshift
+apt install gtk-redshift
+sudoapt install gtk-redshift
+sudo apt install gtk-redshift
+gtk-redshift
+sudo gtk-redshift
+sudo apt install redshif
+sudo apt search redshif
+sudo apt install redshif
+sudo apt install gtk-redshif
+sudo apt install redshif-gtk
+sudo apt install sct
+sct
+man xrandr 
+redshift -O 1000
+redshift -O 2000 -g 1
+redshift -O 1000 -g 1
+redshift -O 2000 -g 1
+redshift -O 2000 -g .4
+redshift -O 2000 -g .7
+redshift -O 2000 -g 1
+redshift -O 1000
+redshift -O 3000 -g 0.5
+redshift -O 3000 -g 0.7
+redshift -O 1000 -g 0.2
+redshift -O 1000 -g 0.Y
+redshift -O 1000 -g 0.9
+redshift -O 1000 -g 0.5
+redshift -O 2000 -g 0.5
+redshift -O 2000 -g 1.5
+redshift -O 2000 -g 1
+redshift -O 1000 -g 1
+redshift -O 2000 -g 1
+redshift -O 1500 -g 1
+redshift -O 1500 -g .5
+redshift -O 3500 -g .5
+redshift -O 2000 -g .5
+for f in src/* ; do  echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/* ; do  rm "`dirname "$f"`/.*"; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/* ; do  rm `dirname "$f"`/.*; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+cd
+rm src/.*
+rm src/*/.*
+for f in src/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+rm src/*/.*
+rm src/.*
+rm src/*/.*
+rm src/*/*/.*
+for f in src/* ; do echo "[LATEX]\nmaster-filename = ../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+rm src/.*
+rm src/*/.*
+rm src/*/*/.*
+for f in src/* ; do echo "[LATEX]\nmaster-filename = ../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/*/*/* ; do echo "[LATEX]\nmaster-filename = ../../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+rm src/.*
+rm src/*/.*
+rm src/*/*/.*
+for f in src/* ; do echo "[LATEX]\nmaster-filename = ../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/*/*/* ; do echo "[LATEX]\nmaster-filename = ../../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
+for f in src/* ; do echo "Adding first line" > ".$f.ini" ; done
+for f in src/* ; do echo "[LATEX]
+master-filename = ../../paper.tex" > ".$f.ini" ; done
+cd paper/
+for f in src/* ; do echo "[LATEX]
+master-filename = ../../paper.tex" > ".$f.ini" ; done
+for f in src/* ; do echo "[LATEX]
+master-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; done
+for f in src/* ; do echo "[LATEX]
+master-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; done
+for f in src/* ; do echo "[LATEX]
+master-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; done
+realpath $pwd
+realpath pwd
+pwd
+pwd | realpath
+pwd
+pwd | realpath
+realpath
+realpath .
+compile
+realpath .
+compile
+compile 
+xx
+./xx
+./compile 
+sudo apt-get install firefox-esr
+cd Downloads/
+git clone https://github.com/mkovatsc/Copper4Cr.git
+cd Copper4Cr/
+./install.sh
+chromium 
+sudo apt instakk chrom
+sudo apt instakk chrome
+sudo apt install chrome
+sudo apt install chrom
+git clone https://github.com/mkovatsc/Copper4Cr.git
+cd Copper4Cr/
+./install.sh
+sudo apt-get install chromium-browser
+sudo apt-get install chromium
+chromium
+grep ’http’ /etc/services
+grep ’tcp’ /etc/services
+gedit /etc/services
+wireshark 
+sudo wireshark 
+grep -ri vlan
+grep -ri --color=auto vlan
+serv.v
+gedit serv.v
+gedit client.c
+gcc client.c 
+gcc serv.c -o serv 
+gcc client.c -o client
+./serv 
+sudo ./serv 
+grep -ri ospf
+grep -ri vlan
+./udp_talker 
+./udp_listner 
+sudo ./client 
+format *.c
+gcc serv.c 
+gcc client.c 
+sudo ./serv 
+sudo ./client 
+ls
+./udp_talker 
+./udp_listner 
+pkill mailspring 
+sudo apt install lbd
+grep -ri --color=auto pinterest
