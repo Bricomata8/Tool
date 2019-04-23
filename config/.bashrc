@@ -112,8 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
 export PATH=$PATH:/home/aghiles/Aghiles/Tool
-export ONOS_ROOT="/home/aghiles/Aghiles/Program/C/bin/onos"
-source $ONOS_ROOT/tools/dev/bash_profile
-
+export ONOS_ROOT=/home/aghiles/Aghiles/Program/C/bin/onos
