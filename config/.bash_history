@@ -1327,3 +1327,36 @@ ls
 pkill mailspring 
 sudo apt install lbd
 grep -ri --color=auto pinterest
+pkill mailspring 
+svn-git https://github.com/Bricomata8/Tool/tree/afa6af9ce7e02b3d0c216020c10ffe984ebab516/config/Local%20Storage/leveldb
+cd Desktop/
+svn export https://github.com/Bricomata8/Tool/trunk/config/Local Storage/leveldb
+svn export "https://github.com/Bricomata8/Tool/trunk/config/Local Storage/leveldb"
+ls
+pkill mailspring 
+svn export "https://github.com/Bricomata8/Tool/trunk/config/Local Storage/leveldb"
+sudo apt remove mailspring
+sudo apt remove --purge mailspring
+sudo apt autoremove
+sudo apt autoclean
+sudo snap install mailspring
+mailspring 
+mailspring
+sudp apt install mailspring
+sudo apt install mailspring
+sudo apt install mailspring.deb
+sudo apt install ./install mailspring.deb
+sudo apt install ./mailspring.deb
+mailspring
+pkill mailspring 
+wget https://updates.getmailspring.com/download?platform=linuxDeb
+mailspring 
+sudo mailspring 
+mailspring 
+sudp snap remove  mailspring
+sudo snap remove  mailspring
+sudo snap uninstall  mailspring
+sudo snap remove --purge  mailspring
+sudo snap removemailspring
+sudo snap remove mailspring
+pkill mailspring 
