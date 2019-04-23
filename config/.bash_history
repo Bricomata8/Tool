@@ -1360,3 +1360,4 @@ sudo snap remove --purge  mailspring
 sudo snap removemailspring
 sudo snap remove mailspring
 pkill mailspring 
+cat Tibre.desktop 
