@@ -1380,3 +1380,11 @@ scp ~/.ssh/id_rsa.pub BRICOMATA8@github.com:~/.ssh/authorized_keys/id_rsa.pub
 ssh-keygen -t rsa
 firefox https://github.com/settings/keys
 firefox https://github.com/BRICOMATA8
+./push 
+./pull
+ssh-keygen -t rsa
+./push
+./push 
+./pull
+./push 
+./pull
