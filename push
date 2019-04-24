@@ -26,7 +26,7 @@ cp -r -v ~/.mozilla/firefox/*.default/extensions config/
 
 for f in ~/.config/Mailspring/* ; do 
 	uu=`basename "$f"`
-	if $uu != "files" ; then 
+	if [$uu != "files"] ; then 
 		cp -r "$f" config/Mailspring; 
 	fi; 
 done
