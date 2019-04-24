@@ -657,3 +657,5 @@ for f in ~/.config/Mailspring/* ; do  if  [[ `basename "$f"` != "files" ]]; then
 for f in ~/.config/Mailspring/* ; do  if  [[ `basename "$f"` != "files" ]]; then 
 for f in ~/.config/Mailspring/* ; do  if  [[ `basename "$f"` != "files" ]];  then 
 for f in ~/.config/Mailspring/* ; do  if  [[ `basename "$f"` != "files" ]]; then cp -r "$f" ~/g; fi; done
+for f in ~/.config/Mailspring/* ; do  if  [[ `basename "$f"` != "files" ]]; then cp -r "$f" config/Mailspring; fi; done
+for f in ~/.config/Mailspring/* ; do  if  [[ `basename "$f"` != "files" ]]; then cp -r "$f" config/Mailspring; fi; done
