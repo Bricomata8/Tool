@@ -1508,3 +1508,5 @@ sudo apt install virtualbox-5.1-ext-pack
 sudo apt install virtualbox
 sudo apt install vagrant 
 virtualbox 
+cd "/home/aghiles/Aghiles/Tool"
+./setup-3-shotcuts 
