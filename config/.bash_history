@@ -1527,3 +1527,10 @@ ls
 aghilesDJ35B
 directory=~/Aghiles/Tool
 ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
+mv -rf /home/aghiles/.zotero /home/aghiles/.zotero2
+mv -f /home/aghiles/.zotero /home/aghiles/.zotero2
+rm -f /home/aghiles/.config/gedit /home/aghiles/.config/gedit2
+mv -f /home/aghiles/.config/gedit /home/aghiles/.config/gedit2
+mv -f /home/aghiles/.local/share/gedit /home/aghiles/.local/share/gedit2
+mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/*.default/extensions2 
+mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/extensions2 
