@@ -1510,3 +1510,17 @@ sudo apt install vagrant
 virtualbox 
 cd "/home/aghiles/Aghiles/Tool"
 ./setup-3-shotcuts 
+git clone https://github.com/sdnwiselab/sdn-wise-java.git
+cd data/src/main/java/com/github/sdnwiselab/sdnwise
+ls
+cd mote/
+ls
+cd core
+ls
+./doc */*
+./doc
+./doc 
+ls
+./doc 
+cd ctrl/src/main/java/com/github/sdnwiselab/sdnwise
+ls

@@ -1,25 +1,3 @@
 #!/bin/sh
 
-title1="Redaction"
-title2="Program"
-title3="Tool"
-title4="Teaching"
-title5="Formation"
-title6="Administration"
 
-titl1=Aghiles/Redaction*
-titl2=Aghiles/Program*
-titl3=Aghiles/Tool*
-titl4=Aghiles/Teaching*
-titl5=Aghiles/Formation*
-titl6=Aghiles/Administration*
-
-cmd="sh push"
-
-gnome-terminal \
-				--tab --title="$title1" --command="bash -c 'cd $titl1; $cmd; $SHELL'" \
-				--tab --title="$title2" --command="bash -c 'cd $titl2; $cmd; $SHELL'" \
-				--tab --title="$title3" --command="bash -c 'cd $titl3; $cmd; $SHELL'" \
-				--tab --title="$title4" --command="bash -c 'cd $titl4; $cmd; $SHELL'" \
-				--tab --title="$title5" --command="bash -c 'cd $titl5; $cmd; $SHELL'" \
-				--tab --title="$title6" --command="bash -c 'cd $titl6; $cmd; $SHELL'" 
