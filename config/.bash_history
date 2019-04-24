@@ -1391,3 +1391,15 @@ ssh-keygen -t rsa
 ./link8
 grep -ri --color=auto set-url
 grep -ri --color=auto "set-url"
+chromium 
+./x-compile 
+git clone git://github.com/mkovatsc/Copper.git
+ln -s file:///home/aghiles/Downloads/yy  file:///home/aghiles/Downloads/yj
+ln -s /home/aghiles/Downloads/yy /home/aghiles/Downloads/yj
+ln -s /home/aghiles/Downloads/yy /home/aghiles/Downloads/yp
+ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yo
+ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yp/
+ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yPP/
+ln -s ~/Downloads/yy ~/Downloads/yPP
+ln -sf ~/Downloads/yy ~/Downloads/yPP
+ln -s ~/Downloads/yy ~/Downloads/yPP
