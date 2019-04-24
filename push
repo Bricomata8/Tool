@@ -25,7 +25,8 @@ cp -r -v ~/.local/share/gedit config/gedit-local-share/
 cp -r -v ~/.mozilla/firefox/*.default/extensions config/
 
 for f in ~/.config/Mailspring/* ; do 
-	if  [[ `basename "$f"` != "files" ]]; then 
+	uu=`basename "$f"`
+	if  [[ $uu != "files" ]]; then 
 		cp -r "$f" config/Mailspring; 
 	fi; 
 done
