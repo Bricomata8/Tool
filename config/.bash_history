@@ -1365,3 +1365,12 @@ cat Tibre.desktop
 *
 ./pull 
 gnome-calendar 
+./pull
+cd ~
+ssh-keygen -t rsa
+gedit /home/aghiles/.ssh/id_rsa
+gedit /home/aghiles/.ssh/id_rsa.pub 
+scp ~/.ssh/id_rsa.pub BRICOMATA8@aghilesDJ35B:~/.ssh/authorized_keys/id_rsa.pub
+scp ~/.ssh/id_rsa.pub BRICOMATA8@dell:~/.ssh/authorized_keys/id_rsa.pub
+scp ~/.ssh/id_rsa.pub BRICOMATA8@127.0.0.1:~/.ssh/authorized_keys/id_rsa.pub
+scp ~/.ssh/id_rsa.pub BRICOMATA8@github.com:~/.ssh/authorized_keys/id_rsa.pub
