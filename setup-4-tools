@@ -81,8 +81,12 @@ sudo apt install texlive-full
 sudo apt install okular 
 sudo apt install r-base 
 sudo apt install r-cran-*
-#sudo apt install vagrant 
-#sudo apt install virtualbox 
+sudo apt install vagrant 
+sudo -s
+echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+exit
+sudo apt update
+sudo apt install virtualbox-5.1
 #sudo apt install virtualbox-ext-pack 
 sudo apt install xsel 
 sudo apt install mpg123 

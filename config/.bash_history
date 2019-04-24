@@ -1403,3 +1403,108 @@ ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yPP/
 ln -s ~/Downloads/yy ~/Downloads/yPP
 ln -sf ~/Downloads/yy ~/Downloads/yPP
 ln -s ~/Downloads/yy ~/Downloads/yPP
+ln -sr ~/Downloads/yy ~/Downloads/yPP
+ln -s ~/Downloads/yy ~/Downloads/yPP
+ln ~/Downloads/yy ~/Downloads/yPP
+ln -r ~/Downloads/yy ~/Downloads/yPP
+ln -s ~/Downloads/yy ~/Downloads/yPP
+ln -sf $directory/config/.hidden /home/aghiles/.hidden
+ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
+ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
+ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
+ln -sf $directory/config/.zotero /home/aghiles/.zotero
+ln -sf $directory/config/gedit-config /home/aghiles/.config/gedit
+ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share/gedits
+ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
+ln -sf $directory/config/.hidden /home/aghiles/.hidden
+ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
+ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
+ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
+ln -sf $directory/config/.zotero /home/aghiles/.zotero
+ln -sf $directory/config/gedit-config /home/aghiles/.config/gedit
+ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share/gedit
+ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
+./x-compile 
+gedit ~/.mozilla/firefox/mxrwdanl.default/extensions/copper@vs.inf.ethz.ch
+gedit /home/aghiles/Aghiles/Administration/Aghiles/Mozilla/firefox/mxrwdanl.default/extensions/copper@vs.inf.ethz.ch
+sudo apt update firefox
+sudo apt update
+sudo apt upgrade
+firefox -v
+./cccc 
+install.sh
+./install.sh
+gedit extension/endpoint/ClientPortChrome.js
+chromium 
+chromium 
+cd Aghiles/Administration/Aghiles/Mozilla/extensions/
+git clone https://github.com/mkovatsc/Copper4Cr.git
+cd Copper4Cr/
+install.sh
+./install.sh
+gedit copper@vs.inf.ethz.ch
+ls /home/aghiles/Aghiles/Administration/Aghiles/Mozilla/extensions/Copper/
+cd ~/.mozilla/firefox/xxxxxxxx.default/extensions/
+cd ~/.mozilla/firefox/*.default/extensions/
+ls
+gedit copper@vs.inf.ethz.ch 
+cd firefox/
+./firefox
+sudo apt install libstdc++
+./firefox
+./firefox-bin 
+gedit extension/endpoint/ClientPortChrome.js
+git status
+git log
+../ccc
+./ccc
+./cccc 
+wget https://ftp.mozilla.org/pub/firefox/releases/44.0/linux-i686/en-US/firefox-44.0.tar.bz2
+tar -xjf firefox-44.0.tar.bz2
+chromium 
+sudo apt install vagrant 
+sudo apt install virtualbox 
+sudo apt install virtualbox-ext-pack 
+sudo apt install virtualbox
+echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+sudo -s
+sudo ap
+ls
+sudo aot update
+sudo apt update
+apt-cache search virtualbox 
+sudo apt install virtualbox
+sudo apt install virtualbox-6.0
+sudo gedit /etc/apt/sources.list
+gedit /etc/apt/sources.list
+sudo apt install virtualbox-6.0
+sudo apt install virtualbox-5.1 
+gedit /etc/apt/sources.list
+sudo -s
+sudo apt install virtualbox-5.1
+sudo apt update
+sudo apt install virtualbox
+sudo apt remove virtualbox-6.0 
+sudo apt update
+sudo apt autoremove 
+sudo apt install virtualbox
+gedit /etc/apt/sources.list
+sudo apt install virtualbox
+sudo apt install virtualbox-6.0
+sudo apt search virtualbox
+sudo apt install virtualbox-6.0
+sudo apt install virtualbox-6
+sudo apt install virtualbox
+sudo apt install virtualbox-6
+sudo apt install virtualbox-5.1
+sudo apt install virtualbox-6.0
+sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+sudo -s
+sudo apt update
+sudo apt install virtualbox-5.1
+sudo apt install virtualbox-ext-pack
+sudo apt install virtualbox-5.1-ext-pack
+sudo apt install virtualbox
+sudo apt install vagrant 
+virtualbox 
