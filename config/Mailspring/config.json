@@ -20,22 +20,21 @@
       ],
       "workspace": {
         "mode": "split",
-        "showUnreadForAllCategories": true,
         "use24HourClock": true,
+        "showUnreadForAllCategories": true,
         "menubarStyle": "hamburger"
       },
       "keymapTemplate": "Gmail",
+      "theme": "ui-dark",
       "tutorial": {
         "seen": [
           "ThreadSearchBar",
-          "ActivityListButton",
-          "ModeToggle"
+          "ActivityListButton"
         ]
       },
-      "theme": "ui-dark",
       "reading": {
-        "descendingOrderMessageList": true,
-        "backspaceDelete": true
+        "backspaceDelete": true,
+        "descendingOrderMessageList": true
       },
       "attachments": {
         "openFolderAfterDownload": true
@@ -124,14 +123,6 @@
         },
         "aliases": [],
         "syncState": "ok",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "message": "null10618 [2019-04-24 06:54:56.788] [background] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xA8\n ***\n\n10618 [2019-04-24 06:54:56.805] [background] [critical]  *** Stack trace (line numbers are approximate):\n *** (unknown)  clone\n ***\n\n/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 10618 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n",
-            "stack": "Error: null10618 [2019-04-24 06:54:56.788] [background] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xA8\n ***\n\n10618 [2019-04-24 06:54:56.805] [background] [critical]  *** Stack trace (line numbers are approximate):\n *** (unknown)  clone\n ***\n\n/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 10618 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)"
-          },
-          "signal": null
-        },
         "__cls": "Account"
       },
       {
@@ -160,14 +151,6 @@
         },
         "aliases": [],
         "syncState": "ok",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "message": "null10610 [2019-04-24 06:54:56.784] [background] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xA8\n ***\n\n10610 [2019-04-24 06:54:56.804] [background] [critical]  *** Stack trace (line numbers are approximate):\n *** (unknown)  clone\n ***\n\n/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 10610 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n",
-            "stack": "Error: null10610 [2019-04-24 06:54:56.784] [background] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xA8\n ***\n\n10610 [2019-04-24 06:54:56.804] [background] [critical]  *** Stack trace (line numbers are approximate):\n *** (unknown)  clone\n ***\n\n/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 10610 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)"
-          },
-          "signal": null
-        },
         "__cls": "Account"
       },
       {
@@ -195,7 +178,6 @@
         },
         "aliases": [],
         "syncState": "ok",
-        "syncError": null,
         "__cls": "Account"
       },
       {
@@ -205,7 +187,7 @@
         "provider": "imap",
         "emailAddress": "djoudi@lip6.fr",
         "settings": {
-          "imap_allow_insecure_ssl": true,
+          "imap_allow_insecure_ssl": false,
           "imap_host": "tibre.lip6.fr",
           "imap_port": 993,
           "imap_security": "SSL / TLS",
@@ -223,13 +205,9 @@
         },
         "aliases": [],
         "syncState": "ok",
-        "syncError": null,
         "__cls": "Account"
       }
     ],
-    "accountsVersion": 51,
-    "mailto": {
-      "prompted-about-default": true
-    }
+    "accountsVersion": 6
   }
 }
