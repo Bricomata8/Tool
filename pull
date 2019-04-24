@@ -13,6 +13,11 @@ git commit -m "commit"
 git pull -f $filename master
 #firefox https://github.com/BRICOMATA8/$filename.git
 
+#mv -f /home/aghiles/.zotero /home/aghiles/.zotero2
+#mv -f /home/aghiles/.config/gedit /home/aghiles/.config/gedit2
+#mv -f /home/aghiles/.local/share/gedit /home/aghiles/.local/share/gedit2
+#mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/extensions2 
+
 ln -sf $directory/config/.hidden /home/aghiles/.hidden
 ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
 ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
