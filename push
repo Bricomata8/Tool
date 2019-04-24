@@ -23,10 +23,9 @@ cp -r -v \
 cp -r -v ~/.config/gedit config/gedit-config/
 cp -r -v ~/.local/share/gedit config/gedit-local-share/
 cp -r -v ~/.mozilla/firefox/*.default/extensions config/
-cp -r -v ~/.config/Mailspring/"Local Storage" config/
 
-cd ~/.config/Mailspring
-ls -1 . | egrep '^[^f].*' | xargs cp -rt /home/aghiles/Aghiles/Tool/config/Mailspring/
+for f in ~/.config/Mailspring/* ; do 
+	if  [[ `basename "$f"` != "files" ]]; then cp -r "$f" config/Mailspring; fi; done
 
 git add -v .
 git commit -m "commit"

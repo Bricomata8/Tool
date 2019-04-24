@@ -1,0 +1,17 @@
+#!/bin/bash
+# [Gedit Tool]
+# Name=compile
+# Input=document
+# Output=output-panel
+# Applicability=all
+# Save-files=document
+# Shortcut=<Alt>x
+# Languages=
+
+
+cd $GEDIT_CURRENT_DOCUMENT_DIR
+./compile
+cd ..
+./compile
+cd ..
+./compile
