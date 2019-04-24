@@ -1525,3 +1525,5 @@ ls
 cd ctrl/src/main/java/com/github/sdnwiselab/sdnwise
 ls
 aghilesDJ35B
+directory=~/Aghiles/Tool
+ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
