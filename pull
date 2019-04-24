@@ -13,12 +13,13 @@ git commit -m "commit"
 git pull -f $filename master
 #firefox https://github.com/BRICOMATA8/$filename.git
 
-cp -r -v \
-	config/.Renviron \
-	config/.zotero \
-	config/.hidden \
-	~/
-cp -r -v config/gedit-config/gedit ~/.config/
-cp -r -v config/gedit-local-share/gedit ~/.local/share/
-cp -r -v config/extensions ~/.mozilla/firefox/*.default/
-#cp -r -v config/"Local Storage" ~/.config/Mailspring/
+ln -sf $directory/config/.hidden /home/aghiles/.hidden
+ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
+ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
+ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
+ln -sf $directory/config/.zotero /home/aghiles/.zotero
+ln -sf $directory/config/gedit-config /home/aghiles/.config/
+ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share
+ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
+
+

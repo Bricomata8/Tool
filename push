@@ -8,30 +8,6 @@ cd $directory
 git config --global user.email "papierpourgithub@gmail.com"
 git remote add $filename https://github.com/BRICOMATA8/$filename.git
 
-mkdir -p config/gedit-config
-mkdir -p config/gedit-local-share
-mkdir -p config/Mailspring
-
-cp -r -v \
-	~/.bashrc \
-	~/.hidden \
-	~/.bash_history \
-	~/.Renviron \
-	~/.zotero \
-	config/
-
-cp -r -v ~/.config/gedit config/gedit-config/
-cp -r -v ~/.local/share/gedit config/gedit-local-share/
-cp -r -v ~/.mozilla/firefox/*.default/extensions config/
-
-for f in ~/.config/Mailspring/* ; do 
-	uu=`basename "$f"`
-	if [ $uu != "files" ] ; then 
-		cp -r "$f" config/Mailspring; 
-	fi; 
-done
-
-rm /home/aghiles/Aghiles/Tool/config/Mailspring/edgehill.db
 git add -v .
 git commit -m "commit"
 git push -u -f $filename master
