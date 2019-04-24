@@ -1374,3 +1374,6 @@ scp ~/.ssh/id_rsa.pub BRICOMATA8@aghilesDJ35B:~/.ssh/authorized_keys/id_rsa.pub
 scp ~/.ssh/id_rsa.pub BRICOMATA8@dell:~/.ssh/authorized_keys/id_rsa.pub
 scp ~/.ssh/id_rsa.pub BRICOMATA8@127.0.0.1:~/.ssh/authorized_keys/id_rsa.pub
 scp ~/.ssh/id_rsa.pub BRICOMATA8@github.com:~/.ssh/authorized_keys/id_rsa.pub
+./push 
+./pu
+./push 
