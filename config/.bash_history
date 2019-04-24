@@ -1364,3 +1364,4 @@ cat Tibre.desktop
 ./pull 
 *
 ./pull 
+gnome-calendar 
