@@ -1534,3 +1534,8 @@ mv -f /home/aghiles/.config/gedit /home/aghiles/.config/gedit2
 mv -f /home/aghiles/.local/share/gedit /home/aghiles/.local/share/gedit2
 mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/*.default/extensions2 
 mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/extensions2 
+grep,-ri --color=auto sentilo
+grep-ri --color=auto sentilo
+grep -ri --color=auto sentilo
+evince 4L7B4HS6
+evince 4L7B4HS6/Master\ Thesis.pdf 
