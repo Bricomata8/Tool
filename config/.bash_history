@@ -1591,3 +1591,88 @@ evince "WP8TRJWI/Bregell_2015_Hardware and software platform for Internet of Thi
 httrack https://lora-alliance.org/
 httrack https://www.semtech.com
 git clone /media/aghiles/Aghiles/Administration
+cd documents/
+pdfpgrep -ri --color=auto module
+pdfgrep -ri --color=auto module
+grep -ri --color=auto module
+grep -ri --color=auto receiver
+pdfgrep -ri --color=auto receiver
+sudo apt search avahi-daemon
+sudo apt install avahi-daemon
+ssh pi@raspberrypi.local
+sudo /etc/init.d/avahi-daemon restart
+ssh pi@raspberrypi.local
+sudo ssh pi@raspberrypi.local
+cd /media/aghiles/boot/
+ls -ls boot
+ls -ls .
+cat config.txt
+gedit config.txt
+gedit cmdline.txt
+touch ssh
+ssh-keygen -R raspberrypi.local
+ping raspberrypi.local
+sudo apt-get install avahi-daemon
+sudo /etc/init.d/avahi-daemon restart
+ping raspberrypi.local
+ssh-keygen raspberrypi.local
+ssh-keygen -t raspberrypi.local
+ssh-keygen -t rsa raspberrypi.local
+ssh-keygen
+ssh-keygen -R pi@raspberrypi.local
+ssh pi@raspberrypi.local
+sudo ssh pi@raspberrypi.local
+ssh-keygen -R pi@raspberrypi.local
+ssh-keygen -t pi@raspberrypi.local
+ssh-keygen -R pi@raspberrypi.local
+touch ssh
+rm ssh 
+rm -rf ssh 
+sudo rm -rf ssh 
+sudo touche ssh
+sudo touch ssh
+ssh-keygen -R pi@raspberrypi.local
+ssh-keygen -r pi@raspberrypi.local
+sudo ssh-keygen -r pi@raspberrypi.local
+sudo ssh pi@raspberrypi.local
+ssh pi@raspberrypi.local
+ssh pi@raspberrypi.local
+ssh-keygen -R raspberrypi.local
+man ssh-keygen
+ssh-keygen -r raspberrypi.local
+ssh pi@raspberrypi
+ping raspberrypi.local
+./6lbr-stop 
+ping6 fe80::6108:cfe6:5801:88a6
+ping fe80::6108:cfe6:5801:88a6
+gedit /etc/network/interfaces
+ifconfig
+ip
+sudo ifconfig
+ssh pi@raspberrypi
+ssh-keygen -R raspberrypi.local
+ssh-keygen -r raspberrypi.local
+ssh pi@raspberrypi
+ssh pi@raspberrypi.local
+gedit /etc/network/interfaces
+sudo gedit /etc/network/interfaces
+ssh pi@raspberrypi.local
+sudo gedit /etc/network/interfaces
+ping 10.4.184.121
+ssh iPhone-de-Anthony.local
+sudo apt install avahi-*
+ssh pi@raspberrypi.local
+avahi-browse --all
+sudo /etc/init.d/avahi-daemon restart
+avahi-browse --all
+avahi-discover 
+avahi-resolve --address 18:81:0e:6d:1b:0a@fe80::1a81:eff:fe6d:1b0a.local
+avahi-resolve --address 18:81:0e:6d:1b:0a
+ssh 18:81:0e:6d:1b:0a@fe80::1a81:eff:fe6d:1b0a.local
+sudo ifconfig
+ssh pi@raspberrypi.local
+avahi-browse --all
+sudo avahi-browse --all
+sudo apt install avahi-browse
+avahi
+sudo apt install avahi
