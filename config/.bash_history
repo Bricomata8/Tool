@@ -1540,3 +1540,52 @@ grep -ri --color=auto sentilo
 evince 4L7B4HS6
 evince 4L7B4HS6/Master\ Thesis.pdf 
 ./push 
+git status
+./pull
+rm .git/objects/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+./pull
+./push
+git fsck --full 
+rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+git fsck --full 
+rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+tail -n 2 .git/logs/refs/heads/master
+git update-ref HEAD
+git update-ref HEAD b75d480dcfae2103052c4bf209282e70bb05ef3b df3f638cd38945edd8f03ad971784d3fe1adf590
+git update-ref HEAD b75d480dcfae2103052c4bf209282e70bb05ef3b
+git update-ref HEAD df3f638cd38945edd8f03ad971784d3fe1adf59
+git update-ref HEAD df3f638cd38945edd8f03ad971784d3fe1adf590 b1c2b894c53f7a0e648969e9c8f4521eb1514c5c
+git update-ref HEAD df3f638cd38945edd8f03ad971784d3fe1adf590
+git update-ref HEAD b1c2b894c53f7a0e648969e9c8f4521eb1514c5c
+git reset
+./pull
+git update-ref HEAD 4820f85d87858bad4c8baf699fff2b3c675fcf26
+./pull
+git stash
+./pull
+git hash-object -w ./objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+git hash-object -w .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+./pull
+find /etc/.git/objects/ -size 0 -exec rm -f {} \;
+find .git/objects/ -size 0 -exec rm -f {} \;
+./pull
+rm .git/objects//48/20f85d87858bad4c8baf699fff2b3c675fcf26
+rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf20
+rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+rm -rf .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
+git reset 
+tail -n 2 .git/logs/refs/heads/master
+git show commit_parent
+git show commit
+git add .
+git pull
+git merge
+git pull
+git push
+git clone /media/aghiles/Aghiles/Administration
+grep -ri "e Modular Sensor Board 430-H fr"
+pdfgrep -ri "Modular Sensor Board 430-H fr"
+evince "WP8TRJWI/Bregell_2015_Hardware and software platform for Internet of Things.pdf"
+httrack https://lora-alliance.org/
