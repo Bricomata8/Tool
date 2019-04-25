@@ -1589,3 +1589,5 @@ grep -ri "e Modular Sensor Board 430-H fr"
 pdfgrep -ri "Modular Sensor Board 430-H fr"
 evince "WP8TRJWI/Bregell_2015_Hardware and software platform for Internet of Things.pdf"
 httrack https://lora-alliance.org/
+httrack https://www.semtech.com
+git clone /media/aghiles/Aghiles/Administration
