@@ -1682,3 +1682,41 @@ svn-git https://github.com/Bricomata8/Redaction/blob/1cd188fabada47e6eec593120a9
 svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
 svn export https://github.com/Bricomata8/Redactiontrunk/setup/setup_these.tex
 svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
+grep -ri --color=auto addcontentsline
+cd Aghiles/Redaction/0/
+addcontentsline
+grep -ri --color=auto addcontentsline
+cd ../setup/
+grep -ri --color=auto addcontentsline
+arduino
+sudo apt install arduino
+arduino
+cd "/home/aghiles/Aghiles/Redaction/setup"
+grep -ri --color=auto "./../main.bib"
+cd "/home/aghiles/Aghiles/Redaction/5/paper"
+grep -ri --color=auto "./../main.bib"
+httrach https://www.iot-lab.info/
+httrack https://www.iot-lab.info/
+sudo apt search mail-notification
+sudo apt install mail-notification
+mail-notification
+pkill mailspring 
+sudo apt-get install firmware-linux
+sudo gedit /etc/sudoers
+gedit /etc/sudoers
+cat /ettc/sudoers
+cat /etc/sudoers
+su 
+sudo gedit /etc/sudoers
+usermod -a -G sudo aghiles
+sudo usermod -a -G sudo aghiles
+sudo -s
+su
+mail-notification
+git clone https://github.com/RIOT-OS/RIOT.git
+grep -ri --color=auto hetero
+firewox www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
+firewox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
+firefox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
+firefox ./www.iot-lab.info/new-types-of-nodes-available-on-iot-lab-zolertia-firefly-and-arduino-zero/index.html:
+firefox ./www.iot-lab.info/publications/index.html
