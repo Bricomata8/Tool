@@ -11,7 +11,7 @@
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1556140861);
 user_pref("app.update.lastUpdateTime.background-update-timer", 1556170505);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1556170385);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1556140741);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1556255145);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1556170625);
 user_pref("app.update.postupdate", true);
 user_pref("browser.cache.disk.capacity", 358400);
