@@ -1676,3 +1676,9 @@ sudo avahi-browse --all
 sudo apt install avahi-browse
 avahi
 sudo apt install avahi
+svn-git https://github.com/Bricomata8/Redaction/blob/5287b27783ec435ef4fa811fbc51603053fdb4e9/setup/setup_these.tex
+svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
+svn-git https://github.com/Bricomata8/Redaction/blob/1cd188fabada47e6eec593120a997b11b9fba403/setup/setup_these.tex
+svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
+svn export https://github.com/Bricomata8/Redactiontrunk/setup/setup_these.tex
+svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
