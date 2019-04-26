@@ -1682,3 +1682,12 @@ svn-git https://github.com/Bricomata8/Redaction/blob/1cd188fabada47e6eec593120a9
 svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
 svn export https://github.com/Bricomata8/Redactiontrunk/setup/setup_these.tex
 svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
+grep -ri --color=auto addcontentsline
+cd Aghiles/Redaction/0/
+addcontentsline
+grep -ri --color=auto addcontentsline
+cd ../setup/
+grep -ri --color=auto addcontentsline
+arduino
+sudo apt install arduino
+arduino
