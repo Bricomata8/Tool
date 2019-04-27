@@ -1725,3 +1725,16 @@ git add .
 git commit
 git pull
 firefox
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+mypath=`realpath "$0"`
+directory=`dirname "$mypath"`
+filename=`basename "$directory"`
+cd "$directory"
+filename=paper
+latexmk -f -cd -lualatex -output-directory=/tmp/bin -jobname=$filename $filename.tex
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+latexmk -f -cd -lualatex -output-directory=/tmp/bin -jobname=$filename $filename.tex
+./compile 
+./compile 
+*
+./compile 
