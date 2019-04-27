@@ -1720,3 +1720,8 @@ firewox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
 firefox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
 firefox ./www.iot-lab.info/new-types-of-nodes-available-on-iot-lab-zolertia-firefly-and-arduino-zero/index.html:
 firefox ./www.iot-lab.info/publications/index.html
+git status
+git add .
+git commit
+git pull
+firefox
