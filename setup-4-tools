@@ -131,6 +131,11 @@ git clone https://github.com/mkovatsc/Copper4Cr.git
 cd Copper4Cr
 ./install.sh
 
+pip install -U scikit-learn
+sudo apt-get install build-essential python-dev python-numpy python-numpy-dev python-scipy libatlas-dev g++ python-matplotlib ipython
+sudo apt-get install build-essential python3-dev python3-numpy python3-numpy-dev python3-scipy libatlas-dev g++ python3-matplotlib ipython
+
+
 #windowsdell344@gmail.com
 
 #sudo gedit /etc/apt/sources.list
@@ -143,7 +148,10 @@ cd Copper4Cr
 #ssh-keygen -t rsa
 
 
-
+#sudo apt-get install linux-image-extra-virtual
+#sudo modprobe usbserial
+#sudo dmesg
+#lsusb
 
 
 

@@ -1739,3 +1739,188 @@ latexmk -f -cd -lualatex -output-directory=/tmp/bin -jobname=$filename $filename
 *
 ./compile 
 ln -sf /home/aghiles/Aghiles/Administration/Aghiles/Mozilla /home/aghiles/.mozilla
+./calendar 
+./install_debian_ubuntu 
+java -jar LaTeXDraw.jar 
+./install_linux 
+java -v
+java -version
+java
+sudo ./install_linux 
+/usr/bin/java
+/usr/bin/java -version
+./tikzedt 
+sudo apt install mono
+sudo apt search mono
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita
+mkdir ty
+cd ty
+gedit ty
+mv ty ty.tex
+cd ty/
+xx ty.tex 
+./compile 
+./install_linux.txt 
+sudo apt-get install mono-complete
+./tikzedt 
+mkdir tt
+cd tt
+httrack http://www.texample.net/media/tikz/examples/TEX/
+httrack http://www.texample.net/media/tikz/examples/PNG/
+mkdir tikz
+cd tikz/
+httrack http://www.texample.net/
+sudo apt install poopler
+sudo apt install poppler
+sudo apt install poppler-utils 
+sudo apt install poppler-data 
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo apt-get update
+sudo apt-get install sbt
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+sudo apt-get install sbt
+aptitude
+synaptic
+./opennlp
+./opennlp SimpleTokenizer help
+./opennlp SimpleTokenizer < salut
+./opennlp SimpleTokenizer < "salut"
+git clone https://github.com/knowitall/taggers.git
+sbt compile 'project taggers-webapp' run
+sudo apt install sbt
+sudo apt search sbt
+grep -r mende
+pl make.pl 
+perl make.pl 
+perl make.pl stubs_sprecification.tex 
+perl make.pl stubs_sprecification
+xx u.tex 
+mkdir learn
+cd learn/
+j
+httrack https://scikit-learn.org
+git clone https://github.com/fissehab/PDF_extraction_shinyApp.git
+pip install -U scikit-learn
+svn export https://github.com/scikit-learn/scikit-learn/tree/master/examples
+svn export https://github.com/scikit-learn/scikit-learn/trunk/examples
+mkdir ff
+cd ff
+svn export https://github.com/scikit-learn/scikit-learn/trunk/examples
+pip search web
+virtualenv
+sudo apt install virtualenv
+virtualenv aghiles
+cd aghiles
+ls ..
+source bin/activate
+pip install module
+pip install all
+pip install --all
+pip install *
+exit
+sudo apt install python3-all
+sudo apt install python3-*
+sudo apt remove python3-*
+sudo apt install python3-*
+sudo apt remove python3-caffe-cuda
+sudo apt install -y python3-*
+sudo pip install pip-conflict-checker
+sudo apt install -y python3-*
+sudo pip install -y python3-*
+sudo pip install python-*
+sudo pip install *
+pip freeze 
+sudo pip install python-*
+sudo apt install python-*
+python plot_gmm_pdf.py 
+sudo pip install module
+python plot_gmm_pdf.py 
+python3 plot_gmm_pdf.py 
+sudo pip3 install numpy
+python3 plot_gmm_pdf.py 
+sudo pip3 install matplotlib
+python3 plot_gmm_pdf.py
+sudo pip3 install sklearn
+python3 plot_gmm_pdf.py
+sudo pip3 install sklearn-mixture
+sudo pip3 install sklearn.mixture
+sudo pip3 install sklearn
+python3 plot_gmm_pdf.py
+gedit plot_gmm_pdf.py
+python3 plot_gmm_pdf.py
+python plot_gmm_pdf.py
+python plot_classifier_comparison.py 
+pip install matplotlib.pyplot
+pip install matplotlib
+sudo pip install matplotlib
+python plot_classifier_comparison.py 
+sudo pip install sklearn
+python plot_classifier_compa
+sudo pip install cross_validation
+python -v
+python -version
+python -V
+python3 plot_classifier_comparison.py 
+sudo pp3 install numpy
+sudo pip3 install numpy
+sudo apt install pip3
+sudo apt install pipe3
+sudo apt install pip3
+sudo apt-get install python-pip 
+sudo pip3 install numpy
+sudo apt-get install python3-pip 
+python plot_classifier_comparison.py 
+sudo apt-get install build-essential python-dev python-numpy python-numpy-dev python-scipy libatlas-dev g++ python-matplotlib ipython
+python plot_classifier_comparison.py 
+python plot_species_kde.py 
+python plot_outlier_detection.py 
+sudo apt-get install python3-*
+sudo apt-get install python3-all
+sudo apt-get install python3-aiopg
+sudo apt-get install python3-*
+sudo apt-get install -y python3-*
+sudo apt-get install python-*
+sudo apt-get install build-essential python3-dev python3-numpy python3-numpy-dev python3-scipy libatlas-dev g++ python3-matplotlib ipython
+pip3 install -U scikit-learn
+python plot_classification_probability.py 
+python plot_classifier_comparison.py 
+python bench_lasso.py 
+python plot_adjusted_for_chance_measures.py 
+./whats_missing.sh 
+sh whats_missing.sh 
+python sort_whats_new.py 
+python plot_calibration_multiclass.py 
+python plot_calibration.py 
+sed -i '1s/^/#!/usr/bin/python\n/' *.py
+sed -i '1s/^/\#!/usr/bin/python\n/' *.py
+sed -i '#!/usr/bin/python\n/' *.py
+gedit plot_kernel_approximation.py 
+sed -i '1s/^/#!/usr/bin/python\n/' *.py
+sed -ie '1s/^/#!/usr/bin/python\n/' *.py
+sed -ie '1s/^/\#!/usr/bin/python\n/' *.py
+sed -i '1s/^/\#!/usr/bin/python\n/' plot_multilabel.py 
+sed -i '/^/\#!/usr/bin/python\n/' plot_multilabel.py 
+sed -i '/^/#!/usr/bin/python\n/' plot_multilabel.py 
+gedit plot_multilabel.py 
+sed -i 's/^/#!/usr/bin/python\n/' plot_multilabel.py 
+sed -i 's/^/#!/usr/bin/python\n/g' plot_multilabel.py 
+sed 's/^/#!/usr/bin/python/' plot_multilabel.py 
+cp plot_multilabel.py test
+cat test 
+sed 's/^/#/' test 
+sed 's/^/#!/' test 
+sed 's/^/#!m/' test 
+sed 's/^/#/' test 
+sed 's/^/#!/usr/bin/python/' test 
+sed -i '1s/^/#!\/usr\/bin\/python\n/' *.py
+cat plot_multilabel.py 
+sed -i '1s/^/#!\/usr\/bin\/python\n/' */*.py
+sed -i '1s/^/#!\/usr\/bin\/python\n/' */*/*.py
+chmod -R u+x examples
+grep -ri --color=auto scikit
+evince VA7WCPZE/McHugh_Traffic\ Prediction\ and\ Analysis\ using\ a\ Big\ Data\ and\ Visualisation\ Approach.pdf 
+sudo apt-get install openjdk-8-jdk ant maven openvswitch-switch -y
+grep -ri --color=auto sklearn
+java -jar LaTeXDraw.jar 
+evince VA7WCPZE/McHugh_Traffic\ Prediction\ and\ Analysis\ using\ a\ Big\ Data\ and\ Visualisation\ Approach.pdf 
