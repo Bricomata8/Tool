@@ -1738,3 +1738,4 @@ latexmk -f -cd -lualatex -output-directory=/tmp/bin -jobname=$filename $filename
 ./compile 
 *
 ./compile 
+ln -sf /home/aghiles/Aghiles/Administration/Aghiles/Mozilla /home/aghiles/.mozilla
