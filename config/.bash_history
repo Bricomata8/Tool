@@ -1924,3 +1924,17 @@ sudo apt-get install openjdk-8-jdk ant maven openvswitch-switch -y
 grep -ri --color=auto sklearn
 java -jar LaTeXDraw.jar 
 evince VA7WCPZE/McHugh_Traffic\ Prediction\ and\ Analysis\ using\ a\ Big\ Data\ and\ Visualisation\ Approach.pdf 
+git pull
+git pull Administration master
+git push
+git push Administration
+git push Administration master
+git push -u -f Administration master
+sed -i  '1s/^/#!\/usr\/bin\/python\n/' *.py
+chmod -R u+x *
+gedit add
+nautilus /home/aghiles/Aghiles/Program/R/src
+/§
+./plot_bicluster_newsgroups.py 
+ls
+evince B36RRXJQ/Zitouni_Paris_Architecture\ of\ Wireless\ Networks\ for\ IoT.pdf 
