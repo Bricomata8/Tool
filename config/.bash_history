@@ -1,200 +1,3 @@
-sudo cp sudoers /etc/sudoers
-sudo gedit /etc/sudoers
-sudo apt install git
-su
-modprobe -r iwlwif
-sudo apt install git
-gedit /etc/sudoers
-sudo gedit /etc/sudoers
-git clone https://github.com/BRICOMATA8/Ubuntu
-./1_server 
-sudo chown -R aghiles Aghiles/
-./setup-push 
-gnome-tweak-tool 
-gnome-control-center 
-gnome-tweak-tool 
-mininet/util/install.sh -nfv
-tools/build/onos-buck build onos --show-output 
-sudo chown -R aghiles Aghiles/
-sudo apt install jar
-./1_server 
-sudo apt install jar
-sudo apt install java
-sudo apt-get install java
-sudo apt-get install jre
-sudo apt install 
-man java
-java -verssion
-java -V
-java -v
-java -version
-javac -version
-sudo apt-get install javac
-javac
-./1_server 
-sudo apt install openjdk-8
-sudo apt install openjdk-8-jdk
-javac
-sudo snap install mailspring
-sudo apt install snap
-snap install mailspring
-sudo apt install snapd
-sudo snap install mailspring
-sudo apt install snap
-sudo snap install rstudio
-dpkg-reconfigure tzdata
-cat /etc/timezone 
-sudo dpkg-reconfigure tzdata
-mailspring
-sudo snap install mailspring
-mailspring
-snap mailspring
-apt install ./rstudio-1.2.1335-amd64.deb 
-sudo apt install ./rstudio-1.2.1335-amd64.deb 
-sudo snap remove mailspring
-sudo apt install mailspring
-git archive --remote=/media/aghiles/Aghiles --format=tar master Administration > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master Administration > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master * > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master "Administration" > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar  > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master setup-pushUSB > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master commit > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master ".*" > backup.tar
-git archive --remote=/media/aghiles/Aghiles/Administration --format=tar master "*" > backup.tar
-sudo apt install ./mailspring-1.6.1-amd64.deb 
-gnome-todo
-sudo apt install gnome-todo
-git init
-sudo chown -R aghiles Aghiles/
-./zotero 
-cd
-cd Aghiles/Redaction/setup/bin/
-./zotero
-./zotero-bin 
-./commit 
-./push 
-usb=/media/aghiles/Aghiles
-filename='Administration'
-git clone $usb/$filename
-cd "/home/aghiles/Aghiles/Administration"
-./push 
-./pull
-./push 
-./pull
-./push 
-./pull
-./push 
-sudo chown -R aghiles Redaction/
-directory="Aghiles/Administration/Aghiles/Calendar"
-cd $directory
-./wget_teaching
-cd bin/
-./zotero-bin 
-grep -ri --color=auto multirow
-gedit 4/paper/src/6_0_appendix.tex
-java -jar TP_2.jar 
-cd zotero/
-grep -ri --color=auto keywords
-grep -ri --color=auto keyword
-grep -ri --color=auto keywords
-cd ../res_IoT/
-grep -ri --color=auto keywords
-grep -ri --color=auto notekeywords
-grep -ri --color=auto notkeyword
-grep -ri --color=auto keywords
-grep -ri --color=auto notkeyword
-grep -ri --color=auto notekeyword
-grep -ri --color=auto keyword
-grep -ri --color=auto notkeyword
-grep -ri --color=auto keyword
-grep -ri --color=auto notkeyword
-grep -ri --color=auto keywords
-grep -ri --color=auto notkeyword
-grep -ri --color=auto notekeyword
-grep -ri --color=auto notkeyword
-sudo apt install vlc
-grep -ri main
-netbeans
-sudo apt install netbeans
-netbeans
-javac -d build/classes -sourcepath src src/controleur/TestLaby.java
-java -cp build/classes controleur.TestLaby
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package -attributes -operations -types src/*/*.java
-dot -Tpng -ograph.png graph.dot
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package src/*/*.java
-ls
-cd TP3
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package src/*/*.java
-dot -Tpng -ograph.png graph.dot
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph src/*/*.java
-dot -Tpng -ograph.png graph.dot
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package -attributes -operations -types src/*/*.java
-dot -Tpng -ograph.png graph.dot
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package -attributes -operations -private -types src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package -attributes -operations -types -private src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -private src/*/*.java
-dot -Tpng -ograph.png graph.dot
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package -attributes -operations -private src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -package -attributes -private src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGrap -private src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -attributes -operations -private src/*/*.java
-dot -Tpng -ograph.png graph.dot
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -attributes -operations src/*/*.java
-dot -Tpng -ograph.png graph.dot
-sh Visual_Paradigm_15_2_20190401_Linux64.sh 
-whereis netbeans
-nautilus /usr/share/netbeans
-sudo find / -name netbeans 2> /dev/null
-./compile 
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP3/src/vue"
-cd ../..
-./compile 
-gedit doc 
-./doc 
-gedit doc 
-./doc 
-gedit doc 
-./doc 
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -package -attributes src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar  src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -visibility  src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -constructors  src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -constructors src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -all src/*/*.java
-javadoc -docletpath -all /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar src/*/*.java
-javadoc -docletpath -attributes -operations -visibility -types -enumerations -enumconstants /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar src/*/*.java
-javadoc -docletpath -attributes -operations -visibility -types /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -attributes -operations -visibility -types -enumerations -enumconstants src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -attributes -operations -visibility -types src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -attributes -operations -types src/*/*.java
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -attributes -types src/*/*.java
-./doc 
-gedit sequence.pic
-pic2plot -Tgif sequence.pic >FILENAME.gif
-sudo aptpic2plotinstall pic2plot
-sudo apt instal pic2plot
-sudo apt install pic2plot
-sudo apt-cach search pic2plot
-sudo apt-cache search pic2plot
-sudo apt install plotutils
-pic2plot -Tgif sequence.pic >FILENAME.gif
-pic2plot -Tgif sequence.txt >FILENAME.gif
-pic2plot -Tgif sequence.pic >FILENAME.gif
-pic2plot -Tgif sequence.txt >FILENAME.gif
-sudo apt-get install subversion
-svn https://github.com/dspinellis/UMLGraph/blob/master/sequence.pic
-svn import https://github.com/dspinellis/UMLGraph/blob/master/sequence.pic
-ls
-svn https://github.com/dspinellis/UMLGraph/blob/master/sequence.pic
-sudo apt install svn
-pic2plot -Tgif sequence.pic
-pic2plot -Tgif sequence
-pic2plot -T X
-pic2plot -T X sequence.txt
-pic2plot -T X sequence.txt > jh.png
-pic2plot sequence.txt > jh.png
 pic2plot -png sequence.txt > jh.png
 pic2plot -T png sequence.txt > jh.png
 pic2plot -T png sequence.pic > jh.png
@@ -1938,3 +1741,260 @@ nautilus /home/aghiles/Aghiles/Program/R/src
 ./plot_bicluster_newsgroups.py 
 ls
 evince B36RRXJQ/Zitouni_Paris_Architecture\ of\ Wireless\ Networks\ for\ IoT.pdf 
+grep -ri --color=auto grep
+gedit config/.bashrc
+grep -ri  grep
+firefox bonjour
+grep aghiles
+grep -r aghiles
+grep -ri --color=learn
+grep -ri --color=auto learn
+grep -ric --color=auto learn
+grep -rIcH 'learn' . | grep -v ':0$'
+grep -rIcH 'learn' --color=auto . | grep -v ':0$'
+grep -rIcH --color=auto learn | grep -v ':0$'
+grep -rIcH --color=auto learn | grep --color=auto -v ':0$'
+grep -rIcH --color=auto learn | grep --color=auto ':0$'
+grep -rIcH --color=auto learn | grep --color=auto -v ':0$'
+grep -rIcHl --color=auto learn
+grep -rIcl --color=auto learn
+grep -rIlc --color=auto learn
+grep -rIl -c --color=auto learn
+grep -rI -c --color=auto learn
+grep -ri -c --color=auto learn
+grep -ri -c -l --color=auto learn
+grep -rIcH 'string' . | grep -v ':0$'
+grep -rIcH 'string' . | grep --color=auto -v ':0$'
+grep learn | sort | uniq -c | sort -nr
+grep -ri -c -l --color=auto learn
+grep -ri -c --color=auto learn
+gedit cle
+man sort | grep "\-r"
+gedit y
+cat y 
+cat file1.txt 
+man sort | grep "\-d"
+man sort | grep "\-t"
+ls AKBEWXAX
+grep -ri -c  learn
+grep -ri -c  learn | grep *:[1-9]
+grep -ri -c  learn | grep -e *:[1-9]
+grep -ri -c  learn | egrep *:[1-9]
+grep -ri -c  learn
+grep -c   "learn" * |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
+grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
+grep -c   "learn" */* */*/* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
+grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
+grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -c   "learn" */* |sed -r "s/\s+//g"
+grep -c   "learn" */*
+grep -ri -c  learn | egrep *:[1-9]
+pdfgrep -ri -c  learn | egrep *:[1-9]
+grep -ri -c  learn | egrep *:[1-9]
+evince 3XSTERPC/Hancke\ et\ al_2012_The\ Role\ of\ Advanced\ Sensing\ in\ Smart\ Cities.pdf 
+grep -ri -c  learn* | egrep *:[1-9]
+grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -c   "learn.*" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -ric "learn.*" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -ric "learn.*" */* | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -ric "learn.*" */* |sed -r "s/\s+//g"
+grep -ric "learn.*" */*
+grep -ric "learn.*"
+grep -ric "learn.*" |sed -r "s/\s+//g"
+grep -ric "learn.*" | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -ric "learn.*" | sed -r "s/\/[^:]+//g | awk -F ":"  '$2 > "4"{print $1,$2}'
+grep -ric "learn.*" | sed -r "s/\/[^:]+//g 
+grep -ric "learn.*" | sed -r "s/\/[^:]+//g" 
+grep -ric "learn.*" | sed -r "s/\/[^:]+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
+cle learn
+cle learn 4
+cle learn 5
+cle learn
+cle learn 5
+cle learn 15
+cle learn* 15
+ls KUSYAM4G/
+nautilus KUSYAM4G
+cle learn 15
+cle "learn*" 15
+cle "learn.*" 15
+evince XKXVNUZR/Zhang\ et\ al_2018_On\ relational\ learning\ and\ discovery\ in\ social\ networks.pdf 
+cle "learn.*" 15
+evince AMH4ZCA3/Debbah_Wireless\ AI.pdf 
+grep -ric "learn.*"
+pdfgrep -ric "learn.*"
+grep -ric "learn.*" */*.pdf
+cle "learn.*" 15
+grep -ric "learn.*" */*.pdf | awk -v d="$2" -F ":"  '$2 > 15 {print $1,$2}'
+grep -ric "learn.*" */*.pdf
+cle "learn.*" 5
+pdfgrep -r
+pdfgrep -r allo
+pdfgrep -r "learn.*"
+pdfgrep -r "learn*"
+cle "learn.*" 5
+cle "learn*" 5
+grep " [0-9]+"
+grep -r " [0-9]+"
+grep -r " \d+"
+grep -re " \d+"
+grep -rE " \d+"
+grep -rE " [0-9]+"
+cle "learn*" 5
+pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}' | grep -E " [0-9]+" 
+pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}'
+pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}' | grep -E " [0-9]+" 
+pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}' | grep -E " [0-9]+$" 
+cle "learn*" 5
+cle "learn*" 2
+grep -ric "learn" --include \*.pdf | sed -r "s/\.\///g"
+cle "learn*" 2
+cle "learn*" 15
+evince  MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf
+evince "    alias egrep='egrep --color=auto'"
+evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
+cat > file1.txt
+sort -n file1.txt 
+sort -n -g file1.txt 
+sort -n  file1.txt 
+sort -nr  file1.txt 
+sort -nrg  file1.txt 
+sort -r  file1.txt 
+sort -gr  file1.txt 
+sort -hr  file1.txt 
+sort -k1 -g file1.txt 
+sort -k1  file1.txt 
+sort -nr -k1  file1.txt 
+sort -nr -k1 file1.txt 
+sort -nr file1.txt 
+cat file1.txt 
+sort -nr file1.txt 
+sort file1.txt 
+sort -n file1.txt 
+sort -k 2n file1.txt 
+cat > employee.txt
+sort -k 2n employee.txt 
+sort -k 1n employee.txt 
+sort -k1 -n employee.txt 
+cat file1.txt 
+cat employee.txt 
+cat file1.txt 
+sort -k 2n y
+sort -n -k 2n y
+sort -n -k 2n employee.txt 
+sort -n -k 1n y
+sort -n -k1 y
+sort -k1 y
+sort -r -k1 y
+sort -rn-k1 y
+sort -n -k1 y
+sort -n y
+cat y
+sort -n y
+sort -n -k2 y
+sort -n -k2 -t':' y
+sort -nr -k2 -t':' y
+man sort
+man sort | grep numeric
+man sort | grep "-t"
+man sort | grep "\-t"
+
+echo "line 1
+line 2" | awk '/line/ {print $1 "\033[31m" $2 }'
+ls
+cle markov 6
+evince " MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
+evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
+pdftotext -r */pdf
+for file in */*.pdf; do pdftotext "$file" "$file.txt"; done
+pdf2txt
+ls
+pdf2txt 
+cle "learn*" 5
+evince "XS5YTJPU/Bloessl et al. - 2018 - Performance Assessment of IEEE 802.11p with an Ope"
+evince "XS5YTJPU/Bloessl et al. - 2018 - Performance Assessment of IEEE 802.11p with an Ope".pdf
+evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
+cle "learn" 5
+evince "Z32ZZV9C/Fakhfakh et al_2017_Deep Learning-Based Recommendation.pdf"
+cle "learn" 5
+evince "Z32ZZV9C/Fakhfakh et al_2017_Deep Learning-Based Recommendation.pdf"
+evince "MM7RCUIL/Zhang et al_2018_On relational learning and discovery in social networks.pdf"
+cle "learn|sdn" 5
+cle "learn|sdn|lora" 5
+grep -riE "loar|sdn"
+grep -riE "lora|sdn"
+grep -riE "lora.*sdn"
+cle "lora.*sdn" 2
+cle "lora.*sdn" 1
+cle "sdn.*lora" 1
+cle "lora.*sdn" 0
+ls N6WNWL4G/
+nautilus N6WNWL4G/
+man pdftotext 
+cle markov 5
+evince MUCPPH26/Smith_Pedestrian route prediction from GPS logs.txt
+evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.txt"
+cle "lora.*sdn" 0
+grep -riE "lora.*sdn"
+pdf2txt 
+cle "lora.*sdn" 0
+cle "lora.*sdn"
+cle "lora.*sdn" 0
+evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
+cle "lora.*sdn|sdn.*lora" 0
+evince "SKG2RHNU/Asghari et al_2019_Internet of Things applications.pdf
+"
+evince "NL6PFI8E/Pujolle_Quelle architecture de réseau pour les années 2020.pdf"
+evince "N8LVHV5W/DDOC_T_2016_0051_ROUSSEL.pdf"
+cle "lora.*sdn|sdn.*lora" 0
+evinve "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
+evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
+cle "heterogeneity.*sdn|sdn.*heterogeneity" 0
+evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications"
+evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
+evince "65JTDLD7/Al-Fuqaha et al_2015_Internet of Things.pdf"
+evince "F6F7ZABB/Noura et al_2018_Interoperability in Internet of Things.pdf"
+`echo $INPUTb | tr -d '\n'`
+xsel
+INPUTb=`xsel`
+INPUT=`echo $INPUTb | tr -d '\n'`
+$INPUT
+xsel
+INPUTb=`xsel`
+INPUT=`echo $INPUTb | tr -d '\n'`
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
+INPUTb=`xsel`
+INPUT=`echo $INPUTb | tr -d '\n'`
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUTb"
+cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
+./link-sp2 
+man pdftotext | grep utf8
+man pdftotext | grep -i utf8
+man pdftotext | grep -i utf
+man pdftotext | grep utf8
+man pdftotext
+cle "heterogeneity.*sdn|sdn.*heterogeneity" 0
+cle "heterogeneity" 0
+cle "heterogeneit" 0
+cle "sdn" 0
+cle sdn 0
+man pdftotxt | grep "-z"
+man pdftotext | grep "-z"
+man pdftotext
+man grep | grep "-z"
+man grep | grep "\-z"
+man pdftotext | grep "-z"
+man pdftotext | grep "\-z"
+man pdftotext | grep "null"
+man pdftotext | grep "new"
+man pdftotext | grep "line"
+man pdftotext | grep "rnd\-of\-line"
+man pdftotext | grep "end\-of\-line"
+cle sdn 0
+cle sdn|lora 0
+cle "sdn|lor" 0
+cle "sdn.*lora" 0
+cle "sdn.*heterogeneity" 0
+cle "sdn.*heterogeneity|heterogeneity.*sdn" 0
+cle "heterogeneity" 0
