@@ -1,31 +1,3 @@
-pic2plot -png sequence.txt > jh.png
-pic2plot -T png sequence.txt > jh.png
-pic2plot -T png sequence.pic > jh.png
-pic2plot -T png sequence.txt > jh.png
-dot -Tpng -ograph.png sequence.dot
-grep -ri svn
-grep -ri svn --color=auto
-svn export https://github.com/dspinellis/UMLGraph/trunk/sequence.pic
-grep -ri svn
-grep -ri svn --color=auto
-grep -ri "svn import" --color=auto
-svn import https://github.com/dspinellis/UMLGraph/trunk/sequence.pic
-ls
-gedit svn-git
-./svn-git https://github.com/dspinellis/UMLGraph/blob/master/sequence.pic
-svn-git
-svn-git https://github.com/Bricomata8/redaction/tree/master/4
-svn-git https://github.com/Bricomata8/redaction/tree/master/1
-pic2plot -T png sequence > jh.png
-svn-git https://github.com/dspinellis/UMLGraph/blob/master/sequence.pic
-svn-git https://github.com/Bricomata8/redaction/blob/master/0/paper/bin/paper.pdf
-https://github.com/Bricomata8/redaction/blob/master/0/paper/bin/paper.pdf
-svn-git https://github.com/Bricomata8/redaction/blob/master/0/paper/bin/paper.pdf
-betbeans
-netbeans
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP3/src/vue"
-cd ../..
-./compile 
 cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP3/src/vue"
 cd ../..
 ./compile 
@@ -1998,3 +1970,31 @@ cle "sdn.*lora" 0
 cle "sdn.*heterogeneity" 0
 cle "sdn.*heterogeneity|heterogeneity.*sdn" 0
 cle "heterogeneity" 0
+grep -ri markov
+Q
+./pull 
+mkdir tt
+cd tt
+gedit tt.tex
+xx tt.tex 
+gedit tt.tex
+xx tt.tex 
+gedit tt.tex
+xx tt.tex 
+gedit tt.tex
+xx tt.tex 
+gedit tt.tex
+xx tt.tex 
+gedit tt.tex
+./compile 
+cle contiki
+cle contiki 3
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+../compile 
+searchWeb
+searchWeb Heteroeneity
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./compile 
