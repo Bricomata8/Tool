@@ -1,4 +1,3 @@
-git clone https://github.com/CongducPham/LowCostLoRaGw.git
 sudo apt-cache search httptrack
 sudo apt-cache search httrack
 sudo apt install  httrack
@@ -1998,3 +1997,4 @@ python test.py
 python counter.py 
 test.py
 gedit test.py
+sudo gedit /etc/network/interfaces
