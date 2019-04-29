@@ -1,18 +1,12 @@
 #!/bin/bash
 
-directory="Aghiles/.Calendar"
+directory="/home/aghiles/Aghiles/Administration/Aghiles/Calendar"
 cd $directory
 
-
-
 sed -r -i -z "s/\nDTSTART([^\n]*\n)(.[^U])/\nDTSTART\1DUE\1\2/g" *.ics
-
 sed -r -i -z "s/(\n[^D][^\n]*\n)DUE([^\n]*)/\1DTSTART\2\nDUE\2/g" *.ics
-
 sed -r -i -z "s/\n(DUE[^:]*:........)([^T])/\n\1T080000\2/g" *.ics
-
 sed -r -i -z "s/DTSTART([^\n]*)\nDUE([^\n]*)/DTSTART\2\nDUE\2/g" *.ics
-
 sed -r -i -z "s/VEVENT/VTODO/g" *.ics
 
 pkill gnome-todo
