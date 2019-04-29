@@ -1,4 +1,3 @@
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP3/src/vue"
 cd ../..
 ./compile 
 grep -ri --color=auto Case
@@ -1998,3 +1997,4 @@ searchWeb
 searchWeb Heteroeneity
 cd "/home/aghiles/Aghiles/Redaction/0/paper"
 ./compile 
+cle sdn 0
