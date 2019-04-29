@@ -1,10 +1,3 @@
-gedit adb_import
-java.exe -jar abe.jar unpack backup.ab test.tar ""
-java -jar abe.jar unpack backup.ab test.tar ""
-ls
-adb shell
-gedit
-gedit ece
 ./start_gw.sh 
 sudo apt install net-tools
 ifconfig
@@ -1998,3 +1991,10 @@ cd ..
 cle sx1272 0
 cle "Plan de gestion" 0
 cle "gestion" 0
+git clone file:///home/aghiles/Downloads/Calendar 
+cle jamming 0
+cle "Spreading factor" 0
+cle "Spreading factor" 0 | grep -i analyzing
+pdf2txt 
+cle "Spreading factor" 0 | grep -i analyzing
+cle "Spreading factor" 0
