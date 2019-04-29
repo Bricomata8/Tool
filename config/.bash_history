@@ -1,37 +1,3 @@
-sudo apt-cache search httptrack
-sudo apt-cache search httrack
-sudo apt install  httrack
-cd Downloads/
-httrack http://cpham.perso.univ-pau.fr/LORA/WAZIUP/tuto/
-adb shell
-sudo apt install adb
-adb shell
-sudo adb shell
-sudo adb root
-sudo adb shell su
-sudo adb shell
-adb shell run-as com.alvinalexander.mybrowser ls /data/data/com.alvinalexander.mybrowser
-adb shell run-as com.coffeebeanventures.easyvoicerecorder ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell
-adb shell com.coffeebeanventures.easyvoicerecorder ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell run-as com.coffeebeanventures.easyvoicerecorder ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell
-asb shell
-adb shell
-adb backup -noapk com.coffeebeanventures.easyvoicerecorder
-ls
-gedit adb_import
-java.exe -jar abe.jar unpack backup.ab test.tar ""
-java -jar abe.jar unpack backup.ab test.tar ""
-ls
-adb shell
-gedit
-gedit ece
-./start_gw.sh 
-sudo apt install net-tools
-ifconfig
-sudo apt-get install net-
 ifconfig
 ln -s /bin/ip /bin/ifconfig
 sudo ln -s /bin/ip /bin/ifconfig
@@ -1472,6 +1438,12 @@ firewox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
 firefox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
 firefox ./www.iot-lab.info/new-types-of-nodes-available-on-iot-lab-zolertia-firefly-and-arduino-zero/index.html:
 firefox ./www.iot-lab.info/publications/index.html
+<<<<<<< HEAD
+sudo cryptsetup
+sudo apt install cryptsetup
+cryptsetup
+./push 
+=======
 git status
 git add .
 git commit
@@ -1997,4 +1969,32 @@ python test.py
 python counter.py 
 test.py
 gedit test.py
+<<<<<<< HEAD
 sudo gedit /etc/network/interfaces
+=======
+>>>>>>> ec87e0267d4f3a90976ac477e09906e848762b9f
+pkill mailspring 
+gedit CUPS.desktop 
+gedit /etc/network/interfaces
+sudo gedit /etc/network/interfaces
+cle sdn 0
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./Com
+./compile 
+cle sx1272 0
+cle "Plan de gestion" 0
+cle "gestion" 0
+git clone file:///home/aghiles/Downloads/Calendar 
+cle jamming 0
+cle "Spreading factor" 0
+cle "Spreading factor" 0 | grep -i analyzing
+pdf2txt 
+cle "Spreading factor" 0 | grep -i analyzing
+cle "Spreading factor" 0
+>>>>>>> 45bb41f15f330355f58177e7fd72dd86ee92b9a9
