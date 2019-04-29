@@ -1,24 +1,3 @@
-cd ../..
-./compile 
-grep -ri --color=auto Case
-grep -r --color=auto Case
-grep -r --color=auto affiche
-gedit controleur/TestLaby.java:
-gedit controleur/TestLaby.java
-grep -ri moved
-grep -ri --color=auto moved
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP3/src/modele"
-cd ../..
-gedit doc 
-./doc 
-javadoc -docletpath /home/aghiles/Aghiles/Teaching/Java/lib/umlgraph-5.6.jar -doclet org.umlgraph.doclet.UmlGraph -private src/*/*.java
-dot -Tpng -ograph.png graph.dot
-./doc 
-netbeans 
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP3/src/modele"
-grep -ri instenceof
-grep -ri inst
-cd Downloads/
 git clone https://github.com/CongducPham/LowCostLoRaGw.git
 sudo apt-cache search httptrack
 sudo apt-cache search httrack
@@ -1998,3 +1977,24 @@ searchWeb Heteroeneity
 cd "/home/aghiles/Aghiles/Redaction/0/paper"
 ./compile 
 cle sdn 0
+python test.py 
+sudo pip install pdfminer
+python test.py 
+sudo pip3 install pdfminer
+python3 test.py 
+sudo pip3 install pdfminer
+pythontest.py 
+python test.py 
+sudp pip search process_pdf
+sudo pip search process_pdf
+sudo pip install process_pdf
+sudo pip install pdfinterp
+sudo pip install pdfminer
+sudo pip install --upgrade pip
+sudo pip install pdfminer
+python test.py 
+cd "/home/aghiles"
+python test.py 
+python counter.py 
+test.py
+gedit test.py
