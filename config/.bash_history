@@ -1,20 +1,3 @@
-sudo apt install adb
-adb shell
-sudo adb shell
-sudo adb root
-sudo adb shell su
-sudo adb shell
-adb shell run-as com.alvinalexander.mybrowser ls /data/data/com.alvinalexander.mybrowser
-adb shell run-as com.coffeebeanventures.easyvoicerecorder ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell
-adb shell com.coffeebeanventures.easyvoicerecorder ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell run-as com.coffeebeanventures.easyvoicerecorder ls /data/data/com.coffeebeanventures.easyvoicerecorder
-adb shell
-asb shell
-adb shell
-adb backup -noapk com.coffeebeanventures.easyvoicerecorder
-ls
 gedit adb_import
 java.exe -jar abe.jar unpack backup.ab test.tar ""
 java -jar abe.jar unpack backup.ab test.tar ""
@@ -1998,3 +1981,20 @@ python counter.py
 test.py
 gedit test.py
 >>>>>>> ec87e0267d4f3a90976ac477e09906e848762b9f
+pkill mailspring 
+gedit CUPS.desktop 
+gedit /etc/network/interfaces
+sudo gedit /etc/network/interfaces
+cle sdn 0
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./Com
+./compile 
+cle sx1272 0
+cle "Plan de gestion" 0
+cle "gestion" 0
