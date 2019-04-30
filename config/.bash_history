@@ -1,4 +1,3 @@
-sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/loop0 status=progress
 sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/mmcblk0 status=progress
 touch ssh
 echo "dtoverlay=dwc2" >> config.txt
@@ -1998,3 +1997,4 @@ cle blokchain 0
 cle blockchain 0
 cle mongo 0
 pkill mailspring 
+grep -ri Head
