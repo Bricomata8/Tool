@@ -1,8 +1,3 @@
-make all #all_native for version < 1.4
-cd 
-cd Aghiles/Program/C/Contiki/bin/contiki/examples/6lbr
-make all #all_native for version < 1.4
-cd /home/aghiles/Downloads
 cd 6lbr/
 cd examples/6lbr
 make plugins
@@ -1998,3 +1993,8 @@ cle bandit
 cle bandit 0
 nautilus R6V82Q2Y 
 cle sdn 30
+cle blockchain 30
+cle lora 30
+cle heterogeneity 30
+cle heterog 30
+cle queue 0
