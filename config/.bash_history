@@ -1,81 +1,3 @@
-ifconfig
-ln -s /bin/ip /bin/ifconfig
-sudo ln -s /bin/ip /bin/ifconfig
-ifconfig 
-ip
-ifconfig 
-sudo rm /bin/ifconfig
-cd ~/Aghiles/Program/C/Contiki/src/aghiles/gw_full_latest/scripts
-./start_gw.sh 
-ls /sbin/ifconfig
-sudo /sbin/ifconfig
-ifconfig
-cd "/home/aghiles/Aghiles/Program/C/Contiki/src/aghiles/gw_full_latest/scripts"
-./start_gw.sh 
-sudo apt install ifconfig
-sudo apt install net
-./start_gw.sh 
-mkdir h
-cd h
-httrack http://www.cea-iot.org/wp-content/
-cd h
-git clone git://github.com/mkovatsc/Copper.git
-gedit copper@vs.inf.ethz.ch
-git clone https://github.com/mkovatsc/Copper4Cr.git
-./install.sh
-cd h
-httrack http://www.cea-iot.org/1er-summer-school-on-iot/
-httrack http://www.cea-iot.org/1er-summer-school-on-iot
-mkdir j
-cd j
-gedit j.tex
-gedit main1.bib
-mkdir j
-cd j
-httrack https://ubidots.com/blog/exploring-cat-m1-nb-iot-lpwan-connections/
-sudo apt install gnome-session-flashback 
-gnome-session-flashback 
-sudo usermod -a -G dialout aghiles
-sudo ./eclipse 
-sudo ./eclipse 
-gedit trello.desktop
-cd.local/share/
-cd .local/share/
-nautilus applications
-cp -r -v ~/.config/gedit config/
-cp -r -v ~/.local/share/gedit config/
-cp -r -v ~/.config/gedit config/
-cp -r -v ~/.local/share/gedit config/
-cd "/home/aghiles/Aghiles/Ubuntu"
-./pull
-mkdir config
-mkdir config/gedit-config
-mkdir config/gedit-local-share
-cp -r -v ~/.bashrc ~/.bash_history ~/.Renviron ~/.zotero config/
-cp -r -v ~/.config/gedit config/gedit-config/
-cp -r -v ~/.local/share/gedit config/gedit-local-share/
-cp -r -v ~/.mozilla/firefox/*.default/extensions config/
-cp -r -v ~/.config/Mailspring/"Local Storage" config/
-./push 
-gedit installation
-wget https://github-production-release-asset-2e65be.s3.amazonaws.com/46186925/fd976182-545d-11e7-869e-54ebfcc2e852?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190417T154139Z&X-Amz-Expires=300&X-Amz-Signature=96c1bba9934730b4b80aad39cda7050c55bca8099e72a95df70372f8ec93c2e1&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DTrello-linux-0.1.9.zip&response-content-type=application%2Foctet-stream
-wget http://www.eclipsecolorthemes.org/?view=empty&action=download&theme=2553&type=epf
-gnome-control-center
-gnome-tweak-tool 
-gedit /proc/sys/net/ipv4/ip_forward
-rep ’tcp’ /etc/protocols
-grep ’tcp’ /etc/protocols
-grep ’http’ /etc/protocols
-cat /etc/protocols
-grep -i ’http’ /etc/protocols
-grep -i ’tcp’ /etc/protocols
-unzip raspberrypi-jessie-WAZIUP-demo.dmg.zip 
-putty
-sudo apt-get install openssh-client
-sudo apt-get update
-sudo apt-get upgrade
-dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/loop0 status=progress
-sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/loop0 status=progress
 sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/mmcblk0 status=progress
 sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/loop0 status=progress
 sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/mmcblk0 status=progress
@@ -1998,3 +1920,81 @@ pdf2txt
 cle "Spreading factor" 0 | grep -i analyzing
 cle "Spreading factor" 0
 >>>>>>> 45bb41f15f330355f58177e7fd72dd86ee92b9a9
+sudo yum install mongodb-org
+sudo apt install mongodb-org
+sudo apt install mongodb
+mongodb
+sudo systemctl start mongod
+sudo systemctl start mosquitto
+mongodb
+sudo gedit /etc/mongodb.conf
+mongo
+mosquitto_pub -t "test" -m "Should work"
+mongo mongodb://mongodb0.example.com:28015
+mongo --host mongodb0.example.com:28015
+mongo --host mongodb0.example.com --port 28015
+mongo --port 28015
+mongo
+mongo --port 28015
+mongo --port 27017
+mongo --host 127.0.0.1 --port 27017
+echo 'db.messages.find({});' | mongo --quiet mqtt
+echo 'db.messages.find({});'
+mongo --quiet mqtt
+grep -ri mongo
+whereis 6lbr
+cd /etc/6lbr/
+ls
+grep -ri mongo
+sudo grep -ri mongo
+sudo grep -ri mqtt
+sudo grep -ri mqosq
+sudo grep -ri mosq
+nautilus .
+git clone https://github.com/dennisdegreef/mqtt-mongo-recorder.git
+cd mqtt-mongo-recorder
+npm install
+sudo apt-get install npm
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_10.x
+curl -sL https://deb.nodesource.com/setup_10.x -o npm.sh
+sudo -E bash npm.sh 
+npm
+node
+nodejs 
+ls /usr/local/bin/
+curl -k -O -L https://npmjs.org/install.sh    
+ln -s /usr/bin/nodejs /usr/bin/node  
+sudo ln -s /usr/bin/nodejs /usr/bin/node  
+sh install.sh
+sudo sh install.sh
+sudo apt-get install npm2deb
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install curl software-properties-common
+curl -sL https://deb.nodesource.com/setup_11.x | sudo bash -
+grep -ri mqtt
+gedit server
+mv server server.js
+node server.js 
+npm install mqtt mongodb
+sudo apt install npm
+sudo apt install node
+sudo apt search node
+sudo apt search node.js
+sudo apt install node.js
+npm install mqtt mongodb
+node server.js 
+brew install node
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install -y nodejs
+sudo npm install coap-cli -g
+sudo apt ugrade
+sudo apt upgrade
+grep -ri mongo
+cle lockchaine 0
+cle blokchaine 0
+cle chaine 0
+cle blokchain 0
+cle blockchain 0
+cle mongo 0
