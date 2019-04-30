@@ -1,96 +1,3 @@
-sudo dd bs=4M if=raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg of=/dev/mmcblk0 status=progress
-touch ssh
-echo "dtoverlay=dwc2" >> config.txt
-ls
-ls -ls boot
-touch boot/ssh
-sudo touch boot/ssh
-gedit boot/config.txt
-echo "dtoverlay=dwc2" >> boot/config.txt
-sudo echo "dtoverlay=dwc2" >> boot/config.txt
-sudo -s
-ssh pi@raspberrypi.local
-gedit
-ssh-keygen -R raspberrypi.local
-sudo ssh-keygen -R raspberrypi.local
-gedit .ssh/known_hosts
-ssh pi@raspberrypi.local
-ssh-keygen -R raspberrypi.local
-grep -ri SoftwareSerial
-grep -ri Grove_LED_Bar
-grep -ri grove
-grep -ri gps
-mkdir seed
-cd seed/
-httrack http://wiki.seeedstudio.com/
-sudo visudo
-mvn clean install
-git clone https://github.com/sentilo/sentilo.git sentilo
-sudo apt-get install git install maven2 redis-server mongodb mysql-server tomcat7
-sudo apt-get install git install maven2 redis-server mongodb mysql-server
-sudo apt-get install git install maven redis-server mongodb mysql-server
-sudo apt-get install maven redis-server mongodb mysql-server
-sudo apt-get install tomcat7
-grep -ri --color=auto can
-grep -ri --color=auto "SENSORS_SENSOR"
-gedit platforms/zoul/dev/zoul-sensors.c
-ls
-gedit platform/zoul/dev/zoul-sensors.c
-cd platform/zoul/dev
-ls
-cd ..
-grep -ri --color=auto "SENSORS_SENSOR"
-cd avr-rss2/ipv6/dc-rpl-coap/dev/
-grep -ri --color=auto "SENSOR"
-grep -ri --color=auto "SENSORS_SENSOR"
-grep -ri --color=auto "SENSOR"
-cd ../../../../..
-cd core/lib/sensors.h
-ls
-gedit core/lib/sensors.h 
-gnome-screens
-gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/Downloads/"
-dconf-editor
-gnome-screenshot -i
-screen gnome-screenshot -a
-gnome-screenshot -a
-dconf-editor
-gnome-screenshot -a -i
-gnome-screenshot -a
-gnome-screenshot
-gsettings set org.gnome.gnome-screenshot last-save-directory "file:///home/$USER/Downloads/"
-gnome-screenshot -i
-man gnome-screenshot
-import calc.png
-ls
-gnome-screenshot -i
-gnome-screenshot -a -c
-cd "/home/aghiles/Aghiles/Ubuntu"
-./setup-3-shotcuts 
-gnome-screenshot -i
-cd "/home/aghiles/Aghiles/Ubuntu"
-./setup-3-shotcuts 
-gnome-screenshot -i
-echo $TEXINPUTS
-./compile 
-grep -ri --color=auto oo
-grep -ri --color=auto oo.png
-cd src/
-grep -ri --color=auto oo.png
-./compile 
-sudo apt install dspdfviewer
-gedit
-cd "/home/aghiles/Aghiles/Redaction/1/paper"
-./compile 
-grep -ri --color=auto FCF
-gedit 
-cd /home/aghiles/Downloads
-apt-get install libncurses5-dev bridge-utils
-sudo apt install libncurses5-dev bridge-utils
-git clone https://github.com/cetic/6lbr
-cd 6lbr
-git submodule update --init --recursive
-cd examples/6lbr
 make all #all_native for version < 1.4
 cd 
 cd Aghiles/Program/C/Contiki/bin/contiki/examples/6lbr
@@ -1998,3 +1905,96 @@ cle blockchain 0
 cle mongo 0
 pkill mailspring 
 grep -ri Head
+pkill mail-notification 
+git checkout -b aNewBranch SHA1
+git checkout HEAD~1
+git log
+git checkout b12f719cda86a796c0e06826e22fdab3fc112030
+git checkout -b old-state b12f719cda86a796c0e06826e22fdab3fc112030
+git reset b12f719cda86a796c0e06826e22fdab3fc112030
+cd zotero/
+grep -ri pdftotext
+pdf2txt 
+cle "lora.*heterogeneity" 0
+cle "heterogeneity" 0
+cle "heterogeneity.*lora" 0
+cle "lora" 0
+pdf2txt 
+cle "lora.*heterogeneity" 0
+cle "heterogeneity" 0
+cle "lora.*heterogeneity" 0
+cle "heterogeneity.*lora" 0
+cle "heterogeneity" 0
+cle "heterogeneity|lora" 0
+cle "heterogeneity|lora" 0 | grep -i heterogenous
+cle "heterogeneity|lora" 0 | grep -i large
+cle "heterogeneity" 0
+cle "lora" 0
+cle "lora" 50
+cle "heterogeneity" 10
+cle "hetero" 10
+cle "hetero.*lora" 10
+cle "hetero*lora" 10
+cle "hetero*lora" 0
+cle "lora.*hetero" 0
+cle "hetero*lora" 0
+cle "hetero.*lora" 0
+cle "lora.*hetero" 0
+cle "hetero.*lora" 0
+cd zotero/
+./pdftotext 
+sudo mv pdftotext /usr/bin/pdftotext
+pdf2txt 
+cle "hetero.*lora" 0
+cle "lora.*hetro" 0
+cle "hetero.*lora" 0
+cle "hetero" 0
+ls /bin
+whereis pdftotext
+sudo mv /usr/bin/pdftotext /usr/bin/pdftotext2
+pdftotext 
+pdftotext | grep line
+man pdftotext | grep line
+pdftotext | grep line
+foo="13 TKQW8UQ7/Kaloop_Hu_2015_Optimizing the De-Noise Neural Network Model for GPS Time-Series Monitoring of.pdf"
+echo "${foo#* }"
+var='2492  some string continues here'
+echo "${var%% *}"
+echo "${var%%  *}"
+echo "${var%%*}"
+echo "${var%% *}"
+echo "${var%%some*}"
+echo "${var% *}"
+echo "${var *%%}"
+echo "${var * %%}"
+echo "${var%%}"
+echo "${var%%+}"
+echo "${var%%*}"
+echo "${var%% *}"
+echo "${var%% +}"
+echo "${var%%* }"
+echo "${var%% *}"
+foo="a b c d"
+echo "${foo#* }"
+cle "hetero.*lora" 0
+cle "lora.*hetero" 0
+cle "hetero.*lora" 0
+cle "lora.*hetero" 0
+cle "hetero.*lora" 0
+cle "adaptive" 0
+cle "adaptive data rate" 0
+cle "adaptive data rate" 0 | grep kerkouche
+cle "adaptive data rate" 0 | grep kerkou
+cle "lora.*hetero" 0
+cle "hetero.*lora" 0
+nautilus MM7RCUIL
+ls
+nautilus "My Library"
+cle "hetero.*lora" 0
+cle "lora.*hetero" 0
+cle "lora" 0
+cle "lora" 50
+cle bandit 
+cle bandit 0
+nautilus R6V82Q2Y 
+cle sdn 30

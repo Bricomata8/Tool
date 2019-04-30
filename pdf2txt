@@ -6,7 +6,7 @@ for file in */*.pdf; do
 	echo $filename
 	extension="${filename##*.}"
 	filename="${filename%.*}"
-	pdftotext -nopgbrk -eol unix "$file" "$directory/$filename.txt"; 
+	pdftotext "$file" "$directory/$filename.txt"; 
 done
 
 

@@ -4,5 +4,7 @@ INPUTb=`xsel`
 INPUT=`echo $INPUTb | tr -d '\n'`
 echo $INPUT
 
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
+paper="${INPUT#* }"
+
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$paper"
 
