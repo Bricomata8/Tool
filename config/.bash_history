@@ -1,29 +1,3 @@
-cd 6lbr/
-cd examples/6lbr
-make plugins
-sudo service 6lbr status
-make tools
-sudo make install
-sudo make plugins-install
-sudo update-rc.d 6lbr defaults
-cd /etc/6lbr/
-sudo gedit 6lbr.conf
-sudo service 6lbr restart
-sudo service 6lbr status
-sudo gedit /etc/network/interfaces
-bridge_ports ens33
-sudo /etc/init.d/networking restart
-ifconfig
-iwconfig
-sudo apt install ifconfig
-sudo ifconfig
-http://[bbbb::100]
-firefox http://[bbbb::100]
-ls /dev
-sudo make clean
-ls /dev
-./x-compile 
-ls /dev
 cd examples/ipv6/slip-radio/
 make TARGET=zoul savetarget
 BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
@@ -1998,3 +1972,29 @@ cle lora 30
 cle heterogeneity 30
 cle heterog 30
 cle queue 0
+sudo apt install xpdf
+cd Downloads/
+pdfto
+pdftotext 
+sudo apt search pdftotext
+sudo apt remove poppler-utils
+sudo apt search pdftotext
+sudo apt install xpdf
+pdftosrc 
+pdftosrc Costanzo\ et\ al_Software\ Defined\ Wireless\ Networks\ \(SDWN\).pdf 
+pdf2txt
+sudo apt install xpdf
+sudo apt install pdftotext
+sudo apt install poppler-utils
+./pdftotext 
+sudo mv /usr/bin/pdftotext /usr/bin/pdftotext2
+sudo cp /home/aghiles/Aghiles/Redaction/setup/lib/zotero/pdftotext /usr/bin/pdftotext
+sudo apt remove pdftotext
+sudo apt search pdftotext
+sudo apt remove poppler-utils
+sudo apt install poppler-utils
+cd zotero/
+./pdftotext
+wget https://download.zotero.org/client/release/5.0.66/Zotero-5.0.66_linux-x86_64.tar.bz2
+pdf2txt
+cle "lora.*hetero" 0
