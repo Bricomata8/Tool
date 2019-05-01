@@ -1,10 +1,3 @@
-BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
-sudo BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
-sudo make slip-radio.upload PORT=/dev/ttyUSB0
-sudo make clean 
-sudo make slip-radio.upload PORT=/dev/ttyUSB0
-cd "/home/aghiles/Aghiles/Program/C/Contiki/src/utlc/1-border-router"
-sudo make clean
 sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="zoul"
 sudo make clean
 ./x-compile 
@@ -1997,4 +1990,11 @@ wget https://download.zotero.org/client/release/5.0.66/Zotero-5.0.66_linux-x86_6
 pdf2txt
 cle "lora.*hetero" 0
 cd "/home/aghiles/Aghiles/Redaction/0/slide"
+./compile 
+texdoc tikz
+cle sdn 9
+cle "lora.*hetero" 9
+cle "lora.*hetero"
+cle "lora.*hetero" 0
+cd "/home/aghiles/Aghiles/Redaction/5/paper"
 ./compile 
