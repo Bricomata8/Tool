@@ -1,5 +1,3 @@
-cd examples/ipv6/slip-radio/
-make TARGET=zoul savetarget
 BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
 sudo BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
 sudo make slip-radio.upload PORT=/dev/ttyUSB0
@@ -1998,3 +1996,5 @@ cd zotero/
 wget https://download.zotero.org/client/release/5.0.66/Zotero-5.0.66_linux-x86_64.tar.bz2
 pdf2txt
 cle "lora.*hetero" 0
+cd "/home/aghiles/Aghiles/Redaction/0/slide"
+./compile 
