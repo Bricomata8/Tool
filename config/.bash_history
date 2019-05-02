@@ -1,21 +1,3 @@
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
-onos localhost 
-sudo mn --topo tree,depth=2,fanout=3 --controller=remote
-xdg-open http://localhost:8181/onos/ui
-./4_mininet 
-sudo mn --topo single,3 --mac --controller=remote,ip=127.0.0.1,port=6633
-man mn
-man mn | grep --color=auto port
-man mn | grep -ri --color=auto port
-man mn | grep -i --color=auto port
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
-./1_server 
-./2_client 
-./4_mininet 
-git branch 
-git checkout TTLMoteLink
-sudo git checkout TTLMoteLink
-ls
 git branch 
 ssh -p 8101 onos@localhost
 ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
@@ -1998,3 +1980,21 @@ rm Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack
 vagrant reload 
 vagrant up
 vagrant -v
+sudo apt remove vagrant 
+curl -O https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.deb
+sudo apt install ./vagrant_2.2.3_x86_64.deb
+rm -r ./vagrant_2.2.3_x86_64.deb
+ls
+vagrant -v
+sudo apt remove virtualbox-5.0 
+sudo apt remove --purge virtualbox-5.0 
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+sudo apt update && sudo apt install virtualbox-$vboxversion
+sudo apt update && sudo apt install virtualbox-6.0
+wget "https://download.virtualbox.org/virtualbox/$vboxversion/Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack
+rm -r Oracle_VM_VirtualBox_Extension_Pack-6.0.6.vbox-extpack 
+vagrant up
+vagrant ssh
+vagrant reload
+vagrant reload 
