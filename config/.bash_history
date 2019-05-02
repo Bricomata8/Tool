@@ -1,43 +1,3 @@
-./push 
-evonce "setup/res_IoT/storage/ILCJW9AL/Pham - Deploying low-cost and long- range Internet of Thi.pdf"
-evince "setup/res_IoT/storage/ILCJW9AL/Pham - Deploying low-cost and long- range Internet of Thi.pdf"
-evince setup/res_IoT/storage/PDAINJJP/SoutenanceStage_VF.pptx
-cd /home/aghiles/Aghiles/.ibrarycontiki/tools/cooja
-cd /home/aghiles/Aghiles/.librarycontiki/tools/cooja
-cd /home/aghiles/Aghiles/.Library/contiki/tools/cooja
-xrandr --output LVDS1 --brightness 0.5
-xrandr -q | grep " connected"
-xrandr --output eDP-1 --brightness 0.5
-xrandr --output eDP-1 --brightness 0.3
-xrandr --output eDP-1 --brightness +0.3
-xrandr --output eDP-1 --brightness 0.3
-xbacklight -dec 10 
-sudo apt install xbacklight
-xbacklight -dec 10 
-xbacklight -inc 10 
-sudo xbacklight -inc 10 
-firefox -p
-xrandr --output eDP-1 --brightness 0.5
-xrandr --output eDP-1 --brightness .5
-xrandr --output eDP-1 --brightness 5
-xrandr --output eDP-1 --brightness 2
-xrandr --output eDP-1 --brightness 1
-xrandr --output eDP-1 --brightness .5
-xrandr --output eDP-1 --brightness .7
-gedit bright
-bright .4
-bright .8
-cd "/home/aghiles/Aghiles/Formation - TOEIC, Pro, CISCO"
-./push 
-bright .7
-bright .6
-bright .5
-sudo tools/test/bin/onos localhost
-tools/test/bin/onos localhost
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
-tools/test/bin/onos localhost
-source ~/.bashrc
-onos localhost 
 ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
 onos localhost 
 sudo mn --topo tree,depth=2,fanout=3 --controller=remote
@@ -1998,3 +1958,43 @@ wget "https://download.virtualbox.org/virtualbox/5.1.0/Oracle_VM_VirtualBox_Exte
 sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack
 iptables
 sudo apt-cache search iptables
+ifconfig eth0
+sudo ifconfig eth0
+sudo iwconfig eth0
+vagrant ssh
+vagrant ssh
+sudo ro -r .vagrant
+sudo rm -r .vagrant
+sudo vagrant up
+sudo apt remove virtualbox-6.0 
+sudo apt remove --purge virtualbox-6.0 
+sudo apt autoremove
+sudo apt install virtualbox-6.0 
+sudo rm -r .vagrant
+sudo vagrant 
+sudo rm -r .vagrant
+vagrant init debian/contrib-jessie64
+vagrant box add debian/contrib-jessie64
+vagrant up
+vagrant ssh
+sudo apt remove virtualbox-6.0 
+sudo apt remove --purgevirtualbox-6.0 
+sudo apt remove --purge virtualbox-6.0  
+sudo apt install virtualbox-5.1 
+vagrant up
+vagrant ssh
+vagrant reload
+wget "https://download.virtualbox.org/virtualbox/5.1.0/Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack
+vagrant reload
+sudo apt remove --purge virtualbox-5.1 
+sudo apt remove --purge vagrant
+sudo apt autoremove 
+sudo apt install virtualbox-5.0 
+sudo apt install vagrant
+wget "https://download.virtualbox.org/virtualbox/5.0.0/Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack
+rm Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack 
+vagrant reload 
+vagrant up
+vagrant -v
