@@ -86,6 +86,10 @@ sudo -s
 echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
 exit
 sudo apt update && sudo apt install virtualbox-5.1
+#vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/5.1.0/Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack
+
 #sudo apt install virtualbox-ext-pack 
 sudo apt install xsel 
 sudo apt install mpg123 

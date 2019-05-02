@@ -1,124 +1,3 @@
-sudo apt autoremove
-cd Redaction*/
-cd ..
-cd Teaching*/
-gnome-terminal --working-directory=Aghiles/Redaction*/setup/res/storage
-gnome-terminal --working-directory=Aghiles/Redaction.*/setup/res/storage
-cd Aghiles/Redaction*/setup/res/storage
-cd Aghiles/Redaction*/
-cd
-cd Aghiles/Redaction*/setup/res
-cd Aghiles/Redaction*/setup/
-ls
-sh Aghiles/Ubuntu*/zotero
-sh Aghiles/Ubuntu/zotero
-gedit Aghiles/Redaction*/1/paper/paper.tex
-gedit Aghiles/Redaction*/1/paper/paper.tex
-gedit 1
-./1 
-gedit cv-fr
-./cv-en 
-cd "/home/aghiles/Aghiles/Ubuntu"
-./setup-3-shotcuts 
-gnome-terminal --tab --working-directory=Aghiles/Redaction*  --title="Redaction" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction  --title="Redaction" --command="bash -c 'ls; $SHELL'"
-export tyg=Aghiles/Redaction*
-gnome-terminal --tab --working-directory=$tyg  --title="Redaction" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=Ubuntu  --title="Redaction" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=~/Ubuntu  --title="Redaction" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=Ubuntu  --title="Redaction" --command="bash -c 'ls; $SHELL'"
-sh Formation\:\ TOEIC\,\ Pro/push
-sh "Formation: TOEIC, Pro/push"
-sh "Formation: TOEIC, Pro"/push
-./"Formation: TOEIC, Pro"/push
-./'Formation: TOEIC, Pro'/push
-./Formation\:\ TOEIC\,\ Pro/push 
-grep -ri res_IoT
-gedit zotero/alyxzn26.default/prefs.js
-cd "/home/aghiles/Aghiles/Ubuntu/link"
-./link0 
-cd "/home/aghiles/Aghiles/Ubuntu"
-./zotero 
-gnome-terminal --working-directory=%f --geometry=80x15
-gnome-terminal --geometry=80x15
-gnome-terminal --working-directory=%f --geometry=80x15
-gnome-terminal --tab --working-directory=Aghiles/Formation  --title="title1" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction  --title="title1" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction*  --title="title1" --command="bash -c 'ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction*  --title="title1" --command="bash -c 'cd Aghiles/Redaction*;ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction*  --title="title1" --command="bash -c 'cd Aghiles/Program**;ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction*  --title="title1" --command="bash -c 'cd Aghiles/Program*;ls; $SHELL'"
-gnome-terminal --tab --working-directory=Aghiles/Redaction**  --title="title1" --command="bash -c 'ls; $SHELL'"
-cd Aghiles/Program*/C/Contiki/bin/onos
-./1_server 
-grep -ri --color=auto Program
-sudo echo "export ONOS_ROOT=/home/aghiles/Aghiles/Program:lk/C/Contiki/bin/onos" >> ~/.bashrc
-echo $ONOS_ROOT
-cd ONOS_ROOT
-cd $ONOS_ROOT
-source $ONOS_ROOT/tools/dev/bash_profile
-./1_server 
-gedit Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
-./cooja 
-./push 
-ln -s /home/aghiles/Aghiles/.Calendar /home/aghiles/Aghiles/Administration*/Aghiles/Calendar
-./push 
-sudo ./push 
-./push 
-gedit test
-./pull
-./compile 
-cd "/home/aghiles/Aghiles/Redaction, uhrfedrsu icdjckn/0/paper"
-./compile 
-ln -s file:///home/aghiles/Aghiles/Redaction,%20uhrfedrsu%20icdjckn/1/paper/res  file:///home/aghiles/Aghiles/Redaction,%20uhrfedrsu%20icdjckn/1/slide/res
-grep -ri --color=auto
-grep -ri --color=auto res
-grep -ri --color=auto res/
-./compile 
-grep -i --color=auto Ubuntu 
-grep -r --color=auto Ubuntu 
-./zotero 
-./push 
-./push
-sudo rm -r jj
-sudo tools/build/onos-buck run onos-local -- clean debug
-/bin/onos-service start
-./bin/onos-service start
-tools/build/onos-buck build onos --show-output 
-git clone git://github.com/sdnwiselab/onos
-mininet/util/install.sh -nfv
-cd onos/
-tools/build/onos-buck build onos --show-output 
-tools/build/onos-buck run onos-local -- clean debug
-cd ..
-mininet/util/install.sh -nfv
-tools/build/onos-buck build onos --show-output 
-cd onos/
-tools/build/onos-buck build onos --show-output 
-ps -A
-ssh -p 8101 karaf@localhost
-mn
-sudo mn
-sudo nautilus
-./2_client 
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
-ssh -p 8101 karaf@localhost
-cd /opt/net/onos/
-tools/build/onos-buck build onos --show-output
-sudo tools/build/onos-buck build onos --show-output
-sudo mkdir -p /opt/ne
-ls /opt
-./program 
-tasks
-sh Aghiles/Tool/shotcuts/cv-en
-sh Aghiles/Tool/shotcuts/code/code1
-sh Aghiles/Tool/shotcuts/paper/1
-cd /home/aghiles/Aghiles/Program*/C/Contiki/bin/contiki
-cd /home/aghiles/Aghiles/Tool/bin/contiki
-cd "/home/aghiles/Aghiles/Program - cooper, waziUp, gps, sentilo, sdn-wise/C/Contiki/src/utlc/1-border-router"
-ls
-./x-compile 
-git init
 ./push 
 evonce "setup/res_IoT/storage/ILCJW9AL/Pham - Deploying low-cost and long- range Internet of Thi.pdf"
 evince "setup/res_IoT/storage/ILCJW9AL/Pham - Deploying low-cost and long- range Internet of Thi.pdf"
@@ -1998,3 +1877,124 @@ trans -b -t fr "Pour it"
 pkill link*
 cle "lora.*hetero"
 trans buriito
+mkdir
+mkdir impots
+cd impots/
+httrack https://cfspart.impots.gouv.fr/
+lspci | grep -i wireless
+sudo ifconfig
+dmesg
+sudo dmesg
+sudo iwconfig
+svn-git https://github.com/CaliOpen/Caliopen/blob/master/devtools/Vagrantfile
+ls
+iw dev
+sudo iw dev
+ip a l
+ip route
+ip ad
+sudo rm -rf .vagrant/
+sudo apt-get install virtualbox-ext-pack
+sudo apt install virtualbox-ext-pack
+sudo rm -rf .vagrant/
+sudo rm -r .vagrant/
+sudo apt install vagrant
+sudo vagrant up
+sudo vagrant reload
+sudo vagrant up
+sudo vagrant reload
+sudo vagrant up
+sudo vagrant load
+sudo vagrant reload
+sudo apt install virtualbox-5.1 
+sudo vagrant reload
+sudo vagrant up
+sudo rm -r .vagrant/
+sudo vagrant up
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
+svn-git https://github.com/CaliOpen/Caliopen/blob/master/devtools/Vagrantfile
+sudo apt install vagrant
+sudo apt install virtualbox-6-0
+sudo apt install virtualbox-6.0
+apt-cache search virtualbox
+sudo apt search virtualbox-ext-pack
+sudo apt search virtualbox
+sudo apt-cache search virtualbox
+sudo apt install virtualbox
+sudo apt install virtualbox-5.0 
+sudo apt install virtualbox-6.0 
+sudo apt search virtualbox-ext-pack
+sudo apt install virtualbox-ext-pack
+sudo apt install virtualbox-6-0-ext-pack
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-6-0.vbox-extpack
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
+sudo VBoxManage extpack uninstall "Oracle VM VirtualBox Extension Pack"
+cat /proc/sys/net/ipv4/ip
+cat /proc/sys/net/ipv4/ip_forward
+cd test/
+for file in *.java; do iconv -f ascii -t utf-8 "$file" -o "${file%.java}.utf8.java"; done
+javac *.java
+gedit
+grep main
+grep-ri  main
+grep -ri  main
+javac *.java
+javac -encoding UTF8 *.java
+javac -encoding UTF8 Prof.java
+sed -r 's/\u201d//g'
+sed -ri 's/\u201d//g'
+sed -ri 's/\u201d//g' *
+javac -encoding UTF8 Prof.java
+convmv -r -f windows-1252 -t UTF-8 .
+convmv -r -f ISO-8859-1 -t UTF-8 .
+convmv -r -f cp-850 -t UTF-8 .
+convmv -r -f cp-850 -t UTF-8 *
+javac -encoding UTF8 Prof.java
+file -bi *.java
+ls
+nautilus
+mkdir test
+cd test/
+gedit Personne.java
+sudo apt install vagrant virtualbox-5-1
+echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+sudo -s
+sudo apt update
+sudo apt update && sudo apt install virtualbox-6.0
+sudo apt install vagrant 
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
+sudo vagrant up
+virtualbox -v
+virtualbox -version
+virtualbox -V
+man virtualbox
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+echo $vboxversion 
+sudo apt remove virtualbox-6.0 
+sudo apt remove -purge virtualbox-6.0 
+sudo apt remove --purge virtualbox-6.0 
+sudo apt install virtualbox-6.0 
+wget "https://download.virtualbox.org/virtualbox/6.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.vbox-extpack"
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
+sudo ro -r .vagrant/
+sudo apt-get install convmv
+sudo VBoxManage extpack uninstall "Oracle VM VirtualBox Extension Pack"
+sudo apt remove vagrant virtualbox-5.1 
+sudo apt remove --purge vagrant virtualbox-5.1 
+sudo apt autoremove 
+sudo apt autoclean
+sudo apt upgrade
+ls
+wget "https://download.virtualbox.org/virtualbox/5.1.0/Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack
+iptables
+sudo apt-cache search iptables
