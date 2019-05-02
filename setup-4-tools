@@ -85,8 +85,7 @@ sudo apt install vagrant
 sudo -s
 echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
 exit
-sudo apt update
-sudo apt install virtualbox-5.1
+sudo apt update && sudo apt install virtualbox-5.1
 #sudo apt install virtualbox-ext-pack 
 sudo apt install xsel 
 sudo apt install mpg123 
@@ -101,10 +100,10 @@ sudo apt install snapd
 sudo snap install mailspring
 sudo apt install gnome-todo
 sudo apt install plotutils
-sudo apt-get install subversion
+sudo apt install subversion
 sudo apt install adb
 sudo apt install httrack
-sudo apt-get install maven redis-server mongodb mysql-server
+sudo apt install maven redis-server mongodb mysql-server
 sudo apt install dspdfviewer
 sudo apt install pdfgrep
 sudo apt install wireshark
@@ -112,9 +111,15 @@ sudo apt install mosquitto
 sudo apt install amqp-tools
 sudo apt install nodejs
 sudo apt install cryptsetup
+sudo apt install redshift
 
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt-get update && sudo apt install -y nodejs
+sudo apt-get update && sudo apt-get install yarn
+
 sudo npm install coap-cli -g
 sudo npm install -g --unsafe-perm node-red
 sudo npm install node-red-contrib-coap
@@ -124,7 +129,7 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 sudo apt-get install erlang erlang-nox
 sudo apt-get install rabbitmq-server
 
-sudo apt install redshift
+
 
 cd ~/Downlads
 sudo apt install chromium

@@ -8,11 +8,11 @@
  * To make a manual change to preferences, you can visit the URL about:config
  */
 
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1556651375);
-user_pref("app.update.lastUpdateTime.background-update-timer", 1556690664);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1556690544);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1556690826);
-user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1556690784);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1556776944);
+user_pref("app.update.lastUpdateTime.background-update-timer", 1556777184);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1556777064);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1556772737);
+user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1556777304);
 user_pref("app.update.postupdate", true);
 user_pref("browser.cache.disk.capacity", 358400);
 user_pref("browser.cache.disk.filesystem_reported", 1);
@@ -42,7 +42,7 @@ user_pref("extensions.zotero.firstRunGuidanceShown.quickFormat", true);
 user_pref("extensions.zotero.groups.copyChildFileAttachments", false);
 user_pref("extensions.zotero.groups.copyTags", false);
 user_pref("extensions.zotero.ignoreLegacyDataDir.auto", true);
-user_pref("extensions.zotero.lastViewedFolder", "C299");
+user_pref("extensions.zotero.lastViewedFolder", "L1");
 user_pref("extensions.zotero.newItemTypeMRU", "4,29");
 user_pref("extensions.zotero.note.fontSize", "11");
 user_pref("extensions.zotero.pane.persist", "{\"zotero-collections-pane\":{\"width\":\"235\"},\"zotero-tags-splitter\":{\"state\":\"\"},\"zotero-tag-selector-container\":{\"height\":\"320\"},\"zotero-collections-splitter\":{\"state\":\"\"},\"zotero-layout-switcher\":{\"orient\":\"horizontal\"},\"zotero-items-pane\":{\"width\":\"375\",\"height\":\"540\"},\"zotero-items-tree\":{\"current-view-group\":\"default\"},\"zotero-items-column-title\":{\"width\":\"615\",\"ordinal\":\"1\",\"hidden\":\"false\"},\"zotero-items-column-citekey\":{\"width\":\"94\",\"ordinal\":\"63\",\"hidden\":\"true\"},\"zotero-items-column-firstCreator\":{\"width\":\"16\",\"ordinal\":\"3\",\"hidden\":\"false\"},\"zotero-items-column-itemType\":{\"width\":\"40\",\"ordinal\":\"5\",\"hidden\":\"true\"},\"zotero-items-column-date\":{\"ordinal\":\"7\",\"hidden\":\"true\"},\"zotero-items-column-year\":{\"width\":\"16\",\"ordinal\":\"9\",\"hidden\":\"false\"},\"zotero-items-column-publisher\":{\"ordinal\":\"11\",\"hidden\":\"true\"},\"zotero-items-column-publicationTitle\":{\"ordinal\":\"13\",\"hidden\":\"true\"},\"zotero-items-column-journalAbbreviation\":{\"ordinal\":\"15\",\"hidden\":\"true\"},\"zotero-items-column-language\":{\"ordinal\":\"17\",\"hidden\":\"true\"},\"zotero-items-column-accessDate\":{\"ordinal\":\"19\",\"hidden\":\"true\"},\"zotero-items-column-libraryCatalog\":{\"ordinal\":\"21\",\"hidden\":\"true\"},\"zotero-items-column-callNumber\":{\"ordinal\":\"23\",\"hidden\":\"true\"},\"zotero-items-column-rights\":{\"ordinal\":\"25\",\"hidden\":\"true\"},\"zotero-items-column-dateAdded\":{\"ordinal\":\"27\",\"hidden\":\"true\"},\"zotero-items-column-dateModified\":{\"ordinal\":\"29\",\"hidden\":\"true\"},\"zotero-items-column-archive\":{\"ordinal\":\"31\",\"hidden\":\"true\"},\"zotero-items-column-archiveLocation\":{\"ordinal\":\"33\",\"hidden\":\"true\"},\"zotero-items-column-place\":{\"ordinal\":\"35\",\"hidden\":\"true\"},\"zotero-items-column-volume\":{\"ordinal\":\"37\",\"hidden\":\"true\"},\"zotero-items-column-edition\":{\"ordinal\":\"39\",\"hidden\":\"true\"},\"zotero-items-column-pages\":{\"ordinal\":\"41\",\"hidden\":\"true\"},\"zotero-items-column-issue\":{\"ordinal\":\"43\",\"hidden\":\"true\"},\"zotero-items-column-series\":{\"ordinal\":\"45\",\"hidden\":\"true\"},\"zotero-items-column-seriesTitle\":{\"ordinal\":\"47\",\"hidden\":\"true\"},\"zotero-items-column-court\":{\"ordinal\":\"49\",\"hidden\":\"true\"},\"zotero-items-column-medium\":{\"ordinal\":\"51\",\"hidden\":\"true\"},\"zotero-items-column-genre\":{\"ordinal\":\"53\",\"hidden\":\"true\"},\"zotero-items-column-system\":{\"ordinal\":\"55\",\"hidden\":\"true\"},\"zotero-items-column-extra\":{\"width\":\"35\",\"ordinal\":\"57\",\"hidden\":\"false\",\"sortActive\":\"true\",\"sortDirection\":\"ascending\"},\"zotero-items-column-hasAttachment\":{\"ordinal\":\"59\",\"hidden\":\"true\"},\"zotero-items-column-numNotes\":{\"ordinal\":\"61\",\"hidden\":\"true\"},\"zotero-items-splitter\":{\"state\":\"collapsed\",\"orient\":\"horizontal\"},\"zotero-item-pane\":{\"width\":\"338\",\"height\":\"452\"}}");
@@ -50,7 +50,7 @@ user_pref("extensions.zotero.prefVersion", 2);
 user_pref("extensions.zotero.purge.tags", true);
 user_pref("extensions.zotero.recentSaveTargets", "[{\"id\":\"C228\",\"sessionID\":\"j5psjQfg\"},{\"id\":\"C327\",\"sessionID\":\"SHpjZMVc\"},{\"id\":\"C299\",\"sessionID\":\"ZKqYB74Y\"},{\"id\":\"C331\",\"sessionID\":\"2xQ4D5fQ\"},{\"id\":\"C324\",\"sessionID\":\"NnhQpRKT\"},{\"id\":\"C329\",\"sessionID\":\"EbqCgrj1\"},{\"id\":\"C341\",\"sessionID\":\"P9W4buGO\"}]");
 user_pref("extensions.zotero.search.quicksearch-mode", "titleCreatorYear");
-user_pref("extensions.zotero.sourceList.persist", "{\"L1\":true,\"P1\":false,\"C264\":true,\"C327\":true,\"C194\":true,\"C347\":true,\"C337\":true,\"C299\":true}");
+user_pref("extensions.zotero.sourceList.persist", "{\"L1\":false,\"P1\":false,\"C264\":true,\"C327\":true,\"C347\":true,\"C337\":true}");
 user_pref("extensions.zotero.sync.autoSync", false);
 user_pref("extensions.zotero.sync.librariesToSkip", "[]");
 user_pref("extensions.zotero.sync.server.username", "djaghiles@gmail.com");
@@ -84,7 +84,7 @@ user_pref("extensions.zutilo.itemmenu.relocateChildren", "Zutilo");
 user_pref("extensions.zutilo.itemmenu.showAttachments", "Zutilo");
 user_pref("extensions.zutilo.lastVersion", "3.0.3");
 user_pref("font.internaluseonly.changed", true);
-user_pref("idle.lastDailyNotification", 1556649174);
+user_pref("idle.lastDailyNotification", 1556773670);
 user_pref("intl.accept_languages", "en-US, en");
 user_pref("media.gmp.storage.version.observed", 1);
 user_pref("network.cookie.prefsMigrated", true);
