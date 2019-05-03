@@ -1,20 +1,3 @@
-gedit test.py 
-sudo mn --custom test --topo mytopo
-sudo mn --custom ./test --topo mytopo
-sudo mn --custom test.py --topo mytopo
-sudo mn --topo tree,depth=2,fanout=3
-sudo mn --topo tree,depth=2,fanout=3 --controller=remote,ip=127.0.0.1
-ssh -p 8101 onos@localhost
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
-ssh -p 8101 onos@localhost
-sudo apt install mosquitto
-whereis mosquit
-whereis mosquitto
-ls /usr/local/etc/mosquitto
-ls /etc/mosquitto
-sudo mv  /etc
-sudo mv /usr/local/etc/mosquitto /usr/local/etc/mosquitto2
-ls /etc/mosquitto
 mosquitto_
 mosquitto_pub
 sudo apt remove mosquitto 
@@ -1998,3 +1981,20 @@ sed -i -e 's/\r$//' Accueil.php
 php Accueil.php 
 sudo apt install php
 php Accueil.php 
+sudo apt install translate-shell 
+./setup-3-shotcuts 
+gedit 0_application.tex
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./compile 
+ls
+rm -r bin/
+ls
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./compile 
+cle preading 0
+cle "-137" 0
+cle "\-137" 0
