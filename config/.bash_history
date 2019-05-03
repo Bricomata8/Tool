@@ -1,6 +1,3 @@
-git branch 
-ssh -p 8101 onos@localhost
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
 ssh -p 8101 onos@localhost
 grep -ri --color=auto "As a modern operating system can be compiled to match almost"
 grep -ri --color=auto "he theoretical range for OpenMote"
@@ -1998,3 +1995,6 @@ vagrant up
 vagrant ssh
 vagrant reload
 vagrant reload 
+grep -ri force
+cle Bandit 0  
+./pull 
