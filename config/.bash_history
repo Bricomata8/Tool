@@ -1,20 +1,3 @@
-ssh -p 8101 onos@localhost
-grep -ri --color=auto "As a modern operating system can be compiled to match almost"
-grep -ri --color=auto "he theoretical range for OpenMote"
-pdfgrep -ri --color=auto "he theoretical range for OpenMote"
-sudo apt install pdfgrep
-pdfgrep -ri --color=auto "he theoretical range for OpenMote"
-evince ./J93K4AKS/223403.pdf
-sudo mn
-sudo mv mnokok mn
-sudo wireshark
-sudo apt install wireshark
-sudo wireshark &
-sudo mn --topo tree,depth=2,fanout=3 --controller=remote
-sudo mn --topo=mytopo --controller=remote
-sudo mn --topo=mytopo
-sudo mn --custom=mytopo
-sudo mn --custom=test --topo=mytopo
 gedit test.py 
 sudo mn --custom test --topo mytopo
 sudo mn --custom ./test --topo mytopo
@@ -1998,3 +1981,20 @@ vagrant reload
 grep -ri force
 cle Bandit 0  
 ./pull 
+wget https://docs.google.com/spreadsheets/d/1KDSMgX5xYI4W0t8kqUxonQQNWmfSk6YzCtl_SCwGgiY/edit#gid=499000135
+u
+echo -e '#!/usr/bin/php\n<?php phpinfo(); ?>' > Accueil.php 
+./Accueil.php 
+./Accueil.php | grep -i aghiles
+php -f Accueil.php 
+php  Accueil.php 
+php Accueil.php 
+./Accueil.php 
+/usr/bin/php
+whereis php
+./Accueil.php 
+sed -i -e 's/\r$//' Accueil.php 
+./Accueil.php 
+php Accueil.php 
+sudo apt install php
+php Accueil.php 
