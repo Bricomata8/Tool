@@ -1,66 +1,3 @@
-mosquitto_sub -h localhost -t house/#
-npm install coap-cli -g
-sudo apt install npm
-sudo apt-cache search npm
-
-sudo apt install coap
-sudo apt install coap-client
-echo -n 'hello world' | coap post coap://localhost/message
-sudo apt install nodejs
-npm
-sudo apt install npm
-curl -L https://npmjs.org/install.sh
-curl -L https://npmjs.org/install.sh -o lk
-sh lk
-sudo sh lk
-sudo apt-cache search coap
-search
-apt-search
-sudo apt-cache search mqtt
-sudo apt-cache search amqp
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs
-npm
-npm install coap-cli -g
-sudo npm install coap-cli -g
-java -jar coap-shell-1.0.7.jar
-java -cp Aghiles/Tool -jar coap-shell-1.0.7.jar
-java -cp ~/Aghiles/Tool -jar coap-shell-1.0.7.jar
-java -jar coap-shell-1.0.7.jar
-coap
-curl
-coap get coaps://californium.eclipse.org:5684/multi-format
-coap get coap://californium.eclipse.org:5684/multi-format
-gedit cccc
-echo -n 'hello world' | coap get coap://localhost/message
-coap post coap://localhost/updateme! -p hello 
-kj
-coap post coap://localhost/updateme! -p hello 
-coap post coap://localhost/update -p hello 
-i
-echo -n 'hello world' | coap post coap://localhost/message
-iuiu
-echo -n 'hello world' | coap post coap://localhost/message
-ijij
-echo -n 'hello world' | coap post coap://localhost/message
-kjkj
-hjhjh
-echo -n 'hello world' | coap post coap://localhost/message
-i
-coap -o coap://localhost/RtcData
-coap -o coap://localhost/update
-i
-coap get coap://localhost/message
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -s localhost:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-nano ~/onmessage.sh && chmod +x ~/onmessage.sh
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-publish -e "amq.topic" -r "worker1" -b "this is a test message"
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash remoteManageUiSCSI.sh
-amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
-amqp-consume -u "amqp://test/ -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash remoteManageUiSCSI.sh
 amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
 amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash onmessage.sh
 amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
@@ -1998,3 +1935,66 @@ git clone /media/aghiles/Aghiles/Administration
 ./push 
 ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
 ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+gnome-control-center
+./push 
+mailspring 
+pkill mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+cd /media/aghiles/Aghiles/Mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+mailspring 
+pkill mailspring
+mailspring 
+sudo mailspring 
+grep -ri 000005 
+mailspring 
+pkill mailspring 
+mailspring 
+pkill mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/Local Strage"
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/Local Storage"
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/"
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/*" "/home/aghiles/.config/Mailspring/"
+ln -srf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+mailspring 
+pkill mailspring
+mailspring 
+pkill mailspring
+mailspring 
+pkill mailspring
+mailspring 
+pkill mailspring 
+mailspring 
+pkill mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
+mailspring 
+ln -sTf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/alternate/* /home/aghiles/.mozilla/firefox/ao16oe4p.default/
+firefox
+firefox -h
+firefox -P azert
+firefox 
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
+chromium 
+chromium google.com
+chromium 
+xdg-open
+grep -ri firefox
