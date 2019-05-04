@@ -1,20 +1,3 @@
-sudo apt autoremove 
-ls /etc/mosquitto2
-locate mosquitto
-whereis mosquitto
-sudo mosquitto
-sudo mosquitto_pub
-sudo -s
-sudo apt install mosquitto
-ls /etc/mosquitto
-whereis mosquitto
-whereis mosquitto-dev
-sudo apt install mosquitto-dev
-whereis mosquitto
-sudo apt remove mosquitto-dev
-sudo apt install mosquitto
-gedit /etc/mosquitto/conf.mk
-gedit /etc/mosquitto/mosquitto.conf 
 gedit mosquitto-sub
 mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":40}"
 mosquitto_pub -h localhost -t house/# -m "{\"value1\":20,\"value2\":40}"
@@ -1998,3 +1981,20 @@ cle preading 0
 cle "-137" 0
 cle "\-137" 0
 >>>>>>> bd1ec70f8611a2d4b750bbb13a6003c019d2a73a
+chrome-gnome-shell 
+sudo apt install chromium
+chromium 
+cle spreading 0
+httrack https://scikit-learn.org/stable/
+sudo apt -y install ipython
+ipython --version
+pip3 install jupyter
+sudo apt -y install python3 python3-pip python3-dev
+pip3 --version
+sudo apt-get remove python3-pip; sudo apt-get install python3-pip
+pip3
+pip3 install jupyter
+useradd -M jupyter
+jupyter notebook --help
+python exercise_02_sentiment.py 
+evince index.rst
