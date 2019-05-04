@@ -1,11 +1,3 @@
-gedit mosquitto-sub
-mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t house/# -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t house -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":$var1}"
-mosquitto_sub -h localhost -t house/#test
-mosquitto_sub -h localhost -t house/# test
 mosquitto_sub -h localhost -t house/#
 npm install coap-cli -g
 sudo apt install npm
@@ -1998,3 +1990,11 @@ useradd -M jupyter
 jupyter notebook --help
 python exercise_02_sentiment.py 
 evince index.rst
+gnome-control-center
+gnome-tweaks
+gnome-tweak-tool 
+gnome-control-center
+git clone /media/aghiles/Aghiles/Administration
+./push 
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
