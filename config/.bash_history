@@ -1,6 +1,3 @@
-amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash onmessage.sh
-amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
 amqp-publish -q myqueue cat
 sudo apt install amqp
 sudo apt install amqp-tools
@@ -1998,3 +1995,6 @@ chromium google.com
 chromium 
 xdg-open
 grep -ri firefox
+apt install encfs
+sudo apt install encfs
+gnome-tweak-tool 
