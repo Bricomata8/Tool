@@ -1,6 +1,4 @@
 redshift -O 1000
-redshift -O 2000
-redshift -O 1000
 redshift -3 1000
 redshift -1 1000
 redshift -0 1000
@@ -1998,3 +1996,5 @@ gedit runWeb
 sudo php -S localhost:8000 -t .
 grep -ri vousaff
 texdoc pgfplots
+pkill mailspring 
+./rm
