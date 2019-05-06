@@ -1,14 +1,3 @@
-redshift -O 2000 -g .4
-redshift -O 2000 -g .7
-redshift -O 2000 -g 1
-redshift -O 1000
-redshift -O 3000 -g 0.5
-redshift -O 3000 -g 0.7
-redshift -O 1000 -g 0.2
-redshift -O 1000 -g 0.Y
-redshift -O 1000 -g 0.9
-redshift -O 1000 -g 0.5
-redshift -O 2000 -g 0.5
 redshift -O 2000 -g 1.5
 redshift -O 2000 -g 1
 redshift -O 1000 -g 1
@@ -1998,3 +1987,14 @@ xapers
 wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
 sudo apt install ./mendeleydesktop-latest.deb 
 mendeleydesktop 
+cle spreading 0
+pdf2txt
+cle spreading 0
+cle "Ochoa.*spreading" 0
+cle "spreading" 0 | grep Ochoa
+cle "spreading.*graph" 0
+cle "graph.*spreading" 0
+cle "spreading factor" 0
+cle "spreading factor" 0 | ochoa
+cle "spreading factor" 0 | grep ochoa
+cle "spreading factor" 0 | grep Ochoa
