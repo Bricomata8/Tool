@@ -1,5 +1,3 @@
-redshift -O 2000 -g .5
-for f in src/* ; do  echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
 for f in src/* ; do  rm "`dirname "$f"`/.*"; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
 for f in src/* ; do  rm `dirname "$f"`/.*; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
 cd
@@ -1998,3 +1996,5 @@ cle "spreading factor" 0 | ochoa
 cle "spreading factor" 0 | grep ochoa
 cle "spreading factor" 0 | grep Ochoa
 >>>>>>> 651c4be74aa8767e962581fc04a0382c539c7578
+sudo apt install furiusisomount
+furiusisomount
