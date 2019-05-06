@@ -1,87 +1,3 @@
-redshift -O 2000 -g 1.5
-redshift -O 2000 -g 1
-redshift -O 1000 -g 1
-redshift -O 2000 -g 1
-redshift -O 1500 -g 1
-redshift -O 1500 -g .5
-redshift -O 3500 -g .5
-redshift -O 2000 -g .5
-for f in src/* ; do  echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/* ; do  rm "`dirname "$f"`/.*"; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/* ; do  rm `dirname "$f"`/.*; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-cd
-rm src/.*
-rm src/*/.*
-for f in src/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-rm src/*/.*
-rm src/.*
-rm src/*/.*
-rm src/*/*/.*
-for f in src/* ; do echo "[LATEX]\nmaster-filename = ../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-rm src/.*
-rm src/*/.*
-rm src/*/*/.*
-for f in src/* ; do echo "[LATEX]\nmaster-filename = ../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/*/*/* ; do echo "[LATEX]\nmaster-filename = ../../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-rm src/.*
-rm src/*/.*
-rm src/*/*/.*
-for f in src/* ; do echo "[LATEX]\nmaster-filename = ../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/*/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/*/*/* ; do echo "[LATEX]\nmaster-filename = ../../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/* ; do echo "Adding first line" > ".$f.ini" ; done
-for f in src/* ; do echo "[LATEX]
-master-filename = ../../paper.tex" > ".$f.ini" ; done
-cd paper/
-for f in src/* ; do echo "[LATEX]
-master-filename = ../../paper.tex" > ".$f.ini" ; done
-for f in src/* ; do echo "[LATEX]
-master-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; done
-for f in src/* ; do echo "[LATEX]
-master-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; done
-for f in src/* ; do echo "[LATEX]
-master-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; done
-realpath $pwd
-realpath pwd
-pwd
-pwd | realpath
-pwd
-pwd | realpath
-realpath
-realpath .
-compile
-realpath .
-compile
-compile 
-xx
-./xx
-./compile 
-sudo apt-get install firefox-esr
-cd Downloads/
-git clone https://github.com/mkovatsc/Copper4Cr.git
-cd Copper4Cr/
-./install.sh
-chromium 
-sudo apt instakk chrom
-sudo apt instakk chrome
-sudo apt install chrome
-sudo apt install chrom
-git clone https://github.com/mkovatsc/Copper4Cr.git
-cd Copper4Cr/
-./install.sh
-sudo apt-get install chromium-browser
-sudo apt-get install chromium
-chromium
-grep ’http’ /etc/services
-grep ’tcp’ /etc/services
-gedit /etc/services
-wireshark 
-sudo wireshark 
-grep -ri vlan
-grep -ri --color=auto vlan
 serv.v
 gedit serv.v
 gedit client.c
@@ -1694,6 +1610,12 @@ cd ..
 cle preading 0
 cle "-137" 0
 cle "\-137" 0
+<<<<<<< HEAD
+sudo apt install matlab-support
+sudo apt install matlab
+sudo apt install matlab-support
+su
+=======
 >>>>>>> bd1ec70f8611a2d4b750bbb13a6003c019d2a73a
 chrome-gnome-shell 
 sudo apt install chromium
@@ -1998,3 +1920,81 @@ cle "spreading factor" 0
 cle "spreading factor" 0 | ochoa
 cle "spreading factor" 0 | grep ochoa
 cle "spreading factor" 0 | grep Ochoa
+>>>>>>> 651c4be74aa8767e962581fc04a0382c539c7578
+sudo apt install furiusisomount
+furiusisomount
+grep -ri dreget
+pkill mailspring 
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+cle laura 0
+cle lora 0
+cat CUPS.desktop 
+sudo  apt-get install cupsys
+sudo  apt-get install cups
+cups
+gedit cups
+xdg-open http://localhost:631/admin
+usermod -a -G lpadmin aghiles
+sudo usermod -a -G lpadmin aghiles
+sudo systemst restart cups
+sudo systemstl restart cups
+sudo systemctl restart cups
+sudo gedit /etc/cups/cups-files.conf 
+sudo ./install 
+pdf2txt 
+unrar
+sudo apt unstall unrar
+sudo apt install unrar
+unrar x Matlab.rar 
+sudo apt install matlab-support
+nautilus                  │ iles/Downloads/Software/Matlab/Mathworks_ │ 
+sudo ./install 
+matlab
+sudo /media/aghiles/MATHWORKS_R2016B/install
+nautilus sudo /usr/local/MATLAB/R2018b/bin/matlab
+nautilus /usr/local/MATLAB
+sudo /usr/local/MATLAB/R2018b/bin/matlab
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+matlab
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+sudo mv /usr/local/MATLAB /usr/local/MATLAB2
+sudo apt install matlab-support
+sudo dpkg --configure -a
+sudo nautilus .
+cd /usr/local/MATLAB/R2016b
+firefox help/mdce/troubleshoot-common-problems.html
+sudo nautilus
+sudo /media/aghiles/MATHWORKS_R2016B/install
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+ls
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+sudo nautilus
+matlab
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+cd /usr/local/MATLAB/R2016b/bin
+./matlab
+cd ../etc/
+ls
+nautilus
+nautilus .
+cd ..
+locate .dat
+whereis .dat
+whereis license.dat
+whereis "license.dat"
+whereis "license\.dat"
+whereis "license"
+sudo nautilus
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+su
+sudo /usr/local/MATLAB/R2016b/bin/matlab
+sudo nautilus
+matlab 
+matlab
+matlab -nodesktop -nosplash -r "LoRa_Modulation.m"
+matlab -nodesktop -nosplash -r "LoRa_Modulation"
+matlabx LoRa_Decoding
+matlabx LoRa_Modulation
+matlab
+matlabx Lora_Symbol_Generation.m 
+matlabx Lora_Symbol_Generation
