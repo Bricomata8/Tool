@@ -1,6 +1,3 @@
-for f in src/* ; do  rm "`dirname "$f"`/.*"; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-for f in src/* ; do  rm `dirname "$f"`/.*; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
-cd
 rm src/.*
 rm src/*/.*
 for f in src/* ; do echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
@@ -1998,3 +1995,6 @@ cle "spreading factor" 0 | grep Ochoa
 >>>>>>> 651c4be74aa8767e962581fc04a0382c539c7578
 sudo apt install furiusisomount
 furiusisomount
+grep -ri dreget
+pkill mailspring 
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
