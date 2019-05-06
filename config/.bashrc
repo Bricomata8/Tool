@@ -118,8 +118,8 @@ export ONOS_ROOT="/home/aghiles/Aghiles/Program/C/bin/onos"
 source $ONOS_ROOT/tools/dev/bash_profile
 alias trans='trans -b -t fr'
 alias xd='tracker tag -ts'
-
-
+alias matlab='/usr/local/MATLAB/R2016b/bin/matlab'
+alias matlabx='/usr/local/MATLAB/R2016b/bin/matlab -nodesktop -nosplash -r'
 
 
 
