@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git update-ref -d refs/original/refs/heads/master
+
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD

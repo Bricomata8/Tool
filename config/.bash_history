@@ -1,313 +1,3 @@
-sudo apt autoremove 
-ls /etc/mosquitto2
-locate mosquitto
-whereis mosquitto
-sudo mosquitto
-sudo mosquitto_pub
-sudo -s
-sudo apt install mosquitto
-ls /etc/mosquitto
-whereis mosquitto
-whereis mosquitto-dev
-sudo apt install mosquitto-dev
-whereis mosquitto
-sudo apt remove mosquitto-dev
-sudo apt install mosquitto
-gedit /etc/mosquitto/conf.mk
-gedit /etc/mosquitto/mosquitto.conf 
-gedit mosquitto-sub
-mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t house/# -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t house -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":40}"
-mosquitto_pub -h localhost -t test -m "{\"value1\":20,\"value2\":$var1}"
-mosquitto_sub -h localhost -t house/#test
-mosquitto_sub -h localhost -t house/# test
-mosquitto_sub -h localhost -t house/#
-npm install coap-cli -g
-sudo apt install npm
-sudo apt-cache search npm
-
-sudo apt install coap
-sudo apt install coap-client
-echo -n 'hello world' | coap post coap://localhost/message
-sudo apt install nodejs
-npm
-sudo apt install npm
-curl -L https://npmjs.org/install.sh
-curl -L https://npmjs.org/install.sh -o lk
-sh lk
-sudo sh lk
-sudo apt-cache search coap
-search
-apt-search
-sudo apt-cache search mqtt
-sudo apt-cache search amqp
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs
-npm
-npm install coap-cli -g
-sudo npm install coap-cli -g
-java -jar coap-shell-1.0.7.jar
-java -cp Aghiles/Tool -jar coap-shell-1.0.7.jar
-java -cp ~/Aghiles/Tool -jar coap-shell-1.0.7.jar
-java -jar coap-shell-1.0.7.jar
-coap
-curl
-coap get coaps://californium.eclipse.org:5684/multi-format
-coap get coap://californium.eclipse.org:5684/multi-format
-gedit cccc
-echo -n 'hello world' | coap get coap://localhost/message
-coap post coap://localhost/updateme! -p hello 
-kj
-coap post coap://localhost/updateme! -p hello 
-coap post coap://localhost/update -p hello 
-i
-echo -n 'hello world' | coap post coap://localhost/message
-iuiu
-echo -n 'hello world' | coap post coap://localhost/message
-ijij
-echo -n 'hello world' | coap post coap://localhost/message
-kjkj
-hjhjh
-echo -n 'hello world' | coap post coap://localhost/message
-i
-coap -o coap://localhost/RtcData
-coap -o coap://localhost/update
-i
-coap get coap://localhost/message
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -s localhost:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-nano ~/onmessage.sh && chmod +x ~/onmessage.sh
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-publish -e "amq.topic" -r "worker1" -b "this is a test message"
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash remoteManageUiSCSI.sh
-amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
-amqp-consume -u "amqp://test/ -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash remoteManageUiSCSI.sh
-amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash onmessage.sh
-amqp-publish -u amqp://test:test@ustorageprod/%2f -r "queue.udrive.ustorage" -e "directExchangeUdrive" -b "$msg"
-amqp-publish -q myqueue cat
-sudo apt install amqp
-sudo apt install amqp-tools
-man amqp
-amqp -h
-man 1 amqp-consume
-man amqp-consume
-man amqp-publish 
-amqp-consume -A -e myexch ./myscript
-amqp-consume -A -e myexch ./onmessage.sh
-amqp-publish -q myqueue cat
-amqp-publish  cat
-amqp-publish -r myqueue -b Hello
-amqp-publish -e events -p -C text/xml <event.xml
-amqp-publish -e events -p -C text/xml <onmessage.sh
-amqp-publish -e events -p -C text/plain <onmessage.sh
-amqp-publish -e events -p -C text/xml <onmessage.sh
-amqp-consume -A -e myexch ./onmessage.sh
-amqp-publish -e events -p -C text/xml <onmessage.sh
-amqp-consume -A -e myexch ./onmessage.sh
-sudo apt install rabbitmqadmin
-sudo apt search rabbitmqadmin
-sudo apt-cache search rabbitmqadmin
-sudo apt search coap
-sudo apt-cache search rabbitmq
-sudo apt search rabbitmq
-sudo apt install rabbitmq
-sudo pip install amqp
-sudo pip remove amqp
-sudo pip delete amqp
-sudo pip uninstall amqp
-amqp-declare-queue -h
-amqp-consume -h
-sudo apt search rabbitmq
-cccc
-sudp apt install apt-get install amqp-tools
-sudo apt install amqp-tools
-cd $NODE_RED_HOME
-npm install node-red-contrib-coap
-sudo npm install node-re
-gedit node_red
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -h
-amqp-consume -u amqp://127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume --url=amqp://127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume --url="amqp://127.0.0.1:5672" -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume --url="amqp://127.0.0.1:5672" -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username="guest" --password="guest" -d ~/onmessage.sh
-amqp-consume -s 127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume -u amqp://127.0.0.1:5672 -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username=guest --password=guest -d ~/onmessage.sh
-amqp-consume --url="amqp://127.0.0.1:5672" -q "test" -e "amq.topic" --vhost "/" -r "worker1" --username="guest" --password="guest" -d ~/onmessage.sh
-amqp-publish -e "amq.topic" -r "worker1" -b "this is a test message"
-amqp-consume -d -u amqp://test:test@ustorageprod/%2f -q queue.udrive.admin.uiscsi -e "directExchangeUdrive" -r "" /bin/bash onmessage.sh
-amqp-consume -x 10 -a my-queue
-amqp-consume -x 10 -q my-queue
-amqp-consume amq.topic/# My-Exchange/my.routing.key my-queue
-amqp-publish < onmessages.sh
-amqp-publish < onmessage.sh
-amqp-publish -n amq.topic/my.topic.routing.key < onmessage.sh
-amqp-publish  amq.topic/my.topic.routing.key < onmessage.sh
-amqp-publish amq.topic/route.one/route.two < onmessage.sh
-node -v
-sudo npm install -g --unsafe-perm node-red
-node-red
-npm install node-red-contrib-amqp
-sudo systemctl start rabbitmq-server
-sudo systemctl enable rabbitmq-server
-wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
-sudo dpkg -i erlang-solutions_1.0_all.deb
-udo apt-get update
-sudo apt-get update
-sudo apt-get install erlang erlang-nox
-sudo apt-get install rabbitmq-server
-sudo systemctl enable rabbitmq-server
-sudo systemctl start rabbitmq-server
-sudo service rabbitmq-server start
-service rabbitmq-server start
-sudo service rabbitmq-server start
-curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.deb.sh | sudo bash
-sudo chown -R aghiles net
-mininet/util/install.sh -nfv
-cd /home/aghiles/Aghiles/Program/C/bin/onos
-tools/build/onos-buck build onos --show-output
-./2_controller 
-ssh-keygen -f "/home/aghiles/.ssh/known_hosts" -R [localhost]:8101
-cd 6lbr/examples/ipv6/slip-radio/
-make TARGET=zoul savetarget
-BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
-sudo BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
-sudo make slip-radio.upload PORT=/dev/ttyUSB0
-git clone https://github.com/cetic/6lbr
-cd 6lbr
-git submodule update --init --recursive
-cd examples/6lbr
-ls
-make all
-make plugins
-make tools
-sudo make install
-sudo make plugins-install
-sudo update-rc.d 6lbr defaults
-cd /etc/6lbr/
-gedit /etc/6lbr/6lbr.conf
-sudo gedit /etc/6lbr/6lbr.conf
-gedit /etc/network/interfaces
-git init
-ping google.com
-cd ~/Downloads/6lbr/examples/ipv6/slip-radio/
-make TARGET=zoul savetarget
-sudo BOARD=remote make login PORT=/dev/ttyUSB0
-cd Downloads/
-cd /home/aghiles/Downloads/6lbr/examples/ipv6/slip-radio/
-make TARGET=zoul savetarget
-sudo BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0
-cd /user/contiki/examples/mqtt
-cd ../..
-ls
-cd 
-cd ~/Downloads/6lbr/examples/ipv6/slip-radio/
-cd ~/Downloads/6lbr/apps/mqtt
-BOARD=remote make mqtt-example.upload PORT=/dev/ttyUSB1
-BOARD=remote make mqtt.upload PORT=/dev/ttyUSB1
-cd ~/Downloads/6lbr/examples/cc2538-common/mqtt-demo
-BOARD=remote make mqtt-demo.upload PORT=/dev/ttyUSB1
-BOARD=remote make login PORT=/dev/ttyUSB0
-sudo BOARD=remote make login PORT=/dev/ttyUSB0
-cd ~/Downloads/6lbr/examples/cc2538-common/mqtt-demo
-sudo BOARD=remote make login PORT=/dev/ttyUSB1
-make TARGET=zoul savetarget
-sudo BOARD=remote make login PORT=/dev/ttyUSB1
-sudo gedit /etc/mosquitto/mosquitto.conf
-sudo echo "
-MODE=ROUTER
-RAW_ETH=0
-BRIDGE=1
-DEV_BRIDGE=br0
-DEV_TAP=tap0
-DEV_ETH=ens33
-RAW_ETH_FCS=0
-DEV_RADIO=/dev/ttyUSB0
-BAUDRATE=115200
-LOG_LEVEL=3
-" > /etc/6lbr/6lbr.conf
-sudo -s
-sudo service 6lbr restart
-sudo service 6lbr status
-sudo gedit /etc/network/interfaces
-sudo /etc/init.d/networking restart
-sudo ifconfig
-./x-compile 
-sudo gedit /etc/6lbr/6lbr.conf
-sudo -s
-sudo service 6lbr stop
-./x-compile 
-sudo service 6lbr restart
-gedit 6lbr-start
-./6lbr-start 
-sudo service 6lbr status
-gedit border-config
-sudo ifconfig
-gedit /etc/6lbr/6lbr.conf
-redshift -O 3500
-redshift -t DAY:NIGHT
-redshift -t 6500:5000
-redshift -b 1.0:0.6
-reshift -t 6500:5000 -b 1.0:0.8
-redshift -t 6500:5000 -b 1.0:0.8
-redshift -O 3500
-redshift -O 4500
-redshift -O 2500
-redshift -O 1500
-redshift -O 2500
-redshift -O 1500
-redshift -O 500
-redshift -O 1000
-redshift -O 2000
-redshift -O 1000
-redshift -3 1000
-redshift -1 1000
-redshift -0 1000
-redshift -O 1000
-sudo apt install redshift
-redshift
-man redshift
-sudo redshift
-apt install gtk-redshift
-sudoapt install gtk-redshift
-sudo apt install gtk-redshift
-gtk-redshift
-sudo gtk-redshift
-sudo apt install redshif
-sudo apt search redshif
-sudo apt install redshif
-sudo apt install gtk-redshif
-sudo apt install redshif-gtk
-sudo apt install sct
-sct
-man xrandr 
-redshift -O 1000
-redshift -O 2000 -g 1
-redshift -O 1000 -g 1
-redshift -O 2000 -g 1
-redshift -O 2000 -g .4
-redshift -O 2000 -g .7
-redshift -O 2000 -g 1
-redshift -O 1000
-redshift -O 3000 -g 0.5
-redshift -O 3000 -g 0.7
-redshift -O 1000 -g 0.2
-redshift -O 1000 -g 0.Y
-redshift -O 1000 -g 0.9
-redshift -O 1000 -g 0.5
-redshift -O 2000 -g 0.5
-redshift -O 2000 -g 1.5
-redshift -O 2000 -g 1
-redshift -O 1000 -g 1
-redshift -O 2000 -g 1
-redshift -O 1500 -g 1
-redshift -O 1500 -g .5
-redshift -O 3500 -g .5
 redshift -O 2000 -g .5
 for f in src/* ; do  echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
 for f in src/* ; do  rm "`dirname "$f"`/.*"; echo "[LATEX]\nmaster-filename = ../../paper.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ;  done
@@ -1960,6 +1650,9 @@ vagrant reload
 grep -ri force
 cle Bandit 0  
 ./pull 
+<<<<<<< HEAD
+./push 
+=======
 wget https://docs.google.com/spreadsheets/d/1KDSMgX5xYI4W0t8kqUxonQQNWmfSk6YzCtl_SCwGgiY/edit#gid=499000135
 u
 echo -e '#!/usr/bin/php\n<?php phpinfo(); ?>' > Accueil.php 
@@ -1994,7 +1687,314 @@ cd ..
 cle preading 0
 cle "-137" 0
 cle "\-137" 0
+<<<<<<< HEAD
 sudo apt install matlab-support
 sudo apt install matlab
 sudo apt install matlab-support
 su
+=======
+>>>>>>> bd1ec70f8611a2d4b750bbb13a6003c019d2a73a
+chrome-gnome-shell 
+sudo apt install chromium
+chromium 
+cle spreading 0
+httrack https://scikit-learn.org/stable/
+sudo apt -y install ipython
+ipython --version
+pip3 install jupyter
+sudo apt -y install python3 python3-pip python3-dev
+pip3 --version
+sudo apt-get remove python3-pip; sudo apt-get install python3-pip
+pip3
+pip3 install jupyter
+useradd -M jupyter
+jupyter notebook --help
+python exercise_02_sentiment.py 
+evince index.rst
+gnome-control-center
+gnome-tweaks
+gnome-tweak-tool 
+gnome-control-center
+git clone /media/aghiles/Aghiles/Administration
+./push 
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+gnome-control-center
+./push 
+mailspring 
+pkill mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+cd /media/aghiles/Aghiles/Mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
+mailspring 
+pkill mailspring
+mailspring 
+sudo mailspring 
+grep -ri 000005 
+mailspring 
+pkill mailspring 
+mailspring 
+pkill mailspring
+mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/Local Strage"
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/Local Storage"
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/"
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf "/media/aghiles/Aghiles/Mailspring/uu/*" "/home/aghiles/.config/Mailspring/"
+ln -srf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+mailspring 
+pkill mailspring
+mailspring 
+pkill mailspring
+mailspring 
+pkill mailspring
+mailspring 
+pkill mailspring 
+mailspring 
+pkill mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
+mailspring 
+ln -sTf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
+ln -sf /media/aghiles/Aghiles/alternate/* /home/aghiles/.mozilla/firefox/ao16oe4p.default/
+firefox
+firefox -h
+firefox -P azert
+firefox 
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
+chromium 
+chromium google.com
+chromium 
+xdg-open
+grep -ri firefox
+apt install encfs
+sudo apt install encfs
+gnome-tweak-tool 
+sudo apt install tagspace
+sudo apt install gnome-taquin 
+sudo apt install tagspaces
+sudo add-apt-repository ppa:elementary-os/daily
+gnome -v
+tracker-tag
+sudo apt install tracker-tag
+sudo apt install tracker-gui
+tracker-gui
+tracker
+tracker-preferences 
+tracker-needle 
+tagspaces 
+tracker tag -s
+tracker tag -t
+tracker tag -t -s
+tracker tag -ts
+tracker tag -ts todo
+tracker tag -ts
+xd
+tracker tag -ts
+traC
+tracker jsk
+tracker tag
+tracker tag -t jsk
+tracker tag -t jskl
+tracker tag -t jsk
+tracker tag -d jsk
+tracker -t
+tracker tag -t
+tracker tag -s
+xd
+wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_i386.deb
+wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_amd64.deb
+sudo apt install ./tagspaces_1.8.5_amd64.deb
+tagspaces 
+xd
+gedit
+gedit .local/share/nautilus-python/extensions/todo.py
+cd .local/share/nautilus/scripts/
+ls
+gedit todo.py
+nautilus
+nautilus -q
+gedit todo
+nautilus -q
+xd
+tracker tag -a todo ./locale
+tracker tag -a todo file:///Downloads
+tracker tag -a todo /Downloads
+tracker tag -a todo file:///home/aghiles/Downloads
+xd
+cd IA
+make
+sudo pip install sphinx sphinx-gallery numpydoc matplotlib Pillow pandas scikit-image joblib
+sudo pip3 install sphinx sphinx-gallery numpydoc matplotlib Pillow pandas scikit-image joblib
+cd doc/
+make latexpdf
+cd doc/
+pip install --editable ..
+cd doc/
+make latexpdf
+git clone https://github.com/scikit-learn/scikit-learn.git
+cd scikit-learn/
+cd doc/
+pip install --editable ..
+pip3 install --editable ..
+pip3 install sklearn
+pip3 install --editable ..
+sudo pip3 install --editable ..
+make latexpdf
+pip install --editable ..
+pip3 install --editable ..
+pip install --editable ..
+pip3 install --editable ..
+sudo pip3 uninstall scikit-learn
+pip3 install --editable ..
+sudo pip3 uninstall sklearn
+pip3 install --editable ..
+sudo pip install numpy
+sudo pip3 install numpy
+pip --version
+sudo pip install --upgrade scikit-learn
+sudo pip3 install --upgrade scikit-learn
+sudo pip3 install --upgrade sklearn
+sudo pip3 install --editable ..
+sudo pip3 install --upgrade numpy
+sudo pip3 install --editable ..
+sudo pip3 install Cython
+sudo pip3 install --editable ..
+sudo make latexpdf
+firefox
+gedit
+cle heterog 0
+cle spreading 2
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./compile 
+mkdir uu
+cd uu
+httrack https://www.sghoslya.com/
+cle spreading 0
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+cd ..
+./compile 
+sudo apt install php-mysqli
+php -S localhost:8000
+cd test/
+sudo php MonProfil.php > page.html ; firefox page.html
+sudo php Accueil..php > page.html ; firefox page.html
+sudo php Accueil.php > page.html ; firefox page.html
+grep -ri bin
+./Accueil.php 
+sed -ie 's/\r//' *.php
+./Accueil.php 
+./MonProfil.php 
+php MonProfil.php 
+php
+sudo apt install php
+php MonProfil.php 
+php Accueil.php 
+php ConnexionBDD.php
+php VerifConnex.php
+php Inscription.php
+php ConnexionBDD.php
+sudo php ConnexionBDD.php
+mysql -u user -p data_base_name_here < db.sql
+mysql -u root -p Web < sql/Web.sql
+cd u/sql/
+mysql -u root -p Web < Web.sql
+sudo mysql -u root -p Web < Web.sql
+sudo mysql -u root -p < Web.sql
+sudo mysql -u root -p Web < Web.sql
+sudo mysql -uroot -proot < Web.sql
+cd ..
+ls
+php ConnexionBDD.php
+sudo php ConnexionBDD.php
+sudo php ConnexionBDD2.php
+php ConnexionBDD2.php
+php Accueil.php 
+php Inscription.php
+sudo php Inscription.php
+sudo php VousData.php
+sudo 
+sudo php MonProfil.php
+sudo php MonProfil.php | firefox
+sudo php MonProfil.php > page.html ; firefox page.html
+sudo php Accueil.php > page.html ; firefox page.html
+sudo php Vous.php > page.html ; firefox page.html
+sudo php MonProfil.php > page.html ; firefox page.html
+ls
+cd ..
+php -S localhost:8000 -t test/
+php -S localhost:8000 -t test
+php -S localhost:8000 -t /
+php -S localhost:8000 -t .
+cd ..
+cd Web
+php -S localhost:8000 -t .
+ls
+php -S localhost:8000 -t .
+php -S localhost:8000 -t test/
+ls
+php -S localhost:8000 -t .
+sudo php -S localhost:8000 -t .
+firefox
+firefox
+grep -ri Vousaff
+gedit runWeb
+sudo php -S localhost:8000 -t .
+grep -ri vousaff
+texdoc pgfplots
+pkill mailspring 
+./rm
+cd "/home/aghiles/Aghiles/Tool"
+./rm 
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+git status
+git add -all
+git add --all
+git status
+./rm 
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+touch ~/Templates/Empty\ Document
+mkdir Templates
+touch ~/Templates/Empty\ Document
+nautilus -q
+gedit ~/.config/user-dirs.dirs
+xd
+wireshark 
+sudo wireshark 
+sudo apt install mendelly
+sudo apt-get install mendeleydesktop
+sudo apt-get install mendeley
+sudo apt-cache search mendeley
+sudo apt install xapers
+xapers
+wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
+sudo apt install ./mendeleydesktop-latest.deb 
+mendeleydesktop 
+cle spreading 0
+pdf2txt
+cle spreading 0
+cle "Ochoa.*spreading" 0
+cle "spreading" 0 | grep Ochoa
+cle "spreading.*graph" 0
+cle "graph.*spreading" 0
+cle "spreading factor" 0
+cle "spreading factor" 0 | ochoa
+cle "spreading factor" 0 | grep ochoa
+cle "spreading factor" 0 | grep Ochoa
+>>>>>>> 651c4be74aa8767e962581fc04a0382c539c7578
