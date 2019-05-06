@@ -1,7 +1,3 @@
-mosquitto_
-mosquitto_pub
-sudo apt remove mosquitto 
-sudo apt remove --purge mosquitto 
 sudo apt autoremove 
 ls /etc/mosquitto2
 locate mosquitto
@@ -1998,3 +1994,7 @@ cd ..
 cle preading 0
 cle "-137" 0
 cle "\-137" 0
+sudo apt install matlab-support
+sudo apt install matlab
+sudo apt install matlab-support
+su
