@@ -1,29 +1,3 @@
-redshift -O 1000
-redshift -3 1000
-redshift -1 1000
-redshift -0 1000
-redshift -O 1000
-sudo apt install redshift
-redshift
-man redshift
-sudo redshift
-apt install gtk-redshift
-sudoapt install gtk-redshift
-sudo apt install gtk-redshift
-gtk-redshift
-sudo gtk-redshift
-sudo apt install redshif
-sudo apt search redshif
-sudo apt install redshif
-sudo apt install gtk-redshif
-sudo apt install redshif-gtk
-sudo apt install sct
-sct
-man xrandr 
-redshift -O 1000
-redshift -O 2000 -g 1
-redshift -O 1000 -g 1
-redshift -O 2000 -g 1
 redshift -O 2000 -g .4
 redshift -O 2000 -g .7
 redshift -O 2000 -g 1
@@ -1998,3 +1972,29 @@ grep -ri vousaff
 texdoc pgfplots
 pkill mailspring 
 ./rm
+cd "/home/aghiles/Aghiles/Tool"
+./rm 
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+git status
+git add -all
+git add --all
+git status
+./rm 
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+touch ~/Templates/Empty\ Document
+mkdir Templates
+touch ~/Templates/Empty\ Document
+nautilus -q
+gedit ~/.config/user-dirs.dirs
+xd
+wireshark 
+sudo wireshark 
+sudo apt install mendelly
+sudo apt-get install mendeleydesktop
+sudo apt-get install mendeley
+sudo apt-cache search mendeley
+sudo apt install xapers
+xapers
+wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
+sudo apt install ./mendeleydesktop-latest.deb 
+mendeleydesktop 
