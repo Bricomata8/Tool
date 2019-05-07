@@ -1,48 +1,3 @@
-gcc serv.c -o serv 
-gcc client.c -o client
-./serv 
-sudo ./serv 
-grep -ri ospf
-grep -ri vlan
-./udp_talker 
-./udp_listner 
-sudo ./client 
-format *.c
-gcc serv.c 
-gcc client.c 
-sudo ./serv 
-sudo ./client 
-ls
-./udp_talker 
-./udp_listner 
-pkill mailspring 
-sudo apt install lbd
-grep -ri --color=auto pinterest
-pkill mailspring 
-svn-git https://github.com/Bricomata8/Tool/tree/afa6af9ce7e02b3d0c216020c10ffe984ebab516/config/Local%20Storage/leveldb
-cd Desktop/
-svn export https://github.com/Bricomata8/Tool/trunk/config/Local Storage/leveldb
-svn export "https://github.com/Bricomata8/Tool/trunk/config/Local Storage/leveldb"
-ls
-pkill mailspring 
-svn export "https://github.com/Bricomata8/Tool/trunk/config/Local Storage/leveldb"
-sudo apt remove mailspring
-sudo apt remove --purge mailspring
-sudo apt autoremove
-sudo apt autoclean
-sudo snap install mailspring
-mailspring 
-mailspring
-sudp apt install mailspring
-sudo apt install mailspring
-sudo apt install mailspring.deb
-sudo apt install ./install mailspring.deb
-sudo apt install ./mailspring.deb
-mailspring
-pkill mailspring 
-wget https://updates.getmailspring.com/download?platform=linuxDeb
-mailspring 
-sudo mailspring 
 mailspring 
 sudp snap remove  mailspring
 sudo snap remove  mailspring
@@ -1998,3 +1953,48 @@ pkill mailspring
 sudo apt install ./mailspring-1.6.1-amd64.deb 
 pkill mailsync.bin 
 pkill mailspring
+netbeans 
+cd "/home/aghiles/Downloads/JFrameExample/src"
+javac TestFrameExample.java 
+java TestFrameExample 
+javac TestFrameExample.java 
+java TestFrameExample 
+javac TestFrameExample.java 
+java TestFrameExample 
+javac TestFrameExample.java 
+java TestFrameExample 
+javac TestFrameExample.java 
+java TestFrameExample 
+javac TestFrameExample.java 
+java TestFrameExample 
+grep -ri SpellBarComponent
+javac GameFrame.java 
+pkill mailspring 
+cle pin
+cle pin 0
+cle pin 0 | Pham
+cle pin 0 | grep Pham
+wireshark 
+sudo wireshark 
+sudo mv mp.pcapng aghiles/
+sudo wireshark 
+texdod pgfplot
+texdoc pgfplot
+evince tikz2pdf_temp.pdf 
+sudo apt install inkscape
+sudo apt reove --purge matlab-support
+sudo apt remove --purge matlab-support
+sudo apt install inkscape
+sudo apt autoremove 
+sudo apt install inkscape
+inkscape
+sudo apt install incscape
+texdoc pgfplot
+texdoc pgfplot
+cd Downloads/tikz2pgf/
+gedit tmp.tkz
+gedit tmp.tkz &
+mv tmp.tkz tmp.tikz
+gedit tmp.tkz &
+ls
+./tikz2pdf_beamer_plot tmp.tikz 
