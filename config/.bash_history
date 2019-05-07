@@ -1,7 +1,3 @@
-serv.v
-gedit serv.v
-gedit client.c
-gcc client.c 
 gcc serv.c -o serv 
 gcc client.c -o client
 ./serv 
@@ -1998,3 +1994,7 @@ matlabx LoRa_Modulation
 matlab
 matlabx Lora_Symbol_Generation.m 
 matlabx Lora_Symbol_Generation
+pkill mailspring 
+sudo apt install ./mailspring-1.6.1-amd64.deb 
+pkill mailsync.bin 
+pkill mailspring
