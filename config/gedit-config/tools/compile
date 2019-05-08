@@ -1,17 +1,17 @@
 #!/bin/bash
 # [Gedit Tool]
+# Save-files=document
+# Languages=
 # Name=compile
+# Shortcut=<Alt>x
 # Input=document
 # Output=output-panel
 # Applicability=all
-# Save-files=document
-# Shortcut=<Alt>x
-# Languages=
 
 
 cd $GEDIT_CURRENT_DOCUMENT_DIR
-./compile
+./compile $GEDIT_CURRENT_DOCUMENT_PATH
 cd ..
-./compile
+./compile $GEDIT_CURRENT_DOCUMENT_PATH
 cd ..
-./compile
+./compile $GEDIT_CURRENT_DOCUMENT_PATH
