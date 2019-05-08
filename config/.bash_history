@@ -1,55 +1,3 @@
-scp ~/.ssh/id_rsa.pub BRICOMATA8@aghilesDJ35B:~/.ssh/authorized_keys/id_rsa.pub
-scp ~/.ssh/id_rsa.pub BRICOMATA8@dell:~/.ssh/authorized_keys/id_rsa.pub
-scp ~/.ssh/id_rsa.pub BRICOMATA8@127.0.0.1:~/.ssh/authorized_keys/id_rsa.pub
-scp ~/.ssh/id_rsa.pub BRICOMATA8@github.com:~/.ssh/authorized_keys/id_rsa.pub
-./push 
-./pu
-./push 
-ssh-keygen -t rsa
-firefox https://github.com/settings/keys
-firefox https://github.com/BRICOMATA8
-./push 
-./pull
-ssh-keygen -t rsa
-./push
-./push 
-./pull
-./push 
-./pull
-./link8
-grep -ri --color=auto set-url
-grep -ri --color=auto "set-url"
-chromium 
-./x-compile 
-git clone git://github.com/mkovatsc/Copper.git
-ln -s file:///home/aghiles/Downloads/yy  file:///home/aghiles/Downloads/yj
-ln -s /home/aghiles/Downloads/yy /home/aghiles/Downloads/yj
-ln -s /home/aghiles/Downloads/yy /home/aghiles/Downloads/yp
-ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yo
-ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yp/
-ln -s /home/aghiles/Downloads/yy/ /home/aghiles/Downloads/yPP/
-ln -s ~/Downloads/yy ~/Downloads/yPP
-ln -sf ~/Downloads/yy ~/Downloads/yPP
-ln -s ~/Downloads/yy ~/Downloads/yPP
-ln -sr ~/Downloads/yy ~/Downloads/yPP
-ln -s ~/Downloads/yy ~/Downloads/yPP
-ln ~/Downloads/yy ~/Downloads/yPP
-ln -r ~/Downloads/yy ~/Downloads/yPP
-ln -s ~/Downloads/yy ~/Downloads/yPP
-ln -sf $directory/config/.hidden /home/aghiles/.hidden
-ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
-ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
-ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
-ln -sf $directory/config/.zotero /home/aghiles/.zotero
-ln -sf $directory/config/gedit-config /home/aghiles/.config/gedit
-ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share/gedits
-ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
-ln -sf $directory/config/.hidden /home/aghiles/.hidden
-ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
-ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
-ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
-ln -sf $directory/config/.zotero /home/aghiles/.zotero
-ln -sf $directory/config/gedit-config /home/aghiles/.config/gedit
 ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share/gedit
 ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
 ./x-compile 
@@ -1998,3 +1946,55 @@ xxt figure1.tex && evince bin/tg.pdf
 cd "/home/aghiles/Aghiles/Redaction/1/res/tikz"
 ./compile 
 plot-norm figure1.tex 
+curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.1016/j.algal.2015.04.001
+gedit
+curl -o shen.json https://api.crossref.org/works/10.1186/s12916-015-0469-2
+head shen.json 
+curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.1016/j.algal.2015.04.001
+@article{Kouhia_2015,
+doi = {10.1016/j.algal.2015.04.001},
+url = {http://dx.doi.org/10.1016/j.algal.2015.04.001},
+year = 2015,
+month = {jul},
+publisher = {Elsevier {BV}},
+volume = {10},
+pages = {41--47},
+author = {Mikko Kouhia and Henrik Holmberg and Pekka Ahtila},
+title = {Microalgae-utilizing biorefinery concept for pulp and paper industry: Converting secondary streams into value-added products},
+journal = {Algal Research}
+xx
+gre main
+grep main
+grep -r main
+cd "/home/aghiles"
+javac Production.java 
+java Production
+cd ii/
+javac Personnel.java 
+gedit Employe.java
+cd "/home/aghiles/ii"
+javac Personnel.java 
+java Personnel
+java -d bin Personnel
+java -d=bin Personnel
+javac -d bin Personnel.java 
+java -cp bin Personnel
+grep -ri calculerHoraire
+java -cp bin Personnel
+javac -d bin Personnel.java 
+java -cp bin Personnel
+javac -d bin Personnel.java 
+java -cp bin Personnel
+javac -d bin Personnel.java 
+java -cp bin Personnel
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+./compile 
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+./compile 
+pdftk draft.pdf cat 2-3 output outfile_p12-15.pdf
+pdftk  cat draft.pdf TPJava.pdf output outfile_p12-15.pdf
+pdftk draft.pdf TPJava.pdf cat output outfile_p12-15.pdf
+ls
+evince outfile_p12-15.pdf 
+pdftk
+sudo apt install pdftk
