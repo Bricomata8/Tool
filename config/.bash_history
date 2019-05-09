@@ -1,31 +1,3 @@
-sudo apt install virtualbox
-echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
-sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
-sudo -s
-sudo ap
-ls
-sudo aot update
-sudo apt update
-apt-cache search virtualbox 
-sudo apt install virtualbox
-sudo apt install virtualbox-6.0
-sudo gedit /etc/apt/sources.list
-gedit /etc/apt/sources.list
-sudo apt install virtualbox-6.0
-sudo apt install virtualbox-5.1 
-gedit /etc/apt/sources.list
-sudo -s
-sudo apt install virtualbox-5.1
-sudo apt update
-sudo apt install virtualbox
-sudo apt remove virtualbox-6.0 
-sudo apt update
-sudo apt autoremove 
-sudo apt install virtualbox
-gedit /etc/apt/sources.list
-sudo apt install virtualbox
-sudo apt install virtualbox-6.0
-sudo apt search virtualbox
 sudo apt install virtualbox-6.0
 sudo apt install virtualbox-6
 sudo apt install virtualbox
@@ -1998,3 +1970,31 @@ cd "/home/aghiles/.local/share/nautilus/scripts"
 ./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
 unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
 grep -ri ece-piscine
+nautilus -q
+touch ~/Templates/Empty\ Document
+nautilus -q
+cd ~/.local/share/nautilus/scripts/
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/scripts
+cd ~/.local/share/nautilus/scripts
+ls
+cd scripts
+ls
+rm -rf ~/.local/share/nautilus/scripts
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+nautilus ~/.local/share/nautilus/scripts
+wireshark 
+sudo wireshark 
+tcpdump
+sudo apt install tcpdump
+tcpdump
+sudo tcpdump
+sudo mysql -uroot -proot -e "create database projetweb"
+sudo mysql -uroot -proot < projetweb.sql 
+sudo mysql -uroot -proot projetweb < projetweb.sql 
+sudo mysql -uroot -p -e "create database projetweb"
+sudo mysql -uroot -p -e "create delete projetweb"
+sudo mysql -uroot -p -e "create database projetweb1"
+sudo mysql -uroot -p projetweb < projetweb.sql 
+unrar x PJ_WEB_2019_CHEN_MOUFID_YE.rar 
+unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
