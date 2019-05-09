@@ -1,46 +1,3 @@
-ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share/gedit
-ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
-./x-compile 
-gedit ~/.mozilla/firefox/mxrwdanl.default/extensions/copper@vs.inf.ethz.ch
-gedit /home/aghiles/Aghiles/Administration/Aghiles/Mozilla/firefox/mxrwdanl.default/extensions/copper@vs.inf.ethz.ch
-sudo apt update firefox
-sudo apt update
-sudo apt upgrade
-firefox -v
-./cccc 
-install.sh
-./install.sh
-gedit extension/endpoint/ClientPortChrome.js
-chromium 
-chromium 
-cd Aghiles/Administration/Aghiles/Mozilla/extensions/
-git clone https://github.com/mkovatsc/Copper4Cr.git
-cd Copper4Cr/
-install.sh
-./install.sh
-gedit copper@vs.inf.ethz.ch
-ls /home/aghiles/Aghiles/Administration/Aghiles/Mozilla/extensions/Copper/
-cd ~/.mozilla/firefox/xxxxxxxx.default/extensions/
-cd ~/.mozilla/firefox/*.default/extensions/
-ls
-gedit copper@vs.inf.ethz.ch 
-cd firefox/
-./firefox
-sudo apt install libstdc++
-./firefox
-./firefox-bin 
-gedit extension/endpoint/ClientPortChrome.js
-git status
-git log
-../ccc
-./ccc
-./cccc 
-wget https://ftp.mozilla.org/pub/firefox/releases/44.0/linux-i686/en-US/firefox-44.0.tar.bz2
-tar -xjf firefox-44.0.tar.bz2
-chromium 
-sudo apt install vagrant 
-sudo apt install virtualbox 
-sudo apt install virtualbox-ext-pack 
 sudo apt install virtualbox
 echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
 sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
@@ -1998,3 +1955,46 @@ ls
 evince outfile_p12-15.pdf 
 pdftk
 sudo apt install pdftk
+xdg-open 
+./campus 
+firefox
+grep -ri ECEZONE_bis
+grep -ri ECEZONE
+grep -ri ECEZONE_bis
+gedit
+runWeb 
+runWeb 
+sudo apt install unrar
+unrar x PJ_WEB_2019_CHEN_MOUFID_YE.rar 
+runWeb 
+cd Besraoui_Harafa_Mondesir/
+runWeb 
+runWeb 
+gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo php -S localhost:8000 -t anciens; $SHELL'"
+cd ECEZONE_bis
+ls
+sudo mysql -uroot -proot < testzone.sql 
+sudo mysql -uroot -proot testzone < testzone.sql 
+sudo mysql -uroot -proot testzone
+sudo mysql -uroot -proot testzone < CREATE DATABASE menagerie;
+mysql -u root -e "create database testdb"; 
+mysql -uroot -e "create database testdb"; 
+sudo mysq
+cd ECEZONE_bis
+ls
+gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo mysql -uroot -proot -e \"create database testzone\" < testzone.sql; $SHELL'"
+gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo mysql -uroot -proot -e \"create database testzone\" < /home/aghiles/Downloads/web/ECEZONE_bis/testzone.sql ; $SHELL'"
+./runWeb file:///home/aghiles/Downloads/web/PJ%20WEB%202019%20LANCMAN%20BORDENAVE%20CHANDRARAJAH/ECEAmazon/Projet/accueil.php 
+cd "/home/aghiles/.local/share/nautilus/scripts"
+./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
+./runWeb "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/Projet/accueil.php"
+gnome-terminal --tab --title="Serveur web" --command="bash -c 'ls'"
+./runWeb "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/Projet/accueil.php"
+cd "/home/aghiles/.local/share/nautilus/scripts"
+./runWeb "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/Projet/accueil.php"
+./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
+**
+./sql 
+./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
+unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
+grep -ri ece-piscine
