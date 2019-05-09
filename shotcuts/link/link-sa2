@@ -5,7 +5,7 @@ INPUT=`echo $INPUTb | tr -d '\n'`
 echo $INPUT
 
 
-xdg-open https://sci-hub.se/$INPUT
+xdg-open https://sci-hub.se/"$INPUT"
 
 #https://sci-hub.se/ May  2019
 #http://sci-hub.tw/ May 2019
