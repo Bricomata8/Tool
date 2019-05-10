@@ -1,132 +1,3 @@
-sudo apt install virtualbox-5.1
-sudo apt install virtualbox-6.0
-sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
-sudo -s
-sudo apt update
-sudo apt install virtualbox-5.1
-sudo apt install virtualbox-ext-pack
-sudo apt install virtualbox-5.1-ext-pack
-sudo apt install virtualbox
-sudo apt install vagrant 
-virtualbox 
-cd "/home/aghiles/Aghiles/Tool"
-./setup-3-shotcuts 
-git clone https://github.com/sdnwiselab/sdn-wise-java.git
-cd data/src/main/java/com/github/sdnwiselab/sdnwise
-ls
-cd mote/
-ls
-cd core
-ls
-./doc */*
-./doc
-./doc 
-ls
-./doc 
-cd ctrl/src/main/java/com/github/sdnwiselab/sdnwise
-ls
-aghilesDJ35B
-directory=~/Aghiles/Tool
-ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
-mv -rf /home/aghiles/.zotero /home/aghiles/.zotero2
-mv -f /home/aghiles/.zotero /home/aghiles/.zotero2
-rm -f /home/aghiles/.config/gedit /home/aghiles/.config/gedit2
-mv -f /home/aghiles/.config/gedit /home/aghiles/.config/gedit2
-mv -f /home/aghiles/.local/share/gedit /home/aghiles/.local/share/gedit2
-mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/*.default/extensions2 
-mv -f /home/aghiles/.mozilla/firefox/*.default/extensions /home/aghiles/.mozilla/firefox/extensions2 
-grep,-ri --color=auto sentilo
-grep-ri --color=auto sentilo
-grep -ri --color=auto sentilo
-evince 4L7B4HS6
-evince 4L7B4HS6/Master\ Thesis.pdf 
-./push 
-git status
-./pull
-rm .git/objects/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-./pull
-./push
-git fsck --full 
-rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-git fsck --full 
-rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-tail -n 2 .git/logs/refs/heads/master
-git update-ref HEAD
-git update-ref HEAD b75d480dcfae2103052c4bf209282e70bb05ef3b df3f638cd38945edd8f03ad971784d3fe1adf590
-git update-ref HEAD b75d480dcfae2103052c4bf209282e70bb05ef3b
-git update-ref HEAD df3f638cd38945edd8f03ad971784d3fe1adf59
-git update-ref HEAD df3f638cd38945edd8f03ad971784d3fe1adf590 b1c2b894c53f7a0e648969e9c8f4521eb1514c5c
-git update-ref HEAD df3f638cd38945edd8f03ad971784d3fe1adf590
-git update-ref HEAD b1c2b894c53f7a0e648969e9c8f4521eb1514c5c
-git reset
-./pull
-git update-ref HEAD 4820f85d87858bad4c8baf699fff2b3c675fcf26
-./pull
-git stash
-./pull
-git hash-object -w ./objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-git hash-object -w .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-./pull
-find /etc/.git/objects/ -size 0 -exec rm -f {} \;
-find .git/objects/ -size 0 -exec rm -f {} \;
-./pull
-rm .git/objects//48/20f85d87858bad4c8baf699fff2b3c675fcf26
-rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf20
-rm .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-rm -rf .git/objects/48/20f85d87858bad4c8baf699fff2b3c675fcf26
-git reset 
-tail -n 2 .git/logs/refs/heads/master
-git show commit_parent
-git show commit
-git add .
-git pull
-git merge
-git pull
-git push
-git clone /media/aghiles/Aghiles/Administration
-grep -ri "e Modular Sensor Board 430-H fr"
-pdfgrep -ri "Modular Sensor Board 430-H fr"
-evince "WP8TRJWI/Bregell_2015_Hardware and software platform for Internet of Things.pdf"
-httrack https://lora-alliance.org/
-httrack https://www.semtech.com
-git clone /media/aghiles/Aghiles/Administration
-cd documents/
-pdfpgrep -ri --color=auto module
-pdfgrep -ri --color=auto module
-grep -ri --color=auto module
-grep -ri --color=auto receiver
-pdfgrep -ri --color=auto receiver
-sudo apt search avahi-daemon
-sudo apt install avahi-daemon
-ssh pi@raspberrypi.local
-sudo /etc/init.d/avahi-daemon restart
-ssh pi@raspberrypi.local
-sudo ssh pi@raspberrypi.local
-cd /media/aghiles/boot/
-ls -ls boot
-ls -ls .
-cat config.txt
-gedit config.txt
-gedit cmdline.txt
-touch ssh
-ssh-keygen -R raspberrypi.local
-ping raspberrypi.local
-sudo apt-get install avahi-daemon
-sudo /etc/init.d/avahi-daemon restart
-ping raspberrypi.local
-ssh-keygen raspberrypi.local
-ssh-keygen -t raspberrypi.local
-ssh-keygen -t rsa raspberrypi.local
-ssh-keygen
-ssh-keygen -R pi@raspberrypi.local
-ssh pi@raspberrypi.local
-sudo ssh pi@raspberrypi.local
-ssh-keygen -R pi@raspberrypi.local
-ssh-keygen -t pi@raspberrypi.local
-ssh-keygen -R pi@raspberrypi.local
-touch ssh
 rm ssh 
 rm -rf ssh 
 sudo rm -rf ssh 
@@ -1998,3 +1869,132 @@ pkill mailspring
 cd "/home/aghiles/Aghiles/Redaction/0/slide/src"
 cd ..
 ./compile 
+cle arima 0
+cle aghiles 0
+grep -ri arima
+ls /home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A%20Relay%20and%20Mobility%20Scheme%20for%20QoS%20Improvement%20in%20IoT%20Communications.pdf 
+ls "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A%20Relay%20and%20Mobility%20Scheme%20for%20QoS%20Improvement%20in%20IoT%20Communications.pdf"
+ls "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
+nautilus "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/"
+cle ranking 0
+cle selection 0
+cle selection|heterogeneity|ranking 0
+cle "selection|heterogeneity|ranking" 0
+*
+cle "selection|heterogeneity|ranking" 0
+cle "selection|heterogeneity|ranking" 10
+cle "selection|heterogeneity|ranking" 9
+cle "selection|heterogeneity|ranking|sdn" 
+set -- 1 2 3 4 5
+echo "${@:0}"
+echo "${@:1}"
+echo "${@:2}"   # here
+echo "${@:-2}"   # here
+echo "${-2}"   # here
+set -- 1 2 3 4 5
+echo "${@: -1}"
+echo "${@: -2}"
+echo "${@: 2}"
+echo "${@: 3}"
+echo "${@: 1}"
+echo "${@: -1}"
+echo "${@: -5}"
+echo "${@: 1}"
+echo "${@: 2}"
+echo "${@: 2:1}"
+echo "${@: 2:5}"
+echo "${@: 2:-1}"
+echo "${@: 2:1}"
+echo "${@: 1:}"
+echo "${@: 1}"
+echo "${@: -1}"
+echo "${@: -é}"
+echo "${@: -2}"
+echo "${@: -3}"
+echo "${-3:@}"
+cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9
+cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 | uniq -d
+cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 | uniq -c | awk '$1 > 1 { print $2 }'
+cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 > tmp
+cle "selection" 9;cle "heterogeneity" 9;cle "ranking" 9 > tmp
+cle "selection|heterogeneity|ranking" 0
+cle "selection" 0
+cle "selection" hghg 0
+cle "selection" "hghg" 0
+cle "selection" 0
+cle "selection" 10
+cle "selection" heterogeneity 10
+cle "selection" "heterogeneity" 10
+cle "selection" "heterogeneity" 0
+cle "selection" 0
+cle "selection" "heterogeneity" 0
+cle "selection" "heterogeneity" 0 | uniq -d
+cle "selection" "heterogeneity" 0 | uniq -s 3
+cle "selection" "heterogeneity" 0 | uniq -s 3 -c2
+cle "selection" "heterogeneity" 0 | uniq -s 3 -c
+cle "selection" "heterogeneity" 0 | uniq -s 5 -c
+cle "selection" "selection" 0 | uniq -s 5 -c
+cle "selection" "selection" 0 | uniq -c
+cle "selection" "selection" 0 | uniq -cd
+cle "selection" "selection" 0
+cle "selection" "selection" 0 | uniq -cd
+cle "selection" "selection" 0 > tmp
+uniq -cd tmp 
+cat tmp | uniq -cd
+cat tmp
+sort tmp | uniq -cd | sort -nr
+cat tmp | uniq -cd | sort -nr
+sort tmp | uniq -cd | sort -nr
+sort tmp 
+sort tmp | uniq -cd
+sort tmp | uniq -cd | sort -nr
+cle "selection" "selection" 0 | uniq -cd | sort -nr
+cle "selection" "selection" 0 | sort - | uniq -cd | sort -nr
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr
+cle "selection" 0 | sort - | uniq -c | sort -nr
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" -F ":"  '$2 > d {print "\033[32m" $2, "\033[39m" $1}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" -F " "  '$1 > d {print "\033[32m" $2, "\033[39m" $1}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" -F " "  '$1 > d {print "\033[32m" $1, "\033[39m" $2}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $1, "\033[39m" $2}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $@, "\033[39m" $2}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $#, "\033[39m" $2}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0, "\033[39m" $2}'
+cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0}'
+cle "selection" "heterogeneity" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0}'
+cle "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0}'
+cle "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="0" '$1 > d {print "\033[32m" $0}'
+cle "selection" 10 | sort - | uniq -c | sort -nr | awk -v d="0" '$1 > d {print "\033[32m" $0}'
+cle heterogeneity 0 0
+cle heterogeneity hghg  0 0
+cle heterogeneity hghg 10 0
+cle heterogeneity sdn 10 0
+cle heterogeneity sdn 2 2
+cle heterogeneity sdn 1 1
+cle heterogeneity sdn 0 0
+cle heterogeneity sdn 0 1
+cle heterogeneity 0 1
+cle heterogeneity 0 0
+cle heterogeneity 2 0
+cle heterogeneity selection 2 0
+cle heterogeneity sdn 2 0
+cle heterogeneity lora 2 0
+cle heterogeneity lora 0 0
+cle sdn lora 0 0
+cle lora lora 0 0
+grep -ri for
+grep -ri done
+cle heterogeneity sdn 0 0
+man uniq
+cle heterogeneity sdn 0 2
+cle heterogeneity sdn 0 1
+cle mec sdn 0 1
+cle spreading lora 0 1
+nam sort | decr
+man sort | decr
+man sort | grep decr
+man sort
+man uniq
+man sort | grep skip
+man sort | grep field
