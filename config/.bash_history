@@ -1,73 +1,3 @@
-rm ssh 
-rm -rf ssh 
-sudo rm -rf ssh 
-sudo touche ssh
-sudo touch ssh
-ssh-keygen -R pi@raspberrypi.local
-ssh-keygen -r pi@raspberrypi.local
-sudo ssh-keygen -r pi@raspberrypi.local
-sudo ssh pi@raspberrypi.local
-ssh pi@raspberrypi.local
-ssh pi@raspberrypi.local
-ssh-keygen -R raspberrypi.local
-man ssh-keygen
-ssh-keygen -r raspberrypi.local
-ssh pi@raspberrypi
-ping raspberrypi.local
-./6lbr-stop 
-ping6 fe80::6108:cfe6:5801:88a6
-ping fe80::6108:cfe6:5801:88a6
-gedit /etc/network/interfaces
-ifconfig
-ip
-sudo ifconfig
-ssh pi@raspberrypi
-ssh-keygen -R raspberrypi.local
-ssh-keygen -r raspberrypi.local
-ssh pi@raspberrypi
-ssh pi@raspberrypi.local
-gedit /etc/network/interfaces
-sudo gedit /etc/network/interfaces
-ssh pi@raspberrypi.local
-sudo gedit /etc/network/interfaces
-ping 10.4.184.121
-ssh iPhone-de-Anthony.local
-sudo apt install avahi-*
-ssh pi@raspberrypi.local
-avahi-browse --all
-sudo /etc/init.d/avahi-daemon restart
-avahi-browse --all
-avahi-discover 
-avahi-resolve --address 18:81:0e:6d:1b:0a@fe80::1a81:eff:fe6d:1b0a.local
-avahi-resolve --address 18:81:0e:6d:1b:0a
-ssh 18:81:0e:6d:1b:0a@fe80::1a81:eff:fe6d:1b0a.local
-sudo ifconfig
-ssh pi@raspberrypi.local
-avahi-browse --all
-sudo avahi-browse --all
-sudo apt install avahi-browse
-avahi
-sudo apt install avahi
-svn-git https://github.com/Bricomata8/Redaction/blob/5287b27783ec435ef4fa811fbc51603053fdb4e9/setup/setup_these.tex
-svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
-svn-git https://github.com/Bricomata8/Redaction/blob/1cd188fabada47e6eec593120a997b11b9fba403/setup/setup_these.tex
-svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
-svn export https://github.com/Bricomata8/Redactiontrunk/setup/setup_these.tex
-svn export https://github.com/Bricomata8/Redaction/trunk/setup/setup_these.tex
-grep -ri --color=auto addcontentsline
-cd Aghiles/Redaction/0/
-addcontentsline
-grep -ri --color=auto addcontentsline
-cd ../setup/
-grep -ri --color=auto addcontentsline
-arduino
-sudo apt install arduino
-arduino
-cd "/home/aghiles/Aghiles/Redaction/setup"
-grep -ri --color=auto "./../main.bib"
-cd "/home/aghiles/Aghiles/Redaction/5/paper"
-grep -ri --color=auto "./../main.bib"
-httrach https://www.iot-lab.info/
 httrack https://www.iot-lab.info/
 sudo apt search mail-notification
 sudo apt install mail-notification
@@ -1998,3 +1928,73 @@ man sort
 man uniq
 man sort | grep skip
 man sort | grep field
+cle spreading lora 1 1
+cle lora lora 1 1
+cle spreading lora 1 1
+*
+cle spreading lora 1 1
+cle1 spreading lora 1 1
+cle spreading lora 1 1
+cle lora lora 1 1
+cle spreading lora 1 1
+cle lora lora 1 1
+*
+cle lora lora 1 1
+cle lora lora 1 1
+le lora lora 1 lora 1 1
+cle lora lora lora 1 1
+cle lora lora  1 1
+cle lora lora lora 1 1
+A
+cle lora lora lora 1 1
+d
+cle lora lora lora 1 1
+le lora lora lora 1 1
+cle lora lora lora 1 1
+cle spreading lora 1 1
+cle lora 1 1
+cle1 lora 1 1
+cle1 lora 1
+cle1 spreading 1
+cle spreading lora 1 1
+cle spreading spreading 1 1
+cle spreading data 1 1
+cle spreading 1 1
+cle spreading 1
+cle spreading 1 1
+cle spreading spreading 1 1
+cle spreading lora 10 1
+le spreading spreading 1 1
+cle spreading spreading 10 1
+le spreading spreading 3 1
+cle spreading spreading 3 1
+cle spreading lora 3 1
+cle spreading spreading 3 1
+cle spreading lora 3 1
+cle spreading spreading 3 1
+cle spreading lora 3 1
+cle spreading 3 1
+cle lora 3 1
+ls 3IHTM4ZY
+ls 47X67K95
+ls G6JTECZ2
+cle lora 3 1
+cle1 lora 3 1
+cle1 lora 7 1
+cle lora 7 1
+cle lora kjkj 7 1
+cle lora spreading 7 1
+ls DSDKZMDR
+cle lora spreading 7 1
+cle lora 7 1
+cle spreading 7 1
+le spreading 1 1
+cle spreading 1 1
+cle spreading 1
+le spreading 1 1
+cle spreading 1 1
+cle1 spreading 1 1
+cle spreading 1 1
+cle spreading 1 0
+cle lora 1 0
+echo "foobarbaz" | sed 's/^foo\(.*\)baz$/\1/'
