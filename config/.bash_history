@@ -1,7 +1,3 @@
-sudo apt install virtualbox-6.0
-sudo apt install virtualbox-6
-sudo apt install virtualbox
-sudo apt install virtualbox-6
 sudo apt install virtualbox-5.1
 sudo apt install virtualbox-6.0
 sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
@@ -1998,3 +1994,7 @@ sudo mysql -uroot -p -e "create database projetweb1"
 sudo mysql -uroot -p projetweb < projetweb.sql 
 unrar x PJ_WEB_2019_CHEN_MOUFID_YE.rar 
 unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
+pkill mailspring 
+cd "/home/aghiles/Aghiles/Redaction/0/slide/src"
+cd ..
+./compile 
