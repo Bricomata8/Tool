@@ -1,367 +1,3 @@
-httrack https://www.iot-lab.info/
-sudo apt search mail-notification
-sudo apt install mail-notification
-mail-notification
-pkill mailspring 
-sudo apt-get install firmware-linux
-sudo gedit /etc/sudoers
-gedit /etc/sudoers
-cat /ettc/sudoers
-cat /etc/sudoers
-su 
-sudo gedit /etc/sudoers
-usermod -a -G sudo aghiles
-sudo usermod -a -G sudo aghiles
-sudo -s
-su
-mail-notification
-git clone https://github.com/RIOT-OS/RIOT.git
-grep -ri --color=auto hetero
-firewox www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
-firewox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
-firefox ./www.iot-lab.info/new-open-nodes-available-on-lille-site/index.html
-firefox ./www.iot-lab.info/new-types-of-nodes-available-on-iot-lab-zolertia-firefly-and-arduino-zero/index.html:
-firefox ./www.iot-lab.info/publications/index.html
-<<<<<<< HEAD
-sudo cryptsetup
-sudo apt install cryptsetup
-cryptsetup
-./push 
-=======
-git status
-git add .
-git commit
-git pull
-firefox
-cd "/home/aghiles/Aghiles/Redaction/0/paper"
-mypath=`realpath "$0"`
-directory=`dirname "$mypath"`
-filename=`basename "$directory"`
-cd "$directory"
-filename=paper
-latexmk -f -cd -lualatex -output-directory=/tmp/bin -jobname=$filename $filename.tex
-cd "/home/aghiles/Aghiles/Redaction/0/paper"
-latexmk -f -cd -lualatex -output-directory=/tmp/bin -jobname=$filename $filename.tex
-./compile 
-./compile 
-*
-./compile 
-ln -sf /home/aghiles/Aghiles/Administration/Aghiles/Mozilla /home/aghiles/.mozilla
-./calendar 
-./install_debian_ubuntu 
-java -jar LaTeXDraw.jar 
-./install_linux 
-java -v
-java -version
-java
-sudo ./install_linux 
-/usr/bin/java
-/usr/bin/java -version
-./tikzedt 
-sudo apt install mono
-sudo apt search mono
-gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
-gsettings set org.gnome.desktop.interface gtk-theme Adwaita
-mkdir ty
-cd ty
-gedit ty
-mv ty ty.tex
-cd ty/
-xx ty.tex 
-./compile 
-./install_linux.txt 
-sudo apt-get install mono-complete
-./tikzedt 
-mkdir tt
-cd tt
-httrack http://www.texample.net/media/tikz/examples/TEX/
-httrack http://www.texample.net/media/tikz/examples/PNG/
-mkdir tikz
-cd tikz/
-httrack http://www.texample.net/
-sudo apt install poopler
-sudo apt install poppler
-sudo apt install poppler-utils 
-sudo apt install poppler-data 
-echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
-sudo apt-get update
-sudo apt-get install sbt
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
-sudo apt-get install sbt
-aptitude
-synaptic
-./opennlp
-./opennlp SimpleTokenizer help
-./opennlp SimpleTokenizer < salut
-./opennlp SimpleTokenizer < "salut"
-git clone https://github.com/knowitall/taggers.git
-sbt compile 'project taggers-webapp' run
-sudo apt install sbt
-sudo apt search sbt
-grep -r mende
-pl make.pl 
-perl make.pl 
-perl make.pl stubs_sprecification.tex 
-perl make.pl stubs_sprecification
-xx u.tex 
-mkdir learn
-cd learn/
-j
-httrack https://scikit-learn.org
-git clone https://github.com/fissehab/PDF_extraction_shinyApp.git
-pip install -U scikit-learn
-svn export https://github.com/scikit-learn/scikit-learn/tree/master/examples
-svn export https://github.com/scikit-learn/scikit-learn/trunk/examples
-mkdir ff
-cd ff
-svn export https://github.com/scikit-learn/scikit-learn/trunk/examples
-pip search web
-virtualenv
-sudo apt install virtualenv
-virtualenv aghiles
-cd aghiles
-ls ..
-source bin/activate
-pip install module
-pip install all
-pip install --all
-pip install *
-exit
-sudo apt install python3-all
-sudo apt install python3-*
-sudo apt remove python3-*
-sudo apt install python3-*
-sudo apt remove python3-caffe-cuda
-sudo apt install -y python3-*
-sudo pip install pip-conflict-checker
-sudo apt install -y python3-*
-sudo pip install -y python3-*
-sudo pip install python-*
-sudo pip install *
-pip freeze 
-sudo pip install python-*
-sudo apt install python-*
-python plot_gmm_pdf.py 
-sudo pip install module
-python plot_gmm_pdf.py 
-python3 plot_gmm_pdf.py 
-sudo pip3 install numpy
-python3 plot_gmm_pdf.py 
-sudo pip3 install matplotlib
-python3 plot_gmm_pdf.py
-sudo pip3 install sklearn
-python3 plot_gmm_pdf.py
-sudo pip3 install sklearn-mixture
-sudo pip3 install sklearn.mixture
-sudo pip3 install sklearn
-python3 plot_gmm_pdf.py
-gedit plot_gmm_pdf.py
-python3 plot_gmm_pdf.py
-python plot_gmm_pdf.py
-python plot_classifier_comparison.py 
-pip install matplotlib.pyplot
-pip install matplotlib
-sudo pip install matplotlib
-python plot_classifier_comparison.py 
-sudo pip install sklearn
-python plot_classifier_compa
-sudo pip install cross_validation
-python -v
-python -version
-python -V
-python3 plot_classifier_comparison.py 
-sudo pp3 install numpy
-sudo pip3 install numpy
-sudo apt install pip3
-sudo apt install pipe3
-sudo apt install pip3
-sudo apt-get install python-pip 
-sudo pip3 install numpy
-sudo apt-get install python3-pip 
-python plot_classifier_comparison.py 
-sudo apt-get install build-essential python-dev python-numpy python-numpy-dev python-scipy libatlas-dev g++ python-matplotlib ipython
-python plot_classifier_comparison.py 
-python plot_species_kde.py 
-python plot_outlier_detection.py 
-sudo apt-get install python3-*
-sudo apt-get install python3-all
-sudo apt-get install python3-aiopg
-sudo apt-get install python3-*
-sudo apt-get install -y python3-*
-sudo apt-get install python-*
-sudo apt-get install build-essential python3-dev python3-numpy python3-numpy-dev python3-scipy libatlas-dev g++ python3-matplotlib ipython
-pip3 install -U scikit-learn
-python plot_classification_probability.py 
-python plot_classifier_comparison.py 
-python bench_lasso.py 
-python plot_adjusted_for_chance_measures.py 
-./whats_missing.sh 
-sh whats_missing.sh 
-python sort_whats_new.py 
-python plot_calibration_multiclass.py 
-python plot_calibration.py 
-sed -i '1s/^/#!/usr/bin/python\n/' *.py
-sed -i '1s/^/\#!/usr/bin/python\n/' *.py
-sed -i '#!/usr/bin/python\n/' *.py
-gedit plot_kernel_approximation.py 
-sed -i '1s/^/#!/usr/bin/python\n/' *.py
-sed -ie '1s/^/#!/usr/bin/python\n/' *.py
-sed -ie '1s/^/\#!/usr/bin/python\n/' *.py
-sed -i '1s/^/\#!/usr/bin/python\n/' plot_multilabel.py 
-sed -i '/^/\#!/usr/bin/python\n/' plot_multilabel.py 
-sed -i '/^/#!/usr/bin/python\n/' plot_multilabel.py 
-gedit plot_multilabel.py 
-sed -i 's/^/#!/usr/bin/python\n/' plot_multilabel.py 
-sed -i 's/^/#!/usr/bin/python\n/g' plot_multilabel.py 
-sed 's/^/#!/usr/bin/python/' plot_multilabel.py 
-cp plot_multilabel.py test
-cat test 
-sed 's/^/#/' test 
-sed 's/^/#!/' test 
-sed 's/^/#!m/' test 
-sed 's/^/#/' test 
-sed 's/^/#!/usr/bin/python/' test 
-sed -i '1s/^/#!\/usr\/bin\/python\n/' *.py
-cat plot_multilabel.py 
-sed -i '1s/^/#!\/usr\/bin\/python\n/' */*.py
-sed -i '1s/^/#!\/usr\/bin\/python\n/' */*/*.py
-chmod -R u+x examples
-grep -ri --color=auto scikit
-evince VA7WCPZE/McHugh_Traffic\ Prediction\ and\ Analysis\ using\ a\ Big\ Data\ and\ Visualisation\ Approach.pdf 
-sudo apt-get install openjdk-8-jdk ant maven openvswitch-switch -y
-grep -ri --color=auto sklearn
-java -jar LaTeXDraw.jar 
-evince VA7WCPZE/McHugh_Traffic\ Prediction\ and\ Analysis\ using\ a\ Big\ Data\ and\ Visualisation\ Approach.pdf 
-git pull
-git pull Administration master
-git push
-git push Administration
-git push Administration master
-git push -u -f Administration master
-sed -i  '1s/^/#!\/usr\/bin\/python\n/' *.py
-chmod -R u+x *
-gedit add
-nautilus /home/aghiles/Aghiles/Program/R/src
-/§
-./plot_bicluster_newsgroups.py 
-ls
-evince B36RRXJQ/Zitouni_Paris_Architecture\ of\ Wireless\ Networks\ for\ IoT.pdf 
-grep -ri --color=auto grep
-gedit config/.bashrc
-grep -ri  grep
-firefox bonjour
-grep aghiles
-grep -r aghiles
-grep -ri --color=learn
-grep -ri --color=auto learn
-grep -ric --color=auto learn
-grep -rIcH 'learn' . | grep -v ':0$'
-grep -rIcH 'learn' --color=auto . | grep -v ':0$'
-grep -rIcH --color=auto learn | grep -v ':0$'
-grep -rIcH --color=auto learn | grep --color=auto -v ':0$'
-grep -rIcH --color=auto learn | grep --color=auto ':0$'
-grep -rIcH --color=auto learn | grep --color=auto -v ':0$'
-grep -rIcHl --color=auto learn
-grep -rIcl --color=auto learn
-grep -rIlc --color=auto learn
-grep -rIl -c --color=auto learn
-grep -rI -c --color=auto learn
-grep -ri -c --color=auto learn
-grep -ri -c -l --color=auto learn
-grep -rIcH 'string' . | grep -v ':0$'
-grep -rIcH 'string' . | grep --color=auto -v ':0$'
-grep learn | sort | uniq -c | sort -nr
-grep -ri -c -l --color=auto learn
-grep -ri -c --color=auto learn
-gedit cle
-man sort | grep "\-r"
-gedit y
-cat y 
-cat file1.txt 
-man sort | grep "\-d"
-man sort | grep "\-t"
-ls AKBEWXAX
-grep -ri -c  learn
-grep -ri -c  learn | grep *:[1-9]
-grep -ri -c  learn | grep -e *:[1-9]
-grep -ri -c  learn | egrep *:[1-9]
-grep -ri -c  learn
-grep -c   "learn" * |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
-grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
-grep -c   "learn" */* */*/* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
-grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "3"{print $1,$2}'
-grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -c   "learn" */* |sed -r "s/\s+//g"
-grep -c   "learn" */*
-grep -ri -c  learn | egrep *:[1-9]
-pdfgrep -ri -c  learn | egrep *:[1-9]
-grep -ri -c  learn | egrep *:[1-9]
-evince 3XSTERPC/Hancke\ et\ al_2012_The\ Role\ of\ Advanced\ Sensing\ in\ Smart\ Cities.pdf 
-grep -ri -c  learn* | egrep *:[1-9]
-grep -c   "learn" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -c   "learn.*" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -ric "learn.*" */* |sed -r "s/\s+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -ric "learn.*" */* | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -ric "learn.*" */* |sed -r "s/\s+//g"
-grep -ric "learn.*" */*
-grep -ric "learn.*"
-grep -ric "learn.*" |sed -r "s/\s+//g"
-grep -ric "learn.*" | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -ric "learn.*" | sed -r "s/\/[^:]+//g | awk -F ":"  '$2 > "4"{print $1,$2}'
-grep -ric "learn.*" | sed -r "s/\/[^:]+//g 
-grep -ric "learn.*" | sed -r "s/\/[^:]+//g" 
-grep -ric "learn.*" | sed -r "s/\/[^:]+//g" | awk -F ":"  '$2 > "4"{print $1,$2}'
-cle learn
-cle learn 4
-cle learn 5
-cle learn
-cle learn 5
-cle learn 15
-cle learn* 15
-ls KUSYAM4G/
-nautilus KUSYAM4G
-cle learn 15
-cle "learn*" 15
-cle "learn.*" 15
-evince XKXVNUZR/Zhang\ et\ al_2018_On\ relational\ learning\ and\ discovery\ in\ social\ networks.pdf 
-cle "learn.*" 15
-evince AMH4ZCA3/Debbah_Wireless\ AI.pdf 
-grep -ric "learn.*"
-pdfgrep -ric "learn.*"
-grep -ric "learn.*" */*.pdf
-cle "learn.*" 15
-grep -ric "learn.*" */*.pdf | awk -v d="$2" -F ":"  '$2 > 15 {print $1,$2}'
-grep -ric "learn.*" */*.pdf
-cle "learn.*" 5
-pdfgrep -r
-pdfgrep -r allo
-pdfgrep -r "learn.*"
-pdfgrep -r "learn*"
-cle "learn.*" 5
-cle "learn*" 5
-grep " [0-9]+"
-grep -r " [0-9]+"
-grep -r " \d+"
-grep -re " \d+"
-grep -rE " \d+"
-grep -rE " [0-9]+"
-cle "learn*" 5
-pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}' | grep -E " [0-9]+" 
-pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}'
-pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}' | grep -E " [0-9]+" 
-pdfgrep -ric "learn*" --include \*.pdf | sed -r "s/\.\///g" | awk -F ":"  '$2 > "5" {print $1,$2}' | grep -E " [0-9]+$" 
-cle "learn*" 5
-cle "learn*" 2
-grep -ric "learn" --include \*.pdf | sed -r "s/\.\///g"
-cle "learn*" 2
-cle "learn*" 15
-evince  MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf
-evince "    alias egrep='egrep --color=auto'"
-evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-cat > file1.txt
-sort -n file1.txt 
-sort -n -g file1.txt 
-sort -n  file1.txt 
 sort -nr  file1.txt 
 sort -nrg  file1.txt 
 sort -r  file1.txt 
@@ -1998,3 +1634,367 @@ cle spreading 1 1
 cle spreading 1 0
 cle lora 1 0
 echo "foobarbaz" | sed 's/^foo\(.*\)baz$/\1/'
+cle lora spreading 3 0
+ls DSDKZMDR
+cle lora 3 0
+cle1 lora 3 0
+cle lora 3 0
+cle1 lora 3 0
+cle lora 3 0
+cle lora spreading 3 0
+le lora spreading 3 1
+cle lora spreading 3 1
+cle lora spreading 3
+cle lora 3
+cle lora 100
+cle lora spreading 100
+cle lora spreading 10
+cle lora spreading bandwidth 10
+cle lora spreading 10
+cle selection 10
+cle selection gateway 10
+cle selection way 10
+cle selection network 10
+cle sdn lora 0
+pdf2txt
+cle sdn lora 0
+cle sdn 0
+cle sdn lora 0
+cle selection game 0
+cle game 0
+cle selection game 0
+cle selection lora 0
+cle selection "lora " 0
+cle clustering 0
+nautilus
+nautilus .
+cle clustering selection 0
+cle relay 0
+cle relay 0 | grep relay
+cle relay 0 | grep understand
+cle relay 0 | grep under
+cle relay 0 | grep Under
+ls ZD9EMX9M
+nautilus ZD9EMX9M
+nautilus PQG6CY6I/
+nautilus TYEY29I4/
+rm -r TYEY29I4
+cle relay 0 | grep Under
+nautilus Q8ZLNCV5
+rm -r Q8ZLNCV5
+cle qos 0 
+cle qos 10 
+cle qos selection 10 
+cle security 10 
+cle security jamming 10 
+cle security jamming 1 
+cle heterogen 1 
+cle heterogen lora 1 
+cle "heterogen.*lora" 1 
+cle "lora.*heterogen" 1 
+cle "lora*heterogen" 1 
+cle heterogen lora 1 
+cd "/home/aghiles/Aghiles/Redaction/0/res"
+cat bin/.compile 
+echo "
+\documentclass{article}
+\RequirePackage{luatex85}
+
+\usepackage{makecell}
+\usepackage{amssymb}
+\usetikzlibrary{mindmap,trees}
+\usepackage{tikz,nicefrac,amsmath,pifont}
+\usepackage{tikz-timing}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{eso-pic}
+\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
+\usepackage[graphics,tightpage,active]{preview}
+\PreviewEnvironment{tikzpicture}
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+
+
+\newlength{\imagewidth}
+\newlength{\imagescale}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
+
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
+\DeclareFontFamily{U}{MnSymbolA}{}
+\DeclareFontShape{U}{MnSymbolA}{m}{n}{
+  <-6> MnSymbolA5
+  <6-7> MnSymbolA6
+  <7-8> MnSymbolA7
+  <8-9> MnSymbolA8
+  <9-10> MnSymbolA9
+  <10-12> MnSymbolA10
+  <12-> MnSymbolA12}{}
+\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
+\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
+\def\res{../..}
+\pgfplotsset{
+table/search path={\res/data/},
+}
+
+\begin{document}
+
+\begin{tikzpicture}
+$rre
+\end{tikzpicture}
+
+\end{document}
+" > $template 
+echo "
+\documentclass{article}
+\RequirePackage{luatex85}
+
+\usepackage{makecell}
+\usepackage{amssymb}
+\usetikzlibrary{mindmap,trees}
+\usepackage{tikz,nicefrac,amsmath,pifont}
+\usepackage{tikz-timing}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{eso-pic}
+\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
+\usepackage[graphics,tightpage,active]{preview}
+\PreviewEnvironment{tikzpicture}
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+
+
+\newlength{\imagewidth}
+\newlength{\imagescale}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
+
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
+\DeclareFontFamily{U}{MnSymbolA}{}
+\DeclareFontShape{U}{MnSymbolA}{m}{n}{
+  <-6> MnSymbolA5
+  <6-7> MnSymbolA6
+  <7-8> MnSymbolA7
+  <8-9> MnSymbolA8
+  <9-10> MnSymbolA9
+  <10-12> MnSymbolA10
+  <12-> MnSymbolA12}{}
+\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
+\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
+\def\res{../..}
+\pgfplotsset{
+table/search path={\res/data/},
+}
+
+\begin{document}
+
+\begin{tikzpicture}
+$rre
+\end{tikzpicture}
+
+\end{document}
+" | $template= -
+template="\documentclass{article}
+\RequirePackage{luatex85}
+
+\usepackage{makecell}
+\usepackage{amssymb}
+\usetikzlibrary{mindmap,trees}
+\usepackage{tikz,nicefrac,amsmath,pifont}
+\usepackage{tikz-timing}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{eso-pic}
+\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
+\usepackage[graphics,tightpage,active]{preview}
+\PreviewEnvironment{tikzpicture}
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+
+
+\newlength{\imagewidth}
+\newlength{\imagescale}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
+
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
+\DeclareFontFamily{U}{MnSymbolA}{}
+\DeclareFontShape{U}{MnSymbolA}{m}{n}{
+  <-6> MnSymbolA5
+  <6-7> MnSymbolA6
+  <7-8> MnSymbolA7
+  <8-9> MnSymbolA8
+  <9-10> MnSymbolA9
+  <10-12> MnSymbolA10
+  <12-> MnSymbolA12}{}
+\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
+\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
+\def\res{../..}
+\pgfplotsset{
+table/search path={\res/data/},
+}
+
+\begin{document}
+
+\begin{tikzpicture}
+$rre
+\end{tikzpicture}
+
+\end{document}
+"
+echo $tt
+echo $template 
+echo "$template" 
+template="\documentclass{article}
+\RequirePackage{luatex85}
+
+\usepackage{makecell}
+\usepackage{amssymb}
+\usetikzlibrary{mindmap,trees}
+\usepackage{tikz,nicefrac,amsmath,pifont}
+\usepackage{tikz-timing}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{eso-pic}
+\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
+\usepackage[graphics,tightpage,active]{preview}
+\PreviewEnvironment{tikzpicture}
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+
+
+\newlength{\imagewidth}
+\newlength{\imagescale}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
+
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
+\DeclareFontFamily{U}{MnSymbolA}{}
+\DeclareFontShape{U}{MnSymbolA}{m}{n}{
+  <-6> MnSymbolA5
+  <6-7> MnSymbolA6
+  <7-8> MnSymbolA7
+  <8-9> MnSymbolA8
+  <9-10> MnSymbolA9
+  <10-12> MnSymbolA10
+  <12-> MnSymbolA12}{}
+\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
+\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
+\def\res{../..}
+\pgfplotsset{
+table/search path={\res/data/},
+}
+
+\begin{document}
+
+\begin{tikzpicture}
+"+
+$rre+
+"
+\end{tikzpicture}
+
+\end{document}
+"
+template="
+\documentclass{article}
+\RequirePackage{luatex85}
+
+\usepackage{makecell}
+\usepackage{amssymb}
+\usetikzlibrary{mindmap,trees}
+\usepackage{tikz,nicefrac,amsmath,pifont}
+\usepackage{tikz-timing}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{eso-pic}
+\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
+\usepackage[graphics,tightpage,active]{preview}
+\PreviewEnvironment{tikzpicture}
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+
+
+\newlength{\imagewidth}
+\newlength{\imagescale}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
+
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
+\DeclareFontFamily{U}{MnSymbolA}{}
+\DeclareFontShape{U}{MnSymbolA}{m}{n}{
+  <-6> MnSymbolA5
+  <6-7> MnSymbolA6
+  <7-8> MnSymbolA7
+  <8-9> MnSymbolA8
+  <9-10> MnSymbolA9
+  <10-12> MnSymbolA10
+  <12-> MnSymbolA12}{}
+\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
+\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
+\def\res{../..}
+\pgfplotsset{
+table/search path={\res/data/},
+}
+
+\begin{document}
+
+\begin{tikzpicture}
+"
+template+= "$rre"
+template+="
+\end{tikzpicture}
+
+\end{document}
+"
+echo "$template"
+ln -s /home/aghiles/Downloads/web/www/58/html/accueil.php accueil.php
+cd 3
+cd 36
+sqlM Ece_amazon.sql
+firefox
+calendar 
+skype
+sudo apt install skype
+mpg123 -a hw:0,0 myfile.mp3
+man trans
+trans bonjour
+trans hello
+trans -p hello
+trans -p hello -p t
+trans -p hello -o t
+cle heterogen lora 1
+gedit "CN8P8U28/Ochoa et al. - 2018 - Large Scale LoRa Networks From Homogeneous to Het.txt"
+./speaker-fr 
+./speaker-en 
+sox
+./speaker-en 
+sudo apt instal sox
+sudo apt install sox
+sox %d.wav ou.wav
+sox *.wav ou.wav
+./speaker-en 
+cle heterogen lora 1
+paper=trtrt.pdf
+sed -r "s/\.txt/\.pdf/g" $paper
+echo "$paper" | sed -r "s/\.txt/\.pdf/g" 
+paper=`echo "$paper" | sed -r "s/\.txt/\.pdf/g"`
+echo "$paper"
+paper=`echo "$paper" | sed -r "s/\.pdf/\.txt/g"`
+echo "$paper"
+cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
+./link-sp4 
+sh link-sp4 
+./link-sp4 
+cd /tmp/trtrte
+for f in *.wav; do echo "'$(pwd)/$f'"; done
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox 
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V 
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -o ~/ou.wav -
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox ~/ou.wav -
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox ~/ou.wav
+man sox | grep output
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox
+for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -
+sox $(ls *.wav | sort -n) ~/out.wav
+ls *.wav | sort -n
