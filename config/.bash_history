@@ -1,4 +1,3 @@
-sort -nr  file1.txt 
 sort -nrg  file1.txt 
 sort -r  file1.txt 
 sort -gr  file1.txt 
@@ -1998,3 +1997,4 @@ for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox
 for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -
 sox $(ls *.wav | sort -n) ~/out.wav
 ls *.wav | sort -n
+cle heterogen lora 1
