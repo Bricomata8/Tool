@@ -1,34 +1,3 @@
-sort -n y
-sort -n -k2 y
-sort -n -k2 -t':' y
-sort -nr -k2 -t':' y
-man sort
-man sort | grep numeric
-man sort | grep "-t"
-man sort | grep "\-t"
-
-echo "line 1
-line 2" | awk '/line/ {print $1 "\033[31m" $2 }'
-ls
-cle markov 6
-evince " MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-pdftotext -r */pdf
-for file in */*.pdf; do pdftotext "$file" "$file.txt"; done
-pdf2txt
-ls
-pdf2txt 
-cle "learn*" 5
-evince "XS5YTJPU/Bloessl et al. - 2018 - Performance Assessment of IEEE 802.11p with an Ope"
-evince "XS5YTJPU/Bloessl et al. - 2018 - Performance Assessment of IEEE 802.11p with an Ope".pdf
-evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-cle "learn" 5
-evince "Z32ZZV9C/Fakhfakh et al_2017_Deep Learning-Based Recommendation.pdf"
-cle "learn" 5
-evince "Z32ZZV9C/Fakhfakh et al_2017_Deep Learning-Based Recommendation.pdf"
-evince "MM7RCUIL/Zhang et al_2018_On relational learning and discovery in social networks.pdf"
-cle "learn|sdn" 5
-cle "learn|sdn|lora" 5
 grep -riE "loar|sdn"
 grep -riE "lora|sdn"
 grep -riE "lora.*sdn"
@@ -1998,3 +1967,34 @@ ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple/* /home/aghiles/.config/chromi
 ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
 chromium 
 cle lpwa 0
+grep -ri "/tmp"
+ps -A
+sudo apt install sox
+cd /tmp/trtrte
+sox $(ls *.wav | sort -n) ~/outlk.wav
+sudo apt install shntool
+cd /tmp/trtrte/
+ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
+sudo apt install ffmpeg
+ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
+for f in *.wav; do echo "file $f"; done
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
+sudo ffmpeg -f concat -i ( for f in *.wav; do echo "file $f"; done ) output.wav
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
+sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f|"; done`" output.wav
+sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f "; done`" output.wav
+shnjoin -r none `for f in *.wav; do echo "$f "; done`
+ls
+shnjoin -r none `for f in *.wav; do echo "$f "; done` -o ~/lklk.wav
+man shnjoin 
+man shnjoin | grep output
+D
+man shnjoin | grep joined
+mv joined.wav ~/paper.wav
+cle lpwan 0
+cle lpwa 0
+cle lpwa 10
+cle interopirability 0
+cle interoperability 0
