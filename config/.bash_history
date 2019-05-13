@@ -1,71 +1,3 @@
-sort -nrg  file1.txt 
-sort -r  file1.txt 
-sort -gr  file1.txt 
-sort -hr  file1.txt 
-sort -k1 -g file1.txt 
-sort -k1  file1.txt 
-sort -nr -k1  file1.txt 
-sort -nr -k1 file1.txt 
-sort -nr file1.txt 
-cat file1.txt 
-sort -nr file1.txt 
-sort file1.txt 
-sort -n file1.txt 
-sort -k 2n file1.txt 
-cat > employee.txt
-sort -k 2n employee.txt 
-sort -k 1n employee.txt 
-sort -k1 -n employee.txt 
-cat file1.txt 
-cat employee.txt 
-cat file1.txt 
-sort -k 2n y
-sort -n -k 2n y
-sort -n -k 2n employee.txt 
-sort -n -k 1n y
-sort -n -k1 y
-sort -k1 y
-sort -r -k1 y
-sort -rn-k1 y
-sort -n -k1 y
-sort -n y
-cat y
-sort -n y
-sort -n -k2 y
-sort -n -k2 -t':' y
-sort -nr -k2 -t':' y
-man sort
-man sort | grep numeric
-man sort | grep "-t"
-man sort | grep "\-t"
-
-echo "line 1
-line 2" | awk '/line/ {print $1 "\033[31m" $2 }'
-ls
-cle markov 6
-evince " MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-pdftotext -r */pdf
-for file in */*.pdf; do pdftotext "$file" "$file.txt"; done
-pdf2txt
-ls
-pdf2txt 
-cle "learn*" 5
-evince "XS5YTJPU/Bloessl et al. - 2018 - Performance Assessment of IEEE 802.11p with an Ope"
-evince "XS5YTJPU/Bloessl et al. - 2018 - Performance Assessment of IEEE 802.11p with an Ope".pdf
-evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.pdf"
-cle "learn" 5
-evince "Z32ZZV9C/Fakhfakh et al_2017_Deep Learning-Based Recommendation.pdf"
-cle "learn" 5
-evince "Z32ZZV9C/Fakhfakh et al_2017_Deep Learning-Based Recommendation.pdf"
-evince "MM7RCUIL/Zhang et al_2018_On relational learning and discovery in social networks.pdf"
-cle "learn|sdn" 5
-cle "learn|sdn|lora" 5
-grep -riE "loar|sdn"
-grep -riE "lora|sdn"
-grep -riE "lora.*sdn"
-cle "lora.*sdn" 2
-cle "lora.*sdn" 1
 cle "sdn.*lora" 1
 cle "lora.*sdn" 0
 ls N6WNWL4G/
@@ -1998,3 +1930,71 @@ for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -
 sox $(ls *.wav | sort -n) ~/out.wav
 ls *.wav | sort -n
 cle heterogen lora 1
+<<<<<<< HEAD
+=======
+pkill mailspring 
+cle heterogen lora 1
+pdf2txt 
+cle lora heterogen 0
+cle lora scale 0
+cle orthogana 0
+cle orthogona 0
+cle mpwa 0
+cle lpwa 0
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf ~/.local/share/nautilus/scripts
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+pkill mailspring 
+nautilus -q
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
+ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
+sudo apt install chromium
+sudo apt update
+sudo apt upgrade 
+chromium 
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple/* /home/aghiles/.config/chromium/
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
+chromium 
+cle lpwa 0
+grep -ri "/tmp"
+ps -A
+sudo apt install sox
+cd /tmp/trtrte
+sox $(ls *.wav | sort -n) ~/outlk.wav
+sudo apt install shntool
+cd /tmp/trtrte/
+ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
+sudo apt install ffmpeg
+ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
+for f in *.wav; do echo "file $f"; done
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
+sudo ffmpeg -f concat -i ( for f in *.wav; do echo "file $f"; done ) output.wav
+sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
+sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f|"; done`" output.wav
+sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f "; done`" output.wav
+shnjoin -r none `for f in *.wav; do echo "$f "; done`
+ls
+shnjoin -r none `for f in *.wav; do echo "$f "; done` -o ~/lklk.wav
+man shnjoin 
+man shnjoin | grep output
+D
+man shnjoin | grep joined
+mv joined.wav ~/paper.wav
+cle lpwan 0
+cle lpwa 0
+cle lpwa 10
+cle interopirability 0
+cle interoperability 0
+cle lpwa 0
+chromium 
+>>>>>>> f08301fb4afca0d84fa51c3d255c3d6f5ff7e084

@@ -1,0 +1,1 @@
+const urlObj=new URL(location.href),teaser=new RatingTeaser(document.querySelector("#container"),urlObj.searchParams.get("componentName"),urlObj.searchParams.get("hostName"));teaser.render(),document.documentElement.addEventListener("mousedown",e=>e.preventDefault());

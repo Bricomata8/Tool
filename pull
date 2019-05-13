@@ -18,16 +18,23 @@ git pull -f $filename master
 #rm -rf /home/aghiles/.local/share/gedit
 #rm -rf /home/aghiles/.mozilla/firefox/*.default/extensions
 
-#ln -sf $directory/config/.hidden /home/aghiles/.hidden
-#ln -sf $directory/config/.bashrc /home/aghiles/.bashrc
-#ln -sf $directory/config/.bash_history /home/aghiles/.bash_history
-#ln -sf $directory/config/.Renviron /home/aghiles/.Renviron
-#ln -sf $directory/config/.zotero /home/aghiles/.zotero
-#ln -sf $directory/config/gedit-config /home/aghiles/.config/gedit
-#ln -sf $directory/config/gedit-local-share /home/aghiles/.local/share/gedit
-#ln -sf $directory/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
+#ln -sf /home/aghiles/Aghiles/Tool/config/.hidden /home/aghiles/.hidden
+#ln -sf /home/aghiles/Aghiles/Tool/config/.bashrc /home/aghiles/.bashrc
+#ln -sf /home/aghiles/Aghiles/Tool/config/.bash_history /home/aghiles/.bash_history
+#ln -sf /home/aghiles/Aghiles/Tool/config/.Renviron /home/aghiles/.Renviron
 
+#ln -sf /home/aghiles/Aghiles/Tool/config/.zotero /home/aghiles/.zotero
+
+#ln -sf /home/aghiles/Aghiles/Tool/config/gedit-config /home/aghiles/.config/gedit
+#ln -sf /home/aghiles/Aghiles/Tool/config/gedit-local-share /home/aghiles/.local/share/gedit
+
+#ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
+
+#rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
 #ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
 
 #rm -rf ~/.local/share/nautilus/scripts
 #ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+
+#ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
+
