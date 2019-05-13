@@ -1,33 +1,3 @@
-sort -r  file1.txt 
-sort -gr  file1.txt 
-sort -hr  file1.txt 
-sort -k1 -g file1.txt 
-sort -k1  file1.txt 
-sort -nr -k1  file1.txt 
-sort -nr -k1 file1.txt 
-sort -nr file1.txt 
-cat file1.txt 
-sort -nr file1.txt 
-sort file1.txt 
-sort -n file1.txt 
-sort -k 2n file1.txt 
-cat > employee.txt
-sort -k 2n employee.txt 
-sort -k 1n employee.txt 
-sort -k1 -n employee.txt 
-cat file1.txt 
-cat employee.txt 
-cat file1.txt 
-sort -k 2n y
-sort -n -k 2n y
-sort -n -k 2n employee.txt 
-sort -n -k 1n y
-sort -n -k1 y
-sort -k1 y
-sort -r -k1 y
-sort -rn-k1 y
-sort -n -k1 y
-sort -n y
 cat y
 sort -n y
 sort -n -k2 y
@@ -1998,3 +1968,33 @@ sox $(ls *.wav | sort -n) ~/out.wav
 ls *.wav | sort -n
 cle heterogen lora 1
 pkill mailspring 
+cle heterogen lora 1
+pdf2txt 
+cle lora heterogen 0
+cle lora scale 0
+cle orthogana 0
+cle orthogona 0
+cle mpwa 0
+cle lpwa 0
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf ~/.local/share/nautilus/scripts
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+pkill mailspring 
+nautilus -q
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
+ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
+sudo apt install chromium
+sudo apt update
+sudo apt upgrade 
+chromium 
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple/* /home/aghiles/.config/chromium/
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
+chromium 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory="/home/aghiles/Aghiles/Administration/Aghiles/Calendar"
+directory="/home/aghiles/Aghiles/Tool/config/Calendar"
 cd $directory
 
 wget https://www.officeholidays.com/ics/ics_country_code.php?iso=FR -O $directory/fr.ics
