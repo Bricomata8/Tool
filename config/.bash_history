@@ -1,4 +1,3 @@
-cat y
 sort -n y
 sort -n -k2 y
 sort -n -k2 -t':' y
@@ -1998,3 +1997,4 @@ chromium
 ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple/* /home/aghiles/.config/chromium/
 ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
 chromium 
+cle lpwa 0
