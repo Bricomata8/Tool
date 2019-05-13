@@ -1,5 +1,3 @@
-grep -riE "loar|sdn"
-grep -riE "lora|sdn"
 grep -riE "lora.*sdn"
 cle "lora.*sdn" 2
 cle "lora.*sdn" 1
@@ -1998,3 +1996,5 @@ cle lpwa 0
 cle lpwa 10
 cle interopirability 0
 cle interoperability 0
+cle lpwa 0
+chromium 

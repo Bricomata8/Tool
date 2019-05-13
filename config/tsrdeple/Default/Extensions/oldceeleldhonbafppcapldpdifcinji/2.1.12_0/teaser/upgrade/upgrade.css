@@ -1,0 +1,46 @@
+.lt-upgrade-teaser {
+    color: #fff;
+    margin: 0;
+    padding: 24px 12px 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background: #45A8FC url("/assets/images/upgrade_bg.svg") no-repeat center bottom;
+    background-size: 100% auto;
+    text-align: center;
+}
+
+.lt-upgrade-teaser h2 {
+    position: relative;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.lt-upgrade-teaser p {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 16px;
+}
+
+.lt-upgrade-teaser__button {
+    background: #fff;
+    border-radius: 8px;
+    line-height: 38px;
+    text-align: center;
+    color: #45A8FC;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.lt-upgrade-teaser__button:hover {
+    background-color: #f0f0f0;
+    color: #428cdd;
+}
