@@ -1,26 +1,3 @@
-grep -riE "lora.*sdn"
-cle "lora.*sdn" 2
-cle "lora.*sdn" 1
-cle "sdn.*lora" 1
-cle "lora.*sdn" 0
-ls N6WNWL4G/
-nautilus N6WNWL4G/
-man pdftotext 
-cle markov 5
-evince MUCPPH26/Smith_Pedestrian route prediction from GPS logs.txt
-evince "MUCPPH26/Smith_Pedestrian route prediction from GPS logs.txt"
-cle "lora.*sdn" 0
-grep -riE "lora.*sdn"
-pdf2txt 
-cle "lora.*sdn" 0
-cle "lora.*sdn"
-cle "lora.*sdn" 0
-evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
-cle "lora.*sdn|sdn.*lora" 0
-evince "SKG2RHNU/Asghari et al_2019_Internet of Things applications.pdf
-"
-evince "NL6PFI8E/Pujolle_Quelle architecture de réseau pour les années 2020.pdf"
-evince "N8LVHV5W/DDOC_T_2016_0051_ROUSSEL.pdf"
 cle "lora.*sdn|sdn.*lora" 0
 evinve "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
 evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
@@ -1933,6 +1910,8 @@ for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -
 sox $(ls *.wav | sort -n) ~/out.wav
 ls *.wav | sort -n
 cle heterogen lora 1
+<<<<<<< HEAD
+=======
 pkill mailspring 
 cle heterogen lora 1
 pdf2txt 
@@ -1998,3 +1977,24 @@ cle interopirability 0
 cle interoperability 0
 cle lpwa 0
 chromium 
+>>>>>>> f08301fb4afca0d84fa51c3d255c3d6f5ff7e084
+for f in *.wav; do echo "$f "; done | sort -V 
+for f in *; do echo "$f "; done | sort -V 
+shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
+sudo apt install shnjoin
+sudo apt update
+sudo apt upgrade
+sudo apt install shnjoin
+shntool
+sudo apt install shntool
+shnjoin
+cd /tmp/trtrte
+for f in *.wav; do echo "$f "; done | sort -V
+for f in *.wav; do echo "$f "; done
+ps -A
+cd /tmp/trtrte/
+shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
+mv joined.wav ~/paper.wav
+shnjoin -r none `for f in *.wav; do echo "$f "; done `
+shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
+cle lpwa 0

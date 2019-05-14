@@ -63,7 +63,7 @@ for key in "${!SHORT[@]}"
 done
 
 cd /tmp/trtrte
-shnjoin -r none `for f in *.wav; do echo "$f "; done`
+shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
 mv joined.wav ~/paper.wav
 #ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
 
