@@ -1,13 +1,3 @@
-cle "heterogeneity.*sdn|sdn.*heterogeneity" 0
-evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications"
-evince "WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
-evince "65JTDLD7/Al-Fuqaha et al_2015_Internet of Things.pdf"
-evince "F6F7ZABB/Noura et al_2018_Interoperability in Internet of Things.pdf"
-`echo $INPUTb | tr -d '\n'`
-xsel
-INPUTb=`xsel`
-INPUT=`echo $INPUTb | tr -d '\n'`
-$INPUT
 xsel
 INPUTb=`xsel`
 INPUT=`echo $INPUTb | tr -d '\n'`
@@ -1998,3 +1988,13 @@ cle lpwa 0
 cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
 pkill gedit
 cle lpwa 0
+cd trtrte/
+shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
+mv joined.wav ~/paper.wav
+cle choreography 0
+pdf2txt 
+cle choreography 0
+grep -ri firefox
+pdf2txt 
+cle choreography 0
+cle choreography lora 0
