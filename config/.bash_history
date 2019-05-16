@@ -1,15 +1,3 @@
-man pdftotxt | grep "-z"
-man pdftotext | grep "-z"
-man pdftotext
-man grep | grep "-z"
-man grep | grep "\-z"
-man pdftotext | grep "-z"
-man pdftotext | grep "\-z"
-man pdftotext | grep "null"
-man pdftotext | grep "new"
-man pdftotext | grep "line"
-man pdftotext | grep "rnd\-of\-line"
-man pdftotext | grep "end\-of\-line"
 cle sdn 0
 cle sdn|lora 0
 cle "sdn|lor" 0
@@ -1998,3 +1986,15 @@ ls
 ls
 ./compile tikz/methodology.tex 
 inkscape 
+cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
+cd ..
+./compile tikz/mind.tex 
+pdf2txt 
+cle lpwan
+cle lpwan 0
+cle lpwa 0
+cle lpwa 10
+mindmap
+sudp apt install mindmap
+sudo apt install mindmap
+sudo apt install freeplane
