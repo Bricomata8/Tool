@@ -1,14 +1,3 @@
-xsel
-INPUTb=`xsel`
-INPUT=`echo $INPUTb | tr -d '\n'`
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
-INPUTb=`xsel`
-INPUT=`echo $INPUTb | tr -d '\n'`
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUTb"
-cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
-./link-sp2 
-man pdftotext | grep utf8
 man pdftotext | grep -i utf8
 man pdftotext | grep -i utf
 man pdftotext | grep utf8
@@ -1998,3 +1987,14 @@ grep -ri firefox
 pdf2txt 
 cle choreography 0
 cle choreography lora 0
+cle heterogeneity lora 0
+cle heterogen lora 0
+cle lpwa 0
+javac MyFrame.java 
+java MyFrame 
+javac TestFrameExample.java 
+java TestFrameExample
+netbeans 
+netbeans 
+cle lpwa 0
+pkill gedit
