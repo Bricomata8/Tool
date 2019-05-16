@@ -1,12 +1,3 @@
-man pdftotext | grep -i utf8
-man pdftotext | grep -i utf
-man pdftotext | grep utf8
-man pdftotext
-cle "heterogeneity.*sdn|sdn.*heterogeneity" 0
-cle "heterogeneity" 0
-cle "heterogeneit" 0
-cle "sdn" 0
-cle sdn 0
 man pdftotxt | grep "-z"
 man pdftotext | grep "-z"
 man pdftotext
@@ -1998,3 +1989,12 @@ netbeans
 netbeans 
 cle lpwa 0
 pkill gedit
+cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
+cd ..
+ls
+./compile tikz/methodology.tex 
+ls
+./compile tikz/methodology.tex 
+ls
+./compile tikz/methodology.tex 
+inkscape 
