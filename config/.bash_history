@@ -1,8 +1,3 @@
-gedit tt.tex
-xx tt.tex 
-gedit tt.tex
-xx tt.tex 
-gedit tt.tex
 xx tt.tex 
 gedit tt.tex
 xx tt.tex 
@@ -1998,3 +1993,8 @@ sudo apt autoclean
 sudo apt upgrade 
 pdf2txt 
 cle heterogene 10
+pdf2txt 
+cle heterogen sdn 0
+cle heterogen sdn 10
+pdf2txt 
+unrar x Matlab.rar 
