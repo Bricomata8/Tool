@@ -1,17 +1,3 @@
-cle sdn 0
-cle sdn|lora 0
-cle "sdn|lor" 0
-cle "sdn.*lora" 0
-cle "sdn.*heterogeneity" 0
-cle "sdn.*heterogeneity|heterogeneity.*sdn" 0
-cle "heterogeneity" 0
-grep -ri markov
-Q
-./pull 
-mkdir tt
-cd tt
-gedit tt.tex
-xx tt.tex 
 gedit tt.tex
 xx tt.tex 
 gedit tt.tex
@@ -1998,3 +1984,17 @@ mindmap
 sudp apt install mindmap
 sudo apt install mindmap
 sudo apt install freeplane
+cle lpwa 10
+cle destruction 0
+cle building 0
+cd /home/aghiles/Aghiles/Tool/config/Calendar
+sudo apt install zenity
+sudo apt upgrade
+sudo apt install zenity
+sudo apt upgrade
+sudo apt update
+sudo apt autoremove 
+sudo apt autoclean 
+sudo apt upgrade 
+pdf2txt 
+cle heterogene 10
