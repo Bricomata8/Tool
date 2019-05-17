@@ -1,54 +1,3 @@
-xsel
-INPUTb=`xsel`
-INPUT=`echo $INPUTb | tr -d '\n'`
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
-INPUTb=`xsel`
-INPUT=`echo $INPUTb | tr -d '\n'`
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUT"
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/$INPUTb"
-cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
-./link-sp2 
-man pdftotext | grep utf8
-man pdftotext | grep -i utf8
-man pdftotext | grep -i utf
-man pdftotext | grep utf8
-man pdftotext
-cle "heterogeneity.*sdn|sdn.*heterogeneity" 0
-cle "heterogeneity" 0
-cle "heterogeneit" 0
-cle "sdn" 0
-cle sdn 0
-man pdftotxt | grep "-z"
-man pdftotext | grep "-z"
-man pdftotext
-man grep | grep "-z"
-man grep | grep "\-z"
-man pdftotext | grep "-z"
-man pdftotext | grep "\-z"
-man pdftotext | grep "null"
-man pdftotext | grep "new"
-man pdftotext | grep "line"
-man pdftotext | grep "rnd\-of\-line"
-man pdftotext | grep "end\-of\-line"
-cle sdn 0
-cle sdn|lora 0
-cle "sdn|lor" 0
-cle "sdn.*lora" 0
-cle "sdn.*heterogeneity" 0
-cle "sdn.*heterogeneity|heterogeneity.*sdn" 0
-cle "heterogeneity" 0
-grep -ri markov
-Q
-./pull 
-mkdir tt
-cd tt
-gedit tt.tex
-xx tt.tex 
-gedit tt.tex
-xx tt.tex 
-gedit tt.tex
-xx tt.tex 
-gedit tt.tex
 xx tt.tex 
 gedit tt.tex
 xx tt.tex 
@@ -1998,3 +1947,54 @@ grep -ri firefox
 pdf2txt 
 cle choreography 0
 cle choreography lora 0
+cle heterogeneity lora 0
+cle heterogen lora 0
+cle lpwa 0
+javac MyFrame.java 
+java MyFrame 
+javac TestFrameExample.java 
+java TestFrameExample
+netbeans 
+netbeans 
+cle lpwa 0
+pkill gedit
+cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
+cd ..
+ls
+./compile tikz/methodology.tex 
+ls
+./compile tikz/methodology.tex 
+ls
+./compile tikz/methodology.tex 
+inkscape 
+cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
+cd ..
+./compile tikz/mind.tex 
+pdf2txt 
+cle lpwan
+cle lpwan 0
+cle lpwa 0
+cle lpwa 10
+mindmap
+sudp apt install mindmap
+sudo apt install mindmap
+sudo apt install freeplane
+cle lpwa 10
+cle destruction 0
+cle building 0
+cd /home/aghiles/Aghiles/Tool/config/Calendar
+sudo apt install zenity
+sudo apt upgrade
+sudo apt install zenity
+sudo apt upgrade
+sudo apt update
+sudo apt autoremove 
+sudo apt autoclean 
+sudo apt upgrade 
+pdf2txt 
+cle heterogene 10
+pdf2txt 
+cle heterogen sdn 0
+cle heterogen sdn 10
+pdf2txt 
+unrar x Matlab.rar 
