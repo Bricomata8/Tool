@@ -1,7 +1,3 @@
-sudo pip install pdfminer
-sudo pip install --upgrade pip
-sudo pip install pdfminer
-python test.py 
 cd "/home/aghiles"
 python test.py 
 python counter.py 
@@ -1998,3 +1994,7 @@ xdg-open http://google.com
 sudo apt remove firefox
 sudo apt remove firefox-esr 
 sudo apt autoremove
+sudo apt install libpepflashplayer
+sudo apt-cache search libpepflashplayer
+sudo apt-cache search flashplayer
+sudo apt install libhal1-flash
