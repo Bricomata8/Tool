@@ -1,10 +1,3 @@
-cd "/home/aghiles"
-python test.py 
-python counter.py 
-test.py
-gedit test.py
-<<<<<<< HEAD
-sudo gedit /etc/network/interfaces
 =======
 >>>>>>> ec87e0267d4f3a90976ac477e09906e848762b9f
 pkill mailspring 
@@ -1998,3 +1991,10 @@ sudo apt install libpepflashplayer
 sudo apt-cache search libpepflashplayer
 sudo apt-cache search flashplayer
 sudo apt install libhal1-flash
+sudo snap install mathpix-snipping-tool
+sudo apt install snap 
+sudo snap install mathpix-snipping-tool
+sudo apt install snapd 
+sudo snap install mathpix-snipping-tool
+mathpix-snipping-tool
+mathpix
