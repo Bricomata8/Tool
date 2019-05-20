@@ -1,43 +1,3 @@
-xx tt.tex 
-gedit tt.tex
-xx tt.tex 
-gedit tt.tex
-./compile 
-cle contiki
-cle contiki 3
-cd "/home/aghiles/Aghiles/Redaction/0/paper"
-./cd "/home/aghiles/Aghiles/Redaction/0/paper"
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-../compile 
-searchWeb
-searchWeb Heteroeneity
-cd "/home/aghiles/Aghiles/Redaction/0/paper"
-./compile 
-cle sdn 0
-python test.py 
-sudo pip install pdfminer
-python test.py 
-sudo pip3 install pdfminer
-python3 test.py 
-sudo pip3 install pdfminer
-pythontest.py 
-python test.py 
-sudp pip search process_pdf
-sudo pip search process_pdf
-sudo pip install process_pdf
-sudo pip install pdfinterp
-sudo pip install pdfminer
-sudo pip install --upgrade pip
-sudo pip install pdfminer
-python test.py 
-cd "/home/aghiles"
-python test.py 
-python counter.py 
-test.py
-gedit test.py
-<<<<<<< HEAD
-sudo gedit /etc/network/interfaces
 =======
 >>>>>>> ec87e0267d4f3a90976ac477e09906e848762b9f
 pkill mailspring 
@@ -1998,3 +1958,43 @@ cle heterogen sdn 0
 cle heterogen sdn 10
 pdf2txt 
 unrar x Matlab.rar 
+git clone https://github.com/RIOT-OS/RIOT.git
+git clone --recursive https://github.com/RIOT-OS/RIOT.git
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
+pkill mailspring 
+rm -rf ~/.local/share/nautilus/scripts
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+cle 1276 0
+cle riot 0
+cle riot sdn 0
+cle sdnwise 0
+cle sdwsn 0
+./dist/tools/tapsetup/tapsetup
+cd examples/default/
+make all
+xdg-open 
+xdg-open http://google.com
+xdg-settings set default-web-browser chromium-browser.desktop
+xdg-open http://google.com
+xdg-settings set default-web-browser /usr/bin/chromium 
+BROWSER=/usr/bin/chromium 
+export BROWSER=/usr/bin/chromium 
+xdg-open http://google.com
+sudo apt remove firefox
+sudo apt remove firefox-esr 
+sudo apt autoremove
+sudo apt install libpepflashplayer
+sudo apt-cache search libpepflashplayer
+sudo apt-cache search flashplayer
+sudo apt install libhal1-flash
+sudo snap install mathpix-snipping-tool
+sudo apt install snap 
+sudo snap install mathpix-snipping-tool
+sudo apt install snapd 
+sudo snap install mathpix-snipping-tool
+mathpix-snipping-tool
+mathpix
