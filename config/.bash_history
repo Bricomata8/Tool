@@ -1,5 +1,3 @@
-cle "Spreading factor" 0
-cle "Spreading factor" 0 | grep -i analyzing
 pdf2txt 
 cle "Spreading factor" 0 | grep -i analyzing
 cle "Spreading factor" 0
@@ -1998,3 +1996,5 @@ pkill java
 ./svg2tikz 
 ./svg2tikz Rplot.svg 
 ./svg2tikz Rplot.svg -o ii
+cle sdn lora 0
+cle sdn lpwa 0
