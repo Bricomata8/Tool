@@ -1,24 +1,3 @@
-=======
->>>>>>> ec87e0267d4f3a90976ac477e09906e848762b9f
-pkill mailspring 
-gedit CUPS.desktop 
-gedit /etc/network/interfaces
-sudo gedit /etc/network/interfaces
-cle sdn 0
-cd "/home/aghiles/Aghiles/Redaction/cv/draft"
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./Com
-./compile 
-cle sx1272 0
-cle "Plan de gestion" 0
-cle "gestion" 0
-git clone file:///home/aghiles/Downloads/Calendar 
-cle jamming 0
 cle "Spreading factor" 0
 cle "Spreading factor" 0 | grep -i analyzing
 pdf2txt 
@@ -1998,3 +1977,24 @@ sudo apt install snapd
 sudo snap install mathpix-snipping-tool
 mathpix-snipping-tool
 mathpix
+cd ~/Aghiles/Program/R/lib
+ls
+svg2tikz
+sudo apt install svg2tikz
+sudo apt-cache search svg2tikz
+sudo apt-cache search tikz
+sudo apt install ktikz
+ktikz
+sudo apt-cache search tikz
+sudo apt install qtikz
+qtikz 
+sudo apt install prerex
+prerex
+sudo apt install qprerex
+sudo apt install vprerex
+vprerex
+ps -A
+pkill java
+./svg2tikz 
+./svg2tikz Rplot.svg 
+./svg2tikz Rplot.svg -o ii
