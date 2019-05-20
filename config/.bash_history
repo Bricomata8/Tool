@@ -1,6 +1,3 @@
-pdf2txt 
-cle "Spreading factor" 0 | grep -i analyzing
-cle "Spreading factor" 0
 >>>>>>> 45bb41f15f330355f58177e7fd72dd86ee92b9a9
 sudo yum install mongodb-org
 sudo apt install mongodb-org
@@ -1998,3 +1995,6 @@ pkill java
 ./svg2tikz Rplot.svg -o ii
 cle sdn lora 0
 cle sdn lpwa 0
+cl " sir " 0
+cle " sir " 0
+cle " signal interfere " 0
