@@ -1,5 +1,3 @@
-sudo grep -ri mqosq
-sudo grep -ri mosq
 nautilus .
 git clone https://github.com/dennisdegreef/mqtt-mongo-recorder.git
 cd mqtt-mongo-recorder
@@ -1997,4 +1995,6 @@ cle hotspot 0
 arduino
 git clone --recursive https://github.com/rocketscream/Low-Power.git
 ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
+arduino
+ls /home/aghiles/Aghiles/Program/C/src/waziUp/Arduino
 arduino
