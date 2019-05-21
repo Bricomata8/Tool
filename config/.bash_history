@@ -1,10 +1,3 @@
-cd /etc/6lbr/
-ls
-grep -ri mongo
-sudo grep -ri mongo
-sudo grep -ri mqtt
-sudo grep -ri mqosq
-sudo grep -ri mosq
 nautilus .
 git clone https://github.com/dennisdegreef/mqtt-mongo-recorder.git
 cd mqtt-mongo-recorder
@@ -1998,3 +1991,10 @@ nautilus .
 ./bin/native/default.elf tap0
 sudo ./bin/native/default.elf tap0
 wget http://actions-incitatives.ifsttar.fr/fileadmin/uploads/recherches/geri/sticits/2016-11-24/ADJIH.pdf
+cle hotspot 0
+arduino
+git clone --recursive https://github.com/rocketscream/Low-Power.git
+ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
+arduino
+ls /home/aghiles/Aghiles/Program/C/src/waziUp/Arduino
+arduino
