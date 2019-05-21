@@ -3,9 +3,9 @@
 directory="/home/aghiles/Aghiles/Tool/config/Calendar"
 cd $directory
 
-wget https://www.officeholidays.com/ics/ics_country_code.php?iso=FR -O $directory/fr.ics
-wget https://www.officeholidays.com/ics/ics_country_code.php?iso=DZ -O $directory/dz.ics
-curl "https://planning-paris.inseecu.net/Telechargements/ical/Edt_DJOUDI.ics?version=2018.0.3.1&idICal=C2301E3548B77560046787A7FD7E3B80&param=643d5b312e2e36325d2666683d3126663d31" -o $directory/Teaching.ics
+#wget https://www.officeholidays.com/ics/ics_country_code.php?iso=FR -O $directory/fr.ics
+#wget https://www.officeholidays.com/ics/ics_country_code.php?iso=DZ -O $directory/dz.ics
+#curl "https://planning-paris.inseecu.net/Telechargements/ical/Edt_DJOUDI.ics?version=2018.0.3.1&idICal=C2301E3548B77560046787A7FD7E3B80&param=643d5b312e2e36325d2666683d3126663d31" -o $directory/Teaching.ics
 
 sed -r -i -z "s/\nDTSTART([^\n]*\n)(.[^U])/\nDTSTART\1DUE\1\2/g" *.ics
 sed -r -i -z "s/(\n[^D][^\n]*\n)DUE([^\n]*)/\1DTSTART\2\nDUE\2/g" *.ics

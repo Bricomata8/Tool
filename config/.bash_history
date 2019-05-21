@@ -1,53 +1,3 @@
-=======
->>>>>>> ec87e0267d4f3a90976ac477e09906e848762b9f
-pkill mailspring 
-gedit CUPS.desktop 
-gedit /etc/network/interfaces
-sudo gedit /etc/network/interfaces
-cle sdn 0
-cd "/home/aghiles/Aghiles/Redaction/cv/draft"
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./Com
-./compile 
-cle sx1272 0
-cle "Plan de gestion" 0
-cle "gestion" 0
-git clone file:///home/aghiles/Downloads/Calendar 
-cle jamming 0
-cle "Spreading factor" 0
-cle "Spreading factor" 0 | grep -i analyzing
-pdf2txt 
-cle "Spreading factor" 0 | grep -i analyzing
-cle "Spreading factor" 0
->>>>>>> 45bb41f15f330355f58177e7fd72dd86ee92b9a9
-sudo yum install mongodb-org
-sudo apt install mongodb-org
-sudo apt install mongodb
-mongodb
-sudo systemctl start mongod
-sudo systemctl start mosquitto
-mongodb
-sudo gedit /etc/mongodb.conf
-mongo
-mosquitto_pub -t "test" -m "Should work"
-mongo mongodb://mongodb0.example.com:28015
-mongo --host mongodb0.example.com:28015
-mongo --host mongodb0.example.com --port 28015
-mongo --port 28015
-mongo
-mongo --port 28015
-mongo --port 27017
-mongo --host 127.0.0.1 --port 27017
-echo 'db.messages.find({});' | mongo --quiet mqtt
-echo 'db.messages.find({});'
-mongo --quiet mqtt
-grep -ri mongo
-whereis 6lbr
 cd /etc/6lbr/
 ls
 grep -ri mongo
@@ -1998,3 +1948,53 @@ sudo apt install snapd
 sudo snap install mathpix-snipping-tool
 mathpix-snipping-tool
 mathpix
+cd ~/Aghiles/Program/R/lib
+ls
+svg2tikz
+sudo apt install svg2tikz
+sudo apt-cache search svg2tikz
+sudo apt-cache search tikz
+sudo apt install ktikz
+ktikz
+sudo apt-cache search tikz
+sudo apt install qtikz
+qtikz 
+sudo apt install prerex
+prerex
+sudo apt install qprerex
+sudo apt install vprerex
+vprerex
+ps -A
+pkill java
+./svg2tikz 
+./svg2tikz Rplot.svg 
+./svg2tikz Rplot.svg -o ii
+cle sdn lora 0
+cle sdn lpwa 0
+cl " sir " 0
+cle " sir " 0
+cle " signal interfere " 0
+sudo apt-get --reinstall install libc6 libc6-dev
+sudo apt-get install libx32gcc-4.8-dev
+sudo apt-get install libc6-dev-i386
+cle "signal interfere" 0
+cd examples
+cp -R default my_project
+cd my_project
+APPLICATION = default
+APPLICATION=default
+ls
+gedit Makefile 
+make
+./bin/native/my_project.elf tap0
+ls
+tree
+sudo apt./bin/native/my_project.elf tap0
+sudo apt install tree
+tree
+tree | grep elf
+sudo apt./bin/native/default.elf tap0
+nautilus .
+./bin/native/default.elf tap0
+sudo ./bin/native/default.elf tap0
+wget http://actions-incitatives.ifsttar.fr/fileadmin/uploads/recherches/geri/sticits/2016-11-24/ADJIH.pdf

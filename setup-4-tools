@@ -142,7 +142,8 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 sudo apt-get install erlang erlang-nox
 sudo apt-get install rabbitmq-server
 
-
+# riot
+sudo apt --reinstall install libc6 libc6-dev
 
 cd ~/Downlads
 sudo apt install chromium
