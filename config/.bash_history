@@ -1,161 +1,3 @@
-nodejs 
-ls /usr/local/bin/
-curl -k -O -L https://npmjs.org/install.sh    
-ln -s /usr/bin/nodejs /usr/bin/node  
-sudo ln -s /usr/bin/nodejs /usr/bin/node  
-sh install.sh
-sudo sh install.sh
-sudo apt-get install npm2deb
-curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
-sudo apt-get install curl software-properties-common
-curl -sL https://deb.nodesource.com/setup_11.x | sudo bash -
-grep -ri mqtt
-gedit server
-mv server server.js
-node server.js 
-npm install mqtt mongodb
-sudo apt install npm
-sudo apt install node
-sudo apt search node
-sudo apt search node.js
-sudo apt install node.js
-npm install mqtt mongodb
-node server.js 
-brew install node
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs
-sudo npm install coap-cli -g
-sudo apt ugrade
-sudo apt upgrade
-grep -ri mongo
-cle lockchaine 0
-cle blokchaine 0
-cle chaine 0
-cle blokchain 0
-cle blockchain 0
-cle mongo 0
-pkill mailspring 
-grep -ri Head
-pkill mail-notification 
-git checkout -b aNewBranch SHA1
-git checkout HEAD~1
-git log
-git checkout b12f719cda86a796c0e06826e22fdab3fc112030
-git checkout -b old-state b12f719cda86a796c0e06826e22fdab3fc112030
-git reset b12f719cda86a796c0e06826e22fdab3fc112030
-cd zotero/
-grep -ri pdftotext
-pdf2txt 
-cle "lora.*heterogeneity" 0
-cle "heterogeneity" 0
-cle "heterogeneity.*lora" 0
-cle "lora" 0
-pdf2txt 
-cle "lora.*heterogeneity" 0
-cle "heterogeneity" 0
-cle "lora.*heterogeneity" 0
-cle "heterogeneity.*lora" 0
-cle "heterogeneity" 0
-cle "heterogeneity|lora" 0
-cle "heterogeneity|lora" 0 | grep -i heterogenous
-cle "heterogeneity|lora" 0 | grep -i large
-cle "heterogeneity" 0
-cle "lora" 0
-cle "lora" 50
-cle "heterogeneity" 10
-cle "hetero" 10
-cle "hetero.*lora" 10
-cle "hetero*lora" 10
-cle "hetero*lora" 0
-cle "lora.*hetero" 0
-cle "hetero*lora" 0
-cle "hetero.*lora" 0
-cle "lora.*hetero" 0
-cle "hetero.*lora" 0
-cd zotero/
-./pdftotext 
-sudo mv pdftotext /usr/bin/pdftotext
-pdf2txt 
-cle "hetero.*lora" 0
-cle "lora.*hetro" 0
-cle "hetero.*lora" 0
-cle "hetero" 0
-ls /bin
-whereis pdftotext
-sudo mv /usr/bin/pdftotext /usr/bin/pdftotext2
-pdftotext 
-pdftotext | grep line
-man pdftotext | grep line
-pdftotext | grep line
-foo="13 TKQW8UQ7/Kaloop_Hu_2015_Optimizing the De-Noise Neural Network Model for GPS Time-Series Monitoring of.pdf"
-echo "${foo#* }"
-var='2492  some string continues here'
-echo "${var%% *}"
-echo "${var%%  *}"
-echo "${var%%*}"
-echo "${var%% *}"
-echo "${var%%some*}"
-echo "${var% *}"
-echo "${var *%%}"
-echo "${var * %%}"
-echo "${var%%}"
-echo "${var%%+}"
-echo "${var%%*}"
-echo "${var%% *}"
-echo "${var%% +}"
-echo "${var%%* }"
-echo "${var%% *}"
-foo="a b c d"
-echo "${foo#* }"
-cle "hetero.*lora" 0
-cle "lora.*hetero" 0
-cle "hetero.*lora" 0
-cle "lora.*hetero" 0
-cle "hetero.*lora" 0
-cle "adaptive" 0
-cle "adaptive data rate" 0
-cle "adaptive data rate" 0 | grep kerkouche
-cle "adaptive data rate" 0 | grep kerkou
-cle "lora.*hetero" 0
-cle "hetero.*lora" 0
-nautilus MM7RCUIL
-ls
-nautilus "My Library"
-cle "hetero.*lora" 0
-cle "lora.*hetero" 0
-cle "lora" 0
-cle "lora" 50
-cle bandit 
-cle bandit 0
-nautilus R6V82Q2Y 
-cle sdn 30
-cle blockchain 30
-cle lora 30
-cle heterogeneity 30
-cle heterog 30
-cle queue 0
-sudo apt install xpdf
-cd Downloads/
-pdfto
-pdftotext 
-sudo apt search pdftotext
-sudo apt remove poppler-utils
-sudo apt search pdftotext
-sudo apt install xpdf
-pdftosrc 
-pdftosrc Costanzo\ et\ al_Software\ Defined\ Wireless\ Networks\ \(SDWN\).pdf 
-pdf2txt
-sudo apt install xpdf
-sudo apt install pdftotext
-sudo apt install poppler-utils
-./pdftotext 
-sudo mv /usr/bin/pdftotext /usr/bin/pdftotext2
-sudo cp /home/aghiles/Aghiles/Redaction/setup/lib/zotero/pdftotext /usr/bin/pdftotext
-sudo apt remove pdftotext
-sudo apt search pdftotext
-sudo apt remove poppler-utils
-sudo apt install poppler-utils
 cd zotero/
 ./pdftotext
 wget https://download.zotero.org/client/release/5.0.66/Zotero-5.0.66_linux-x86_64.tar.bz2
@@ -1998,3 +1840,161 @@ grep -ri sox
 arduino
 ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
 arduino
+javac -V
+javac -version
+cd "/home/aghiles/Aghiles/Teaching/Java/Portefeuille"
+./compile 
+mkdir -p build/classes
+./compile 
+./doc 
+grep -ri portefeuille
+grep -ri 
+grep -ri portfolio
+grep -ri portfo
+sudo apt-get install openjfx
+sudo cp /usr/share/java/openjfx/jre/lib/ext/* /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib
+sudo cp /usr/share/java/openjfx/lib/* /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib
+sudo chmod 777 -R /usr/lib/jvm/java-1.8.0-openjdk-amd64
+java -jar chart.jar 
+grep seri
+grep -ri seri
+grep -ri seria
+grep -ri portfo
+grep -ri font
+grep -ri seria
+cd "/home/aghiles/Aghiles/Teaching/Java/Portfeuil"
+mkdir -p build/classes
+cd "/home/aghiles/Aghiles/Teaching/Java/Portfeuil
+./compile 
+./doc 
+./compile 
+grep -ri Fond
+cd "/home/aghiles/Aghiles/Teaching/Java/portfolio"
+./compile 
+mkdir -p build/classes
+./compile 
+./docu 
+grep -ri Comparable
+grep -ri compa
+grep -ri hashmap
+arduino
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Java avancé/TD2"
+javac TD2.java 
+java TD2
+javac TD2.java 
+java 
+java TD2
+ls
+java App 
+grep -ri comparable
+grep -ri main
+grep -ri Comparable
+grep -ri compareTo
+gedit Cours/Book/Exemples/Chapitre7/Comparer.java
+grep -ri Comparable
+gedit Cours/x/TD2.java
+javac TD2.java 
+java App 
+javac TD2.java 
+java App 
+javac TD2.java 
+nautilus .
+javac TD2.java 
+javac DoubleKey.java 
+java DoubleKey 
+javac DoubleKey.java 
+javac Key.java 
+javac Person.java 
+javac MainClass.java 
+java MainClass 
+grep -ri hashmap
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+javac TD2.java 
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+javac MainClass.java 
+java MainClass 
+javac MainClass.java 
+java MainClass 
+nautilus /home/aghiles/Aghiles/Program/C/src/waziUp/Arduino
+arduino
+sudo apt-get install gcc-avr avr-libc avrdude 
+arduino -v
+arduino -version
+arduino --version
+arduino -V
+man arduino
+arduino V
+arduino -V
+sudo apt remove arduino
+./arduino
+arduino 
+./install.sh 
+sudo ./install.sh 
+./uninstall.sh 
+sudo ./uninstall.sh 
+arduino 
+arduino
+arduino
+arduino 
+sudo ./install.sh 
+svn-git https://github.com/CongducPham/LowCostLoRaGw/tree/master/Arduino/Arduino_LoRa_Simple_temp
+ls
+arduino 
+ifconfig
+sudo ifconfig
+sudo ifconfig | grep -i mac
+sudo ifconfig | grep -i hard
+ifconfig -a | awk '/^[a-z]/ { iface=$1; mac=$NF; next }
+    /inet addr:/ { print iface, mac }'
+sudo ifconfig -a | awk '/^[a-z]/ { iface=$1; mac=$NF; next }
+    /inet addr:/ { print iface, mac }'
+sudo ifconfig 
+cat /sys/class/net/*/address
+sudo ifconfig -a
+cd "/home/aghiles/Aghiles/Program/C/bin/RIOT/examples/my_project"
+make
+./bin/native/my_project.elf tap0
+./bin/native/default.elf tap0
+./bin/native/default.elf tap1
+sudo ./bin/native/default.elf tap0
+export BOARD=arduino
+make
+export BOARD=zoul
+make
+export BOARD=arduino-uno
+make
+sudo make
+sudo make flash
+sudo make term
+export BOARD=native
+sudo make
+sudo make flash
+sudo make term
+ifconfig help
+sudo make term
+export BOARD=arduino-uno
+sudo make
+sudo make flash
+sudo make term
+export BOARD=arduino-uno
+sudo make
+sudo make flash
+sudo make term
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+javac Exo2.java 
+java Exo2 
+java Exo2
+javac Exo2.java
+java Exo2
+javac Exo2.java
+java Exo2
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+java Exo2
+javac Exo2.java
+java Exo2
+javac Exo2.java
+java Exo2
+javac Exo2.java
+java Exo2
+cle JYSE 0
+cle jyse 0
