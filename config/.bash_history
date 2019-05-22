@@ -1,14 +1,3 @@
-nautilus .
-git clone https://github.com/dennisdegreef/mqtt-mongo-recorder.git
-cd mqtt-mongo-recorder
-npm install
-sudo apt-get install npm
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-curl -sL https://deb.nodesource.com/setup_10.x
-curl -sL https://deb.nodesource.com/setup_10.x -o npm.sh
-sudo -E bash npm.sh 
-npm
-node
 nodejs 
 ls /usr/local/bin/
 curl -k -O -L https://npmjs.org/install.sh    
@@ -1997,4 +1986,15 @@ git clone --recursive https://github.com/rocketscream/Low-Power.git
 ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
 arduino
 ls /home/aghiles/Aghiles/Program/C/src/waziUp/Arduino
+arduino
+grep -ri shnjoin
+grep -ri ffmpeg
+sudo apt install skype
+sudo apt-cache search skype
+ARDUINO
+arduino
+sudo apt install arduino
+grep -ri sox
+arduino
+ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
 arduino
