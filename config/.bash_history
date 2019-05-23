@@ -1,14 +1,3 @@
-grep -i deepl-trans
-grep -i "deepl-trans"
-grep -i "deepl\-trans"
-grep -i "deepl"
-grep -ri "deepl\-trans"
-npm install commander --save
-git clone https://github.com/vsetka/deepl-translator-cli.git
-echo 'How do you do?' | deepl translate -t 'DE'
-echo 'How do you do?' | ./deepl.js translate -t 'DE'
-npm install commander --save
-npm install deepl-translator --save
 echo 'How do you do?' | ./deepl.js translate -t 'DE'
 npm install chalk --save
 echo 'How do you do?' | ./deepl.js translate -t 'DE'
@@ -1998,3 +1987,14 @@ sudo make BOARD=arduino-uno
 $SHELL --version
 ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
 gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
+./pull 
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring
+rm -rf '/home/aghiles/.config/Mailspring'
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
