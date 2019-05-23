@@ -1,16 +1,3 @@
-echo 'How do you do?' | ./deepl.js translate -t 'DE'
-npm install chalk --save
-echo 'How do you do?' | ./deepl.js translate -t 'DE'
-./deepl.js detect 'Wie geht es Ihnen?'
-./deepl translate -t 'DE' 'How do you do?'
-ls
-./deepl.sj translate -t 'DE' 'How do you do?'
-./deepl.js translate -t 'DE' 'How do you do?'
-npm install deepl-translator --save
-./deepl.js translate -t 'DE' 'How do you do?'
-npm install chalk --save
-./deepl.js translate -t 'DE' 'How do you do?'
-cd $HOME/.yarn-global/node_modules/.bin
 cd $HOME/.yarn-global/node_modules
 cd $HOME
 cd $HOME/.yarn-global
@@ -1998,3 +1985,16 @@ rm -rf '/home/aghiles/.config/Mailspring
 rm -rf '/home/aghiles/.config/Mailspring'
 rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
 ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+sudo make clean
+sudo make BOARD=arduino-uno
+grep -ri periph_rtc
+gedit
+arduino 
+arduino
+arduino
+sudo make BOARD=arduino-uno
+sudo apt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
+sudo make BOARD=arduino-uno
+mkdir yy
+cd yy/
+httrack https://riot-os.org/api/
