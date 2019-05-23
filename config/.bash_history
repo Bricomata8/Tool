@@ -1,17 +1,3 @@
-cd $HOME/.yarn-global/node_modules
-cd $HOME
-cd $HOME/.yarn-global
-cd $HOME/.yarn
-ls
-cd bin
-ls
-./deepl translate -t 'DE' 'How do you do?'
-deepl translate -t 'DE' 'How do you do?'
-./deepl translate -t 'DE' 'How do you do?'
-gedit deepl 
-./deepl translate -t 'DE' 'How do you do?'
-gedit deepl 
-yarn global add deepl-translator-cli
 yarn global add deepl-translator-cl
 sudo deepl translate -t 'DE' 'How do you do?'
 yarn global add deepl-translator-cli
@@ -1998,3 +1984,17 @@ sudo make BOARD=arduino-uno
 mkdir yy
 cd yy/
 httrack https://riot-os.org/api/
+unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
+gedit rm-git
+git filter-branch --tree-filter 'rm -rf Web/web/zip/PJ_PROJET_2019_hoffmann_degendre_dieng.rar' HEAD
+git update-ref -d refs/original/refs/heads/master
+git filter-branch --tree-filter 'rm -rf Web/web/zip/PJ_PROJET_2019_hoffmann_degendre_dieng.rar' HEAD
+./push
+rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
+git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip' HEAD
+rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
+rm-git 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip'
+rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
+git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip' HEAD
+rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
+./push
