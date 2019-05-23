@@ -1,85 +1,3 @@
-cd zotero/
-./pdftotext
-wget https://download.zotero.org/client/release/5.0.66/Zotero-5.0.66_linux-x86_64.tar.bz2
-pdf2txt
-cle "lora.*hetero" 0
-cd "/home/aghiles/Aghiles/Redaction/0/slide"
-./compile 
-texdoc tikz
-cle sdn 9
-cle "lora.*hetero" 9
-cle "lora.*hetero"
-cle "lora.*hetero" 0
-cd "/home/aghiles/Aghiles/Redaction/5/paper"
-./compile 
-wget "https://translate.google.com/#view=home&op=translate&sl=en&tl=fr&text=MAN"
-curl "https://translate.google.com/#view=home&op=translate&sl=en&tl=fr&text=MAN"
-wget https://www.deepl.com/translator#en/fr/man
-ls
-wget https://www.deepl.com/translator#en/fr/man -o -
-ls
-yarn global add deepl-translator-cli
-sudo apt install yarn
-yarn global add deepl-translator-cli
-yarn add deepl-translator-cli
-cd Downloads/deepl-cli-master/
-yarn global add deepl-translator-cli
-yarn -g add deepl-translator-cli
-sudo yarn global add deepl-translator-cli
-sudo npm install --global yarn
-sudo apt-get -o Dpkg::Options::="--force-overwrite" install yarn
-yarn global add deepl-translator-cli
-sudo npm install -g yarnpkg
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
-sudo nautilus /etc/apt/sources.list
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove 
-cd ..
-git clone https://github.com/freundTech/deepl-cli.git
-cd deepl-cli
-cd ..
-git clone https://github.com/vsetka/deepl-translator-cli.git
-cd deepl-translator-cli/
-node deepl.js 
-python 3 bonjour
-python3 bonjour
-python bonjour
-python translator.py bonjour
-python3 translator.py bonjour
-python3 translator.py -s fr -t en -v bonjour
-python deepl/translator.py 
-python3 deepl/translator.py 
-python3 deepl/translator.py  -s fr -t en bonjour
-npm install commander --save
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove 
-sudo apt install -y nodejs
-sudo apt-get update && sudo apt-get install yarn
-sudo npm install coap-cli -g
-yarn
-yarn global add deepl-translator-cli
-deepl --version
-yarn global add deepl-translator-cli
-yarn
-node
-cd "/home/aghiles/Downloads/deepl-translator-cli"
-node deepl.js 
-yarn global add deepl-translator-cli
-deepl translate -t 'DE' 'How do you do?'
-ls
-node deepl translate -t 'DE' 'How do you do?'
-deepl translate -t 'DE' 'How do you do?'
-sudo apt search deepl
-sudo apt search deepl | grep deepl
-sudo apt search deepl
-deepl translate -t 'DE' 'How do you do?'
 grep -i deepl-trans
 grep -i "deepl-trans"
 grep -i "deepl\-trans"
@@ -1998,3 +1916,85 @@ javac Exo2.java
 java Exo2
 cle JYSE 0
 cle jyse 0
+sudo apt install openocd
+git clone --recursive https://github.com/aabadie/riot-course
+git clone https://github.com/texane/stlink.git stlink
+cd stlink/
+ls
+sudo make
+sudo make flash
+export BOARD=arduino-uno
+sudo make
+sudo make flash
+r
+arduino
+sudo make
+ls
+sudo shown -R stlink.git/
+sudo chown -R stlink.git/
+sudo chown -R aghiles stlink.git/
+sudo make
+sudo make
+sudo make install
+apt-get update
+apt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim     qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc     avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev     libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake     autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
+sudo apt-get update
+SUDOapt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
+sudo apt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
+if ! hash st-util 2>/dev/null; then     git clone --depth 1 https://github.com/texane/stlink stlink.git && cd stlink.git;     ./autogen.sh && ./configure && make && make install;     cd .. && rm -rf stlink.git; fi
+ls
+if ! hash st-util 2>/dev/null; then git clone --depth 1 https://github.com/texane/stlink stlink.git && cd stlink.git ./autogen.sh && ./configure && make && make install cd .. && rm -rf stlink.gitfi; 
+if ! hash st-util 2>/dev/null; then git clone --depth 1 https://github.com/texane/stlink stlink.git && cd stlink.git; ./autogen.sh && ./configure && make && make install; cd .. && rm -rf stlink.git; fi
+ls
+if ! hash experiment-cli 2>/dev/null; then wget -qO - https://github.com/iot-lab/cli-tools/archive/1.6.0.tar.gz | tar xz; cd cli-tools-1.6.0 && python setup.py install && cd .. && rm -rf cli-tools-1.6.0; fi
+sudo if ! hash experiment-cli 2>/dev/null; then wget -qO - https://github.com/iot-lab/cli-tools/archive/1.6.0.tar.gz | tar xz; cd cli-tools-1.6.0 && python setup.py install && cd .. && rm -rf cli-tools-1.6.0; fi
+ls
+cd ..
+ls
+rm -rf cli-tools-1.6.0/
+ls
+sudo if ! hash experiment-cli 2>/dev/null; then
+wget -qO - https://github.com/iot-lab/cli-tools/archive/1.6.0.tar.gz | tar xz
+cd cli-tools-1.6.0 && python setup.py install && cd .. && rm -rf cli-tools-1.6.0
+cd ..
+rm -rf cli-tools-1.6.0/
+ls
+sudo -s
+cd Downloads/Software/
+ls
+rm -rf stlink.git/
+git clone --depth 1 https://github.com/texane/stlink && cd stlink
+sudo make
+git clone https://github.com/texane/stlink.git stlink
+cd stlink/
+sudo make
+sudo make install
+sudo cp udev_rules/*.rules /etc/udev/rules.d/
+udevadm control --reload-rules ; udevadm trigger
+sudo udevadm control --reload-rules ; udevadm trigger
+apt-get -y autoremove
+sudo apt-get -y autoremove
+cd build/Release
+sudo make install DESTDIR=_install
+rm -rf bin/
+rm -rf bin
+sudo rm -rf bin
+sudo apt install periph_rtc
+sudo apt-cache search periph_rtc
+sudo apt-cache search rtc
+sudo apt-cache search periphrtc
+sudo apt-cache search periph-rtc
+sudo make
+export BOARD=arduino-uno
+sudo make
+sudo make flash
+sudo make BOARD=arduino-uno flash
+sudo make BOARD=arduino-uno clean
+sudo make clean
+export BOARD=arduino-uno
+sudo make BOARD=arduino-uno
+sudo make
+sudo make BOARD=arduino-uno
+$SHELL --version
+ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
+gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
