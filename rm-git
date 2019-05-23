@@ -1,0 +1,4 @@
+#!/bin/sh
+
+git filter-branch -f --tree-filter "rm -rf $1" HEAD
+
