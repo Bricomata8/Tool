@@ -1,5 +1,3 @@
-./deepl translate -t 'DE' 'How do you do?'
-yarn deepl translate -t 'DE' 'How do you do?'
 pip install deepl
 sudo pip install deepl
 sudo pip3 install deepl
@@ -1998,3 +1996,5 @@ git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHAND
 rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
 ./push
 >>>>>>> 480848528470a45313e03e1bdb93104f1a700637
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/tsrdeple
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
