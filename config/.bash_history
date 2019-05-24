@@ -1,140 +1,3 @@
-yarn global add deepl-translator-cl
-sudo deepl translate -t 'DE' 'How do you do?'
-yarn global add deepl-translator-cli
-deepl
-cd Downloads/deepl-translator-cli/
-deepl translate -t 'DE' 'How do you do?'
-./deepl translate -t 'DE' 'How do you do?'
-yarn deepl translate -t 'DE' 'How do you do?'
-pip install deepl
-sudo pip install deepl
-sudo pip3 install deepl
-sudo apt install python-deepl
-sudo pip install deepl
-sudo apt install python3-pip
-sudo apt install python3-pip3
-sudo apt install pip3
-sudo pip3 install deepl
-sudo pip install deepl
-sudo apt install translate-shell
-trans bonjour
-trans -brief bonjour
-trans -brief hello
-trans -s en -t fr -brief hello
-trans -s en -t fr -brief "hello"
-trans -t fr -brief "hello"
-trans -brief "hello"
-man trans
-trans -speak "hello"
-trans -speak "hello every one, today we will see how to "
-man trans
-trans -speak -n male "hello every one, today we will see how to "
-man trans
-trans -speak -narrator male "hello every one, today we will see how to "
-trans -n male -s en -t fr -speak "hello every one, today we will see how to "
-trans -n male -s en -t fr -p "hello every one, today we will see how to "
-trans -n male -s en -t fr -p -b "hello every one, today we will see how to "
-INPUTb=`xsel`
-trans -n male -s en -t fr -p -b "$INPUTb"
-INPUTb=`xsel`
-trans -n male -s en -t fr -p -b "$INPUTb"
-INPUTb=`xsel`
-trans -n male -s en -t fr -p -b "$INPUTb"
-cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
-INPUTb=`xsel`
-./link-sa3 
-sh link-sa3 
-./link-sa3 
-INPUTb=`xsel`
-./link-sa3 
-cd ..
-./speaker-en 
-cd shotcuts/link/
-./link-sa3 
-sh link-sa3 
-cd "/home/aghiles/Aghiles/Tool"
-./setup-3-shotcuts 
-echo $PLAY‐
-echo $PLAYER
-man trans | grep null
-man trans
-gedit
-man trans
-cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
-./link-sa3 
-p
-cd "/home/aghiles/Aghiles/Redaction/2/paper"
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/1/paper"
-./compile 
-pkill gedit
-cle "lora.*hetero" 0
-cle "lora.*sdn" 0
-cle "sdn.*lora" 0
-cle Spreading 0
-cle "sdn.*lora" 0
-cle "cooja.*spreadin" 0
-cle "cooja.*spreading" 0
-cle "spreading.*cooja" 0
-cle "spreading" 0
-trans sweat
-trans -b sweat
-trans -s en -t fr -b sweat
-trans spicy
-trans -i scpicy
-trans -i spicy
-trans  spicy
-trans -b spicy
-trans -b -t fr spicy
-trans cheek
-trans -b -t fr cheek
-trans -b -t fr Pour It Out
-trans -b -t fr "Pour It Out"
-trans -b -t fr "Pour"
-trans -b -t fr "Pour it"
-pkill link*
-cle "lora.*hetero"
-trans buriito
-mkdir
-mkdir impots
-cd impots/
-httrack https://cfspart.impots.gouv.fr/
-lspci | grep -i wireless
-sudo ifconfig
-dmesg
-sudo dmesg
-sudo iwconfig
-svn-git https://github.com/CaliOpen/Caliopen/blob/master/devtools/Vagrantfile
-ls
-iw dev
-sudo iw dev
-ip a l
-ip route
-ip ad
-sudo rm -rf .vagrant/
-sudo apt-get install virtualbox-ext-pack
-sudo apt install virtualbox-ext-pack
-sudo rm -rf .vagrant/
-sudo rm -r .vagrant/
-sudo apt install vagrant
-sudo vagrant up
-sudo vagrant reload
-sudo vagrant up
-sudo vagrant reload
-sudo vagrant up
-sudo vagrant load
-sudo vagrant reload
-sudo apt install virtualbox-5.1 
-sudo vagrant reload
-sudo vagrant up
-sudo rm -r .vagrant/
-sudo vagrant up
-vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
-wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
-svn-git https://github.com/CaliOpen/Caliopen/blob/master/devtools/Vagrantfile
-sudo apt install vagrant
-sudo apt install virtualbox-6-0
 sudo apt install virtualbox-6.0
 apt-cache search virtualbox
 sudo apt search virtualbox-ext-pack
@@ -1878,6 +1741,11 @@ javac Exo2.java
 java Exo2
 cle JYSE 0
 cle jyse 0
+<<<<<<< HEAD
+cle sdnwisev
+cle sdnwise 0
+cle sdn-wise 0
+=======
 sudo apt install openocd
 git clone --recursive https://github.com/aabadie/riot-course
 git clone https://github.com/texane/stlink.git stlink
@@ -1998,3 +1866,135 @@ rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
 git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip' HEAD
 rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
 ./push
+>>>>>>> 480848528470a45313e03e1bdb93104f1a700637
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/tsrdeple
+ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
+pkill mailspring 
+mailspring 
+pkill mailspring 
+mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+mailspring 
+svn-git https://github.com/Bricomata8/Tool/tree/b184403587001f3f88c13650065bd290c8c26579/config/dreget
+svn export  https://github.com/Bricomata8/Tool/trunk/config/dreget
+pkill mailspring 
+ps -A
+pkill evolution-*
+pkill tracker-*
+pkill mail-notification 
+ps -A
+pkill evolution-calendar-factory
+pkill evolution-source-registry 
+pkill mailspring 
+ps -A
+pkill tracker-extract 
+pkill tracker-store 
+pkill tracker-*
+pkill evolution-*
+pkill evolution-addressbook-factory
+pkill evolution-addressbook-factory-subprocess 
+pkill evolution-calendar-factory
+pkill apache2 
+sudo pkill apache2 
+sudo pkill 
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove 
+sudo apt autoclean 
+sudo apt upgrade
+sudo apt update
+pkill mailspring 
+mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+mkdir hh
+cd hh
+ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
+echo $PWD
+ls
+cd ..
+mkdir tfrek
+cd tfrek/
+ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
+gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
+git clone https://github.com/ubuntu/gnome-shell-extension-appindicator.git
+ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
+gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
+sudo snap install mathpix-snipping-tool
+mathpix-snipping-tool
+gedit mathpix
+pkill mathpix-snipping-tool
+pkill mathpix-snipping-tool 
+pkill mathpix-snipping-tool
+cle modulation 0
+reboot
+boot
+sudo boot
+sudo reboot
+grep -ri Serializable
+grep -ri Serializable
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
+cd ..
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
+cd ..
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac serialization/Main.java 
+java serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+cle sentilo 0
