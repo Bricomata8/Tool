@@ -1,125 +1,3 @@
-sudo apt install virtualbox-6.0
-apt-cache search virtualbox
-sudo apt search virtualbox-ext-pack
-sudo apt search virtualbox
-sudo apt-cache search virtualbox
-sudo apt install virtualbox
-sudo apt install virtualbox-5.0 
-sudo apt install virtualbox-6.0 
-sudo apt search virtualbox-ext-pack
-sudo apt install virtualbox-ext-pack
-sudo apt install virtualbox-6-0-ext-pack
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-6-0.vbox-extpack
-vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
-wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
-sudo VBoxManage extpack uninstall "Oracle VM VirtualBox Extension Pack"
-cat /proc/sys/net/ipv4/ip
-cat /proc/sys/net/ipv4/ip_forward
-cd test/
-for file in *.java; do iconv -f ascii -t utf-8 "$file" -o "${file%.java}.utf8.java"; done
-javac *.java
-gedit
-grep main
-grep-ri  main
-grep -ri  main
-javac *.java
-javac -encoding UTF8 *.java
-javac -encoding UTF8 Prof.java
-sed -r 's/\u201d//g'
-sed -ri 's/\u201d//g'
-sed -ri 's/\u201d//g' *
-javac -encoding UTF8 Prof.java
-convmv -r -f windows-1252 -t UTF-8 .
-convmv -r -f ISO-8859-1 -t UTF-8 .
-convmv -r -f cp-850 -t UTF-8 .
-convmv -r -f cp-850 -t UTF-8 *
-javac -encoding UTF8 Prof.java
-file -bi *.java
-ls
-nautilus
-mkdir test
-cd test/
-gedit Personne.java
-sudo apt install vagrant virtualbox-5-1
-echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
-sudo echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
-sudo -s
-sudo apt update
-sudo apt update && sudo apt install virtualbox-6.0
-sudo apt install vagrant 
-vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
-wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
-sudo vagrant up
-virtualbox -v
-virtualbox -version
-virtualbox -V
-man virtualbox
-vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
-echo $vboxversion 
-sudo apt remove virtualbox-6.0 
-sudo apt remove -purge virtualbox-6.0 
-sudo apt remove --purge virtualbox-6.0 
-sudo apt install virtualbox-6.0 
-wget "https://download.virtualbox.org/virtualbox/6.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.vbox-extpack"
-vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
-wget "https://download.virtualbox.org/virtualbox/${vboxversion}/Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-${vboxversion}.vbox-extpack
-sudo ro -r .vagrant/
-sudo apt-get install convmv
-sudo VBoxManage extpack uninstall "Oracle VM VirtualBox Extension Pack"
-sudo apt remove vagrant virtualbox-5.1 
-sudo apt remove --purge vagrant virtualbox-5.1 
-sudo apt autoremove 
-sudo apt autoclean
-sudo apt upgrade
-ls
-wget "https://download.virtualbox.org/virtualbox/5.1.0/Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack
-iptables
-sudo apt-cache search iptables
-ifconfig eth0
-sudo ifconfig eth0
-sudo iwconfig eth0
-vagrant ssh
-vagrant ssh
-sudo ro -r .vagrant
-sudo rm -r .vagrant
-sudo vagrant up
-sudo apt remove virtualbox-6.0 
-sudo apt remove --purge virtualbox-6.0 
-sudo apt autoremove
-sudo apt install virtualbox-6.0 
-sudo rm -r .vagrant
-sudo vagrant 
-sudo rm -r .vagrant
-vagrant init debian/contrib-jessie64
-vagrant box add debian/contrib-jessie64
-vagrant up
-vagrant ssh
-sudo apt remove virtualbox-6.0 
-sudo apt remove --purgevirtualbox-6.0 
-sudo apt remove --purge virtualbox-6.0  
-sudo apt install virtualbox-5.1 
-vagrant up
-vagrant ssh
-vagrant reload
-wget "https://download.virtualbox.org/virtualbox/5.1.0/Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.1.0.vbox-extpack
-vagrant reload
-sudo apt remove --purge virtualbox-5.1 
-sudo apt remove --purge vagrant
-sudo apt autoremove 
-sudo apt install virtualbox-5.0 
-sudo apt install vagrant
-wget "https://download.virtualbox.org/virtualbox/5.0.0/Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack
-rm Oracle_VM_VirtualBox_Extension_Pack-5.0.0.vbox-extpack 
-vagrant reload 
-vagrant up
-vagrant -v
-sudo apt remove vagrant 
 curl -O https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.deb
 sudo apt install ./vagrant_2.2.3_x86_64.deb
 rm -r ./vagrant_2.2.3_x86_64.deb
@@ -1998,3 +1876,125 @@ java -cp bin serialization.Main
 javac -d bin serialization/Main.java 
 java -cp bin serialization.Main 
 cle sentilo 0
+cle mesh blokchain 0
+cle mesh blockchain 0
+cle Chaincode 0
+sudo apt install gedit-source-code-browser-plugin 
+cle payload 0
+cle snr 0
+passwd
+cat /etc/passwd
+sudo apt-get update && sudo apt-get install folder-color
+sudo apt install folder-color
+wget http://download.opensuse.org/repositories/home:/tangerine:/deb9-xfce-4.12/Debian_9.0/amd64/folder-color_0.0.86-7_amd64.deb
+sudo dpkg -i folder-color_0.0.86-7_*.deb
+sudo apt install python-nautilus
+sudo apt --fix-broken install
+sudo apt install python-nautilus
+sudo dpkg -i folder-color_0.0.86-7_*.deb
+sudo apt-get install -f
+nautilus -q
+sudo apt install folder-color folder-color-caja folder-color-common -y
+ls
+sudo apt install folder-color-nemo
+papirus-folders -C brown --theme Papirus-Dark
+gedit color.py
+gedit color.py
+python3 /path/to/change_icon.py <targeted_directory>
+gedit color.py
+python3 color.py uui
+python3 color.py ./uui
+python3 color.py ./uui.jpg/
+nautilus /usr/share/icons/hicolor
+gtk-edit & undo
+gtk-edit
+gtk-update-icon-cache
+unity
+sudo apt install unity
+grep -ri "/Documents/BAC"
+grep -ri "BAC"
+grep -ri "Documents/BAC"
+set -e
+update-gtk-icon-cache /usr/share/icons/hicolor/
+gtk-update-icon-cache /usr/share/icons/hicolor/
+sudo gtk-update-icon-cache /usr/share/icons/hicolor/
+echo $XDG_DATA_DIRS
+sudo touch /usr/share/icons/hicolor ~/.local/share/icons/hicolor
+cat /usr/share/icons/hicolor
+~/.config/folder-color/custom_icons
+cd ~/.config/folder-color/custom_icons
+global folder-color
+gtk-update-icon-cache 
+sudo apt install xdotool nautilus-actions
+nautilus ~/.local/share/gvfs-metadata
+gio set
+gio set -t 'string' folderIWishToInsertIcon 'metadata::custom-icon' 'file:///home/myUser/myIcon.png'
+gio set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute set  yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute set -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute -t stringv ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute -t 'stringv' ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gvfs-set-attribute yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gio set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gio set -t 'sunset' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+gio set -t 'unset' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+nautilus -q
+gio set -t 'string' tre 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
+touch tre
+killall gnome-panel nautilus
+gvfs-info -a metadata::emblems folder
+gvfs-info -a metadata::emblems yyy
+gvfs-set-attribute -t stringv folder metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+gvfs-set-attribute -t stringv folder metadata::emblems icon
+gvfs-set-attribute -t stringv folder metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+gvfs-set-attribute 1 stringv folder metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+gvfs-set-attribute -t stringv folder metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+gvfs-set-attribute yyy metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+nautilus -q
+gvfs-set-attribute yyy metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+gvfs-set-attribute -t stringv yyy metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+gvfs-set-attribute -t stringv yyy metadata::folder /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
+nautilus -q
+echo $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
+gedit  ~/.local/share/file-manager/actions 
+ls  ~/.local/share/file-manager
+ls  ~/.local/share/nautilus/
+gedit ~/.config/nautilus-actions
+gedit ~/.config/nautilus-actions/nautilus-actions.conf 
+ls ~/.config/nautilus-actions
+cd link/
+./link-pa6 
+zenity --file-selection
+nautilus --file-selection
+man nautilus | grep sele
+nautilus -s
+man nautilus
+zenity --file-selection
+gvfs-list
+gvfs-ls
+gvfs-info
+nautilus ~/.local/share/gvfs-metadata/
+pkill gvfsd-metadata 
+nautilus ~/.local/share/gvfs-metadata
+mv  ~/.local/share/gvfs-metadata/home .
+ln /home/aghiles/Aghiles/Tool/config/home ~/.local/share/gvfs-metadata/home
+ln -sf /home/aghiles/Aghiles/Tool/config/home ~/.local/share/gvfs-metadata/home
+thunar
+stat ~/.local/share/gvfs-metadata
+stat ~/.local/share/gvfs-metadata/home
+ps aux | grep gvfsd-metadata
+ln -sf /home/aghiles/Aghiles/Tool/config/gvfs/* ~/.local/share/gvfs-metadata/
+rm -rf ~/.local/share/gvfs-metadata/home
+ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
+nautilus -q
+./campus 
+xdg-open
+xdg-open ggogle.com
+xdg-open google.com
+xdg-open www.google.com
+xdg-open http://www.google.com
+xdg-open https://pedago-ece.campusonline.me/my/

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gvfs-set-attribute -t string $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg'
+touch $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
