@@ -1,37 +1,3 @@
-curl -O https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.deb
-sudo apt install ./vagrant_2.2.3_x86_64.deb
-rm -r ./vagrant_2.2.3_x86_64.deb
-ls
-vagrant -v
-sudo apt remove virtualbox-5.0 
-sudo apt remove --purge virtualbox-5.0 
-vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
-sudo apt update && sudo apt install virtualbox-$vboxversion
-sudo apt update && sudo apt install virtualbox-6.0
-wget "https://download.virtualbox.org/virtualbox/$vboxversion/Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack"
-sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack
-rm -r Oracle_VM_VirtualBox_Extension_Pack-6.0.6.vbox-extpack 
-vagrant up
-vagrant ssh
-vagrant reload
-vagrant reload 
-grep -ri force
-cle Bandit 0  
-./pull 
-<<<<<<< HEAD
-./push 
-=======
-wget https://docs.google.com/spreadsheets/d/1KDSMgX5xYI4W0t8kqUxonQQNWmfSk6YzCtl_SCwGgiY/edit#gid=499000135
-u
-echo -e '#!/usr/bin/php\n<?php phpinfo(); ?>' > Accueil.php 
-./Accueil.php 
-./Accueil.php | grep -i aghiles
-php -f Accueil.php 
-php  Accueil.php 
-php Accueil.php 
-./Accueil.php 
-/usr/bin/php
-whereis php
 ./Accueil.php 
 sed -i -e 's/\r$//' Accueil.php 
 ./Accueil.php 
@@ -1998,3 +1964,37 @@ xdg-open google.com
 xdg-open www.google.com
 xdg-open http://www.google.com
 xdg-open https://pedago-ece.campusonline.me/my/
+grep -ri Collections
+pdf2txt
+cle geneti 0
+pkill mailspring 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
+pkill mailspring 
+man javac | grep iso
+man javac | grep encoding
+grep -ri collection
+gedit Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6/ListeDeLivres.java:
+gedit Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6/ListeDeLivres.java
+cd Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6
+ls
+grep -ri main
+javac Bibliotheque.java 
+javac -encoding utf8 Bibliotheque.java 
+javac -encoding EUC-JP Bibliotheque.java 
+javac -encoding URF-8 Bibliotheque.java 
+javac -encoding UTF-8 Bibliotheque.java 
+javac -encoding ISO-8859-1 Bibliotheque.java 
+java Bibliotheque 
+grep collec
+grep -ri collec
+gedit ListeDeLivres.java
+javac -encoding ISO-8859-1 Bibliotheque.java 
+gedit ListeDeLivres.java
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+javac MainClass.java
+java MainClass 
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+javac MainClass.java
+javac -Xlint MainClass.java
+javac MainClass.java
