@@ -1,155 +1,3 @@
-./Accueil.php 
-sed -i -e 's/\r$//' Accueil.php 
-./Accueil.php 
-php Accueil.php 
-sudo apt install php
-php Accueil.php 
-sudo apt install translate-shell 
-./setup-3-shotcuts 
-gedit 0_application.tex
-cd "/home/aghiles/Aghiles/Redaction/0/paper"
-./compile 
-ls
-rm -r bin/
-ls
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper"
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-cle preading 0
-cle "-137" 0
-cle "\-137" 0
-<<<<<<< HEAD
-sudo apt install matlab-support
-sudo apt install matlab
-sudo apt install matlab-support
-su
-=======
->>>>>>> bd1ec70f8611a2d4b750bbb13a6003c019d2a73a
-chrome-gnome-shell 
-sudo apt install chromium
-chromium 
-cle spreading 0
-httrack https://scikit-learn.org/stable/
-sudo apt -y install ipython
-ipython --version
-pip3 install jupyter
-sudo apt -y install python3 python3-pip python3-dev
-pip3 --version
-sudo apt-get remove python3-pip; sudo apt-get install python3-pip
-pip3
-pip3 install jupyter
-useradd -M jupyter
-jupyter notebook --help
-python exercise_02_sentiment.py 
-evince index.rst
-gnome-control-center
-gnome-tweaks
-gnome-tweak-tool 
-gnome-control-center
-git clone /media/aghiles/Aghiles/Administration
-./push 
-ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
-ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
-gnome-control-center
-./push 
-mailspring 
-pkill mailspring
-mailspring 
-ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
-ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
-ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
-ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
-ln -sf /media/aghiles/Aghiles/Mozilla /home/aghiles/.mozilla
-ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
-cd /media/aghiles/Aghiles/Mailspring
-mailspring 
-ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
-mailspring 
-ln -sf /media/aghiles/Aghiles/Mailspring /home/aghiles/.config/Mailspring
-mailspring 
-pkill mailspring
-mailspring 
-sudo mailspring 
-grep -ri 000005 
-mailspring 
-pkill mailspring 
-mailspring 
-pkill mailspring
-mailspring 
-ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
-ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/Local Strage"
-ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/Local Storage"
-ln -sf "/media/aghiles/Aghiles/Mailspring/uu/Local Storage" "/home/aghiles/.config/Mailspring/"
-ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
-ln -sf "/media/aghiles/Aghiles/Mailspring/uu/*" "/home/aghiles/.config/Mailspring/"
-ln -srf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
-ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
-mailspring 
-pkill mailspring
-mailspring 
-pkill mailspring
-mailspring 
-pkill mailspring
-mailspring 
-pkill mailspring 
-mailspring 
-pkill mailspring 
-ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-ln -sf /media/aghiles/Aghiles/Mailspring/uu/* /home/aghiles/.config/Mailspring/
-ln -sf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
-mailspring 
-ln -sTf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
-ln -sf /media/aghiles/Aghiles/Mailspring/* /home/aghiles/.config/Mailspring/
-ln -sf /media/aghiles/Aghiles/alternate/* /home/aghiles/.mozilla/firefox/ao16oe4p.default/
-firefox
-firefox -h
-firefox -P azert
-firefox 
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
-chromium 
-chromium google.com
-chromium 
-xdg-open
-grep -ri firefox
-apt install encfs
-sudo apt install encfs
-gnome-tweak-tool 
-sudo apt install tagspace
-sudo apt install gnome-taquin 
-sudo apt install tagspaces
-sudo add-apt-repository ppa:elementary-os/daily
-gnome -v
-tracker-tag
-sudo apt install tracker-tag
-sudo apt install tracker-gui
-tracker-gui
-tracker
-tracker-preferences 
-tracker-needle 
-tagspaces 
-tracker tag -s
-tracker tag -t
-tracker tag -t -s
-tracker tag -ts
-tracker tag -ts todo
-tracker tag -ts
-xd
-tracker tag -ts
-traC
-tracker jsk
-tracker tag
-tracker tag -t jsk
-tracker tag -t jskl
-tracker tag -t jsk
-tracker tag -d jsk
-tracker -t
-tracker tag -t
-tracker tag -s
 xd
 wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_i386.deb
 wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_amd64.deb
@@ -1998,3 +1846,155 @@ cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
 javac MainClass.java
 javac -Xlint MainClass.java
 javac MainClass.java
+ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
+mv ~/.local/share/gvfs-metadata ~/.local/share/gvfs-metadata2
+ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
+sudo apt install skype
+$ wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
+wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
+sudo apt install getskype-linux-deb
+sudo apt install ./getskype-linux-deb
+gdebi getskype-linux-deb
+gdebi ./getskype-linux-deb
+ls
+sudo apt install ./skype-install.deb 
+sudo gdebi ./skype-install.deb 
+wget https://repo.skype.com/latest/skypeforlinux-64.deb
+skype
+sudo apt install skype
+sudo apt-cache searche skype
+sudo apt-cache search skype
+skype
+sudo apt install ./skypeforlinux-64.deb 
+skypeforlinux 
+pdf2txt 
+cd "/home/aghiles/Aghiles/Teaching/C/Liste/c1/c_udp"
+gcc udp_listner.c 
+gcc udp_talker.c 
+./a.out 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_talker.c -o talker
+./talker 
+gcc udp_listner.c 
+ls
+./a.out 
+gcc udp_listner.c 
+./a.out 
+gcc udp_listner.c 
+./a.out 
+gcc udp_listner.c 
+./a.out 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+./talker
+gcc udp_talker.c -o talker
+./listner 
+./talker
+gcc udp_listner.c -o listner
+cd "/home/aghiles/Aghiles/Teaching/C/Liste/c_udp"
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+cd "/home/aghiles/Aghiles/Teaching/C/Liste/c1/c_udp"
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+gcc udp_listner.c -o listner
+./listner 
+oi
+iuiu
+oioi
+gcc udp_listner.c -o listner
+gcc listner.c -o listner
+cd "/home/aghiles/Aghiles/Teaching/C/Liste/c_udp"
+gcc listner.c -o listner
+./pull 
+ls 2R4L94BG/
+nautilus .
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./compile 
+grep -ri Runaway
+./compile 
+grep -ri Applic 
+grep -ri "{Applic" 
+grep -ri "9}{Applic " 
+grep -ri "{Applic " 
+grep -ri "{Applic" 
+grep -ri protocolsComparison
+./compile 
+gcc listner.c 
+./listner
+cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
+gcc talker.c 
+cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
+gcc listner.c -o listner
