@@ -1,20 +1,3 @@
-pip3 install --editable ..
-sudo pip3 uninstall scikit-learn
-pip3 install --editable ..
-sudo pip3 uninstall sklearn
-pip3 install --editable ..
-sudo pip install numpy
-sudo pip3 install numpy
-pip --version
-sudo pip install --upgrade scikit-learn
-sudo pip3 install --upgrade scikit-learn
-sudo pip3 install --upgrade sklearn
-sudo pip3 install --editable ..
-sudo pip3 install --upgrade numpy
-sudo pip3 install --editable ..
-sudo pip3 install Cython
-sudo pip3 install --editable ..
-sudo make latexpdf
 firefox
 gedit
 cle heterog 0
@@ -1998,3 +1981,20 @@ sudo chown -R aghiles bin/
 sudo ./push
 sudo chown -R aghiles Aghiles
 sudo ./push
+gedit Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+sudo tools/build/onos-buck build onos --show-output 
+cd onos/
+sudo tools/build/onos-buck build onos --show-output 
+tools/build/onos-buck run onos-local -- clean debug
+directory=/home/aghiles/Aghiles/Program/bin
+cd $directory
+ls
+sed -i '/featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features/c\featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features,mvn:org.onosproject\/onos-features\/1.0.2-SNAPSHOT\/xml\/features' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+sed -i '/featuresBoot=config,standard,region,package,kar,ssh,management/c\featuresBoot=config,standard,region,package,kar,ssh,management,onos-api,onos-core-trivial,onos-cli,onos-openflow,onos-app-fwd,onos-app-mobility,onos-gui,onos-sdnwise,onos-sdnwise-providers' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+source $ONOS_ROOT/tools/dev/bash_profile
+cd onos/
+sudo tools/build/onos-buck build onos --show-output 
+tools/build/onos-buck run onos-local -- clean debug
+sudo tools/build/onos-buck build onos --show-output
+tools/build/onos-buck run onos-local -- clean debug
+sudo tools/build/onos-buck run onos-local -- clean debug
