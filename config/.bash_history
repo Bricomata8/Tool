@@ -1,7 +1,3 @@
-sudo pip3 install --editable ..
-make latexpdf
-pip install --editable ..
-pip3 install --editable ..
 pip install --editable ..
 pip3 install --editable ..
 sudo pip3 uninstall scikit-learn
@@ -1998,3 +1994,7 @@ pkill mailspring
 >>>>>>> 3095a28b2b9c609b0fa5f3c50483823381fed6b0
 sudo chown -R aghiles bin/
 ./pull 
+./push
+./pull
+sudo ./push
+sudo chown -R aghiles Aghiles
