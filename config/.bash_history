@@ -1,4 +1,3 @@
-xd
 wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_i386.deb
 wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_amd64.deb
 sudo apt install ./tagspaces_1.8.5_amd64.deb
@@ -1998,3 +1997,4 @@ cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
 gcc talker.c 
 cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
 gcc listner.c -o listner
+cle game 0
