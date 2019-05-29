@@ -1,5 +1,3 @@
-pip3 install sklearn
-pip3 install --editable ..
 sudo pip3 install --editable ..
 make latexpdf
 pip install --editable ..
@@ -1998,3 +1996,5 @@ ls
 ./push 
 pkill mailspring 
 >>>>>>> 3095a28b2b9c609b0fa5f3c50483823381fed6b0
+sudo chown -R aghiles bin/
+./pull 
