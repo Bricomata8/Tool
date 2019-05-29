@@ -1,4 +1,3 @@
-pip install --editable ..
 pip3 install --editable ..
 sudo pip3 uninstall scikit-learn
 pip3 install --editable ..
@@ -1998,3 +1997,4 @@ sudo chown -R aghiles bin/
 ./pull
 sudo ./push
 sudo chown -R aghiles Aghiles
+sudo ./push
