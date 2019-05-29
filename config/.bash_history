@@ -1,38 +1,3 @@
-wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_i386.deb
-wget github.com/uggrock/tagspaces/releases/download/v1.8.5/tagspaces_1.8.5_amd64.deb
-sudo apt install ./tagspaces_1.8.5_amd64.deb
-tagspaces 
-xd
-gedit
-gedit .local/share/nautilus-python/extensions/todo.py
-cd .local/share/nautilus/scripts/
-ls
-gedit todo.py
-nautilus
-nautilus -q
-gedit todo
-nautilus -q
-xd
-tracker tag -a todo ./locale
-tracker tag -a todo file:///Downloads
-tracker tag -a todo /Downloads
-tracker tag -a todo file:///home/aghiles/Downloads
-xd
-cd IA
-make
-sudo pip install sphinx sphinx-gallery numpydoc matplotlib Pillow pandas scikit-image joblib
-sudo pip3 install sphinx sphinx-gallery numpydoc matplotlib Pillow pandas scikit-image joblib
-cd doc/
-make latexpdf
-cd doc/
-pip install --editable ..
-cd doc/
-make latexpdf
-git clone https://github.com/scikit-learn/scikit-learn.git
-cd scikit-learn/
-cd doc/
-pip install --editable ..
-pip3 install --editable ..
 pip3 install sklearn
 pip3 install --editable ..
 sudo pip3 install --editable ..
@@ -1997,4 +1962,39 @@ cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
 gcc talker.c 
 cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
 gcc listner.c -o listner
+<<<<<<< HEAD
 cle game 0
+=======
+nautilus /home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization
+grep -ri serial
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
+grep -ri clear
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
+javac Main.java 
+cd ..
+javac -d bin serialization/Main.java 
+java -cp bin serialization.Main 
+cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
+javac -d bin serialization/Main.java 
+javac MainClass.java 
+cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
+./talker
+cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
+gcc talker.c 
+./talker
+cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
+gcc listner.c 
+./listner
+gedit
+pkill mailspring 
+pkill mailspring 
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/dreget
+./push
+./.push
+cd Administration/
+./.push
+./push
+ls
+./push 
+pkill mailspring 
+>>>>>>> 3095a28b2b9c609b0fa5f3c50483823381fed6b0
