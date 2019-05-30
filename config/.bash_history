@@ -1,4 +1,3 @@
-firefox
 gedit
 cle heterog 0
 cle spreading 2
@@ -1998,3 +1997,4 @@ tools/build/onos-buck run onos-local -- clean debug
 sudo tools/build/onos-buck build onos --show-output
 tools/build/onos-buck run onos-local -- clean debug
 sudo tools/build/onos-buck run onos-local -- clean debug
+pkill zotero-bin 
