@@ -1,10 +1,3 @@
-php -S localhost:8000
-cd test/
-sudo php MonProfil.php > page.html ; firefox page.html
-sudo php Accueil..php > page.html ; firefox page.html
-sudo php Accueil.php > page.html ; firefox page.html
-grep -ri bin
-./Accueil.php 
 sed -ie 's/\r//' *.php
 ./Accueil.php 
 ./MonProfil.php 
@@ -1998,3 +1991,10 @@ grep -ri Res_iot
 cle ndn 0
 evince KPHDN3J5/Grassi et al. - 2014 - VANET via Named Data Networking.pdf
 evince "KPHDN3J5/Grassi et al. - 2014 - VANET via Named Data Networking.pdf"
+grep -ri setup2
+grep -ri setup_
+cle selection 0
+cle selection 10
+cle selection lpwa 10
+cle selection lora 10
+cle sentilo 0
