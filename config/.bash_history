@@ -1,9 +1,3 @@
-./Accueil.php 
-./MonProfil.php 
-php MonProfil.php 
-php
-sudo apt install php
-php MonProfil.php 
 php Accueil.php 
 php ConnexionBDD.php
 php VerifConnex.php
@@ -1998,3 +1992,9 @@ cle selection lpwa 10
 cle selection lora 10
 cle sentilo 0
 mathpix
+cle selection
+cle mse 0
+cle " mse " 0
+cle " rmse " 0
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+grep -ri "Home Automation"
