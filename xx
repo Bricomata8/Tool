@@ -7,9 +7,9 @@ filename=`basename "$mypath"`
 latexmk -f -cd -lualatex -output-directory=bin -shell-escape -jobname=$filename $filename.tex
 evince bin/$filename.pdf
 
-rm .*
-rm src/.*
-rm src/*/.*
+#rm .*
+#rm src/.*
+#rm src/*/.*
 for f in *.tex ; do
 echo "[LATEX]
 master-filename = $filename.tex" > "`dirname "$f"`/.`basename "$f"`.ini" ; 

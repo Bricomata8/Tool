@@ -1,4 +1,3 @@
-sed -ie 's/\r//' *.php
 ./Accueil.php 
 ./MonProfil.php 
 php MonProfil.php 
@@ -1998,3 +1997,4 @@ cle selection 10
 cle selection lpwa 10
 cle selection lora 10
 cle sentilo 0
+mathpix
