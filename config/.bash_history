@@ -1,17 +1,3 @@
-gedit
-cle heterog 0
-cle spreading 2
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-mkdir uu
-cd uu
-httrack https://www.sghoslya.com/
-cle spreading 0
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-sudo apt install php-mysqli
 php -S localhost:8000
 cd test/
 sudo php MonProfil.php > page.html ; firefox page.html
@@ -1998,3 +1984,17 @@ sudo tools/build/onos-buck build onos --show-output
 tools/build/onos-buck run onos-local -- clean debug
 sudo tools/build/onos-buck run onos-local -- clean debug
 pkill zotero-bin 
+pkill mailspring 
+pdf2txt
+cd "/home/aghiles/Aghiles/Redaction/0/slide"
+./compile 
+pdf2txt
+cle ndn 0
+pdf2txt
+cle ndn 0
+cle lora 0
+cd Tool/
+grep -ri Res_iot
+cle ndn 0
+evince KPHDN3J5/Grassi et al. - 2014 - VANET via Named Data Networking.pdf
+evince "KPHDN3J5/Grassi et al. - 2014 - VANET via Named Data Networking.pdf"
