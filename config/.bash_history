@@ -1,36 +1,3 @@
-sudo apt unstall unrar
-sudo apt install unrar
-unrar x Matlab.rar 
-sudo apt install matlab-support
-nautilus                  │ iles/Downloads/Software/Matlab/Mathworks_ │ 
-sudo ./install 
-matlab
-sudo /media/aghiles/MATHWORKS_R2016B/install
-nautilus sudo /usr/local/MATLAB/R2018b/bin/matlab
-nautilus /usr/local/MATLAB
-sudo /usr/local/MATLAB/R2018b/bin/matlab
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-matlab
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-sudo mv /usr/local/MATLAB /usr/local/MATLAB2
-sudo apt install matlab-support
-sudo dpkg --configure -a
-sudo nautilus .
-cd /usr/local/MATLAB/R2016b
-firefox help/mdce/troubleshoot-common-problems.html
-sudo nautilus
-sudo /media/aghiles/MATHWORKS_R2016B/install
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-ls
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-sudo nautilus
-matlab
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-cd /usr/local/MATLAB/R2016b/bin
-./matlab
-cd ../etc/
-ls
-nautilus
 nautilus .
 cd ..
 locate .dat
@@ -1998,3 +1965,36 @@ sudo apt remove --purge icinga2
 cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/applications"
 python wikipedia_principal_eigenvector.py 
 python3 wikipedia_principal_eigenvector.py 
+sudo apt remove icedtea-netx
+sudo apt update
+sudo apt install python-*
+sudo apt install python3-*
+sudo pip install python3-*
+sudo pip install *
+sudo pip install all
+sudo pip install all-dev
+sudo apt install python3-*
+cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/feature_selection"
+python plot_rfe_digits.py 
+python3 plot_rfe_digits.py 
+python3 plot_feature_selection.py 
+grep -ri rank
+grep -ri ranking
+gedit examples/feature_selection/plot_rfe_digits.py
+grep -ri geneti
+xdg-open doc/scikit-learn.org/stable/related_projects.html:
+chromium doc/scikit-learn.org/stable/related_projects.html:
+chromium file://home/aghiles/Aghiles/Formation/IA/sklearn/doc/scikit-learn.org/stable/related_projects.html:
+chromium doc/scikit-learn.org/stable/related_projects.html
+sudo apt install python3-*
+sudo apt install python3-[abdefghijkmoqrslnpuvwxyz]*
+sudo apt install python3-x*
+sudo apt install python3-c*
+sudo apt install python3-a* python3-b* python3-c* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-c[^u]* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-c[abcdefghijklmnopqrstvwxyz]* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
+python3-a* python3-b* python3-d* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
