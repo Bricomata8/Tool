@@ -1,118 +1,3 @@
-php Accueil.php 
-php ConnexionBDD.php
-php VerifConnex.php
-php Inscription.php
-php ConnexionBDD.php
-sudo php ConnexionBDD.php
-mysql -u user -p data_base_name_here < db.sql
-mysql -u root -p Web < sql/Web.sql
-cd u/sql/
-mysql -u root -p Web < Web.sql
-sudo mysql -u root -p Web < Web.sql
-sudo mysql -u root -p < Web.sql
-sudo mysql -u root -p Web < Web.sql
-sudo mysql -uroot -proot < Web.sql
-cd ..
-ls
-php ConnexionBDD.php
-sudo php ConnexionBDD.php
-sudo php ConnexionBDD2.php
-php ConnexionBDD2.php
-php Accueil.php 
-php Inscription.php
-sudo php Inscription.php
-sudo php VousData.php
-sudo 
-sudo php MonProfil.php
-sudo php MonProfil.php | firefox
-sudo php MonProfil.php > page.html ; firefox page.html
-sudo php Accueil.php > page.html ; firefox page.html
-sudo php Vous.php > page.html ; firefox page.html
-sudo php MonProfil.php > page.html ; firefox page.html
-ls
-cd ..
-php -S localhost:8000 -t test/
-php -S localhost:8000 -t test
-php -S localhost:8000 -t /
-php -S localhost:8000 -t .
-cd ..
-cd Web
-php -S localhost:8000 -t .
-ls
-php -S localhost:8000 -t .
-php -S localhost:8000 -t test/
-ls
-php -S localhost:8000 -t .
-sudo php -S localhost:8000 -t .
-firefox
-firefox
-grep -ri Vousaff
-gedit runWeb
-sudo php -S localhost:8000 -t .
-grep -ri vousaff
-texdoc pgfplots
-pkill mailspring 
-./rm
-cd "/home/aghiles/Aghiles/Tool"
-./rm 
-git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
-git status
-git add -all
-git add --all
-git status
-./rm 
-git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
-touch ~/Templates/Empty\ Document
-mkdir Templates
-touch ~/Templates/Empty\ Document
-nautilus -q
-gedit ~/.config/user-dirs.dirs
-xd
-wireshark 
-sudo wireshark 
-sudo apt install mendelly
-sudo apt-get install mendeleydesktop
-sudo apt-get install mendeley
-sudo apt-cache search mendeley
-sudo apt install xapers
-xapers
-wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
-sudo apt install ./mendeleydesktop-latest.deb 
-mendeleydesktop 
-cle spreading 0
-pdf2txt
-cle spreading 0
-cle "Ochoa.*spreading" 0
-cle "spreading" 0 | grep Ochoa
-cle "spreading.*graph" 0
-cle "graph.*spreading" 0
-cle "spreading factor" 0
-cle "spreading factor" 0 | ochoa
-cle "spreading factor" 0 | grep ochoa
-cle "spreading factor" 0 | grep Ochoa
->>>>>>> 651c4be74aa8767e962581fc04a0382c539c7578
-sudo apt install furiusisomount
-furiusisomount
-grep -ri dreget
-pkill mailspring 
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-cle laura 0
-cle lora 0
-cat CUPS.desktop 
-sudo  apt-get install cupsys
-sudo  apt-get install cups
-cups
-gedit cups
-xdg-open http://localhost:631/admin
-usermod -a -G lpadmin aghiles
-sudo usermod -a -G lpadmin aghiles
-sudo systemst restart cups
-sudo systemstl restart cups
-sudo systemctl restart cups
-sudo gedit /etc/cups/cups-files.conf 
-sudo ./install 
-pdf2txt 
-unrar
 sudo apt unstall unrar
 sudo apt install unrar
 unrar x Matlab.rar 
@@ -1998,3 +1883,118 @@ cle " mse " 0
 cle " rmse " 0
 cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
 grep -ri "Home Automation"
+grep -ri rank
+pipconflictchecker
+python wikipedia_principal_eigenvector.py 
+cle rank 0
+cle rank select 0
+cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/applications"
+py wikipedia_principal_eigenvector.py 
+python wikipedia_principal_eigenvector.py 
+sudo pip install urllib
+sudo pip3 install urllib
+sudo pip install urllib
+sudo apt install python-urllib
+sudo apt install python3-urllib
+sudo apt-cache search urllib
+sudo apt-cache search urllib | grep urllib
+sudo apt install python-urllib3
+python wikipedia_principal_eigenvector.py 
+sudo apt install request
+sudo apt install request3
+sudo apt install python3-urllib3
+sudo apt install python-a*
+sudo apt install python-b*
+sudo apt install python-*
+sudo apt install python-[a-z]*
+sudo apt install python-c*
+sudo apt install python-d*
+sudo apt install python-*
+sudo apt install -y python-*
+sudo apt install -y python-b*
+sudo apt install -y python-c*
+sudo apt install -y python-d*
+sudo apt install -y python-s*
+sudo apt install -y python-[abdefghijkmnoqrstuvwxyz]*
+sudo apt install -y python-[abdefghijkmoqrstuvwxyz]*
+sudo apt install -y python-[abdefghijkmoqrsuvwxyz]*
+sudo apt install -y python-[adefghijkmoqrsuvwxyz]*
+sudo apt install -f
+sudo apt update
+sudo apt upgrade
+sudo apt remove icinga2-common
+sudo apt upgrade
+sudo apt update
+sudo apt install -f
+sudo apt install python-l*
+sudo apt install python-n*
+sudo apt install python-t*
+sudo apt install -f python-t*
+sudo pip install t*
+sudo pip install *
+sudo pip install -r *
+sudo pip install t*
+sudo apt install python-t*
+grep -ri rank *.pu
+grep -ri rank *.py
+grep -ri rank */*.py
+grep -ri rank */*.py */*/*.py
+grep -ri rank */*.py */*/*.py */*/*/*.py
+gedit examples/applications/wikipedia_principal_eigenvector.py
+cle rank 0
+python wikipedia_principal_eigenvector.py 
+gedit  /etc/apt/source.list
+sudo apt install python-t*
+sudo pip uninstall tempest
+sudo apt install python-t*
+sudo pip uninstall tempest-lib
+sudp apt install python-tempest
+sudo apt install python-tempest
+sudo pip uninstall tempest-lib
+sudo apt install python-t*
+sudo apt remove python-tempest
+sudo apt remove python-tempest-lib
+sudo apt remove python-tempest
+sudo apt install python-t*
+sudo apt install -f python-t*
+sudo apt --fix-broken install
+sudo apt install -f python-t*
+sudo apt install -f python-t[abcdf-z]*
+sudo apt install -f python-t*
+sudo apt-get install -f python-t*
+sudo apt-get install -i python-t*
+sudo apt-get install -I python-t*
+sudo apt-get install python3-t*
+sudo apt-get install -I python3-t*
+sudo apt-get install python3-t*
+sudo apt-get install python3-*
+sudo apt-get install python3-x*
+sudo apt-get install python3-e*
+sudo apt-get install python3-c*
+sudo apt-get install python3-[bclnpadefghijkmoqrsuvwxyz]*
+sudo apt-get install python3-[blnpadefghijkmoqrsuvwxyz]*
+sudo apt-get install python3-*
+sudo apt-get install python3-xattr
+sudo apt-get install python3-*
+sudo apt-get install python3-pyxattr
+sudo apt-get install python3-*
+sudo apt-get install python3-pyxattr
+sudo apt-get install python3-xattr
+sudo apt-get install python3-pyxattr
+sudo apt-get install python3-caffe-cpu
+sudo apt-get install python3-c*
+sudo apt-get install python3-*
+sudo apt-get install python-[bclnpadefghijkmoqrsuvwxyz]*
+sudo apt-get install python-[adefghijkmoqrsuvwxyz]*
+sudo apt remove icedtea-netx
+sudo apt remove -f icedtea-netx
+sudo apt autoclean 
+sudo apt autoremove 
+sudo apt remove icedtea-netx
+sudo apt remove icinga2
+sudo apt install -f
+sudo apt remove icinga2
+sudo apt remove --purge icinga2
+cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/applications"
+python wikipedia_principal_eigenvector.py 
+python3 wikipedia_principal_eigenvector.py 
