@@ -1,13 +1,3 @@
-nautilus .
-cd ..
-locate .dat
-whereis .dat
-whereis license.dat
-whereis "license.dat"
-whereis "license\.dat"
-whereis "license"
-sudo nautilus
-sudo /usr/local/MATLAB/R2016b/bin/matlab
 su
 sudo /usr/local/MATLAB/R2016b/bin/matlab
 sudo nautilus
@@ -1998,3 +1988,13 @@ sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-
 sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
 python3-a* python3-b* python3-d* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
 sudo apt install python3-a* python3-b* python3-d* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
+grep -ri SCREENING
+grep -ri SCREENING
+unzip Mohammad_Tran.zip 
+grep -ri main
+./compile 
+grep -ri main
+cd "/home/aghiles/Aghiles/Teaching/Java_28.5/TPnoté/projet/nawal_idriss"
+javac -d build/classes -sourcepath src src/nawal_idriss/Nawal_idriss.java
+java -cp build/classes nawal_idriss/Nawal_idriss
+grep -ri main
