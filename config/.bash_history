@@ -1,5 +1,3 @@
-su
-sudo /usr/local/MATLAB/R2016b/bin/matlab
 sudo nautilus
 matlab 
 matlab
@@ -1998,3 +1996,5 @@ cd "/home/aghiles/Aghiles/Teaching/Java_28.5/TPnoté/projet/nawal_idriss"
 javac -d build/classes -sourcepath src src/nawal_idriss/Nawal_idriss.java
 java -cp build/classes nawal_idriss/Nawal_idriss
 grep -ri main
+pdf2txt
+cle adaptive 0
