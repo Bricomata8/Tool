@@ -1,28 +1,3 @@
-ls
-./tikz2pdf_beamer_plot tmp.tikz 
-plot-norm figure1.tex 
-plot-norm graph0.tex 
-plot-norm graph1.tex 
-plot-norm plot.tex 
-./xxt figure1.tex 
-plot-norm figure1.tex 
-xxt figure1.tex 
-evince bin/tg.pdf 
-xxt figure1.tex 
-evince bin/tg.pdf 
-xxt figure1.tex 
-evince bin/tg.pdf 
-xxt figure1.tex 
-xxt figure1.tex && evince bin/fg.pdf
-xxt figure1.tex && evince bin/tg.pdf
-cd "/home/aghiles/Aghiles/Redaction/1/res/tikz"
-./compile 
-plot-norm figure1.tex 
-curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.1016/j.algal.2015.04.001
-gedit
-curl -o shen.json https://api.crossref.org/works/10.1186/s12916-015-0469-2
-head shen.json 
-curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.1016/j.algal.2015.04.001
 @article{Kouhia_2015,
 doi = {10.1016/j.algal.2015.04.001},
 url = {http://dx.doi.org/10.1016/j.algal.2015.04.001},
@@ -1998,3 +1973,28 @@ compile3 .
 cle sdn contiki 0
 cheese
 mathpix
+gvfs-set-attribute -t string Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg'
+gvfs-set-attribute -t string ./Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg'
+ls /home/aghiles/Aghiles/Tool/config
+gvfs-set-attribute -t string /home/aghiles/Aghiles/Teaching/Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg
+gvfs-set-attribute -t string '/home/aghiles/Aghiles/Teaching/Evaluation' 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg
+gvfs-set-attribute /home/aghiles/Aghiles/Teaching/Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg
+gvfs-set-attribute Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg
+gvfs-set-attribute -t string Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg'
+gvfs-set-attribute -t Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg'
+gvfs-set-attribute Evaluation 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/icon.svg'
+mendeleydesktop 
+cle ism 0
+nautilus /home/aghiles/.local/share/folder-color/icons/
+gedit
+nautilus /usr/share/icons/hicolor/64x64/emblems/
+echo $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
+zenity --file-selection
+gvfs-set-attribute -t string "R j" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute "R j" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute "i" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute -t string "i" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute -t string "file:///home/aghiles/i " 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute -t string "file:///home/aghiles/i" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute -t string "/home/aghiles/i" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
+gvfs-set-attribute -t string "i u" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
