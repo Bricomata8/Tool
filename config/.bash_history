@@ -1,220 +1,3 @@
-cd scikit-learn/
-cd doc/
-pip install --editable ..
-pip3 install --editable ..
-pip3 install sklearn
-pip3 install --editable ..
-sudo pip3 install --editable ..
-make latexpdf
-pip install --editable ..
-pip3 install --editable ..
-pip install --editable ..
-pip3 install --editable ..
-sudo pip3 uninstall scikit-learn
-pip3 install --editable ..
-sudo pip3 uninstall sklearn
-pip3 install --editable ..
-sudo pip install numpy
-sudo pip3 install numpy
-pip --version
-sudo pip install --upgrade scikit-learn
-sudo pip3 install --upgrade scikit-learn
-sudo pip3 install --upgrade sklearn
-sudo pip3 install --editable ..
-sudo pip3 install --upgrade numpy
-sudo pip3 install --editable ..
-sudo pip3 install Cython
-sudo pip3 install --editable ..
-sudo make latexpdf
-firefox
-gedit
-cle heterog 0
-cle spreading 2
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-mkdir uu
-cd uu
-httrack https://www.sghoslya.com/
-cle spreading 0
-cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
-cd ..
-./compile 
-sudo apt install php-mysqli
-php -S localhost:8000
-cd test/
-sudo php MonProfil.php > page.html ; firefox page.html
-sudo php Accueil..php > page.html ; firefox page.html
-sudo php Accueil.php > page.html ; firefox page.html
-grep -ri bin
-./Accueil.php 
-sed -ie 's/\r//' *.php
-./Accueil.php 
-./MonProfil.php 
-php MonProfil.php 
-php
-sudo apt install php
-php MonProfil.php 
-php Accueil.php 
-php ConnexionBDD.php
-php VerifConnex.php
-php Inscription.php
-php ConnexionBDD.php
-sudo php ConnexionBDD.php
-mysql -u user -p data_base_name_here < db.sql
-mysql -u root -p Web < sql/Web.sql
-cd u/sql/
-mysql -u root -p Web < Web.sql
-sudo mysql -u root -p Web < Web.sql
-sudo mysql -u root -p < Web.sql
-sudo mysql -u root -p Web < Web.sql
-sudo mysql -uroot -proot < Web.sql
-cd ..
-ls
-php ConnexionBDD.php
-sudo php ConnexionBDD.php
-sudo php ConnexionBDD2.php
-php ConnexionBDD2.php
-php Accueil.php 
-php Inscription.php
-sudo php Inscription.php
-sudo php VousData.php
-sudo 
-sudo php MonProfil.php
-sudo php MonProfil.php | firefox
-sudo php MonProfil.php > page.html ; firefox page.html
-sudo php Accueil.php > page.html ; firefox page.html
-sudo php Vous.php > page.html ; firefox page.html
-sudo php MonProfil.php > page.html ; firefox page.html
-ls
-cd ..
-php -S localhost:8000 -t test/
-php -S localhost:8000 -t test
-php -S localhost:8000 -t /
-php -S localhost:8000 -t .
-cd ..
-cd Web
-php -S localhost:8000 -t .
-ls
-php -S localhost:8000 -t .
-php -S localhost:8000 -t test/
-ls
-php -S localhost:8000 -t .
-sudo php -S localhost:8000 -t .
-firefox
-firefox
-grep -ri Vousaff
-gedit runWeb
-sudo php -S localhost:8000 -t .
-grep -ri vousaff
-texdoc pgfplots
-pkill mailspring 
-./rm
-cd "/home/aghiles/Aghiles/Tool"
-./rm 
-git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
-git status
-git add -all
-git add --all
-git status
-./rm 
-git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
-touch ~/Templates/Empty\ Document
-mkdir Templates
-touch ~/Templates/Empty\ Document
-nautilus -q
-gedit ~/.config/user-dirs.dirs
-xd
-wireshark 
-sudo wireshark 
-sudo apt install mendelly
-sudo apt-get install mendeleydesktop
-sudo apt-get install mendeley
-sudo apt-cache search mendeley
-sudo apt install xapers
-xapers
-wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
-sudo apt install ./mendeleydesktop-latest.deb 
-mendeleydesktop 
-cle spreading 0
-pdf2txt
-cle spreading 0
-cle "Ochoa.*spreading" 0
-cle "spreading" 0 | grep Ochoa
-cle "spreading.*graph" 0
-cle "graph.*spreading" 0
-cle "spreading factor" 0
-cle "spreading factor" 0 | ochoa
-cle "spreading factor" 0 | grep ochoa
-cle "spreading factor" 0 | grep Ochoa
->>>>>>> 651c4be74aa8767e962581fc04a0382c539c7578
-sudo apt install furiusisomount
-furiusisomount
-grep -ri dreget
-pkill mailspring 
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-cle laura 0
-cle lora 0
-cat CUPS.desktop 
-sudo  apt-get install cupsys
-sudo  apt-get install cups
-cups
-gedit cups
-xdg-open http://localhost:631/admin
-usermod -a -G lpadmin aghiles
-sudo usermod -a -G lpadmin aghiles
-sudo systemst restart cups
-sudo systemstl restart cups
-sudo systemctl restart cups
-sudo gedit /etc/cups/cups-files.conf 
-sudo ./install 
-pdf2txt 
-unrar
-sudo apt unstall unrar
-sudo apt install unrar
-unrar x Matlab.rar 
-sudo apt install matlab-support
-nautilus                  │ iles/Downloads/Software/Matlab/Mathworks_ │ 
-sudo ./install 
-matlab
-sudo /media/aghiles/MATHWORKS_R2016B/install
-nautilus sudo /usr/local/MATLAB/R2018b/bin/matlab
-nautilus /usr/local/MATLAB
-sudo /usr/local/MATLAB/R2018b/bin/matlab
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-matlab
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-sudo mv /usr/local/MATLAB /usr/local/MATLAB2
-sudo apt install matlab-support
-sudo dpkg --configure -a
-sudo nautilus .
-cd /usr/local/MATLAB/R2016b
-firefox help/mdce/troubleshoot-common-problems.html
-sudo nautilus
-sudo /media/aghiles/MATHWORKS_R2016B/install
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-ls
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-sudo nautilus
-matlab
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-cd /usr/local/MATLAB/R2016b/bin
-./matlab
-cd ../etc/
-ls
-nautilus
-nautilus .
-cd ..
-locate .dat
-whereis .dat
-whereis license.dat
-whereis "license.dat"
-whereis "license\.dat"
-whereis "license"
-sudo nautilus
-sudo /usr/local/MATLAB/R2016b/bin/matlab
-su
-sudo /usr/local/MATLAB/R2016b/bin/matlab
 sudo nautilus
 matlab 
 matlab
@@ -1966,6 +1749,9 @@ cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
 gcc talker.c 
 cd "/home/aghiles/Aghiles/Teaching/Network/c_udp"
 gcc listner.c -o listner
+<<<<<<< HEAD
+cle game 0
+=======
 nautilus /home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization
 grep -ri serial
 cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
@@ -1998,3 +1784,217 @@ cd Administration/
 ls
 ./push 
 pkill mailspring 
+>>>>>>> 3095a28b2b9c609b0fa5f3c50483823381fed6b0
+sudo chown -R aghiles bin/
+./pull 
+./push
+./pull
+sudo ./push
+sudo chown -R aghiles Aghiles
+sudo ./push
+gedit Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+sudo tools/build/onos-buck build onos --show-output 
+cd onos/
+sudo tools/build/onos-buck build onos --show-output 
+tools/build/onos-buck run onos-local -- clean debug
+directory=/home/aghiles/Aghiles/Program/bin
+cd $directory
+ls
+sed -i '/featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features/c\featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features,mvn:org.onosproject\/onos-features\/1.0.2-SNAPSHOT\/xml\/features' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+sed -i '/featuresBoot=config,standard,region,package,kar,ssh,management/c\featuresBoot=config,standard,region,package,kar,ssh,management,onos-api,onos-core-trivial,onos-cli,onos-openflow,onos-app-fwd,onos-app-mobility,onos-gui,onos-sdnwise,onos-sdnwise-providers' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+source $ONOS_ROOT/tools/dev/bash_profile
+cd onos/
+sudo tools/build/onos-buck build onos --show-output 
+tools/build/onos-buck run onos-local -- clean debug
+sudo tools/build/onos-buck build onos --show-output
+tools/build/onos-buck run onos-local -- clean debug
+sudo tools/build/onos-buck run onos-local -- clean debug
+pkill zotero-bin 
+pkill mailspring 
+pdf2txt
+cd "/home/aghiles/Aghiles/Redaction/0/slide"
+./compile 
+pdf2txt
+cle ndn 0
+pdf2txt
+cle ndn 0
+cle lora 0
+cd Tool/
+grep -ri Res_iot
+cle ndn 0
+evince KPHDN3J5/Grassi et al. - 2014 - VANET via Named Data Networking.pdf
+evince "KPHDN3J5/Grassi et al. - 2014 - VANET via Named Data Networking.pdf"
+grep -ri setup2
+grep -ri setup_
+cle selection 0
+cle selection 10
+cle selection lpwa 10
+cle selection lora 10
+cle sentilo 0
+mathpix
+cle selection
+cle mse 0
+cle " mse " 0
+cle " rmse " 0
+cd "/home/aghiles/Aghiles/Redaction/0/paper/src"
+grep -ri "Home Automation"
+grep -ri rank
+pipconflictchecker
+python wikipedia_principal_eigenvector.py 
+cle rank 0
+cle rank select 0
+cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/applications"
+py wikipedia_principal_eigenvector.py 
+python wikipedia_principal_eigenvector.py 
+sudo pip install urllib
+sudo pip3 install urllib
+sudo pip install urllib
+sudo apt install python-urllib
+sudo apt install python3-urllib
+sudo apt-cache search urllib
+sudo apt-cache search urllib | grep urllib
+sudo apt install python-urllib3
+python wikipedia_principal_eigenvector.py 
+sudo apt install request
+sudo apt install request3
+sudo apt install python3-urllib3
+sudo apt install python-a*
+sudo apt install python-b*
+sudo apt install python-*
+sudo apt install python-[a-z]*
+sudo apt install python-c*
+sudo apt install python-d*
+sudo apt install python-*
+sudo apt install -y python-*
+sudo apt install -y python-b*
+sudo apt install -y python-c*
+sudo apt install -y python-d*
+sudo apt install -y python-s*
+sudo apt install -y python-[abdefghijkmnoqrstuvwxyz]*
+sudo apt install -y python-[abdefghijkmoqrstuvwxyz]*
+sudo apt install -y python-[abdefghijkmoqrsuvwxyz]*
+sudo apt install -y python-[adefghijkmoqrsuvwxyz]*
+sudo apt install -f
+sudo apt update
+sudo apt upgrade
+sudo apt remove icinga2-common
+sudo apt upgrade
+sudo apt update
+sudo apt install -f
+sudo apt install python-l*
+sudo apt install python-n*
+sudo apt install python-t*
+sudo apt install -f python-t*
+sudo pip install t*
+sudo pip install *
+sudo pip install -r *
+sudo pip install t*
+sudo apt install python-t*
+grep -ri rank *.pu
+grep -ri rank *.py
+grep -ri rank */*.py
+grep -ri rank */*.py */*/*.py
+grep -ri rank */*.py */*/*.py */*/*/*.py
+gedit examples/applications/wikipedia_principal_eigenvector.py
+cle rank 0
+python wikipedia_principal_eigenvector.py 
+gedit  /etc/apt/source.list
+sudo apt install python-t*
+sudo pip uninstall tempest
+sudo apt install python-t*
+sudo pip uninstall tempest-lib
+sudp apt install python-tempest
+sudo apt install python-tempest
+sudo pip uninstall tempest-lib
+sudo apt install python-t*
+sudo apt remove python-tempest
+sudo apt remove python-tempest-lib
+sudo apt remove python-tempest
+sudo apt install python-t*
+sudo apt install -f python-t*
+sudo apt --fix-broken install
+sudo apt install -f python-t*
+sudo apt install -f python-t[abcdf-z]*
+sudo apt install -f python-t*
+sudo apt-get install -f python-t*
+sudo apt-get install -i python-t*
+sudo apt-get install -I python-t*
+sudo apt-get install python3-t*
+sudo apt-get install -I python3-t*
+sudo apt-get install python3-t*
+sudo apt-get install python3-*
+sudo apt-get install python3-x*
+sudo apt-get install python3-e*
+sudo apt-get install python3-c*
+sudo apt-get install python3-[bclnpadefghijkmoqrsuvwxyz]*
+sudo apt-get install python3-[blnpadefghijkmoqrsuvwxyz]*
+sudo apt-get install python3-*
+sudo apt-get install python3-xattr
+sudo apt-get install python3-*
+sudo apt-get install python3-pyxattr
+sudo apt-get install python3-*
+sudo apt-get install python3-pyxattr
+sudo apt-get install python3-xattr
+sudo apt-get install python3-pyxattr
+sudo apt-get install python3-caffe-cpu
+sudo apt-get install python3-c*
+sudo apt-get install python3-*
+sudo apt-get install python-[bclnpadefghijkmoqrsuvwxyz]*
+sudo apt-get install python-[adefghijkmoqrsuvwxyz]*
+sudo apt remove icedtea-netx
+sudo apt remove -f icedtea-netx
+sudo apt autoclean 
+sudo apt autoremove 
+sudo apt remove icedtea-netx
+sudo apt remove icinga2
+sudo apt install -f
+sudo apt remove icinga2
+sudo apt remove --purge icinga2
+cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/applications"
+python wikipedia_principal_eigenvector.py 
+python3 wikipedia_principal_eigenvector.py 
+sudo apt remove icedtea-netx
+sudo apt update
+sudo apt install python-*
+sudo apt install python3-*
+sudo pip install python3-*
+sudo pip install *
+sudo pip install all
+sudo pip install all-dev
+sudo apt install python3-*
+cd "/home/aghiles/Aghiles/Formation/IA/sklearn/examples/feature_selection"
+python plot_rfe_digits.py 
+python3 plot_rfe_digits.py 
+python3 plot_feature_selection.py 
+grep -ri rank
+grep -ri ranking
+gedit examples/feature_selection/plot_rfe_digits.py
+grep -ri geneti
+xdg-open doc/scikit-learn.org/stable/related_projects.html:
+chromium doc/scikit-learn.org/stable/related_projects.html:
+chromium file://home/aghiles/Aghiles/Formation/IA/sklearn/doc/scikit-learn.org/stable/related_projects.html:
+chromium doc/scikit-learn.org/stable/related_projects.html
+sudo apt install python3-*
+sudo apt install python3-[abdefghijkmoqrslnpuvwxyz]*
+sudo apt install python3-x*
+sudo apt install python3-c*
+sudo apt install python3-a* python3-b* python3-c* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-c[^u]* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-c[abcdefghijklmnopqrstvwxyz]* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-t* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-x* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-e* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
+python3-a* python3-b* python3-d* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
+sudo apt install python3-a* python3-b* python3-d* python3-f* python3-g* python3-h* python3-i* python3-j* python3-k* python3-l* python3-m* python3-n* python3-o* python3-p* python3-q* python3-r* python3-s* python3-u* python3-v* python3-w* python3-y* python3-z*
+grep -ri SCREENING
+grep -ri SCREENING
+unzip Mohammad_Tran.zip 
+grep -ri main
+./compile 
+grep -ri main
+cd "/home/aghiles/Aghiles/Teaching/Java_28.5/TPnoté/projet/nawal_idriss"
+javac -d build/classes -sourcepath src src/nawal_idriss/Nawal_idriss.java
+java -cp build/classes nawal_idriss/Nawal_idriss
+grep -ri main
+pdf2txt
+cle adaptive 0
