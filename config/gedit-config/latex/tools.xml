@@ -1,10 +1,8 @@
 <tools>
   <tool description="Create a PDF from LaTeX source" extensions=".tex" id="1" label="LaTeX → PDF">
-    <job mustSucceed="True" postProcessor="GenericPostProcessor">./compile</job></tool>
+    <job mustSucceed="True" postProcessor="GenericPostProcessor">compile3 $filename</job></tool>
   <tool description="Create a PostScript from LaTeX source" extensions=".tex" id="3" label="LaTeX → PS">
-    <job mustSucceed="true" postProcessor="RubberPostProcessor">rubber --inplace --maxerr -1 --short --force --warn all --ps "$filename"</job>
-    <job mustSucceed="true" postProcessor="GenericPostProcessor">gvfs-open "$shortname.ps"</job>
-  </tool>
+    <job mustSucceed="True" postProcessor="RubberPostProcessor">latexmk -f -cd -lualatex -output-directory=bin -jobname=$filename $filename.tex</job><job mustSucceed="True" postProcessor="GenericPostProcessor">gvfs-open "$shortname.ps"</job></tool>
   <tool description="Create a DVI from LaTeX source" extensions=".tex" id="4" label="LaTeX → DVI">
     <job mustSucceed="true" postProcessor="RubberPostProcessor">rubber --inplace --maxerr -1 --short --force --warn all "$filename"</job>
     <job mustSucceed="true" postProcessor="GenericPostProcessor">gvfs-open "$shortname.dvi"</job>

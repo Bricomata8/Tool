@@ -1,60 +1,3 @@
-sudo nautilus
-matlab 
-matlab
-matlab -nodesktop -nosplash -r "LoRa_Modulation.m"
-matlab -nodesktop -nosplash -r "LoRa_Modulation"
-matlabx LoRa_Decoding
-matlabx LoRa_Modulation
-matlab
-matlabx Lora_Symbol_Generation.m 
-matlabx Lora_Symbol_Generation
-pkill mailspring 
-sudo apt install ./mailspring-1.6.1-amd64.deb 
-pkill mailsync.bin 
-pkill mailspring
-netbeans 
-cd "/home/aghiles/Downloads/JFrameExample/src"
-javac TestFrameExample.java 
-java TestFrameExample 
-javac TestFrameExample.java 
-java TestFrameExample 
-javac TestFrameExample.java 
-java TestFrameExample 
-javac TestFrameExample.java 
-java TestFrameExample 
-javac TestFrameExample.java 
-java TestFrameExample 
-javac TestFrameExample.java 
-java TestFrameExample 
-grep -ri SpellBarComponent
-javac GameFrame.java 
-pkill mailspring 
-cle pin
-cle pin 0
-cle pin 0 | Pham
-cle pin 0 | grep Pham
-wireshark 
-sudo wireshark 
-sudo mv mp.pcapng aghiles/
-sudo wireshark 
-texdod pgfplot
-texdoc pgfplot
-evince tikz2pdf_temp.pdf 
-sudo apt install inkscape
-sudo apt reove --purge matlab-support
-sudo apt remove --purge matlab-support
-sudo apt install inkscape
-sudo apt autoremove 
-sudo apt install inkscape
-inkscape
-sudo apt install incscape
-texdoc pgfplot
-texdoc pgfplot
-cd Downloads/tikz2pgf/
-gedit tmp.tkz
-gedit tmp.tkz &
-mv tmp.tkz tmp.tikz
-gedit tmp.tkz &
 ls
 ./tikz2pdf_beamer_plot tmp.tikz 
 plot-norm figure1.tex 
@@ -1998,3 +1941,60 @@ java -cp build/classes nawal_idriss/Nawal_idriss
 grep -ri main
 pdf2txt
 cle adaptive 0
+cd "/home/aghiles/Aghiles/Teaching/Network_36/c_udp"
+./talker
+cd "/home/aghiles/Aghiles/Teaching/Network_36/c_udp"
+./listner
+cd "/home/aghiles/Aghiles/Teaching/Network_36/c_udp"
+./listner
+cd "/home/aghiles/Aghiles/Teaching/Network_36/c_udp"
+./talker
+grep -ri main
+grep -ri throw
+grep -ri "throw new"
+gedit Delaforge_Flaquer/src/Employe.java
+gedit TPNoté/src/tpnoté/Personnel.java
+gedit Leroy_Gallais/TPnote_/src/tpnote_/ExceptionEmploye.java
+gedit SORRIAUX_GEIGER/tpnote/src/tpnote/Personnel.java
+gedit MARIN_GREGOIRE/tp_note/src/Employe/Employe.java:
+gedit MARIN_GREGOIRE/tp_note/src/Employe/Employe.java
+gedit Mohammad_Tran/src/Employe.java
+gedit Palfi_Irlinger/TPnote/src/tpnote/Employe.java:
+gedit Palfi_Irlinger/TPnote/src/tpnote/Employe.java
+gedit Palfi_Irlinger/TPnote/build/classes/tpnote/Employe.java
+grep -ri "throw new"
+gedit Delaforge_Flaquer/src/Employe.java
+gedit TPNoté/src/tpnoté/Personnel.java
+gedit Leroy_Gallais/TPnote_/src/tpnote_/ExceptionEmploye.java
+gedit SORRIAUX_GEIGER/tpnote/src/tpnote/Personnel.java
+gedit Delaforge_Flaquer/src/Employe.java
+gedit MARIN_GREGOIRE/tp_note/src/Employe/Employe.java
+gedit Mohammad_Tran/src/Employe.java
+gedit Palfi_Irlinger/TPnote/src/tpnote/Employe.java
+gedit Palfi_Irlinger/TPnote/build/classes/tpnote/Employe.java:
+gedit Palfi_Irlinger/TPnote/build/classes/tpnote/Employe.java
+grep -ri throw
+grep -ri "throw new"
+gedit Delaforge_Flaquer/src/Employe.java:
+gedit Delaforge_Flaquer/src/Employe.java
+grep -ri "throw new"
+cd "/home/aghiles/Aghiles/Teaching/Network_36/c_udp"
+gcc listner.
+gcc listner.c
+man rubber | grep lua
+man rubber
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+rubber --inplace --maxerr -1 --short --force --warn all --ps "draft.tex"
+rubber --module lualatex --inplace --maxerr -1 --short --force --warn all --ps "draft.tex"
+rubber --module xelatex --inplace --maxerr -1 --short --force --warn all --ps "draft.tex"
+rubber --module latex --inplace --maxerr -1 --short --force --warn all --ps "draft.tex"
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+latexmk -f -cd -lualatex -output-directory=bin -jobname=$filename $filename.tex
+cd "/home/aghiles/Aghiles/Redaction/cv/draft"
+compile3 
+./compile 
+compile3
+compile3 .
+cle sdn contiki 0
+cheese
+mathpix
