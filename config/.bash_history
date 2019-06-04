@@ -1,11 +1,3 @@
-publisher = {Elsevier {BV}},
-volume = {10},
-pages = {41--47},
-author = {Mikko Kouhia and Henrik Holmberg and Pekka Ahtila},
-title = {Microalgae-utilizing biorefinery concept for pulp and paper industry: Converting secondary streams into value-added products},
-journal = {Algal Research}
-xx
-gre main
 grep main
 grep -r main
 cd "/home/aghiles"
@@ -1998,3 +1990,11 @@ gvfs-set-attribute -t string "file:///home/aghiles/i" 'metadata::custom-icon' 'f
 gvfs-set-attribute -t string "/home/aghiles/i" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
 gvfs-set-attribute -t string "i u" 'metadata::custom-icon' 'file:///home/aghiles/Aghiles/Tool/config/green.svg'
 >>>>>>> 88c00523be3ef4244e8f59c8998263ede1839881
+./pull 
+pkill mailspring 
+cle channel 0
+cle channel lora 0
+grep -ri Date
+grep -r Date
+gedit sql/src/MockResultSet.java
+gedit sql3/src/MockResultSet.java
