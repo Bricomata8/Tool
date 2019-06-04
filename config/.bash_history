@@ -1,4 +1,3 @@
-grep main
 grep -r main
 cd "/home/aghiles"
 javac Production.java 
@@ -1998,3 +1997,4 @@ grep -ri Date
 grep -r Date
 gedit sql/src/MockResultSet.java
 gedit sql3/src/MockResultSet.java
+./pull 
