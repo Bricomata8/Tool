@@ -1,5 +1,3 @@
-ls
-./tikz2pdf_beamer_plot tmp.tikz 
 plot-norm figure1.tex 
 plot-norm graph0.tex 
 plot-norm graph1.tex 
@@ -1998,3 +1996,5 @@ compile3 .
 cle sdn contiki 0
 cheese
 mathpix
+pkill skypeforlinux 
+*
