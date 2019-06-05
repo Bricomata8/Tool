@@ -1,55 +1,3 @@
-tcpdump
-sudo tcpdump
-sudo mysql -uroot -proot -e "create database projetweb"
-sudo mysql -uroot -proot < projetweb.sql 
-sudo mysql -uroot -proot projetweb < projetweb.sql 
-sudo mysql -uroot -p -e "create database projetweb"
-sudo mysql -uroot -p -e "create delete projetweb"
-sudo mysql -uroot -p -e "create database projetweb1"
-sudo mysql -uroot -p projetweb < projetweb.sql 
-unrar x PJ_WEB_2019_CHEN_MOUFID_YE.rar 
-unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
-pkill mailspring 
-cd "/home/aghiles/Aghiles/Redaction/0/slide/src"
-cd ..
-./compile 
-cle arima 0
-cle aghiles 0
-grep -ri arima
-ls /home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A%20Relay%20and%20Mobility%20Scheme%20for%20QoS%20Improvement%20in%20IoT%20Communications.pdf 
-ls "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A%20Relay%20and%20Mobility%20Scheme%20for%20QoS%20Improvement%20in%20IoT%20Communications.pdf"
-ls "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
-nautilus "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/"
-cle ranking 0
-cle selection 0
-cle selection|heterogeneity|ranking 0
-cle "selection|heterogeneity|ranking" 0
-*
-cle "selection|heterogeneity|ranking" 0
-cle "selection|heterogeneity|ranking" 10
-cle "selection|heterogeneity|ranking" 9
-cle "selection|heterogeneity|ranking|sdn" 
-set -- 1 2 3 4 5
-echo "${@:0}"
-echo "${@:1}"
-echo "${@:2}"   # here
-echo "${@:-2}"   # here
-echo "${-2}"   # here
-set -- 1 2 3 4 5
-echo "${@: -1}"
-echo "${@: -2}"
-echo "${@: 2}"
-echo "${@: 3}"
-echo "${@: 1}"
-echo "${@: -1}"
-echo "${@: -5}"
-echo "${@: 1}"
-echo "${@: 2}"
-echo "${@: 2:1}"
-echo "${@: 2:5}"
-echo "${@: 2:-1}"
-echo "${@: 2:1}"
 echo "${@: 1:}"
 echo "${@: 1}"
 echo "${@: -1}"
@@ -1998,3 +1946,55 @@ cle channel learn 0
 cle channel learn lora 0
 cle channel selection 0
 emacs
+git add .
+cd Formation/
+git add .
+git add *
+git commit -m "commit"
+git add -A .
+git commit -m "commit"
+git checkout -b empty_folders
+git add -v .
+git commit -m "commit"
+git push -u -f $filename master
+git checkout -b master
+git add -v .
+git checkout -b master
+git checkout master
+git add -v .
+git commit -m "commit"
+git add -v -a .
+git add -v -A .
+git commit -m "commit"
+git add -v -f -A .
+git commit -m "commit"
+git add -v -f -A . *
+git commit -m "commit"
+git add -v uuy
+git commit -m "commit"
+git push -u -f Formation master
+git add -v .
+git commit -m "commit"
+sudo apt-get install nautilus-actions
+pkill mailspring 
+thunderbird 
+pkill thunderbird 
+thunderbird 
+pkill thunderbird 
+thunderbird 
+pkill thunderbird 
+thunderbird 
+man xdg-email
+pkill maisp
+pkill mailspring 
+thunderbird 
+pkill mailspring 
+wget https://sourceforge.net/p/titivullus/code/HEAD/tree/Titivullus.py
+ls
+https://sourceforge.net/p/titivullus/code/HEAD/tree/.plugin -o plugin
+wget https://sourceforge.net/p/titivullus/code/HEAD/tree/.plugin -o plugin
+gedit
+languagetool --tray
+sudo apt install languagetool
+svn checkout https://svn.code.sf.net/p/titivullus/code/trunk titivullus-code
+gedit
