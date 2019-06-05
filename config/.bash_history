@@ -1,36 +1,3 @@
-gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo mysql -uroot -proot -e \"create database testzone\" < testzone.sql; $SHELL'"
-gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo mysql -uroot -proot -e \"create database testzone\" < /home/aghiles/Downloads/web/ECEZONE_bis/testzone.sql ; $SHELL'"
-./runWeb file:///home/aghiles/Downloads/web/PJ%20WEB%202019%20LANCMAN%20BORDENAVE%20CHANDRARAJAH/ECEAmazon/Projet/accueil.php 
-cd "/home/aghiles/.local/share/nautilus/scripts"
-./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
-./runWeb "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/Projet/accueil.php"
-gnome-terminal --tab --title="Serveur web" --command="bash -c 'ls'"
-./runWeb "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/Projet/accueil.php"
-cd "/home/aghiles/.local/share/nautilus/scripts"
-./runWeb "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/Projet/accueil.php"
-./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
-**
-./sql 
-./sql "/home/aghiles/Downloads/web/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH/ECEAmazon/ece_amazon.sql"
-unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
-grep -ri ece-piscine
-nautilus -q
-touch ~/Templates/Empty\ Document
-nautilus -q
-cd ~/.local/share/nautilus/scripts/
-ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
-ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/scripts
-cd ~/.local/share/nautilus/scripts
-ls
-cd scripts
-ls
-rm -rf ~/.local/share/nautilus/scripts
-ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
-nautilus ~/.local/share/nautilus/scripts
-wireshark 
-sudo wireshark 
-tcpdump
-sudo apt install tcpdump
 tcpdump
 sudo tcpdump
 sudo mysql -uroot -proot -e "create database projetweb"
@@ -1997,4 +1964,37 @@ vim
 emacs
 gedit
 gedit ~/.emacs
+emacs
+pkill mailspring 
+sudo apt install emacs
+cle channel 0
+cle channel 10
+cle channel lora 10
+pdf2txt 
+cle channel lora 10
+nautilus 99EFHYWK
+cle channel lora 10
+nautilus E5FUSDPG
+cle channel lora 10
+matlab
+grep -ri LoRa_Modulation
+matlab
+cd "/home/aghiles/Aghiles/Program/gw/Lora/Symbol"
+ls
+matlab
+matlab ~/Aghiles
+matlab
+whereis matlab
+matlab
+man matlab
+/usr/local/MATLAB/R2016b/bin/matlab
+chown aghiles /home/aghiles/Aghiles/Teaching/ing3.desktop
+chmod 666 /home/aghiles/Aghiles/Teaching/ing3.desktop
+pkill mailspring 
+pkill mail-notification 
+rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
+ln -sf /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/.config/Mailspring/
+cle channel learn 0
+cle channel learn lora 0
+cle channel selection 0
 emacs
