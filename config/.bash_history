@@ -1,55 +1,3 @@
-grep -r main
-cd "/home/aghiles"
-javac Production.java 
-java Production
-cd ii/
-javac Personnel.java 
-gedit Employe.java
-cd "/home/aghiles/ii"
-javac Personnel.java 
-java Personnel
-java -d bin Personnel
-java -d=bin Personnel
-javac -d bin Personnel.java 
-java -cp bin Personnel
-grep -ri calculerHoraire
-java -cp bin Personnel
-javac -d bin Personnel.java 
-java -cp bin Personnel
-javac -d bin Personnel.java 
-java -cp bin Personnel
-javac -d bin Personnel.java 
-java -cp bin Personnel
-cd "/home/aghiles/Aghiles/Redaction/cv/draft"
-./compile 
-cd "/home/aghiles/Aghiles/Redaction/cv/draft"
-./compile 
-pdftk draft.pdf cat 2-3 output outfile_p12-15.pdf
-pdftk  cat draft.pdf TPJava.pdf output outfile_p12-15.pdf
-pdftk draft.pdf TPJava.pdf cat output outfile_p12-15.pdf
-ls
-evince outfile_p12-15.pdf 
-pdftk
-sudo apt install pdftk
-xdg-open 
-./campus 
-firefox
-grep -ri ECEZONE_bis
-grep -ri ECEZONE
-grep -ri ECEZONE_bis
-gedit
-runWeb 
-runWeb 
-sudo apt install unrar
-unrar x PJ_WEB_2019_CHEN_MOUFID_YE.rar 
-runWeb 
-cd Besraoui_Harafa_Mondesir/
-runWeb 
-runWeb 
-gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo php -S localhost:8000 -t anciens; $SHELL'"
-cd ECEZONE_bis
-ls
-sudo mysql -uroot -proot < testzone.sql 
 sudo mysql -uroot -proot testzone < testzone.sql 
 sudo mysql -uroot -proot testzone
 sudo mysql -uroot -proot testzone < CREATE DATABASE menagerie;
@@ -1997,4 +1945,56 @@ grep -ri Date
 grep -r Date
 gedit sql/src/MockResultSet.java
 gedit sql3/src/MockResultSet.java
+./pull 
+xdg-email --subject 'Your password is about to expire'                      'jwhite@example.com' 'bastian@example.com' 'whipple@example.com'
+xdg-email --attach /tmp/logo.png                      --subject 'Logo contest'                      --body 'Attached you find the logo for the contest.'                      'jwhite@example.com'
+xdg-email --attach a.pdf                      --subject 'Logo contest'                      --body 'Attached you find the logo for the contest.'                      'jwhite@example.com'
+terminator -x "mutt '$@'"
+xdg-email
+xdg-email "mailto://hghg@hghg.vf"
+xdg-mime query default 'x-scheme-handler/mailto'
+xdg-desktop-icon 
+xdg-desktop-menu 
+xdg-user-dir
+xdg-user-dirs-update 
+xdg-settings 
+xdg-desktop-menu 
+xdg-email 
+gedit
+gedit djaghiles@gmail.com
+sudo apt-get install --reinstall xdg-utils
+sudo apt remove --purge icinga2
+sudo apt remove --purge -f icinga2
+sudo apt install -f 
+sudo apt autoremove 
+sudo apt remove --purge -f icinga2-*
+sudo apt remove --purge -f icinga2
+sudo apt-get install --reinstall xdg-utils
+man mailspring
+xdg-mime query default 'x-scheme-handler/mailto'
+mqn xdg-email
+man xdg-email
+xdg-email --cc tftf@hghg.com
+xdg-email
+xdg-email djaghiles@gmail.com
+xdg-open mailto://djaghiles@gmail.com
+xdg-open mailfrom://djaghiles@gmail.com
+man xdg-email 
+pkill mailspring 
+nautilus /var/spool/mail/$USER
+java -jar languagetool.jar 
+thunderbird 
+emacs
+sudo apt instal emacs
+sudo apt install emacs
+emacs
+cd /home/aghiles/Aghiles/Redaction/0/paper/
+bibtex paper
+latex \\nonstopmode\\input paper.tex
+sudo apt install thunderbird
+emacs
+emacsclient
+emacs24
+emacs
+emacs24
 ./pull 
