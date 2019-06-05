@@ -1,11 +1,3 @@
-sudo mysql -uroot -proot testzone < testzone.sql 
-sudo mysql -uroot -proot testzone
-sudo mysql -uroot -proot testzone < CREATE DATABASE menagerie;
-mysql -u root -e "create database testdb"; 
-mysql -uroot -e "create database testdb"; 
-sudo mysq
-cd ECEZONE_bis
-ls
 gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo mysql -uroot -proot -e \"create database testzone\" < testzone.sql; $SHELL'"
 gnome-terminal --tab --title="Serveur web" --command="bash -c 'sudo mysql -uroot -proot -e \"create database testzone\" < /home/aghiles/Downloads/web/ECEZONE_bis/testzone.sql ; $SHELL'"
 ./runWeb file:///home/aghiles/Downloads/web/PJ%20WEB%202019%20LANCMAN%20BORDENAVE%20CHANDRARAJAH/ECEAmazon/Projet/accueil.php 
@@ -1998,3 +1990,11 @@ emacs24
 emacs
 emacs24
 ./pull 
+emacs
+vim
+sudo apt install vim
+vim
+emacs
+gedit
+gedit ~/.emacs
+emacs
