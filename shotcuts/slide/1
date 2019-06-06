@@ -3,4 +3,4 @@ mypath=`realpath $0`
 directory=`dirname $mypath`
 filename=`basename $0`
 
-gedit ~/Aghiles/Redaction*/$filename/slide/slide.tex
+subl --project 1 -a ~/Aghiles/Redaction*/$filename/slide
