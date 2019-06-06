@@ -1,177 +1,3 @@
-cle "selection" "heterogeneity" 0
-cle "selection" "heterogeneity" 0 | uniq -d
-cle "selection" "heterogeneity" 0 | uniq -s 3
-cle "selection" "heterogeneity" 0 | uniq -s 3 -c2
-cle "selection" "heterogeneity" 0 | uniq -s 3 -c
-cle "selection" "heterogeneity" 0 | uniq -s 5 -c
-cle "selection" "selection" 0 | uniq -s 5 -c
-cle "selection" "selection" 0 | uniq -c
-cle "selection" "selection" 0 | uniq -cd
-cle "selection" "selection" 0
-cle "selection" "selection" 0 | uniq -cd
-cle "selection" "selection" 0 > tmp
-uniq -cd tmp 
-cat tmp | uniq -cd
-cat tmp
-sort tmp | uniq -cd | sort -nr
-cat tmp | uniq -cd | sort -nr
-sort tmp | uniq -cd | sort -nr
-sort tmp 
-sort tmp | uniq -cd
-sort tmp | uniq -cd | sort -nr
-cle "selection" "selection" 0 | uniq -cd | sort -nr
-cle "selection" "selection" 0 | sort - | uniq -cd | sort -nr
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr
-cle "selection" 0 | sort - | uniq -c | sort -nr
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" -F ":"  '$2 > d {print "\033[32m" $2, "\033[39m" $1}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" -F " "  '$1 > d {print "\033[32m" $2, "\033[39m" $1}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" -F " "  '$1 > d {print "\033[32m" $1, "\033[39m" $2}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $1, "\033[39m" $2}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $@, "\033[39m" $2}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $#, "\033[39m" $2}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0, "\033[39m" $2}'
-cle "selection" "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0}'
-cle "selection" "heterogeneity" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0}'
-cle "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="1" '$1 > d {print "\033[32m" $0}'
-cle "selection" 0 | sort - | uniq -c | sort -nr | awk -v d="0" '$1 > d {print "\033[32m" $0}'
-cle "selection" 10 | sort - | uniq -c | sort -nr | awk -v d="0" '$1 > d {print "\033[32m" $0}'
-cle heterogeneity 0 0
-cle heterogeneity hghg  0 0
-cle heterogeneity hghg 10 0
-cle heterogeneity sdn 10 0
-cle heterogeneity sdn 2 2
-cle heterogeneity sdn 1 1
-cle heterogeneity sdn 0 0
-cle heterogeneity sdn 0 1
-cle heterogeneity 0 1
-cle heterogeneity 0 0
-cle heterogeneity 2 0
-cle heterogeneity selection 2 0
-cle heterogeneity sdn 2 0
-cle heterogeneity lora 2 0
-cle heterogeneity lora 0 0
-cle sdn lora 0 0
-cle lora lora 0 0
-grep -ri for
-grep -ri done
-cle heterogeneity sdn 0 0
-man uniq
-cle heterogeneity sdn 0 2
-cle heterogeneity sdn 0 1
-cle mec sdn 0 1
-cle spreading lora 0 1
-nam sort | decr
-man sort | decr
-man sort | grep decr
-man sort
-man uniq
-man sort | grep skip
-man sort | grep field
-cle spreading lora 1 1
-cle lora lora 1 1
-cle spreading lora 1 1
-*
-cle spreading lora 1 1
-cle1 spreading lora 1 1
-cle spreading lora 1 1
-cle lora lora 1 1
-cle spreading lora 1 1
-cle lora lora 1 1
-*
-cle lora lora 1 1
-cle lora lora 1 1
-le lora lora 1 lora 1 1
-cle lora lora lora 1 1
-cle lora lora  1 1
-cle lora lora lora 1 1
-A
-cle lora lora lora 1 1
-d
-cle lora lora lora 1 1
-le lora lora lora 1 1
-cle lora lora lora 1 1
-cle spreading lora 1 1
-cle lora 1 1
-cle1 lora 1 1
-cle1 lora 1
-cle1 spreading 1
-cle spreading lora 1 1
-cle spreading spreading 1 1
-cle spreading data 1 1
-cle spreading 1 1
-cle spreading 1
-cle spreading 1 1
-cle spreading spreading 1 1
-cle spreading lora 10 1
-le spreading spreading 1 1
-cle spreading spreading 10 1
-le spreading spreading 3 1
-cle spreading spreading 3 1
-cle spreading lora 3 1
-cle spreading spreading 3 1
-cle spreading lora 3 1
-cle spreading spreading 3 1
-cle spreading lora 3 1
-cle spreading 3 1
-cle lora 3 1
-ls 3IHTM4ZY
-ls 47X67K95
-ls G6JTECZ2
-cle lora 3 1
-cle1 lora 3 1
-cle1 lora 7 1
-cle lora 7 1
-cle lora kjkj 7 1
-cle lora spreading 7 1
-ls DSDKZMDR
-cle lora spreading 7 1
-cle lora 7 1
-cle spreading 7 1
-le spreading 1 1
-cle spreading 1 1
-cle spreading 1
-le spreading 1 1
-cle spreading 1 1
-cle1 spreading 1 1
-cle spreading 1 1
-cle spreading 1 0
-cle lora 1 0
-echo "foobarbaz" | sed 's/^foo\(.*\)baz$/\1/'
-cle lora spreading 3 0
-ls DSDKZMDR
-cle lora 3 0
-cle1 lora 3 0
-cle lora 3 0
-cle1 lora 3 0
-cle lora 3 0
-cle lora spreading 3 0
-le lora spreading 3 1
-cle lora spreading 3 1
-cle lora spreading 3
-cle lora 3
-cle lora 100
-cle lora spreading 100
-cle lora spreading 10
-cle lora spreading bandwidth 10
-cle lora spreading 10
-cle selection 10
-cle selection gateway 10
-cle selection way 10
-cle selection network 10
-cle sdn lora 0
-pdf2txt
-cle sdn lora 0
-cle sdn 0
-cle sdn lora 0
-cle selection game 0
-cle game 0
-cle selection game 0
-cle selection lora 0
-cle selection "lora " 0
-cle clustering 0
-nautilus
-nautilus .
 cle clustering selection 0
 cle relay 0
 cle relay 0 | grep relay
@@ -1998,3 +1824,177 @@ sudp gedit folder-color.py
 sudo gedit folder-color.py
 sudo mv folder-color3.py ~
 nautilus -q
+pkill mailspring 
+cd "/home/aghiles/Aghiles/Teaching/Java_28.5/TPnoté/x_Exception/MARIN_GREGOIRE/tp_note/src/Employe"
+grep -ri verifierPrimes
+grep -ri throw
+grep -ri "new throw"
+grep -ri "throw new"
+gedit x_Exception/SORRIAUX_GEIGER/tpnote/src/tpnote/Personnel.java
+gedit x_Exception/MARIN_GREGOIRE/tp_note/src/Employe/Employe.java:
+gedit x_Exception/MARIN_GREGOIRE/tp_note/src/Employe/Employe.java
+htlatex paper.tex 
+man latexmk | grep html
+man latexmk | grep hml
+man latexmk | grep h
+man latexmk | grep brows
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+./compile 
+sudo apt search pdf2html
+sudo apt install df2htmlex/
+sudo apt install df2htmlex
+sudo apt install pdf2htmlex
+man htlatex | grep lua
+make4ht
+cd bin/
+pdf2htmlex paper.pdf 
+pdf2htmlEX paper.pdf 
+curl -X POST -F "paper.tex" http://URL/uploadform.cgi
+curl -X POST -F "paper.tex" https://www.mytextarea.com
+curl -X POST "paper.tex" https://www.mytextarea.com
+curl -X POST "paper.tex" https://www.mytextarea.com | grep paper
+ls
+curl -X POST "paper.tex" https://www.mytextarea.com -o paper.html
+curl -X POST "paper.tex" https://www.mytextarea.com -O paper.html
+curl -X POST "paper.tex" https://www.mytextarea.com > paper.html
+curl -X POST "paper.tex" https://languagetool.org/api/v2/check > paper.html
+make4ht -u paper.tex 
+curl --tr-encoding -X POST -v -# -o output -T filename.dat   http://example.com/resource.cgi
+sudo apt install texstudio
+curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
+chromium paper.tex 
+wget https://www.mytextarea.com/
+wget <form name="checkform" action="http://community.languagetool.org" method="post">
+</form>
+wget https://www.mytextarea.com/
+curl --tr-encoding -X POST -v -# -o output -T filename.dat   http://example.com/resource.cgi
+curl --tr-encoding -X POST -v -# -o output -T paper.tex   http://example.com/resource.cgi
+curl --tr-encoding -X POST -v -# -o output -T paper.tex  https://www.mytextarea.com
+sudo chown -R aghiles LanguageTool-4.5-stable
+curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash <options>
+curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash
+ls
+curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash <options>
+curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh
+curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash -
+ls
+ls
+java -jar languagetool-commandline.jar 
+java -jar languagetool.jar 
+pdf2txt paper.pdf 
+cd ..
+pdf2txt paper.pdf 
+curl --data "language=en-US&text=a simple test" http://localhost:8081/v2/check
+java -jar languagetool.jar 
+cd "/home/aghiles/Aghiles/Redaction/0/paper"
+java -jar languagetool-commandline.jar -l pl -c UTF-8 -t polishfile.txt
+java -jar languagetool-commandline.jar -l pl -c UTF-8 -t paper.tex 
+java -jar /home/aghiles/LanguageTool-4.5-stable/languagetool-commandline.jar -l pl -c UTF-8 -t paper.tex 
+java -jar /home/aghiles/LanguageTool-4.5-stable/languagetool-commandline.jar -t paper.tex 
+java -jar /home/aghiles/LanguageTool-4.5-stable/languagetool-commandline.jar -l pl paper.tex 
+cd src/
+ls
+htlatex draft.tex 
+cd ..
+htlatex paper.tex 
+java -jar /home/aghiles/LanguageTool-4.5-stable/languagetool-commandline.jar --xmlfilter -l pl paper.tex 
+java -jar languagetool-server.jar 
+java -jar languagetool-server.jar -p 4000
+java -cp languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin '*'
+texstudio 
+java -jar languagetool.jar 
+sudo apt remove texstudio
+sudo apt install texstudio
+texstudio -v
+texstudio -V
+texstudio -version
+man texstudio 
+man texstudio | grep version
+sudo apt remove texstudio
+java -jar languagetool.jar 
+sudo apt install ./texstudio-qt4_2.12.16-1_amd64.deb 
+sudo apt install -f ./texstudio-qt4_2.12.16-1_amd64.deb 
+sudo apt remove texstudio
+sudo apt remove --purge texstudio
+sudo apt autoremove 
+sudo apt install -f ./texstudio-qt4_2.12.16-1_amd64.deb 
+java -cp languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin '*'
+sudo apt remove texstudio-qt4 
+texstudio 
+sudo apt install ./texstudio_2.12.16-1+2.1_amd64.deb 
+texstudio 
+sudo apt install sublime
+sudo apt-cache search sublime
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo echo "deb https://download.sublimetext.com/ apt/stable/" > /etc/apt/sources.list.d/sublime-text.list
+sudo apt install sublime-text
+su
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install sublime-text
+sub
+subl 
+subl
+man subl
+./compile 
+grep -ri "3/13}{Relate"
+grep -ri "Relate"
+cd src/
+grep -ri "Relate"
+subl
+subl /home/aghiles/Aghiles/Redaction/0/slide 
+subl /home/aghiles/Aghiles/Redaction/0/slide/slide.tex
+subl /home/aghiles/Aghiles/Redaction/0/slide
+sudo apt install sublim-merge
+sudo apt install sublime-merge
+subl --project file:///home/aghiles/Aghiles/Redaction/1/1.sublime-project 
+subl
+subl Aghiles/Redaction/1
+subl --project Aghiles/Redaction/1
+subl
+subl --project Downloads/1.sublime-project 
+subl --project Downloads/1
+subl --project Downloads/1.sublime-workspace 
+subl
+subl --project Aghiles/Redaction/1/1.sublime-project 
+subl -a --project Aghiles/Redaction/1/1.sublime-project 
+subl -a --project Aghiles/Redaction/2/2.sublime-project 
+subl
+subl -a --project Aghiles/Redaction/2/2.sublime-project 
+subl
+subl -a --project Aghiles/Redaction/0/0.sublime-project 
+subl
+subl -a --project Aghiles/Redaction/2/2.sublime-project 
+subl
+subl -a --project Aghiles/Redaction/2/2.sublime-project 
+subl
+subl .
+subl ./
+subl
+subl 
+subl .
+subl
+cd ..
+cd 0/
+cd ..
+subl 0/
+subl 0/*
+subl 1/*
+subl
+subl .
+man subl
+pkill subl
+subl
+subl Aghiles/Redaction/
+subl Aghiles/Redaction/*
+subl Aghiles/Redaction
+subl
+subl Aghiles/Redaction
+subl Aghiles/Redaction/0
+subl Aghiles/Redaction/1
+subl Aghiles/Redaction/3
+subl Aghiles/Redaction/3/
+subl Aghiles/Redaction/3/*
+subl Aghiles/Redaction/3/.
+subl Aghiles/Redaction/3
+subl
