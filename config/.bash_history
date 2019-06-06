@@ -1,77 +1,3 @@
-tcpdump
-sudo tcpdump
-sudo mysql -uroot -proot -e "create database projetweb"
-sudo mysql -uroot -proot < projetweb.sql 
-sudo mysql -uroot -proot projetweb < projetweb.sql 
-sudo mysql -uroot -p -e "create database projetweb"
-sudo mysql -uroot -p -e "create delete projetweb"
-sudo mysql -uroot -p -e "create database projetweb1"
-sudo mysql -uroot -p projetweb < projetweb.sql 
-unrar x PJ_WEB_2019_CHEN_MOUFID_YE.rar 
-unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
-pkill mailspring 
-cd "/home/aghiles/Aghiles/Redaction/0/slide/src"
-cd ..
-./compile 
-cle arima 0
-cle aghiles 0
-grep -ri arima
-ls /home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A%20Relay%20and%20Mobility%20Scheme%20for%20QoS%20Improvement%20in%20IoT%20Communications.pdf 
-ls "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A%20Relay%20and%20Mobility%20Scheme%20for%20QoS%20Improvement%20in%20IoT%20Communications.pdf"
-ls "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
-evince "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf"
-nautilus "/home/aghiles/Aghiles/Redaction/setup/lib/res_IoT/storage/3IHTM4ZY/"
-cle ranking 0
-cle selection 0
-cle selection|heterogeneity|ranking 0
-cle "selection|heterogeneity|ranking" 0
-*
-cle "selection|heterogeneity|ranking" 0
-cle "selection|heterogeneity|ranking" 10
-cle "selection|heterogeneity|ranking" 9
-cle "selection|heterogeneity|ranking|sdn" 
-set -- 1 2 3 4 5
-echo "${@:0}"
-echo "${@:1}"
-echo "${@:2}"   # here
-echo "${@:-2}"   # here
-echo "${-2}"   # here
-set -- 1 2 3 4 5
-echo "${@: -1}"
-echo "${@: -2}"
-echo "${@: 2}"
-echo "${@: 3}"
-echo "${@: 1}"
-echo "${@: -1}"
-echo "${@: -5}"
-echo "${@: 1}"
-echo "${@: 2}"
-echo "${@: 2:1}"
-echo "${@: 2:5}"
-echo "${@: 2:-1}"
-echo "${@: 2:1}"
-echo "${@: 1:}"
-echo "${@: 1}"
-echo "${@: -1}"
-echo "${@: -é}"
-echo "${@: -2}"
-echo "${@: -3}"
-echo "${-3:@}"
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 | uniq -d
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 | uniq -c | awk '$1 > 1 { print $2 }'
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 > tmp
-cle "selection" 9;cle "heterogeneity" 9;cle "ranking" 9 > tmp
-cle "selection|heterogeneity|ranking" 0
-cle "selection" 0
-cle "selection" hghg 0
-cle "selection" "hghg" 0
-cle "selection" 0
-cle "selection" 10
-cle "selection" heterogeneity 10
-cle "selection" "heterogeneity" 10
-cle "selection" "heterogeneity" 0
-cle "selection" 0
 cle "selection" "heterogeneity" 0
 cle "selection" "heterogeneity" 0 | uniq -d
 cle "selection" "heterogeneity" 0 | uniq -s 3
@@ -1998,3 +1924,77 @@ cle channel learn 0
 cle channel learn lora 0
 cle channel selection 0
 emacs
+git add .
+cd Formation/
+git add .
+git add *
+git commit -m "commit"
+git add -A .
+git commit -m "commit"
+git checkout -b empty_folders
+git add -v .
+git commit -m "commit"
+git push -u -f $filename master
+git checkout -b master
+git add -v .
+git checkout -b master
+git checkout master
+git add -v .
+git commit -m "commit"
+git add -v -a .
+git add -v -A .
+git commit -m "commit"
+git add -v -f -A .
+git commit -m "commit"
+git add -v -f -A . *
+git commit -m "commit"
+git add -v uuy
+git commit -m "commit"
+git push -u -f Formation master
+git add -v .
+git commit -m "commit"
+sudo apt-get install nautilus-actions
+pkill mailspring 
+thunderbird 
+pkill thunderbird 
+thunderbird 
+pkill thunderbird 
+thunderbird 
+pkill thunderbird 
+thunderbird 
+man xdg-email
+pkill maisp
+pkill mailspring 
+thunderbird 
+pkill mailspring 
+wget https://sourceforge.net/p/titivullus/code/HEAD/tree/Titivullus.py
+ls
+https://sourceforge.net/p/titivullus/code/HEAD/tree/.plugin -o plugin
+wget https://sourceforge.net/p/titivullus/code/HEAD/tree/.plugin -o plugin
+gedit
+languagetool --tray
+sudo apt install languagetool
+svn checkout https://svn.code.sf.net/p/titivullus/code/trunk titivullus-code
+gedit
+gvfsd-metadata
+gvfs-open 
+natilus -q
+nautilus -q
+mkdir ~/GVFSmount
+/usr/lib/gvfs/gvfs-fuse-daemon ~/GVFSmount
+ls ~/.gvfs/remote_folder
+nautilus -q
+nautilus /usr/share/icons/hicolor/48x48/places
+mv /usr/share/icons/hicolor/64x64/places/folder_color_red.sv /usr/share/icons/hicolor/64x64/places/folder_color_red2.sv
+mv /usr/share/icons/hicolor/64x64/places/folder_color_red.svg /usr/share/icons/hicolor/64x64/places/folder_color_red2.svg
+sudo mv /usr/share/icons/hicolor/64x64/places/folder_color_red.svg /usr/share/icons/hicolor/64x64/places/folder_color_red2.svg
+sudo cp -f /home/aghiles/Aghiles/Tool/config/icon.svg /usr/share/icons/hicolor/64x64/places/folder_color_red.svg
+sudo mv /usr/share/icons/hicolor/48x48/places/folder_color_red.svg /usr/share/icons/hicolor/48x48/places/folder_color_red2.svg
+sudo cp -f /home/aghiles/Aghiles/Tool/config/icon.svg /usr/share/icons/hicolor/48x48/places/folder_color_red.svg
+nautilus -q
+sudo nautilus .
+nautilus /usr/share/icons/hicolor/32x32/places
+sudp gedit folder-color.py
+sudo gedit folder-color.py
+sudo mv folder-color3.py ~
+nautilus -q
