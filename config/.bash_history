@@ -1,25 +1,3 @@
-echo "${@: 1:}"
-echo "${@: 1}"
-echo "${@: -1}"
-echo "${@: -é}"
-echo "${@: -2}"
-echo "${@: -3}"
-echo "${-3:@}"
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 | uniq -d
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 | uniq -c | awk '$1 > 1 { print $2 }'
-cle "selection" 9 && cle "heterogeneity" 9 && cle "ranking" 9 > tmp
-cle "selection" 9;cle "heterogeneity" 9;cle "ranking" 9 > tmp
-cle "selection|heterogeneity|ranking" 0
-cle "selection" 0
-cle "selection" hghg 0
-cle "selection" "hghg" 0
-cle "selection" 0
-cle "selection" 10
-cle "selection" heterogeneity 10
-cle "selection" "heterogeneity" 10
-cle "selection" "heterogeneity" 0
-cle "selection" 0
 cle "selection" "heterogeneity" 0
 cle "selection" "heterogeneity" 0 | uniq -d
 cle "selection" "heterogeneity" 0 | uniq -s 3
@@ -1998,3 +1976,25 @@ languagetool --tray
 sudo apt install languagetool
 svn checkout https://svn.code.sf.net/p/titivullus/code/trunk titivullus-code
 gedit
+gvfsd-metadata
+gvfs-open 
+natilus -q
+nautilus -q
+mkdir ~/GVFSmount
+/usr/lib/gvfs/gvfs-fuse-daemon ~/GVFSmount
+ls ~/.gvfs/remote_folder
+nautilus -q
+nautilus /usr/share/icons/hicolor/48x48/places
+mv /usr/share/icons/hicolor/64x64/places/folder_color_red.sv /usr/share/icons/hicolor/64x64/places/folder_color_red2.sv
+mv /usr/share/icons/hicolor/64x64/places/folder_color_red.svg /usr/share/icons/hicolor/64x64/places/folder_color_red2.svg
+sudo mv /usr/share/icons/hicolor/64x64/places/folder_color_red.svg /usr/share/icons/hicolor/64x64/places/folder_color_red2.svg
+sudo cp -f /home/aghiles/Aghiles/Tool/config/icon.svg /usr/share/icons/hicolor/64x64/places/folder_color_red.svg
+sudo mv /usr/share/icons/hicolor/48x48/places/folder_color_red.svg /usr/share/icons/hicolor/48x48/places/folder_color_red2.svg
+sudo cp -f /home/aghiles/Aghiles/Tool/config/icon.svg /usr/share/icons/hicolor/48x48/places/folder_color_red.svg
+nautilus -q
+sudo nautilus .
+nautilus /usr/share/icons/hicolor/32x32/places
+sudp gedit folder-color.py
+sudo gedit folder-color.py
+sudo mv folder-color3.py ~
+nautilus -q
