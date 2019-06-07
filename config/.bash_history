@@ -1,5 +1,3 @@
-cle heterogen lora 1 
-cle "heterogen.*lora" 1 
 cle "lora.*heterogen" 1 
 cle "lora*heterogen" 1 
 cle heterogen lora 1 
@@ -1998,3 +1996,5 @@ grep -ri "output_directory"
 gedit basicBuilder.py
 subl
 subl
+gedit ~/.config/sublime-text-2/Settings/Session.sublime_session
+gedit ~/.config/sublime-text-3/Settings/Session.sublime_session
