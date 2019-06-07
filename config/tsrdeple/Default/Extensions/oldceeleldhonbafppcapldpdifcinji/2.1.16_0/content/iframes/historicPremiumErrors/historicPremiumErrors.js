@@ -1,1 +1,0 @@
-const urlObj=new URL(location.href),teaser=new HistoricPremiumErrorsTeaser(document.querySelector("#container"),Number(urlObj.searchParams.get("historicMatches")));teaser.render(),document.documentElement.addEventListener("mousedown",e=>e.preventDefault());

@@ -1,26 +1,3 @@
-cle clustering selection 0
-cle relay 0
-cle relay 0 | grep relay
-cle relay 0 | grep understand
-cle relay 0 | grep under
-cle relay 0 | grep Under
-ls ZD9EMX9M
-nautilus ZD9EMX9M
-nautilus PQG6CY6I/
-nautilus TYEY29I4/
-rm -r TYEY29I4
-cle relay 0 | grep Under
-nautilus Q8ZLNCV5
-rm -r Q8ZLNCV5
-cle qos 0 
-cle qos 10 
-cle qos selection 10 
-cle security 10 
-cle security jamming 10 
-cle security jamming 1 
-cle heterogen 1 
-cle heterogen lora 1 
-cle "heterogen.*lora" 1 
 cle "lora.*heterogen" 1 
 cle "lora*heterogen" 1 
 cle heterogen lora 1 
@@ -1998,3 +1975,26 @@ subl Aghiles/Redaction/3/*
 subl Aghiles/Redaction/3/.
 subl Aghiles/Redaction/3
 subl
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo echo "deb https://download.sublimetext.com/ apt/stable/" > /etc/apt/sources.list.d/sublime-text.list
+su
+su -
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install sublime-text
+
+subl
+cd "/home/aghiles/Aghiles/Redaction/5/paper"
+./compile 
+./compile 
+./
+./compile 
+cd "/home/aghiles/Aghiles/Tool"
+./setup-3-shotcuts 
+grep -ri texmk
+grep -ri "output_directory"
+gedit basicBuilder.py
+subl
+subl
+gedit ~/.config/sublime-text-2/Settings/Session.sublime_session
+gedit ~/.config/sublime-text-3/Settings/Session.sublime_session
