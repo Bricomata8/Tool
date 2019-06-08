@@ -1,1 +1,1 @@
-{"uniqueId":"780d8fdcb43fae16","firstVisit":1559996533,"sessionCount":12,"hasSeenPrivacyConfirmationDialog":true,"geoIpLanguages":["fr"],"geoIpCountry":"FR"}
+{"uniqueId":"780d8fdcb43fae16","firstVisit":1559996533,"sessionCount":13,"hasSeenPrivacyConfirmationDialog":true,"geoIpLanguages":["fr"],"geoIpCountry":"FR"}
