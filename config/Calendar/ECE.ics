@@ -4,7 +4,7 @@ PRODID:-//Ximian//NONSGML Evolution Calendar//EN
 VERSION:2.0
 X-LIC-ERROR;X-LIC-ERRORTYPE=COMPONENT-PARSE-ERROR:Got a data line\, but 
  could not find a property name or component begin tag: <<<<<<< HEAD
-X-EVOLUTION-DATA-REVISION:2019-06-06T12:27:40.057807Z(0)
+X-EVOLUTION-DATA-REVISION:2019-06-08T08:39:27.871460Z(3)
 X-LIC-ERROR;X-LIC-ERRORTYPE=COMPONENT-PARSE-ERROR:Got a data line\, but 
  could not find a property name or component begin tag: =======
 X-EVOLUTION-DATA-REVISION:2019-04-17T20:26:39.850684Z(3)
@@ -125,6 +125,26 @@ X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION
  property. Removing entire property:
 END:VEVENT
 BEGIN:VEVENT
+UID:20190510T153415Z-21943-1000-21930-0@dell
+DTSTAMP:20190510T153415Z
+DTSTART;VALUE=DATE:20190606T080000
+DUE;VALUE=DATE:20190606T080000
+DTEND;VALUE=DATE:20190607
+SUMMARY:Première rencontre stagiaires
+SEQUENCE:1
+CREATED:20190510T153415Z
+LAST-MODIFIED:20190510T153450Z
+DESCRIPTION:Chers stagiaires\,\n\nComme promis\, je reviens vers vous à 
+ propos de notre première rencontre.\n\nMerci de bloquer dans vos agendas 
+ le jeudi 6 juin de 14h30 à 16h30.\n\nL'équipe recherche et vos 
+ référents seront présents pour échanger avec vous.\n\n \n\nJe vous 
+ propose de présenter en 10 min max :\n\n- votre parcours  \n\n- le 
+ contexte et la problématique de votre sujet de recherche\n\n- votre 
+ état d'avancement (état de l'art\, approche\, modèle\, 
+ expérimentations\,...)\n\n- votre feuille de route\n\nA très 
+ bientôt\nAssia
+END:VEVENT
+BEGIN:VEVENT
 UID:20190513T125135Z-26726-1000-26717-0@dell
 DTSTAMP:20190513T125135Z
 SUMMARY:Proposez un sujet de PPE PPF avant 5 juin
@@ -210,31 +230,29 @@ DESCRIPTION:Je vous annonce que notre réunion informatique aura lieu le
  mercredi 5 juin à partir de 15h en P308.
 END:VEVENT
 BEGIN:VEVENT
-UID:20190606T094344Z-2969-1000-2961-0@dell
-DTSTAMP:20190606T094344Z
-DTSTART;VALUE=DATE:20190611T080000
-DUE;VALUE=DATE:20190611T080000
-DTEND;VALUE=DATE:20190612
+UID:20190608T021344Z-2074-1000-2066-0@dell
+DTSTAMP:20190608T021344Z
+DTSTART:20190611T110000
+DUE:20190611T110000
+DTEND:20190611T120000
 SUMMARY:Merci d'avoir répondu au doodle\, notre réunion sera donc 
- fixée pour le Mardi 11/06 de 13h à 14h
-SEQUENCE:1
-CREATED:20190606T094344Z
-LAST-MODIFIED:20190606T094344Z
+ fixée pour le Mardi 11/06 de 13h à 14h\n
+SEQUENCE:3
+CREATED:20190608T021344Z
+LAST-MODIFIED:20190608T021430Z
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION 
+ property. Removing entire property:
 END:VEVENT
 BEGIN:VEVENT
-UID:20190510T153415Z-21943-1000-21930-0@dell
-DTSTAMP:20190510T153415Z
-DTSTART;VALUE=DATE:20190606T080000
-DUE;VALUE=DATE:20190606T080000
-DTEND;VALUE=DATE:20190607
-SUMMARY:Première rencontre stagiaires
+UID:20190607T175350Z-19528-1000-19520-0@dell
+DTSTAMP:20190607T175350Z
+DTSTART;VALUE=DATE:20190926T080000
+DUE;VALUE=DATE:20190926T080000
+DTEND;VALUE=DATE:20190927
+SUMMARY:2ème Symposium Recherche INSEEC U
 SEQUENCE:1
-CREATED:20190510T153415Z
-LAST-MODIFIED:20190606T122740Z
-DESCRIPTION:Bonjour à tous\,\nLa salle réservée pour vos 
- présentations est la P347.\nAfin de situer chacun de vous dans les 
- thématiques du labo\, je propose de commencer par une brève 
- présentation.\nThomas arrivera après 14h30\, Merci d’avance à Éric 
- de ne pas passer parmi les premiers.\nTrès belle journée\,
+CREATED:20190607T175350Z
+LAST-MODIFIED:20190608T083927Z
+DESCRIPTION:R&D&C&M\n
 END:VEVENT
 END:VCALENDAR

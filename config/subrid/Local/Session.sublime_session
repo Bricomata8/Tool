@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 3207,
-	"last_window_id": 16,
+	"last_window_id": 19,
 	"log_indexing": false,
 	"settings":
 	{
@@ -63,11 +63,11 @@
 					],
 					[
 						"Packages/LaTeXTools/LaTeX.sublime-build",
-						"LuaLaTeX"
+						"Basic Builder - LuaLaTeX"
 					]
 				]
 			],
-			"build_varint": "LuaLaTeX",
+			"build_varint": "",
 			"command_palette":
 			{
 				"height": 0.0,
@@ -75,11 +75,19 @@
 				"selected_items":
 				[
 					[
-						"Package Control: in",
+						"Package Control: ",
 						"Package Control: Install Package"
 					],
 					[
-						"Package Control: ",
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
 						"Package Control: Install Package"
 					],
 					[
@@ -118,16 +126,24 @@
 			},
 			"file_history":
 			[
-				"/home/aghiles/Aghiles/Redaction/4/slide/slide.tex",
-				"/home/aghiles/Aghiles/Redaction/4/paper/paper.tex"
+				"/home/aghiles/Aghiles/Redaction/0/slide/src/1_introduction.tex",
+				"/home/aghiles/Aghiles/Redaction/0/slide/src/1_introduction.log",
+				"/home/aghiles/Aghiles/Redaction/0/slide/slide.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/2_background.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/paper.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/1/introduction.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/0_mac.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/2/2_category.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/1_introduction.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/3/2_background.tex"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 99.0,
 				"where_history":
 				[
 				]
@@ -137,6 +153,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					" \n",
+					"}\n"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -153,25 +171,33 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 24.0
 			},
 			"input":
 			{
 				"height": 37.0
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 109.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
+			"output.languagetool":
+			{
+				"height": 109.0
+			},
 			"output.latextools":
 			{
-				"height": 324.0
+				"height": 154.0
 			},
 			"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"replace":
 			{
-				"height": 64.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -191,7 +217,15 @@
 				[
 					[
 						"",
-						"~/Aghiles/Redaction/4/4.sublime-project"
+						"~/Aghiles/Redaction/0/0.sublime-project"
+					],
+					[
+						"1",
+						"~/Aghiles/Redaction/1/1.sublime-project"
+					],
+					[
+						"0",
+						"~/Aghiles/Redaction/0/0.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -209,7 +243,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 201.0,
+			"side_bar_width": 158.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -289,15 +323,19 @@
 				"selected_items":
 				[
 					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
 						"Package Control: insta",
 						"Package Control: Install Package"
 					],
 					[
 						"Package Control: in",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ",
 						"Package Control: Install Package"
 					],
 					[
@@ -334,15 +372,10 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/aghiles/Aghiles/Redaction/0/paper",
-				"/home/aghiles/Aghiles/Redaction/0/slide",
-				"/home/aghiles/Aghiles/Redaction/0/slide/src"
-			],
 			"file_history":
 			[
 				"/home/aghiles/Aghiles/Redaction/0/slide/src/1_introduction.tex",
+				"/home/aghiles/Aghiles/Redaction/0/slide/src/1_introduction.log",
 				"/home/aghiles/Aghiles/Redaction/0/slide/slide.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/2_background.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/paper.tex",
@@ -354,11 +387,11 @@
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 99.0,
 				"where_history":
 				[
 				]
@@ -368,6 +401,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					" \n",
+					"}\n"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -392,7 +427,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -435,14 +470,14 @@
 			},
 			"output.latextools":
 			{
-				"height": 429.0
+				"height": 154.0
 			},
 			"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"position": "0,0,0,0,0,0,27,960,1043,1920,1080",
 			"project": "0.sublime-project",
 			"replace":
 			{
-				"height": 64.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -492,25 +527,31 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 274.0,
+			"side_bar_width": 158.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
-			"workspace_name": "/home/aghiles/Aghiles/Redaction/0/0.sublime-workspace"
+			"window_id": 18,
+			"workspace_name": "/home/aghiles/Aghiles/Redaction/0/0_paper.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/home/aghiles/Aghiles/Redaction/0/0.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/1/1.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/2/2.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/3/3.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/4/4.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/5/5.sublime-workspace"
+			"/home/aghiles/Aghiles/Redaction/0/0_paper.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/0/0_slide.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/1/1_paper.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/1/1_slide.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/2/2_paper.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/2/2_slide.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/3/3_paper.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/3/3_slide.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/4/4_paper.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/4/4_slide.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/5/5_paper.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/5/5_slide.sublime-workspace"
 		]
 	}
 }

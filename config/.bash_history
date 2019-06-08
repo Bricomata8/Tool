@@ -1,22 +1,3 @@
-\RequirePackage{luatex85}
-
-\usepackage{makecell}
-\usepackage{amssymb}
-\usetikzlibrary{mindmap,trees}
-\usepackage{tikz,nicefrac,amsmath,pifont}
-\usepackage{tikz-timing}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{eso-pic}
-\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
-\usepackage[graphics,tightpage,active]{preview}
-\PreviewEnvironment{tikzpicture}
-\usepackage{wasysym}
-\usepackage{stmaryrd}
-
-
-\newlength{\imagewidth}
-\newlength{\imagescale}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
 
@@ -1997,4 +1978,23 @@ pkill subl
 subl
 gedit ~/.config/sublime-text-3/Session.sublime_session
 gedit ~/.config/sublime-text-3/Local/Session.sublime_session
+subl
+cle heteroge 0
+pdftk impos.pdf 2018.pdf impos2.pdf
+pdftk impos.pdf 2018.pdf cat impos2.pdf
+pdftk impos.pdf 2018.pdf cat output impos2.pdf
+pdftk *.pdf output t.pdf
+firefox
+sudo apt install firefox
+sudo apt install firefox-esr
+firefox
+xdg-open https://academic.microsoft.com/home https://www.semanticscholar.org
+xdg-open "https://academic.microsoft.com/home" "https://www.semanticscholar.org"
+man xdg-open
+ln -sf /home/aghiles/Aghiles/Tool/config/tfkolm /home/aghiles/.mozilla 
+subl
+wget https://github.com/ethanwillis/zotero-scihub/releases/download/0.0.5/zotero-scihub-0.0.5.xpi
+cle cognet 0
+cle cognit 0
+cle cognit sdn 0
 subl
