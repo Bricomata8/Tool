@@ -1,5 +1,3 @@
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
 
 \DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
 \DeclareFontFamily{U}{MnSymbolA}{}
@@ -1997,4 +1995,7 @@ wget https://github.com/ethanwillis/zotero-scihub/releases/download/0.0.5/zotero
 cle cognet 0
 cle cognit 0
 cle cognit sdn 0
+subl
+cd "/home/aghiles/Aghiles/Redaction/setup"
+cd ..
 subl
