@@ -1,23 +1,4 @@
 
-\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
-\DeclareFontFamily{U}{MnSymbolA}{}
-\DeclareFontShape{U}{MnSymbolA}{m}{n}{
-  <-6> MnSymbolA5
-  <6-7> MnSymbolA6
-  <7-8> MnSymbolA7
-  <8-9> MnSymbolA8
-  <9-10> MnSymbolA9
-  <10-12> MnSymbolA10
-  <12-> MnSymbolA12}{}
-\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
-\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
-\def\res{../..}
-\pgfplotsset{
-table/search path={\res/data/},
-}
-
-\begin{document}
-
 \begin{tikzpicture}
 $rre
 \end{tikzpicture}
@@ -1998,4 +1979,22 @@ cle cognit sdn 0
 subl
 cd "/home/aghiles/Aghiles/Redaction/setup"
 cd ..
+subl
+sudo apt remove chromium
+subl iiu
+subl iiu.tex
+ls
+subl iiu.tex
+atom
+sudo apt install atom
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt-get update
+sudo apt-get install atom
+sudo apt-get install atom-beta 
+atom
+subl
+ls
+linter
+sub
 subl
