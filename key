@@ -1,0 +1,5 @@
+#!/bin/bash
+
+tt="$1"
+grep -Po -r -i "[A-Z].*?$1.*?\." */.zotero-ft-cache |  sed -r -e 's/\/.zotero-ft-cache//g' | awk -v d="$1" 'BEGIN{IGNORECASE=1}{ gsub("^........:", "\033[1;31m&\033[0m"); gsub(d, "\033[1;31m&\033[0m"); print }'
+

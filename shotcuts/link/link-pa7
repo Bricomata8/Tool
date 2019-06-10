@@ -1,3 +1,13 @@
 #!/bin/sh
 
+#!/bin/sh
+
+INPUTb=`xsel`
+INPUT=`echo $INPUTb | tr -d '\n'`
+echo $INPUT
+
+paper="${INPUT}"
+
+cd "/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/"
+evince $paper/*.pdf
 
