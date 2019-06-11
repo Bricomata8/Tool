@@ -1,4 +1,3 @@
-sudo ffmpeg -f concat -i ( for f in *.wav; do echo "file $f"; done ) output.wav
 sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
 sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f|"; done`" output.wav
 sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f "; done`" output.wav
@@ -1998,3 +1997,4 @@ grep -ri throw
 grep -ri "throw new"
 gedit Sujet/src/tpnoté/Personnel.java
 grep -ri "throw new"
+subl
