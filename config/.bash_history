@@ -1,7 +1,3 @@
-cle "lora.*heterogen" 1 
-cle "lora*heterogen" 1 
-cle heterogen lora 1 
-cd "/home/aghiles/Aghiles/Redaction/0/res"
 cat bin/.compile 
 echo "
 \documentclass{article}
@@ -1998,3 +1994,7 @@ subl
 subl
 gedit ~/.config/sublime-text-2/Settings/Session.sublime_session
 gedit ~/.config/sublime-text-3/Settings/Session.sublime_session
+./pull 
+subl
+subl
+pkill mailspring 
