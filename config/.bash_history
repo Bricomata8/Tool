@@ -1,9 +1,3 @@
-D
-man shnjoin | grep joined
-mv joined.wav ~/paper.wav
-cle lpwan 0
-cle lpwa 0
-cle lpwa 10
 cle interopirability 0
 cle interoperability 0
 cle lpwa 0
@@ -1998,3 +1992,9 @@ grep -ri "throw new"
 subl
 >>>>>>> 78a0117915595bdf35999d5dc2227a02bdebfc0c
 ps -A
+ln -sf /home/aghiles/Aghiles/Tool/config/tfkolm /home/aghiles/.mozilla 
+ln -sf /home/aghiles/Aghiles/Tool/config/subrid /home/aghiles/.config/sublime-text-3
+sudo apt remove chromium
+skypeforlinux 
+./setup-3-shotcuts 
+gedit 
