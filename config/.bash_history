@@ -1,17 +1,3 @@
-sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
-sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f|"; done`" output.wav
-sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f "; done`" output.wav
-shnjoin -r none `for f in *.wav; do echo "$f "; done`
-ls
-shnjoin -r none `for f in *.wav; do echo "$f "; done` -o ~/lklk.wav
-man shnjoin 
-man shnjoin | grep output
-D
-man shnjoin | grep joined
-mv joined.wav ~/paper.wav
-cle lpwan 0
-cle lpwa 0
-cle lpwa 10
 cle interopirability 0
 cle interoperability 0
 cle lpwa 0
@@ -1641,6 +1627,12 @@ subl
 subl
 gedit ~/.config/sublime-text-2/Settings/Session.sublime_session
 gedit ~/.config/sublime-text-3/Settings/Session.sublime_session
+<<<<<<< HEAD
+./pull 
+subl
+subl
+pkill mailspring 
+=======
 ln -sf /home/aghiles/Aghiles/Tool/config/subrid /home/aghiles/.config/sublime-text-3
 subl
 pkill subl
@@ -1998,3 +1990,11 @@ grep -ri "throw new"
 gedit Sujet/src/tpnoté/Personnel.java
 grep -ri "throw new"
 subl
+>>>>>>> 78a0117915595bdf35999d5dc2227a02bdebfc0c
+ps -A
+ln -sf /home/aghiles/Aghiles/Tool/config/tfkolm /home/aghiles/.mozilla 
+ln -sf /home/aghiles/Aghiles/Tool/config/subrid /home/aghiles/.config/sublime-text-3
+sudo apt remove chromium
+skypeforlinux 
+./setup-3-shotcuts 
+gedit 
