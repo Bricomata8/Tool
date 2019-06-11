@@ -1,6 +1,9 @@
 #! /bin/sh
 mypath=`realpath $0`
 directory=`dirname $mypath`
+folder=`basename $directory`
 filename=`basename $0`
 
-subl --project Aghiles/Redaction/$filename/$filename.sublime-project 
+ty="_$folder.sublime-project"
+subl -b --project Aghiles/Redaction/$filename/$filename$ty Aghiles/Redaction/$filename/$folder/$folder.tex
+

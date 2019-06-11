@@ -1,364 +1,3 @@
-cat bin/.compile 
-echo "
-\documentclass{article}
-\RequirePackage{luatex85}
-
-\usepackage{makecell}
-\usepackage{amssymb}
-\usetikzlibrary{mindmap,trees}
-\usepackage{tikz,nicefrac,amsmath,pifont}
-\usepackage{tikz-timing}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{eso-pic}
-\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
-\usepackage[graphics,tightpage,active]{preview}
-\PreviewEnvironment{tikzpicture}
-\usepackage{wasysym}
-\usepackage{stmaryrd}
-
-
-\newlength{\imagewidth}
-\newlength{\imagescale}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
-
-\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
-\DeclareFontFamily{U}{MnSymbolA}{}
-\DeclareFontShape{U}{MnSymbolA}{m}{n}{
-  <-6> MnSymbolA5
-  <6-7> MnSymbolA6
-  <7-8> MnSymbolA7
-  <8-9> MnSymbolA8
-  <9-10> MnSymbolA9
-  <10-12> MnSymbolA10
-  <12-> MnSymbolA12}{}
-\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
-\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
-\def\res{../..}
-\pgfplotsset{
-table/search path={\res/data/},
-}
-
-\begin{document}
-
-\begin{tikzpicture}
-$rre
-\end{tikzpicture}
-
-\end{document}
-" > $template 
-echo "
-\documentclass{article}
-\RequirePackage{luatex85}
-
-\usepackage{makecell}
-\usepackage{amssymb}
-\usetikzlibrary{mindmap,trees}
-\usepackage{tikz,nicefrac,amsmath,pifont}
-\usepackage{tikz-timing}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{eso-pic}
-\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
-\usepackage[graphics,tightpage,active]{preview}
-\PreviewEnvironment{tikzpicture}
-\usepackage{wasysym}
-\usepackage{stmaryrd}
-
-
-\newlength{\imagewidth}
-\newlength{\imagescale}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
-
-\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
-\DeclareFontFamily{U}{MnSymbolA}{}
-\DeclareFontShape{U}{MnSymbolA}{m}{n}{
-  <-6> MnSymbolA5
-  <6-7> MnSymbolA6
-  <7-8> MnSymbolA7
-  <8-9> MnSymbolA8
-  <9-10> MnSymbolA9
-  <10-12> MnSymbolA10
-  <12-> MnSymbolA12}{}
-\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
-\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
-\def\res{../..}
-\pgfplotsset{
-table/search path={\res/data/},
-}
-
-\begin{document}
-
-\begin{tikzpicture}
-$rre
-\end{tikzpicture}
-
-\end{document}
-" | $template= -
-template="\documentclass{article}
-\RequirePackage{luatex85}
-
-\usepackage{makecell}
-\usepackage{amssymb}
-\usetikzlibrary{mindmap,trees}
-\usepackage{tikz,nicefrac,amsmath,pifont}
-\usepackage{tikz-timing}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{eso-pic}
-\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
-\usepackage[graphics,tightpage,active]{preview}
-\PreviewEnvironment{tikzpicture}
-\usepackage{wasysym}
-\usepackage{stmaryrd}
-
-
-\newlength{\imagewidth}
-\newlength{\imagescale}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
-
-\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
-\DeclareFontFamily{U}{MnSymbolA}{}
-\DeclareFontShape{U}{MnSymbolA}{m}{n}{
-  <-6> MnSymbolA5
-  <6-7> MnSymbolA6
-  <7-8> MnSymbolA7
-  <8-9> MnSymbolA8
-  <9-10> MnSymbolA9
-  <10-12> MnSymbolA10
-  <12-> MnSymbolA12}{}
-\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
-\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
-\def\res{../..}
-\pgfplotsset{
-table/search path={\res/data/},
-}
-
-\begin{document}
-
-\begin{tikzpicture}
-$rre
-\end{tikzpicture}
-
-\end{document}
-"
-echo $tt
-echo $template 
-echo "$template" 
-template="\documentclass{article}
-\RequirePackage{luatex85}
-
-\usepackage{makecell}
-\usepackage{amssymb}
-\usetikzlibrary{mindmap,trees}
-\usepackage{tikz,nicefrac,amsmath,pifont}
-\usepackage{tikz-timing}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{eso-pic}
-\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
-\usepackage[graphics,tightpage,active]{preview}
-\PreviewEnvironment{tikzpicture}
-\usepackage{wasysym}
-\usepackage{stmaryrd}
-
-
-\newlength{\imagewidth}
-\newlength{\imagescale}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
-
-\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
-\DeclareFontFamily{U}{MnSymbolA}{}
-\DeclareFontShape{U}{MnSymbolA}{m}{n}{
-  <-6> MnSymbolA5
-  <6-7> MnSymbolA6
-  <7-8> MnSymbolA7
-  <8-9> MnSymbolA8
-  <9-10> MnSymbolA9
-  <10-12> MnSymbolA10
-  <12-> MnSymbolA12}{}
-\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
-\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
-\def\res{../..}
-\pgfplotsset{
-table/search path={\res/data/},
-}
-
-\begin{document}
-
-\begin{tikzpicture}
-"+
-$rre+
-"
-\end{tikzpicture}
-
-\end{document}
-"
-template="
-\documentclass{article}
-\RequirePackage{luatex85}
-
-\usepackage{makecell}
-\usepackage{amssymb}
-\usetikzlibrary{mindmap,trees}
-\usepackage{tikz,nicefrac,amsmath,pifont}
-\usepackage{tikz-timing}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{eso-pic}
-\usetikzlibrary{calc,3d,arrows,arrows.meta,snakes,backgrounds,datavisualization,patterns,matrix,shapes,fit,calc,shadows,plotmarks,positioning,decorations,fadings}
-\usepackage[graphics,tightpage,active]{preview}
-\PreviewEnvironment{tikzpicture}
-\usepackage{wasysym}
-\usepackage{stmaryrd}
-
-
-\newlength{\imagewidth}
-\newlength{\imagescale}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\tab}[1]{\hspace{.09\textwidth}\rlap{#1}}
-
-\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} 
-\DeclareFontFamily{U}{MnSymbolA}{}
-\DeclareFontShape{U}{MnSymbolA}{m}{n}{
-  <-6> MnSymbolA5
-  <6-7> MnSymbolA6
-  <7-8> MnSymbolA7
-  <8-9> MnSymbolA8
-  <9-10> MnSymbolA9
-  <10-12> MnSymbolA10
-  <12-> MnSymbolA12}{}
-\DeclareSymbolFont{MnSyA}{U}{MnSymbolA}{m}{n}
-\DeclareMathSymbol{\downlsquigarrow}{\mathrel}{MnSyA}{163}
-\def\res{../..}
-\pgfplotsset{
-table/search path={\res/data/},
-}
-
-\begin{document}
-
-\begin{tikzpicture}
-"
-template+= "$rre"
-template+="
-\end{tikzpicture}
-
-\end{document}
-"
-echo "$template"
-ln -s /home/aghiles/Downloads/web/www/58/html/accueil.php accueil.php
-cd 3
-cd 36
-sqlM Ece_amazon.sql
-firefox
-calendar 
-skype
-sudo apt install skype
-mpg123 -a hw:0,0 myfile.mp3
-man trans
-trans bonjour
-trans hello
-trans -p hello
-trans -p hello -p t
-trans -p hello -o t
-cle heterogen lora 1
-gedit "CN8P8U28/Ochoa et al. - 2018 - Large Scale LoRa Networks From Homogeneous to Het.txt"
-./speaker-fr 
-./speaker-en 
-sox
-./speaker-en 
-sudo apt instal sox
-sudo apt install sox
-sox %d.wav ou.wav
-sox *.wav ou.wav
-./speaker-en 
-cle heterogen lora 1
-paper=trtrt.pdf
-sed -r "s/\.txt/\.pdf/g" $paper
-echo "$paper" | sed -r "s/\.txt/\.pdf/g" 
-paper=`echo "$paper" | sed -r "s/\.txt/\.pdf/g"`
-echo "$paper"
-paper=`echo "$paper" | sed -r "s/\.pdf/\.txt/g"`
-echo "$paper"
-cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
-./link-sp4 
-sh link-sp4 
-./link-sp4 
-cd /tmp/trtrte
-for f in *.wav; do echo "'$(pwd)/$f'"; done
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox 
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V 
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -o ~/ou.wav -
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox ~/ou.wav -
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox ~/ou.wav
-man sox | grep output
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox
-for f in *.wav; do echo "'$(pwd)/$f'"; done | sort -V | sox -
-sox $(ls *.wav | sort -n) ~/out.wav
-ls *.wav | sort -n
-cle heterogen lora 1
-<<<<<<< HEAD
-=======
-pkill mailspring 
-cle heterogen lora 1
-pdf2txt 
-cle lora heterogen 0
-cle lora scale 0
-cle orthogana 0
-cle orthogona 0
-cle mpwa 0
-cle lpwa 0
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf ~/.local/share/nautilus/scripts
-ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
-pkill mailspring 
-nautilus -q
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/extensions
-ln -sf /home/aghiles/Aghiles/Tool/config/extensions /home/aghiles/.mozilla/firefox/*.default/
-sudo apt install chromium
-sudo apt update
-sudo apt upgrade 
-chromium 
-ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple/* /home/aghiles/.config/chromium/
-ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
-chromium 
-cle lpwa 0
-grep -ri "/tmp"
-ps -A
-sudo apt install sox
-cd /tmp/trtrte
-sox $(ls *.wav | sort -n) ~/outlk.wav
-sudo apt install shntool
-cd /tmp/trtrte/
-ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
-sudo apt install ffmpeg
-ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
-sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
-sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
-for f in *.wav; do echo "file $f"; done
-sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
-sudo ffmpeg -f concat -i ( for f in *.wav; do echo "file $f"; done ) output.wav
-sudo ffmpeg -f concat -i <( for f in *.wav; do echo "file $f"; done ) output.wav
-sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f|"; done`" output.wav
-sudo ffmpeg -i "concat:`for f in *.wav; do echo "$f "; done`" output.wav
-shnjoin -r none `for f in *.wav; do echo "$f "; done`
-ls
-shnjoin -r none `for f in *.wav; do echo "$f "; done` -o ~/lklk.wav
-man shnjoin 
-man shnjoin | grep output
 D
 man shnjoin | grep joined
 mv joined.wav ~/paper.wav
@@ -1994,7 +1633,368 @@ subl
 subl
 gedit ~/.config/sublime-text-2/Settings/Session.sublime_session
 gedit ~/.config/sublime-text-3/Settings/Session.sublime_session
+<<<<<<< HEAD
 ./pull 
 subl
 subl
 pkill mailspring 
+=======
+ln -sf /home/aghiles/Aghiles/Tool/config/subrid /home/aghiles/.config/sublime-text-3
+subl
+pkill subl
+subl
+gedit ~/.config/sublime-text-3/Session.sublime_session
+gedit ~/.config/sublime-text-3/Local/Session.sublime_session
+subl
+cle heteroge 0
+pdftk impos.pdf 2018.pdf impos2.pdf
+pdftk impos.pdf 2018.pdf cat impos2.pdf
+pdftk impos.pdf 2018.pdf cat output impos2.pdf
+pdftk *.pdf output t.pdf
+firefox
+sudo apt install firefox
+sudo apt install firefox-esr
+firefox
+xdg-open https://academic.microsoft.com/home https://www.semanticscholar.org
+xdg-open "https://academic.microsoft.com/home" "https://www.semanticscholar.org"
+man xdg-open
+ln -sf /home/aghiles/Aghiles/Tool/config/tfkolm /home/aghiles/.mozilla 
+subl
+wget https://github.com/ethanwillis/zotero-scihub/releases/download/0.0.5/zotero-scihub-0.0.5.xpi
+cle cognet 0
+cle cognit 0
+cle cognit sdn 0
+subl
+cd "/home/aghiles/Aghiles/Redaction/setup"
+cd ..
+subl
+sudo apt remove chromium
+subl iiu
+subl iiu.tex
+ls
+subl iiu.tex
+atom
+sudo apt install atom
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt-get update
+sudo apt-get install atom
+sudo apt-get install atom-beta 
+atom
+subl
+ls
+linter
+sub
+subl
+subl -b
+cd "/home/aghiles/Aghiles/Tool/shotcuts/paper"
+./subl
+./0
+subl
+pkill subl
+subl &
+subl
+man grep
+grep -P -r -z "\.[\n ]*[A-Z].*ALOHA"
+grep -P -r -z "\.[\n ]*[A-Z].*ALOHA" */*/pdf
+grep -P -r -z "\.[\n ]*[A-Z].*ALOHA" */*.pdf
+grep -P '\[[^\]]*?<.*>.*?\]' test
+cle ALOHA 0
+grep -ri aloha
+pdfgrep -ri aloha
+pdfgrep -A10 -B10 -ri aloha
+grep -A10 -B10 -ri aloha
+grep -ri aloha
+grep -i aloha */.zotero-ft-cache
+grep -i "\..*aloha.*" */.zotero-ft-cache
+grep -i "[A-Z].*aloha.*" */.zotero-ft-cache
+grep -i "[A-Z].*aloha.*\." */.zotero-ft-cache
+grep -i aloha */.zotero-ft-cache
+grep -i "[\.,].*aloha.*[\.,]" */.zotero-ft-cache
+grep -i aloha */*.txt
+grep -A4 -B4 -i aloha */*.txt
+grep -C4 -i aloha */*.txt
+pdfgrep -i aloha */*.txt
+pdfgrep -i aloha 
+pdfgrep -ri aloha 
+grep -A0 -B0 -i aloha */*.txt
+grep -A0 -B0 -i aloha */.zotero-ft-cache
+grep -num0 -i aloha */.zotero-ft-cache
+grep -num1 -i aloha */.zotero-ft-cache
+grep -A0 -B0 -i aloha */.zotero-ft-cache
+grep -w -i aloha */.zotero-ft-cacheB
+grep -w -i aloha */.zotero-ft-cache
+grep -w -i 'aloha[^\.] */.zotero-ft-cache
+grep -w -i 'aloha[^\.]' */.zotero-ft-cache
+grep -w -i 'aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i 'aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '\.*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '\..*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i 'aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '\.[^\.]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '[\.,][^\.,]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '[\n\.,][^\n\.,]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o -i '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o -i '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o -i '[\n\.,][^\n\.,]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o -i '\.[A-Z].*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o '\.[A-Z].*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o  '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep  -o  '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep  -o -z '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -w -o  '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o -i '\.[A-Z].*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o -i '\..*aloha[^\.]*\.' */.zotero-ft-cache
+grep -o -i '\.*aloha[^\.]*\.' */.zotero-ft-cache
+grep  -o -z '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep  -o '[A-Z][^A-Z]*aloha[^\.]*\.' */.zotero-ft-cache
+grep  -o '[A-Z][^A-Z]*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '\.[A-Z][^A-Z]*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '\.\n[A-Z][^A-Z]*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '[A-Z][^A-Z]*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep  -o '[A-Z][^A-Z]*ALOHA[^\.]*\.' */.zotero-ft-cache
+gedit QU7H5T66/.zotero-ft-cache
+grep  -o '[A-Z][^A-Z]*ALOHA[^\.]*\.' */.zotero-ft-cache
+A
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep -n ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep -c ALOHA
+cle ALOHA 0
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep -c ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '\..*ALOHA[^\.]*\.' */.zotero-ft-cache
+grep -o '\..*ALOHA[^\.]*\.' */.zotero-ft-cache | grep -c ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep -c ALOHA
+grep -oi '^.*lora[^\.]*\.' */.zotero-ft-cache | grep -ci LoRa
+grep -oi '^.*lora[^\.]*\.' */.zotero-ft-cache | grep -i LoRa
+grep -i lora */*.pdf
+grep -ir lora */*.pdf
+grep -ir lora */*.txt
+grep -oi '^.*lora[^\.]*\.' */.zotero-ft-cache | grep -i LoRa
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | grep -c ALOHA
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("bar", "\033[1;33m&\033[0m");
+                         gsub("foo", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("bar", "\033[1;33m& gsub("foo", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("bar", "\033[1;33m&\033[0m"); gsub("foo", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("bar", "\033[1;33m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*?:", "\033[1;33m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;33m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;37m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '^.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;32m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '\.[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;32m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '\.[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;30m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '\.[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;31m&\033[0m"); gsub("ALOHA", "\033[1;36m&\033[0m"); print }'
+grep -o '\.[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;31m&\033[0m"); gsub("ALOHA", "\031[1;36m&\033[0m"); print }'
+grep -o '\.[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;31m&\033[0m"); gsub("ALOHA", "\033[1;31m&\033[0m"); print }'
+grep -o '[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;31m&\033[0m"); gsub("ALOHA", "\033[1;31m&\033[0m"); print }'
+grep -ri aloha */.zotero-ft-cache
+grep -o '[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;31m&\033[0m"); gsub("ALOHA", "\033[1;31m&\033[0m"); print }'
+grep -i -o '[\n ]*.*ALOHA[^\.]*\.' */.zotero-ft-cache | awk '{ gsub("^.*\.zotero-ft-cache:", "\033[1;31m&\033[0m"); gsub("ALOHA", "\033[1;31m&\033[0m"); print }'
+cle aloha 0
+gedit
+gedit test &
+grep -P -r -z "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -r -z "\.[\n ]*[A-Z].*?ALOHA" test
+grep -c -P -r -z "\.[\n ]*[A-Z].*?ALOHA" test
+grep -P -r -z "\.[\n ]*[A-Z].*?ALOHA" test
+cd nn
+grep -P -r -z "\.[\n ]*[A-Z].*?ALOHA" nn/
+cd nn
+grep -P -r -z "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r -z "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r "[A-Z].*?ALOHA"
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r "\.[\n ]*?[A-Z].*?ALOHA"
+grep -Po -r "[A-Z].*?ALOHA"
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r -z "\.[\n ]*[A-Z].*?ALOHA"
+repPo -r -z "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r -z "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r  "\.[\n ]*[A-Z].*?ALOHA"
+grep -Po -r  "\.[\n ]*[A-Z][^A-Z]ALOHA"
+grep -Po -r  "\.[\n ]*[A-Z][^A-Z]*ALOHA"
+grep -Po -r  "[A-Z][^A-Z]*ALOHA"
+grep -Po -r "[A-Z][^A-Z]*aloha"
+grep -Po -r  "[A-Z][^A-Z]*ALOHA"
+grep -Po -r  "[A-Z][^A-Z]*ALOHA[^\.]"
+grep -Po -r  "[A-Z][^A-Z]*ALOHA[^\.]*"
+grep -Po -r  "[A-Z][^A-Z]*ALOHA[^\.]*\."
+cd "/home/aghiles"
+grep "[\n. ]*[A-Z].*ALOHA.*\.[\n ]" tets
+grep "[\n. ]*[A-Z].*ALOHA.*\.[\n ]" test
+grep -c "[\n. ]*[A-Z].*ALOHA.*\.[\n ]" test
+grep -c -w "[\n. ]*[A-Z].*ALOHA.*\.[\n ]" test
+grep -c "[\n. ]*[A-Z].*ALOHA.*\.[\n. ]" test
+grep -P -c "[\n. ]*[A-Z].*ALOHA.*\.[\n. ]" test
+grep -P -c "[\.\n].+[A-Z].*ALOHA.*\.[\n. ]" test
+grep -P -c "\.[\n. ]*[A-Z].*ALOHA.*\.[\n. ]" test
+grep -P -c "\.[\n ].*[A-Z].*ALOHA.*\.[\n. ]" test
+grep -P -c "\.[\n ].*[A-Z].*ALOHA" test
+grep -P -z -c "\.[\n ].*[A-Z].*ALOHA" test
+grep -P -r -c "\.[\n ].*[A-Z].*ALOHA" test
+grep  -c "\.[\n ].*[A-Z].*ALOHA" test
+grep  -c "\.[\n ][A-Z].*ALOHA" test
+grep  -c "\.[\n ]+[A-Z].*ALOHA" test
+grep  -c "\.[\n ]*[A-Z].*ALOHA" test
+grep  -c "\.[\n ][A-Z].*ALOHA" test
+grep  -c "\.[\n ]*[A-Z].*ALOHA" test
+grep  -c "\.[\n ][A-Z].*ALOHA" test
+grep  "\.[\n ][A-Z].*ALOHA" test
+grep -z "\.[\n ][A-Z].*ALOHA" test
+grep -z -c "\.[\n ][A-Z].*ALOHA" test
+grep -z "\.[\n ][A-Z].*ALOHA" test
+grep -z -w "\.[\n ][A-Z].*ALOHA" test
+grep -z "\.[\n ][A-Z].*ALOHA" test
+grep -p "\.[\n ][A-Z].*ALOHA" test
+grep -P "\.[\n ][A-Z].*ALOHA" test
+grep -P -z "\.[\n ][A-Z].*ALOHA" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -z -m1 "\.[\n ]*[A-Z].*ALOHA"
+grep -P -z -m1 "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -z -w "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -z -x "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA" test
+grep -Po -z "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*\.[^\D]" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*\.[^\d]" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*\." test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z][^\.]ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z][^\.]*ALOHA[^\.]*" test
+grep -P -z -c "\.[\n ]*[A-Z][^\.]*ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*" test
+grep -P -z -c "\.[\n ]*[A-Z].*ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]" test
+grep -P -z -c "\.[\n ]*[A-Z].*ALOHA[^\.]" test
+grep -P -z -c "\.[\n ]*[A-Z].*ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*?ALOHA[^\.]*" test
+grep -P "\.[\n ]*[A-Z].*?ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*?ALOHA[^\.]*" test
+grep -z "\.[\n ]*[A-Z].*?ALOHA[^\.]*" test
+grep -P -z "\.[\n ]*[A-Z].*?ALOHA[^\.]*" test
+grep -ri lora
+grep -ri lora test
+grep -ri aloha test
+grep -ri -C0 aloha test
+grep -P '\[[^\]]*?<.*>.*?\]'
+grep -P '\[[^\]]*?<.*>.*?\]' tets
+grep -P '\[[^\]]*?<.*>.*?\]' test
+grep -n "ALOHA" test |awk -F':\t' '{ print $1 }'
+grep -n "ALOHA" test
+grep -n "ALOHA" test |awk -F'.' '{ print $1 }'
+grep -n "ALOHA" test |awk -F'.' '{ print $2 }'
+grep -n "ALOHA" test |awk -F'.' '{ print $5 }'
+grep -n "ALOHA" test |awk -F'.' '{ print $7 }'
+grep -n "ALOHA" test |awk -F'.' '{ print $8 }'
+grep -n "ALOHA" test |awk -F'.' '{ print $10 }'
+grep test "ALOHA" |awk 'BEGIN{RS="\n";ORS="@"}{print}'
+grep "ALOHA test |awk 'BEGIN{RS="\n";ORS="@"}{print}'
+grep "ALOHA" test |awk 'BEGIN{RS="\n";ORS="@"}{print}'
+grep "ALOHA" test |awk 'BEGIN{RS=".";ORS="@"}{print}'
+grep "ALOHA" test |awk 'BEGIN{RS=".";ORS="."}{print}'
+grep "ALOHA" test |awk 'BEGIN{RS="\.";ORS="\."}{print}'
+grep '\(^.\|\.\s\).*ALOHA.*\(\.\s\|\n\)'
+grep '\(^.\|\.\s\).*ALOHA.*\(\.\s\|\n\)' test
+grep -P '(^.|\.\s).*ALOHA.*(\.\s|\n)' test
+grep -P -z '(^.|\.\s).*ALOHA.*(\.\s|\n)' test
+sed -n -r '/ALOHA/ s/^|(.*\. (.*))(ALOHA[^.]*\.).*/\2\3/ ; s/\..*/\./p' test
+sed -n '/ALOHA/ s/^|(.*\. (.*))(ALOHA[^.]*\.).*/\2\3/ ; s/\..*/\./p' test
+sed -r '/ALOHA/ s/^|(.*\. (.*))(ALOHA[^.]*\.).*/\2\3/ ; s/\..*/\./p' test
+sed -n -r '/ALOHA/ s/^|(.*\. (.*))(ALOHA[^.]*\.).*/\2\3/ ; s/\..*/\./p' test
+grep -C1 ALOHA test
+ls
+tac yy | grep "\.[\n ]*[A-Z].*?ALOHA[^\.]*\."
+grep "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." yy
+grep -P "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." yy
+tac yy | grep -P "\.[\n ]*[A-Z].*?ALOHA[^\.]*\."
+tac yy | grep -Por "\.[\n ]*[A-Z].*?ALOHA[^\.]*\."
+tac yy | grep -Po -r "\.[\n ]*[A-Z].*?ALOHA[^\.]*\."
+tac yy | grep -Po "\.[\n ]*[A-Z].*?ALOHA[^\.]*\."
+tac yy
+tac yy | grep -Po "\.[\n ]*[A-Z].*?ALOHA[^\.]*\."
+tac yy | grep -Po "\.[\n ]*[A-Z][^\. A-Z]ALOHA[^\.]*\."
+tac yy | grep -Po "\.[\n ]*[A-Z][^\. [A-Z]]ALOHA[^\.]*\."
+tac yy | grep -Po "\.[\n ]*[A-Z][^\. [A-Z]]*ALOHA[^\.]*\."
+tac yy | grep -Po "\.[\n ]*[A-Z][^\. A-Z]*ALOHA[^\.]*\."
+grep -Po -r "[A-Z][^A-Z]*ALOHA[^\.]*\."
+grep -Po  "[A-Z][^A-Z]*ALOHA[^\.]*\." */*-cache
+grep -Po -r "[A-Z][^A-Z]*ALOHA[^\.]*\." */*-cache
+ls
+grep -Po -r "[A-Z][^A-Z]*ALOHA[^\.]*\." */*
+grep -Po -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */*
+grep -Po -r -z "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */*
+grep -Po -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */*
+grep -Po -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." 2BN4HZ5J/.zotero-ft-cache 
+grep -Po -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */.zotero-ft-cache 
+grep -Po -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */.zotero-ft-cache  | grep ALOHA
+grep -Po -r "[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */.zotero-ft-cache  | grep ALOHA
+grep -Po -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */.zotero-ft-cache  | grep ALOHA
+grep -o -r "\.[\n ]*[A-Z][^A-Z]*ALOHA[^\.]*\." */.zotero-ft-cache  | grep ALOHA
+grep -o -r "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache  | grep ALOHA
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache  | grep ALOHA
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache | grep -c ALOHA
+grep -Po -r "\.[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache | grep -c ALOHA
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache | grep -c ALOHA
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache | grep ALOHA
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r -x "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r -w "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r -w "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache | grep -c ALOHA
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r -z "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+evince SSLB3I38/To\ and\ Duda\ -\ 2018\ -\ Simulation\ of\ LoRa\ in\ NS-3\ Improving\ LoRa\ Perform.pdf 
+cle aloha 0
+evince SSLB3I38/To\ and\ Duda\ -\ 2018\ -\ Simulation\ of\ LoRa\ in\ NS-3\ Improving\ LoRa\ Perform.pdf 
+cle aloha 0 | grep simultation
+cle aloha 0 | grep simulation
+pdf2txt
+cle aloha 0 | grep simulation
+evince SSLB3I38/To\ and\ Duda\ -\ 2018\ -\ Simulation\ of\ LoRa\ in\ NS-3\ Improving\ LoRa\ Perform.pdf 
+cle aloha 0
+cle aloha 0 | grep -i simulation
+grep -Po -r "[\n ]*[A-Z].*?ALOHA[^\.]*\." */.zotero-ft-cache
+grep -Po -r "[\n ]*[A-Z].*?ALOHA.*?\." */.zotero-ft-cache
+grep -Po -r "[A-Z].*?ALOHA.*?\." */.zotero-ft-cache
+grep -Po -r "[A-Z].*?ALOHA.*?\." */*.pdf
+grep -Po -r "[A-Z].*?ALOHA.*?\." */*.txt
+grep -Po -r "[A-Z].*?ALOHA.*?\." */*.txt | grep lora
+grep -Po -r "[A-Z].*?ALOHA.*?\." */*.txt | grep -ic aloha
+grep -Po -r "[A-Z].*?ALOHA.*?\." */.zotero-ft-cache | grep -ic aloha
+grep -Po -r "[A-Z].*?ALOHA.*?\." */.zotero-ft-cache
+gedit
+key aloha
+key ALOHA
+key aloha
+
+key heterogeneity
+key sdwsn
+cle sdwsn heterogeneity 0
+cle hetnet 0
+grep -ri mail
+grep -ri main
+grep ri main
+grep -ri main
+grep -ri throw
+grep -ri "throw new"
+gedit Sujet/src/tpnoté/Personnel.java
+grep -ri "throw new"
+subl
+>>>>>>> 78a0117915595bdf35999d5dc2227a02bdebfc0c
+ps -A
