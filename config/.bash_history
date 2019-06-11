@@ -1,34 +1,3 @@
-cle interopirability 0
-cle interoperability 0
-cle lpwa 0
-chromium 
->>>>>>> f08301fb4afca0d84fa51c3d255c3d6f5ff7e084
-for f in *.wav; do echo "$f "; done | sort -V 
-for f in *; do echo "$f "; done | sort -V 
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-sudo apt install shnjoin
-sudo apt update
-sudo apt upgrade
-sudo apt install shnjoin
-shntool
-sudo apt install shntool
-shnjoin
-cd /tmp/trtrte
-for f in *.wav; do echo "$f "; done | sort -V
-for f in *.wav; do echo "$f "; done
-ps -A
-cd /tmp/trtrte/
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-mv joined.wav ~/paper.wav
-shnjoin -r none `for f in *.wav; do echo "$f "; done `
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-cle lpwa 0
-cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
-pkill gedit
-cle lpwa 0
-cd trtrte/
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-mv joined.wav ~/paper.wav
 cle choreography 0
 pdf2txt 
 cle choreography 0
@@ -1998,3 +1967,34 @@ sudo apt remove chromium
 skypeforlinux 
 ./setup-3-shotcuts 
 gedit 
+gedit
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g'
+sed -z -r ' s/\n\n+/ŧ/g s/(%[^\n]+)/\1þ/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g s/\n[\t ]*/ /g s/\t+//g s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/ŧ/\n\n/g s/þ[ \t]*/\n/g s/\- //g'
+edit
+gedit
+grep -ri ShellCommand
+grep -ri surround
+grep -rin surround
+grep -rih surround
+grep -ril surround
+gedit User/ShellCommand.sublime-commands
+gedit User/myfilter.py
+grep -ri ShellCommand
+grep -ril ShellCommand
