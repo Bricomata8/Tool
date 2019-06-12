@@ -1,4 +1,3 @@
-./svg2tikz 
 ./svg2tikz Rplot.svg 
 ./svg2tikz Rplot.svg -o ii
 cle sdn lora 0
@@ -1998,3 +1997,4 @@ gedit /home/aghiles/Aghiles/Redaction/setup/lib/privacy.bib
 grep -ri Behabioral
 grep -ri Behavioral
 subl
+key lora
