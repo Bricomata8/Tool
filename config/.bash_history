@@ -1,41 +1,3 @@
-cle choreography 0
-pdf2txt 
-cle choreography 0
-grep -ri firefox
-pdf2txt 
-cle choreography 0
-cle choreography lora 0
-cle heterogeneity lora 0
-cle heterogen lora 0
-cle lpwa 0
-javac MyFrame.java 
-java MyFrame 
-javac TestFrameExample.java 
-java TestFrameExample
-netbeans 
-netbeans 
-cle lpwa 0
-pkill gedit
-cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
-cd ..
-ls
-./compile tikz/methodology.tex 
-ls
-./compile tikz/methodology.tex 
-ls
-./compile tikz/methodology.tex 
-inkscape 
-cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
-cd ..
-./compile tikz/mind.tex 
-pdf2txt 
-cle lpwan
-cle lpwan 0
-cle lpwa 0
-cle lpwa 10
-mindmap
-sudp apt install mindmap
-sudo apt install mindmap
 sudo apt install freeplane
 cle lpwa 10
 cle destruction 0
@@ -1998,3 +1960,41 @@ gedit User/ShellCommand.sublime-commands
 gedit User/myfilter.py
 grep -ri ShellCommand
 grep -ril ShellCommand
+gedit
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+gedit
+gedit
+./script.sh README.txt 
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' README.txt
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.txt
+python test.py 
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' README.txt
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' < README.txt
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' | cat README.txt
+./script.sh README.txt 
+./script.sh "df, gfgf"
+./script.sh "df, gfgf. Aghès "
+python test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+ls
+python test.py 
+git clone https://github.com/greneholt/SublimeExternalCommand/
