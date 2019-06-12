@@ -1,81 +1,3 @@
-sudo apt install freeplane
-cle lpwa 10
-cle destruction 0
-cle building 0
-cd /home/aghiles/Aghiles/Tool/config/Calendar
-sudo apt install zenity
-sudo apt upgrade
-sudo apt install zenity
-sudo apt upgrade
-sudo apt update
-sudo apt autoremove 
-sudo apt autoclean 
-sudo apt upgrade 
-pdf2txt 
-cle heterogene 10
-pdf2txt 
-cle heterogen sdn 0
-cle heterogen sdn 10
-pdf2txt 
-unrar x Matlab.rar 
-git clone https://github.com/RIOT-OS/RIOT.git
-git clone --recursive https://github.com/RIOT-OS/RIOT.git
-ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
-pkill mailspring 
-rm -rf ~/.local/share/nautilus/scripts
-ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-cle 1276 0
-cle riot 0
-cle riot sdn 0
-cle sdnwise 0
-cle sdwsn 0
-./dist/tools/tapsetup/tapsetup
-cd examples/default/
-make all
-xdg-open 
-xdg-open http://google.com
-xdg-settings set default-web-browser chromium-browser.desktop
-xdg-open http://google.com
-xdg-settings set default-web-browser /usr/bin/chromium 
-BROWSER=/usr/bin/chromium 
-export BROWSER=/usr/bin/chromium 
-xdg-open http://google.com
-sudo apt remove firefox
-sudo apt remove firefox-esr 
-sudo apt autoremove
-sudo apt install libpepflashplayer
-sudo apt-cache search libpepflashplayer
-sudo apt-cache search flashplayer
-sudo apt install libhal1-flash
-sudo snap install mathpix-snipping-tool
-sudo apt install snap 
-sudo snap install mathpix-snipping-tool
-sudo apt install snapd 
-sudo snap install mathpix-snipping-tool
-mathpix-snipping-tool
-mathpix
-cd ~/Aghiles/Program/R/lib
-ls
-svg2tikz
-sudo apt install svg2tikz
-sudo apt-cache search svg2tikz
-sudo apt-cache search tikz
-sudo apt install ktikz
-ktikz
-sudo apt-cache search tikz
-sudo apt install qtikz
-qtikz 
-sudo apt install prerex
-prerex
-sudo apt install qprerex
-sudo apt install vprerex
-vprerex
-ps -A
-pkill java
 ./svg2tikz 
 ./svg2tikz Rplot.svg 
 ./svg2tikz Rplot.svg -o ii
@@ -1998,3 +1920,81 @@ python test.py
 ls
 python test.py 
 git clone https://github.com/greneholt/SublimeExternalCommand/
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python3 test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.tx
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.txt
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.txt
+sed -z -r ' s/\n\n+/ŧ/g s/(%[^\n]+)/\1þ/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g  s/\n[\t ]*/ /g s/\t+//g  s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g  s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/ŧ/\n\n/g s/þ[ \t]*/\n/g  s/\- //g'
+python test.py 
+python3 test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+python3 test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+echo 'hgg, dtfdt. Ayyt.' | sed -z -r 's/\n\n+/</gs/([^\n]+)/\1>/gs/\.[ \t]*\n/vgyhn/gs/}[ \t]*\n/pvkglyhn/gs/\n[\t ]*/ /gs/\t+//gs/(\.)[ \t]+([^0-9])/\1\n\2/gs/([,:;])[ \t]+([^0-9])/\1\n\t\2/gs/vgyhn/\.\n/gs/pvkglyhn/\}\n/gs/</\n\n/gs/>[ \t]*/\n/gs/\- //g'
+python test.py 
+echo 'hgg, dtfdt. Ayyt.' | sed -z -r ' s/\n\n+/</g s/([^\n]+)/\1>/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g  s/\n[\t ]*/ /g s/\t+//g  s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g  s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/</\n\n/g s/>[ \t]*/\n/g  s/\- //g'
+python test.py 
+echo 'hgg, dtfdt. Ayyt.' | sed -z -r ' s/\n\n+/</g s/([^\n]+)/\1>/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g  s/\n[\t ]*/ /g s/\t+//g  s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g  s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/</\n\n/g s/>[ \t]*/\n/g  s/\- //g'
+subl
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/main.bib
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/privacy.bib
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/main.bib
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/privacy.bib
+grep -ri Behabioral
+grep -ri Behavioral
+subl
