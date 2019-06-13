@@ -10,18 +10,18 @@
                    NC:value="https">
     <NC:handlerProp RDF:resource="urn:scheme:handler:https"/>
   </RDF:Description>
-  <RDF:Description RDF:about="urn:scheme:handler:https"
+  <RDF:Description RDF:about="urn:scheme:handler:http"
                    NC:useSystemDefault="true"
                    NC:alwaysAsk="false" />
-  <RDF:Seq RDF:about="urn:schemes:root">
-    <RDF:li RDF:resource="urn:scheme:http"/>
-    <RDF:li RDF:resource="urn:scheme:https"/>
-  </RDF:Seq>
   <RDF:Description RDF:about="urn:scheme:http"
                    NC:value="http">
     <NC:handlerProp RDF:resource="urn:scheme:handler:http"/>
   </RDF:Description>
-  <RDF:Description RDF:about="urn:scheme:handler:http"
+  <RDF:Seq RDF:about="urn:schemes:root">
+    <RDF:li RDF:resource="urn:scheme:http"/>
+    <RDF:li RDF:resource="urn:scheme:https"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scheme:handler:https"
                    NC:useSystemDefault="true"
                    NC:alwaysAsk="false" />
 </RDF:RDF>
