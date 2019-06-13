@@ -1,5 +1,3 @@
-./svg2tikz Rplot.svg 
-./svg2tikz Rplot.svg -o ii
 cle sdn lora 0
 cle sdn lpwa 0
 cl " sir " 0
@@ -1998,3 +1996,5 @@ grep -ri Behabioral
 grep -ri Behavioral
 subl
 key lora
+./pull 
+arduino
