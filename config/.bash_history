@@ -1,151 +1,3 @@
-cle interopirability 0
-cle interoperability 0
-cle lpwa 0
-chromium 
->>>>>>> f08301fb4afca0d84fa51c3d255c3d6f5ff7e084
-for f in *.wav; do echo "$f "; done | sort -V 
-for f in *; do echo "$f "; done | sort -V 
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-sudo apt install shnjoin
-sudo apt update
-sudo apt upgrade
-sudo apt install shnjoin
-shntool
-sudo apt install shntool
-shnjoin
-cd /tmp/trtrte
-for f in *.wav; do echo "$f "; done | sort -V
-for f in *.wav; do echo "$f "; done
-ps -A
-cd /tmp/trtrte/
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-mv joined.wav ~/paper.wav
-shnjoin -r none `for f in *.wav; do echo "$f "; done `
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-cle lpwa 0
-cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
-pkill gedit
-cle lpwa 0
-cd trtrte/
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-mv joined.wav ~/paper.wav
-cle choreography 0
-pdf2txt 
-cle choreography 0
-grep -ri firefox
-pdf2txt 
-cle choreography 0
-cle choreography lora 0
-cle heterogeneity lora 0
-cle heterogen lora 0
-cle lpwa 0
-javac MyFrame.java 
-java MyFrame 
-javac TestFrameExample.java 
-java TestFrameExample
-netbeans 
-netbeans 
-cle lpwa 0
-pkill gedit
-cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
-cd ..
-ls
-./compile tikz/methodology.tex 
-ls
-./compile tikz/methodology.tex 
-ls
-./compile tikz/methodology.tex 
-inkscape 
-cd "/home/aghiles/Aghiles/Redaction/0/res/tikz"
-cd ..
-./compile tikz/mind.tex 
-pdf2txt 
-cle lpwan
-cle lpwan 0
-cle lpwa 0
-cle lpwa 10
-mindmap
-sudp apt install mindmap
-sudo apt install mindmap
-sudo apt install freeplane
-cle lpwa 10
-cle destruction 0
-cle building 0
-cd /home/aghiles/Aghiles/Tool/config/Calendar
-sudo apt install zenity
-sudo apt upgrade
-sudo apt install zenity
-sudo apt upgrade
-sudo apt update
-sudo apt autoremove 
-sudo apt autoclean 
-sudo apt upgrade 
-pdf2txt 
-cle heterogene 10
-pdf2txt 
-cle heterogen sdn 0
-cle heterogen sdn 10
-pdf2txt 
-unrar x Matlab.rar 
-git clone https://github.com/RIOT-OS/RIOT.git
-git clone --recursive https://github.com/RIOT-OS/RIOT.git
-ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
-pkill mailspring 
-rm -rf ~/.local/share/nautilus/scripts
-ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-cle 1276 0
-cle riot 0
-cle riot sdn 0
-cle sdnwise 0
-cle sdwsn 0
-./dist/tools/tapsetup/tapsetup
-cd examples/default/
-make all
-xdg-open 
-xdg-open http://google.com
-xdg-settings set default-web-browser chromium-browser.desktop
-xdg-open http://google.com
-xdg-settings set default-web-browser /usr/bin/chromium 
-BROWSER=/usr/bin/chromium 
-export BROWSER=/usr/bin/chromium 
-xdg-open http://google.com
-sudo apt remove firefox
-sudo apt remove firefox-esr 
-sudo apt autoremove
-sudo apt install libpepflashplayer
-sudo apt-cache search libpepflashplayer
-sudo apt-cache search flashplayer
-sudo apt install libhal1-flash
-sudo snap install mathpix-snipping-tool
-sudo apt install snap 
-sudo snap install mathpix-snipping-tool
-sudo apt install snapd 
-sudo snap install mathpix-snipping-tool
-mathpix-snipping-tool
-mathpix
-cd ~/Aghiles/Program/R/lib
-ls
-svg2tikz
-sudo apt install svg2tikz
-sudo apt-cache search svg2tikz
-sudo apt-cache search tikz
-sudo apt install ktikz
-ktikz
-sudo apt-cache search tikz
-sudo apt install qtikz
-qtikz 
-sudo apt install prerex
-prerex
-sudo apt install qprerex
-sudo apt install vprerex
-vprerex
-ps -A
-pkill java
-./svg2tikz 
 ./svg2tikz Rplot.svg 
 ./svg2tikz Rplot.svg -o ii
 cle sdn lora 0
@@ -1998,3 +1850,151 @@ sudo apt remove chromium
 skypeforlinux 
 ./setup-3-shotcuts 
 gedit 
+gedit
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g'
+sed -z -r ' s/\n\n+/ŧ/g s/(%[^\n]+)/\1þ/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g s/\n[\t ]*/ /g s/\t+//g s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/ŧ/\n\n/g s/þ[ \t]*/\n/g s/\- //g'
+edit
+gedit
+grep -ri ShellCommand
+grep -ri surround
+grep -rin surround
+grep -rih surround
+grep -ril surround
+gedit User/ShellCommand.sublime-commands
+gedit User/myfilter.py
+grep -ri ShellCommand
+grep -ril ShellCommand
+gedit
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+gedit
+gedit
+./script.sh README.txt 
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' README.txt
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.txt
+python test.py 
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' README.txt
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' < README.txt
+sed -zr 's/\\n\\n+/</g' | sed -zr 's/(%[^\\n]+)/\\1>/g' | sed -zr 's/\\.[ \\t]*\\n/vgyhn/g' | sed -zr 's/}[ \\t]*\\n/pvkglyhn/g' | sed -zr 's/\\n[\\t ]*/ /g' | sed -zr 's/\\t+//g' | sed -zr 's/(\\.)[ \\t]+([^0-9])/\\1\\n\\2/g' | sed -zr 's/([,:;])[ \\t]+([^0-9])/\\1\\n\\t\\2/g' | sed -zr 's/vgyhn/\\.\\n/g' | sed -zr 's/pvkglyhn/\\}\\n/g' | sed -zr 's/</\\n\\n/g' | sed -zr 's/>[ \\t]*/\\n/g' | sed -zr 's/\\- //g' | cat README.txt
+./script.sh README.txt 
+./script.sh "df, gfgf"
+./script.sh "df, gfgf. Aghès "
+python test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+ls
+python test.py 
+git clone https://github.com/greneholt/SublimeExternalCommand/
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python3 test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.tx
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.txt
+sed -z -r '
+s/\n\n+/ŧ/g
+s/(%[^\n]+)/\1þ/g
+s/\.[ \t]*\n/vgyhn/g
+s/}[ \t]*\n/pvkglyhn/g
+
+s/\n[\t ]*/ /g
+s/\t+//g
+
+s/(\.)[ \t]+([^0-9])/\1\n\2/g
+s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g
+
+s/vgyhn/\.\n/g
+s/pvkglyhn/\}\n/g
+s/ŧ/\n\n/g
+s/þ[ \t]*/\n/g
+
+s/\- //g' README.txt
+sed -z -r ' s/\n\n+/ŧ/g s/(%[^\n]+)/\1þ/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g  s/\n[\t ]*/ /g s/\t+//g  s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g  s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/ŧ/\n\n/g s/þ[ \t]*/\n/g  s/\- //g'
+python test.py 
+python3 test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+python3 test.py 
+cd "/home/aghiles/Aghiles/Tool/config/subrid/Packages/MyCustomFilterPipes"
+python test.py 
+echo 'hgg, dtfdt. Ayyt.' | sed -z -r 's/\n\n+/</gs/([^\n]+)/\1>/gs/\.[ \t]*\n/vgyhn/gs/}[ \t]*\n/pvkglyhn/gs/\n[\t ]*/ /gs/\t+//gs/(\.)[ \t]+([^0-9])/\1\n\2/gs/([,:;])[ \t]+([^0-9])/\1\n\t\2/gs/vgyhn/\.\n/gs/pvkglyhn/\}\n/gs/</\n\n/gs/>[ \t]*/\n/gs/\- //g'
+python test.py 
+echo 'hgg, dtfdt. Ayyt.' | sed -z -r ' s/\n\n+/</g s/([^\n]+)/\1>/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g  s/\n[\t ]*/ /g s/\t+//g  s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g  s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/</\n\n/g s/>[ \t]*/\n/g  s/\- //g'
+python test.py 
+echo 'hgg, dtfdt. Ayyt.' | sed -z -r ' s/\n\n+/</g s/([^\n]+)/\1>/g s/\.[ \t]*\n/vgyhn/g s/}[ \t]*\n/pvkglyhn/g  s/\n[\t ]*/ /g s/\t+//g  s/(\.)[ \t]+([^0-9])/\1\n\2/g s/([,:;])[ \t]+([^0-9])/\1\n\t\2/g  s/vgyhn/\.\n/g s/pvkglyhn/\}\n/g s/</\n\n/g s/>[ \t]*/\n/g  s/\- //g'
+subl
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/main.bib
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/privacy.bib
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/main.bib
+gedit /home/aghiles/Aghiles/Redaction/setup/lib/privacy.bib
+grep -ri Behabioral
+grep -ri Behavioral
+subl
+key lora
