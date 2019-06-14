@@ -114,7 +114,7 @@ fi
 
 
 export PATH=$PATH:/home/aghiles/Aghiles/Tool
-export ONOS_ROOT="/home/aghiles/Aghiles/Program/bin/onos"
+export ONOS_ROOT="/home/aghiles/Aghiles/Program/bin/sdn/onos"
 source $ONOS_ROOT/tools/dev/bash_profile
 alias trans='trans -b -t fr'
 alias xd='tracker tag -ts'

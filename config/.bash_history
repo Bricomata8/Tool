@@ -1,11 +1,3 @@
-arduino
-javac -V
-javac -version
-cd "/home/aghiles/Aghiles/Teaching/Java/Portefeuille"
-./compile 
-mkdir -p build/classes
-./compile 
-./doc 
 grep -ri portefeuille
 grep -ri 
 grep -ri portfolio
@@ -1998,3 +1990,11 @@ ansible-playbook playbook.yml
 sudo ansible-playbook playbook.yml
 grep -ri ns3-patch
 ansible-playbook playbook.yml
+./eclipse 
+sudo echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
+su
+sudo su -
+gedit /etc/apt/sources.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+sudo apt update
+sudo apt install ansible
