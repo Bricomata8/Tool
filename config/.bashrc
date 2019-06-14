@@ -124,3 +124,36 @@ alias matlabx='/usr/local/MATLAB/R2016b/bin/matlab -nodesktop -nosplash -r'
 
 
 
+
+
+## --------------------------------------------------
+##------ NS3 + WAF + NetAnim
+NS_Path=/usr/local/ns3
+NSdir=ns-3.26
+NetAnimDir=netanim-3.107
+NSallinonedir=ns-allinone-3.26
+
+waf=$NS_Path/$NSallinonedir/$NSdir/
+NetAnim=$NS_Path/$NSallinonedir/$NetAnimDir/
+PATH=$PATH:$waf:$NetAnim
+
+## run waf with output at dir:
+alias wafo='waf --cwd=$PWD --run '
+
+## run waf with output at dir + animation:
+alias wafvo='waf --cwd=$PWD --visualize --run '
+
+## --------------------------------------------------
+
+function waf {
+    CWD="$PWD"
+    cd $NS3CUR >/dev/null
+    waf --cwd="$CWD" $*
+    cd - >/dev/null
+}
+
+function wafr {
+    waf --run "$*"
+}
+
+

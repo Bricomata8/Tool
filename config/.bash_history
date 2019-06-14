@@ -1,48 +1,3 @@
-cle sdn lpwa 0
-cl " sir " 0
-cle " sir " 0
-cle " signal interfere " 0
-sudo apt-get --reinstall install libc6 libc6-dev
-sudo apt-get install libx32gcc-4.8-dev
-sudo apt-get install libc6-dev-i386
-cle "signal interfere" 0
-cd examples
-cp -R default my_project
-cd my_project
-APPLICATION = default
-APPLICATION=default
-ls
-gedit Makefile 
-make
-./bin/native/my_project.elf tap0
-ls
-tree
-sudo apt./bin/native/my_project.elf tap0
-sudo apt install tree
-tree
-tree | grep elf
-sudo apt./bin/native/default.elf tap0
-nautilus .
-./bin/native/default.elf tap0
-sudo ./bin/native/default.elf tap0
-wget http://actions-incitatives.ifsttar.fr/fileadmin/uploads/recherches/geri/sticits/2016-11-24/ADJIH.pdf
-cle hotspot 0
-arduino
-git clone --recursive https://github.com/rocketscream/Low-Power.git
-ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
-arduino
-ls /home/aghiles/Aghiles/Program/C/src/waziUp/Arduino
-arduino
-grep -ri shnjoin
-grep -ri ffmpeg
-sudo apt install skype
-sudo apt-cache search skype
-ARDUINO
-arduino
-sudo apt install arduino
-grep -ri sox
-arduino
-ln -sf /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino/preferences.txt
 arduino
 javac -V
 javac -version
@@ -1998,3 +1953,48 @@ key lora
 ./pull 
 arduino
 pkill subl
+chmod 666 ECE\ APPEL\ A\ PROJETS\ 2019.docx 
+sudo apt install ns3
+git clone https://github.com/dlinknctu/OpenNet.git
+ls
+git clone https://github.com/dlinknctu/OpenNet.git
+gedit /etc/hosts
+sudo gedit /etc/hosts
+echo $OPENNET_PATH
+./configure.sh
+sudo ./configure.sh
+sudo ./install.sh master
+sudo su -
+sudo ./install.sh master
+ls
+cd /var/tmp/configuration/playbook
+ansible-playbook
+ansible
+sudo apt install ansible
+ansible-playbook
+sudo gedit /etc/apt/sources.list
+sudo apt remove ansible
+sudo apt autoremove 
+deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
+sudo deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
+sudo apt install deb
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+sudo apt update
+sudo apt install ansible
+ansible-playbook playbook.yml
+git clone https://github.com/dlinknctu/mininet.git
+mn
+grep -ri ns3
+waf
+./ns3install.sh 
+waf
+sudo waf
+wafo
+waf --pyrun mininet/examples/opennet/lte/lte-example.py
+sudo rm -rf ansible
+sudo rm -rf ansiblemm/
+ansible -m ping all
+ansible-playbook playbook.yml
+sudo ansible-playbook playbook.yml
+grep -ri ns3-patch
+ansible-playbook playbook.yml
