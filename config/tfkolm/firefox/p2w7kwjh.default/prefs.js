@@ -14,9 +14,13 @@ user_pref("app.normandy.first_run", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1560453213);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1560453333);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1560490426);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1560532151);
 user_pref("app.update.lastUpdateTime.experiments-update-timer", 1560453093);
+<<<<<<< HEAD
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1560493639);
+=======
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1560509842);
+>>>>>>> 4395ebe1615597ece895e8dbf49e750699f70af4
 user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1560018768);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1560453453);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
@@ -47,21 +51,27 @@ user_pref("browser.places.smartBookmarksVersion", 8);
 user_pref("browser.rights.3.shown", true);
 user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1557646603448");
 user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1557648416448");
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1560490295112");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1560493895112");
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1560532123453");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1560535723453");
 user_pref("browser.search.countryCode", "FR");
 user_pref("browser.search.region", "FR");
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20190521222308");
 user_pref("browser.shell.checkDefaultBrowser", true);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
+<<<<<<< HEAD
 user_pref("browser.shell.mostRecentDateSetAsDefault", "1560493652");
 user_pref("browser.slowStartup.averageTime", 765);
 user_pref("browser.slowStartup.samples", 4);
+=======
+user_pref("browser.shell.mostRecentDateSetAsDefault", "1560532122");
+user_pref("browser.slowStartup.averageTime", 0);
+user_pref("browser.slowStartup.samples", 0);
+>>>>>>> 4395ebe1615597ece895e8dbf49e750699f70af4
 user_pref("browser.startup.homepage_override.buildID", "20190521222308");
 user_pref("browser.startup.homepage_override.mstone", "60.7.0");
 user_pref("browser.tabs.drawInTitlebar", true);
 user_pref("browser.tabs.extraDragSpace", true);
-user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"home-button\",\"customizableui-special-spring1\",\"urlbar-container\",\"customizableui-special-spring2\",\"downloads-button\",\"library-button\",\"sidebar-button\",\"button_scholar_google_com-browser-action\",\"languagetool-webextension_languagetool_org-browser-action\",\"chrome-gnome-shell_gnome_org-browser-action\",\"zotero_chnm_gmu_edu-browser-action\",\"_be4c6348-e64f-4ff9-9e48-47468de8aa64_-browser-action\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"developer-button\",\"webide-button\",\"button_scholar_google_com-browser-action\",\"languagetool-webextension_languagetool_org-browser-action\",\"chrome-gnome-shell_gnome_org-browser-action\",\"zotero_chnm_gmu_edu-browser-action\",\"_be4c6348-e64f-4ff9-9e48-47468de8aa64_-browser-action\"],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\"],\"currentVersion\":14,\"newElementCount\":3}");
+user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"home-button\",\"customizableui-special-spring1\",\"urlbar-container\",\"customizableui-special-spring2\",\"downloads-button\",\"library-button\",\"sidebar-button\",\"button_scholar_google_com-browser-action\",\"languagetool-webextension_languagetool_org-browser-action\",\"chrome-gnome-shell_gnome_org-browser-action\",\"zotero_chnm_gmu_edu-browser-action\",\"_be4c6348-e64f-4ff9-9e48-47468de8aa64_-browser-action\",\"translator_zoli_bod-browser-action\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"developer-button\",\"webide-button\",\"button_scholar_google_com-browser-action\",\"languagetool-webextension_languagetool_org-browser-action\",\"chrome-gnome-shell_gnome_org-browser-action\",\"zotero_chnm_gmu_edu-browser-action\",\"_be4c6348-e64f-4ff9-9e48-47468de8aa64_-browser-action\",\"translator_zoli_bod-browser-action\"],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\"],\"currentVersion\":14,\"newElementCount\":3}");
 user_pref("browser.uidensity", 1);
 user_pref("browser.urlbar.placeholderName", "Google");
 user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
@@ -91,10 +101,10 @@ user_pref("extensions.ui.experiment.hidden", true);
 user_pref("extensions.ui.lastCategory", "addons://list/extension");
 user_pref("extensions.ui.locale.hidden", true);
 user_pref("extensions.update.autoUpdateDefault", false);
-user_pref("extensions.webextensions.uuids", "{\"screenshots@mozilla.org\":\"c99f85c3-742f-4c60-9f32-591ef196bf70\",\"{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}\":\"434e2971-8f72-47e4-8674-1af406a4f976\",\"jid1-QoFqdK4qzUfGWQ@jetpack\":\"33c04d47-1cbe-41d8-a822-a1e7c5fd2e5b\",\"{b9acf540-acba-11e1-8ccb-001fd0e08bd4}\":\"a07297ba-eb47-4dac-a8bd-623c48d16041\",\"button@scholar.google.com\":\"e74a3ccc-3650-4fd7-b49f-2a0efd9e3f28\",\"bibitnow018@aqpl.mc2.chalmers.se\":\"abc7a3a0-5724-4d79-b0e4-265058884632\",\"@mendeleyimporter\":\"a59940c1-1949-413d-9a28-8e536cf35cfb\",\"zotero@chnm.gmu.edu\":\"01fb108a-a8b8-4069-a63a-309b6f263645\",\"chrome-gnome-shell@gnome.org\":\"9af58c19-b792-4a27-bfd5-9954333c899e\",\"languagetool-webextension@languagetool.org\":\"0be1cf9e-0f50-4f7f-b96e-1aa0cd3d6624\",\"{be4c6348-e64f-4ff9-9e48-47468de8aa64}\":\"7d2a3134-ac9e-4254-9599-8e0b168e3c36\"}");
+user_pref("extensions.webextensions.uuids", "{\"screenshots@mozilla.org\":\"c99f85c3-742f-4c60-9f32-591ef196bf70\",\"{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}\":\"434e2971-8f72-47e4-8674-1af406a4f976\",\"jid1-QoFqdK4qzUfGWQ@jetpack\":\"33c04d47-1cbe-41d8-a822-a1e7c5fd2e5b\",\"{b9acf540-acba-11e1-8ccb-001fd0e08bd4}\":\"a07297ba-eb47-4dac-a8bd-623c48d16041\",\"button@scholar.google.com\":\"e74a3ccc-3650-4fd7-b49f-2a0efd9e3f28\",\"bibitnow018@aqpl.mc2.chalmers.se\":\"abc7a3a0-5724-4d79-b0e4-265058884632\",\"@mendeleyimporter\":\"a59940c1-1949-413d-9a28-8e536cf35cfb\",\"zotero@chnm.gmu.edu\":\"01fb108a-a8b8-4069-a63a-309b6f263645\",\"chrome-gnome-shell@gnome.org\":\"9af58c19-b792-4a27-bfd5-9954333c899e\",\"languagetool-webextension@languagetool.org\":\"0be1cf9e-0f50-4f7f-b96e-1aa0cd3d6624\",\"{be4c6348-e64f-4ff9-9e48-47468de8aa64}\":\"7d2a3134-ac9e-4254-9599-8e0b168e3c36\",\"translator@zoli.bod\":\"ba582784-3486-47a1-93bf-c1d58bb7f633\"}");
 user_pref("findbar.highlightAll", true);
 user_pref("gecko.handlerService.migrated", true);
-user_pref("idle.lastDailyNotification", 1560412871);
+user_pref("idle.lastDailyNotification", 1560525147);
 user_pref("lightweightThemes.persisted.footerURL", false);
 user_pref("lightweightThemes.persisted.headerURL", false);
 user_pref("lightweightThemes.selectedThemeID", "firefox-compact-dark@mozilla.org");
@@ -110,7 +120,11 @@ user_pref("pdfjs.migrationVersion", 2);
 user_pref("pdfjs.previousHandler.alwaysAskBeforeHandling", true);
 user_pref("pdfjs.previousHandler.preferredAction", 4);
 user_pref("places.database.lastMaintenance", 1560017087);
+<<<<<<< HEAD
 user_pref("places.history.expiration.transient_current_max_pages", 77102);
+=======
+user_pref("places.history.expiration.transient_current_max_pages", 78756);
+>>>>>>> 4395ebe1615597ece895e8dbf49e750699f70af4
 user_pref("plugin.disable_full_page_plugin_for_types", "application/pdf");
 user_pref("pref.general.disable_button.default_browser", false);
 user_pref("security.sandbox.content.tempDirSuffix", "15934075-f8d9-4e14-a195-68b340c5d76b");
@@ -132,7 +146,11 @@ user_pref("services.sync.tabs.lastSyncLocal", "0");
 user_pref("signon.importedFromSqlite", true);
 user_pref("storage.vacuum.last.index", 1);
 user_pref("storage.vacuum.last.places.sqlite", 1560017087);
+<<<<<<< HEAD
 user_pref("toolkit.startup.last_success", 1560493651);
+=======
+user_pref("toolkit.startup.last_success", 1560532120);
+>>>>>>> 4395ebe1615597ece895e8dbf49e750699f70af4
 user_pref("toolkit.telemetry.cachedClientID", "08d83caf-3af0-4da2-bf52-66e4030d0307");
 user_pref("toolkit.telemetry.previousBuildID", "20190521222308");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
