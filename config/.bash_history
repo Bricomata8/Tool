@@ -1,4 +1,3 @@
-cle sdn lora 0
 cle sdn lpwa 0
 cl " sir " 0
 cle " sir " 0
@@ -1998,3 +1997,4 @@ subl
 key lora
 ./pull 
 arduino
+pkill subl
