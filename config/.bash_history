@@ -1,6 +1,3 @@
-java Exo2
-javac Exo2.java
-java Exo2
 javac Exo2.java
 java Exo2
 cle JYSE 0
@@ -1998,3 +1995,6 @@ omnetpp
 omnetpp
 whereis omnetpp
 wget https://downloads.arduino.cc/arduino-1.8.9-linux64.tar.xz
+rm-git boards/arduino/bin/arduino-1.8.9/java/lib/amd64/libjfxwebkit.so
+rm-git "boards/arduino/bin/arduino-1.8.9/java/lib/rt.jar"
+./push
