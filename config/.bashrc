@@ -124,6 +124,7 @@ alias matlabx='/usr/local/MATLAB/R2016b/bin/matlab -nodesktop -nosplash -r'
 
 
 
+export PATH=/home/aghiles/Downloads/Software/omnetpp-5.5.1/bin:$PATH
 
 
 ## --------------------------------------------------
