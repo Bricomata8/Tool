@@ -1,16 +1,3 @@
-javac Exo2.java
-java Exo2
-cle JYSE 0
-cle jyse 0
-<<<<<<< HEAD
-cle sdnwisev
-cle sdnwise 0
-cle sdn-wise 0
-=======
-sudo apt install openocd
-git clone --recursive https://github.com/aabadie/riot-course
-git clone https://github.com/texane/stlink.git stlink
-cd stlink/
 ls
 sudo make
 sudo make flash
@@ -1998,3 +1985,16 @@ wget https://downloads.arduino.cc/arduino-1.8.9-linux64.tar.xz
 rm-git boards/arduino/bin/arduino-1.8.9/java/lib/amd64/libjfxwebkit.so
 rm-git "boards/arduino/bin/arduino-1.8.9/java/lib/rt.jar"
 ./push
+cd sdwsn/
+sudo make clean
+cle opennet 0
+cle channel sdn 0
+pdf2txt
+cle sdn learning 0
+gedit
+ping google.com
+usb=/media/aghiles/Aghiles
+mypath=`realpath "$0"`
+directory=`dirname "$mypath"`
+filename=`basename "$directory"`
+./push 
