@@ -1,1 +1,1 @@
-{"uniqueId":"780d8fdcb43fae16","firstVisit":1559996533,"sessionCount":137,"hasSeenPrivacyConfirmationDialog":true,"geoIpLanguages":["fr"],"geoIpCountry":"FR","allowRemoteCheck":true,"usageCount":285,"appliedSuggestions":8,"hiddenErrors":[{"day":"Wed Jun 12 2019","count":3},{"day":"Mon Jun 10 2019","count":3}]}
+{"uniqueId":"4b59902caa3c9ec1","firstVisit":1560539671,"sessionCount":64,"allowRemoteCheck":true,"usageCount":11,"appliedSuggestions":2,"hiddenErrors":[{"day":"Sun Jun 16 2019","count":2}]}

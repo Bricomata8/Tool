@@ -1,177 +1,3 @@
-arduino
-javac -V
-javac -version
-cd "/home/aghiles/Aghiles/Teaching/Java/Portefeuille"
-./compile 
-mkdir -p build/classes
-./compile 
-./doc 
-grep -ri portefeuille
-grep -ri 
-grep -ri portfolio
-grep -ri portfo
-sudo apt-get install openjfx
-sudo cp /usr/share/java/openjfx/jre/lib/ext/* /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib
-sudo cp /usr/share/java/openjfx/lib/* /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib
-sudo chmod 777 -R /usr/lib/jvm/java-1.8.0-openjdk-amd64
-java -jar chart.jar 
-grep seri
-grep -ri seri
-grep -ri seria
-grep -ri portfo
-grep -ri font
-grep -ri seria
-cd "/home/aghiles/Aghiles/Teaching/Java/Portfeuil"
-mkdir -p build/classes
-cd "/home/aghiles/Aghiles/Teaching/Java/Portfeuil
-./compile 
-./doc 
-./compile 
-grep -ri Fond
-cd "/home/aghiles/Aghiles/Teaching/Java/portfolio"
-./compile 
-mkdir -p build/classes
-./compile 
-./docu 
-grep -ri Comparable
-grep -ri compa
-grep -ri hashmap
-arduino
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Java avancé/TD2"
-javac TD2.java 
-java TD2
-javac TD2.java 
-java 
-java TD2
-ls
-java App 
-grep -ri comparable
-grep -ri main
-grep -ri Comparable
-grep -ri compareTo
-gedit Cours/Book/Exemples/Chapitre7/Comparer.java
-grep -ri Comparable
-gedit Cours/x/TD2.java
-javac TD2.java 
-java App 
-javac TD2.java 
-java App 
-javac TD2.java 
-nautilus .
-javac TD2.java 
-javac DoubleKey.java 
-java DoubleKey 
-javac DoubleKey.java 
-javac Key.java 
-javac Person.java 
-javac MainClass.java 
-java MainClass 
-grep -ri hashmap
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac TD2.java 
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac MainClass.java 
-java MainClass 
-javac MainClass.java 
-java MainClass 
-nautilus /home/aghiles/Aghiles/Program/C/src/waziUp/Arduino
-arduino
-sudo apt-get install gcc-avr avr-libc avrdude 
-arduino -v
-arduino -version
-arduino --version
-arduino -V
-man arduino
-arduino V
-arduino -V
-sudo apt remove arduino
-./arduino
-arduino 
-./install.sh 
-sudo ./install.sh 
-./uninstall.sh 
-sudo ./uninstall.sh 
-arduino 
-arduino
-arduino
-arduino 
-sudo ./install.sh 
-svn-git https://github.com/CongducPham/LowCostLoRaGw/tree/master/Arduino/Arduino_LoRa_Simple_temp
-ls
-arduino 
-ifconfig
-sudo ifconfig
-sudo ifconfig | grep -i mac
-sudo ifconfig | grep -i hard
-ifconfig -a | awk '/^[a-z]/ { iface=$1; mac=$NF; next }
-    /inet addr:/ { print iface, mac }'
-sudo ifconfig -a | awk '/^[a-z]/ { iface=$1; mac=$NF; next }
-    /inet addr:/ { print iface, mac }'
-sudo ifconfig 
-cat /sys/class/net/*/address
-sudo ifconfig -a
-cd "/home/aghiles/Aghiles/Program/C/bin/RIOT/examples/my_project"
-make
-./bin/native/my_project.elf tap0
-./bin/native/default.elf tap0
-./bin/native/default.elf tap1
-sudo ./bin/native/default.elf tap0
-export BOARD=arduino
-make
-export BOARD=zoul
-make
-export BOARD=arduino-uno
-make
-sudo make
-sudo make flash
-sudo make term
-export BOARD=native
-sudo make
-sudo make flash
-sudo make term
-ifconfig help
-sudo make term
-export BOARD=arduino-uno
-sudo make
-sudo make flash
-sudo make term
-export BOARD=arduino-uno
-sudo make
-sudo make flash
-sudo make term
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac Exo2.java 
-java Exo2 
-java Exo2
-javac Exo2.java
-java Exo2
-javac Exo2.java
-java Exo2
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-java Exo2
-javac Exo2.java
-java Exo2
-javac Exo2.java
-java Exo2
-javac Exo2.java
-java Exo2
-cle JYSE 0
-cle jyse 0
-<<<<<<< HEAD
-cle sdnwisev
-cle sdnwise 0
-cle sdn-wise 0
-=======
-sudo apt install openocd
-git clone --recursive https://github.com/aabadie/riot-course
-git clone https://github.com/texane/stlink.git stlink
-cd stlink/
-ls
-sudo make
-sudo make flash
-export BOARD=arduino-uno
-sudo make
-sudo make flash
 r
 arduino
 sudo make
@@ -1998,3 +1824,177 @@ ansible-playbook playbook.yml
 sudo ansible-playbook playbook.yml
 grep -ri ns3-patch
 ansible-playbook playbook.yml
+./eclipse 
+sudo echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
+su
+sudo su -
+gedit /etc/apt/sources.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+sudo apt update
+sudo apt install ansible
+git clone https://github.com/dlinknctu/OpenNet
+sudo su -
+sudo ./ns3install.sh 
+exit
+waf -pyrun mininet/examples/opennet/wifi/two-ap-one-sw.py
+sudo su -
+cd /home/aghiles/Aghiles/Program/bin/sdn#
+cd /home/aghiles/Aghiles/Program/bin/sdn
+waf
+wafo
+cd ~/Aghiles/Program/bin/sdn
+wafo
+cd ~/Aghiles/Program/bin/sdn
+wafr
+sudo ./waf shell
+sudo add-apt-repository ppa:sumo/stable
+sudo apt update
+sudo add-apt-repository ppa:sumo/stable
+gedit /etc/apt/sources.list
+sudo su -
+sudo apt-get install build-essential gcc g++ bison flex perl      python python3 qt5-default libqt5opengl5-dev tcl-dev tk-dev      libxml2-dev zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0
+./configure 
+sudo apt-get install openscenegraph-plugin-osgearth libosgearth-dev
+./configure 
+sudo apt-get install openmpi-bin libopenmpi-dev
+sudo apt-get install libpcap-dev
+make
+sudo make
+make
+omnetpp
+./configure 
+omnetpp
+cle  sdn-wise 0
+key heiterogeneity
+key heterogeneity
+git clone --recursive https://github.com/contiki-os/contiki.git
+./x-compile 
+sudo make clean
+./x-compile 
+cat x-compile 
+sudo make clean
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+git submodule update --init --recursive
+sudo make clean
+./x-compile-1 
+sudo make clean
+sudo ./x-compile-1 
+sudo make clean
+./x-compile-1
+sudo make clean
+./x-compile-1
+grep -ri from_file
+grep -ri "from_file"
+cd ..
+grep -ri heteroge
+grep -ri teroge
+make
+xs ..
+cd ..
+cd boards/
+cd sdn/
+cd sdwsn/
+make
+make clean
+make
+make clean
+make
+make clean
+sudo make
+cd ..
+cd sdwsn/
+make clean
+sudo make clean
+sudo make
+sudo make clean
+sudo make
+sudo make sdwsn-server
+sudo make clean
+sudo make sdwsn-server TARGET=zoul
+sudo make clean
+./x-compile 
+sudo make clean
+./x-compile 
+sudo make clean
+./x-compile 
+sudo apt install git curl graphviz unzip wget zip build-essential automake gettext automake software-properties-common 
+sudo apt install lib32z1 lib32ncurses5 gcc-arm-none-eabi gdb-arm-none-eabi gcc gcc-msp430 libc6-i386 net-tools gcc-arm-none-eabi
+sudo apt -o Dpkg::Options::="--force-overwrite" install gdb-arm-none-eabi
+sudo make clean
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="native"
+sudo make clean
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="native"
+sudo make border-router.upload TARGET="native"
+sudo make border-router.upload
+sudo make clean
+sudo make border-router.upload TARGET="native"
+sudo make border-router.upload TARGET="nativ"
+sudo make border-router.upload TARGET="native"
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="native"
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+grep -ri file
+grep -ri module
+make
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo apt-get remove python-magic
+sudo makeclean
+sudo make clean
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make clean
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make clean
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo pip install python-magic
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+ls /dev
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make clean
+sudo make udp-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make clean
+./x-compile 
+cd sdwsn/
+sudo make clean
+sudo make
+sudo make clean
+sudo make
+sudo make sdwsn-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make clean
+sudo make sdwsn-server.upload PORT=/dev/ttyUSB0 TARGET="native"
+sudo make sdwsn-server.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make clean
+sudo make sdwsn-server.upload PORT=/dev/ttyUSB0 TARGET="er-plugtest-server"
+./push 
+cd sdwsn/scripts/
+./controller.sh 2
+cle sdn-wise À
+cle sdn-wise 0
+opennetpp
+openstack
+openapp
+omnetpp 
+omnetpp
+whereis omnetpp
+wget https://downloads.arduino.cc/arduino-1.8.9-linux64.tar.xz
+rm-git boards/arduino/bin/arduino-1.8.9/java/lib/amd64/libjfxwebkit.so
+rm-git "boards/arduino/bin/arduino-1.8.9/java/lib/rt.jar"
+./push
+cd sdwsn/
+sudo make clean
+cle opennet 0
+cle channel sdn 0
+pdf2txt
+cle sdn learning 0
+gedit
+ping google.com
+usb=/media/aghiles/Aghiles
+mypath=`realpath "$0"`
+directory=`dirname "$mypath"`
+filename=`basename "$directory"`
+./push 
+cle sdn learn 0
+cle muse 0
+cle sdn adapt 0
+cle sdn adapt link 0
+cle sdn adapt channel 0
+mendeleydesktop 
