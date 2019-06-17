@@ -9,9 +9,9 @@
  */
 
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1560699870);
-user_pref("app.update.lastUpdateTime.background-update-timer", 1560613589);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1560613469);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1560699750);
+user_pref("app.update.lastUpdateTime.background-update-timer", 1560700110);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1560699990);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1560726412);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1560692771);
 user_pref("app.update.postupdate", true);
 user_pref("browser.cache.disk.capacity", 358400);
@@ -51,7 +51,7 @@ user_pref("extensions.zotero.prefVersion", 2);
 user_pref("extensions.zotero.purge.tags", true);
 user_pref("extensions.zotero.recentSaveTargets", "[{\"id\":\"C400\",\"sessionID\":\"ULpGenSr\"},{\"id\":\"C324\",\"sessionID\":\"XSzA93wf\"},{\"id\":\"C324\",\"sessionID\":\"NnhQpRKT\"},{\"id\":\"C359\",\"sessionID\":\"nZlvTLbj\"},{\"id\":\"C391\",\"sessionID\":\"8ahIFrVl\"},{\"id\":\"C414\",\"sessionID\":\"j4BGPt9u\"},{\"id\":\"C294\",\"sessionID\":\"Pjl2bRUI\"}]");
 user_pref("extensions.zotero.search.quicksearch-mode", "titleCreatorYear");
-user_pref("extensions.zotero.sourceList.persist", "{\"L1\":true,\"P1\":false,\"C453\":true,\"C414\":true,\"C320\":true,\"C416\":true}");
+user_pref("extensions.zotero.sourceList.persist", "{\"L1\":true,\"P1\":false,\"C453\":true,\"C300\":true,\"C430\":true,\"C240\":true,\"C320\":true}");
 user_pref("extensions.zotero.sync.autoSync", false);
 user_pref("extensions.zotero.sync.librariesToSkip", "[]");
 user_pref("extensions.zotero.sync.server.username", "djaghiles@gmail.com");

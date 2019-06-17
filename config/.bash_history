@@ -1,9 +1,3 @@
-ls
-sudo make
-sudo make flash
-export BOARD=arduino-uno
-sudo make
-sudo make flash
 r
 arduino
 sudo make
@@ -1998,3 +1992,9 @@ mypath=`realpath "$0"`
 directory=`dirname "$mypath"`
 filename=`basename "$directory"`
 ./push 
+cle sdn learn 0
+cle muse 0
+cle sdn adapt 0
+cle sdn adapt link 0
+cle sdn adapt channel 0
+mendeleydesktop 
