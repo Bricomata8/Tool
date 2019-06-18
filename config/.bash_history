@@ -1,4 +1,3 @@
-r
 arduino
 sudo make
 ls
@@ -1998,3 +1997,4 @@ cle sdn adapt 0
 cle sdn adapt link 0
 cle sdn adapt channel 0
 mendeleydesktop 
+./pull 
