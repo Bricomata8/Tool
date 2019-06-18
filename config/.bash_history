@@ -1,7 +1,3 @@
-arduino
-sudo make
-ls
-sudo shown -R stlink.git/
 sudo chown -R stlink.git/
 sudo chown -R aghiles stlink.git/
 sudo make
@@ -1997,4 +1993,8 @@ cle sdn adapt 0
 cle sdn adapt link 0
 cle sdn adapt channel 0
 mendeleydesktop 
+<<<<<<< HEAD
 ./pull 
+=======
+aghilesDJ35B
+>>>>>>> 2be15945d182ff7a6383ff5498e606d0a66a55c1
