@@ -1,73 +1,3 @@
-sudo chown -R stlink.git/
-sudo chown -R aghiles stlink.git/
-sudo make
-sudo make
-sudo make install
-apt-get update
-apt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim     qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc     avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev     libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake     autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
-sudo apt-get update
-SUDOapt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
-sudo apt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
-if ! hash st-util 2>/dev/null; then     git clone --depth 1 https://github.com/texane/stlink stlink.git && cd stlink.git;     ./autogen.sh && ./configure && make && make install;     cd .. && rm -rf stlink.git; fi
-ls
-if ! hash st-util 2>/dev/null; then git clone --depth 1 https://github.com/texane/stlink stlink.git && cd stlink.git ./autogen.sh && ./configure && make && make install cd .. && rm -rf stlink.gitfi; 
-if ! hash st-util 2>/dev/null; then git clone --depth 1 https://github.com/texane/stlink stlink.git && cd stlink.git; ./autogen.sh && ./configure && make && make install; cd .. && rm -rf stlink.git; fi
-ls
-if ! hash experiment-cli 2>/dev/null; then wget -qO - https://github.com/iot-lab/cli-tools/archive/1.6.0.tar.gz | tar xz; cd cli-tools-1.6.0 && python setup.py install && cd .. && rm -rf cli-tools-1.6.0; fi
-sudo if ! hash experiment-cli 2>/dev/null; then wget -qO - https://github.com/iot-lab/cli-tools/archive/1.6.0.tar.gz | tar xz; cd cli-tools-1.6.0 && python setup.py install && cd .. && rm -rf cli-tools-1.6.0; fi
-ls
-cd ..
-ls
-rm -rf cli-tools-1.6.0/
-ls
-sudo if ! hash experiment-cli 2>/dev/null; then
-wget -qO - https://github.com/iot-lab/cli-tools/archive/1.6.0.tar.gz | tar xz
-cd cli-tools-1.6.0 && python setup.py install && cd .. && rm -rf cli-tools-1.6.0
-cd ..
-rm -rf cli-tools-1.6.0/
-ls
-sudo -s
-cd Downloads/Software/
-ls
-rm -rf stlink.git/
-git clone --depth 1 https://github.com/texane/stlink && cd stlink
-sudo make
-git clone https://github.com/texane/stlink.git stlink
-cd stlink/
-sudo make
-sudo make install
-sudo cp udev_rules/*.rules /etc/udev/rules.d/
-udevadm control --reload-rules ; udevadm trigger
-sudo udevadm control --reload-rules ; udevadm trigger
-apt-get -y autoremove
-sudo apt-get -y autoremove
-cd build/Release
-sudo make install DESTDIR=_install
-rm -rf bin/
-rm -rf bin
-sudo rm -rf bin
-sudo apt install periph_rtc
-sudo apt-cache search periph_rtc
-sudo apt-cache search rtc
-sudo apt-cache search periphrtc
-sudo apt-cache search periph-rtc
-sudo make
-export BOARD=arduino-uno
-sudo make
-sudo make flash
-sudo make BOARD=arduino-uno flash
-sudo make BOARD=arduino-uno clean
-sudo make clean
-export BOARD=arduino-uno
-sudo make BOARD=arduino-uno
-sudo make
-sudo make BOARD=arduino-uno
-$SHELL --version
-ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
-gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
-./pull 
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
 ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
 rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
 ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
@@ -1998,3 +1928,73 @@ mendeleydesktop
 =======
 aghilesDJ35B
 >>>>>>> 2be15945d182ff7a6383ff5498e606d0a66a55c1
+waf simple-network-example.cc 
+wafo simple-network-example.cc 
+waf
+waf --run energy-model-example.cc 
+git clone https://github.com/signetlabdei/lorawan ns-3/src/lorawan
+./waf
+./waf --pyrun examples/wireless/mixed-wireless.py
+cd ns-3.26/
+ls
+./waf --pyrun examples/wireless/mixed-wireless.py
+sudo apt-get install build-essential gcc g++ bison flex perl      python python3 qt5-default libqt5opengl5-dev tcl-dev tk-dev      libxml2-dev zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0
+sudo apt-get install openscenegraph-plugin-osgearth libosgearth-dev libpcap-dev
+sudo apt update
+omnetpp
+wafo energy-model-example.cc 
+waf
+waf --run energy-model-example.cc 
+waf  energy-model-example.cc 
+waf  energy-model-example
+sudo waf  energy-model-example
+waf energy-model-example
+mkdir wscript
+ls
+waf simple-network-example
+cat wscript 
+waf build
+waf configure
+waf build
+waf simple-network-example
+waf configure --enable-tests --enable-examples
+waf configure --enable-examples
+waf configure
+waf
+waf configure
+cd ..
+waf configure
+cd ..
+waf configure
+cd src/
+waf configure
+cd lorawan/
+waf configure
+./waf shell
+./waf configure
+./waf --pyrun examples/wireless/mixed-wireless.py
+./waf configure --enable-tests --enable-examples
+./waf build
+git clone https://github.com/nsnam/ns-3-dev-git ns-3
+./waf configure
+./waf build
+nautilus .
+./waf build
+./waf configure --enable-tests --enable-examples
+./test.py -s lorawan
+./waf --run simple-lorawan-network-example
+./waf --run example-network-server-example
+./waf --run network-server-example
+./waf --run complete-lorawan-network-example
+./waf --run network-server-example
+./waf configure --enable-tests --enable-examples
+wget https://github-production-release-asset-2e65be.s3.amazonaws.com/160219599/1e3e8680-8e9b-11e9-9a06-2686953eb5ba?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190619T100345Z&X-Amz-Expires=300&X-Amz-Signature=aedf16fac11bc2e3802104c56126edd614619d436dcf9b5900e6151793de042e&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Domnetpp-5.5.1-src-linux.tgz&response-content-type=application%2Foctet-stream
+wget https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-5.5.1-src-linux.tgz
+./test.py -s lorawan
+./waf --run simple-lorawan-network-example
+./waf --run network-server-example
+cle lora heterogeneity 0
+./configure
+make
+./pull
+pdf2txt 

@@ -146,15 +146,15 @@ alias wafvo='waf --cwd=$PWD --visualize --run '
 
 ## --------------------------------------------------
 
-function waf {
-    CWD="$PWD"
-    cd $NS3CUR >/dev/null
-    waf --cwd="$CWD" $*
-    cd - >/dev/null
-}
+#function waf {
+#    CWD="$PWD"
+#    cd $NS3CUR >/dev/null
+#    waf --cwd="$CWD" $*
+#    cd - >/dev/null
+#}
 
-function wafr {
-    waf --run "$*"
-}
+#function wafr {
+#    waf --run "$*"
+#}
 
 
