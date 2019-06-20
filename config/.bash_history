@@ -1,29 +1,3 @@
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring
-rm -rf '/home/aghiles/.config/Mailspring'
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-sudo make clean
-sudo make BOARD=arduino-uno
-grep -ri periph_rtc
-gedit
-arduino 
-arduino
-arduino
-sudo make BOARD=arduino-uno
-sudo apt-get install -y pcregrep libpcre3 python3 git gcc-arm-none-eabi gcc-msp430 unzip vim qemu-system-x86 g++-multilib gcc-multilib build-essential gcc-avr binutils-avr avr-libc avrdude doxygen cppcheck python-setuptools libusb-1.0-0 libusb-1.0-0-dev libftdi1 libftdi-dev libftdipp1-dev libftdipp1-2v5 libhidapi-dev libhidapi-hidraw0 libhidapi-libusb0 make cmake autotools-dev autoconf pkg-config jimsh libtool valgrind openocd python-serial python3-serial
-sudo make BOARD=arduino-uno
-mkdir yy
-cd yy/
-httrack https://riot-os.org/api/
-unrar x PJ_PROJET_2019_hoffmann_degendre_dieng.rar 
-gedit rm-git
-git filter-branch --tree-filter 'rm -rf Web/web/zip/PJ_PROJET_2019_hoffmann_degendre_dieng.rar' HEAD
-git update-ref -d refs/original/refs/heads/master
-git filter-branch --tree-filter 'rm -rf Web/web/zip/PJ_PROJET_2019_hoffmann_degendre_dieng.rar' HEAD
 ./push
 rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
 git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip' HEAD
@@ -1998,3 +1972,29 @@ cle lora heterogeneity 0
 make
 ./pull
 pdf2txt 
+pdf2txt
+cle opportunistic 0
+cle opportunistic game 0
+cle selection  game 0
+cle genetic 0
+sudo pip install sklearn-genetic
+r -v
+r -version
+R -version
+sudo R -version
+R -version
+grep -ri "3.6"
+grep -ri "3.6.0"
+grep -ri "3.5.0"
+grep -ri version
+sudo apt install dirmngr --install-recommends
+sudo apt install software-properties-common
+sudo apt install apt-transport-https
+sudo apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
+sudo apt update
+sudo apt install r-base
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/debian stretch-cran35/'
+sudo apt update
+sudo apt install r-base
+cle "globale optimisation"
+cle "globale optimisation" 0
