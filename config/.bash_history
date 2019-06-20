@@ -1,29 +1,3 @@
-./push
-rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
-git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip' HEAD
-rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
-rm-git 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip'
-rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
-git filter-branch --tree-filter 'Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip' HEAD
-rm-git "Web/web/zip/PJ WEB 2019 LANCMAN BORDENAVE CHANDRARAJAH.zip"
-./push
->>>>>>> 480848528470a45313e03e1bdb93104f1a700637
-svn-git https://github.com/Bricomata8/Tool/tree/master/config/tsrdeple
-ln -sf /home/aghiles/Aghiles/Tool/config/tsrdeple /home/aghiles/.config/chromium
-pkill mailspring 
-mailspring 
-pkill mailspring 
-mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-mailspring 
-svn-git https://github.com/Bricomata8/Tool/tree/b184403587001f3f88c13650065bd290c8c26579/config/dreget
-svn export  https://github.com/Bricomata8/Tool/trunk/config/dreget
-pkill mailspring 
-ps -A
-pkill evolution-*
-pkill tracker-*
-pkill mail-notification 
 ps -A
 pkill evolution-calendar-factory
 pkill evolution-source-registry 
@@ -1998,3 +1972,29 @@ sudo apt update
 sudo apt install r-base
 cle "globale optimisation"
 cle "globale optimisation" 0
+sudo apt install dirmngr --install-recommends
+sudo apt install software-properties-common
+sudo apt install apt-transport-https
+sudo apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
+sudo apt update
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/debian stretch-cran35/'
+sudo apt update
+sudo apt install r-base
+cle genetic 0
+cle genetic selection 0
+key genetic
+key "bin packing"
+key "packing"
+gedit
+mkdir gen
+cd gen/
+httrack https://topepo.github.io/caret/
+gnome-maps
+gnome-music 
+gnome-mahjongg 
+gnome-
+gnome-control-center 
+gnome-weather 
+gnome-thumbnail-font 
+gnome-tetravex 
+g
