@@ -1,21 +1,3 @@
-ps -A
-pkill tracker-extract 
-pkill tracker-store 
-pkill tracker-*
-pkill evolution-*
-pkill evolution-addressbook-factory
-pkill evolution-addressbook-factory-subprocess 
-pkill evolution-calendar-factory
-pkill apache2 
-sudo pkill apache2 
-sudo pkill 
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove 
-sudo apt autoclean 
-sudo apt upgrade
-sudo apt update
-pkill mailspring 
 mailspring 
 rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
 ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
@@ -1998,3 +1980,21 @@ cle nssf 0
 mkdir affirmed
 cd affirmed/
 httrack https://www.affirmednetworks.com/
+git clone https://github.com/dawidkopczyk/genetic.git
+pythin genetic.py 
+python genetic.py 
+python3 genetic.py 
+sudo pip install matplotlib
+python genetic.py 
+sudo pip install sklearn
+python genetic.py 
+sudo pip install gplearn
+grep -ri genetic
+grep -ri gplearn
+grep -rci gplearn
+grep -rcmi gplearn
+grep -ri gplearn
+git clone https://github.com/trevorstephens/gplearn.git
+matla
+matlab
+./pull 
