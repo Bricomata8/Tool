@@ -1,8 +1,4 @@
 ps -A
-pkill evolution-calendar-factory
-pkill evolution-source-registry 
-pkill mailspring 
-ps -A
 pkill tracker-extract 
 pkill tracker-store 
 pkill tracker-*
@@ -1998,3 +1994,7 @@ gnome-weather
 gnome-thumbnail-font 
 gnome-tetravex 
 g
+cle nssf 0
+mkdir affirmed
+cd affirmed/
+httrack https://www.affirmednetworks.com/
