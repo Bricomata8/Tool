@@ -1,46 +1,3 @@
-mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/dreget/* /home/aghiles/.config/Mailspring/
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-mkdir hh
-cd hh
-ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
-echo $PWD
-ls
-cd ..
-mkdir tfrek
-cd tfrek/
-ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
-gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
-git clone https://github.com/ubuntu/gnome-shell-extension-appindicator.git
-ln -s $PWD ~/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
-gnome-shell-extension-tool -e appindicatorsupport@rgcjonas.gmail.com
-sudo snap install mathpix-snipping-tool
-mathpix-snipping-tool
-gedit mathpix
-pkill mathpix-snipping-tool
-pkill mathpix-snipping-tool 
-pkill mathpix-snipping-tool
-cle modulation 0
-reboot
-boot
-sudo boot
-sudo reboot
-grep -ri Serializable
 grep -ri Serializable
 cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
 cd ..
@@ -1998,3 +1955,46 @@ git clone https://github.com/trevorstephens/gplearn.git
 matla
 matlab
 ./pull 
+man ssh
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+ssh rescom26@grenoble.iot-lab.info
+ssh -XY rescom26@grenoble.iot-lab.info
+ssh -XY rescom26@grenoble.iot-lab.info
+scp rescom26@grenoble.iot-lab.info:.iot-lab .
+scp rescom26@grenoble.iot-lab.info:iot-lab .
+scp -r rescom26@grenoble.iot-lab.info:iot-lab .
+pkill mailspring 
+pipenv install -r requirements.txt
+sudo apt install pipenv
+mkdir oo
+cd oo/
+httrack https://rescom2019.loria.fr
+sudo apt install snapd snapd-xdg-open
+sudo snap install intellij-idea-community --classic
+intellij-idea-community
+virtualenv 
+vitrualbox
+sudo -s
+sudo apt update && sudo apt install virtualbox-6.0
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/$vboxversion/Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack
+sudo -
+sudo -s
+virt
+sudo apt searvj virtuabox
+sudo apt searvj virtuab
+sudo apt-add-repository 'deb http://download.virtualbox.org/virtualbox/debian stretch contrib'
+curl -O https://www.virtualbox.org/download/oracle_vbox_2016.asc
+apt-key add oracle_vbox_2016.asc
+sudo -s
+virtualbox 
+sudo virtualbox 
+vagrant package --base Rescom2019_TP.vbox 
+sudo apt install vagrant
+vagrant package --base Rescom2019_TP.vbox 
+ls
+virtualbox 
