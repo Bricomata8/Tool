@@ -1,5 +1,3 @@
-grep -ri Serializable
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
 cd ..
 cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
 cd ..
@@ -1998,3 +1996,5 @@ sudo apt install vagrant
 vagrant package --base Rescom2019_TP.vbox 
 ls
 virtualbox 
+pkill mailspring 
+pkill mailspring 
