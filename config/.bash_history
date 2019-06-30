@@ -1,13 +1,5 @@
 javac -d bin serialization/Main.java 
 java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
 cle sentilo 0
 cle mesh blokchain 0
 cle mesh blockchain 0
@@ -1998,3 +1990,11 @@ cle "on-demand" 0
 key "on-demand"
 cle "on-demand" lora 0
 pkill mailspring 
+sudo apt remove mailspring 
+sudo snap install mailspring 
+mailspring 
+pkill mailspring 
+mailspring 
+pkill mailspring 
+mailspring 
+bluetooth
