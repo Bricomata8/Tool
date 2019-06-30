@@ -1,40 +1,3 @@
-cd ..
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/Workspace/Thread/Mandelbrot/src/serialization"
-cd ..
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac serialization/Main.java 
-java serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
-javac -d bin serialization/Main.java 
-java -cp bin serialization.Main 
 javac -d bin serialization/Main.java 
 java -cp bin serialization.Main 
 javac -d bin serialization/Main.java 
@@ -1997,4 +1960,41 @@ vagrant package --base Rescom2019_TP.vbox
 ls
 virtualbox 
 pkill mailspring 
+pkill mailspring 
+grep -ri riot
+grep -ri os
+pkill mailspring 
+grep -ri paper
+adb shell
+adb
+adb devices
+adb shell
+adb backup -noapk com.coffeebeanventures.easyvoicerecorder
+ls
+mkdir ii
+cd ii
+adb backup -noapk com.coffeebeanventures.easyvoicerecorder
+java.exe -jar abe.jar unpack backup.ab test.tar ""
+java -jar abe.jar unpack backup.ab test.tar ""
+mkdir t
+cd t
+adb backup -noapk com.coffeebeanventures.easyvoicerecorder
+ls
+adb backup com.coffeebeanventures.easyvoicerecorder
+ls
+adb shell
+adb shell
+pdf2txt
+cle on-demand
+cle "on-demand"
+cle "demand"
+cle "on"
+cle on
+cle lora
+ls
+ls 2BN4HZ5J/
+cle lora
+cle "on-demand" 0
+key "on-demand"
+cle "on-demand" lora 0
 pkill mailspring 
