@@ -1,15 +1,3 @@
-cle mesh blockchain 0
-cle Chaincode 0
-sudo apt install gedit-source-code-browser-plugin 
-cle payload 0
-cle snr 0
-passwd
-cat /etc/passwd
-sudo apt-get update && sudo apt-get install folder-color
-sudo apt install folder-color
-wget http://download.opensuse.org/repositories/home:/tangerine:/deb9-xfce-4.12/Debian_9.0/amd64/folder-color_0.0.86-7_amd64.deb
-sudo dpkg -i folder-color_0.0.86-7_*.deb
-sudo apt install python-nautilus
 sudo apt --fix-broken install
 sudo apt install python-nautilus
 sudo dpkg -i folder-color_0.0.86-7_*.deb
@@ -1998,3 +1986,15 @@ pkill mailspring
 mailspring 
 bluetooth
 >>>>>>> 891c1af86c2da511e926366ce0d90d13c4c94fa9
+pkill mailspring 
+sudo apt remove mailspring 
+sudo snap install  mailspring 
+mailspring 
+ln -s "/home/aghiles/Aghiles/Tool/config/dreget/Local Storage" "/home/aghiles/snap/mailspring/common/Local Storage"
+pkill mailspring 
+gedit
+gedit Consomation.xls 
+gedit search_Mendeley.desktop 
+gedit search_Microsoft\ Academiclklk.desktop 
+gedit search_Mendeley.desktop 
+man xdg-open 
