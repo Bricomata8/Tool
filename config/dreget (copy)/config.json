@@ -1,0 +1,235 @@
+{
+  "*": {
+    "env": "production",
+    "core": {
+      "themes": [
+        "ui-light"
+      ],
+      "disabledPackages": [
+        "message-view-on-github",
+        "personal-level-indicators",
+        "phishing-detection",
+        "nylas-private-salesforce",
+        "github-contact-card",
+        "keybase",
+        "composer-markdown",
+        "composer-scheduler",
+        "composer-mail-merge",
+        "send-and-archive",
+        "main-calendar"
+      ],
+      "workspace": {
+        "mode": "split",
+        "showUnreadForAllCategories": true,
+        "use24HourClock": true,
+        "menubarStyle": "hamburger",
+        "hiddenLocations": {
+          "MessageListSidebar": {
+            "id": "MessageListSidebar",
+            "Toolbar": {
+              "id": "MessageListSidebar:Toolbar"
+            }
+          }
+        }
+      },
+      "keymapTemplate": "Gmail",
+      "theme": "ui-dark",
+      "tutorial": {
+        "seen": [
+          "ThreadSearchBar",
+          "ActivityListButton",
+          "ModeToggle",
+          "ToolbarSnooze",
+          "LinkTrackingButton",
+          "OpenTrackingButton",
+          "SendLaterButton",
+          "SendRemindersComposerButton"
+        ]
+      },
+      "reading": {
+        "descendingOrderMessageList": true,
+        "backspaceDelete": true
+      },
+      "attachments": {
+        "openFolderAfterDownload": true
+      }
+    },
+    "identity": {
+      "id": "24b2fba1-cc28-48ce-badd-85bfd5a161a5",
+      "firstName": "Aghiles",
+      "lastName": "ghiles",
+      "emailAddress": "djaghiles@gmail.com",
+      "object": "identity",
+      "createdAt": "2019-02-26T13:35:49.000Z",
+      "stripePlan": "Basic",
+      "stripePlanEffective": "Basic",
+      "stripeCustomerId": "cus_EbIhNZZ9NkCPn2",
+      "stripePeriodEnd": "2019-05-26T13:35:49.000Z",
+      "featureUsage": {
+        "snooze": {
+          "quota": 15,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-later": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "thread-sharing": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "link-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 4,
+          "featureLimitName": "basic-limit"
+        },
+        "open-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 4,
+          "featureLimitName": "basic-limit"
+        },
+        "contact-profiles": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-reminders": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        }
+      }
+    },
+    "accounts": [
+      {
+        "id": "1a4a1212",
+        "metadata": [],
+        "name": "Aghiles DJOUDI",
+        "provider": "gmail",
+        "emailAddress": "aghilesdjoudi@gmail.com",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "aghilesdjoudi@gmail.com",
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_security": "STARTTLS",
+          "smtp_username": "aghilesdjoudi@gmail.com"
+        },
+        "label": "aghilesdjoudi@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "999ce76d",
+        "metadata": [],
+        "name": "Aghiles DJOUDI",
+        "provider": "gmail",
+        "emailAddress": "djaghiles@gmail.com",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "djaghiles@gmail.com",
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_security": "STARTTLS",
+          "smtp_username": "djaghiles@gmail.com"
+        },
+        "label": "djaghiles@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "26923afa",
+        "metadata": [],
+        "name": "Aghiles ghiles",
+        "provider": "office365",
+        "emailAddress": "adjoudi@inseec-edu.com",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "outlook.office365.com",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "adjoudi@inseec-edu.com",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.office365.com",
+          "smtp_port": 587,
+          "smtp_security": "STARTTLS",
+          "smtp_username": "adjoudi@inseec-edu.com"
+        },
+        "label": "adjoudi@inseec-edu.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "a89d5b29",
+        "metadata": [],
+        "name": "Aghiles",
+        "provider": "imap",
+        "emailAddress": "djoudi@lip6.fr",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "tibre.lip6.fr",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "djoudi",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "tibre.lip6.fr",
+          "smtp_port": 465,
+          "smtp_security": "SSL / TLS",
+          "smtp_username": "djoudi"
+        },
+        "label": "djoudi@lip6.fr",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      }
+    ],
+    "accountsVersion": 6,
+    "plugins": {
+      "open-tracking": {
+        "defaultOn": false
+      },
+      "link-tracking": {
+        "defaultOn": false
+      }
+    }
+  }
+}

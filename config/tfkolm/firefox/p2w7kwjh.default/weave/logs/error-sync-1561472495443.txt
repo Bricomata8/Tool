@@ -1,0 +1,57 @@
+1561472367507	Sync.Service	INFO	Loading Weave 1.62.0
+1561472367509	Sync.Engine.Clients	DEBUG	Engine constructed
+1561472367510	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1561472367517	Sync.Engine.Clients	DEBUG	SyncEngine initialized: clients
+1561472367522	Sync.Engine.Addons	DEBUG	Engine constructed
+1561472367523	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1561472367523	Sync.AddonsReconciler	DEBUG	No data seen in loaded file: addonsreconciler
+1561472367525	Sync.Engine.Forms	DEBUG	Engine constructed
+1561472367526	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1561472367528	Sync.Engine.History	DEBUG	Engine constructed
+1561472367531	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1561472367534	Sync.Engine.Passwords	DEBUG	Engine constructed
+1561472367535	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1561472367536	Sync.Engine.Prefs	DEBUG	Engine constructed
+1561472367537	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1561472367539	Sync.Engine.Tabs	DEBUG	Engine constructed
+1561472367540	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1561472367540	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1561472367541	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1561472367542	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1561472367546	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1561472367547	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1561472367547	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+1561472367548	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1561472367548	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1561472367548	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1561472367550	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1561472367550	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1561472367550	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1561472493226	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1561472493227	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1561472493230	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1561472494226	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1561472495370	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1561472495370	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1561472495377	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1561472495385	Sync.Service	DEBUG	User-Agent: Firefox/60.7.1 (Linux x86_64) FxSync/1.62.0.20190618181536.desktop
+1561472495387	Sync.Service	INFO	Starting sync at 2019-06-25 16:21:35 in browser session kzrvE6DN_-N0
+1561472495388	Sync.Service	DEBUG	In sync: should login.
+1561472495391	Sync.Service	INFO	User logged in successfully - verifying login.
+1561472495401	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState has no user
+1561472495402	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1561472495402	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1561472495402	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1561472495404	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1561472495406	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1561472495407	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1561472495423	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username (resource://services-sync/service.js:853:15) JS Stack trace: onNotify@service.js:853:15
+1561472495426	Sync.Service	DEBUG	Not syncing: login returned false.
+1561472495437	Sync.ErrorHandler	DEBUG	Addons installed: 7
+1561472495437	Sync.ErrorHandler	DEBUG	 - Google Scholar Button, version 2.0, id button@scholar.google.com
+1561472495438	Sync.ErrorHandler	DEBUG	 - GNOME Shell integration, version 10.1, id chrome-gnome-shell@gnome.org
+1561472495440	Sync.ErrorHandler	DEBUG	 - Grammar and Spell Checker - LanguageTool, version 2.1.16, id languagetool-webextension@languagetool.org
+1561472495441	Sync.ErrorHandler	DEBUG	 - Zotero Connector, version 5.0.56, id zotero@chnm.gmu.edu
+1561472495442	Sync.ErrorHandler	DEBUG	 - Easy Youtube Video Downloader Express, version 15.0, id {b9acf540-acba-11e1-8ccb-001fd0e08bd4}
+1561472495442	Sync.ErrorHandler	DEBUG	 - Auto Sci-Hub, version 1.0, id {be4c6348-e64f-4ff9-9e48-47468de8aa64}
+1561472495443	Sync.ErrorHandler	DEBUG	 - Google Translator for Firefox, version 3.0.3.3, id translator@zoli.bod
