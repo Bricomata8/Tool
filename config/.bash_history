@@ -1,4 +1,3 @@
-mailspring 
 rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
 ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
 rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
@@ -1998,3 +1997,4 @@ git clone https://github.com/trevorstephens/gplearn.git
 matla
 matlab
 ./pull 
+./push 
