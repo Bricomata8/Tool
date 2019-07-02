@@ -1,10 +1,3 @@
-gvfs-set-attribute set -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute -t stringv ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute -t 'stringv' ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
 gio set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
 gio set -t 'sunset' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
 gio set -t 'unset' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
@@ -1998,3 +1991,10 @@ sudo mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/join
 sudo mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" ~/Bor.wav
 ./link-sp4 
 cle lora selection 10
+pkill skypeforlinux 
+cle selection0
+cle selection 0
+cle selection 10
+cle lora selection 10
+arduino
+arduino 
