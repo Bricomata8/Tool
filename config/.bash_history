@@ -1,26 +1,3 @@
-gvfs-set-attribute set -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute -t stringv ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute -t 'stringv' ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gio set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gio set -t 'sunset' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gio set -t 'unset' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-nautilus -q
-gio set -t 'string' tre 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-touch tre
-killall gnome-panel nautilus
-gvfs-info -a metadata::emblems folder
-gvfs-info -a metadata::emblems yyy
-gvfs-set-attribute -t stringv folder metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-gvfs-set-attribute -t stringv folder metadata::emblems icon
-gvfs-set-attribute -t stringv folder metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-gvfs-set-attribute 1 stringv folder metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-gvfs-set-attribute -t stringv folder metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-gvfs-set-attribute yyy metadata::emblems file:///usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-nautilus -q
 gvfs-set-attribute yyy metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
 gvfs-set-attribute -t stringv yyy metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
 gvfs-set-attribute -t stringv yyy metadata::folder /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
@@ -1998,3 +1975,26 @@ sudo mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/join
 sudo mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" ~/Bor.wav
 ./link-sp4 
 cle lora selection 10
+pkill skypeforlinux 
+cle selection0
+cle selection 0
+cle selection 10
+cle lora selection 10
+arduino
+arduino 
+grep -ri example.h
+cd "/home/aghiles/Aghiles/Program/boards/contiki/6lbr/2-trafficlight-control"
+./0 
+sudo make clean
+man make
+man make | grep output
+sudo make clean
+sudo make main.upload PORT=/dev/ttyUSB$usb TARGET="zoul"
+sudo make trafficlight-control.upload PORT=/dev/ttyUSB$usb TARGET="zoul"
+cd "/home/aghiles/Aghiles/Program/boards/contiki/6lbr/1-border-router"
+./0 
+svn-git https://github.com/Bricomata8/Program/tree/master/boards/contiki/6lbr/1-border-router
+svn-git https://github.com/Bricomata8/Program/tree/master/boards/contiki/6lbr/2-trafficlight-control
+arduino 
+protoc
+ssh pi@192.168.2.8
