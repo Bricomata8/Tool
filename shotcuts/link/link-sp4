@@ -9,6 +9,13 @@ paper=`echo "$paper" | sed -r "s/\.pdf/\.txt/g"`
 path="/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/$paper"
 echo "$path"
 
+
+filename=`echo "$paper" | sed -r "s/[^\/]+\///g"`
+filename=`echo "$filename" | sed -r "s/\.txt//g"`
+echo $filename
+filename="$filename"
+
+
 #!/bin/bash
 #xsel | espeak -v mb/mb-en1 -s140 --stdin
 #xsel | espeak -v mb/mb-en1 -s120 -p10 -k20 -a100 --stdin
@@ -31,8 +38,8 @@ STRINGNUM=0
 IFS=$'!?.,;:'
 ary=($INPUT)
 
-rm -rf /tmp/trtrte
-mkdir /tmp/trtrte
+rm -rf "/tmp/$filename"
+mkdir "/tmp/$filename"
 #echo "---------------------------"
 #echo "Speech Script by Dan Fountain"
 #echo "TalkToDanF@gmail.com"
@@ -59,11 +66,12 @@ for key in "${!SHORT[@]}"
     echo "${SHORT[$key]}"
  
     NEXTURL=$(echo ${SHORT[$key]} | xxd -plain | tr -d '\n' | sed 's/\(..\)/%\1/g')
-    mpg123 -m -w /tmp/trtrte/$key.wav -q "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$NEXTURL&tl=En-us"
+    mpg123 -m -w "/tmp/$filename/$key.wav" -q "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$NEXTURL&tl=En-us"
 done
 
-cd /tmp/trtrte
-shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
-mv joined.wav ~/paper.wav
+
+/home/aghiles/Aghiles/Tool/joinn "$filename"
+#cd "/tmp/$filename" && shnjoin -r none `for f in *.wav; do echo "$f"; done | sort -V ` && mv "/tmp/$filename/joined.wav" "/home/aghiles/$filename.wav"
+
 #ffmpeg -f concat -i <( for f in *.wav; do echo "file '$(pwd)/$f'"; done ) output.wav
 

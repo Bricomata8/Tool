@@ -1,46 +1,3 @@
-sudo apt --fix-broken install
-sudo apt install python-nautilus
-sudo dpkg -i folder-color_0.0.86-7_*.deb
-sudo apt-get install -f
-nautilus -q
-sudo apt install folder-color folder-color-caja folder-color-common -y
-ls
-sudo apt install folder-color-nemo
-papirus-folders -C brown --theme Papirus-Dark
-gedit color.py
-gedit color.py
-python3 /path/to/change_icon.py <targeted_directory>
-gedit color.py
-python3 color.py uui
-python3 color.py ./uui
-python3 color.py ./uui.jpg/
-nautilus /usr/share/icons/hicolor
-gtk-edit & undo
-gtk-edit
-gtk-update-icon-cache
-unity
-sudo apt install unity
-grep -ri "/Documents/BAC"
-grep -ri "BAC"
-grep -ri "Documents/BAC"
-set -e
-update-gtk-icon-cache /usr/share/icons/hicolor/
-gtk-update-icon-cache /usr/share/icons/hicolor/
-sudo gtk-update-icon-cache /usr/share/icons/hicolor/
-echo $XDG_DATA_DIRS
-sudo touch /usr/share/icons/hicolor ~/.local/share/icons/hicolor
-cat /usr/share/icons/hicolor
-~/.config/folder-color/custom_icons
-cd ~/.config/folder-color/custom_icons
-global folder-color
-gtk-update-icon-cache 
-sudo apt install xdotool nautilus-actions
-nautilus ~/.local/share/gvfs-metadata
-gio set
-gio set -t 'string' folderIWishToInsertIcon 'metadata::custom-icon' 'file:///home/myUser/myIcon.png'
-gio set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute set -t 'string' yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-gvfs-set-attribute set  yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
 gvfs-set-attribute set -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
 gvfs-set-attribute -t stringv yyy 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
 gvfs-set-attribute -t stringv ttt 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
@@ -1998,3 +1955,46 @@ gedit search_Mendeley.desktop
 gedit search_Microsoft\ Academiclklk.desktop 
 gedit search_Mendeley.desktop 
 man xdg-open 
+logfile=`echo "https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions" | sed -r -z "s/\/[^\/]+\/master/\/trunk/g"`
+echo $logfile
+svn export https://github.com/Bricomata8/Tool/trunk/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+svn export https://github.com/Bricomata8/Tool/trunk/config/extensions
+svn export https://github.com/BRICOMATA8/Tool/trunk/config/extensions
+svn-git https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/dreget
+svn export https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+svn export https://github.com/Bricomata8/Tool/trunk/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+git checkout-index -a -f --prefix=https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+curl -L https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+git svn export https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+svn export https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+svn export https://github.com/Bricomata8/Tool/trunk/config/extensions
+svn-git https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions
+svn-git "https://github.com/Bricomata8/Tool/tree/f9e3dcaa61e8825b59a4733cbdc4a66983f8e0ce/config/extensions"
+svn export https://github.com/Bricomata8/Tool/trunk/config/extensions
+svn ls https://github.com/jquery/jquery/trunk
+svn ls https://github.com/bricomata8/trunk
+cle lora 0
+cle lora selection 0
+cle lora selection 10
+pdf2txt
+cle lora selection 10
+gedit "MXY9SFZN/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection.txt"
+join
+cd /tmp/trtrte
+shnjoin -r none `for f in *.wav; do echo "$f "; done | sort -V `
+mv joined.wav ~/paper.wav
+cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
+./link-sp4 
+cd /tmp/trtrte
+cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
+./link-sp4 
+ls
+./link-sp4 
+mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" '~/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection.wav'
+mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" "~/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection.wav"
+mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" "~/Bor.wav"
+sudo mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" "~/Bor.wav"
+sudo mv "/tmp/Bor and Roedig - 2017 - LoRa Transmission Parameter Selection/joined.wav" ~/Bor.wav
+./link-sp4 
+cle lora selection 10
