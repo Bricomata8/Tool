@@ -127,6 +127,12 @@ alias matlabx='/usr/local/MATLAB/R2016b/bin/matlab -nodesktop -nosplash -r'
 export PATH=/home/aghiles/Downloads/Software/omnetpp-5.5.1/bin:$PATH
 
 
+
+flash (){
+sudo dd $1 $2 bs=1M status=progress && sync
+}
+
+
 ## --------------------------------------------------
 ##------ NS3 + WAF + NetAnim
 NS_Path=/usr/local/ns3
