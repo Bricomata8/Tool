@@ -1,6 +1,3 @@
-grep -ri collection
-gedit Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6/ListeDeLivres.java:
-gedit Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6/ListeDeLivres.java
 cd Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6
 ls
 grep -ri main
@@ -1998,3 +1995,6 @@ xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg
 ls
 sudo xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
 flash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
+sudo apt install dmg2img 
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg 
+pkill mailspring 
