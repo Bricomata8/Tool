@@ -1,47 +1,3 @@
-gedit ~/.config/nautilus-actions
-gedit ~/.config/nautilus-actions/nautilus-actions.conf 
-ls ~/.config/nautilus-actions
-cd link/
-./link-pa6 
-zenity --file-selection
-nautilus --file-selection
-man nautilus | grep sele
-nautilus -s
-man nautilus
-zenity --file-selection
-gvfs-list
-gvfs-ls
-gvfs-info
-nautilus ~/.local/share/gvfs-metadata/
-pkill gvfsd-metadata 
-nautilus ~/.local/share/gvfs-metadata
-mv  ~/.local/share/gvfs-metadata/home .
-ln /home/aghiles/Aghiles/Tool/config/home ~/.local/share/gvfs-metadata/home
-ln -sf /home/aghiles/Aghiles/Tool/config/home ~/.local/share/gvfs-metadata/home
-thunar
-stat ~/.local/share/gvfs-metadata
-stat ~/.local/share/gvfs-metadata/home
-ps aux | grep gvfsd-metadata
-ln -sf /home/aghiles/Aghiles/Tool/config/gvfs/* ~/.local/share/gvfs-metadata/
-rm -rf ~/.local/share/gvfs-metadata/home
-ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
-nautilus -q
-./campus 
-xdg-open
-xdg-open ggogle.com
-xdg-open google.com
-xdg-open www.google.com
-xdg-open http://www.google.com
-xdg-open https://pedago-ece.campusonline.me/my/
-grep -ri Collections
-pdf2txt
-cle geneti 0
-pkill mailspring 
-rm -rf '/home/aghiles/.config/Mailspring/Local Storage'
-ln -sf /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/.config/Mailspring/
-pkill mailspring 
-man javac | grep iso
-man javac | grep encoding
 grep -ri collection
 gedit Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6/ListeDeLivres.java:
 gedit Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6/ListeDeLivres.java
@@ -1998,3 +1954,47 @@ lkdir tt
 mkdir tt
 cd tt
 httrack https://rescom2019.loria.fr
+./admin 
+ssh pi@192.168.200.1
+shh pi@192.168.200.1
+ssh pi@192.168.200.1
+arduino
+kjh erer
+flash
+man dd
+man dd | grep progress
+sudo dd bs=2048 if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
+sudo slash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
+sudo flash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
+sudo fdisk -l
+diskutil list
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
+flash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
+sudo apt-get install dmg2img
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
+arduino
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg .
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg ui.img
+sudo dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg ui.img
+xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
+sudo apt install xar
+sudo apt search xar
+sudo apt-add-repository ppa:techzilla/misc;
+sudo apt-get update;
+sudo apt-get install xar
+sudo apt-add-repository ppa:techzilla/misc
+sudo apt-get install build-essential libxml2-dev libssl1.0-dev zlib1g-dev
+wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/xar/xar-1.5.2.tar.gz
+tar -zxvf xar-1.5.2.tar.gz
+cd xar-1.5.2
+./configure
+make
+make install
+sudo make install
+xar -xf r
+cd ..
+xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
+ls
+sudo xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
+flash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
