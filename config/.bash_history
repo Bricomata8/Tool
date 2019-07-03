@@ -1,11 +1,3 @@
-gvfs-set-attribute yyy metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-gvfs-set-attribute -t stringv yyy metadata::emblems /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-gvfs-set-attribute -t stringv yyy metadata::folder /usr/share/icons/hicolor/64x64/emblems/emblem-debian.png
-nautilus -q
-echo $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
-gedit  ~/.local/share/file-manager/actions 
-ls  ~/.local/share/file-manager
-ls  ~/.local/share/nautilus/
 gedit ~/.config/nautilus-actions
 gedit ~/.config/nautilus-actions/nautilus-actions.conf 
 ls ~/.config/nautilus-actions
@@ -1998,3 +1990,11 @@ svn-git https://github.com/Bricomata8/Program/tree/master/boards/contiki/6lbr/2-
 arduino 
 protoc
 ssh pi@192.168.2.8
+pdf2txt
+cle markov 0
+cd "/home/aghiles/Aghiles/Tool/shotcuts/link"
+./link-sp4
+lkdir tt
+mkdir tt
+cd tt
+httrack https://rescom2019.loria.fr

@@ -39,7 +39,7 @@ IFS=$'!?.,;:'
 ary=($INPUT)
 
 rm -rf "/tmp/$filename"
-mkdir "/tmp/$filename"
+mkdir -p "/tmp/$filename"
 #echo "---------------------------"
 #echo "Speech Script by Dan Fountain"
 #echo "TalkToDanF@gmail.com"
