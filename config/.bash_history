@@ -1,68 +1,3 @@
-cd Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6
-ls
-grep -ri main
-javac Bibliotheque.java 
-javac -encoding utf8 Bibliotheque.java 
-javac -encoding EUC-JP Bibliotheque.java 
-javac -encoding URF-8 Bibliotheque.java 
-javac -encoding UTF-8 Bibliotheque.java 
-javac -encoding ISO-8859-1 Bibliotheque.java 
-java Bibliotheque 
-grep collec
-grep -ri collec
-gedit ListeDeLivres.java
-javac -encoding ISO-8859-1 Bibliotheque.java 
-gedit ListeDeLivres.java
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac MainClass.java
-java MainClass 
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac MainClass.java
-javac -Xlint MainClass.java
-javac MainClass.java
-ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
-mv ~/.local/share/gvfs-metadata ~/.local/share/gvfs-metadata2
-ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
-sudo apt install skype
-$ wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
-wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
-sudo apt install getskype-linux-deb
-sudo apt install ./getskype-linux-deb
-gdebi getskype-linux-deb
-gdebi ./getskype-linux-deb
-ls
-sudo apt install ./skype-install.deb 
-sudo gdebi ./skype-install.deb 
-wget https://repo.skype.com/latest/skypeforlinux-64.deb
-skype
-sudo apt install skype
-sudo apt-cache searche skype
-sudo apt-cache search skype
-skype
-sudo apt install ./skypeforlinux-64.deb 
-skypeforlinux 
-pdf2txt 
-cd "/home/aghiles/Aghiles/Teaching/C/Liste/c1/c_udp"
-gcc udp_listner.c 
-gcc udp_talker.c 
-./a.out 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
 ./talker 
 gcc udp_talker.c -o talker
 ./talker 
@@ -1995,6 +1930,71 @@ xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg
 ls
 sudo xar -xf raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg 
 flash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-jessie-WAZIUP-full-RPI3-v14.dmg  of=/dev/mmcblk0p1
+<<<<<<< HEAD
 mkdir pham
 cd pham/
 httrack http://cpham.perso.univ-pau.fr/
+=======
+sudo apt install dmg2img 
+dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg 
+pkill mailspring 
+./pull 
+sudo apt remove arduino
+cd Downloads/
+wget https://downloads.arduino.cc/arduino-1.8.9-linux64.tar.xz
+arduino
+cd gw_full_latest/
+./cmd.sh 
+sudo ./lora_gateway
+make
+rsync
+sudo apt insatll python2-numpy python2-scipy swig cppunit fftw gnuradio libvolk log4cpp cmake wx liquid-dsp
+sudo apt install python2-numpy python2-scipy swig cppunit fftw gnuradio libvolk log4cpp cmake wx liquid-dsp
+sudo apt install python-numpy python-scipy swig cppunit fftw gnuradio libvolk log4cpp cmake wx liquid-dsp
+sudo apt install wx
+cpuunit
+sudo apt install cpuunit
+sudo apt install cppunit
+mkdir sdr
+cd sdr/
+git clone https://github.com/rpp0/gr-lora.git .
+cd docker/
+./docker_run_grlora.sh
+sudo apt install doker
+sudo apt install docker
+./docker_run_grlora.sh
+sudo apt install docker-compose 
+./docker_run_grlora.sh
+docker
+sudo ./docker_run_grlora.sh
+sudo doker
+sudo docker
+gedit
+python modulation_explained_plots.py 
+sudo apt remove docker
+mkdir y
+cd y
+sudo curl -sSL https://get.docker.com/ | sh
+sudo usermod -aG docker stens
+sudo usermod -aG docker aghiles
+sudo usermod -aG docker root
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install docker.io
+sudo apt install docker.io
+sudo apt search docker.io
+sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-get remove docker docker.io
+sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg2     software-properties-common
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+cd ../sdr/
+cd docker/
+./docker_run_grlora.sh
+sudo ./docker_run_grlora.sh
+ls
+>>>>>>> 4f25c5be0df6ab4c7c1f82fd658373782173366e
