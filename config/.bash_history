@@ -1,35 +1,3 @@
-cd Cours/Book/Exercices/Chapitre10/Livre-exercice10-4-et-6
-ls
-grep -ri main
-javac Bibliotheque.java 
-javac -encoding utf8 Bibliotheque.java 
-javac -encoding EUC-JP Bibliotheque.java 
-javac -encoding URF-8 Bibliotheque.java 
-javac -encoding UTF-8 Bibliotheque.java 
-javac -encoding ISO-8859-1 Bibliotheque.java 
-java Bibliotheque 
-grep collec
-grep -ri collec
-gedit ListeDeLivres.java
-javac -encoding ISO-8859-1 Bibliotheque.java 
-gedit ListeDeLivres.java
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac MainClass.java
-java MainClass 
-cd "/home/aghiles/Aghiles/Teaching/Java/NetBeansProjects/TP4"
-javac MainClass.java
-javac -Xlint MainClass.java
-javac MainClass.java
-ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
-mv ~/.local/share/gvfs-metadata ~/.local/share/gvfs-metadata2
-ln -sf /home/aghiles/Aghiles/Tool/config/gvfs-metadata ~/.local/share/
-sudo apt install skype
-$ wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
-wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
-sudo apt install getskype-linux-deb
-sudo apt install ./getskype-linux-deb
-gdebi getskype-linux-deb
-gdebi ./getskype-linux-deb
 ls
 sudo apt install ./skype-install.deb 
 sudo gdebi ./skype-install.deb 
@@ -1998,3 +1966,35 @@ flash if=/home/aghiles/Downloads/raspberrypi-jessie-WAZIUP-demo.dmg/raspberrypi-
 sudo apt install dmg2img 
 dmg2img raspberrypi-jessie-WAZIUP-full-RPI3-v13.dmg 
 pkill mailspring 
+./pull 
+sudo apt remove arduino
+cd Downloads/
+wget https://downloads.arduino.cc/arduino-1.8.9-linux64.tar.xz
+arduino
+cd gw_full_latest/
+./cmd.sh 
+sudo ./lora_gateway
+make
+rsync
+sudo apt insatll python2-numpy python2-scipy swig cppunit fftw gnuradio libvolk log4cpp cmake wx liquid-dsp
+sudo apt install python2-numpy python2-scipy swig cppunit fftw gnuradio libvolk log4cpp cmake wx liquid-dsp
+sudo apt install python-numpy python-scipy swig cppunit fftw gnuradio libvolk log4cpp cmake wx liquid-dsp
+sudo apt install wx
+cpuunit
+sudo apt install cpuunit
+sudo apt install cppunit
+mkdir sdr
+cd sdr/
+git clone https://github.com/rpp0/gr-lora.git .
+cd docker/
+./docker_run_grlora.sh
+sudo apt install doker
+sudo apt install docker
+./docker_run_grlora.sh
+sudo apt install docker-compose 
+./docker_run_grlora.sh
+docker
+sudo ./docker_run_grlora.sh
+sudo doker
+sudo docker
+gedit
