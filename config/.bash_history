@@ -1,30 +1,3 @@
-ls
-sudo apt install ./skype-install.deb 
-sudo gdebi ./skype-install.deb 
-wget https://repo.skype.com/latest/skypeforlinux-64.deb
-skype
-sudo apt install skype
-sudo apt-cache searche skype
-sudo apt-cache search skype
-skype
-sudo apt install ./skypeforlinux-64.deb 
-skypeforlinux 
-pdf2txt 
-cd "/home/aghiles/Aghiles/Teaching/C/Liste/c1/c_udp"
-gcc udp_listner.c 
-gcc udp_talker.c 
-./a.out 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
-./talker 
-gcc udp_talker.c -o talker
 ./talker 
 gcc udp_talker.c -o talker
 ./talker 
@@ -1998,3 +1971,30 @@ sudo ./docker_run_grlora.sh
 sudo doker
 sudo docker
 gedit
+python modulation_explained_plots.py 
+sudo apt remove docker
+mkdir y
+cd y
+sudo curl -sSL https://get.docker.com/ | sh
+sudo usermod -aG docker stens
+sudo usermod -aG docker aghiles
+sudo usermod -aG docker root
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install docker.io
+sudo apt install docker.io
+sudo apt search docker.io
+sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-get remove docker docker.io
+sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg2     software-properties-common
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+cd ../sdr/
+cd docker/
+./docker_run_grlora.sh
+sudo ./docker_run_grlora.sh
+ls
