@@ -133,6 +133,11 @@ sudo dd $1 $2 bs=1M status=progress && sync
 }
 
 
+alias arduino-compile='arduino-cli compile --fqbn arduino:avr:uno'
+alias arduino-exec='arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno'
+alias arduino-log='screen /dev/ttyACM0 38400'
+
+
 ## --------------------------------------------------
 ##------ NS3 + WAF + NetAnim
 NS_Path=/usr/local/ns3
