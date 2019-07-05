@@ -599,3 +599,30 @@ sudo ldconfig -v | grep liblog4cpp
 sudo cmake ../
 sudo apt remove --purge --auto-remove cmake
 cmake
+sudo pip install celery tensorflow keras matplotlib numpy sklearn
+./docker_run_grlora.sh
+cd doc
+cd docker/
+./docker_run_grlora.sh
+sudo ./docker_run_grlora.sh
+python3 phone-gps-plot.py 
+sudo apt-get update
+sudo apt-get install gnuradio
+gnuradio
+gnuradio-companion 
+gnuradio-config-info 
+sudo ldconfig
+gnuradio-companion bastille-lora-decode.grc 
+gnuradio-companion rtl_to_file_sink.grc 
+gnuradio-companion FM_transmitter.grc 
+gnuradio-companion fm_transmitter.grc 
+./top_block.py 
+python3 fm_receiverV1.py 
+python fm_receiverV1.py 
+gnuradio-companion bastille-lora-decode.grc 
+python make_graphs_from_processed.py 
+python3 make_graphs_from_processed.py 
+python3 phone-gps-plot.py 
+cd docker/
+./docker_run_grlora.sh
+sudo ./docker_run_grlora.sh
