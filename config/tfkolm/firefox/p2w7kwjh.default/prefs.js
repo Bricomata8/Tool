@@ -12,6 +12,7 @@
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.normandy.first_run", false);
 user_pref("app.shield.optoutstudies.enabled", false);
+<<<<<<< HEAD
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1562362719);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1562363080);
 user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1562396625);
@@ -19,6 +20,15 @@ user_pref("app.update.lastUpdateTime.experiments-update-timer", 1562362960);
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1562362599);
 user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1561928936);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1562362839);
+=======
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1562337430);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1562263979);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1562342606);
+user_pref("app.update.lastUpdateTime.experiments-update-timer", 1562338281);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1562338528);
+user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1561928936);
+user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1562337550);
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("browser.cache.disk.capacity", 358400);
 user_pref("browser.cache.disk.filesystem_reported", 1);
 user_pref("browser.cache.disk.smart_size.first_run", false);
@@ -44,18 +54,31 @@ user_pref("browser.pageActions.persistedActions", "{\"version\":1,\"ids\":[\"boo
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.places.smartBookmarksVersion", 8);
 user_pref("browser.rights.3.shown", true);
+<<<<<<< HEAD
 user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1562396605019");
 user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1562398415019");
 user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1562401668317");
 user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1562405268317");
+=======
+user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1557646603448");
+user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1557648416448");
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1562342583861");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1562346183861");
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("browser.search.countryCode", "FR");
 user_pref("browser.search.region", "FR");
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20190620174850");
 user_pref("browser.shell.checkDefaultBrowser", true);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
+<<<<<<< HEAD
 user_pref("browser.shell.mostRecentDateSetAsDefault", "1562401666");
 user_pref("browser.slowStartup.averageTime", 1206);
 user_pref("browser.slowStartup.samples", 4);
+=======
+user_pref("browser.shell.mostRecentDateSetAsDefault", "1562344486");
+user_pref("browser.slowStartup.averageTime", 1091);
+user_pref("browser.slowStartup.samples", 1);
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("browser.startup.homepage_override.buildID", "20190620174850");
 user_pref("browser.startup.homepage_override.mstone", "60.7.2");
 user_pref("browser.tabs.drawInTitlebar", true);
@@ -74,11 +97,19 @@ user_pref("devtools.toolsidebar-width.inspector.splitsidebar", 350);
 user_pref("distribution.iniFile.exists.appversion", "60.7.2");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("experiments.activeExperiment", false);
+<<<<<<< HEAD
 user_pref("extensions.blocklist.lastModified", "Fri, 05 Jul 2019 14:30:46 GMT");
 user_pref("extensions.blocklist.pingCountTotal", 33);
 user_pref("extensions.blocklist.pingCountVersion", -1);
 user_pref("extensions.databaseSchema", 27);
 user_pref("extensions.getAddons.cache.lastUpdate", 1562362720);
+=======
+user_pref("extensions.blocklist.lastModified", "Tue, 02 Jul 2019 09:54:10 GMT");
+user_pref("extensions.blocklist.pingCountTotal", 32);
+user_pref("extensions.blocklist.pingCountVersion", -1);
+user_pref("extensions.databaseSchema", 27);
+user_pref("extensions.getAddons.cache.lastUpdate", 1562337431);
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("extensions.getAddons.databaseSchema", 5);
 user_pref("extensions.lastAppBuildId", "20190620174850");
 user_pref("extensions.lastAppVersion", "60.7.2");
@@ -94,13 +125,17 @@ user_pref("extensions.webextensions.uuids", "{\"screenshots@mozilla.org\":\"c99f
 user_pref("findbar.highlightAll", true);
 user_pref("font.internaluseonly.changed", true);
 user_pref("gecko.handlerService.migrated", true);
-user_pref("idle.lastDailyNotification", 1562251228);
+user_pref("idle.lastDailyNotification", 1562337740);
 user_pref("lightweightThemes.persisted.footerURL", false);
 user_pref("lightweightThemes.persisted.headerURL", false);
 user_pref("lightweightThemes.selectedThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("lightweightThemes.usedThemes", "[]");
 user_pref("media.gmp-manager.buildID", "20190620174850");
+<<<<<<< HEAD
 user_pref("media.gmp-manager.lastCheck", 1562396835);
+=======
+user_pref("media.gmp-manager.lastCheck", 1562313550);
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("media.gmp.storage.version.observed", 1);
 user_pref("network.cookie.prefsMigrated", true);
 user_pref("network.predictor.cleaned-up", true);
@@ -110,7 +145,11 @@ user_pref("pdfjs.migrationVersion", 2);
 user_pref("pdfjs.previousHandler.alwaysAskBeforeHandling", true);
 user_pref("pdfjs.previousHandler.preferredAction", 4);
 user_pref("places.database.lastMaintenance", 1562069521);
+<<<<<<< HEAD
 user_pref("places.history.expiration.transient_current_max_pages", 99729);
+=======
+user_pref("places.history.expiration.transient_current_max_pages", 100001);
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("print.print_bgcolor", false);
 user_pref("print.print_bgimages", false);
 user_pref("print.print_duplex", 0);
@@ -155,7 +194,11 @@ user_pref("services.sync.tabs.lastSyncLocal", "0");
 user_pref("signon.importedFromSqlite", true);
 user_pref("storage.vacuum.last.index", 1);
 user_pref("storage.vacuum.last.places.sqlite", 1560017087);
+<<<<<<< HEAD
 user_pref("toolkit.startup.last_success", 1562401661);
+=======
+user_pref("toolkit.startup.last_success", 1562344481);
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
 user_pref("toolkit.telemetry.cachedClientID", "08d83caf-3af0-4da2-bf52-66e4030d0307");
 user_pref("toolkit.telemetry.previousBuildID", "20190620174850");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);

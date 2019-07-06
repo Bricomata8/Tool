@@ -29,6 +29,26 @@ directory=/home/aghiles/Aghiles/Program/bin
 mkdir -p $directory
 cd $directory
 
+#gnuplot
+sudo apt install gnuradio gr-osmosdr libliquid-dev
+sudo pip install loranode sigmf colorama configparser pymongo
+
+git clone https://github.com/rpp0/gr-lora.git .
+mkdir build
+cd build
+cmake ../  # Note to Arch Linux users: add "-DCMAKE_INSTALL_PREFIX=/usr"
+make && sudo make install
+
+# Pathos
+sudo apt-get install \
+    libnuma-dev cmake g++ \
+    libpython-dev python-numpy \
+    qtbase5-dev libqt5svg5-dev libqt5opengl5-dev libqwt-qt5-dev \
+    portaudio19-dev libjack-jackd2-dev \
+    graphviz
+
+#https://github.com/myriadrf/LoRa-SDR
+
 # Contiki
 git clone --recursive https://github.com/contiki-os/contiki.git
 # attention: python-magic
@@ -202,6 +222,9 @@ sudo apt-get install build-essential gcc g++ bison flex perl \
      libxml2-dev zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0
 sudo apt-get install openscenegraph-plugin-osgearth libosgearth-dev libpcap-dev
 wget https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-5.5.1-src-linux.tgz
+
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+
 
 # Python
 #python3-[cetx]*

@@ -626,6 +626,7 @@ python3 phone-gps-plot.py
 cd docker/
 ./docker_run_grlora.sh
 sudo ./docker_run_grlora.sh
+<<<<<<< HEAD
 sudo ./install.sh 
 arduino
 arduino
@@ -641,3 +642,275 @@ sudo ./install.sh
 ./install.sh 
 arduino
 sudo apt install contiki
+=======
+sudo apt install gr-osmosdr
+sudo apt install gr-lora
+sudo pip install gr-lora
+sudo apt install  liquid-dsp
+sudo apt install  liquid
+sudo pip install liquid
+sudo pip install liquid-dsp
+sudo apt search  liquid
+sudo apt install libliquid-dev
+mkdir build
+cd build
+cmake ../  # Note to Arch Linux users: add "-DCMAKE_INSTALL_PREFIX=/usr"
+make && sudo make install
+sudo pip install loranode
+sudo apt  install loranode
+
+bash pdr_comparison_experiment.sh 
+bash pdr_comparison_experiment.sh noise
+bash snr_experiment_dedicated.sh 
+sudo pip install sigmf
+bash snr_experiment_dedicated.sh 
+sudo pip install colorama
+sudo pip install configparser
+sudo pip install pymongo
+bash runExperiments.sh 
+bash runExperiments.sh 
+sudo apt install gnuradio
+sudo apt-get install     libnuma-dev cmake g++     libpython-dev python-numpy     qtbase5-dev libqt5svg5-dev libqt5opengl5-dev libqwt-qt5-dev     portaudio19-dev libjack-jackd2-dev     graphviz
+sudo add-apt-repository -y ppa:pothosware/support
+sudo add-apt-repository -y ppa:pothosware/framework
+sudo apt-get update
+sudo apt-get install     libpoco-dev     libspuce-dev     nlohmann-json-dev     libmuparserx-dev
+sudo add-apt-repository -y ppa:pothosware/support
+sudo add-apt-repository -y ppa:pothosware/framework
+sudo apt-get update
+sudo apt-get install     libpoco-dev
+sudo apt-get install libspuce-dev
+sudo apt-get install nlohmann-json-dev
+sudo apt-get install libmuparserx-dev
+sudo add-apt-repository -y ppa:myriadrf/drivers
+sudo apt-get update
+sudo apt-get install libsoapysdr-dev
+git clone --recursive https://github.com/pothosware/PothosCore.git
+cd PothosCore
+git pull origin master
+git submodule update --init --recursive --remote
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
+sudo ldconfig #needed on debian systems
+PothosUtil --self-tests
+PothosFlow #launches GUI designer
+mkdir build
+cd build
+cmake ../
+cmake -DCMAKE_INSTALL_PREFIX=/usr ../
+finf pathos
+find pathos
+whereis pathos
+sudo apt insall pathos
+sudo apt install pathos
+cmake ../
+make -j4
+sudo make install
+ls
+PothosUtil 
+PothosFlow 
+ls
+bash PothosUtil.sh 
+sudp pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo apt install python3-pip
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo pip install celery tensorflow keras matplotlib numpy sklearn
+sudo apt install python3-pip3
+sudo apt install python3-pip
+cd examples/
+ls
+python modulation_explained_plots.py 
+cd ..
+RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+python RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+python3 RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+python RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+sudo rm -rf /usr/local/bin/pip3
+sudo ln -s /usr/local/your_python_path/bin/pip3 /usr/local/bin/pip3
+pip3 -version
+sudp pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+grep -ri main
+cd emma-master/
+celery -A emma_worker worker -l info -Q celery,priority.high
+emma.py plot ASCAD
+./emma.py plot ASCAD
+pythin3 emma.py plot ASCAD
+python3 emma.py plot ASCAD
+python emma.py plot ASCAD
+gedit emma.py 
+python emma.py plot ASCAD
+python3 emma.py plot ASCAD
+pip3
+pip
+pip -v
+pip -version
+pip --version
+pip3
+sudo apt install python3-pip
+sudo apt upgrade python3-pip
+sudo apt upgrade
+sudo apt autoremove 
+sudo apt autoclean
+pip3
+sudo pip upgrade
+sudo pip3 upgrade
+ls
+celery -A emma_worker worker -l info -Q celery,priority.high
+emma.py plot ASCAD
+.§emma.py plot ASCAD
+./emma.py plot ASCAD
+./emma.py -h
+gedit emma.py 
+arduino
+arduino-cli core install arduino:samd
+arduino-cli board list
+arduino-cli core list
+arduino
+mkdir gopath
+go get -u github.com/arduino/arduino-cli
+sudo apt install golang
+go get -u github.com/arduino/arduino-cli
+GOPATH=~/gopath 
+go get -u github.com/arduino/arduino-cli
+export GOPATH=/home/aghiles/gopath 
+go get -u github.com/arduino/arduino-cli
+arduino
+cd Downloads/
+tar -C /usr/local -xzf go1.12.6.linux-amd64.tar.gzsudo apt remove gola
+export PATH=$PATH:/usr/local/go/bin
+ls
+sudo apt remove golang
+go
+export GOPATH=/home/aghiles/poo
+cd
+mkdir poo
+go get -u github.com/arduino/arduino-cli
+go -version
+go version
+sudo apt remove go
+sudo apt remove golang
+sudo apt autoremove
+go
+rm -rf /usr/local/go
+go
+whereis go
+sudo apt remove --purge golang
+rm -rf /usr/bin/go
+sudo rm -rf /usr/bin/go
+go
+sudo apt-get -y upgrade
+sudo apt autoremove 
+wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
+tar -xvf go1.12.6.linux-amd64.tar.gz
+sudo mv go /usr/local
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/gotmp
+go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+go version
+go env
+go get -u github.com/arduino/arduino-cli
+cd "/home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong"
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong.ino 
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr Arduino_LoRa_Ping_Pong.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong.ino
+ls
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+cd ..
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+arduino-cli sketch new file:///home/aghiles/Aghiles/Program/boards/arduino
+arduino-cli sketch new /home/aghiles/Aghiles/Program/boards/arduino
+arduino-cli sketch new MyFirstSketch
+arduino-cli sketch new "/home/aghiles/Aghiles/Program/boards/arduino"
+cd /home/aghiles/Aghiles/Program/boards/
+arduino-cli sketch new arduino
+arduino-cli core update-index
+arduino-cli board list
+arduino-cli core search arduino
+arduino-cli core search mkr1000
+arduino-cli core install arduino:samd
+arduino-cli core list
+arduino-cli board list
+arduino-cli board listall mkr
+gedit arduino-cli.yaml
+arduino-cli core update-index
+arduino-cli core install esp8266:esp8266
+arduino-cli compile --fqbn arduino:samd:mkr1000 arduino/Arduino_LoRa_Ping_Pong
+cd arduino
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong
+ls
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong
+arduino
+arduino-cli sketch new MyFirstSketch
+cat /home/luca/Arduino/MyFirstSketch/MyFirstSketch.ino
+arduino-cli sketch new MyFirstSketch
+cat /home/aghiles/Arduino/MyFirstSketch/MyFirstSketch.ino
+gedit /home/aghiles/Arduino/MyFirstSketch/MyFirstSketch.ino
+arduino-cli core update-index
+arduino-cli board list
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli board list
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli core update-index
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli compile --fqbn arduino:avr:uno Arduino/MyFirstSketch
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino/MyFirstSketch
+sudo arduino-cli board list
+arduino-cli.exe config init
+arduino-cli config init
+gedit 
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+arduino-cli compile --fqbn arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong/Arduino_LoRa_Ping_Pong.ino
+arduino-cli compile --fqbn arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+arduino-compile Arduino_LoRa_Ping_Pong.ino
+arduino-exec Arduino_LoRa_Ping_Pong.ino
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong/Arduino_LoRa_Ping_Pong.ino
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong/Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+ls /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino
+sudo apt install putty
+sudo apt install screen
+screen /dev/ttyACM0 38400
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+ls /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong.ino
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino-compile /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino
+arduino-cli compile --fqbn arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-compile arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-compile /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway
+putty /dev/ttyACM0 38400
+arduino-compile Arduino_LoRa_Simple_temp
+arduino-compile Arduino_LoRa_Simple_temp.ino 
+arduino-exec Arduino_LoRa_Simple_temp.ino 
+arduino-exec Arduino_LoRa_Simple_temp 
+arduino-compile Arduino_LoRa_Simple_temp 
+arduino-compile Arduino_LoRa_Simple_temp.ino
+arduino-exec Arduino_LoRa_Simple_temp.ino
+arduino-compile Arduino_LoRa_Simple_temp
+arduino-exec Arduino_LoRa_Simple_temp.ino
+arduino-compile Arduino_LoRa_Simple_temp.ino
+arduino-exec Arduino_LoRa_Simple_temp.ino
+arduino-compile Arduino_LoRa_Simple_temp
+cd ..
+arduino-compile Arduino_LoRa_Simple_temp
+arduino-exec Arduino_LoRa_Simple_temp
+arduino-log 
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
