@@ -626,3 +626,18 @@ python3 phone-gps-plot.py
 cd docker/
 ./docker_run_grlora.sh
 sudo ./docker_run_grlora.sh
+sudo ./install.sh 
+arduino
+arduino
+./arduino
+arduino
+sudo ./install.sh 
+./install.sh 
+arduino
+./install.sh 
+arduino
+./install.sh 
+sudo ./install.sh 
+./install.sh 
+arduino
+sudo apt install contiki

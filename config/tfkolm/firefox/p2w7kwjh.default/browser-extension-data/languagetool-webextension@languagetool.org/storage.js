@@ -1,1 +1,1 @@
-{"uniqueId":"2734f854a69b9252","firstVisit":1561321059,"sessionCount":123,"allowRemoteCheck":true,"usageCount":183,"appliedSuggestions":6,"hiddenErrors":[{"day":"Tue Jul 02 2019","count":7}]}
+{"uniqueId":"2734f854a69b9252","firstVisit":1561321059,"sessionCount":129,"allowRemoteCheck":true,"usageCount":256,"appliedSuggestions":7,"hiddenErrors":[{"day":"Fri Jul 05 2019","count":3},{"day":"Tue Jul 02 2019","count":7}]}
