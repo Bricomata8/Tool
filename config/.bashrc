@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
 fi
 
 
-export PATH=$PATH:/home/aghiles/Aghiles/Tool
+export PATH=$PATH:/home/aghiles/Aghiles/Tool/commands::/home/aghiles/Aghiles/Tool/commands/x
 export ONOS_ROOT="/home/aghiles/Aghiles/Program/gw/sdn/tool/onos"
 source $ONOS_ROOT/tools/dev/bash_profile
 alias trans='trans -b -t fr'

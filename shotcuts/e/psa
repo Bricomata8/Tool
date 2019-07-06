@@ -1,0 +1,16 @@
+#!/bin/bash
+
+directory="/home/aghiles/Aghiles/Tool/config/Calendar"
+cd $directory
+
+sed -r -i -z "s/\nDTSTART([^\n]*\n)(.[^U])/\nDTSTART\1DUE\1\2/g" *.ics
+sed -r -i -z "s/(\n[^D][^\n]*\n)DUE([^\n]*)/\1DTSTART\2\nDUE\2/g" *.ics
+sed -r -i -z "s/\n(DUE[^:]*:........)([^T])/\n\1T080000\2/g" *.ics
+sed -r -i -z "s/DTSTART([^\n]*)\nDUE([^\n]*)/DTSTART\2\nDUE\2/g" *.ics
+sed -r -i -z "s/VEVENT/VTODO/g" *.ics
+
+pkill gnome-todo
+gnome-todo
+
+
+#sed -r -i -z "s/DTEND([^\n]*)\n//g" *.ics

@@ -914,3 +914,25 @@ arduino-compile Arduino_LoRa_Simple_temp
 arduino-exec Arduino_LoRa_Simple_temp
 arduino-log 
 >>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
+java -jar coap-shell-1.0.7.jar 
+ln -s /media/aghiles/Aghiles/Downloads/Documents /home/aghiles/Aghiles/Documents
+arduino-compile Arduino_LoRa_Ping_Pong
+cd ..
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+sudo apt install screen
+arduino-log 
+arduino-cli core update-index
+arduino-cli board list
+arduino-cli core search arduino
+arduino-cli core install arduino:samd
+arduino-cli core install arduino:avr
+arduino-cli board listall mkr
+arduino-cli core update-index
+ssh pi@raspberrypi.local
+ssh-keygen -R raspberrypi.local
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+./setup-3-shotcuts 
