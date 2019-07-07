@@ -1,7 +1,0 @@
-#!/bin/bash
-mypath="$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS"
-
-
-gio set -t 'string' $mypath 'metadata::custom-icon' 'file:///home/aghiles/icon.png'
-touch $mypath
-

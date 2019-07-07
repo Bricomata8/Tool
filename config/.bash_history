@@ -936,3 +936,105 @@ arduino-log
 arduino-exec Arduino_LoRa_Ping_Pong
 arduino-log 
 ./setup-3-shotcuts 
+cle lora 0
+cd "/home/aghiles/Aghiles/Tool/shotcuts/psa"
+./6
+mypath="$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS"
+echo $mypath
+./1 
+./0 
+gedit Aghiles/Redaction/0/paper/paper.tex
+subl -b --project Aghiles/Redaction/0/0_paper.sublime-project
+gedit Aghiles/Redaction/0/0_paper.sublime-project
+subl -b --project Aghiles/Redaction/0/0_paper.sublime-project
+subl -b --project /home/aghiles/Aghiles/Redaction/0/0_paper.sublime-project /home/aghiles/Aghiles/Redaction/0/paper/paper.tex
+cd "/home/aghiles/Aghiles/Tool/shotcuts/p"
+./0 
+subl -b --project ~/Aghiles/Redaction/0/0_.sublime-project ~/Aghiles/Redaction/0/paper/paper.tex
+subl -b --project Aghiles/Redaction/0/0_paper.sublime-project Aghiles/Redaction/0/paper/paper.tex
+gedit Aghiles/Redaction/0/0_.sublime-project
+./shotcuts 
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-compile Arduino_LoRa_Ping_Pong
+cd "/home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong"
+cd ..
+arduino-compile Arduino_LoRa_Ping_Pong
+ls
+arduino-cli core update-index
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exe Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+gedit iotlab.desktop 
+./iotlabk 
+gedit ResCom\ Summer\ School\ 2019\ •\ FIT\\IoT-LAB.desktop 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+ssh djoudi@grenoble.iot-lab.info
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub 
+ssh djoudi@grenoble.iot-lab.info
+nc
+sudo python setup.py install
+git clone https://github.com/iot-lab/cli-tools.git
+git clone https://github.com/iot-lab/oml-plot-tools.git
+cd oml-plot-tools/
+python setup.py 
+sudo python setup.py install
+ssh -L 20000:m3-5:20000 djoudi@grenoble.iot-lab.info
+mkdir tyu
+cd tyu
+git clone https://github.com/iot-lab/iot-lab.git
+cd iot-lab/
+make setup-contiki
+make setup-riot 
+cd parts/contiki
+cd examples/iotlab/03-sensors-collecting/
+make TARGET=iotlab-m3
+iotlab-experiment submit -n contiki -d 15 -l 1,archi=m3:at86rf231+site=grenoble+mobile=0,sensors-collecting.iotlab-m3
+iotlab-auth -udjoudi
+iotlab-experiment submit -n contiki -d 15 -l 1,archi=m3:at86rf231+site=grenoble+mobile=0,sensors-collecting.iotlab-m3
+iotlab-experiment -h
+iotlab-experiment submit -n tuto_cli -d 30 -l grenoble,m3,2+4-5+9+11
+iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=grenoble
+iotlab-experiment get -i 17480 -s
+iotlab-experiment get -i 17481 -s
+iotlab-experiment get -i 17482 -s
+iotlab-node
+iotlab-node -l
+lynx
+cd ~ t
+cd ~/tyu/
+iotlab-experiment info -l
+iotlab-experiment info -l --site grenoble --archi m3
+iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=grenoble
+iotlab-experiment get -i 174583 -s
+iotlab-experiment get -i 174582 -s
+iotlab-experiment get -i 174581 -s
+iotlab-experiment submit -d 30 -l grenoble,m3,2,sink_node.elf -l grenoble,m3,4-5+9+11,node.elf
+plot_oml_consum -p -i ~/.iot-lab/174582/consumption/m3-1.oml
+ls /home/aghiles/.iot-lab/174582/consumption/
+ls /home/aghiles/.iot-lab/174582/consumption
+ls /home/aghiles/.iot-lab/
+plot_oml_consum -p -i ~/tyu/.iot-lab/174582/consumption/m3-1.oml
+ls /home/aghiles/tyu/.iot-lab/
+ls /home/aghiles/tyu/iot-lab/
+plot_oml_consum -p -i ~/tyu/iot-lab/174582/consumption/m3-1.oml
+iotlab-experiment submit -d 30 -l grenoble,m3,2,sink_node.elf -l grenoble,m3,4-5+9+11,node.elf
+iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=saclay
+

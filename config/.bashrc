@@ -136,7 +136,7 @@ sudo dd $1 $2 bs=1M status=progress && sync
 alias arduino-compile='arduino-cli compile --fqbn arduino:avr:uno'
 alias arduino-exec='arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno'
 alias arduino-log='screen /dev/ttyACM0 38400'
-
+alias arduino-update='arduino-cli core update-index'
 
 ## --------------------------------------------------
 ##------ NS3 + WAF + NetAnim

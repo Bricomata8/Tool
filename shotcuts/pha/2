@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#!/bin/sh
+
+title1="Redaction"
+
+titl1=Aghiles/Redaction*
+
+cmd="cd /home/aghiles/Aghiles/Program/gw/Lora; /usr/local/MATLAB/R2016b/bin/matlab"
+
+gnome-terminal \
+				--tab --title="$title1" --command="bash -c 'cd $titl1; $cmd; $SHELL'" 
+
+
+#cd /home/aghiles/Aghiles/Program/gw/Lora
+#/usr/local/MATLAB/R2016b/bin/matlab &
+
