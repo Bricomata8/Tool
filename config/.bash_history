@@ -1038,3 +1038,151 @@ plot_oml_consum -p -i ~/tyu/iot-lab/174582/consumption/m3-1.oml
 iotlab-experiment submit -d 30 -l grenoble,m3,2,sink_node.elf -l grenoble,m3,4-5+9+11,node.elf
 iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=saclay
 
+cd ~/iot-lab/parts/contiki/examples/ipv6/rpl-border-router
+gedit project-conf.h 
+make TARGET=iotlab-m3
+cp border-router.iotlab-m3 ~/
+cd ~/iot-lab/parts/contiki/examples/iotlab/04-er-rest-example
+gedit project-conf.h 
+make TARGET=iotlab-m3
+cp er-example-server.iotlab-m3 ~/
+sudo tunslip6.py -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+cd tools/
+make tunslip6
+mkdir uo
+cd uo/
+apt-get install python-pip git python-dev python-ecdsa fabric 
+sudo apt-get install python-pip git python-dev python-ecdsa fabric 
+pip install -e git+https://github.com/iot-lab/cli-tools.git#egg=iotlabcli[secure]
+sudo pip install -e git+https://github.com/iot-lab/cli-tools.git#egg=iotlabcli[secure]
+sudo add-apt-repository ppa:chris-lea/node.js
+apt-get update
+sudo apt-get update
+apt-get install nodejs npm
+sudo apt-get install nodejs npm
+npm install socket.io coap
+git clone https://github.com/iot-lab/ssh-cli-tools.git
+cd ssh-cli-tools/
+sudo python setup.py install
+git clone https://github.com/iot-lab/cli-tools-testing.git
+python
+sudo python
+mkdir hy
+cd hy
+git clone https://github.com/ParallelSSH/parallel-ssh.git
+cd parallel-ssh/
+sudo python setup.py install
+python test_experiment_info_list.py 
+python conftest.py 
+sudo pip install iotlabsshcli
+iotlab-experiment submit -d 120 -l saclay,a8,1-10
+iotlab-ssh wait-for-boot
+iotlab-ssh wait-for-boot -r
+iotlab-ssh wait-for-boot -a
+iotlab-ssh wait-for-boot -i 
+iotlab-ssh wait-for-boot
+iotlab-ssh flash-m3 border-router.iotlab-m3 -l saclay,a8,2-3+5-7+9-10
+iotlab-ssh wait-for-boot
+pip install parallel-ssh
+git clone https://github.com/iot-lab/ws-cli-tools.git
+cd ws-cli-tools/
+sudo python setup.py install
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+sudo iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment wait
+iotlab-ws
+sudo pip install tornado
+iotlab-ws
+sudo pip install iotlabwscli --user
+iotlab-ws
+sudo iotlab-ws
+gedit help
+iotlab-ws
+iotlab-profile 
+sudo pip install cayenne-mqtt
+sudo pip install CoAPthon
+mkdir hackathon_demo
+cd hackathon_demo/
+wget wget https://gist.github.com/schrein/9abb828da2b3b12c4b24f99633052746
+python ./hackathon_silecs_final.py
+python ./hackathon_silecs_final.pyls
+ls
+mv 9abb828da2b3b12c4b24f99633052746 hackathon_silecs_final.py
+python ./hackathon_silecs_final.pyls
+python ./hackathon_silecs_final.py
+python3 ./hackathon_silecs_final.py
+python ./hackathon_silecs_final.py
+ssh pi@192.168.200.1
+iotlab-experiment submit -n test_cc1101 -d 30 -l grenoble,wsn430,1-4+5
+iotlab-experiment submit -n test_cc1101 -d 30 -l 5,archi=wsn430:cc1101+site=grenoble
+sudo iotlab-experiment submit -n test_cc1101 -d 30 -l 5,archi=wsn430:cc1101+site=grenoble
+iotlab-experiment submit -n test_cc1101 -d 30 -l 5,archi=wsn430:cc1101+site=grenoble
+iotlab-node -h
+iotlab-profile add -n test_consumption -p dc -current -voltage -power -cfreq 5000
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -cfreq 5000
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -freq 5000
+iotlab-profile addm3 -h
+iotlab-profile addm3 -n test_consumption -p battery -current -voltage -power -freq 5000
+iotlab-profile addm3 -n test_consumption -p battery -current -voltage -power
+iotlab-profile addm3 -n test_consumption -p battery -current -voltage -power -period 140 -avg 4
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
+iotlab-profile add -n test_sensor -p battery -temperature
+iotlab-profile addm3 -n test_sensor -p battery -temperature
+iotlab-profile get -n test_consumption > profile.json
+ls
+cat profile.json 
+iotlab-profile load -f profile.json
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_m3.elf
+ls
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment wait
+iotlab-ws
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -n riot_ttn -d 2 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_m3.elf
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment wait
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 10
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 174618
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 1
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 2
+iotlab-profile adda8 -h
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12
+man iotlab-experiment 
+iotlab-experiment  -h
+iotlab-experiment get
+iotlab-experiment get -h
+iotlab-experiment get -r
+iotlab-experiment get -e
+iotlab-experiment get -l
+iotlab-experiment submit -h
+iotlab-experiment profile -h
+iotlab-experiment profil -h
+iotlab-profile -h
+iotlab-profile add -h
+iotlab-profile -h
+iotlab-profile add --help
+iotlab-profile --help
+iotlab-profile adda8 -h
+iotlab-profile adda8 -n sniff_11 -sniffer -channels 11
+ls
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -cpower -period 8244 -avg 4
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -power -period 8244 -avg 4
+iotlab-profile addm3 -h
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -power -period 8244 -avg 4
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -period 8244 -avg 4
+iotlab-node  -h
+iotlab-node --update ~/iot-lab/parts/contiki/examples/ipv6/rpl-border-router/border-router.iotlab-m3 -l grenoble,m3,100
+coap get coap://[2001:660:5307:3100::9982]:5683/.well-known/core
+sudo tunslip6.py -v2 -L -a m3-100 -p 20000 2001:660:5307:3100::1/64
+sudo tunslip6 -v2 -L -a m3-100 -p 20000 2001:660:5307:3100::1/64
+cp /home/aghiles/iot-lab/parts/contiki/tools/tunslip6 /sbin/
+sudo cp /home/aghiles/iot-lab/parts/contiki/tools/tunslip6 /sbin/
+cd tools/
+make tunslip6
+tunslip6 
+sudo tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+sudo tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
