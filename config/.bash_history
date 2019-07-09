@@ -1272,3 +1272,7 @@ ln -s /home/aghiles/Aghiles/Tool/config/dregetesiee/* /home/aghiles/snap/mailspr
 ln -s /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/snap/mailspring/common
 ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
 pkill mailspring 
+ln -s /home/aghiles/Aghiles/mailspring /home/aghiles/snap/mailspring
+ln -s /media/aghiles/Aghiles/mailspring  /home/aghiles/snap/mailspring
+mailspring 
+ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
