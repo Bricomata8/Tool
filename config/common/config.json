@@ -136,15 +136,7 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null20073 [2019-07-09 16:05:39.776] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20073 [2019-07-09 16:05:39.782] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null20073 [2019-07-09 16:05:39.776] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20073 [2019-07-09 16:05:39.782] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
         "__cls": "Account"
       },
       {
@@ -176,8 +168,8 @@
         "syncError": {
           "code": 134,
           "error": {
-            "stack": "Error: null20085 [2019-07-09 16:05:39.776] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20085 [2019-07-09 16:05:39.782] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 20085 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null20085 [2019-07-09 16:05:39.776] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20085 [2019-07-09 16:05:39.782] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 20085 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
+            "stack": "Error: null24059 [2019-07-09 18:35:25.976] [foreground] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** database disk image is malformed\n ***\n\n24059 [2019-07-09 18:35:25.982] [foreground] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 24059 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
+            "message": "null24059 [2019-07-09 18:35:25.976] [foreground] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** database disk image is malformed\n ***\n\n24059 [2019-07-09 18:35:25.982] [foreground] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 24059 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
           },
           "signal": null
         },
@@ -207,15 +199,7 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null11033 [2019-07-09 18:07:11.731] [main] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** no such table: Task\n ***\n\n11033 [2019-07-09 18:07:11.732] [background] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** no such table: Folder\n ***\n\n11033 [2019-07-09 18:07:11.734] [metadata] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** no such table: _State\n ***\n\n11033 [2019-07-09 18:07:11.742] [background] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 11033 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null11033 [2019-07-09 18:07:11.731] [main] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** no such table: Task\n ***\n\n11033 [2019-07-09 18:07:11.732] [background] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** no such table: Folder\n ***\n\n11033 [2019-07-09 18:07:11.734] [metadata] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** no such table: _State\n ***\n\n11033 [2019-07-09 18:07:11.742] [background] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 11033 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
         "__cls": "Account"
       },
       {
@@ -242,15 +226,8 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "invalid",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null3486 [2019-07-09 14:54:39.217] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n3486 [2019-07-09 14:54:39.217] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  3486 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null3486 [2019-07-09 14:54:39.217] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n3486 [2019-07-09 14:54:39.217] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  3486 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
+        "syncError": null,
         "__cls": "Account"
       },
       {
@@ -260,17 +237,17 @@
         "provider": "gmail",
         "emailAddress": "aghiles.djoudi@esiee.fr",
         "settings": {
-          "imap_allow_insecure_ssl": false,
           "imap_host": "imap.gmail.com",
           "imap_port": 993,
-          "imap_security": "SSL / TLS",
           "imap_username": "aghiles.djoudi@esiee.fr",
-          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com",
-          "smtp_allow_insecure_ssl": false,
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
           "smtp_host": "smtp.gmail.com",
           "smtp_port": 587,
+          "smtp_username": "aghiles.djoudi@esiee.fr",
           "smtp_security": "STARTTLS",
-          "smtp_username": "aghiles.djoudi@esiee.fr"
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
         },
         "label": "aghiles.djoudi@esiee.fr",
         "autoaddress": {
@@ -278,55 +255,11 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null20047 [2019-07-09 16:05:39.775] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20047 [2019-07-09 16:05:39.782] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null20047 [2019-07-09 16:05:39.775] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20047 [2019-07-09 16:05:39.782] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n"
-          },
-          "signal": null
-        },
-        "__cls": "Account"
-      },
-      {
-        "id": "ea6d3656",
-        "metadata": [],
-        "name": "Aghiles DJOUDI",
-        "provider": "gmail",
-        "emailAddress": "aghiles.djoudi@univ-paris-est.fr",
-        "settings": {
-          "imap_allow_insecure_ssl": false,
-          "imap_host": "imap.gmail.com",
-          "imap_port": 993,
-          "imap_security": "SSL / TLS",
-          "imap_username": "aghiles.djoudi@univ-paris-est.fr",
-          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com",
-          "smtp_allow_insecure_ssl": false,
-          "smtp_host": "smtp.gmail.com",
-          "smtp_port": 465,
-          "smtp_security": "SSL / TLS",
-          "smtp_username": "aghiles.djoudi@univ-paris-est.fr"
-        },
-        "label": "aghiles.djoudi@univ-paris-est.fr",
-        "autoaddress": {
-          "type": "bcc",
-          "value": ""
-        },
-        "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null20059 [2019-07-09 16:05:39.775] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20059 [2019-07-09 16:05:39.781] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 20059 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null20059 [2019-07-09 16:05:39.775] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n20059 [2019-07-09 16:05:39.781] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 20059 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
         "__cls": "Account"
       }
     ],
-    "accountsVersion": 38,
+    "accountsVersion": 10,
     "plugins": {
       "open-tracking": {
         "defaultOn": false

@@ -1462,3 +1462,6 @@ git status
 git reset HEAD~20
 rm .git/hooks/pre-push
 ./push 
+pkill mailspring 
+ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
+pkill mailspring 
