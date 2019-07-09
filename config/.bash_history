@@ -1276,3 +1276,6 @@ ln -s /home/aghiles/Aghiles/mailspring /home/aghiles/snap/mailspring
 ln -s /media/aghiles/Aghiles/mailspring  /home/aghiles/snap/mailspring
 mailspring 
 ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+./pull
+cd Administration/
+./pull 
