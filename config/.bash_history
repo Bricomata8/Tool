@@ -626,3 +626,749 @@ python3 phone-gps-plot.py
 cd docker/
 ./docker_run_grlora.sh
 sudo ./docker_run_grlora.sh
+<<<<<<< HEAD
+sudo ./install.sh 
+arduino
+arduino
+./arduino
+arduino
+sudo ./install.sh 
+./install.sh 
+arduino
+./install.sh 
+arduino
+./install.sh 
+sudo ./install.sh 
+./install.sh 
+arduino
+sudo apt install contiki
+=======
+sudo apt install gr-osmosdr
+sudo apt install gr-lora
+sudo pip install gr-lora
+sudo apt install  liquid-dsp
+sudo apt install  liquid
+sudo pip install liquid
+sudo pip install liquid-dsp
+sudo apt search  liquid
+sudo apt install libliquid-dev
+mkdir build
+cd build
+cmake ../  # Note to Arch Linux users: add "-DCMAKE_INSTALL_PREFIX=/usr"
+make && sudo make install
+sudo pip install loranode
+sudo apt  install loranode
+
+bash pdr_comparison_experiment.sh 
+bash pdr_comparison_experiment.sh noise
+bash snr_experiment_dedicated.sh 
+sudo pip install sigmf
+bash snr_experiment_dedicated.sh 
+sudo pip install colorama
+sudo pip install configparser
+sudo pip install pymongo
+bash runExperiments.sh 
+bash runExperiments.sh 
+sudo apt install gnuradio
+sudo apt-get install     libnuma-dev cmake g++     libpython-dev python-numpy     qtbase5-dev libqt5svg5-dev libqt5opengl5-dev libqwt-qt5-dev     portaudio19-dev libjack-jackd2-dev     graphviz
+sudo add-apt-repository -y ppa:pothosware/support
+sudo add-apt-repository -y ppa:pothosware/framework
+sudo apt-get update
+sudo apt-get install     libpoco-dev     libspuce-dev     nlohmann-json-dev     libmuparserx-dev
+sudo add-apt-repository -y ppa:pothosware/support
+sudo add-apt-repository -y ppa:pothosware/framework
+sudo apt-get update
+sudo apt-get install     libpoco-dev
+sudo apt-get install libspuce-dev
+sudo apt-get install nlohmann-json-dev
+sudo apt-get install libmuparserx-dev
+sudo add-apt-repository -y ppa:myriadrf/drivers
+sudo apt-get update
+sudo apt-get install libsoapysdr-dev
+git clone --recursive https://github.com/pothosware/PothosCore.git
+cd PothosCore
+git pull origin master
+git submodule update --init --recursive --remote
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
+sudo ldconfig #needed on debian systems
+PothosUtil --self-tests
+PothosFlow #launches GUI designer
+mkdir build
+cd build
+cmake ../
+cmake -DCMAKE_INSTALL_PREFIX=/usr ../
+finf pathos
+find pathos
+whereis pathos
+sudo apt insall pathos
+sudo apt install pathos
+cmake ../
+make -j4
+sudo make install
+ls
+PothosUtil 
+PothosFlow 
+ls
+bash PothosUtil.sh 
+sudp pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo apt install python3-pip
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo pip install celery tensorflow keras matplotlib numpy sklearn
+sudo apt install python3-pip3
+sudo apt install python3-pip
+cd examples/
+ls
+python modulation_explained_plots.py 
+cd ..
+RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+python RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+python3 RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+python RN2483.py --freq=863.1e6 --bw=0.5e6 --sf=11 --tx="hello"
+sudo rm -rf /usr/local/bin/pip3
+sudo ln -s /usr/local/your_python_path/bin/pip3 /usr/local/bin/pip3
+pip3 -version
+sudp pip3 install celery tensorflow keras matplotlib numpy sklearn
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+grep -ri main
+cd emma-master/
+celery -A emma_worker worker -l info -Q celery,priority.high
+emma.py plot ASCAD
+./emma.py plot ASCAD
+pythin3 emma.py plot ASCAD
+python3 emma.py plot ASCAD
+python emma.py plot ASCAD
+gedit emma.py 
+python emma.py plot ASCAD
+python3 emma.py plot ASCAD
+pip3
+pip
+pip -v
+pip -version
+pip --version
+pip3
+sudo apt install python3-pip
+sudo apt upgrade python3-pip
+sudo apt upgrade
+sudo apt autoremove 
+sudo apt autoclean
+pip3
+sudo pip upgrade
+sudo pip3 upgrade
+ls
+celery -A emma_worker worker -l info -Q celery,priority.high
+emma.py plot ASCAD
+.§emma.py plot ASCAD
+./emma.py plot ASCAD
+./emma.py -h
+gedit emma.py 
+arduino
+arduino-cli core install arduino:samd
+arduino-cli board list
+arduino-cli core list
+arduino
+mkdir gopath
+go get -u github.com/arduino/arduino-cli
+sudo apt install golang
+go get -u github.com/arduino/arduino-cli
+GOPATH=~/gopath 
+go get -u github.com/arduino/arduino-cli
+export GOPATH=/home/aghiles/gopath 
+go get -u github.com/arduino/arduino-cli
+arduino
+cd Downloads/
+tar -C /usr/local -xzf go1.12.6.linux-amd64.tar.gzsudo apt remove gola
+export PATH=$PATH:/usr/local/go/bin
+ls
+sudo apt remove golang
+go
+export GOPATH=/home/aghiles/poo
+cd
+mkdir poo
+go get -u github.com/arduino/arduino-cli
+go -version
+go version
+sudo apt remove go
+sudo apt remove golang
+sudo apt autoremove
+go
+rm -rf /usr/local/go
+go
+whereis go
+sudo apt remove --purge golang
+rm -rf /usr/bin/go
+sudo rm -rf /usr/bin/go
+go
+sudo apt-get -y upgrade
+sudo apt autoremove 
+wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
+tar -xvf go1.12.6.linux-amd64.tar.gz
+sudo mv go /usr/local
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/gotmp
+go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+go version
+go env
+go get -u github.com/arduino/arduino-cli
+cd "/home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong"
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong.ino 
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr Arduino_LoRa_Ping_Pong.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong.ino
+ls
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+cd ..
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+arduino-cli sketch new file:///home/aghiles/Aghiles/Program/boards/arduino
+arduino-cli sketch new /home/aghiles/Aghiles/Program/boards/arduino
+arduino-cli sketch new MyFirstSketch
+arduino-cli sketch new "/home/aghiles/Aghiles/Program/boards/arduino"
+cd /home/aghiles/Aghiles/Program/boards/
+arduino-cli sketch new arduino
+arduino-cli core update-index
+arduino-cli board list
+arduino-cli core search arduino
+arduino-cli core search mkr1000
+arduino-cli core install arduino:samd
+arduino-cli core list
+arduino-cli board list
+arduino-cli board listall mkr
+gedit arduino-cli.yaml
+arduino-cli core update-index
+arduino-cli core install esp8266:esp8266
+arduino-cli compile --fqbn arduino:samd:mkr1000 arduino/Arduino_LoRa_Ping_Pong
+cd arduino
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong
+ls
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong
+arduino
+arduino-cli sketch new MyFirstSketch
+cat /home/luca/Arduino/MyFirstSketch/MyFirstSketch.ino
+arduino-cli sketch new MyFirstSketch
+cat /home/aghiles/Arduino/MyFirstSketch/MyFirstSketch.ino
+gedit /home/aghiles/Arduino/MyFirstSketch/MyFirstSketch.ino
+arduino-cli core update-index
+arduino-cli board list
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli board list
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli core update-index
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:mkr1000 Arduino/MyFirstSketch
+arduino-cli compile --fqbn arduino:avr:uno Arduino/MyFirstSketch
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino/MyFirstSketch
+sudo arduino-cli board list
+arduino-cli.exe config init
+arduino-cli config init
+gedit 
+arduino-cli compile --fqbn arduino:samd:mkr1000 Arduino_LoRa_Ping_Pong
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+arduino-cli compile --fqbn arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong/Arduino_LoRa_Ping_Pong.ino
+arduino-cli compile --fqbn arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Ping_Pong
+arduino-compile Arduino_LoRa_Ping_Pong.ino
+arduino-exec Arduino_LoRa_Ping_Pong.ino
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong/Arduino_LoRa_Ping_Pong.ino
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong/Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+ls /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino
+sudo apt install putty
+sudo apt install screen
+screen /dev/ttyACM0 38400
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+ls /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong.ino
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino-compile /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong
+arduino
+arduino-cli compile --fqbn arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-compile arduino:avr:uno /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-compile /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-exec /home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway
+putty /dev/ttyACM0 38400
+arduino-compile Arduino_LoRa_Simple_temp
+arduino-compile Arduino_LoRa_Simple_temp.ino 
+arduino-exec Arduino_LoRa_Simple_temp.ino 
+arduino-exec Arduino_LoRa_Simple_temp 
+arduino-compile Arduino_LoRa_Simple_temp 
+arduino-compile Arduino_LoRa_Simple_temp.ino
+arduino-exec Arduino_LoRa_Simple_temp.ino
+arduino-compile Arduino_LoRa_Simple_temp
+arduino-exec Arduino_LoRa_Simple_temp.ino
+arduino-compile Arduino_LoRa_Simple_temp.ino
+arduino-exec Arduino_LoRa_Simple_temp.ino
+arduino-compile Arduino_LoRa_Simple_temp
+cd ..
+arduino-compile Arduino_LoRa_Simple_temp
+arduino-exec Arduino_LoRa_Simple_temp
+arduino-log 
+>>>>>>> 90f8f9c6c0806a2890e2c44c63ac4814fb83e60f
+java -jar coap-shell-1.0.7.jar 
+ln -s /media/aghiles/Aghiles/Downloads/Documents /home/aghiles/Aghiles/Documents
+arduino-compile Arduino_LoRa_Ping_Pong
+cd ..
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+sudo apt install screen
+arduino-log 
+arduino-cli core update-index
+arduino-cli board list
+arduino-cli core search arduino
+arduino-cli core install arduino:samd
+arduino-cli core install arduino:avr
+arduino-cli board listall mkr
+arduino-cli core update-index
+ssh pi@raspberrypi.local
+ssh-keygen -R raspberrypi.local
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+./setup-3-shotcuts 
+cle lora 0
+cd "/home/aghiles/Aghiles/Tool/shotcuts/psa"
+./6
+mypath="$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS"
+echo $mypath
+./1 
+./0 
+gedit Aghiles/Redaction/0/paper/paper.tex
+subl -b --project Aghiles/Redaction/0/0_paper.sublime-project
+gedit Aghiles/Redaction/0/0_paper.sublime-project
+subl -b --project Aghiles/Redaction/0/0_paper.sublime-project
+subl -b --project /home/aghiles/Aghiles/Redaction/0/0_paper.sublime-project /home/aghiles/Aghiles/Redaction/0/paper/paper.tex
+cd "/home/aghiles/Aghiles/Tool/shotcuts/p"
+./0 
+subl -b --project ~/Aghiles/Redaction/0/0_.sublime-project ~/Aghiles/Redaction/0/paper/paper.tex
+subl -b --project Aghiles/Redaction/0/0_paper.sublime-project Aghiles/Redaction/0/paper/paper.tex
+gedit Aghiles/Redaction/0/0_.sublime-project
+./shotcuts 
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-compile Arduino_LoRa_Ping_Pong
+cd "/home/aghiles/Aghiles/Program/boards/arduino/Arduino_LoRa_Ping_Pong"
+cd ..
+arduino-compile Arduino_LoRa_Ping_Pong
+ls
+arduino-cli core update-index
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exe Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+gedit iotlab.desktop 
+./iotlabk 
+gedit ResCom\ Summer\ School\ 2019\ •\ FIT\\IoT-LAB.desktop 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+ssh djoudi@grenoble.iot-lab.info
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub 
+ssh djoudi@grenoble.iot-lab.info
+nc
+sudo python setup.py install
+git clone https://github.com/iot-lab/cli-tools.git
+git clone https://github.com/iot-lab/oml-plot-tools.git
+cd oml-plot-tools/
+python setup.py 
+sudo python setup.py install
+ssh -L 20000:m3-5:20000 djoudi@grenoble.iot-lab.info
+mkdir tyu
+cd tyu
+git clone https://github.com/iot-lab/iot-lab.git
+cd iot-lab/
+make setup-contiki
+make setup-riot 
+cd parts/contiki
+cd examples/iotlab/03-sensors-collecting/
+make TARGET=iotlab-m3
+iotlab-experiment submit -n contiki -d 15 -l 1,archi=m3:at86rf231+site=grenoble+mobile=0,sensors-collecting.iotlab-m3
+iotlab-auth -udjoudi
+iotlab-experiment submit -n contiki -d 15 -l 1,archi=m3:at86rf231+site=grenoble+mobile=0,sensors-collecting.iotlab-m3
+iotlab-experiment -h
+iotlab-experiment submit -n tuto_cli -d 30 -l grenoble,m3,2+4-5+9+11
+iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=grenoble
+iotlab-experiment get -i 17480 -s
+iotlab-experiment get -i 17481 -s
+iotlab-experiment get -i 17482 -s
+iotlab-node
+iotlab-node -l
+lynx
+cd ~ t
+cd ~/tyu/
+iotlab-experiment info -l
+iotlab-experiment info -l --site grenoble --archi m3
+iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=grenoble
+iotlab-experiment get -i 174583 -s
+iotlab-experiment get -i 174582 -s
+iotlab-experiment get -i 174581 -s
+iotlab-experiment submit -d 30 -l grenoble,m3,2,sink_node.elf -l grenoble,m3,4-5+9+11,node.elf
+plot_oml_consum -p -i ~/.iot-lab/174582/consumption/m3-1.oml
+ls /home/aghiles/.iot-lab/174582/consumption/
+ls /home/aghiles/.iot-lab/174582/consumption
+ls /home/aghiles/.iot-lab/
+plot_oml_consum -p -i ~/tyu/.iot-lab/174582/consumption/m3-1.oml
+ls /home/aghiles/tyu/.iot-lab/
+ls /home/aghiles/tyu/iot-lab/
+plot_oml_consum -p -i ~/tyu/iot-lab/174582/consumption/m3-1.oml
+iotlab-experiment submit -d 30 -l grenoble,m3,2,sink_node.elf -l grenoble,m3,4-5+9+11,node.elf
+iotlab-experiment submit -n tuto_cli -d 30 -l 5,archi=m3:at86rf231+site=saclay
+
+cd ~/iot-lab/parts/contiki/examples/ipv6/rpl-border-router
+gedit project-conf.h 
+make TARGET=iotlab-m3
+cp border-router.iotlab-m3 ~/
+cd ~/iot-lab/parts/contiki/examples/iotlab/04-er-rest-example
+gedit project-conf.h 
+make TARGET=iotlab-m3
+cp er-example-server.iotlab-m3 ~/
+sudo tunslip6.py -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+cd tools/
+make tunslip6
+mkdir uo
+cd uo/
+apt-get install python-pip git python-dev python-ecdsa fabric 
+sudo apt-get install python-pip git python-dev python-ecdsa fabric 
+pip install -e git+https://github.com/iot-lab/cli-tools.git#egg=iotlabcli[secure]
+sudo pip install -e git+https://github.com/iot-lab/cli-tools.git#egg=iotlabcli[secure]
+sudo add-apt-repository ppa:chris-lea/node.js
+apt-get update
+sudo apt-get update
+apt-get install nodejs npm
+sudo apt-get install nodejs npm
+npm install socket.io coap
+git clone https://github.com/iot-lab/ssh-cli-tools.git
+cd ssh-cli-tools/
+sudo python setup.py install
+git clone https://github.com/iot-lab/cli-tools-testing.git
+python
+sudo python
+mkdir hy
+cd hy
+git clone https://github.com/ParallelSSH/parallel-ssh.git
+cd parallel-ssh/
+sudo python setup.py install
+python test_experiment_info_list.py 
+python conftest.py 
+sudo pip install iotlabsshcli
+iotlab-experiment submit -d 120 -l saclay,a8,1-10
+iotlab-ssh wait-for-boot
+iotlab-ssh wait-for-boot -r
+iotlab-ssh wait-for-boot -a
+iotlab-ssh wait-for-boot -i 
+iotlab-ssh wait-for-boot
+iotlab-ssh flash-m3 border-router.iotlab-m3 -l saclay,a8,2-3+5-7+9-10
+iotlab-ssh wait-for-boot
+pip install parallel-ssh
+git clone https://github.com/iot-lab/ws-cli-tools.git
+cd ws-cli-tools/
+sudo python setup.py install
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+sudo iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment wait
+iotlab-ws
+sudo pip install tornado
+iotlab-ws
+sudo pip install iotlabwscli --user
+iotlab-ws
+sudo iotlab-ws
+gedit help
+iotlab-ws
+iotlab-profile 
+sudo pip install cayenne-mqtt
+sudo pip install CoAPthon
+mkdir hackathon_demo
+cd hackathon_demo/
+wget wget https://gist.github.com/schrein/9abb828da2b3b12c4b24f99633052746
+python ./hackathon_silecs_final.py
+python ./hackathon_silecs_final.pyls
+ls
+mv 9abb828da2b3b12c4b24f99633052746 hackathon_silecs_final.py
+python ./hackathon_silecs_final.pyls
+python ./hackathon_silecs_final.py
+python3 ./hackathon_silecs_final.py
+python ./hackathon_silecs_final.py
+ssh pi@192.168.200.1
+iotlab-experiment submit -n test_cc1101 -d 30 -l grenoble,wsn430,1-4+5
+iotlab-experiment submit -n test_cc1101 -d 30 -l 5,archi=wsn430:cc1101+site=grenoble
+sudo iotlab-experiment submit -n test_cc1101 -d 30 -l 5,archi=wsn430:cc1101+site=grenoble
+iotlab-experiment submit -n test_cc1101 -d 30 -l 5,archi=wsn430:cc1101+site=grenoble
+iotlab-node -h
+iotlab-profile add -n test_consumption -p dc -current -voltage -power -cfreq 5000
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -cfreq 5000
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -freq 5000
+iotlab-profile addm3 -h
+iotlab-profile addm3 -n test_consumption -p battery -current -voltage -power -freq 5000
+iotlab-profile addm3 -n test_consumption -p battery -current -voltage -power
+iotlab-profile addm3 -n test_consumption -p battery -current -voltage -power -period 140 -avg 4
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
+iotlab-profile add -n test_sensor -p battery -temperature
+iotlab-profile addm3 -n test_sensor -p battery -temperature
+iotlab-profile get -n test_consumption > profile.json
+ls
+cat profile.json 
+iotlab-profile load -f profile.json
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_m3.elf
+ls
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment wait
+iotlab-ws
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -n riot_ttn -d 2 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_m3.elf
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment wait
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 10
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 174618
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 1
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12 -num 2
+iotlab-profile adda8 -h
+iotlab-profile adda8 -n prof_rssi -rssi -channels 11 12
+man iotlab-experiment 
+iotlab-experiment  -h
+iotlab-experiment get
+iotlab-experiment get -h
+iotlab-experiment get -r
+iotlab-experiment get -e
+iotlab-experiment get -l
+iotlab-experiment submit -h
+iotlab-experiment profile -h
+iotlab-experiment profil -h
+iotlab-profile -h
+iotlab-profile add -h
+iotlab-profile -h
+iotlab-profile add --help
+iotlab-profile --help
+iotlab-profile adda8 -h
+iotlab-profile adda8 -n sniff_11 -sniffer -channels 11
+ls
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -cpower -period 8244 -avg 4
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -power -period 8244 -avg 4
+iotlab-profile addm3 -h
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -power -period 8244 -avg 4
+iotlab-profile addm3 -n profile_name -p battery -current -voltage -period 8244 -avg 4
+iotlab-node  -h
+iotlab-node --update ~/iot-lab/parts/contiki/examples/ipv6/rpl-border-router/border-router.iotlab-m3 -l grenoble,m3,100
+coap get coap://[2001:660:5307:3100::9982]:5683/.well-known/core
+sudo tunslip6.py -v2 -L -a m3-100 -p 20000 2001:660:5307:3100::1/64
+sudo tunslip6 -v2 -L -a m3-100 -p 20000 2001:660:5307:3100::1/64
+cp /home/aghiles/iot-lab/parts/contiki/tools/tunslip6 /sbin/
+sudo cp /home/aghiles/iot-lab/parts/contiki/tools/tunslip6 /sbin/
+cd tools/
+make tunslip6
+tunslip6 
+sudo tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+sudo tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+sudo python setup.py install
+git clone https://github.com/iot-lab/ws-cli-tools.git
+git clone https://github.com/iot-lab/cli-tools.git
+git clone https://github.com/iot-lab/ssh-cli-tools.git
+git clone https://github.com/iot-lab/oml-plot-tools.git
+sudo python setup.py install
+make
+make TARGET=m3
+cat ~/.ssh/id_rsa.pub
+gedit ~/.ssh/id_rsa.pub
+who
+pdfgrep -i schreiner
+pdfgrep -ri schreiner
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment submit -d 120 -l saclay,m3,1,sensors-collecting.iotlab-m3
+iotlab-auth -udjoudi
+iotlab-experiment submit -d 120 -l saclay,m3,1,sensors-collecting.iotlab-m3
+iotlab-profile addm3 -n consomation_ece -p dc -current -voltage -power -period 140 -avg 4
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+termtitle j
+kjkj
+termtitle "j"
+printf '\033]2;Hello\a'
+PS1="$ORIG\[$TITLE\]"
+mlml
+echo -e '\033]2;SomeTitle\007'
+title="SomeTitle"
+echo -e '\033]2;'$title'\007'
+PS1="$ORIG\[$TITLE\]"
+kjkj
+echo $PS1
+PROMPT_COMMAND='echo -en "\033]0;New terminal title\a"'
+function set-title() {   if [[ -z "$ORIG" ]]; then     ORIG=$PS1;   fi;   TITLE="\[\e]2;$*\a\]";   PS1=${ORIG}${TITLE}; }
+set-title kk
+set-title kk kjkj
+arduino-log 
+scp -r djoudi@grenoble.iot-lab.info:~/.iot-lab .
+ls
+scp -r tutorial_m3.elf djoudi@grenoble.iot-lab.info:~
+gedit TTN.desktop 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+ls
+mkdir uiy
+cd uiy/
+httrack https://seoc19.roc.cnam.fr/
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+iotlab-experiment submit -h
+iotlab-experiment profile -h
+iotlab-experiment -h
+iotlab-experiment script -h
+iotlab-experiment load -h
+iotlab-experiment reload -h
+iotlab-profil reload -h
+iotlab-profil -h
+iotlab-profile -h
+iotlab-profile addm3 -h
+iotlab-experiment submit -n lorawan -d 10 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1-2
+iotlab-experiment submit -n lorawan -d 10 -l saclay,st-lrwan1:sx1276,1-2
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+pdfunite titre.pdf 2019_Titre\ de\ sejour.pdf 
+pdfunite titre.pdf 2019_Titre\ de\ sejour.pdf ti.pdf
+pdfunite titre.pdf 2019_Titre\ de\ sejour.pdf tioi.pdf
+pkill mailspring 
+git-down https://github.com/Bricomata8/Tool/tree/0dd8578b36014d173f49fdd2c9cd0372a5f393b5/config/dregetece
+ls
+wget "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bricomata8/Tool/tree/0dd8578b36014d173f49fdd2c9cd0372a5f393b5/config/dregetece"
+gedit
+pkill mailspring 
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/ "/home/aghiles/snap/mailspring/common/Local Storage"
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/ "/home/aghiles/snap/mailspring/common"
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/ /home/aghiles/snap/mailspring/common/
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
+pkill mailspring 
+pkill mailspring 
+ln -s /home/aghiles/Aghiles/Tool/config/dregetesiee/* /home/aghiles/snap/mailspring/common
+ln -s /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/snap/mailspring/common
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
+pkill mailspring 
+<<<<<<< HEAD
+=======
+ln -s /home/aghiles/Aghiles/mailspring /home/aghiles/snap/mailspring
+ln -s /media/aghiles/Aghiles/mailspring  /home/aghiles/snap/mailspring
+mailspring 
+ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+>>>>>>> cb7b42308031d0b9fdf03f2469ad55ac9a256fa5
+pkill mailspring
+ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+sudo apt install insync-headless
+sudo apt search insync
+sudo apt install insync
+gnome-control-center
+gnome-panel 
+gnome-desktop-item-edit 
+mkdir l
+gnome-desktop-item-edit l
+ls google-drive://aghilesdjoudi@gmail.com/1XT5ZM7IBOBZ-ilUN4GW9Wy4oqHYsFwMQ 
+ls /aghilesdjoudi@gmail.com/1XT5ZM7IBOBZ-ilUN4GW9Wy4oqHYsFwMQ 
+ls /run/user/1000/gvfs/google-drive:host=gmail.com,user=aghilesdjoudi
+ls "/run/user/1000/gvfs/google-drive:host=gmail.com,user=aghilesdjoudi"
+ln -s /home/aghiles/Aghiles/Tool/config/dreget /home/aghiles/snap/mailspring/common
+oki
+pkill mailspring 
+rm-git config/dreget/edgehill.db
+pkill mailspring 
+ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+./push 
+rm-git config/edgehill.db 
+./push 
+rm-git config/edgehill.db 
+git merge
+./pull
+./push 
+rm -rf config/dreget/edgehill.db
+rm -rf config/dreget/edgehill.dblk
+rm -rf config/dreget/edgehill.db
+git rm -rf config/dreget/edgehill.db
+cd ..
+rm-git config/dreget/edgehill.db
+git rm --cached --ignore-unmatch config/dreget
+./push
+git push --all --force
+git checkout master
+git reset --soft
+./pull
+git push --all --force
+git commit --amend -CHEAD
+./push
+git rm --cached config/dreget/edgehill.db
+git rm config/dreget/edgehill.db
+git rm --cached config/dreget/edgehill.db
+rm-git config/dreget/edgehill.db
+git init
+./push
+aghilesDJ35B
+gnome-control-center
+pdf2txt 
+cle lora 0
+cd "/home/aghiles/Aghiles/Tool"
+./push
+git lfs track config/common/edgehill.db
+git add config/common/edgehill.db
+git commit -m "large file"
+./push 
+git commit -m "large file"
+git push Tool master
+git push -f Tool master
+git lfs track "config/common/*.db"
+git add config/common/edgehill.db
+./push 
+cd ..
+cd Tool/
+git commit -m "add file.psd"
+git push origin master
+git push Tool master
+./push 
+git push
+cd "/home/aghiles/Aghiles/Tool"
+./push 
+cd "/home/aghiles/Aghiles/Tool"
+./push
+./push 
+rm .git/hooks/pre-push
+./push 
+rm .git/hooks/pre-push
+rm .git/hooks/pre-push
+./push
+rm .git/hooks/pre-push
+gnome-control-center
+zotero
+grep -ri zotero
+cd zotero/
+./zotero
+zotero
+cd ..
+zotero
+cd ~/Aghiles/Redaction*/setup/lib/zotero
+sh zotero
+ping google.com

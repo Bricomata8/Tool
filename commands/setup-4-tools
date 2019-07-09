@@ -1,0 +1,282 @@
+#!/bin/sh
+
+sudo apt install git
+# Program
+git clone git://github.com/BRICOMATA8/Program
+# Redaction
+git clone git://github.com/BRICOMATA8/Redaction
+for d in `seq 0 5`; do 
+chmod u+x /home/aghiles/Aghiles/Redaction/$d/paper/compile;
+chmod u+x /home/aghiles/Aghiles/Redaction/$d/slide/compile;
+done
+chmod u+x /home/aghiles/Aghiles/Redaction/cv/*/compile
+# Formation
+git clone git://github.com/BRICOMATA9/Formation
+# Teaching
+git clone git://github.com/BRICOMATA9/Teaching
+
+sudo apt update
+
+# Contiki
+sudo apt install git curl graphviz unzip wget zip build-essential automake gettext automake software-properties-common 
+sudo apt install lib32z1 lib32ncurses5 gcc-arm-none-eabi gdb-arm-none-eabi gcc gcc-msp430 libc6-i386 net-tools gcc-arm-none-eabi
+sudo apt -o Dpkg::Options::="--force-overwrite" install gdb-arm-none-eabi
+sudo apt install openjdk-8-jdk
+
+##################################################################################
+
+directory=/home/aghiles/Aghiles/Program/bin
+mkdir -p $directory
+cd $directory
+
+#gnuplot
+sudo apt install gnuradio gr-osmosdr libliquid-dev
+sudo pip install loranode sigmf colorama configparser pymongo
+
+git clone https://github.com/rpp0/gr-lora.git .
+mkdir build
+cd build
+cmake ../  # Note to Arch Linux users: add "-DCMAKE_INSTALL_PREFIX=/usr"
+make && sudo make install
+
+# Pathos
+sudo apt-get install \
+    libnuma-dev cmake g++ \
+    libpython-dev python-numpy \
+    qtbase5-dev libqt5svg5-dev libqt5opengl5-dev libqwt-qt5-dev \
+    portaudio19-dev libjack-jackd2-dev \
+    graphviz
+
+#https://github.com/myriadrf/LoRa-SDR
+
+# Contiki
+git clone --recursive https://github.com/contiki-os/contiki.git
+# attention: python-magic
+cd $directory
+# Sdn-wise java
+git clone git://github.com/sdnwiselab/sdn-wise-java
+# Onos
+git clone git://github.com/sdnwiselab/onos
+# Mininet
+git clone git://github.com/mininet/mininet
+# Application: Downlad Apache Karaf
+mkdir $directory/Applications
+wget http://archive.apache.org/dist/karaf/3.0.2/apache-karaf-3.0.2.tar.gz -P $directory/Applications
+tar -zxvf $directory/Applications/apache-karaf-3.0.2.tar.gz -C $directory/Applications/
+# Add ONOS and SDN-WISE to Karaf
+sed -i '/featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features/c\featuresRepositories=mvn:org.apache.karaf.features\/standard\/3.0.2\/xml\/features,mvn:org.apache.karaf.features\/enterprise\/3.0.2\/xml\/features,mvn:org.ops4j.pax.web\/pax-web-features\/3.1.2\/xml\/features,mvn:org.apache.karaf.features\/spring\/3.0.2\/xml\/features,mvn:org.onosproject\/onos-features\/1.0.2-SNAPSHOT\/xml\/features' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+sed -i '/featuresBoot=config,standard,region,package,kar,ssh,management/c\featuresBoot=config,standard,region,package,kar,ssh,management,onos-api,onos-core-trivial,onos-cli,onos-openflow,onos-app-fwd,onos-app-mobility,onos-gui,onos-sdnwise,onos-sdnwise-providers' $directory/Applications/apache-karaf-3.0.2/etc/org.apache.karaf.features.cfg
+# Setup environment variables
+echo "export ONOS_ROOT=$directory/onos" >> ~/.bashrc
+source ~/.bashrc
+source $ONOS_ROOT/tools/dev/bash_profile
+# Mininet
+sudo mininet/util/install.sh -nfv
+# Onos
+cd $directory/onos
+sudo tools/build/onos-buck build onos --show-output 
+#tools/build/onos-buck run onos-local -- clean debug
+
+##################################################################################
+
+#6lbr
+sudo apt install libncurses5-dev bridge-utils libssl-dev ares.dev libwebsockets.dev uuid.dev
+sudo apt install cmake g++ libc-ares-dev uuid-dev xsltproc docbook-xsl
+
+sudo apt-get install python-pip
+sudo pip install --upgrade pip
+sudo pip install paho-mqtt
+sudo python -m pip install pyserial
+sudo python -m pip install networkx
+
+sudo apt install ubuntu-unity-desktop 
+sudo apt install gedit-plugins 
+sudo apt install gedit-source-code-browser-plugin
+sudo apt install gedit-latex-plugin 
+sudo apt install dconf-editor 
+sudo apt install notify-osd 
+sudo apt install unity-tweak-tool 
+sudo apt install gnome-tweaks 
+sudo apt install gnome-control-center 
+sudo apt install texlive-full 
+sudo apt install okular 
+sudo apt install r-base 
+sudo apt install r-cran-*
+
+curl -O https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.deb
+sudo apt install ./vagrant_2.2.3_x86_64.deb
+rm -r ./vagrant_2.2.3_x86_64.deb
+
+sudo -s
+echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
+exit
+sudo apt update && sudo apt install virtualbox-6.0
+vboxversion=$(wget -qO - https://download.virtualbox.org/virtualbox/LATEST.TXT)
+wget "https://download.virtualbox.org/virtualbox/$vboxversion/Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack"
+sudo vboxmanage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-$vboxversion.vbox-extpack
+rm -r Oracle_VM_VirtualBox_Extension_Pack-6.0.6.vbox-extpack
+
+#sudo apt install virtualbox-ext-pack 
+sudo apt install xsel 
+sudo apt install mpg123 
+sudo apt install liballegro4-dev
+sudo apt install gdebi-core
+sudo apt install hunspell-fr
+sudo apt install texmaker
+sudo apt install poppler-utils
+sudo apt install xpdf
+sudo apt install clang-format # C format
+sudo apt install snapd
+sudo snap install mailspring
+sudo snap install mathpix-snipping-tool # https://extensions.gnome.org/extension/615/appindicator-support/
+sudo apt install zenity
+sudo apt install gnome-todo
+sudo apt install plotutils
+sudo apt install subversion
+sudo apt install adb
+sudo apt install httrack
+sudo apt install maven redis-server mongodb mysql-server
+sudo apt install dspdfviewer
+sudo apt install pdfgrep
+sudo apt install wireshark
+sudo apt install mosquitto
+sudo apt install amqp-tools
+sudo apt install nodejs
+sudo apt install cryptsetup
+sudo apt install redshift
+sudo apt install translate-shell
+sudo apt install shntool
+sudo apt install tree
+sudo apt install freeplane
+sudo apt install skype
+sudo apt install pdftk
+sudo apt install unrar
+sudo apt install inkscape
+sudo apt install sublime-merge
+
+# R
+sudo apt install dirmngr --install-recommends
+sudo apt install software-properties-common
+sudo apt install apt-transport-https
+sudo apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/debian stretch-cran35/'
+sudo apt update
+sudo apt install r-base
+
+# traduction join wav
+sudo apt install shnjoin shntool
+#matlab
+#you have to copy the bin file
+
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt-get update && sudo apt install -y nodejs
+sudo apt-get update && sudo apt-get install yarn
+
+sudo npm install coap-cli -g
+sudo npm install -g --unsafe-perm node-red
+sudo npm install node-red-contrib-coap
+sudo npm install node-red-contrib-amqp
+
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.deb.sh | sudo bash
+sudo apt-get install erlang erlang-nox
+sudo apt-get install rabbitmq-server
+
+# riot
+sudo apt --reinstall install libc6 libc6-dev
+sudo apt install openocd
+
+cd ~/Downlads
+sudo apt install chromium
+git clone https://github.com/mkovatsc/Copper4Cr.git
+cd Copper4Cr
+./install.sh
+
+pip install -U scikit-learn
+sudo apt-get install build-essential python-dev python-numpy python-numpy-dev python-scipy libatlas-dev g++ python-matplotlib ipython
+sudo apt-get install build-essential python3-dev python3-numpy python3-numpy-dev python3-scipy libatlas-dev g++ python3-matplotlib ipython
+
+#SubliText
+sudo apt install apt-transport-https
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+su
+echo "deb https://download.sublimetext.com/ apt/stable/" > /etc/apt/sources.list.d/sublime-text.list
+exit
+sudo apt update
+sudo apt install sublime-text
+sudo apt install sublime-text
+
+
+sudo su -
+echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+sudo apt update
+sudo apt install ansible
+
+
+#Omnet++
+sudo apt-get install build-essential gcc g++ bison flex perl \
+     python python3 qt5-default libqt5opengl5-dev tcl-dev tk-dev \
+     libxml2-dev zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0
+sudo apt-get install openscenegraph-plugin-osgearth libosgearth-dev libpcap-dev
+wget https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-5.5.1-src-linux.tgz
+
+sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
+
+
+# Python
+#python3-[cetx]*
+#python3-[abdfghijklmnopqrsuvwyz]*
+
+#caffe-cpu caffe-cuda 
+#chargebee chargebee2 
+#eccodes 
+#tempest 
+#xattr 
+
+#windowsdell344@gmail.com
+
+#sudo gedit /etc/apt/sources.list
+#sudo dd if=xxx  of=xxx bs=9M status=progress
+
+#usermod -a -G dialout aghiles
+#sudo usermod -a -G lpadmin aghiles
+
+#firefox https://github.com/settings/keys
+#cd ~
+#ssh-keygen -t rsa
+
+
+#sudo apt-get install linux-image-extra-virtual
+#sudo modprobe usbserial
+#sudo dmesg
+#lsusb
+
+#sudo mv /usr/bin/pdftotext /usr/bin/pdftotext2
+#sudo cp /home/aghiles/Aghiles/Redaction/setup/lib/zotero/pdftotext /usr/bin/pdftotext
+
+# keyboard
+#setxkbmap fr
+# loadkeys fr
+
+
+#wget https://download1.rstudio.org/desktop/debian9/x86_64/rstudio-1.2.1335-amd64.deb
+#wget http://ftp.fau.de/eclipse/oomph/epp/2019-03/R/eclipse-inst-linux64.tar.gz
+#wget https://download.zotero.org/client/release/5.0.66/Zotero-5.0.66_linux-x86_64.tar.bz2
+#wget https://github.com/danielchatfield/trello-desktop/releases/download/v0.1.9/Trello-linux-0.1.9.zip
+#wget https://updates.getmailspring.com/download?platform=linuxDeb -o mailspring.deb
+#wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest -o mendeleydesktop.deb
+#wget https://downloads.arduino.cc/arduino-1.8.9-linux64.tar.xz
+#wget http://download.opensuse.org/repositories/home:/tangerine:/deb9-xfce-4.12/Debian_9.0/amd64/folder-color_0.0.86-7_amd64.deb
+#wget https://repo.skype.com/latest/skypeforlinux-64.deb
+#wget https://ftp.gwdg.de/pub/opensuse/repositories/home:/jsundermeyer/Debian_9.0/amd64/texstudio_2.12.16-1+2.1_amd64.deb
+#wget https://languagetool.org/download/LanguageTool-4.5.zip
+#git clone https://github.com/wyllianbs/ns3install.git
+
+#OpenNet :https://github.com/dlinknctu/OpenNet
+
+#./script.sh $(zenity --file-selection)
+
+

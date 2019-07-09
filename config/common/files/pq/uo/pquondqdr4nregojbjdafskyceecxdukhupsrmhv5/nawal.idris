@@ -1,0 +1,203 @@
+
+
+
+
+public abstract class Employe{
+    
+
+private String nom;
+private String prénom;
+private int age;
+private int daterecrutement;
+public void verifierPrime() throws ExceptionEmploye{
+    if(age>40&&daterecrutement<2007)
+        throw new ExceptionEmploye;
+}
+public Employe(String prénom, String nom, int age, int daterecrutement){
+
+prénom = prénom;
+nom = nom;
+age = age;
+daterecrutement = daterecrutement;
+}
+
+//calculer les horaires
+
+public abstract int calculerHoraire(int semaine);
+
+public String getNom()
+{
+    
+return"employé " + prénom + " " + nom;
+
+}
+
+}
+
+public class Manutention extends Employe {
+
+private final int HORAIRE = 35;
+//manutention
+public Manutention(String prénom, String nom, int age, int daterecrutement)
+{
+super(prénom, nom, age, daterecrutement);
+}
+public int calculerHoraire(int semaine)
+{
+return HORAIRE;
+}
+
+public String getNom()
+{
+String resultat = super.getNom();
+
+resultat = resultat.replace("employé","manutentionnaire");
+return  resultat;
+
+}
+
+}
+
+//notre classe production
+public class Production extends Employe {
+    
+
+    private final int HORAIRE = 30;
+    private final int HORAIRE_MAX = 42;
+
+
+    public Production(String prénom, String nom, int age, int daterecrutement)
+    
+    {
+        super(prénom, nom, age, daterecrutement);
+    
+    }
+    
+    public int calculerHoraire (int semaine) 
+    {
+        if (semaine == 1 || semaine == 2)
+            return HORAIRE;
+        
+        return HORAIRE_MAX;
+    }
+    
+    public String getNom(){String resultat = super.getNom();
+    
+    resultat = resultat.replace("employé","technicien");
+    
+    return resultat;
+    
+
+}
+    //notre classe Vente
+    
+    public class Vente extends Employe 
+    {
+        private final int HORAIRE = 32;
+        private final int HORAIRE_MAX = 48; 
+        public Vente(String prénom, String nom, int age, int daterecrutement)
+        
+        {
+            super(prénom, nom, age, daterecrutement);
+        }
+        
+        public int calculerHoraire(int semaine)
+        {
+            if (semaine >= 1 && semaine <= 3)
+                return HORAIRE;
+            
+            if (semaine == 4)
+                return HORAIRE_MAX;
+            
+            return 0;
+        }
+        
+        
+        public String getNom()
+        {
+            String resultat = super.getNom();
+            
+            resultat = resultat.replace("employé","vendeur");
+            
+            return resultat; 
+        } 
+    }
+    
+import java.util.ArrayList;
+
+
+public class Personnel {
+    
+    private ArrayList<Employe> employés;
+    public void verifierPrimes() throws ExceptionEmploye{
+        for(int i =0;i<arraylist[i],i++)
+        {try{array[i].verifierPrime();
+            catch (ExceptionEmploye e){
+                    system.out.println(array[i].getnom());
+                    }
+        }
+    } 
+    
+public Personnel(){
+    employés = new ArrayList<Employe>();
+    
+    
+}
+//on ajoute des employés
+public void ajouteEmploye(Employe e){
+    employés.add(e);
+}
+
+public void calculerHoraires(int semaine){
+    
+    for(Employe e : employés){
+        
+        System.out.println(e.getNom() + " " + e.calculerHoraire(semaine) + "heures.");
+        
+        
+}
+}
+//horaire mensuel
+public int HoraireMensuel(){
+    
+    int somme = 0;
+    
+}
+
+for (int semaine = 1; semaine <= 4; semaine++)
+
+    for(Employe e : employés)
+    somme += e.calculerHoraire(semaine);
+    
+return somme/4;
+}
+
+public static void main(String[] args) {
+    //on visualise
+    
+    Personnel p = new Personnel();
+    p.ajouteEmploye(new Vente("Pierre", "Business", 45, 2005));
+    p.ajouteEmploye(new Vente("Léon", "Vendtout", 25, 2011));
+    p.ajouteEmploye(new Production("Yves", "Bosseur", 28, 2000));
+    p.ajouteEmploye(new Manutention("Jeanne", "Stocketout", 32, 2008));
+    
+    
+    
+    p.calculerHoraires(2);
+    System.out.println("L'horaire moyen dans l'entreprise est de " + p.HoraireMensuel() + " heures.");
+}
+
+
+
+//exo 4
+public class ExceptionEmploye extends Exception{
+    @override
+    public String getMessage(){
+        String erreur=
+        return erreur;}
+    
+    public void verifierPrime() throws ExceptionEmploye{
+        if(){throw nex ExceptionEmploye;
+    }
+    }
+}
