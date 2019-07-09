@@ -1281,3 +1281,8 @@ cd Administration/
 ./pull 
 ./pull
 git clone https://github.com/Bricomata8/Tool.git
+pkill mailspring 
+./push
+./pull
+./push
+git reset-1
