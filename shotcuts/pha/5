@@ -1,3 +1,13 @@
+#!/bin/bash
+
 #!/bin/sh
 
-pkill mathpix-snipping-tool
+title1="Arduino"
+
+titl1=/home/aghiles/Aghiles/Program/boards/arduino
+
+cmd="ls"
+
+gnome-terminal \
+				--tab --title="$title1" --command="bash -c 'cd $titl1; $cmd; $SHELL'" 
+

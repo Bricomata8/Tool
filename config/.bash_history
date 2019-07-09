@@ -1186,3 +1186,89 @@ tunslip6
 sudo tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
 tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
 sudo tunslip6 -v2 -L -a m3-1 -p 20000 2001:660:5307:3100::1/64
+sudo python setup.py install
+git clone https://github.com/iot-lab/ws-cli-tools.git
+git clone https://github.com/iot-lab/cli-tools.git
+git clone https://github.com/iot-lab/ssh-cli-tools.git
+git clone https://github.com/iot-lab/oml-plot-tools.git
+sudo python setup.py install
+make
+make TARGET=m3
+cat ~/.ssh/id_rsa.pub
+gedit ~/.ssh/id_rsa.pub
+who
+pdfgrep -i schreiner
+pdfgrep -ri schreiner
+iotlab-experiment submit -d 120 -l saclay,m3,1,tutorial_a8_m3.elf
+iotlab-experiment submit -d 120 -l saclay,m3,1,sensors-collecting.iotlab-m3
+iotlab-auth -udjoudi
+iotlab-experiment submit -d 120 -l saclay,m3,1,sensors-collecting.iotlab-m3
+iotlab-profile addm3 -n consomation_ece -p dc -current -voltage -power -period 140 -avg 4
+arduino-compile Arduino_LoRa_Ping_Pong
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+termtitle j
+kjkj
+termtitle "j"
+printf '\033]2;Hello\a'
+PS1="$ORIG\[$TITLE\]"
+mlml
+echo -e '\033]2;SomeTitle\007'
+title="SomeTitle"
+echo -e '\033]2;'$title'\007'
+PS1="$ORIG\[$TITLE\]"
+kjkj
+echo $PS1
+PROMPT_COMMAND='echo -en "\033]0;New terminal title\a"'
+function set-title() {   if [[ -z "$ORIG" ]]; then     ORIG=$PS1;   fi;   TITLE="\[\e]2;$*\a\]";   PS1=${ORIG}${TITLE}; }
+set-title kk
+set-title kk kjkj
+arduino-log 
+scp -r djoudi@grenoble.iot-lab.info:~/.iot-lab .
+ls
+scp -r tutorial_m3.elf djoudi@grenoble.iot-lab.info:~
+gedit TTN.desktop 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+ls
+mkdir uiy
+cd uiy/
+httrack https://seoc19.roc.cnam.fr/
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+iotlab-experiment submit -h
+iotlab-experiment profile -h
+iotlab-experiment -h
+iotlab-experiment script -h
+iotlab-experiment load -h
+iotlab-experiment reload -h
+iotlab-profil reload -h
+iotlab-profil -h
+iotlab-profile -h
+iotlab-profile addm3 -h
+iotlab-experiment submit -n lorawan -d 10 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1-2
+iotlab-experiment submit -n lorawan -d 10 -l saclay,st-lrwan1:sx1276,1-2
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+arduino-exec Arduino_LoRa_Ping_Pong
+arduino-log 
+pdfunite titre.pdf 2019_Titre\ de\ sejour.pdf 
+pdfunite titre.pdf 2019_Titre\ de\ sejour.pdf ti.pdf
+pdfunite titre.pdf 2019_Titre\ de\ sejour.pdf tioi.pdf
+pkill mailspring 
+git-down https://github.com/Bricomata8/Tool/tree/0dd8578b36014d173f49fdd2c9cd0372a5f393b5/config/dregetece
+ls
+wget "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bricomata8/Tool/tree/0dd8578b36014d173f49fdd2c9cd0372a5f393b5/config/dregetece"
+gedit
+pkill mailspring 
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/ "/home/aghiles/snap/mailspring/common/Local Storage"
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/ "/home/aghiles/snap/mailspring/common"
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/ /home/aghiles/snap/mailspring/common/
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
+pkill mailspring 
+pkill mailspring 
+ln -s /home/aghiles/Aghiles/Tool/config/dregetesiee/* /home/aghiles/snap/mailspring/common
+ln -s /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/snap/mailspring/common
+ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
+pkill mailspring 

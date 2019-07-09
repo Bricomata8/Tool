@@ -132,10 +132,18 @@ flash (){
 sudo dd $1 $2 bs=1M status=progress && sync
 }
 
+# function to set terminal title  
+function set-title() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$*\a\]"
+  PS1=${ORIG}${TITLE}
+}
 
 alias arduino-compile='arduino-cli compile --fqbn arduino:avr:uno'
 alias arduino-exec='arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno'
-alias arduino-log='screen /dev/ttyACM0 38400'
+alias arduino-log='set-title Arduino;screen /dev/ttyACM0 38400'
 alias arduino-update='arduino-cli core update-index'
 
 ## --------------------------------------------------
