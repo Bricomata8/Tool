@@ -1465,3 +1465,4 @@ rm .git/hooks/pre-push
 pkill mailspring 
 ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
 pkill mailspring 
+./push 
