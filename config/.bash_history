@@ -1280,3 +1280,4 @@ ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/com
 cd Administration/
 ./pull 
 ./pull
+git clone https://github.com/Bricomata8/Tool.git
