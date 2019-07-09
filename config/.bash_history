@@ -1279,3 +1279,4 @@ ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/com
 ./pull
 cd Administration/
 ./pull 
+./pull
