@@ -1372,3 +1372,93 @@ zotero
 cd ~/Aghiles/Redaction*/setup/lib/zotero
 sh zotero
 ping google.com
+git log --all -- 'large_file`
+git log --all -- large_file
+git log --all -- "large_file"
+git log
+git status
+grep -ri zotero
+./push 
+git lfs track "config/common/*.db"
+git add config/common/edgehill.db
+./push 
+rm .git/hooks/pre-push
+./push 
+git lfs push
+git lfs push Tool master
+git lfs push Tool master -all
+git lfs push Tool master --all
+rm .git/hooks/pre-push
+git commit --amend --reset-author
+git lfs push Tool master --all
+rm .git/hooks/pre-push
+git lfs push Tool master --all
+git lfs track "config/common/*.db"
+rm .git/hooks/pre-push
+./push 
+git lfs track "config/common/*.db"
+git lfs push -f Tool master
+git lfs push Tool master
+rm .git/hooks/pre-push
+git lfs push Tool master
+rm .git/hooks/pre-push
+git oush
+git push
+git lfs locks
+git lfs push Tool master
+git remote -v
+cat push 
+gedit push
+./push
+rm .git/hooks/pre-push
+./push
+rm-git file:///home/aghiles/Aghiles/Tool/config/common/edgehill.db 
+rm-git config/common/edgehill.db 
+git rm config/common/edgehill.db 
+git rm --cached config/common/edgehill.db 
+./push
+rm .git/hooks/pre-push
+git rm --cached config/common/edgehill.db 
+./push
+git rm --cached edgehill.db 
+git rm --cached edgehill_.db 
+git rm --cached edgehill.db 
+./push
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch edgehill.db'
+rm-git edgehill.db
+git status
+git rm --cached --ignore-unmatch edgehill.db
+git rm --cached --ignore-unmatch edgehill_.db
+git rm --cached --ignore-unmatch edgehill.db
+git rm --cached --ignore-unmatch config/dreget/edgehill.db
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+git fetch
+git rebase -p Tool/master
+git stash
+git rebase -p Tool/master
+rm-git config/common/edgehill.db
+git rm config/common/edgehill.db
+git rm --cached config/common/edgehill.db
+git rm --cached --ignore-unmatch config/dreget/edgehill.db
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+git rm -rf config/common/edgehill.db
+git commit --all --amend --no-edit
+git rebase --continue
+git rebase 
+git commit --all --amend --no-edit
+git rebase --continue
+git push -f Tool master
+git reset HEAD~6
+git status
+./push 
+rm .git/hooks/pre-push
+./push 
+git reset HEAD~10
+git status
+./push 
+rm .git/hooks/pre-push
+git status
+./push 
+git reset HEAD~20
+rm .git/hooks/pre-push
+./push 
