@@ -1286,3 +1286,8 @@ pkill mailspring
 ./pull
 ./push
 git reset-1
+git reset HEAD~1
+./push
+git reset HEAD~1
+./push
+ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
