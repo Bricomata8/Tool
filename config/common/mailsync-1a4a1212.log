@@ -5508,3 +5508,85 @@
 3223 [2019-07-09 18:45:28.728] [background] [info] - remote=1, local=1
 3223 [2019-07-09 18:45:28.729] [background] [info] Sync loop deleting unlinked messages with phase 1.
 3223 [2019-07-09 18:45:28.739] [background] [info] Sync loop complete.
+5657 [2019-07-09 18:46:57.659] [main] [info] Identity created at 1551184549 - using ID Schema 1
+5657 [2019-07-09 18:46:57.661] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+5657 [2019-07-09 18:46:57.666] [metadata] [info] Metadata delta stream starting...
+5657 [2019-07-09 18:46:57.668] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5657 [2019-07-09 18:46:57.774] [background] [info] Marking all folders as `busy`
+5657 [2019-07-09 18:46:57.775] [background] [info] Syncing folder list...
+5657 [2019-07-09 18:46:58.333] [background] [info] Syncing folder list...
+5657 [2019-07-09 18:46:58.572] [background] [info] Sync loop deleting unlinked messages with phase 2.
+5657 [2019-07-09 18:46:58.576] [background] [info] Sync loop complete.
+5657 [2019-07-09 18:46:58.851] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1330196 to 1330196, uidnext 28142 to 28142
+5657 [2019-07-09 18:46:58.893] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+5657 [2019-07-09 18:47:07.442] [main] [info] [local-005db7ea-432f] Running ChangeUnreadTask performLocal:
+5657 [2019-07-09 18:47:07.460] [main] [info] [local-005db7ea-432f] -- Succeeded. Changing status to `remote`
+5657 [2019-07-09 18:47:07.802] [foreground] [info] Idle exited with code 0
+5657 [2019-07-09 18:47:07.812] [foreground] [info] [local-005db7ea-432f] Running ChangeUnreadTask performRemote:
+5657 [2019-07-09 18:47:08.398] [foreground] [info] [local-005db7ea-432f] -- Succeeded. Changing status to `complete`
+5657 [2019-07-09 18:47:08.453] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1330196 to 1330218, uidnext 28142 to 28142
+5657 [2019-07-09 18:47:08.513] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1330196: 1 changed, 0 vanished
+5657 [2019-07-09 18:47:08.592] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+5657 [2019-07-09 18:47:12.686] [metadataExpiration] [info] Scanning for expired metadata
+5657 [2019-07-09 18:47:12.687] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5657 [2019-07-09 18:48:58.577] [background] [info] Syncing folder list...
+5657 [2019-07-09 18:48:58.711] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27725 - 28142, Heavy: false
+5657 [2019-07-09 18:48:58.958] [background] [info] - remote=400, local=400
+5657 [2019-07-09 18:48:58.973] [background] [info] - Fetching full headers for 1 (of 1 needed)
+5657 [2019-07-09 18:48:59.037] [background] [warning] Ignoring changes to [rsd-forum] [CFP] 3rd Cyber Security In Networking Conference,October 23 - 25, 2019, local data is newer 1562690938 < 1562776396
+5657 [2019-07-09 18:48:59.125] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+5657 [2019-07-09 18:48:59.228] [background] [info] - remote=11, local=11
+5657 [2019-07-09 18:48:59.272] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+5657 [2019-07-09 18:48:59.365] [background] [info] - remote=1, local=1
+5657 [2019-07-09 18:48:59.367] [background] [info] Sync loop deleting unlinked messages with phase 1.
+5657 [2019-07-09 18:48:59.386] [background] [info] Sync loop complete.
+6963 [2019-07-09 18:49:42.385] [main] [info] Identity created at 1551184549 - using ID Schema 1
+6963 [2019-07-09 18:49:42.387] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+6963 [2019-07-09 18:49:42.394] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+6963 [2019-07-09 18:49:42.403] [metadata] [info] Metadata delta stream starting...
+6963 [2019-07-09 18:49:42.474] [background] [info] Marking all folders as `busy`
+6963 [2019-07-09 18:49:42.476] [background] [info] Syncing folder list...
+6963 [2019-07-09 18:49:43.010] [background] [info] Syncing folder list...
+6963 [2019-07-09 18:49:43.261] [background] [info] Sync loop deleting unlinked messages with phase 2.
+6963 [2019-07-09 18:49:43.266] [background] [info] Sync loop complete.
+6963 [2019-07-09 18:49:43.527] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1330218 to 1330218, uidnext 28142 to 28142
+6963 [2019-07-09 18:49:43.575] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+6963 [2019-07-09 18:49:57.395] [metadataExpiration] [info] Scanning for expired metadata
+6963 [2019-07-09 18:49:57.396] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+7919 [2019-07-09 18:50:55.710] [main] [info] Identity created at 1551184549 - using ID Schema 1
+7919 [2019-07-09 18:50:55.719] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+7919 [2019-07-09 18:50:55.723] [metadata] [info] Metadata delta stream starting...
+7919 [2019-07-09 18:50:55.731] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+7919 [2019-07-09 18:50:55.820] [background] [info] Marking all folders as `busy`
+7919 [2019-07-09 18:50:55.822] [background] [info] Syncing folder list...
+7919 [2019-07-09 18:50:56.380] [background] [info] Syncing folder list...
+7919 [2019-07-09 18:50:56.628] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7919 [2019-07-09 18:50:56.632] [background] [info] Sync loop complete.
+7919 [2019-07-09 18:50:56.692] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1330218 to 1330218, uidnext 28142 to 28142
+7919 [2019-07-09 18:50:56.744] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+7919 [2019-07-09 18:51:10.729] [metadataExpiration] [info] Scanning for expired metadata
+7919 [2019-07-09 18:51:10.730] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8833 [2019-07-09 18:52:42.283] [main] [info] Identity created at 1551184549 - using ID Schema 1
+8833 [2019-07-09 18:52:42.286] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+8833 [2019-07-09 18:52:42.291] [metadata] [info] Metadata delta stream starting...
+8833 [2019-07-09 18:52:42.299] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+8833 [2019-07-09 18:52:42.399] [background] [info] Marking all folders as `busy`
+8833 [2019-07-09 18:52:42.405] [background] [info] Syncing folder list...
+8833 [2019-07-09 18:52:42.972] [background] [info] Syncing folder list...
+8833 [2019-07-09 18:52:43.071] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27725 - 28142, Heavy: false
+8833 [2019-07-09 18:52:43.321] [background] [info] - remote=400, local=400
+8833 [2019-07-09 18:52:43.325] [background] [info] - Fetching full headers for 1 (of 1 needed)
+8833 [2019-07-09 18:52:43.378] [background] [warning] Ignoring changes to [rsd-forum] [CFP] 3rd Cyber Security In Networking Conference,October 23 - 25, 2019, local data is newer 1562691163 < 1562776396
+8833 [2019-07-09 18:52:43.569] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8833 [2019-07-09 18:52:43.617] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1330218 to 1330218, uidnext 28142 to 28142
+8833 [2019-07-09 18:52:43.667] [background] [info] - remote=11, local=11
+8833 [2019-07-09 18:52:43.672] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8833 [2019-07-09 18:52:43.712] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8833 [2019-07-09 18:52:43.812] [background] [info] - remote=1, local=1
+8833 [2019-07-09 18:52:43.812] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8833 [2019-07-09 18:52:43.817] [background] [info] Sync loop complete.
+7919 [2019-07-09 18:52:56.632] [background] [info] Syncing folder list...
+7919 [2019-07-09 18:52:56.878] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7919 [2019-07-09 18:52:56.888] [background] [info] Sync loop complete.
+8833 [2019-07-09 18:52:57.298] [metadataExpiration] [info] Scanning for expired metadata
+8833 [2019-07-09 18:52:57.299] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
