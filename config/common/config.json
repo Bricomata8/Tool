@@ -164,15 +164,7 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null8982 [2019-07-09 18:52:44.375] [foreground] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** database disk image is malformed\n ***\n\n8982 [2019-07-09 18:52:44.380] [foreground] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  8982 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null8982 [2019-07-09 18:52:44.375] [foreground] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** database disk image is malformed\n ***\n\n8982 [2019-07-09 18:52:44.380] [foreground] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  8982 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
         "__cls": "Account"
       },
       {
@@ -199,15 +191,7 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null9049 [2019-07-09 18:52:49.298] [background] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** UNIQUE constraint failed: ThreadCategory.value, ThreadCategory.id\n ***\n\n9049 [2019-07-09 18:52:49.302] [background] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  9049 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null9049 [2019-07-09 18:52:49.298] [background] [critical] \n ***\n *** A C++ exception occurred during program execution: \n *** UNIQUE constraint failed: ThreadCategory.value, ThreadCategory.id\n ***\n\n9049 [2019-07-09 18:52:49.302] [background] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  9049 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
         "__cls": "Account"
       },
       {
@@ -229,42 +213,6 @@
           "smtp_username": "djoudi"
         },
         "label": "djoudi@lip6.fr",
-        "autoaddress": {
-          "type": "bcc",
-          "value": ""
-        },
-        "aliases": [],
-        "syncState": "invalid",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null10792 [2019-07-10 07:41:59.314] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n10792 [2019-07-10 07:41:59.314] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 10792 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null10792 [2019-07-10 07:41:59.314] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n10792 [2019-07-10 07:41:59.314] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 10792 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
-        "__cls": "Account"
-      },
-      {
-        "id": "256fd50d",
-        "metadata": [],
-        "name": "Aghiles DJOUDI",
-        "provider": "gmail",
-        "emailAddress": "aghiles.djoudi@esiee.fr",
-        "settings": {
-          "imap_allow_insecure_ssl": false,
-          "imap_host": "imap.gmail.com",
-          "imap_port": 993,
-          "imap_security": "SSL / TLS",
-          "imap_username": "aghiles.djoudi@esiee.fr",
-          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com",
-          "smtp_allow_insecure_ssl": false,
-          "smtp_host": "smtp.gmail.com",
-          "smtp_port": 587,
-          "smtp_security": "STARTTLS",
-          "smtp_username": "aghiles.djoudi@esiee.fr"
-        },
-        "label": "aghiles.djoudi@esiee.fr",
         "autoaddress": {
           "type": "bcc",
           "value": ""
@@ -303,11 +251,7 @@
         "__cls": "Account"
       }
     ],
-<<<<<<< HEAD:config/common/config.json
-    "accountsVersion": 59,
-=======
-    "accountsVersion": 15,
->>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc:config/common/config.json
+    "accountsVersion": 17,
     "plugins": {
       "open-tracking": {
         "defaultOn": false

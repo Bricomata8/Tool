@@ -14,16 +14,10 @@ user_pref("app.normandy.first_run", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1562679395);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1562679515);
-<<<<<<< HEAD
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1562689762);
-user_pref("app.update.lastUpdateTime.experiments-update-timer", 1562689642);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1562679635);
-=======
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1562737126);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1562744273);
 user_pref("app.update.lastUpdateTime.experiments-update-timer", 1562689642);
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1562702613);
->>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
-user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1562533736);
+user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 0);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1562689008);
 user_pref("browser.cache.disk.capacity", 358400);
 user_pref("browser.cache.disk.filesystem_reported", 1);
@@ -52,26 +46,16 @@ user_pref("browser.places.smartBookmarksVersion", 8);
 user_pref("browser.rights.3.shown", true);
 user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1562691120742");
 user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1562692901742");
-<<<<<<< HEAD
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1562689296014");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1562692896014");
-=======
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1562737103136");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1562740703136");
->>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1562744246893");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1562747846893");
 user_pref("browser.search.countryCode", "FR");
 user_pref("browser.search.region", "FR");
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20190620174850");
 user_pref("browser.shell.checkDefaultBrowser", true);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
-<<<<<<< HEAD
-user_pref("browser.shell.mostRecentDateSetAsDefault", "1562691012");
-user_pref("browser.slowStartup.averageTime", 1063);
-=======
-user_pref("browser.shell.mostRecentDateSetAsDefault", "1562737100");
-user_pref("browser.slowStartup.averageTime", 1080);
->>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
-user_pref("browser.slowStartup.samples", 4);
+user_pref("browser.shell.mostRecentDateSetAsDefault", "1562744245");
+user_pref("browser.slowStartup.averageTime", 1247);
+user_pref("browser.slowStartup.samples", 1);
 user_pref("browser.startup.homepage_override.buildID", "20190620174850");
 user_pref("browser.startup.homepage_override.mstone", "60.7.2");
 user_pref("browser.tabs.drawInTitlebar", true);
@@ -126,12 +110,7 @@ user_pref("pdfjs.migrationVersion", 2);
 user_pref("pdfjs.previousHandler.alwaysAskBeforeHandling", true);
 user_pref("pdfjs.previousHandler.preferredAction", 4);
 user_pref("places.database.lastMaintenance", 1562680870);
-<<<<<<< HEAD
-user_pref("places.history.expiration.transient_current_max_pages", 105159);
-=======
-user_pref("places.history.expiration.transient_current_max_pages", 105765);
->>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
-user_pref("print.print_bgimages", false);
+user_pref("places.history.expiration.transient_current_max_pages", 105461);
 user_pref("print.print_duplex", 0);
 user_pref("print.print_evenpages", true);
 user_pref("print.print_margin_bottom", "0.5");
@@ -174,11 +153,7 @@ user_pref("services.sync.tabs.lastSyncLocal", "0");
 user_pref("signon.importedFromSqlite", true);
 user_pref("storage.vacuum.last.index", 0);
 user_pref("storage.vacuum.last.places.sqlite", 1562680869);
-<<<<<<< HEAD
-user_pref("toolkit.startup.last_success", 1562691007);
-=======
-user_pref("toolkit.startup.last_success", 1562737095);
->>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
+user_pref("toolkit.startup.last_success", 1562744242);
 user_pref("toolkit.telemetry.cachedClientID", "08d83caf-3af0-4da2-bf52-66e4030d0307");
 user_pref("toolkit.telemetry.previousBuildID", "20190620174850");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);

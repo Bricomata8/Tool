@@ -1491,3 +1491,7 @@ ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/com
 pkill mailspring 
 gedit
 >>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
+pkill mailspring
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/common
+git clone https://github.com/BRICOMATA8/Tool
+./pull
