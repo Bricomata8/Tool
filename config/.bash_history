@@ -1273,11 +1273,15 @@ ln -s /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/snap/mailspring/c
 ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
 pkill mailspring 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
 ln -s /home/aghiles/Aghiles/mailspring /home/aghiles/snap/mailspring
 ln -s /media/aghiles/Aghiles/mailspring  /home/aghiles/snap/mailspring
 mailspring 
 ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+<<<<<<< HEAD
 >>>>>>> cb7b42308031d0b9fdf03f2469ad55ac9a256fa5
 pkill mailspring
 ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
@@ -1468,3 +1472,22 @@ pkill mailspring
 ./push 
 pkill mailspring 
 pkill mailspring 
+=======
+./pull
+cd Administration/
+./pull 
+./pull
+git clone https://github.com/Bricomata8/Tool.git
+pkill mailspring 
+./push
+./pull
+./push
+git reset-1
+git reset HEAD~1
+./push
+git reset HEAD~1
+./push
+ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
+pkill mailspring 
+gedit
+>>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc

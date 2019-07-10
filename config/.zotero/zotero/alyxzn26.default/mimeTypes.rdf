@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<<<<<<< HEAD
   <RDF:Description RDF:about="urn:schemes">
     <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
   </RDF:Description>
@@ -13,10 +14,27 @@
   <RDF:Description RDF:about="urn:scheme:handler:http"
                    NC:useSystemDefault="true"
                    NC:alwaysAsk="false" />
+=======
+  <RDF:Description RDF:about="urn:scheme:http"
+                   NC:value="http">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:http"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:https"
+                   NC:value="https">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:https"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:http"
+                   NC:useSystemDefault="true"
+                   NC:alwaysAsk="false" />
+  <RDF:Description RDF:about="urn:scheme:handler:https"
+                   NC:useSystemDefault="true"
+                   NC:alwaysAsk="false" />
+>>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
   <RDF:Seq RDF:about="urn:schemes:root">
     <RDF:li RDF:resource="urn:scheme:http"/>
     <RDF:li RDF:resource="urn:scheme:https"/>
   </RDF:Seq>
+<<<<<<< HEAD
   <RDF:Description RDF:about="urn:scheme:https"
                    NC:value="https">
     <NC:handlerProp RDF:resource="urn:scheme:handler:https"/>
@@ -24,4 +42,11 @@
   <RDF:Description RDF:about="urn:scheme:handler:https"
                    NC:useSystemDefault="true"
                    NC:alwaysAsk="false" />
+=======
+  <RDF:Description RDF:about="urn:root"
+                   NC:en-US_defaultHandlersVersion="-1" />
+  <RDF:Description RDF:about="urn:schemes">
+    <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
+  </RDF:Description>
+>>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
 </RDF:RDF>
