@@ -1291,3 +1291,5 @@ git reset HEAD~1
 git reset HEAD~1
 ./push
 ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
+pkill mailspring 
+gedit
