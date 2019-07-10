@@ -1495,3 +1495,14 @@ pkill mailspring
 svn-git https://github.com/Bricomata8/Tool/tree/master/config/common
 git clone https://github.com/BRICOMATA8/Tool
 ./pull
+pkill mailspring
+gedit
+excel2latex
+sudo apt install excel2latex
+sudo apt search excel2latex
+sudo apt search calc2latex
+grep -ri font
+grep -ri font
+grep -ri size
+grep -ri font
+grep -ri fontsi
