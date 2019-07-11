@@ -1293,3 +1293,14 @@ git reset HEAD~1
 ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
 pkill mailspring 
 gedit
+sudo python setup.py install
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
+sudo apt remove iotlab-*
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
+iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1-2
+cd Downloads/
+ls
+iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1-2,tutorial_a8_m3.elf,test_consumption
+iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1,tutorial_a8_m3.elf,test_consumption
+iotlab-experiment submit -n lorawan -d 10 -l 1,archi=st-lrwan1:sx1276+site=saclay,tutorial_a8_m3.elf,test_consumption
+iotlab-experiment wait
