@@ -1523,3 +1523,5 @@ iotlab-experiment wait
 grep -ri setgeometry
 grep -ri geometry
 gedit paper/src/B/review.tex
+grep -ri Transfer
+pkill mailspring 
