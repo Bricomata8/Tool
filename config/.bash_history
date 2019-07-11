@@ -1272,10 +1272,207 @@ ln -s /home/aghiles/Aghiles/Tool/config/dregetesiee/* /home/aghiles/snap/mailspr
 ln -s /home/aghiles/Aghiles/Tool/config/dreget/* /home/aghiles/snap/mailspring/common
 ln -s /home/aghiles/Aghiles/Tool/config/dregetece/* /home/aghiles/snap/mailspring/common
 pkill mailspring 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
 ln -s /home/aghiles/Aghiles/mailspring /home/aghiles/snap/mailspring
 ln -s /media/aghiles/Aghiles/mailspring  /home/aghiles/snap/mailspring
 mailspring 
 ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+<<<<<<< HEAD
+>>>>>>> cb7b42308031d0b9fdf03f2469ad55ac9a256fa5
+pkill mailspring
+ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+sudo apt install insync-headless
+sudo apt search insync
+sudo apt install insync
+gnome-control-center
+gnome-panel 
+gnome-desktop-item-edit 
+mkdir l
+gnome-desktop-item-edit l
+ls google-drive://aghilesdjoudi@gmail.com/1XT5ZM7IBOBZ-ilUN4GW9Wy4oqHYsFwMQ 
+ls /aghilesdjoudi@gmail.com/1XT5ZM7IBOBZ-ilUN4GW9Wy4oqHYsFwMQ 
+ls /run/user/1000/gvfs/google-drive:host=gmail.com,user=aghilesdjoudi
+ls "/run/user/1000/gvfs/google-drive:host=gmail.com,user=aghilesdjoudi"
+ln -s /home/aghiles/Aghiles/Tool/config/dreget /home/aghiles/snap/mailspring/common
+oki
+pkill mailspring 
+rm-git config/dreget/edgehill.db
+pkill mailspring 
+ln -s /media/aghiles/Aghiles/mailspring/common /home/aghiles/snap/mailspring/common
+./push 
+rm-git config/edgehill.db 
+./push 
+rm-git config/edgehill.db 
+git merge
+./pull
+./push 
+rm -rf config/dreget/edgehill.db
+rm -rf config/dreget/edgehill.dblk
+rm -rf config/dreget/edgehill.db
+git rm -rf config/dreget/edgehill.db
+cd ..
+rm-git config/dreget/edgehill.db
+git rm --cached --ignore-unmatch config/dreget
+./push
+git push --all --force
+git checkout master
+git reset --soft
+./pull
+git push --all --force
+git commit --amend -CHEAD
+./push
+git rm --cached config/dreget/edgehill.db
+git rm config/dreget/edgehill.db
+git rm --cached config/dreget/edgehill.db
+rm-git config/dreget/edgehill.db
+git init
+./push
+aghilesDJ35B
+gnome-control-center
+pdf2txt 
+cle lora 0
+cd "/home/aghiles/Aghiles/Tool"
+./push
+git lfs track config/common/edgehill.db
+git add config/common/edgehill.db
+git commit -m "large file"
+./push 
+git commit -m "large file"
+git push Tool master
+git push -f Tool master
+git lfs track "config/common/*.db"
+git add config/common/edgehill.db
+./push 
+cd ..
+cd Tool/
+git commit -m "add file.psd"
+git push origin master
+git push Tool master
+./push 
+git push
+cd "/home/aghiles/Aghiles/Tool"
+./push 
+cd "/home/aghiles/Aghiles/Tool"
+./push
+./push 
+rm .git/hooks/pre-push
+./push 
+rm .git/hooks/pre-push
+rm .git/hooks/pre-push
+./push
+rm .git/hooks/pre-push
+gnome-control-center
+zotero
+grep -ri zotero
+cd zotero/
+./zotero
+zotero
+cd ..
+zotero
+cd ~/Aghiles/Redaction*/setup/lib/zotero
+sh zotero
+ping google.com
+git log --all -- 'large_file`
+git log --all -- large_file
+git log --all -- "large_file"
+git log
+git status
+grep -ri zotero
+./push 
+git lfs track "config/common/*.db"
+git add config/common/edgehill.db
+./push 
+rm .git/hooks/pre-push
+./push 
+git lfs push
+git lfs push Tool master
+git lfs push Tool master -all
+git lfs push Tool master --all
+rm .git/hooks/pre-push
+git commit --amend --reset-author
+git lfs push Tool master --all
+rm .git/hooks/pre-push
+git lfs push Tool master --all
+git lfs track "config/common/*.db"
+rm .git/hooks/pre-push
+./push 
+git lfs track "config/common/*.db"
+git lfs push -f Tool master
+git lfs push Tool master
+rm .git/hooks/pre-push
+git lfs push Tool master
+rm .git/hooks/pre-push
+git oush
+git push
+git lfs locks
+git lfs push Tool master
+git remote -v
+cat push 
+gedit push
+./push
+rm .git/hooks/pre-push
+./push
+rm-git file:///home/aghiles/Aghiles/Tool/config/common/edgehill.db 
+rm-git config/common/edgehill.db 
+git rm config/common/edgehill.db 
+git rm --cached config/common/edgehill.db 
+./push
+rm .git/hooks/pre-push
+git rm --cached config/common/edgehill.db 
+./push
+git rm --cached edgehill.db 
+git rm --cached edgehill_.db 
+git rm --cached edgehill.db 
+./push
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch edgehill.db'
+rm-git edgehill.db
+git status
+git rm --cached --ignore-unmatch edgehill.db
+git rm --cached --ignore-unmatch edgehill_.db
+git rm --cached --ignore-unmatch edgehill.db
+git rm --cached --ignore-unmatch config/dreget/edgehill.db
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+git fetch
+git rebase -p Tool/master
+git stash
+git rebase -p Tool/master
+rm-git config/common/edgehill.db
+git rm config/common/edgehill.db
+git rm --cached config/common/edgehill.db
+git rm --cached --ignore-unmatch config/dreget/edgehill.db
+git filter-branch --tree-filter 'rm -rf config/dreget/edgehill.db' HEAD
+git rm -rf config/common/edgehill.db
+git commit --all --amend --no-edit
+git rebase --continue
+git rebase 
+git commit --all --amend --no-edit
+git rebase --continue
+git push -f Tool master
+git reset HEAD~6
+git status
+./push 
+rm .git/hooks/pre-push
+./push 
+git reset HEAD~10
+git status
+./push 
+rm .git/hooks/pre-push
+git status
+./push 
+git reset HEAD~20
+rm .git/hooks/pre-push
+./push 
+pkill mailspring 
+ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
+pkill mailspring 
+./push 
+pkill mailspring 
+pkill mailspring 
+=======
 ./pull
 cd Administration/
 ./pull 
@@ -1293,6 +1490,24 @@ git reset HEAD~1
 ln -s /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/common
 pkill mailspring 
 gedit
+<<<<<<< HEAD
+>>>>>>> 85af4cde207d4f82ffd48dba49b9d15adf3e7abc
+pkill mailspring
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/common
+git clone https://github.com/BRICOMATA8/Tool
+./pull
+pkill mailspring
+gedit
+excel2latex
+sudo apt install excel2latex
+sudo apt search excel2latex
+sudo apt search calc2latex
+grep -ri font
+grep -ri font
+grep -ri size
+grep -ri font
+grep -ri fontsi
+=======
 sudo python setup.py install
 iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
 sudo apt remove iotlab-*
@@ -1304,3 +1519,9 @@ iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1-2,tutori
 iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1,tutorial_a8_m3.elf,test_consumption
 iotlab-experiment submit -n lorawan -d 10 -l 1,archi=st-lrwan1:sx1276+site=saclay,tutorial_a8_m3.elf,test_consumption
 iotlab-experiment wait
+>>>>>>> 1a7518d382fc9dc5fd1a87359709e2baacf3308b
+grep -ri setgeometry
+grep -ri geometry
+gedit paper/src/B/review.tex
+grep -ri Transfer
+pkill mailspring 
