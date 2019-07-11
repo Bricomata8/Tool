@@ -1520,3 +1520,6 @@ iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1,tutorial
 iotlab-experiment submit -n lorawan -d 10 -l 1,archi=st-lrwan1:sx1276+site=saclay,tutorial_a8_m3.elf,test_consumption
 iotlab-experiment wait
 >>>>>>> 1a7518d382fc9dc5fd1a87359709e2baacf3308b
+grep -ri setgeometry
+grep -ri geometry
+gedit paper/src/B/review.tex
