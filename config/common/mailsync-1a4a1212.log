@@ -14011,6 +14011,1230 @@
 7398 [2019-07-11 16:52:27.635] [background] [info] - remote=0, local=0
 7398 [2019-07-11 16:52:27.636] [background] [info] Sync loop deleting unlinked messages with phase 2.
 7398 [2019-07-11 16:52:27.651] [background] [info] Sync loop complete.
+<<<<<<< HEAD
 7398 [2019-07-11 16:54:27.652] [background] [info] Syncing folder list...
 7398 [2019-07-11 16:54:27.886] [background] [info] Sync loop deleting unlinked messages with phase 1.
 7398 [2019-07-11 16:54:27.899] [background] [info] Sync loop complete.
+=======
+8802 [2019-07-11 21:06:51.077] [main] [info] Identity created at 1551184549 - using ID Schema 1
+8802 [2019-07-11 21:06:51.252] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+8802 [2019-07-11 21:06:51.277] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-11 21:06:51.280] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+8802 [2019-07-11 21:06:51.417] [background] [info] Marking all folders as `busy`
+8802 [2019-07-11 21:06:51.418] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:06:51.707] [metadata] [info] Received metadata V1 for (message - pBZbyjYL2agdjtsPBcWPAsFevbdkEWoKbNtBhvoLA)
+8802 [2019-07-11 21:06:51.707] [metadata] [info]  -- Local model is not present. Saving to waiting table.
+8802 [2019-07-11 21:06:53.023] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:06:53.157] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28152 - 28162, Heavy: true
+8802 [2019-07-11 21:06:53.437] [background] [info] - remote=10, local=0
+8802 [2019-07-11 21:06:53.457] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1333855 to 1337024, uidnext 28152 to 28162
+8802 [2019-07-11 21:06:53.462] [background] [info] -- Attaching waiting metadata for send-later
+8802 [2019-07-11 21:06:53.912] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27735 - 28162, Heavy: false
+8802 [2019-07-11 21:06:54.006] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1333855: 159 changed, 0 vanished
+8802 [2019-07-11 21:06:54.007] [foreground] [info] - Updating message 4x7WfqC8BRygJpevFkAwbhde3NeWHTChZJFVChoj9
+8802 [2019-07-11 21:06:54.007] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:54.092] [background] [info] - remote=410, local=410
+8802 [2019-07-11 21:06:54.096] [background] [info] - Fetching full headers for 13 (of 13 needed)
+8802 [2019-07-11 21:06:54.133] [foreground] [info] - Updating message jondCF5xY8kaWwpGREBkiRpG7AEn4qq4zQupQsyQS
+8802 [2019-07-11 21:06:54.133] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:54.163] [foreground] [info] - Updating message Pph1MxqekqD5Xc6KSvPmKoRu9wEPUSC6yE9mCS6g4
+8802 [2019-07-11 21:06:54.163] [foreground] [info] -- XGMLabels (["List/CNRS"] to ["List/CNRS","List/RSD"])
+8802 [2019-07-11 21:06:54.169] [foreground] [info] - Updating message KKiB7wkQete2azGtb4qQQEtpXcXbsWwytvUNXeYeC
+8802 [2019-07-11 21:06:54.169] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.174] [foreground] [info] - Updating message Q4dpeywMGmLxsxAYv7aQKe5X6ZDAWeB1RjEGYGGJ6
+8802 [2019-07-11 21:06:54.174] [foreground] [info] -- XGMLabels (["Job/UPMC/Senouci","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.178] [main] [info] [local-c689bb95-12b2] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:54.236] [foreground] [info] - Updating message HvVd4XCERSqspy2ajJqGkWcbELb9eyhKQQcf25TNV
+8802 [2019-07-11 21:06:54.236] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:54.242] [main] [info] [local-c689bb95-12b2] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:54.251] [foreground] [info] - Updating message RtYq1Yu8ZtEixjoSB4RQNNUtWxDAiFTS5i5iNWido
+8802 [2019-07-11 21:06:54.251] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.258] [foreground] [info] - Updating message J28shK7nFtML9ThHghncGuucWenYtzv7DAhfivK8U
+8802 [2019-07-11 21:06:54.258] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:54.262] [foreground] [info] - Updating message hQfbrRbQojYEQ4Zab41PADkLuxPi83DsmR9qTKdwd
+8802 [2019-07-11 21:06:54.262] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.270] [foreground] [info] - Updating message DfNf4g5nojqQa4JU48XuqvwxJswzpSEsH4pw8ckw3
+8802 [2019-07-11 21:06:54.270] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.274] [foreground] [info] - Updating message BPEsVNZGifoLCYcN2XxkGmcudtLQ98BLemRCADtjF
+8802 [2019-07-11 21:06:54.274] [foreground] [info] -- XGMLabels (["List/RSD"] to ["Job/UPMC/TelecomParisTech","List/RSD"])
+8802 [2019-07-11 21:06:54.281] [foreground] [info] - Updating message bS1nfNJRUVQa2Cx6RaTChdxMdvUpiUV7s5SWj3zNG
+8802 [2019-07-11 21:06:54.281] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.336] [foreground] [info] - Updating message dTeHk7ZmGuxydDemcviFzHAZDpwMiRS1HB4NKqpZb
+8802 [2019-07-11 21:06:54.336] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.344] [foreground] [info] - Updating message hDEH3AdE2wAJxUXWxxwgPwdyqCsyuNUhLwXix3q3Q
+8802 [2019-07-11 21:06:54.344] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:54.366] [foreground] [info] - Updating message D8wwnSxdNGd35NEaGQBRUQvvcFCgydaFJXQW2RCQy
+8802 [2019-07-11 21:06:54.366] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/CEA","List/RSD"])
+8802 [2019-07-11 21:06:54.376] [background] [info] - Updating message ZC5w4RtQdVdUrz9YeWt45bVwZg6vZkgahWtSq673r
+8802 [2019-07-11 21:06:54.376] [background] [info] -- XGMLabels (["Job/UPAU"] to ["Job/UPAU","List/RSD"])
+8802 [2019-07-11 21:06:54.411] [foreground] [info] - Updating message YgX776Y4MACAEGskGFXAyKXPzoiywS5Vswt4FZqTD
+8802 [2019-07-11 21:06:54.411] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.440] [foreground] [info] - Updating message Fd6LaxKhSnGry3AUqxrguYYQdsJZ4q8L2nPVEKLtE
+8802 [2019-07-11 21:06:54.440] [foreground] [info] -- XGMLabels (["List/CEA","List/GDR"] to ["List/GDR"])
+8802 [2019-07-11 21:06:54.442] [background] [info] - Updating message iQSd5p94Dd3A1SsebhS5jDeGBdj1SenpJbK1Z6s1P
+8802 [2019-07-11 21:06:54.442] [background] [info] -- XGMLabels (["List/RSD"] to ["Job/UPMC/Senouci"])
+8802 [2019-07-11 21:06:54.449] [background] [info] - Updating message i3dQ1DQgKzSSubezfFbSezUwdtLcbBV3LG3g1UW4A
+8802 [2019-07-11 21:06:54.449] [background] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.453] [foreground] [info] - Updating message swzjEUQN86t9mW4bbYZPzV2i6dC7WLbQnGAYxqh81
+8802 [2019-07-11 21:06:54.453] [foreground] [info] -- XGMLabels (["Job/UPMC/TelecomParisTech","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.471] [foreground] [info] - Updating message MjcKoJr7hNQBtoNtQAbwMkUUHo8nPXfngFpMVmbGg
+8802 [2019-07-11 21:06:54.471] [foreground] [info] -- XGMLabels (["Job/UPE/ESIEE","List/RSD","\\Starred"] to ["List/RSD","\\Starred"])
+8802 [2019-07-11 21:06:54.510] [foreground] [info] - Updating message YbkpYnYqkZuDt8ipzzCENf7cJPrYNzP2m3pCC7rnD
+8802 [2019-07-11 21:06:54.510] [foreground] [info] -- XGMLabels (["List/CEA","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.518] [background] [info] - Updating message 7fHEYKWwpmMeVPKHLPwzTU6KwkLDWqLuzX1wJMYAU
+8802 [2019-07-11 21:06:54.518] [background] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.527] [foreground] [info] - Updating message mMPC2W9Aac6AKsHtHoHffhFxMgSkhgff3XHGh4Py7
+8802 [2019-07-11 21:06:54.527] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.553] [background] [info] - Updating message KSmXx3BpDaAs2Cp7pojiKMiSVTvhwrEdrGW8mLtkx
+8802 [2019-07-11 21:06:54.553] [background] [info] -- XGMLabels (["List/GDR"] to ["Job/UPMC/TelecomParisTech","List/GDR"])
+8802 [2019-07-11 21:06:54.623] [foreground] [info] - Updating message aXhgJw8AZ87jWAuEpJZyoy1AX4N3sn28Rq6YoSQEw
+8802 [2019-07-11 21:06:54.623] [foreground] [info] -- XGMLabels (["Job/UPE/UPEM","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.631] [foreground] [info] - Updating message 4o3DaYWrYRaEB3a4au7sT5RMBLny8Lup1j2LkCgcY
+8802 [2019-07-11 21:06:54.631] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.637] [foreground] [info] - Updating message gcf8hVLGbymonz6ZdajTK5JDtFJyMwR3u7FHYzbJZ
+8802 [2019-07-11 21:06:54.637] [foreground] [info] -- XGMLabels (["List/GDR"] to ["List/CEA","List/GDR"])
+8802 [2019-07-11 21:06:54.643] [foreground] [info] - Updating message CiUixMmGbTuwrzKTmQynfDDXchfxDLdArtUe1fsJJ
+8802 [2019-07-11 21:06:54.643] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/GDR"] to ["List/GDR"])
+8802 [2019-07-11 21:06:54.648] [foreground] [info] - Updating message ewU8DxqefjoTmoKpCrTnMGUYy2XgTuUNWwFFMRGMJ
+8802 [2019-07-11 21:06:54.648] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:54.653] [foreground] [info] - Updating message 9MGqxdmLYTJD1GMQuGYwSUN2dXrrUZY66gBuRByZj
+8802 [2019-07-11 21:06:54.653] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/RSD","List/Thales"])
+8802 [2019-07-11 21:06:54.663] [foreground] [info] - Updating message 48q12eNYGMnQzzLtm9orffc8jbXxDHULXUQoSARnm
+8802 [2019-07-11 21:06:54.663] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.669] [foreground] [info] - Updating message FRs79zEAx85xC3Wq5rPmfcC8eL1HEKdXh9r445X7M
+8802 [2019-07-11 21:06:54.669] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:54.676] [foreground] [info] - Updating message GBn7r1amQ6v9aD4reauR96MxT764ANNTgnpLTmjn1
+8802 [2019-07-11 21:06:54.676] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.680] [foreground] [info] - Updating message HRgfGnYVeHpgQuRK98SHUWR2hHw1K7ZR3hYepuUoV
+8802 [2019-07-11 21:06:54.680] [foreground] [info] -- XGMLabels (["Job/UPMC/Senouci","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.684] [foreground] [info] - Updating message mrUsXAEWkPVELPNLjk9vf1jLrWGcovRZ6VYZi5X9J
+8802 [2019-07-11 21:06:54.684] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/CEA","List/RSD"])
+8802 [2019-07-11 21:06:54.688] [foreground] [info] - Updating message h1BvADbQFJHQhQrBd11dpjaJGAEMdgxQCeppNjmVa
+8802 [2019-07-11 21:06:54.688] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:54.692] [foreground] [info] - Updating message q3afrHuGnxbYUuCYfURpJxwKbe67u3y67m6nUy67v
+8802 [2019-07-11 21:06:54.692] [foreground] [info] -- XGMLabels (["List/GDR"] to ["Job/Sorbonne/Lip6","List/GDR"])
+8802 [2019-07-11 21:06:54.697] [foreground] [info] - Updating message NwhGQKBGbNzLGLrjnWqNC7ssBkMh8sSUbfXoLkmZp
+8802 [2019-07-11 21:06:54.697] [foreground] [info] -- XGMLabels (["List/CEA","List/GDR"] to ["List/GDR"])
+8802 [2019-07-11 21:06:54.701] [foreground] [info] - Updating message p743yDKaUjX2qQE5uCsrsCGcy6oihAfBvFTYyi5Pv
+8802 [2019-07-11 21:06:54.701] [foreground] [info] -- XGMLabels (["List/CEA","List/GDR"] to ["List/GDR"])
+8802 [2019-07-11 21:06:54.705] [foreground] [info] - Updating message S3UVi868z7AWTs81YVjBFfQNfvy8pW97syVKMcqWY
+8802 [2019-07-11 21:06:54.705] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:54.711] [foreground] [info] - Updating message nGmanRaUu9PUovHWzgFsy8bdTXtcn5Jgm6rSPQzgo
+8802 [2019-07-11 21:06:54.711] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/LRI","List/RSD"])
+8802 [2019-07-11 21:06:54.716] [foreground] [info] - Updating message 1AsCGSr1qEojWPthnMkFKrhH8nBkpF2GEA9wc92Wo
+8802 [2019-07-11 21:06:54.716] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/CEA","List/RSD"])
+8802 [2019-07-11 21:06:54.719] [foreground] [info] - Updating message TByjMhpzUtQESzC5UsPM9A2vcBff2eWRs8cPbyEGT
+8802 [2019-07-11 21:06:54.719] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.723] [foreground] [info] - Updating message eFHXRDsi5cX5gcefUTeFiWhNJEBrfSvWcwhZXAY1t
+8802 [2019-07-11 21:06:54.723] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.727] [foreground] [info] - Updating message Yj3szT8TvfNtmcaKZA8gG9dbDBoyYdGTcTTp9pK4G
+8802 [2019-07-11 21:06:54.727] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:54.733] [foreground] [info] - Updating message EzcFZ2t1wDiuG7Hm89DGZotRkEoBtRke5LnKezYPk
+8802 [2019-07-11 21:06:54.733] [foreground] [info] -- XGMLabels (["List/RSD"] to ["Job/UPMC/Senouci","List/RSD"])
+8802 [2019-07-11 21:06:54.738] [foreground] [info] - Updating message LvResnUmdwvpTv9fgCAtRKPcpnBXpc1nbQsRGVp4p
+8802 [2019-07-11 21:06:54.738] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/LRI","List/RSD"])
+8802 [2019-07-11 21:06:54.786] [foreground] [info] - Updating message VJgprUpVY23foRGjkSPdvccUJ35QLbZrgEgZR66ti
+8802 [2019-07-11 21:06:54.786] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.795] [foreground] [info] - Updating message QbczYTPvdXWFi6A7i7SpG8adTbHVgrJqLNXm9nBCX
+8802 [2019-07-11 21:06:54.795] [foreground] [info] -- XGMLabels (["List/ACM","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.815] [foreground] [info] - Updating message fV3BfjgS1gi7N7RWHVSL8TPQLh5siE5WvPbXvKQBN
+8802 [2019-07-11 21:06:54.815] [foreground] [info] -- XGMLabels (["Job/UPE","Job/UPE/Adum"] to ["Job/UPE/Adum"])
+8802 [2019-07-11 21:06:54.827] [foreground] [info] - Updating message 4zkZUgHRB8oUXUNQftfSD2RJRm331Zz4qHvygNfpX
+8802 [2019-07-11 21:06:54.827] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.836] [foreground] [info] - Updating message KVWJrLsdExDc5nQQXYuevTFwYMUzJNu9megnbBq43
+8802 [2019-07-11 21:06:54.836] [foreground] [info] -- XGMLabels (["List/ACM","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.846] [foreground] [info] - Updating message ni3t3c5zpUSJRBJr7Ensiuj3m8qk8VjieYC4Seu5W
+8802 [2019-07-11 21:06:54.846] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.852] [foreground] [info] - Updating message b1TabNxsLsjLessD9x3L8uyackMi2kKmPVYYoYxG9
+8802 [2019-07-11 21:06:54.852] [foreground] [info] -- XGMLabels (["Job/UPAU"] to ["Job/UPAU","List/RSD"])
+8802 [2019-07-11 21:06:54.861] [foreground] [info] - Updating message orRM3DmpiyEM6a9oB5EZpCWjdXvdqsRmLv7oPqs4
+8802 [2019-07-11 21:06:54.861] [foreground] [info] -- XGMLabels (["List/RSD"] to ["Job/UPMC/TelecomParisTech","List/RSD"])
+8802 [2019-07-11 21:06:54.877] [foreground] [info] - Updating message E179mM5uVtbs3TXXMUBZSqiAVcA3mkcE4ejf9JcSB
+8802 [2019-07-11 21:06:54.877] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:54.919] [foreground] [info] - Updating message e97eWdCWv1o51NKHCSpFk9JRLyo22JSCDdBD7FgKt
+8802 [2019-07-11 21:06:54.919] [foreground] [info] -- XGMLabels (["List/CEA","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.034] [foreground] [info] - Updating message 5cSeDJZEsTTYHTrGTbW33vJgkcPkn6fhcGrYWe9P6
+8802 [2019-07-11 21:06:55.034] [foreground] [info] -- XGMLabels (["Job/UPAU"] to ["Job/UPAU","List/RSD"])
+8802 [2019-07-11 21:06:55.038] [foreground] [info] - Updating message NYsf7BK6zspfQyDPDQZCT5Y1UyTRWJ9YYKYNeTRFZ
+8802 [2019-07-11 21:06:55.038] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Orange","List/RSD"])
+8802 [2019-07-11 21:06:55.042] [foreground] [info] - Updating message g4vjTVXNPmJ2X8kKscDsw5rTGhSDs3mtJJtwzmK54
+8802 [2019-07-11 21:06:55.042] [foreground] [info] -- XGMLabels (["List/GDR","List/Orange"] to ["List/GDR"])
+8802 [2019-07-11 21:06:55.045] [foreground] [info] - Updating message CRfMdnB9m69TKysnq39UbazuWyV34qWFFPEJE4N6W
+8802 [2019-07-11 21:06:55.045] [foreground] [info] -- XGMLabels (["Job/UPAU"] to ["Job/UPAU","List/RSD"])
+8802 [2019-07-11 21:06:55.048] [foreground] [info] - Updating message Ufjzudges1SsK4mgdBknrSvBWEewyD3AeHzRS5GgF
+8802 [2019-07-11 21:06:55.048] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.053] [foreground] [info] - Updating message myTWFtC7WHiL8VNkZDvSVUMPWTudTjKjpX5xEnmy4
+8802 [2019-07-11 21:06:55.053] [foreground] [info] -- XGMLabels (["Job/UPE/ESIEE","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.059] [foreground] [info] - Updating message 3PB8zrtkAnCiEc2pRaxddqKiMZGAAH5StXVRf45hp
+8802 [2019-07-11 21:06:55.059] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/GDR"] to ["List/GDR"])
+8802 [2019-07-11 21:06:55.066] [foreground] [info] - Updating message ALVJojfuRKDRzUw27KH6DXQG4Wjzd3DmWnv2WrHWE
+8802 [2019-07-11 21:06:55.066] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.149] [foreground] [info] - Updating message rbdF16QH6nWo2bdrhY1ubZqydv1NqSPdzrJSvcGq2
+8802 [2019-07-11 21:06:55.149] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.154] [foreground] [info] - Updating message 4Hanh8c9ZeuuyCbv5iWRajS5d18ZmrVAFcHMzty6U
+8802 [2019-07-11 21:06:55.154] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/LRI","List/RSD"])
+8802 [2019-07-11 21:06:55.158] [foreground] [info] - Updating message Fv6gKUXYkyCdugWw1T2hzojtnr3rDuCeb1abXNSQ7
+8802 [2019-07-11 21:06:55.158] [foreground] [info] -- XGMLabels (["List/RSD","List/Thales"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.163] [foreground] [info] - Updating message 39w3nibk1WMEE7Md3hz4NuJ125VPqgScqcefMf59J
+8802 [2019-07-11 21:06:55.163] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:55.183] [foreground] [info] - Updating message P5ofM5uh5rQByPtMvRxmp7Pou5Wa95JeEtRCcmckb
+8802 [2019-07-11 21:06:55.183] [foreground] [info] -- XGMLabels (["Job/UPAU"] to ["Job/UPAU","List/RSD"])
+8802 [2019-07-11 21:06:55.230] [foreground] [info] - Updating message FFbi1PgNp34xq9GXErm63tQo9txr8kYJ8qk9yCiZ2
+8802 [2019-07-11 21:06:55.230] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:55.249] [foreground] [info] - Updating message Pw1SKeqvMGq3MWj66fBi3UhZJVCkp7oL7QN5LiVCQ
+8802 [2019-07-11 21:06:55.249] [foreground] [info] -- XGMLabels (["List/GDR"] to ["Job/Sorbonne/Lip6","List/GDR"])
+8802 [2019-07-11 21:06:55.262] [foreground] [info] - Updating message 4KRwrwiUZsU49sHJWusoyac5CV5Bucs7wW3iUusAH
+8802 [2019-07-11 21:06:55.262] [foreground] [info] -- XGMLabels (["List/GDR"] to ["List/GDR","List/Inria"])
+8802 [2019-07-11 21:06:55.275] [foreground] [info] - Updating message LbfCQvbRVj5FYT5R1GdW2AJEyubN7v64Ka4G4ieMx
+8802 [2019-07-11 21:06:55.276] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:55.334] [foreground] [info] - Updating message nZQHkpzE8hDFqgBChcJveH7UixdxQxbHkeZtXep4G
+8802 [2019-07-11 21:06:55.334] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/GDR"] to ["List/GDR"])
+8802 [2019-07-11 21:06:55.343] [foreground] [info] - Updating message gn39qhk7XXEHz5TyhpuAp6zM41feQwqjAVxVQqdwb
+8802 [2019-07-11 21:06:55.343] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.347] [foreground] [info] - Updating message e5oHTVhtJgRQ4fWR2sDm7KVi1yHWwrUdxGEgYHyEh
+8802 [2019-07-11 21:06:55.347] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.351] [foreground] [info] - Updating message pnkeoCzCxFSv3GXJpyC5d4rPwLGbUkyHyT8puHrRY
+8802 [2019-07-11 21:06:55.351] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.355] [foreground] [info] - Updating message siEZNuWfgEYHWfZUoBmyJERCNSiis5GBMdQRf1zEE
+8802 [2019-07-11 21:06:55.355] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.358] [foreground] [info] - Updating message 4hyXoQ1rSrq85GaeonEpVoC2XqVv8Q3BLzPFK9c53
+8802 [2019-07-11 21:06:55.358] [foreground] [info] -- XGMLabels (["List/ACM","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.362] [foreground] [info] - Updating message iN428cnVxf4swSVyHrkoT15HD86srW7vganypiWeS
+8802 [2019-07-11 21:06:55.363] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.366] [foreground] [info] - Updating message fbLSZANizLm9ZpLZT58uVXvWQcbYf3gmGHKzmiyJD
+8802 [2019-07-11 21:06:55.366] [foreground] [info] -- XGMLabels (["List/Inria","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.372] [foreground] [info] - Updating message DRbNeGdBTYFHzkaXqQXTUFBYQvESb87aNMtuyR4gZ
+8802 [2019-07-11 21:06:55.372] [foreground] [info] -- XGMLabels (["Job/UPMC/Senouci","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.376] [foreground] [info] - Updating message 4kfm4cBbkGTiLA7TT1nP1Ux82D8sTfAXW7pHv9WgM
+8802 [2019-07-11 21:06:55.376] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/CEA","List/RSD"])
+8802 [2019-07-11 21:06:55.380] [foreground] [info] - Updating message dsdwokua9fq5T7FhXcmEs3TwRscZUEH48UKMiutYL
+8802 [2019-07-11 21:06:55.380] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/GDR","List/RSD"])
+8802 [2019-07-11 21:06:55.387] [foreground] [info] - Updating message cqhwz8GBYxHLFLgoP5LVwPYyyWo2bfqhBYHN49c3k
+8802 [2019-07-11 21:06:55.387] [foreground] [info] -- XGMLabels (["Job/UPE/UPEM","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.390] [foreground] [info] - Updating message 2gTSo5nsMsiT7nPbUdySQobD7LJm2Fmv7bKvYD2xL
+8802 [2019-07-11 21:06:55.390] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/GDR","List/RSD"])
+8802 [2019-07-11 21:06:55.393] [foreground] [info] - Updating message dWgYuk1u8WCu64ubgpjUR5veGKUjSseXjvNbf22sj
+8802 [2019-07-11 21:06:55.393] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/ACM","List/RSD"])
+8802 [2019-07-11 21:06:55.395] [foreground] [info] - Updating message 9FjsiLQdGTU7N2k1cjote2HuCC6iyAb1QF3GqTWpe
+8802 [2019-07-11 21:06:55.396] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/GDR","List/RSD"])
+8802 [2019-07-11 21:06:55.397] [foreground] [info] - Updating message DuFHwFyQ9ytDPEZvWGzantHcgvLsHhJzaG2ohfwU4
+8802 [2019-07-11 21:06:55.397] [foreground] [info] -- XGMLabels (["List/ACM","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.402] [foreground] [info] - Updating message EmQqypjcUFfQgt7KJVbZ2MQGgr3mXAdxmk77yy7B6
+8802 [2019-07-11 21:06:55.402] [foreground] [info] -- XGMLabels (["Job/UPE/Adum"] to ["Job/UPE","Job/UPE/Adum"])
+8802 [2019-07-11 21:06:55.439] [foreground] [info] - Updating message S75YuBtWgwWnuq9XCUwibg79e3FGGY4QFPAWZqjvW
+8802 [2019-07-11 21:06:55.439] [foreground] [info] -- XGMLabels (["List/Orange","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.443] [foreground] [info] - Updating message BhpVV2JKQN2dN38eSCgGTS19rRcwzNNgaiZxWt1XZ
+8802 [2019-07-11 21:06:55.443] [foreground] [info] -- XGMLabels (["Job/UPAU"] to ["Job/UPAU","List/RSD"])
+8802 [2019-07-11 21:06:55.445] [foreground] [info] - Updating message cxjadGpHjN1WMbivhotxQxKuXWdK9stxTVAwrnJXN
+8802 [2019-07-11 21:06:55.445] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:55.449] [foreground] [info] - Updating message Bo2WUYB2V4pt9AnmEZUxwadA4vizkPQepSU5EY7Gt
+8802 [2019-07-11 21:06:55.449] [foreground] [info] -- XGMLabels (["List/RSD"] to ["List/Inria","List/RSD"])
+8802 [2019-07-11 21:06:55.456] [foreground] [info] - Updating message qgKw74gTcv7aWdfJhTZbbWrkBJXv6FyPS1Tvhners
+8802 [2019-07-11 21:06:55.456] [foreground] [info] -- XGMLabels (["List/GDR","List/RSD"] to ["List/GDR"])
+8802 [2019-07-11 21:06:55.458] [foreground] [info] - Updating message orHsUjXPvEH9s2Dw2PVj5bCMwwPxVtha6xanvJgEg
+8802 [2019-07-11 21:06:55.458] [foreground] [info] -- XGMLabels (["List/GDR","List/RSD"] to ["List/GDR"])
+8802 [2019-07-11 21:06:55.461] [foreground] [info] - Updating message ERQNAMjVbzXJB3EeRJ8BeqPe4e3UNvYK19Atj37oJ
+8802 [2019-07-11 21:06:55.461] [foreground] [info] -- XGMLabels (["Job/Sorbonne/Lip6","List/RSD"] to ["List/RSD"])
+8802 [2019-07-11 21:06:55.465] [foreground] [info] - Updating message BwZgr6XtMdTyEZM2cRud3ZoLXcATfzznjoor4uJYx
+8802 [2019-07-11 21:06:55.465] [foreground] [info] -- XGMLabels (["List/RSD"] to ["Job/UPMC/Senouci","List/RSD"])
+8802 [2019-07-11 21:06:55.470] [foreground] [info] - Updating message juNhjSUwggNMnTbMLAVeT8Y2GovBrDnGBqJM3TegX
+8802 [2019-07-11 21:06:55.470] [foreground] [info] -- XGMLabels (["List/GDR"] to ["Job/UPMC/TelecomParisTech","List/GDR"])
+8802 [2019-07-11 21:06:55.472] [foreground] [warning] Ignoring changes to [rsd-forum] [CFP] 3rd Cyber Security In Networking Conference,October 23 - 25, 2019, local data is newer 1562872013 < 1562872014
+8802 [2019-07-11 21:06:55.472] [foreground] [warning] Ignoring changes to [rsd-forum] [CFP] IEEE WiMob 2019: Short papers, posters and Demos, local data is newer 1562872013 < 1562872014
+8802 [2019-07-11 21:06:55.473] [foreground] [warning] Ignoring changes to [rsd-forum] postdoc Blockchain, local data is newer 1562872013 < 1562872014
+8802 [2019-07-11 21:06:55.476] [foreground] [warning] Ignoring changes to [rsd-forum] IEEE CCNC2020 - Deadline approaching: Special Track on Communication and Applications for Connected and Autonomous Vehicles on Land, Water, and Sky, local data is newer 1562872013 < 1562872014
+8802 [2019-07-11 21:06:55.477] [foreground] [warning] Ignoring changes to [rsd-forum] Fwd: PhD position in green IT and software engineering, Anglet, France, local data is newer 1562872013 < 1562872014
+8802 [2019-07-11 21:06:55.481] [foreground] [warning] Ignoring changes to [rsd-forum] Last Mile: AFIN 2019 || October 27, 2019 to October 31, 2019 - Nice, France, local data is newer 1562872013 < 1562958414
+8802 [2019-07-11 21:06:55.592] [background] [info] Body for 8 messages already being fetched.
+8802 [2019-07-11 21:06:55.594] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 21:06:55.657] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 21:06:56.195] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:06:56.341] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:06:56.341] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 21:06:56.376] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 21:06:56.453] [main] [info] [local-2db29929-300c] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:56.455] [main] [info] [local-2db29929-300c] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:56.456] [main] [info] [local-e3813ae5-de75] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:56.458] [main] [info] [local-e3813ae5-de75] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:56.459] [main] [info] [local-3b2912fa-3127] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:56.461] [main] [info] [local-3b2912fa-3127] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:56.462] [main] [info] [local-f0f7106b-019d] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:56.466] [main] [info] [local-f0f7106b-019d] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:56.570] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:06:56.855] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:06:56.855] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 21:06:56.921] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 21:06:56.932] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:06:56.938] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:06:57.044] [main] [info] [local-5d19c6a0-60d0] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:57.046] [main] [info] [local-5d19c6a0-60d0] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:57.047] [main] [info] [local-689f3c94-0fca] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:57.049] [main] [info] [local-689f3c94-0fca] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:57.050] [main] [info] [local-9bee4f69-ec76] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:57.052] [main] [info] [local-9bee4f69-ec76] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:57.191] [foreground] [info] [local-c689bb95-12b2] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:57.711] [main] [info] [local-72ef6b6b-7273] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:06:57.715] [main] [info] [local-72ef6b6b-7273] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:06:58.175] [foreground] [info] [local-c689bb95-12b2] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.176] [foreground] [info] [local-2db29929-300c] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.378] [foreground] [info] [local-2db29929-300c] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.378] [foreground] [info] [local-e3813ae5-de75] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.448] [foreground] [info] [local-e3813ae5-de75] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.448] [foreground] [info] [local-3b2912fa-3127] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.602] [foreground] [info] [local-3b2912fa-3127] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.602] [foreground] [info] [local-f0f7106b-019d] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.656] [foreground] [info] [local-f0f7106b-019d] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.657] [foreground] [info] [local-5d19c6a0-60d0] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.714] [foreground] [info] [local-5d19c6a0-60d0] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.715] [foreground] [info] [local-689f3c94-0fca] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.782] [foreground] [info] [local-689f3c94-0fca] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.836] [foreground] [info] [local-9bee4f69-ec76] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.897] [foreground] [info] [local-9bee4f69-ec76] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:58.897] [foreground] [info] [local-72ef6b6b-7273] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:06:58.962] [foreground] [info] [local-72ef6b6b-7273] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:06:59.021] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337024 to 1337075, uidnext 28162 to 28162
+8802 [2019-07-11 21:06:59.083] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337024: 1 changed, 0 vanished
+8802 [2019-07-11 21:06:59.142] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:07:06.275] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-11 21:07:06.276] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8802 [2019-07-11 21:08:56.938] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:08:57.239] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:08:59.840] [background] [info] - remote=8605, local=8605
+8802 [2019-07-11 21:08:59.951] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 21:08:59.996] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 21:09:00.122] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:09:00.225] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:09:00.272] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:09:00.369] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:09:00.369] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:09:00.374] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:11:00.374] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:11:00.489] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27745 - 28162, Heavy: false
+8802 [2019-07-11 21:11:00.766] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:11:00.904] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:11:00.921] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:11:26.791] [main] [info] [local-f86dd033-b79e] Running ChangeUnreadTask performLocal:
+8802 [2019-07-11 21:11:26.809] [main] [info] [local-f86dd033-b79e] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:11:27.155] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:11:27.156] [foreground] [info] [local-f86dd033-b79e] Running ChangeUnreadTask performRemote:
+8802 [2019-07-11 21:11:27.485] [foreground] [info] [local-f86dd033-b79e] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:11:27.548] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337075 to 1337099, uidnext 28162 to 28162
+8802 [2019-07-11 21:11:27.612] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337075: 1 changed, 0 vanished
+8802 [2019-07-11 21:11:27.673] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:13:00.921] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:13:01.088] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27745 - 28162, Heavy: false
+8802 [2019-07-11 21:13:01.285] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:13:01.368] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:13:01.479] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:13:01.527] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:13:01.627] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:13:01.629] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:13:01.650] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:15:01.650] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:15:01.913] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:15:01.935] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:17:01.936] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:17:02.075] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27745 - 28162, Heavy: false
+8802 [2019-07-11 21:17:02.350] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:17:02.455] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:17:02.577] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:17:02.625] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:17:02.724] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:17:02.727] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:17:02.744] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:19:02.744] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:19:02.866] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:19:05.657] [background] [info] - remote=8605, local=8605
+8802 [2019-07-11 21:19:05.801] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:19:05.903] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:19:05.951] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:19:06.043] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:19:06.044] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:19:06.056] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:20:12.718] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:20:12.776] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337099 to 1337161, uidnext 28162 to 28163
+8802 [2019-07-11 21:20:12.844] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337099: 1 changed, 0 vanished
+8802 [2019-07-11 21:20:12.979] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:20:13.429] [main] [info] [local-f652e22a-5ce8] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:20:13.433] [main] [info] [local-f652e22a-5ce8] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:20:13.777] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:20:13.788] [foreground] [info] [local-f652e22a-5ce8] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:20:14.369] [foreground] [info] [local-f652e22a-5ce8] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:20:14.620] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337161 to 1337189, uidnext 28163 to 28163
+8802 [2019-07-11 21:20:14.689] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337161: 1 changed, 0 vanished
+8802 [2019-07-11 21:20:14.745] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:21:06.056] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:21:06.205] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27746 - 28163, Heavy: false
+8802 [2019-07-11 21:21:06.515] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:21:06.614] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:21:06.723] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:21:06.769] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:21:06.785] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:23:06.786] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:23:07.025] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:23:07.083] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:23:07.129] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:23:07.223] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:23:07.223] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:23:07.227] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:23:17.701] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-11 21:23:17.703] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-11 21:25:07.228] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:25:07.365] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27746 - 28163, Heavy: false
+8802 [2019-07-11 21:25:07.672] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:25:07.836] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:25:07.849] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:27:07.850] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:27:08.009] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27746 - 28163, Heavy: false
+8802 [2019-07-11 21:27:08.180] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:27:08.266] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:27:08.378] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:27:08.422] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:27:08.519] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:27:08.519] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:27:08.525] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:29:08.525] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:29:08.770] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:29:11.524] [background] [info] - remote=8606, local=8606
+8802 [2019-07-11 21:29:11.674] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:29:11.777] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:29:11.824] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:29:11.920] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:29:11.922] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:29:11.938] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:29:56.567] [main] [info] [local-44bf5638-1906] Running ChangeUnreadTask performLocal:
+8802 [2019-07-11 21:29:56.581] [main] [info] [local-44bf5638-1906] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:29:56.925] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:29:56.927] [foreground] [info] [local-44bf5638-1906] Running ChangeUnreadTask performRemote:
+8802 [2019-07-11 21:29:57.296] [foreground] [info] [local-44bf5638-1906] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:29:57.368] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337189 to 1337253, uidnext 28163 to 28163
+8802 [2019-07-11 21:29:57.444] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337189: 1 changed, 0 vanished
+8802 [2019-07-11 21:29:57.502] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:30:08.258] [main] [info] [local-fa0ae5a7-8850] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:30:08.268] [main] [info] [local-fa0ae5a7-8850] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:30:08.615] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:30:08.619] [foreground] [info] [local-fa0ae5a7-8850] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:30:08.619] [foreground] [info] [local-fa0ae5a7-8850] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:30:08.673] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337253 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:30:08.730] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337253: 0 changed, 0 vanished
+8802 [2019-07-11 21:30:08.789] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:30:21.167] [main] [info] [local-fa4b3f4f-5682] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:30:21.176] [main] [info] [local-fa4b3f4f-5682] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:30:21.522] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:30:21.526] [foreground] [info] [local-fa4b3f4f-5682] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:30:21.526] [foreground] [info] [local-fa4b3f4f-5682] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:30:21.573] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:30:21.623] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:30:48.661] [main] [info] [local-a688fe32-4601] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:30:48.664] [main] [info] [local-a688fe32-4601] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:30:49.011] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:30:49.023] [foreground] [info] [local-a688fe32-4601] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:30:49.023] [foreground] [info] [local-a688fe32-4601] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:30:49.084] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:30:49.129] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:30:58.670] [main] [info] [local-099714b9-33c5] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:30:58.674] [main] [info] [local-099714b9-33c5] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:30:59.186] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:30:59.197] [foreground] [info] [local-099714b9-33c5] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:30:59.198] [foreground] [info] [local-099714b9-33c5] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:30:59.356] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:30:59.405] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:31:11.938] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:31:12.078] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27746 - 28163, Heavy: false
+8802 [2019-07-11 21:31:12.356] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:31:12.454] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:31:12.564] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:31:12.610] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:31:12.704] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:31:12.706] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:31:12.718] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:31:15.643] [main] [info] [local-abb3a08a-a214] Running DestroyDraftTask performLocal:
+8802 [2019-07-11 21:31:15.644] [main] [info] -- Hiding / detatching drafts while they're deleted...
+8802 [2019-07-11 21:31:15.648] [main] [info] -- Replacing local ID FdPQWE52A2eqjoYeBhDnoNTxQABfAWm6CGhhmA43M with deleted-VgLcTRn3TkNl2hnc4RMRzzvMnSyQArbkxKmesx80
+8802 [2019-07-11 21:31:15.650] [main] [info] [local-abb3a08a-a214] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:31:15.997] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:31:16.007] [foreground] [info] [local-abb3a08a-a214] Running DestroyDraftTask performRemote:
+8802 [2019-07-11 21:31:16.009] [foreground] [info] [local-abb3a08a-a214] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:31:16.055] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:31:16.111] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:31:17.761] [main] [info] [local-34dbee51-f4e0] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:31:17.771] [main] [info] [local-34dbee51-f4e0] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:31:18.118] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:31:18.126] [foreground] [info] [local-34dbee51-f4e0] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:31:18.126] [foreground] [info] [local-34dbee51-f4e0] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:31:18.173] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:31:18.225] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:32:03.364] [main] [info] [local-6d6b34d1-7a87] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:32:03.377] [main] [info] [local-6d6b34d1-7a87] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:32:03.723] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:32:03.729] [foreground] [info] [local-6d6b34d1-7a87] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:32:03.729] [foreground] [info] [local-6d6b34d1-7a87] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:32:03.775] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:32:03.828] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:32:36.617] [main] [info] [local-c29b9b92-afa9] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:32:36.621] [main] [info] [local-c29b9b92-afa9] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:32:36.967] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:32:36.971] [foreground] [info] [local-c29b9b92-afa9] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:32:36.971] [foreground] [info] [local-c29b9b92-afa9] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:32:37.016] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:32:37.056] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:33:12.719] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:33:12.986] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:33:12.992] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:33:21.370] [main] [info] [local-23f0e39d-1ebc] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:33:21.385] [main] [info] [local-23f0e39d-1ebc] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:33:21.731] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:33:21.741] [foreground] [info] [local-23f0e39d-1ebc] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:33:21.741] [foreground] [info] [local-23f0e39d-1ebc] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:33:21.786] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:33:21.834] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:34:43.173] [main] [info] [local-8710a634-1d29] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:34:43.183] [main] [info] [local-8710a634-1d29] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:34:43.535] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:34:43.542] [foreground] [info] [local-8710a634-1d29] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:34:43.542] [foreground] [info] [local-8710a634-1d29] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:34:43.589] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:34:43.640] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:35:12.992] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:35:13.118] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27746 - 28163, Heavy: false
+8802 [2019-07-11 21:35:13.617] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:35:13.702] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:35:13.802] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:35:13.851] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:35:13.945] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:35:13.947] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:35:13.960] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:35:44.447] [main] [info] [local-91c7e35a-cc3f] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:35:44.457] [main] [info] [local-91c7e35a-cc3f] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:35:44.804] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:35:44.812] [foreground] [info] [local-91c7e35a-cc3f] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:35:44.812] [foreground] [info] [local-91c7e35a-cc3f] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:35:44.858] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:35:44.917] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:36:23.727] [main] [info] [local-f8289c97-c0b5] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:36:23.732] [main] [info] [local-f8289c97-c0b5] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:36:24.076] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:36:24.087] [foreground] [info] [local-f8289c97-c0b5] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:36:24.087] [foreground] [info] [local-f8289c97-c0b5] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:36:24.137] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:36:24.221] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:36:31.545] [main] [info] [local-7ab1fc11-fe47] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:36:31.548] [main] [info] [local-7ab1fc11-fe47] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:36:31.614] [main] [info] [local-363676e5-8bf6] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:36:31.617] [main] [info] [local-363676e5-8bf6] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:36:31.896] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:36:31.911] [foreground] [info] [local-7ab1fc11-fe47] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:36:31.911] [foreground] [info] [local-7ab1fc11-fe47] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:36:31.914] [foreground] [info] [local-363676e5-8bf6] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:36:31.914] [foreground] [info] [local-363676e5-8bf6] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:36:31.962] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337298, uidnext 28163 to 28163
+8802 [2019-07-11 21:36:32.041] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:36:32.549] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-11 21:36:32.549] [metadataExpiration] [info] -- Will wake for next expiration in 5sec
+8802 [2019-07-11 21:36:38.006] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-11 21:36:38.010] [metadataExpiration] [info] -- Sending expiration event for Message DCe3iVYCTWXzkepG6NySFGzT4DFgzpPrMrbH2yVWn
+8802 [2019-07-11 21:36:38.012] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8802 [2019-07-11 21:36:38.531] [main] [info] [local-527a79ee-d9cc] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 21:36:38.545] [main] [info] [local-527a79ee-d9cc] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:36:38.730] [main] [info] [local-7c6f58e4-7461] Running SendDraftTask performLocal:
+8802 [2019-07-11 21:36:38.731] [main] [info] [local-7c6f58e4-7461] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:36:38.891] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:36:38.895] [foreground] [info] [local-527a79ee-d9cc] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 21:36:38.895] [foreground] [info] [local-527a79ee-d9cc] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:36:38.896] [foreground] [info] [local-7c6f58e4-7461] Running SendDraftTask performRemote:
+8802 [2019-07-11 21:36:38.897] [foreground] [info] - Sending draft C3762AEB-56E2-49F4-8C8A-0C9FB5A2DED7@getmailspring.com
+8802 [2019-07-11 21:36:38.898] [foreground] [info] -- Identified `sent` folder: [Gmail]/Messages envoy&AOk-s
+8802 [2019-07-11 21:36:38.898] [foreground] [info] -- Sending a single message body to all recipients:
+8802 [2019-07-11 21:36:40.588] [foreground] [info] -- Found a message added to the sent folder by the SMTP gateway (UID 982)
+8802 [2019-07-11 21:36:40.588] [foreground] [info] -- Syncing sent message (UID 982) to the local mail store
+8802 [2019-07-11 21:36:40.730] [foreground] [info] -- Synced sent message (Sent UID 982 = Local ID 8ynosXyHgDVd4gHEVAxPZ3MdGqxp7ZKwRYfTRi4Dw)
+8802 [2019-07-11 21:36:40.730] [foreground] [info] -- Queueing task to attach send-later draft metadata to new message.
+8802 [2019-07-11 21:36:40.730] [foreground] [info] [GhrRn1ShIwJ5fMj3jIF9zSDZHIlTA8U5e0LsXsxw] Running SyncbackMetadataTask performLocal:
+8802 [2019-07-11 21:36:40.733] [foreground] [info] [GhrRn1ShIwJ5fMj3jIF9zSDZHIlTA8U5e0LsXsxw] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:36:40.734] [foreground] [info] [local-7c6f58e4-7461] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:36:40.735] [foreground] [info] [GhrRn1ShIwJ5fMj3jIF9zSDZHIlTA8U5e0LsXsxw] Running SyncbackMetadataTask performRemote:
+8802 [2019-07-11 21:36:41.270] [metadata] [info] Received metadata V1 for (message - 8ynosXyHgDVd4gHEVAxPZ3MdGqxp7ZKwRYfTRi4Dw)
+8802 [2019-07-11 21:36:41.270] [metadata] [info]  -- Ignored. Local model has >= version.
+8802 [2019-07-11 21:36:41.270] [foreground] [info] Syncback of metadata 8ynosXyHgDVd4gHEVAxPZ3MdGqxp7ZKwRYfTRi4Dw:send-later = {"headerMessageId":"C3762AEB-56E2-49F4-8C8A-0C9FB5A2DED7@getmailspring.com","objectType":"message","value":{"expiration":null},"version":1} succeeded.
+8802 [2019-07-11 21:36:41.270] [foreground] [info] [GhrRn1ShIwJ5fMj3jIF9zSDZHIlTA8U5e0LsXsxw] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:36:41.337] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337298 to 1337317, uidnext 28163 to 28164
+8802 [2019-07-11 21:36:41.483] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337298: 1 changed, 0 vanished
+8802 [2019-07-11 21:36:41.483] [foreground] [info] - Updating message 8ynosXyHgDVd4gHEVAxPZ3MdGqxp7ZKwRYfTRi4Dw
+8802 [2019-07-11 21:36:41.483] [foreground] [info] -- UID (982 to 28163)
+8802 [2019-07-11 21:36:41.483] [foreground] [info] -- FolderID (HWrnHm5tHx6nhqqPCd8rrJp3P98yXWVMJxHvyHmwh to kd5QFs15fL16AT36CRVinWm46jfMUVMDWMQQMgqZ3)
+8802 [2019-07-11 21:36:41.483] [foreground] [info] -- XGMLabels ([] to ["\\Sent"])
+8802 [2019-07-11 21:36:41.521] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:37:13.960] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:37:14.115] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27747 - 28164, Heavy: false
+8802 [2019-07-11 21:37:14.555] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:37:14.648] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:37:14.760] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:37:14.814] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:37:14.912] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:37:14.914] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:37:14.927] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:38:05.647] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-11 21:38:05.652] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-11 21:39:14.927] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:39:15.032] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:39:17.753] [background] [info] - remote=8607, local=8607
+8802 [2019-07-11 21:39:17.916] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:39:18.025] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:39:18.071] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:39:18.164] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:39:18.165] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:39:18.169] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:41:18.169] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:41:18.282] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27747 - 28164, Heavy: false
+8802 [2019-07-11 21:41:18.548] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:41:18.669] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:41:18.673] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:42:01.967] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:42:02.040] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337317 to 1337374, uidnext 28164 to 28165
+8802 [2019-07-11 21:42:02.103] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337317: 1 changed, 0 vanished
+8802 [2019-07-11 21:42:02.252] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:42:02.683] [main] [info] [local-114a1c53-4849] Running ChangeLabelsTask performLocal:
+8802 [2019-07-11 21:42:02.686] [main] [info] [local-114a1c53-4849] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 21:42:03.031] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 21:42:03.039] [foreground] [info] [local-114a1c53-4849] Running ChangeLabelsTask performRemote:
+8802 [2019-07-11 21:42:03.721] [foreground] [info] [local-114a1c53-4849] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 21:42:03.773] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337374 to 1337400, uidnext 28165 to 28165
+8802 [2019-07-11 21:42:03.834] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337374: 1 changed, 0 vanished
+8802 [2019-07-11 21:42:03.896] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 21:43:18.673] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:43:18.947] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:43:19.059] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:43:19.108] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:43:19.200] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:43:19.201] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:43:19.218] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:45:19.218] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:45:19.350] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27748 - 28165, Heavy: false
+8802 [2019-07-11 21:45:19.613] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:45:19.751] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:45:19.766] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:47:19.766] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:47:20.069] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:47:20.204] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:47:20.257] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:47:20.361] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:47:20.364] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:47:20.384] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:49:20.384] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:49:20.516] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:49:23.891] [background] [info] - remote=8608, local=8608
+8802 [2019-07-11 21:49:24.047] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:49:24.201] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:49:24.248] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:49:24.515] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:49:24.517] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:49:24.530] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:51:24.531] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:51:24.659] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27748 - 28165, Heavy: false
+8802 [2019-07-11 21:51:24.923] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:51:25.050] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:51:25.157] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:51:25.204] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:51:25.299] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:51:25.301] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:51:25.324] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:53:25.324] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:53:25.444] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27748 - 28165, Heavy: false
+8802 [2019-07-11 21:53:25.717] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:53:25.863] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:53:25.874] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:55:25.874] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:55:26.065] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 21:55:26.184] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:55:26.229] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 21:55:26.374] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:55:26.374] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:55:26.379] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:55:37.114] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-11 21:55:37.116] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-11 21:57:26.379] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:57:26.508] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27748 - 28165, Heavy: false
+8802 [2019-07-11 21:57:26.773] [background] [info] - remote=400, local=400
+8802 [2019-07-11 21:57:26.904] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 21:57:26.908] [background] [info] Sync loop complete.
+8802 [2019-07-11 21:59:26.908] [background] [info] Syncing folder list...
+8802 [2019-07-11 21:59:27.039] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:59:29.582] [background] [info] - remote=8608, local=8608
+8802 [2019-07-11 21:59:29.732] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:59:29.849] [background] [info] - remote=11, local=11
+8802 [2019-07-11 21:59:29.895] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 21:59:29.989] [background] [info] - remote=0, local=0
+8802 [2019-07-11 21:59:29.989] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 21:59:29.993] [background] [info] Sync loop complete.
+8802 [2019-07-11 22:01:29.994] [background] [info] Syncing folder list...
+8802 [2019-07-11 22:01:30.114] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27748 - 28165, Heavy: false
+8802 [2019-07-11 22:01:30.367] [background] [info] - remote=400, local=400
+8802 [2019-07-11 22:01:30.466] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 22:01:30.586] [background] [info] - remote=11, local=11
+8802 [2019-07-11 22:01:30.633] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 22:01:30.729] [background] [info] - remote=0, local=0
+8802 [2019-07-11 22:01:30.731] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 22:01:30.751] [background] [info] Sync loop complete.
+8802 [2019-07-11 22:01:36.856] [main] [info] [local-8ac0f1f6-7f24] Running ChangeUnreadTask performLocal:
+8802 [2019-07-11 22:01:36.875] [main] [info] [local-8ac0f1f6-7f24] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 22:01:37.223] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 22:01:37.226] [foreground] [info] [local-8ac0f1f6-7f24] Running ChangeUnreadTask performRemote:
+8802 [2019-07-11 22:01:38.087] [foreground] [info] [local-8ac0f1f6-7f24] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 22:01:38.286] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337400 to 1337437, uidnext 28165 to 28165
+8802 [2019-07-11 22:01:38.364] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337400: 1 changed, 0 vanished
+8802 [2019-07-11 22:01:38.416] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 22:03:30.751] [background] [info] Syncing folder list...
+8802 [2019-07-11 22:03:31.010] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 22:03:31.054] [background] [info] - remote=0, local=0
+8802 [2019-07-11 22:03:31.055] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 22:03:31.062] [background] [info] Sync loop complete.
+8802 [2019-07-11 22:05:31.062] [background] [info] Syncing folder list...
+8802 [2019-07-11 22:05:31.172] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27748 - 28165, Heavy: false
+8802 [2019-07-11 22:05:31.458] [background] [info] - remote=400, local=400
+8802 [2019-07-11 22:05:31.564] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 22:05:31.670] [background] [info] - remote=11, local=11
+8802 [2019-07-11 22:05:31.720] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 22:05:31.739] [background] [info] Sync loop complete.
+8802 [2019-07-11 23:53:07.710] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+8802 [2019-07-11 23:53:07.751] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Couldn't resolve host name","retryable":true,"what":"std::exception"}
+8802 [2019-07-11 23:53:08.714] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-11 23:53:08.714] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8802 [2019-07-11 23:53:29.279] [main] [info] Waking all workers...
+8802 [2019-07-11 23:53:29.279] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+8802 [2019-07-11 23:53:29.297] [foreground] [info] Idle exited with code 1
+8802 [2019-07-11 23:53:29.439] [background] [info] Marking all folders as `busy`
+8802 [2019-07-11 23:53:29.449] [background] [info] Syncing folder list...
+8802 [2019-07-11 23:53:29.466] [background] [info] Sleeping after exception: {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorConnection","retryable":true,"what":"std::exception"}
+8802 [2019-07-11 23:53:29.931] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337437 to 1337525, uidnext 28165 to 28166
+8802 [2019-07-11 23:53:30.109] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337437: 2 changed, 0 vanished
+8802 [2019-07-11 23:53:30.281] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-11 23:53:30.281] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8802 [2019-07-11 23:53:30.334] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:53:32.744] [metadata] [info] Metadata delta stream timed out.
+8802 [2019-07-11 23:53:32.786] [metadata] [info] Encountered error: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+8802 [2019-07-11 23:53:35.787] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-11 23:54:20.444] [main] [info] [local-ce4c1353-9864] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:54:20.452] [main] [info] [local-ce4c1353-9864] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:54:20.799] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:54:20.825] [foreground] [info] [local-ce4c1353-9864] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:54:20.825] [foreground] [info] [local-ce4c1353-9864] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:54:20.870] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:54:20.919] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:54:46.709] [main] [info] [local-dfdb1868-d79c] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:54:46.715] [main] [info] [local-dfdb1868-d79c] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:54:47.062] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:54:47.073] [foreground] [info] [local-dfdb1868-d79c] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:54:47.073] [foreground] [info] [local-dfdb1868-d79c] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:54:47.122] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:54:47.171] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:55:12.459] [main] [info] [local-57c036fe-f837] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:55:12.479] [main] [info] [local-57c036fe-f837] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:55:12.829] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:55:12.841] [foreground] [info] [local-57c036fe-f837] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:55:12.842] [foreground] [info] [local-57c036fe-f837] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:55:12.891] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:55:12.968] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:55:29.466] [background] [info] Syncing folder list...
+8802 [2019-07-11 23:55:30.203] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 23:55:32.586] [background] [info] - remote=8609, local=8609
+8802 [2019-07-11 23:55:32.765] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 23:55:32.803] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 23:55:33.025] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 23:55:33.324] [background] [info] - remote=11, local=11
+8802 [2019-07-11 23:55:33.324] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 23:55:33.361] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 23:55:33.558] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-11 23:55:33.656] [background] [info] - remote=0, local=0
+8802 [2019-07-11 23:55:33.656] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-11 23:55:33.684] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-11 23:55:33.700] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 23:55:33.710] [background] [info] Sync loop complete.
+8802 [2019-07-11 23:56:00.531] [main] [info] [local-523e556d-dbe3] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:56:00.549] [main] [info] [local-523e556d-dbe3] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:56:00.898] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:56:00.902] [foreground] [info] [local-523e556d-dbe3] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:56:00.902] [foreground] [info] [local-523e556d-dbe3] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:56:00.954] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:56:01.003] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:56:22.808] [main] [info] [local-5b4e7c50-d3aa] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:56:22.811] [main] [info] [local-5b4e7c50-d3aa] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:56:23.155] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:56:23.158] [foreground] [info] [local-5b4e7c50-d3aa] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:56:23.158] [foreground] [info] [local-5b4e7c50-d3aa] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:56:23.202] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:56:23.229] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:57:27.514] [main] [info] [local-1c263d75-c587] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:57:27.518] [main] [info] [local-1c263d75-c587] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:57:27.863] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:57:27.869] [foreground] [info] [local-1c263d75-c587] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:57:27.869] [foreground] [info] [local-1c263d75-c587] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:57:27.914] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:57:27.946] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:57:33.710] [background] [info] Syncing folder list...
+8802 [2019-07-11 23:57:33.843] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27749 - 28166, Heavy: false
+8802 [2019-07-11 23:57:34.094] [background] [info] - remote=400, local=400
+8802 [2019-07-11 23:57:34.194] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-11 23:57:34.386] [background] [info] - remote=11, local=11
+8802 [2019-07-11 23:57:34.435] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-11 23:57:34.534] [background] [info] - remote=0, local=0
+8802 [2019-07-11 23:57:34.535] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-11 23:57:34.549] [background] [info] Sync loop complete.
+8802 [2019-07-11 23:57:40.256] [main] [info] [local-31cfae1c-a318] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:57:40.265] [main] [info] [local-31cfae1c-a318] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:57:40.609] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:57:40.613] [foreground] [info] [local-31cfae1c-a318] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:57:40.613] [foreground] [info] [local-31cfae1c-a318] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:57:40.658] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:57:40.691] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:58:23.941] [main] [info] [local-21124902-c479] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:58:23.945] [main] [info] [local-21124902-c479] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:58:24.290] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:58:24.295] [foreground] [info] [local-21124902-c479] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:58:24.295] [foreground] [info] [local-21124902-c479] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:58:24.342] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:58:24.394] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-11 23:59:34.549] [background] [info] Syncing folder list...
+8802 [2019-07-11 23:59:34.814] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-11 23:59:34.827] [background] [info] Sync loop complete.
+8802 [2019-07-11 23:59:43.043] [main] [info] [local-faaf9741-763b] Running SyncbackDraftTask performLocal:
+8802 [2019-07-11 23:59:43.049] [main] [info] [local-faaf9741-763b] -- Succeeded. Changing status to `remote`
+8802 [2019-07-11 23:59:43.397] [foreground] [info] Idle exited with code 0
+8802 [2019-07-11 23:59:43.402] [foreground] [info] [local-faaf9741-763b] Running SyncbackDraftTask performRemote:
+8802 [2019-07-11 23:59:43.402] [foreground] [info] [local-faaf9741-763b] -- Succeeded. Changing status to `complete`
+8802 [2019-07-11 23:59:43.450] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-11 23:59:43.504] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:00:08.647] [main] [info] [local-9fecad84-a6d4] Running SyncbackDraftTask performLocal:
+8802 [2019-07-12 00:00:08.651] [main] [info] [local-9fecad84-a6d4] -- Succeeded. Changing status to `remote`
+8802 [2019-07-12 00:00:08.997] [foreground] [info] Idle exited with code 0
+8802 [2019-07-12 00:00:09.007] [foreground] [info] [local-9fecad84-a6d4] Running SyncbackDraftTask performRemote:
+8802 [2019-07-12 00:00:09.007] [foreground] [info] [local-9fecad84-a6d4] -- Succeeded. Changing status to `complete`
+8802 [2019-07-12 00:00:09.054] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-12 00:00:09.086] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:00:22.257] [main] [info] [local-83a7d3e5-b421] Running SyncbackDraftTask performLocal:
+8802 [2019-07-12 00:00:22.263] [main] [info] [local-83a7d3e5-b421] -- Succeeded. Changing status to `remote`
+8802 [2019-07-12 00:00:22.609] [foreground] [info] Idle exited with code 0
+8802 [2019-07-12 00:00:22.624] [foreground] [info] [local-83a7d3e5-b421] Running SyncbackDraftTask performRemote:
+8802 [2019-07-12 00:00:22.624] [foreground] [info] [local-83a7d3e5-b421] -- Succeeded. Changing status to `complete`
+8802 [2019-07-12 00:00:22.677] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337525, uidnext 28166 to 28166
+8802 [2019-07-12 00:00:22.739] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:00:23.262] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-12 00:00:23.262] [metadataExpiration] [info] -- Will wake for next expiration in 5sec
+8802 [2019-07-12 00:00:29.009] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-12 00:00:29.014] [metadataExpiration] [info] -- Sending expiration event for Message reP9hHF4JeCN1skkVtVUM4tdvY3zqee97mNpJA9U4
+8802 [2019-07-12 00:00:29.016] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8802 [2019-07-12 00:00:29.534] [main] [info] [local-024a1468-e187] Running SyncbackDraftTask performLocal:
+8802 [2019-07-12 00:00:29.548] [main] [info] [local-024a1468-e187] -- Succeeded. Changing status to `remote`
+8802 [2019-07-12 00:00:29.732] [main] [info] [local-4ca00487-a819] Running SendDraftTask performLocal:
+8802 [2019-07-12 00:00:29.733] [main] [info] [local-4ca00487-a819] -- Succeeded. Changing status to `remote`
+8802 [2019-07-12 00:00:29.905] [foreground] [info] Idle exited with code 0
+8802 [2019-07-12 00:00:29.946] [foreground] [info] [local-024a1468-e187] Running SyncbackDraftTask performRemote:
+8802 [2019-07-12 00:00:29.946] [foreground] [info] [local-024a1468-e187] -- Succeeded. Changing status to `complete`
+8802 [2019-07-12 00:00:29.950] [foreground] [info] [local-4ca00487-a819] Running SendDraftTask performRemote:
+8802 [2019-07-12 00:00:29.956] [foreground] [info] - Sending draft 0E2A2075-F793-41C6-8DA6-3D413A23D500@getmailspring.com
+8802 [2019-07-12 00:00:29.957] [foreground] [info] -- Identified `sent` folder: [Gmail]/Messages envoy&AOk-s
+8802 [2019-07-12 00:00:29.960] [foreground] [info] -- Sending a single message body to all recipients:
+8802 [2019-07-12 00:00:32.417] [foreground] [info] -- Found a message added to the sent folder by the SMTP gateway (UID 983)
+8802 [2019-07-12 00:00:32.417] [foreground] [info] -- Syncing sent message (UID 983) to the local mail store
+8802 [2019-07-12 00:00:32.586] [foreground] [info] -- Synced sent message (Sent UID 983 = Local ID eZ5XSbr1LkvTCv53TgDKGAw7VP1NQf8osqLbz7dfu)
+8802 [2019-07-12 00:00:32.586] [foreground] [info] -- Queueing task to attach send-later draft metadata to new message.
+8802 [2019-07-12 00:00:32.586] [foreground] [info] [XPVIBiEsYnM5vEtt7vB40iNQZmoYhFD3jpAKv51j] Running SyncbackMetadataTask performLocal:
+8802 [2019-07-12 00:00:32.590] [foreground] [info] [XPVIBiEsYnM5vEtt7vB40iNQZmoYhFD3jpAKv51j] -- Succeeded. Changing status to `remote`
+8802 [2019-07-12 00:00:32.591] [foreground] [info] [local-4ca00487-a819] -- Succeeded. Changing status to `complete`
+8802 [2019-07-12 00:00:32.592] [foreground] [info] [XPVIBiEsYnM5vEtt7vB40iNQZmoYhFD3jpAKv51j] Running SyncbackMetadataTask performRemote:
+8802 [2019-07-12 00:00:33.016] [foreground] [info] Syncback of metadata eZ5XSbr1LkvTCv53TgDKGAw7VP1NQf8osqLbz7dfu:send-later = {"headerMessageId":"0E2A2075-F793-41C6-8DA6-3D413A23D500@getmailspring.com","objectType":"message","value":{"expiration":null},"version":1} succeeded.
+8802 [2019-07-12 00:00:33.016] [foreground] [info] [XPVIBiEsYnM5vEtt7vB40iNQZmoYhFD3jpAKv51j] -- Succeeded. Changing status to `complete`
+8802 [2019-07-12 00:00:33.018] [metadata] [info] Received metadata V1 for (message - eZ5XSbr1LkvTCv53TgDKGAw7VP1NQf8osqLbz7dfu)
+8802 [2019-07-12 00:00:33.018] [metadata] [info]  -- Ignored. Local model has >= version.
+8802 [2019-07-12 00:00:33.115] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337525 to 1337546, uidnext 28166 to 28167
+8802 [2019-07-12 00:00:33.331] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337525: 2 changed, 0 vanished
+8802 [2019-07-12 00:00:33.335] [foreground] [info] - Updating message eZ5XSbr1LkvTCv53TgDKGAw7VP1NQf8osqLbz7dfu
+8802 [2019-07-12 00:00:33.335] [foreground] [info] -- UID (983 to 28166)
+8802 [2019-07-12 00:00:33.336] [foreground] [info] -- FolderID (HWrnHm5tHx6nhqqPCd8rrJp3P98yXWVMJxHvyHmwh to kd5QFs15fL16AT36CRVinWm46jfMUVMDWMQQMgqZ3)
+8802 [2019-07-12 00:00:33.336] [foreground] [info] -- XGMLabels ([] to ["\\Sent"])
+8802 [2019-07-12 00:00:33.395] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:00:55.128] [main] [info] [local-a39dd9ee-944d] Running ChangeUnreadTask performLocal:
+8802 [2019-07-12 00:00:55.157] [main] [info] [local-a39dd9ee-944d] -- Succeeded. Changing status to `remote`
+8802 [2019-07-12 00:00:55.504] [foreground] [info] Idle exited with code 0
+8802 [2019-07-12 00:00:55.510] [foreground] [info] [local-a39dd9ee-944d] Running ChangeUnreadTask performRemote:
+8802 [2019-07-12 00:00:55.890] [foreground] [info] [local-a39dd9ee-944d] -- Succeeded. Changing status to `complete`
+8802 [2019-07-12 00:00:55.946] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337546 to 1337574, uidnext 28167 to 28167
+8802 [2019-07-12 00:00:56.008] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337546: 1 changed, 0 vanished
+8802 [2019-07-12 00:00:56.070] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:01:34.827] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:01:34.972] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:01:35.248] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:01:35.346] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:01:35.462] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:01:35.507] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:01:35.604] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:01:35.606] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:01:35.620] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:03:35.620] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:03:35.943] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:03:35.953] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:05:35.953] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:05:36.160] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:05:38.686] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 00:05:39.084] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:05:39.213] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:05:39.260] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:05:39.362] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:05:39.363] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:05:39.368] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:07:39.368] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:07:39.505] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:07:39.747] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:07:39.892] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:07:39.912] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:09:39.913] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:09:40.046] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:09:40.214] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:09:40.314] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:09:40.417] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:09:40.451] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-12 00:09:40.457] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-12 00:09:40.464] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:09:40.557] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:09:40.560] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:09:40.581] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:11:40.581] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:11:40.816] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:11:40.832] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:13:40.833] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:13:41.188] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:13:41.438] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:13:41.541] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:13:41.645] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:13:41.693] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:13:41.788] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:13:41.790] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:13:41.809] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:15:31.386] [foreground] [info] Idle exited with code 1
+8802 [2019-07-12 00:15:35.387] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337574 to 1337578, uidnext 28167 to 28167
+8802 [2019-07-12 00:15:35.540] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337574: 1 changed, 0 vanished
+8802 [2019-07-12 00:15:35.604] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:15:41.810] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:15:41.827] [background] [info] Sleeping after exception: {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorConnection","retryable":true,"what":"std::exception"}
+8802 [2019-07-12 00:17:41.827] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:17:43.198] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:17:45.548] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 00:17:45.708] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:17:45.824] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:17:45.885] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:17:46.003] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:17:46.005] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:17:46.008] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:19:46.009] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:19:46.151] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:19:46.394] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:19:46.494] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:19:46.593] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:19:46.639] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:19:46.731] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:19:46.731] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:19:46.735] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:21:46.735] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:21:47.030] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:21:47.137] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:21:47.183] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:21:47.277] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:21:47.278] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:21:47.285] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:23:47.285] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:23:47.401] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:23:47.642] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:23:47.770] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:23:47.781] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:24:28.542] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-12 00:24:28.548] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-12 00:25:26.878] [foreground] [info] Idle exited with code 3
+8802 [2019-07-12 00:25:27.452] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337578 to 1337578, uidnext 28167 to 28167
+8802 [2019-07-12 00:25:27.478] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:25:47.781] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:25:47.985] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:25:48.088] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:25:48.133] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:25:48.223] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:25:48.225] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:25:48.240] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:27:48.240] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:27:48.362] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:27:50.541] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 00:27:50.697] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:27:50.797] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:27:50.845] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:27:50.937] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:27:50.939] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:27:50.959] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:29:50.959] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:29:51.094] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:29:51.364] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:29:51.471] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:29:51.591] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:29:51.637] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:29:51.731] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:29:51.732] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:29:51.746] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:31:51.746] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:31:52.026] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:31:52.070] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:31:52.073] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:31:52.094] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:33:52.095] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:33:52.234] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:33:52.472] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:33:52.572] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:33:52.676] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:33:52.724] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:33:52.744] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:35:52.745] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:35:53.008] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:35:53.063] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:35:53.113] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:35:53.206] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:35:53.208] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:35:53.227] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:37:53.228] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:37:53.360] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:37:56.334] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 00:37:56.499] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:37:56.611] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:37:56.657] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:37:56.753] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:37:56.755] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:37:56.775] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:39:56.776] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:39:57.010] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:39:57.118] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:39:57.164] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:39:57.261] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:39:57.263] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:39:57.297] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:41:19.151] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-12 00:41:19.160] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-12 00:41:57.298] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:41:57.411] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:41:57.676] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:41:57.819] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:41:57.842] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:43:57.842] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:43:58.074] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:43:58.177] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:43:58.224] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:43:58.318] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:43:58.320] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:43:58.340] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:45:58.340] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:45:58.477] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:45:58.735] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:45:58.882] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:45:58.896] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:47:58.896] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:47:59.028] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:48:04.399] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 00:48:04.519] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:48:04.628] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:48:04.675] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:48:04.824] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:48:04.827] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:48:04.846] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:50:04.847] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:50:05.071] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:50:05.177] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:50:05.224] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:50:05.316] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:50:05.318] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:50:05.339] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:52:05.339] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:52:05.464] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:52:05.712] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:52:05.848] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:52:05.861] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:53:27.748] [foreground] [info] Idle exited with code 0
+8802 [2019-07-12 00:53:27.748] [foreground] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+8802 [2019-07-12 00:53:27.906] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337578 to 1337578, uidnext 28167 to 28167
+8802 [2019-07-12 00:53:27.943] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 00:54:05.861] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:54:06.030] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 00:54:06.176] [background] [info] - remote=400, local=400
+8802 [2019-07-12 00:54:06.297] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 00:54:06.398] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:54:06.446] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 00:54:06.537] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:54:06.537] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:54:06.542] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:56:06.542] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:56:06.736] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-12 00:56:06.780] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-12 00:56:06.891] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-12 00:56:06.899] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-12 00:56:06.950] [background] [info] Cleaning local cache and updating stats
+8802 [2019-07-12 00:56:06.977] [background] [info] -- 0 message bodies deleted from local cache.
+8802 [2019-07-12 00:56:07.006] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 00:56:07.029] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:58:07.030] [background] [info] Syncing folder list...
+8802 [2019-07-12 00:58:07.154] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:58:09.559] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 00:58:09.701] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:58:09.813] [background] [info] - remote=11, local=11
+8802 [2019-07-12 00:58:09.862] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 00:58:09.958] [background] [info] - remote=0, local=0
+8802 [2019-07-12 00:58:09.958] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 00:58:09.963] [background] [info] Sync loop complete.
+8802 [2019-07-12 00:58:55.679] [metadata] [info] Metadata delta stream closed.
+8802 [2019-07-12 00:58:55.686] [metadata] [info] Metadata delta stream starting...
+8802 [2019-07-12 01:00:09.963] [background] [info] Syncing folder list...
+8802 [2019-07-12 01:00:10.072] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 01:00:10.336] [background] [info] - remote=400, local=400
+8802 [2019-07-12 01:00:10.421] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 01:00:10.522] [background] [info] - remote=11, local=11
+8802 [2019-07-12 01:00:10.567] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 01:00:10.661] [background] [info] - remote=0, local=0
+8802 [2019-07-12 01:00:10.663] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 01:00:10.680] [background] [info] Sync loop complete.
+8802 [2019-07-12 01:02:10.680] [background] [info] Syncing folder list...
+8802 [2019-07-12 01:02:10.991] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 01:02:11.009] [background] [info] Sync loop complete.
+8802 [2019-07-12 01:04:11.009] [background] [info] Syncing folder list...
+8802 [2019-07-12 01:04:11.160] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+8802 [2019-07-12 01:04:11.450] [background] [info] - remote=400, local=400
+8802 [2019-07-12 01:04:11.559] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 01:04:11.665] [background] [info] - remote=11, local=11
+8802 [2019-07-12 01:04:11.710] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 01:04:11.803] [background] [info] - remote=0, local=0
+8802 [2019-07-12 01:04:11.806] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 01:04:11.826] [background] [info] Sync loop complete.
+8802 [2019-07-12 01:06:11.826] [background] [info] Syncing folder list...
+8802 [2019-07-12 01:06:12.068] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+8802 [2019-07-12 01:06:12.174] [background] [info] - remote=11, local=11
+8802 [2019-07-12 01:06:12.219] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+8802 [2019-07-12 01:06:12.312] [background] [info] - remote=0, local=0
+8802 [2019-07-12 01:06:12.313] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8802 [2019-07-12 01:06:12.323] [background] [info] Sync loop complete.
+8802 [2019-07-12 01:13:49.627] [background] [info] Syncing folder list...
+8802 [2019-07-12 01:13:56.650] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 01:13:58.269] [main] [info] Waking all workers...
+8802 [2019-07-12 01:13:58.318] [foreground] [info] Idle exited with code 0
+8802 [2019-07-12 01:13:58.381] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337578 to 1337578, uidnext 28167 to 28167
+8802 [2019-07-12 01:13:58.463] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8802 [2019-07-12 01:13:58.797] [background] [info] - remote=8610, local=8610
+8802 [2019-07-12 01:13:58.964] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 01:13:59.078] [background] [info] - remote=11, local=11
+8802 [2019-07-12 01:13:59.131] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8802 [2019-07-12 01:13:59.244] [background] [info] - remote=0, local=0
+8802 [2019-07-12 01:13:59.245] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8802 [2019-07-12 01:13:59.255] [background] [info] Sync loop complete.
+8802 [2019-07-12 01:13:59.272] [metadataExpiration] [info] Scanning for expired metadata
+8802 [2019-07-12 01:13:59.273] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8802 [2019-07-12 01:14:14.654] [metadata] [info] Metadata delta stream timed out.
+8802 [2019-07-12 01:14:14.699] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0x80
+ ***
+
+8802 [2019-07-12 01:14:14.717] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+20707 [2019-07-12 01:14:15.275] [main] [info] Identity created at 1551184549 - using ID Schema 1
+20707 [2019-07-12 01:14:15.277] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+20707 [2019-07-12 01:14:15.281] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+20707 [2019-07-12 01:14:15.282] [metadata] [info] Metadata delta stream starting...
+20707 [2019-07-12 01:14:15.399] [background] [info] Marking all folders as `busy`
+20707 [2019-07-12 01:14:15.400] [background] [info] Syncing folder list...
+20707 [2019-07-12 01:14:15.947] [background] [info] Syncing folder list...
+20707 [2019-07-12 01:14:16.202] [background] [info] Sync loop deleting unlinked messages with phase 2.
+20707 [2019-07-12 01:14:16.206] [background] [info] Sync loop complete.
+20707 [2019-07-12 01:14:16.521] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337578 to 1337578, uidnext 28167 to 28167
+20707 [2019-07-12 01:14:16.564] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+20707 [2019-07-12 01:14:30.282] [metadataExpiration] [info] Scanning for expired metadata
+20707 [2019-07-12 01:14:30.282] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+20707 [2019-07-12 01:16:16.207] [background] [info] Syncing folder list...
+20707 [2019-07-12 01:16:16.399] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+20707 [2019-07-12 01:16:16.625] [background] [info] - remote=400, local=400
+20707 [2019-07-12 01:16:16.775] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+20707 [2019-07-12 01:16:16.877] [background] [info] - remote=11, local=11
+20707 [2019-07-12 01:16:16.925] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+20707 [2019-07-12 01:16:17.018] [background] [info] - remote=0, local=0
+20707 [2019-07-12 01:16:17.021] [background] [info] Sync loop deleting unlinked messages with phase 1.
+20707 [2019-07-12 01:16:17.048] [background] [info] Sync loop complete.
+20707 [2019-07-12 01:18:17.048] [background] [info] Syncing folder list...
+20707 [2019-07-12 01:18:17.156] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28167, Heavy: false
+20707 [2019-07-12 01:18:17.403] [background] [info] - remote=400, local=400
+20707 [2019-07-12 01:18:17.535] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+20707 [2019-07-12 01:18:17.635] [background] [info] - remote=11, local=11
+20707 [2019-07-12 01:18:17.686] [background] [info] Sync loop deleting unlinked messages with phase 2.
+20707 [2019-07-12 01:18:17.696] [background] [info] Sync loop complete.
+20707 [2019-07-12 01:20:17.696] [background] [info] Syncing folder list...
+20707 [2019-07-12 01:20:18.003] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+20707 [2019-07-12 01:20:18.100] [background] [info] - remote=0, local=0
+20707 [2019-07-12 01:20:18.102] [background] [info] Sync loop deleting unlinked messages with phase 1.
+20707 [2019-07-12 01:20:18.116] [background] [info] Sync loop complete.
+20707 [2019-07-12 08:09:39.801] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+20707 [2019-07-12 08:09:39.826] [background] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 1: 0x37
+ ***
+
+20707 [2019-07-12 08:09:39.838] [background] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+21364 [2019-07-12 08:09:39.882] [main] [info] Identity created at 1551184549 - using ID Schema 1
+21364 [2019-07-12 08:09:39.884] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+21364 [2019-07-12 08:09:39.889] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+21364 [2019-07-12 08:09:39.889] [metadata] [info] Metadata delta stream starting...
+21364 [2019-07-12 08:09:39.889] [metadata] [info] Metadata delta stream closed.
+21364 [2019-07-12 08:09:39.897] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=33418007","key":"Couldn't resolve host name","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+21364 [2019-07-12 08:09:39.905] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Couldn't resolve host name","retryable":true,"what":"std::exception"}
+21364 [2019-07-12 08:09:42.898] [metadata] [info] Metadata delta stream starting...
+21364 [2019-07-12 08:09:42.899] [metadata] [info] Metadata delta stream closed.
+21364 [2019-07-12 08:09:42.918] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=330\u0004","key":"Couldn't resolve host name","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+21364 [2019-07-12 08:09:45.919] [metadata] [info] Metadata delta stream starting...
+21364 [2019-07-12 08:09:54.887] [metadataExpiration] [info] Scanning for expired metadata
+21364 [2019-07-12 08:09:54.887] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+21364 [2019-07-12 08:10:07.574] [main] [info] Waking all workers...
+21364 [2019-07-12 08:10:07.574] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+21364 [2019-07-12 08:10:07.710] [background] [info] Marking all folders as `busy`
+21364 [2019-07-12 08:10:07.711] [background] [info] Syncing folder list...
+21364 [2019-07-12 08:10:08.264] [background] [info] Syncing folder list...
+21364 [2019-07-12 08:10:08.392] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28167 - 28168, Heavy: true
+21364 [2019-07-12 08:10:08.575] [metadataExpiration] [info] Scanning for expired metadata
+21364 [2019-07-12 08:10:08.575] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+21364 [2019-07-12 08:10:08.591] [background] [info] - remote=1, local=0
+21364 [2019-07-12 08:10:08.843] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337578 to 1337642, uidnext 28167 to 28168
+21364 [2019-07-12 08:10:08.880] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27750 - 28168, Heavy: false
+21364 [2019-07-12 08:10:09.032] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337578: 1 changed, 0 vanished
+21364 [2019-07-12 08:10:09.035] [background] [info] - remote=401, local=401
+21364 [2019-07-12 08:10:09.111] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+21364 [2019-07-12 08:10:09.115] [background] [info] Cleaning local cache and updating stats
+21364 [2019-07-12 08:10:09.167] [background] [info] -- 0 message bodies deleted from local cache.
+21364 [2019-07-12 08:10:09.271] [main] [info] [local-32713da0-6cb1] Running ChangeLabelsTask performLocal:
+21364 [2019-07-12 08:10:09.279] [main] [info] [local-32713da0-6cb1] -- Succeeded. Changing status to `remote`
+21364 [2019-07-12 08:10:09.306] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2229, Heavy: false
+21364 [2019-07-12 08:10:09.405] [background] [info] - remote=11, local=11
+21364 [2019-07-12 08:10:09.406] [background] [info] Cleaning local cache and updating stats
+21364 [2019-07-12 08:10:09.426] [background] [info] -- 0 message bodies deleted from local cache.
+21364 [2019-07-12 08:10:09.487] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+21364 [2019-07-12 08:10:09.577] [background] [info] - remote=0, local=0
+21364 [2019-07-12 08:10:09.577] [background] [info] Cleaning local cache and updating stats
+21364 [2019-07-12 08:10:09.603] [background] [info] -- 0 message bodies deleted from local cache.
+21364 [2019-07-12 08:10:09.611] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21364 [2019-07-12 08:10:09.615] [background] [info] Sync loop complete.
+21364 [2019-07-12 08:10:09.622] [foreground] [info] Idle exited with code 0
+21364 [2019-07-12 08:10:09.623] [foreground] [info] [local-32713da0-6cb1] Running ChangeLabelsTask performRemote:
+21364 [2019-07-12 08:10:10.565] [foreground] [info] [local-32713da0-6cb1] -- Succeeded. Changing status to `complete`
+21364 [2019-07-12 08:10:10.621] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337642 to 1337698, uidnext 28168 to 28168
+21364 [2019-07-12 08:10:10.784] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337642: 1 changed, 0 vanished
+21364 [2019-07-12 08:10:10.842] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+21364 [2019-07-12 08:10:17.705] [main] [info] [local-77279ca8-e29e] Running ChangeUnreadTask performLocal:
+21364 [2019-07-12 08:10:17.727] [main] [info] [local-77279ca8-e29e] -- Succeeded. Changing status to `remote`
+21364 [2019-07-12 08:10:18.072] [foreground] [info] Idle exited with code 0
+21364 [2019-07-12 08:10:18.075] [foreground] [info] [local-77279ca8-e29e] Running ChangeUnreadTask performRemote:
+21364 [2019-07-12 08:10:18.420] [foreground] [info] [local-77279ca8-e29e] -- Succeeded. Changing status to `complete`
+21364 [2019-07-12 08:10:18.561] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1337698 to 1337733, uidnext 28168 to 28168
+21364 [2019-07-12 08:10:18.706] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1337698: 1 changed, 0 vanished
+21364 [2019-07-12 08:10:18.760] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+>>>>>>> a30c07f4c563ca8246596012ea1e20fb66599023
