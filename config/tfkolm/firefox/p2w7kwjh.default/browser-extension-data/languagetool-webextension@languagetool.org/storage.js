@@ -1,1 +1,1 @@
-{"uniqueId":"8807b0cd1a6569cc","firstVisit":1562871988,"sessionCount":7,"allowRemoteCheck":true,"usageCount":13}
+{"uniqueId":"8807b0cd1a6569cc","firstVisit":1562871988,"sessionCount":21,"allowRemoteCheck":true,"usageCount":21,"appliedSuggestions":4}
