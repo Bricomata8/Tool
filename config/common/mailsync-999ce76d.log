@@ -10337,3 +10337,25 @@
 10215 [2019-07-13 09:42:47.044] [background] [info] Sync loop complete.
 10215 [2019-07-13 09:43:00.607] [metadataExpiration] [info] Scanning for expired metadata
 10215 [2019-07-13 09:43:00.607] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+10215 [2019-07-13 09:44:47.044] [background] [info] Syncing folder list...
+10215 [2019-07-13 09:44:47.148] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 5351 - 6182, Heavy: false
+10215 [2019-07-13 09:44:47.357] [background] [info] - remote=400, local=400
+10215 [2019-07-13 09:44:47.487] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1484, Heavy: false
+10215 [2019-07-13 09:44:47.587] [background] [info] - remote=10, local=10
+10215 [2019-07-13 09:44:47.633] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10215 [2019-07-13 09:44:47.638] [background] [info] Sync loop complete.
+13346 [2019-07-13 09:44:52.266] [main] [info] Identity created at 1551184549 - using ID Schema 1
+13346 [2019-07-13 09:44:52.268] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+13346 [2019-07-13 09:44:52.275] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+13346 [2019-07-13 09:44:52.278] [metadata] [info] Metadata delta stream starting...
+13346 [2019-07-13 09:44:52.406] [background] [info] Marking all folders as `busy`
+13346 [2019-07-13 09:44:52.407] [background] [info] Syncing folder list...
+13346 [2019-07-13 09:44:52.999] [background] [info] Syncing folder list...
+13346 [2019-07-13 09:44:53.211] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 2036, Heavy: false
+13346 [2019-07-13 09:44:53.370] [background] [info] - remote=0, local=0
+13346 [2019-07-13 09:44:53.372] [background] [info] Sync loop deleting unlinked messages with phase 2.
+13346 [2019-07-13 09:44:53.378] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 570332 to 570332, uidnext 6182 to 6182
+13346 [2019-07-13 09:44:53.379] [background] [info] Sync loop complete.
+13346 [2019-07-13 09:44:53.427] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+13346 [2019-07-13 09:45:07.280] [metadataExpiration] [info] Scanning for expired metadata
+13346 [2019-07-13 09:45:07.281] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec

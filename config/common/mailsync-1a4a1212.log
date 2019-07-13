@@ -18338,3 +18338,67 @@
 10206 [2019-07-13 09:42:46.762] [foreground] [info] Idling on folder [Gmail]/Tous les messages
 10206 [2019-07-13 09:43:00.591] [metadataExpiration] [info] Scanning for expired metadata
 10206 [2019-07-13 09:43:00.591] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+10206 [2019-07-13 09:44:46.546] [background] [info] Syncing folder list...
+10206 [2019-07-13 09:44:46.686] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27773 - 28208, Heavy: false
+10206 [2019-07-13 09:44:46.929] [background] [info] - remote=400, local=400
+10206 [2019-07-13 09:44:47.028] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+10206 [2019-07-13 09:44:47.137] [background] [info] - remote=15, local=11
+10206 [2019-07-13 09:44:47.137] [background] [info] - Fetching full headers for 4 (of 4 needed)
+10206 [2019-07-13 09:44:47.278] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 215, Heavy: false
+10206 [2019-07-13 09:44:47.373] [background] [info] - remote=0, local=0
+10206 [2019-07-13 09:44:47.374] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10206 [2019-07-13 09:44:47.383] [background] [info] Sync loop complete.
+13338 [2019-07-13 09:44:52.264] [main] [info] Identity created at 1551184549 - using ID Schema 1
+13338 [2019-07-13 09:44:52.266] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+13338 [2019-07-13 09:44:52.270] [metadata] [info] Metadata delta stream starting...
+13338 [2019-07-13 09:44:52.272] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+13338 [2019-07-13 09:44:52.354] [background] [info] Marking all folders as `busy`
+13338 [2019-07-13 09:44:52.355] [background] [info] Syncing folder list...
+13338 [2019-07-13 09:44:52.930] [background] [info] Syncing folder list...
+13338 [2019-07-13 09:44:53.189] [background] [info] Sync loop deleting unlinked messages with phase 2.
+13338 [2019-07-13 09:44:53.199] [background] [info] Sync loop complete.
+13338 [2019-07-13 09:44:53.476] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1340551 to 1340551, uidnext 28208 to 28208
+13338 [2019-07-13 09:44:53.517] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+13338 [2019-07-13 09:45:07.273] [metadataExpiration] [info] Scanning for expired metadata
+13338 [2019-07-13 09:45:07.274] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+13338 [2019-07-13 09:45:13.557] [foreground] [info] Idle exited with code 0
+13338 [2019-07-13 09:45:13.560] [foreground] [info] Fetching body for message ID mPo7LBcnauk8tpgKU5uHeP5DVVgmsSDraTMBYeUMk
+13338 [2019-07-13 09:45:13.683] [foreground] [info] Fetching body for message ID s4RC6pYcZFbaFAuSfANLj1D5iiXtX5Ct1xFLFYem3
+13338 [2019-07-13 09:45:13.747] [foreground] [info] Fetching body for message ID Dhcz59JbH5cj36qfNfMJWTxx4n6miuPtbAkQU2GBr
+13338 [2019-07-13 09:45:13.813] [foreground] [info] Fetching body for message ID oQgsXtzCWkHnN4iW4N2cYr5EmFZeFbTFFpQAneQkd
+13338 [2019-07-13 09:45:13.918] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1340551 to 1340551, uidnext 28208 to 28208
+13338 [2019-07-13 09:45:13.950] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+13338 [2019-07-13 09:45:39.225] [main] [info] [local-493ffc4b-708a] Running SyncbackDraftTask performLocal:
+13338 [2019-07-13 09:45:39.233] [main] [info] [local-493ffc4b-708a] -- Succeeded. Changing status to `remote`
+13338 [2019-07-13 09:45:39.282] [foreground] [info] Idle exited with code 0
+13338 [2019-07-13 09:45:39.285] [foreground] [info] Fetching body for message ID XMAUtUTw2HZUHq4QtrWLHzHiHEHRzpxTMMjwkN7jo
+13338 [2019-07-13 09:45:39.376] [foreground] [info] Fetching body for message ID 5kavrzfg9yjwU1ioXEb4WhZwSdLU8UDRui1rHQZCZ
+13338 [2019-07-13 09:45:39.447] [foreground] [info] Fetching body for message ID 6E3gUG2duPqwj71bMemx2fJqcqA5eyFNk7X8CFkQR
+13338 [2019-07-13 09:45:39.513] [foreground] [info] [local-493ffc4b-708a] Running SyncbackDraftTask performRemote:
+13338 [2019-07-13 09:45:39.513] [foreground] [info] [local-493ffc4b-708a] -- Succeeded. Changing status to `complete`
+13338 [2019-07-13 09:45:39.559] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1340551 to 1340551, uidnext 28208 to 28208
+13338 [2019-07-13 09:45:39.639] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1340551 to 1340551, uidnext 28208 to 28208
+13338 [2019-07-13 09:45:39.655] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+13338 [2019-07-13 09:45:39.974] [main] [info] [local-80f95491-d0c6] Running ChangeLabelsTask performLocal:
+13338 [2019-07-13 09:45:39.983] [main] [info] [local-80f95491-d0c6] -- Succeeded. Changing status to `remote`
+13338 [2019-07-13 09:45:39.984] [main] [info] [local-8c5128cd-6775] Running ChangeLabelsTask performLocal:
+13338 [2019-07-13 09:45:39.991] [main] [info] [local-8c5128cd-6775] -- Succeeded. Changing status to `remote`
+13338 [2019-07-13 09:45:40.328] [foreground] [info] Idle exited with code 0
+13338 [2019-07-13 09:45:40.330] [foreground] [info] [local-80f95491-d0c6] Running ChangeLabelsTask performRemote:
+13338 [2019-07-13 09:45:40.834] [metadata] [info] Received metadata V20 for (message - 5kavrzfg9yjwU1ioXEb4WhZwSdLU8UDRui1rHQZCZ)
+13338 [2019-07-13 09:45:40.834] [metadata] [info]  -- Saved on to local model.
+13338 [2019-07-13 09:45:41.245] [foreground] [info] [local-80f95491-d0c6] -- Succeeded. Changing status to `complete`
+13338 [2019-07-13 09:45:41.245] [foreground] [info] [local-8c5128cd-6775] Running ChangeLabelsTask performRemote:
+13338 [2019-07-13 09:45:41.567] [foreground] [info] [local-8c5128cd-6775] -- Succeeded. Changing status to `complete`
+13338 [2019-07-13 09:45:41.627] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1340551 to 1340566, uidnext 28208 to 28208
+13338 [2019-07-13 09:45:41.693] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1340551: 3 changed, 0 vanished
+13338 [2019-07-13 09:45:41.698] [foreground] [info] - Updating message 5kavrzfg9yjwU1ioXEb4WhZwSdLU8UDRui1rHQZCZ
+13338 [2019-07-13 09:45:41.698] [foreground] [info] -- XGMLabels (["\\Sent","Job/ECE/Rafik ZITOUNI","List/RSD"] to ["Job/ECE/Rafik ZITOUNI","List/RSD","\\Sent"])
+13338 [2019-07-13 09:45:41.755] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+13338 [2019-07-13 09:45:49.509] [main] [info] [local-156f5cbe-294d] Running SyncbackDraftTask performLocal:
+13338 [2019-07-13 09:45:49.515] [main] [info] [local-156f5cbe-294d] -- Succeeded. Changing status to `remote`
+13338 [2019-07-13 09:45:49.873] [foreground] [info] Idle exited with code 0
+13338 [2019-07-13 09:45:49.886] [foreground] [info] [local-156f5cbe-294d] Running SyncbackDraftTask performRemote:
+13338 [2019-07-13 09:45:49.886] [foreground] [info] [local-156f5cbe-294d] -- Succeeded. Changing status to `complete`
+13338 [2019-07-13 09:45:49.935] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1340566 to 1340566, uidnext 28208 to 28208
+13338 [2019-07-13 09:45:50.023] [foreground] [info] Idling on folder [Gmail]/Tous les messages
