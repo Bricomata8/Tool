@@ -1528,3 +1528,4 @@ pkill mailspring
 inkscape
 pkill gedit
 inkscape 
+pkill mailspring 
