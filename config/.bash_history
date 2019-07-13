@@ -1525,3 +1525,6 @@ grep -ri geometry
 gedit paper/src/B/review.tex
 grep -ri Transfer
 pkill mailspring 
+inkscape
+pkill gedit
+inkscape 
