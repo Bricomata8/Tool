@@ -1528,3 +1528,8 @@ pkill mailspring
 inkscape
 pkill gedit
 inkscape 
+pkill mailspring 
+svn-git https://github.com/BRICOMATA8/Tool/common
+svn-git https://github.com/BRICOMATA9/Tool/common
+svn-git https://github.com/Bricomata8/Tool/tree/master/config/common
+pkill mailspring 
