@@ -1533,3 +1533,5 @@ svn-git https://github.com/BRICOMATA8/Tool/common
 svn-git https://github.com/BRICOMATA9/Tool/common
 svn-git https://github.com/Bricomata8/Tool/tree/master/config/common
 pkill mailspring 
+./resa-salles@campuseiffel.fr 
+wget --save-cookies cookies.txt --keep-session-cookies --post-data="username=foo&password=bar" "http://some.site/login.php"
