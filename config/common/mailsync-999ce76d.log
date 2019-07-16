@@ -20448,3 +20448,42 @@
 13701 [2019-07-16 08:01:20.646] [background] [info] - remote=0, local=0
 13701 [2019-07-16 08:01:20.648] [background] [info] Sync loop deleting unlinked messages with phase 1.
 13701 [2019-07-16 08:01:20.652] [background] [info] Sync loop complete.
+13701 [2019-07-16 08:03:20.652] [background] [info] Syncing folder list...
+13701 [2019-07-16 08:03:20.903] [background] [info] Sync loop deleting unlinked messages with phase 2.
+13701 [2019-07-16 08:03:20.909] [background] [info] Sync loop complete.
+3272 [2019-07-16 20:30:44.542] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3272 [2019-07-16 20:30:44.684] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+3272 [2019-07-16 20:30:44.695] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+3272 [2019-07-16 20:30:44.698] [metadata] [info] Metadata delta stream starting...
+3272 [2019-07-16 20:30:44.821] [background] [info] Marking all folders as `busy`
+3272 [2019-07-16 20:30:44.834] [background] [info] Syncing folder list...
+3272 [2019-07-16 20:30:45.393] [background] [info] Syncing folder list...
+3272 [2019-07-16 20:30:45.505] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 6189 - 6194, Heavy: true
+3272 [2019-07-16 20:30:45.735] [background] [info] - remote=5, local=0
+3272 [2019-07-16 20:30:45.771] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 572054 to 572910, uidnext 6189 to 6194
+3272 [2019-07-16 20:30:45.994] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 572054: 5 changed, 0 vanished
+3272 [2019-07-16 20:30:47.171] [foreground] [info] Body for 2 messages already being fetched.
+3272 [2019-07-16 20:30:47.513] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 5377 - 6194, Heavy: false
+3272 [2019-07-16 20:30:47.586] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3272 [2019-07-16 20:30:47.759] [background] [info] - remote=405, local=405
+3272 [2019-07-16 20:30:47.772] [background] [info] Cleaning local cache and updating stats
+3272 [2019-07-16 20:30:47.812] [background] [info] -- 0 message bodies deleted from local cache.
+3272 [2019-07-16 20:30:48.026] [main] [info] [local-9ef08a68-64c8] Running ChangeLabelsTask performLocal:
+3272 [2019-07-16 20:30:48.032] [main] [info] [local-9ef08a68-64c8] -- Succeeded. Changing status to `remote`
+3272 [2019-07-16 20:30:48.066] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1484, Heavy: false
+3272 [2019-07-16 20:30:48.171] [background] [info] - remote=10, local=10
+3272 [2019-07-16 20:30:48.171] [background] [info] Cleaning local cache and updating stats
+3272 [2019-07-16 20:30:48.208] [background] [info] -- 0 message bodies deleted from local cache.
+3272 [2019-07-16 20:30:48.266] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 2037, Heavy: false
+3272 [2019-07-16 20:30:48.359] [background] [info] - remote=0, local=0
+3272 [2019-07-16 20:30:48.359] [background] [info] Cleaning local cache and updating stats
+3272 [2019-07-16 20:30:48.376] [foreground] [info] Idle exited with code 0
+3272 [2019-07-16 20:30:48.376] [foreground] [info] [local-9ef08a68-64c8] Running ChangeLabelsTask performRemote:
+3272 [2019-07-16 20:30:48.393] [background] [info] -- 0 message bodies deleted from local cache.
+3272 [2019-07-16 20:30:48.400] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3272 [2019-07-16 20:30:48.402] [background] [info] Sync loop complete.
+3272 [2019-07-16 20:30:48.430] [foreground] [info] [local-9ef08a68-64c8] -- Succeeded. Changing status to `complete`
+3272 [2019-07-16 20:30:48.475] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 572910 to 572910, uidnext 6194 to 6194
+3272 [2019-07-16 20:30:48.485] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3272 [2019-07-16 20:30:59.699] [metadataExpiration] [info] Scanning for expired metadata
+3272 [2019-07-16 20:30:59.699] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec

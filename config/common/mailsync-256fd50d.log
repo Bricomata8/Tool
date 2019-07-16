@@ -16921,3 +16921,37 @@
 6369 [2019-07-16 08:01:12.967] [background] [info] - remote=0, local=0
 6369 [2019-07-16 08:01:12.969] [background] [info] Sync loop deleting unlinked messages with phase 2.
 6369 [2019-07-16 08:01:12.969] [background] [info] Sync loop complete.
+6369 [2019-07-16 08:03:12.970] [background] [info] Syncing folder list...
+6369 [2019-07-16 08:03:13.067] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 22, Heavy: false
+6369 [2019-07-16 08:03:13.420] [background] [info] - remote=21, local=21
+6369 [2019-07-16 08:03:13.469] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+6369 [2019-07-16 08:03:13.564] [background] [info] - remote=0, local=0
+6369 [2019-07-16 08:03:13.612] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+6369 [2019-07-16 08:03:13.707] [background] [info] - remote=0, local=0
+6369 [2019-07-16 08:03:13.709] [background] [info] Sync loop deleting unlinked messages with phase 1.
+6369 [2019-07-16 08:03:13.710] [background] [info] Sync loop complete.
+3298 [2019-07-16 20:30:44.543] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3298 [2019-07-16 20:30:44.676] [main] [info] ------------- Starting Sync (aghiles.djoudi@esiee.fr) ---------------
+3298 [2019-07-16 20:30:44.692] [metadata] [info] Metadata delta stream starting...
+3298 [2019-07-16 20:30:44.694] [background] [info] Fetching XOAuth2 access token from Gmail for 256fd50d
+3298 [2019-07-16 20:30:44.821] [background] [info] Marking all folders as `busy`
+3298 [2019-07-16 20:30:44.822] [background] [info] Syncing folder list...
+3298 [2019-07-16 20:30:45.615] [background] [info] Syncing folder list...
+3298 [2019-07-16 20:30:45.715] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 22, Heavy: false
+3298 [2019-07-16 20:30:45.917] [background] [info] - remote=21, local=21
+3298 [2019-07-16 20:30:46.100] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 3954 to 3954, uidnext 22 to 22
+3298 [2019-07-16 20:30:46.142] [background] [info] Cleaning local cache and updating stats
+3298 [2019-07-16 20:30:46.849] [background] [info] -- 0 message bodies deleted from local cache.
+3298 [2019-07-16 20:30:46.925] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+3298 [2019-07-16 20:30:47.020] [background] [info] - remote=0, local=0
+3298 [2019-07-16 20:30:47.020] [background] [info] Cleaning local cache and updating stats
+3298 [2019-07-16 20:30:47.149] [background] [info] -- 0 message bodies deleted from local cache.
+3298 [2019-07-16 20:30:47.203] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+3298 [2019-07-16 20:30:47.242] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3298 [2019-07-16 20:30:47.295] [background] [info] - remote=0, local=0
+3298 [2019-07-16 20:30:47.296] [background] [info] Cleaning local cache and updating stats
+3298 [2019-07-16 20:30:47.383] [background] [info] -- 0 message bodies deleted from local cache.
+3298 [2019-07-16 20:30:47.399] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3298 [2019-07-16 20:30:47.399] [background] [info] Sync loop complete.
+3298 [2019-07-16 20:30:59.689] [metadataExpiration] [info] Scanning for expired metadata
+3298 [2019-07-16 20:30:59.690] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
