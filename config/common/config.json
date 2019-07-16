@@ -136,15 +136,8 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null30215 [2019-07-15 19:19:44.666] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n30215 [2019-07-15 19:19:44.679] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 30215 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null30215 [2019-07-15 19:19:44.666] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n30215 [2019-07-15 19:19:44.679] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 30215 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
+        "syncError": null,
         "__cls": "Account"
       },
       {
@@ -172,15 +165,8 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 1,
-          "error": {
-            "stack": "Error: Account is missing required fields:id or settings\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:281:21)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "Account is missing required fields:id or settings"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
+        "syncError": null,
         "__cls": "Account"
       },
       {
@@ -207,15 +193,8 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null30607 [2019-07-15 19:20:22.731] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xB0\n ***\n\n30607 [2019-07-15 19:20:22.738] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 30607 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null30607 [2019-07-15 19:20:22.731] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xB0\n ***\n\n30607 [2019-07-15 19:20:22.738] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 30607 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
+        "syncError": null,
         "__cls": "Account"
       },
       {
@@ -246,8 +225,8 @@
         "syncError": {
           "code": 134,
           "error": {
-            "stack": "Error: null22988 [2019-07-15 18:24:16.425] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n22988 [2019-07-15 18:24:16.425] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 22988 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null22988 [2019-07-15 18:24:16.425] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n22988 [2019-07-15 18:24:16.425] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 22988 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
+            "stack": "Error: null6651 [2019-07-15 22:44:47.535] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n6651 [2019-07-15 22:44:47.535] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  6651 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
+            "message": "null6651 [2019-07-15 22:44:47.535] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n6651 [2019-07-15 22:44:47.535] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  6651 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
           },
           "signal": null
         },
@@ -278,19 +257,12 @@
           "value": ""
         },
         "aliases": [],
-        "syncState": "sync_error",
-        "syncError": {
-          "code": 134,
-          "error": {
-            "stack": "Error: null30259 [2019-07-15 19:19:47.442] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n30259 [2019-07-15 19:19:47.449] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 30259 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null30259 [2019-07-15 19:19:47.442] [metadata] [critical] \n ***\n *** A JSON exception occurred during program execution: \n *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8\n ***\n\n30259 [2019-07-15 19:19:47.449] [metadata] [critical]  *** Stack trace:\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 30259 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
-          },
-          "signal": null
-        },
+        "syncState": "ok",
+        "syncError": null,
         "__cls": "Account"
       }
     ],
-    "accountsVersion": 70,
+    "accountsVersion": 76,
     "plugins": {
       "open-tracking": {
         "defaultOn": false
