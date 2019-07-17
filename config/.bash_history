@@ -1548,3 +1548,11 @@ sudo make TARGET=zoul
 ln -s /home/aghiles/Aghiles/Program/boards/iot-lab/djoudi/iot-lab  /home/aghiles
 sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="zoul"
 sudo make TARGET="zoul"
+pdfseparate 1.pdf 
+pdfseparate -l 1.pdf 
+pdfseparate 1.pdf %d/pdf
+pdfseparate 1.pdf
+pdfseparate 1.pdf l.pdf
+pdfseparate 1.pdf roo-%d.pdf
+pdfseparate 2.pdf roo-%d.pdf
+pdfunite *.pdf rescom.pdf
