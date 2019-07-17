@@ -1535,3 +1535,29 @@ svn-git https://github.com/Bricomata8/Tool/tree/master/config/common
 pkill mailspring 
 ./resa-salles@campuseiffel.fr 
 wget --save-cookies cookies.txt --keep-session-cookies --post-data="username=foo&password=bar" "http://some.site/login.php"
+scp -r -p djoudi@grenoble.iot-lab.info: ./djoudi
+scp -r -p djoudi@grenoble.iot-lab.info: /home/aghiles/djoudi
+scp -r -p djoudi@grenoble.iot-lab.info:/ /home/aghiles/djoudi
+scp -r -p djoudi@grenoble.iot-lab.info:~ /home/aghiles/djoudi
+git pull
+make TARGET=zoul
+ln -s /home/aghiles/Aghiles/Program/boards/iot-lab/djoudi/iot-lab  ~
+ls -CF
+ls -l
+sudo make TARGET=zoul
+ln -s /home/aghiles/Aghiles/Program/boards/iot-lab/djoudi/iot-lab  /home/aghiles
+sudo make border-router.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+sudo make TARGET="zoul"
+pdfseparate 1.pdf 
+pdfseparate -l 1.pdf 
+pdfseparate 1.pdf %d/pdf
+pdfseparate 1.pdf
+pdfseparate 1.pdf l.pdf
+pdfseparate 1.pdf roo-%d.pdf
+pdfseparate 2.pdf roo-%d.pdf
+pdfunite *.pdf rescom.pdf
+cd rafik/
+cp *.pdf ../o
+grep -ri redaction
+gedit ps/6
+zotero
