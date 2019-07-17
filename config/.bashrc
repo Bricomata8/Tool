@@ -112,6 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+############################################################
 
 export PATH=$PATH:/home/aghiles/Aghiles/Tool/commands::/home/aghiles/Aghiles/Tool/commands/x
 export ONOS_ROOT="/home/aghiles/Aghiles/Program/gw/sdn/tool/onos"
@@ -121,12 +122,7 @@ alias xd='tracker tag -ts'
 alias matlab='/usr/local/MATLAB/R2016b/bin/matlab'
 alias matlabx='/usr/local/MATLAB/R2016b/bin/matlab -nodesktop -nosplash -r'
 
-
-
-
 export PATH=/home/aghiles/Downloads/Software/omnetpp-5.5.1/bin:$PATH
-
-
 
 flash (){
 sudo dd $1 $2 bs=1M status=progress && sync
