@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 3207,
-	"last_window_id": 41,
+	"last_window_id": 42,
 	"log_indexing": false,
 	"settings":
 	{
@@ -182,16 +182,19 @@
 			},
 			"file_history":
 			[
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/5_experimentation.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/paper.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/6_results.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/3/4_approach.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/1/5_experimentation.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/2/5_experimentation.tex",
 				"/home/aghiles/Aghiles/Administration/Job/x_Search/Search_computer/cv/lm-en/lm-en.tex",
 				"/home/aghiles/Aghiles/Administration/Job/x_Search/Search_computer/cv/lm-fr/lm-fr.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/paper.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/1_introduction.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/2_related.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/3_background.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/7_conclusion.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/4_approach.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/5_experimentation.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/6_results.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/1_introduction.tex",
 				"/home/aghiles/Aghiles/Redaction/setup/setup_these.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/res",
@@ -287,16 +290,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"Workspace",
-					"Time on Air",
-					"PDR",
-					"frame pa",
-					"geom",
-					"]",
-					"[",
-					"item",
-					"_",
-					"{SF}/\\ac {BW}"
+					"paragraph",
+					"subsubsection"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -304,8 +299,8 @@
 				"regex": false,
 				"replace_history":
 				[
-					" ",
-					"-"
+					"subsubsection",
+					"subsection"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -399,7 +394,7 @@
 			"buffers":
 			[
 			],
-			"build_system": "",
+			"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -566,15 +561,14 @@
 			},
 			"expanded_folders":
 			[
+				"/home/aghiles/Aghiles/Redaction/0/paper",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/4"
 			],
 			"file_history":
 			[
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/5_experimentation.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/paper.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/6_results.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/3/4_approach.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/1/5_experimentation.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/2/5_experimentation.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/3_plateforms.tex",
 				"/home/aghiles/Aghiles/Administration/Job/x_Search/Search_computer/cv/lm-en/lm-en.tex",
 				"/home/aghiles/Aghiles/Administration/Job/x_Search/Search_computer/cv/lm-fr/lm-fr.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/1_introduction.tex",
@@ -582,6 +576,8 @@
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/3_background.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/7_conclusion.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/4_approach.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/5_experimentation.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/6_results.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/1_introduction.tex",
 				"/home/aghiles/Aghiles/Redaction/setup/setup_these.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/res",
@@ -677,8 +673,16 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"paragraph",
-					"subsubsection"
+					"Workspace",
+					"Time on Air",
+					"PDR",
+					"frame pa",
+					"geom",
+					"]",
+					"[",
+					"item",
+					"_",
+					"{SF}/\\ac {BW}"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -686,8 +690,8 @@
 				"regex": false,
 				"replace_history":
 				[
-					"subsubsection",
-					"subsection"
+					" ",
+					"-"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -744,10 +748,10 @@
 			},
 			"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"position": "0,0,0,0,0,0,27,960,1043,1920,1080",
-			"project": "/home/aghiles/Aghiles/Redaction/0/0_paper.sublime-project",
+			"project": "0_paper.sublime-project",
 			"replace":
 			{
-				"height": 69.0
+				"height": 40.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -802,8 +806,8 @@
 			"template_settings":
 			{
 			},
-			"window_id": 41,
-			"workspace_name": ""
+			"window_id": 42,
+			"workspace_name": "/home/aghiles/Aghiles/Redaction/0/0_paper.sublime-workspace"
 		}
 	],
 	"workspaces":
