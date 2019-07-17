@@ -1,6 +1,3 @@
-sudo python setup.py install
-git clone https://github.com/iot-lab/cli-tools-testing.git
-python
 sudo python
 mkdir hy
 cd hy
@@ -497,4 +494,7 @@ grep -ri redaction
 gedit ps/6
 zotero
 git clone htts://github.com/BRICOMATA8/Tool
+git clone https://github.com/BRICOMATA8/Tool
+git colne https://github.com/BRICOMATA8/Tool
+git clone https://github.com/BRICOMATA8/Tool
 git clone https://github.com/BRICOMATA8/Tool
