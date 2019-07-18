@@ -3754,3 +3754,11 @@
  ***   clone
  ***
 
+3435 [2019-07-18 11:29:45.420] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3435 [2019-07-18 11:29:45.572] [main] [info] ------------- Starting Sync (djoudi@lip6.fr) ---------------
+3435 [2019-07-18 11:29:45.588] [metadata] [info] Metadata delta stream starting...
+3435 [2019-07-18 11:29:45.614] [background] [info] Marking all folders as `busy`
+3435 [2019-07-18 11:29:45.622] [background] [info] Syncing folder list...
+3435 [2019-07-18 11:30:00.656] [metadataExpiration] [info] Scanning for expired metadata
+3435 [2019-07-18 11:30:00.657] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3435 [2019-07-18 11:30:15.737] [background] [info] Sleeping after exception: {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorConnection","retryable":true,"what":"std::exception"}

@@ -1009,3 +1009,22 @@
 3269 [2019-07-18 11:26:42.367] [background] [info] - remote=21, local=21
 3269 [2019-07-18 11:26:42.454] [background] [info] Sync loop deleting unlinked messages with phase 1.
 3269 [2019-07-18 11:26:42.455] [background] [info] Sync loop complete.
+3445 [2019-07-18 11:29:45.421] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3445 [2019-07-18 11:29:45.574] [main] [info] ------------- Starting Sync (aghiles.djoudi@esiee.fr) ---------------
+3445 [2019-07-18 11:29:45.583] [background] [info] Fetching XOAuth2 access token from Gmail for 256fd50d
+3445 [2019-07-18 11:29:45.595] [metadata] [info] Metadata delta stream starting...
+3445 [2019-07-18 11:29:45.768] [background] [info] Marking all folders as `busy`
+3445 [2019-07-18 11:29:45.769] [background] [info] Syncing folder list...
+3445 [2019-07-18 11:29:46.297] [background] [info] Syncing folder list...
+3445 [2019-07-18 11:29:46.382] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 22, Heavy: false
+3445 [2019-07-18 11:29:46.484] [background] [info] - remote=21, local=21
+3445 [2019-07-18 11:29:46.528] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+3445 [2019-07-18 11:29:46.616] [background] [info] - remote=0, local=0
+3445 [2019-07-18 11:29:46.658] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+3445 [2019-07-18 11:29:46.746] [background] [info] - remote=0, local=0
+3445 [2019-07-18 11:29:46.747] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3445 [2019-07-18 11:29:46.747] [background] [info] Sync loop complete.
+3445 [2019-07-18 11:29:46.835] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 4098 to 4098, uidnext 22 to 22
+3445 [2019-07-18 11:29:46.836] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3445 [2019-07-18 11:30:00.627] [metadataExpiration] [info] Scanning for expired metadata
+3445 [2019-07-18 11:30:00.627] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec

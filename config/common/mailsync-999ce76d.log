@@ -14631,3 +14631,22 @@
 3241 [2019-07-18 11:26:42.463] [background] [info] Syncing folder list...
 3241 [2019-07-18 11:26:42.703] [background] [info] Sync loop deleting unlinked messages with phase 1.
 3241 [2019-07-18 11:26:42.709] [background] [info] Sync loop complete.
+3418 [2019-07-18 11:29:45.419] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3418 [2019-07-18 11:29:45.563] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+3418 [2019-07-18 11:29:45.584] [metadata] [info] Metadata delta stream starting...
+3418 [2019-07-18 11:29:45.586] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+3418 [2019-07-18 11:29:45.758] [background] [info] Marking all folders as `busy`
+3418 [2019-07-18 11:29:45.759] [background] [info] Syncing folder list...
+3418 [2019-07-18 11:29:46.236] [background] [info] Syncing folder list...
+3418 [2019-07-18 11:29:46.343] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 5414 - 6198, Heavy: false
+3418 [2019-07-18 11:29:46.625] [background] [info] - remote=400, local=400
+3418 [2019-07-18 11:29:46.740] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1485, Heavy: false
+3418 [2019-07-18 11:29:46.768] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 573763 to 573763, uidnext 6198 to 6198
+3418 [2019-07-18 11:29:46.779] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3418 [2019-07-18 11:29:46.827] [background] [info] - remote=0, local=0
+3418 [2019-07-18 11:29:46.870] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 2038, Heavy: false
+3418 [2019-07-18 11:29:46.957] [background] [info] - remote=0, local=0
+3418 [2019-07-18 11:29:46.957] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3418 [2019-07-18 11:29:46.959] [background] [info] Sync loop complete.
+3418 [2019-07-18 11:30:00.602] [metadataExpiration] [info] Scanning for expired metadata
+3418 [2019-07-18 11:30:00.603] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec

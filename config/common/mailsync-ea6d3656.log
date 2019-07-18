@@ -1001,3 +1001,22 @@
 3276 [2019-07-18 11:26:44.361] [background] [info] - remote=0, local=0
 3276 [2019-07-18 11:26:44.363] [background] [info] Sync loop deleting unlinked messages with phase 1.
 3276 [2019-07-18 11:26:44.363] [background] [info] Sync loop complete.
+3453 [2019-07-18 11:29:45.425] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3453 [2019-07-18 11:29:45.579] [main] [info] ------------- Starting Sync (aghiles.djoudi@univ-paris-est.fr) ---------------
+3453 [2019-07-18 11:29:45.600] [metadata] [info] Metadata delta stream starting...
+3453 [2019-07-18 11:29:45.602] [background] [info] Fetching XOAuth2 access token from Gmail for ea6d3656
+3453 [2019-07-18 11:29:45.744] [background] [info] Marking all folders as `busy`
+3453 [2019-07-18 11:29:45.746] [background] [info] Syncing folder list...
+3453 [2019-07-18 11:29:47.138] [background] [info] Syncing folder list...
+3453 [2019-07-18 11:29:47.344] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 12, Heavy: false
+3453 [2019-07-18 11:29:47.613] [background] [info] - remote=5, local=5
+3453 [2019-07-18 11:29:47.716] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+3453 [2019-07-18 11:29:47.825] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 6284 to 6284, uidnext 12 to 12
+3453 [2019-07-18 11:29:47.825] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3453 [2019-07-18 11:29:47.925] [background] [info] - remote=0, local=0
+3453 [2019-07-18 11:29:48.027] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 7, Heavy: false
+3453 [2019-07-18 11:29:48.234] [background] [info] - remote=0, local=0
+3453 [2019-07-18 11:29:48.235] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3453 [2019-07-18 11:29:48.235] [background] [info] Sync loop complete.
+3453 [2019-07-18 11:30:00.594] [metadataExpiration] [info] Scanning for expired metadata
+3453 [2019-07-18 11:30:00.595] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
