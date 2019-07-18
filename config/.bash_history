@@ -555,3 +555,81 @@ pdfunite %d.pdf Facture11.pdf
 pdfunite *.pdf Facture.pdf
 ./push 
 git push
+man nautilus
+git reset HEAD~1
+./push 
+gedit
+pdf2txt 
+git clone https://github.com/iot-lab/iot-lab.git
+cd iot-lab/
+make setup-aggregation-tools setup-cli-tools setup-contiki setup-iot-lab-contiki-ng setup-iot-lab.wiki setup-oml-plot-tools setup-openlab setup-riot setup-wsn430 setup-zephyr 
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
+iotlab-experiment submit -n lorawan -d 10 \
+iotlab-experiment submit -n lorawan -d 10 -l saclay, st-lrwan1:sx1276,1-2
+iotlab-experiment submit -n lorawan -d 10 -l saclay,st-lrwan1:sx1276,1-2
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment wait
+arm-none-eabi-gcc --version
+export PATH=/opt/gcc-arm-none-eabi-7-2017-q4-major/bin:$PATH
+arm-none-eabi-gcc --version
+make -C tests/pkg_semtech-loramac clean all
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+ls
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node update -h
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node --update -i 175196 tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node --update -i 175196 "tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf" -l saclay,st-lrwan1,1
+iotlab-node update -h
+iotlab-node --update -i 175196 "tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf" -l saclay,st-lrwan1,1
+iotlab-node --update -i 175196 -up "tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf" -l saclay,st-lrwan1,1
+iotlab-node --update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node --update -i 175196 --update-idle tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node update -i 175196 tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node update -i 175196 --update-idle tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-auth
+iotlab-auth -udjoudi
+iotlab-node -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node -u djoudi -p aghilesDJ35B -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+aghilesDJ35B
+iotlab-node -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-auth
+iotlab-auth -u djoudi
+iotlab-node -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-auth -u djoudi
+iotlab-node -update -i 175196 -up tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+pkill gedit
+iotlab-auth -u djoudi
+iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
+iotlab-experiment get -i 175199 -s
+iotlab-experiment get -i 175199 -r
+cd RIOT
+cd parts/
+cd RIOT
+make -C tests/pkg_semtech-loramac clean all
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,2
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+ls
+ls tests/
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+iotlab-experiment get -i 175199 -r
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
+nc st-lrwan1-1 20000
+nc st-lrwan1-10 20000
+iotlab-node --update -i 175199 tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
+iotlab-node --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
+iotlab-node --update -i175199 tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
+iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
+iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1-10
+iotlab-node --update -h
+iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
