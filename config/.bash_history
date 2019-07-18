@@ -553,3 +553,4 @@ pkill mails
 pkill mailspring 
 pdfunite %d.pdf Facture11.pdf
 pdfunite *.pdf Facture.pdf
+./push 
