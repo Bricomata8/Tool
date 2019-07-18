@@ -528,3 +528,28 @@ make
 sudo make TARGET=zoul
 cd "/home/aghiles/Aghiles/Program/boards/iot-lab/djoudi/src/6lbr/1-border-router"
 ./x-compile 
+ps -A
+who
+pkill evolution-*
+pkill evolution-calendar-factory
+pkill skypeforlinux 
+pkill gvfsd-metadata 
+pkill gvfsd-fuse 
+pkill insync 
+pkill gvfsd-fuse 
+ps -A
+pkill mailspring 
+man mailstat 
+mail
+mail-notification 
+mailutils 
+man mailutils 
+mailq
+sudo mailq
+mailx
+svn-git https://github.com/Bricomata8/Tool/tree/b9288a0a6269e3fa2e377723c7d3ce54126032b3/config/common
+svn-git https://github.com/Bricomata8/Tool/trunk/config/common
+pkill mails
+pkill mailspring 
+pdfunite %d.pdf Facture11.pdf
+pdfunite *.pdf Facture.pdf
