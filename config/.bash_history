@@ -633,3 +633,6 @@ iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/test
 iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1-10
 iotlab-node --update -h
 iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,10
+mkdir ty
+cd ty
+httrack http://www.iotunisia.com/
