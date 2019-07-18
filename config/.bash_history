@@ -498,3 +498,33 @@ git clone https://github.com/BRICOMATA8/Tool
 git colne https://github.com/BRICOMATA8/Tool
 git clone https://github.com/BRICOMATA8/Tool
 git clone https://github.com/BRICOMATA8/Tool
+./pull
+./push
+./pull
+iotlab-profile addm3 -n test_consumption -p dc -current -voltage -power -period 140 -avg 4
+make
+git clone https://github.com/iot-lab/iot-lab.git
+cd iot-lab
+make
+make setup-iot-lab-contiki
+make setup-iot-lab-contiki-os
+make \\
+setup-aggregation-tools \\
+setup-cli-tools \\
+setup-contiki \\
+setup-iot-lab-contiki-ng \\
+setup-iot-lab.wiki \\
+setup-oml-plot-tools \\
+setup-openlab \\
+setup-riot \\
+setup-wsn430 \\
+setup-zephyr
+make setup-aggregation-tools setup-cli-tools setup-contiki setup-iot-lab-contiki-ng \\
+setup-iot-lab.wiki setup-oml-plot-tools setup-openlab setup-riot setup-wsn430 
+make setup-iot-lab-contiki-ng setup-iot-lab.wiki setup-oml-plot-tools setup-openlab setup-riot setup-wsn430 setup-zephyr
+make
+sudo make TARGET=zoul
+make
+sudo make TARGET=zoul
+cd "/home/aghiles/Aghiles/Program/boards/iot-lab/djoudi/src/6lbr/1-border-router"
+./x-compile 
