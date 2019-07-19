@@ -272,7 +272,9 @@ DTSTAMP:20190708T114223Z
 X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DTSTART 
  property. Removing entire property:
 DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:
+DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:
  20190708T163000
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190708T163000
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190708T163000
 DTEND;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190708T164200
 SUMMARY:Réunion rafik
@@ -298,7 +300,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20190719T143042Z-32199-1000-32189-0@dell
 DTSTAMP:20190719T143042Z
-DTSTART;VALUE=DATE:20190910
+DTSTART;VALUE=DATE:20190910T080000
+DUE;VALUE=DATE:20190910T080000
 DTEND;VALUE=DATE:20190911
 SUMMARY:ECE - Réunion de rentrée
 SEQUENCE:1
