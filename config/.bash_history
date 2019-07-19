@@ -636,3 +636,32 @@ iotlab-node -i 175199 --update tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/test
 mkdir ty
 cd ty
 httrack http://www.iotunisia.com/
+xdotool windowmove $(xdotool getwindowfocus) x 0
+xdotool windowmove $(xdotool getwindowfocus) x 9999
+xdotool windowmove $(xdotool getwindowfocus) x 99
+xdotool windowmove $(xdotool getwindowfocus) x 9
+xdotool windowmove $(xdotool getwindowfocus) x 900
+xdotool windowmove $(xdotool getwindowfocus) x 90
+xdotool windowmove $(xdotool getwindowfocus) x 200
+xdotool windowmove $(xdotool getwindowfocus) x 390
+xdotool windowmove $(xdotool getwindowfocus) x 1200
+xdotool windowmove $(xdotool getwindowfocus) x 100
+xdotool windowmove $(xdotool getwindowfocus) x 0
+"xdotool windowsize $(xdotool getwindowfocus) 50% 100% && xdotool windowmove $(xdotool getwindowfocus) 0 y"
+man nautilus
+nautilus -g 100
+nautilus
+nautilus --geometry=860x480
+nautilus --geometry=100x100
+man nautilus
+nautilus -g=100x100
+man nautilus
+nautilus -g 100x100
+nautilus
+./shotcuts 
+atom
+apm install project-sidebar
+man atom
+apm
+atom slide.tex 
+atom

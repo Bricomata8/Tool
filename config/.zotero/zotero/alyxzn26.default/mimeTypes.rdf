@@ -14,12 +14,12 @@
   <RDF:Description RDF:about="urn:scheme:handler:https"
                    NC:useSystemDefault="true"
                    NC:alwaysAsk="false" />
+  <RDF:Description RDF:about="urn:schemes">
+    <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
+  </RDF:Description>
   <RDF:Description RDF:about="urn:scheme:https"
                    NC:value="https">
     <NC:handlerProp RDF:resource="urn:scheme:handler:https"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:schemes">
-    <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
   </RDF:Description>
   <RDF:Description RDF:about="urn:scheme:handler:http"
                    NC:useSystemDefault="true"
