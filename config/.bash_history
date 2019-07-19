@@ -665,3 +665,14 @@ man atom
 apm
 atom slide.tex 
 atom
+python plot.py 
+sudo pip install seaborn
+python plot.py 
+pythin plot.py 
+python plot.py 
+cd "/home/aghiles/Aghiles/Program/plot_markov/trends"
+puthon plot.py 
+python plot.py 
+sudo pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
+arduino

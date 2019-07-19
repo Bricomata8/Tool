@@ -5590,3 +5590,278 @@
  ***   clone
  ***
 
+4975 [2019-07-19 09:58:59.238] [main] [info] Identity created at 1551184549 - using ID Schema 1
+4975 [2019-07-19 09:58:59.366] [main] [info] ------------- Starting Sync (aghiles.djoudi@esiee.fr) ---------------
+4975 [2019-07-19 09:58:59.397] [metadata] [info] Metadata delta stream starting...
+4975 [2019-07-19 09:58:59.398] [background] [info] Fetching XOAuth2 access token from Gmail for 256fd50d
+4975 [2019-07-19 09:58:59.526] [background] [info] Marking all folders as `busy`
+4975 [2019-07-19 09:58:59.528] [background] [info] Syncing folder list...
+4975 [2019-07-19 09:59:00.434] [background] [info] Syncing folder list...
+4975 [2019-07-19 09:59:00.525] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 24, Heavy: false
+4975 [2019-07-19 09:59:00.945] [background] [info] - remote=23, local=23
+4975 [2019-07-19 09:59:00.947] [background] [info] Cleaning local cache and updating stats
+4975 [2019-07-19 09:59:01.013] [background] [info] -- 0 message bodies deleted from local cache.
+4975 [2019-07-19 09:59:01.038] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 4313 to 4410, uidnext 24 to 24
+4975 [2019-07-19 09:59:01.116] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+4975 [2019-07-19 09:59:01.240] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 4313: 1 changed, 0 vanished
+4975 [2019-07-19 09:59:01.243] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+4975 [2019-07-19 09:59:01.283] [background] [info] - remote=0, local=0
+4975 [2019-07-19 09:59:01.283] [background] [info] Cleaning local cache and updating stats
+4975 [2019-07-19 09:59:01.335] [background] [info] -- 0 message bodies deleted from local cache.
+4975 [2019-07-19 09:59:01.393] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+4975 [2019-07-19 09:59:01.480] [background] [info] - remote=0, local=0
+4975 [2019-07-19 09:59:01.480] [background] [info] Cleaning local cache and updating stats
+4975 [2019-07-19 09:59:01.536] [background] [info] -- 0 message bodies deleted from local cache.
+4975 [2019-07-19 09:59:01.633] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4975 [2019-07-19 09:59:01.634] [background] [info] Sync loop complete.
+4975 [2019-07-19 09:59:14.394] [metadataExpiration] [info] Scanning for expired metadata
+4975 [2019-07-19 09:59:14.395] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+4975 [2019-07-19 10:01:01.634] [background] [info] Syncing folder list...
+4975 [2019-07-19 10:01:01.721] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+4975 [2019-07-19 10:01:01.820] [background] [info] - remote=23, local=23
+4975 [2019-07-19 10:01:01.820] [background] [info] Cleaning local cache and updating stats
+4975 [2019-07-19 10:01:01.843] [background] [info] -- 0 message bodies deleted from local cache.
+4975 [2019-07-19 10:01:01.900] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+4975 [2019-07-19 10:01:01.988] [background] [info] - remote=0, local=0
+4975 [2019-07-19 10:01:02.029] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+4975 [2019-07-19 10:01:02.177] [background] [info] - remote=0, local=0
+4975 [2019-07-19 10:01:02.177] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4975 [2019-07-19 10:01:02.178] [background] [info] Sync loop complete.
+4975 [2019-07-19 10:03:02.178] [background] [info] Syncing folder list...
+4975 [2019-07-19 10:03:02.279] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 24, Heavy: false
+4975 [2019-07-19 10:03:02.384] [background] [info] - remote=23, local=23
+4975 [2019-07-19 10:03:02.435] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+4975 [2019-07-19 10:03:02.524] [background] [info] - remote=0, local=0
+4975 [2019-07-19 10:03:02.602] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4975 [2019-07-19 10:03:02.602] [background] [info] Sync loop complete.
+4975 [2019-07-19 10:05:02.603] [background] [info] Syncing folder list...
+4975 [2019-07-19 10:05:02.783] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+4975 [2019-07-19 10:05:02.887] [background] [info] - remote=0, local=0
+4975 [2019-07-19 10:05:02.889] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4975 [2019-07-19 10:05:02.889] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:02:27.527] [main] [info] Identity created at 1551184549 - using ID Schema 1
+23851 [2019-07-19 11:02:27.751] [main] [info] ------------- Starting Sync (aghiles.djoudi@esiee.fr) ---------------
+23851 [2019-07-19 11:02:27.768] [metadata] [info] Metadata delta stream starting...
+23851 [2019-07-19 11:02:27.770] [background] [info] Fetching XOAuth2 access token from Gmail for 256fd50d
+23851 [2019-07-19 11:02:27.955] [background] [info] Marking all folders as `busy`
+23851 [2019-07-19 11:02:27.956] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:02:28.417] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:02:28.504] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 24 - 25, Heavy: true
+23851 [2019-07-19 11:02:28.932] [background] [info] - remote=1, local=0
+23851 [2019-07-19 11:02:29.365] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 4410 to 4470, uidnext 24 to 25
+23851 [2019-07-19 11:02:29.747] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:02:29.859] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:02:30.001] [background] [info] Cleaning local cache and updating stats
+23851 [2019-07-19 11:02:30.047] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 4410: 1 changed, 0 vanished
+23851 [2019-07-19 11:02:30.147] [background] [info] -- 0 message bodies deleted from local cache.
+23851 [2019-07-19 11:02:30.152] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23851 [2019-07-19 11:02:30.404] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:02:30.542] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:02:30.542] [background] [info] Cleaning local cache and updating stats
+23851 [2019-07-19 11:02:30.600] [background] [info] -- 0 message bodies deleted from local cache.
+23851 [2019-07-19 11:02:30.750] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:02:30.957] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:02:30.957] [background] [info] Cleaning local cache and updating stats
+23851 [2019-07-19 11:02:31.245] [background] [info] -- 0 message bodies deleted from local cache.
+23851 [2019-07-19 11:02:31.297] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:02:31.297] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:02:37.673] [main] [info] [local-b6f6aca7-4c4d] Running ChangeUnreadTask performLocal:
+23851 [2019-07-19 11:02:37.680] [main] [info] [local-b6f6aca7-4c4d] -- Succeeded. Changing status to `remote`
+23851 [2019-07-19 11:02:38.038] [foreground] [info] Idle exited with code 0
+23851 [2019-07-19 11:02:38.038] [foreground] [info] [local-b6f6aca7-4c4d] Running ChangeUnreadTask performRemote:
+23851 [2019-07-19 11:02:39.500] [foreground] [info] [local-b6f6aca7-4c4d] -- Succeeded. Changing status to `complete`
+23851 [2019-07-19 11:02:39.600] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 4470 to 4533, uidnext 25 to 25
+23851 [2019-07-19 11:02:39.711] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 4470: 1 changed, 0 vanished
+23851 [2019-07-19 11:02:39.716] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23851 [2019-07-19 11:02:42.763] [metadataExpiration] [info] Scanning for expired metadata
+23851 [2019-07-19 11:02:42.764] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23851 [2019-07-19 11:04:31.298] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:04:31.639] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:04:31.965] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:04:32.105] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:04:32.292] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:04:32.334] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:04:32.436] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:04:32.436] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:04:32.436] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:06:32.437] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:06:32.526] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:06:32.627] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:06:32.712] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:06:32.712] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:08:32.712] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:08:32.853] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:08:32.988] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:08:33.032] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:08:33.125] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:08:33.127] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:08:33.127] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:10:33.128] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:10:33.252] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:10:33.357] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:10:33.402] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:10:33.516] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:10:33.564] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:10:33.565] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:12:33.565] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:12:33.745] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:12:33.833] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:12:33.835] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:12:33.836] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:14:33.836] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:14:33.928] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:14:34.031] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:14:34.077] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:14:34.170] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:14:34.213] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:14:34.303] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:14:34.304] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:14:34.305] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:16:34.305] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:16:34.506] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:16:34.507] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:18:34.507] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:18:34.637] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:18:34.746] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:18:34.795] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:18:34.887] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:18:34.932] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:18:35.026] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:18:35.028] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:18:35.029] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:19:26.937] [metadata] [info] Metadata delta stream closed.
+23851 [2019-07-19 11:19:26.941] [metadata] [info] Metadata delta stream starting...
+23851 [2019-07-19 11:20:35.029] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:20:35.122] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:20:35.250] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:20:35.296] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:20:35.386] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:20:35.458] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:20:35.459] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:22:35.459] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:22:35.641] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:22:35.735] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:22:35.737] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:22:35.738] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:24:35.738] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:24:35.833] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:24:35.940] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:24:35.987] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:24:36.076] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:24:36.120] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:24:36.393] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:24:36.394] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:24:36.394] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:26:36.394] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:26:36.488] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:26:36.597] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:26:36.684] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:26:36.684] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:28:36.685] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:28:36.823] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:28:36.914] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:28:36.957] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:28:37.043] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:28:37.044] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:28:37.044] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:30:37.044] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:30:37.135] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:30:37.237] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:30:37.288] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:30:37.376] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:30:37.418] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:30:37.418] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:30:39.849] [foreground] [info] Idle exited with code 0
+23851 [2019-07-19 11:30:39.894] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 4533 to 4533, uidnext 25 to 25
+23851 [2019-07-19 11:30:39.898] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23851 [2019-07-19 11:32:37.419] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:32:37.598] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:32:37.688] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:32:37.688] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:32:37.688] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:34:37.689] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:34:37.786] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:34:37.891] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:34:37.937] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:34:38.029] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:34:38.071] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:34:38.160] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:34:38.161] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:34:38.161] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:36:38.162] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:36:38.250] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:36:38.350] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:36:38.443] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:36:38.443] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:37:42.686] [metadata] [info] Metadata delta stream closed.
+23851 [2019-07-19 11:37:42.693] [metadata] [info] Metadata delta stream starting...
+23851 [2019-07-19 11:38:38.444] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:38:38.641] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:38:38.763] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:38:38.810] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:38:38.926] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:38:38.927] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:38:38.927] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:40:38.928] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:40:39.022] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:40:39.164] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:40:39.221] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:40:39.309] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:40:39.354] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:40:39.452] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:40:39.454] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:40:39.455] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:42:39.456] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:42:39.633] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:42:39.634] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:44:39.634] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:44:39.726] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:44:39.837] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:44:39.910] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:44:40.100] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:44:40.175] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:44:40.335] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:44:40.337] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:44:40.338] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:46:40.338] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:46:40.428] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:46:40.526] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:46:40.612] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:46:40.612] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:48:40.613] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:48:40.762] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:48:40.852] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:48:40.897] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:48:40.986] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:48:40.988] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:48:40.988] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:50:40.989] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:50:41.083] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:50:41.187] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:50:41.233] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:50:41.331] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:50:41.376] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:50:41.467] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:50:41.468] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:50:41.469] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:52:41.469] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:52:41.651] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:52:41.652] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:54:12.401] [metadata] [info] Metadata delta stream closed.
+23851 [2019-07-19 11:54:12.402] [metadata] [info] Metadata delta stream starting...
+23851 [2019-07-19 11:54:41.653] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:54:41.747] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:54:41.851] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:54:41.902] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:54:41.992] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:54:42.036] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23851 [2019-07-19 11:54:42.126] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:54:42.128] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23851 [2019-07-19 11:54:42.129] [background] [info] Sync loop complete.
+23851 [2019-07-19 11:56:42.129] [background] [info] Syncing folder list...
+23851 [2019-07-19 11:56:42.249] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 25, Heavy: false
+23851 [2019-07-19 11:56:42.434] [background] [info] - remote=24, local=24
+23851 [2019-07-19 11:56:42.481] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+23851 [2019-07-19 11:56:42.571] [background] [info] - remote=0, local=0
+23851 [2019-07-19 11:56:42.616] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23851 [2019-07-19 11:56:42.617] [background] [info] Sync loop complete.
