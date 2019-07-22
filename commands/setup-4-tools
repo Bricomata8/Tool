@@ -226,6 +226,15 @@ wget https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-
 sudo pip3 install celery tensorflow keras matplotlib numpy sklearn
 
 
+# WSNet
+svn checkout svn://scm.gforge.inria.fr/svn/wsnet
+cd wsnet/
+./bootstrap
+./configure
+make
+make install
+wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
+
 # Python
 #python3-[cetx]*
 #python3-[abdfghijklmnopqrsuvwyz]*
