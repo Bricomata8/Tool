@@ -676,3 +676,25 @@ python plot.py
 sudo pip install -r requirements.txt
 sudo pip3 install -r requirements.txt
 arduino
+iotlab-profile -l
+iotlab-profile get -h
+iotlab-profile get -l
+iotlab-experiment -l
+iotlab-experiment get -l
+iotlab-experiment -h
+iotlab-experiment del-h
+iotlab-experiment del -h
+node-cli -h
+git clone https://github.com/iot-lab/cli-tools.git
+svn-git https://github.com/Bricomata8/Redaction/tree/master/setup/lib/iot
+pdfseparate èh
+pdfseparate -help
+pdfseparate -f 1 -l 60 Avila\ Campos\ -\ 2017\ -\ Evaluación\ del\ rango\ de\ transmisión\ de\ LoRa\ para\ r.pdf 
+pdfseparate -f 1 -l 60 Avila\ Campos\ -\ 2017\ -\ Evaluación\ del\ rango\ de\ transmisión\ de\ LoRa\ para\ r.pdf io.pdf
+pdfseparate -f 1 -l 60 Avila\ Campos\ -\ 2017\ -\ Evaluación\ del\ rango\ de\ transmisión\ de\ LoRa\ para\ r.pdf %d.pdf
+pdftk Avila\ Campos\ -\ 2017\ -\ Evaluación\ del\ rango\ de\ transmisión\ de\ LoRa\ para\ r.pdf cat 1-60 output po.pdf
+pdftk Avila\ Campos\ -\ 2017\ -\ Evaluación\ del\ rango\ de\ transmisión\ de\ LoRa\ para\ r.pdf cat 60-129 output poL.pdf
+ps -a
+A
+grep -ri kill
+ps -A
