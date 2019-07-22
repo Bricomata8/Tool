@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 3207,
-	"last_window_id": 63,
+	"last_window_id": 68,
 	"log_indexing": false,
 	"settings":
 	{
@@ -182,11 +182,13 @@
 			},
 			"file_history":
 			[
-				"/home/aghiles/Aghiles/Redaction/5/poster/poster.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/paper.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/3_plateforms.tex",
+				"/home/aghiles/Aghiles/Redaction/setup/setup_these.tex",
+				"/home/aghiles/Aghiles/Redaction/0/paper/src/3/6_results.tex",
+				"/home/aghiles/Aghiles/Redaction/5/poster/poster.tex",
 				"/home/aghiles/Aghiles/Redaction/0/res/tikz/tree_chalenges.tex",
 				"/home/aghiles/Aghiles/Redaction/5/paper/paper.tex",
-				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/3_plateforms.tex",
 				"/home/aghiles/Aghiles/Administration/Job/x_Search/Search_computer/cv/lm-en/lm-en.tex",
 				"/home/aghiles/Aghiles/Administration/Job/x_Search/Search_computer/cv/lm-fr/lm-fr.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/1_introduction.tex",
@@ -197,7 +199,6 @@
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/5_experimentation.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/4/6_results.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/1_introduction.tex",
-				"/home/aghiles/Aghiles/Redaction/setup/setup_these.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/res",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/5/src",
 				"/home/aghiles/Aghiles/Redaction/0/paper/paper.pdf",
@@ -290,16 +291,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"Workspace",
-					"Time on Air",
-					"PDR",
-					"frame pa",
-					"geom",
-					"]",
-					"[",
-					"item",
-					"_",
-					"{SF}/\\ac {BW}"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -307,8 +298,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					" ",
-					"-"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -401,6 +390,26 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "slide/slide.tex",
+					"settings":
+					{
+						"buffer_size": 1072,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "\\subsection{Contagion process}\n\n\\begin{frame}{Marcov chain}{Methods}\n\n\n\\begin{itemize}\n\t\\item Arms: K = {1, ... , K}\n\t\\item Decision: T = {1, ... , T}\n\t\\item Reward: $X^{k}_{t}$ with $\\mu^{k}_{t}$ = E $[X^{k}_{t}]$\n\t\\begin{itemize}\n\t\t\\item Best reward: $X^{*}_{t}$ with $\\mu^{*}_{t}$ = max $\\mu^{k}_{t}$\n\t\\end{itemize}\n\n\n\\end{itemize}\n\n\n\\end{frame}\n\n\n\n\n\\begin{frame}{Marcov chain}{Methods}\n\n\n\\begin{equation}\nV(s, \\pi)=\\mathbb{E}_{s}^{\\pi}\\left(\\sum_{k=0}^{\\mathrm{inf}} \\gamma^{k} \\cdot r\\left(s_{k}, a_{k}\\right)\\right), s \\in \\mathbb{S}\n\\end{equation}\n\n\\begin{equation}\nr\\left(s_{k}, a_{k}\\right)=G_{k} \\cdot P R R\\left(a_{k}\\right)\n\\end{equation}\n\n\\begin{equation}\n\\pi^{*}=\\arg \\max _{\\pi} V(s, \\pi)\n\\end{equation}\n\n\n\\stamp{HGHG}\n% \\begin{tikzpicture}[remember picture, overlay]\n% \t\\node[draw, rotate=30] at (25em, 7ex) {\\color{red!90}\\huge\\bfseries APPROVED};\n% \\end{tikzpicture}\n\n\\begin{equation}\nPRR=(1-BER)^{L}\n\\end{equation}\n\n\\begin{equation}\nBER=10^{\\alpha e^{\\beta SNR}}\n\\end{equation}\n\n\\end{frame}\n\n\n\\begin{frame}{Genetic Algorithm}{Methods}\n\n\\Itemize{\n\t\\item \n\t\\item S = {SF12, BW125, 4/8, 17 dBm}\n\t\\item Input: \n\t\\Itemize{\n\t\t\\item Problem: f(x) = {max($x^{2}$), x \\in [0,32]}\n\t\t\\Itemize{\n\t\t\t\\item $x_{1}: 01101_{b}$ \n\t\t\t\\item $x_{2}: 11000_{b}$\n\t\t\t\\item $x_{3}: 01000_{b}$\n\t\t\t\\item $x_{4}: 10011_{b}$\n\t\t}\n\t}\n\n\t\\item Method: Genetic algorithm\n\t\\Itemize{\n\t\t\\item Generate a set of random possible solution\n\t\t\\item Test each solution and see how good it is (ranking)\n\t\t\\Enumerate{\n\t\t\t\\item Remove some bad solutions\n\t\t\t\\item Duplicate some good solutions\n\t\t\t\\item Make small changes to some of them (Crossover, Mutation)\n\t\t}\n\t}\n\n\t\\item Output:\n\t\\Itemize{\n\t\t\t\\item $x_{1}$: 01101  (169)  (14.4)\n\t\t\t\\item $x_{2}$: 11000  (576)  (49.2)\n\t\t\t\\item $x_{3}$: 01000  (64 )  (5.5)\n\t\t\t\\item $x_{4}$: 10011  (361)  (30.9)\n\t}\n}\n\\end{frame}\n\n\n\\begin{frame}{Game theory}{Methods}\n\\Itemize{\n\t\\item Players: $K = \\{1, ... , K\\}$\n\t\\item Strategies: $S =S_{1} \\times \\ldots \\times S_{K}$\n\t\\Itemize{\n\t\t\\item $S_{k}$ is the strategy set of the $k^{th}$ player.\n\t}\n\t\\item Rewards: $u_{k} : S \\longrightarrow R_{+}$ and is denoted by $r_{k} (s_{k} , s_{-k})$\n\t\\Itemize{\n\t\t\\item $s_{-k}=\\left(s_{1}, \\dots, s_{k-1}, s_{k+1}, \\ldots, s_{K}\\right) \\in S_{1} \\times \\ldots \\times S_{k-1} \\times S_{k+1} \\times \\ldots \\times S_{K}$\n\t}\n}\n \\end{frame}\n\n\n%\\note{\n%\t\\begin{itemize}\n%\t\t\\item Contenu:\n%\t\t\\begin{itemize}\n%\t\t\t\\item L’approche doit être soigneusement détaillée\n%\t\t\t\\item Motiver les étapes, les hypothèses, le contexte\n%\t\t\t\\item Dérouler un exemple si nécessaire\n%\t\t\t\\item Illustrer par des schémas et figures\n%\t\t\t\\item Se concentrer sur les aspects où l’approche apporte une contribution\n%\t\t\t\\item Montrer comment on est différent de l’existant\n%\t\t\\end{itemize}\n%\t\t\\item Conseils:\n%\t\t\\begin{itemize}\n%\t\t\t\\item Présentation de l'approche utilisée pour résoudre le problème posé: approche(contrainte, parametre du probleme) = solution\n%\t\t\t\\begin{itemize}\n%\t\t\t\t\\item Justification du choix de l'approche\n%\t\t\t\t\\item Description générale de l’approche comme une boite noir\n%\t\t\t\t\\begin{itemize}\n%\t\t\t\t\t\\item Entrées, Sorties, Contraintes, Hypothèses\n%\t\t\t\t\\end{itemize}\n%\t\t\t\t\\item Description détaillée de la solution du problème\n%\t\t\t\t\\begin{itemize}\n%\t\t\t\t\t\\item Description détaillée des étapes: paramètre -> étape1 -> étape2, ... -> solution\n%\t\t\t\t\t\\item Modélisation des objets manipulés\n%\t\t\t\t\\end{itemize}\n%\t\t\t\\end{itemize}\n%\t\t\t\\item Mise en œuvre des hypothèses\n%\t\t\t\\item Description de la solution du problème\n%\t\t\\end{itemize}\n%\t\t\\item Conseils 2:\n%\t\t\\begin{itemize}\n%\t\t\t\\item Utilisez un exemple pour le dérouler tout au long des étapes de l’approche\n%\t\t\t\\item Ne parlez dans ce chapitre que de votre travail, ce qu’ont fait les autres est dans l’état de l’art\n%\t\t\t\\item Insistez sur les parties où vous apportez des contributions\n%\t\t\t\\item Montrez comment votre travail est différent des autres\n%\t\t\t\\item Montrez les modules/algorithmes pris de l’existant, ne réinventez pas la roue.\n%\t\t\t\\item le lecteur doit pouvoir reproduire les résultats en appliquant la même approche.\n%\t\t\\end{itemize}\n%\t\\end{itemize}\n%}\n\n\\begin{frame}{... (step 2)}{Methods}\n\t\\Itemize{\n\t\t\\item \n\t\t\\item \n\t}\n\\end{frame}\n\n\\begin{frame}{... (step 3)}{Methods}\n\t\\Itemize{\n\t\t\\item \n\t\t\\item \n\t}\n\\end{frame}\n\n\\begin{frame}{... (step 4)}{Methods}\n\t\\Itemize{\n\t\t\\item \n\t\t\\item \n\t}\n\\end{frame}\n\n\\begin{frame}{Results}{Comparison}\n\t\\begin{table}[h!]\n\t\\scriptsize\n\t\t\\begin{tabulary}{\\textwidth}{L|L|L|L|L}\n\t\t\\  &  &  &  &  \\\\\\hline\n\t\t\\  &  &  &  &  \\\\\\hline\n\t\t\\  &  &  &  &  \\\\\\hline\n\t\t\\  &  &  &  &  \\\\\\hline\n\t\t\\  &  &  &  &  \\\\\\hline\n\t\t\\end{tabulary}\n\t\\caption{\\label{tab:} }\n\t\\end{table}\n\\end{frame}\n\n",
+					"file": "slide/src/1/3_0_method.tex",
+					"file_size": 4716,
+					"file_write_time": 132082163725480203,
+					"settings":
+					{
+						"buffer_size": 4657,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"build_system_choices":
@@ -627,8 +636,66 @@
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "slide/slide.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1072,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "slide/src/1/3_0_method.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4657,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										258,
+										258
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -731,7 +798,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 63,
+			"window_id": 68,
 			"workspace_name": "/home/aghiles/Aghiles/Redaction/0/0_slide.sublime-workspace"
 		}
 	],
