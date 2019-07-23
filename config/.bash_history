@@ -698,3 +698,32 @@ ps -a
 A
 grep -ri kill
 ps -A
+pkill mailspring 
+mkdir ws
+cd wS
+cd ws
+svn checkout svn://scm.gforge.inria.fr/svn/wsnet
+./bootstrap
+cd wsnet/
+./bootstrap
+./configure
+make
+make install
+wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
+PATH=$PATH:/usr/local/wsnet-2.0/bin
+export PATH 
+wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
+pdf2txt 
+cle genetic
+cle genetic 0
+cle sdn 0
+wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
+atom
+./push 
+cp */*.pdf blockchain/
+cp Blockchain2019-1BWj2TzUbjoEtvzLIjSm0D/*/*.pdf blockchain/
+cp iThings-GreenCom-CPSCom-SmartData-Blockchain-Cybermatics2019-V9AJvRNOYKHvXlmL7S9ch/*/*.pdf iot/
+cp files/*/*.pdf pdf
+cd ../blockchain/
+cp files/*/*.pdf pdf
+wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
