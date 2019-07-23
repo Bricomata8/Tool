@@ -719,3 +719,4 @@ cle genetic 0
 cle sdn 0
 wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
 atom
+./push 
