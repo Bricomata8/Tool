@@ -727,4 +727,22 @@ cp files/*/*.pdf pdf
 cd ../blockchain/
 cp files/*/*.pdf pdf
 wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
+<<<<<<< HEAD
 pkill mailspring
+=======
+ls /usr/share/texlive\texmf-local\tex\latex\local
+whereis texmf-local
+whereis texmf
+nautilus /usr/share/texlive
+whereis texlive
+man latexmk 
+man latexmk | grep xetex
+nautilus /usr/share/texlive
+sudo nautilus /usr/share/texlive
+./compile 
+gedit /usr/local/wsnet-2.0/demo/cbr.xml
+./run
+latexmk -h
+latexmk -h | grep font
+latexmk -h
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
