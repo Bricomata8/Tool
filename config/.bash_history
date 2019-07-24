@@ -727,3 +727,4 @@ cp files/*/*.pdf pdf
 cd ../blockchain/
 cp files/*/*.pdf pdf
 wsnet -c /usr/local/wsnet-2.0/demo/cbr.xml
+pkill mailspring

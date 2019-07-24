@@ -33050,3 +33050,262 @@
 25353 [2019-07-23 18:41:09.470] [background] [info] Syncing folder list...
 25353 [2019-07-23 18:41:09.740] [background] [info] Sync loop deleting unlinked messages with phase 2.
 25353 [2019-07-23 18:41:09.755] [background] [info] Sync loop complete.
+3107 [2019-07-23 21:53:12.139] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3107 [2019-07-23 21:53:12.280] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+3107 [2019-07-23 21:53:12.297] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+3107 [2019-07-23 21:53:12.298] [metadata] [info] Metadata delta stream starting...
+3107 [2019-07-23 21:53:12.435] [background] [info] Marking all folders as `busy`
+3107 [2019-07-23 21:53:12.436] [background] [info] Syncing folder list...
+3107 [2019-07-23 21:53:12.880] [background] [info] Syncing folder list...
+3107 [2019-07-23 21:53:13.008] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28326 - 28348, Heavy: true
+3107 [2019-07-23 21:53:13.295] [background] [info] - remote=22, local=0
+3107 [2019-07-23 21:53:13.303] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1356678 to 1360202, uidnext 28326 to 28348
+3107 [2019-07-23 21:53:13.625] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1356678: 24 changed, 0 vanished
+3107 [2019-07-23 21:53:13.626] [foreground] [info] - Updating message SXLNFjW89YvKV8TsBbsrYhpZPaUpgvsC7EjTKtv9r
+3107 [2019-07-23 21:53:13.626] [foreground] [info] -- XGMLabels (["List/GDR"] to ["List/Inria"])
+3107 [2019-07-23 21:53:13.647] [foreground] [info] - Updating message XkkZnURry5GpdkiBAyGp2SpnCQTTCD5pTbggkit1a
+3107 [2019-07-23 21:53:13.647] [foreground] [info] -- XGMLabels (["List/GDR"] to ["List/Inria"])
+3107 [2019-07-23 21:53:13.828] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27876 - 28348, Heavy: false
+3107 [2019-07-23 21:53:14.042] [background] [info] - remote=422, local=422
+3107 [2019-07-23 21:53:14.585] [foreground] [info] Body for 1 messages already being fetched.
+3107 [2019-07-23 21:53:14.593] [background] [info] Body for 21 messages already being fetched.
+3107 [2019-07-23 21:53:14.593] [background] [info] Cleaning local cache and updating stats
+3107 [2019-07-23 21:53:14.679] [background] [info] -- 0 message bodies deleted from local cache.
+3107 [2019-07-23 21:53:15.264] [main] [info] [local-59fe6ea3-1021] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:15.271] [main] [info] [local-59fe6ea3-1021] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:15.272] [main] [info] [local-2f455533-ab2e] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:15.275] [main] [info] [local-2f455533-ab2e] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:15.275] [main] [info] [local-ea818ce6-35db] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:15.277] [main] [info] [local-ea818ce6-35db] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:15.399] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 21:53:15.609] [background] [info] - remote=0, local=0
+3107 [2019-07-23 21:53:15.609] [background] [info] Cleaning local cache and updating stats
+3107 [2019-07-23 21:53:15.631] [background] [info] -- 0 message bodies deleted from local cache.
+3107 [2019-07-23 21:53:15.700] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 217, Heavy: false
+3107 [2019-07-23 21:53:15.825] [background] [info] - remote=2, local=2
+3107 [2019-07-23 21:53:15.825] [background] [info] Cleaning local cache and updating stats
+3107 [2019-07-23 21:53:15.848] [background] [info] -- 0 message bodies deleted from local cache.
+3107 [2019-07-23 21:53:15.886] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 21:53:15.906] [background] [info] Sync loop complete.
+3107 [2019-07-23 21:53:18.470] [main] [info] [local-e46f6ce6-9591] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.507] [main] [info] [local-e46f6ce6-9591] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:18.507] [main] [info] [local-3c378e2e-c642] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.509] [main] [info] [local-3c378e2e-c642] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:18.510] [main] [info] [local-302e64bf-3b73] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.515] [main] [info] [local-302e64bf-3b73] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:18.515] [main] [info] [local-75cc5578-91d5] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.518] [main] [info] [local-75cc5578-91d5] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:18.518] [main] [info] [local-33f99c16-b0e2] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.520] [main] [info] [local-33f99c16-b0e2] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:18.522] [main] [info] [local-115d5dab-82a7] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.526] [main] [info] [local-115d5dab-82a7] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:18.527] [main] [info] [local-dd9b1cd4-e261] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:18.530] [main] [info] [local-dd9b1cd4-e261] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.167] [main] [info] [local-4da2a79a-00ce] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.169] [main] [info] [local-4da2a79a-00ce] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.170] [main] [info] [local-700cf435-f25d] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.173] [main] [info] [local-700cf435-f25d] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.174] [main] [info] [local-d68309f8-7d3f] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.177] [main] [info] [local-d68309f8-7d3f] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.177] [main] [info] [local-241ec9be-060d] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.179] [main] [info] [local-241ec9be-060d] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.180] [main] [info] [local-2d42bf9f-2cf5] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.182] [main] [info] [local-2d42bf9f-2cf5] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.182] [main] [info] [local-3b6feb53-9a62] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.186] [main] [info] [local-3b6feb53-9a62] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.187] [main] [info] [local-0016a9b3-3349] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.191] [main] [info] [local-0016a9b3-3349] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.192] [main] [info] [local-469c489c-f4c2] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.194] [main] [info] [local-469c489c-f4c2] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.833] [main] [info] [local-013d7931-d761] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.838] [main] [info] [local-013d7931-d761] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.839] [main] [info] [local-2c62b527-0c57] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.841] [main] [info] [local-2c62b527-0c57] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.841] [main] [info] [local-0a9651e9-1ba4] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.843] [main] [info] [local-0a9651e9-1ba4] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.843] [main] [info] [local-0f38a322-4267] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.848] [main] [info] [local-0f38a322-4267] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.849] [main] [info] [local-2e0f27e3-c362] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.850] [main] [info] [local-2e0f27e3-c362] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.851] [main] [info] [local-df9a1424-4b87] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.859] [main] [info] [local-df9a1424-4b87] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:19.859] [main] [info] [local-e9549130-0602] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:19.863] [main] [info] [local-e9549130-0602] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:20.409] [main] [info] [local-b0168c6b-2ee5] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:20.411] [main] [info] [local-b0168c6b-2ee5] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:20.412] [main] [info] [local-d11f32d7-f296] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:20.414] [main] [info] [local-d11f32d7-f296] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:20.844] [foreground] [info] [local-59fe6ea3-1021] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:20.901] [foreground] [info] [local-59fe6ea3-1021] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:20.902] [foreground] [info] [local-2f455533-ab2e] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:20.965] [foreground] [info] [local-2f455533-ab2e] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:20.966] [foreground] [info] [local-ea818ce6-35db] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:21.023] [foreground] [info] [local-ea818ce6-35db] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:21.024] [foreground] [info] [local-e46f6ce6-9591] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:21.075] [foreground] [info] [local-e46f6ce6-9591] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:21.075] [foreground] [info] [local-3c378e2e-c642] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:21.129] [foreground] [info] [local-3c378e2e-c642] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:21.130] [foreground] [info] [local-302e64bf-3b73] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:21.276] [main] [info] [local-64c052b1-cdf1] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:21.279] [main] [info] [local-64c052b1-cdf1] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:21.280] [main] [info] [local-eff29e33-5ffe] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:21.284] [main] [info] [local-eff29e33-5ffe] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:21.285] [main] [info] [local-0e5c91d0-1cee] Running ChangeLabelsTask performLocal:
+3107 [2019-07-23 21:53:21.288] [main] [info] [local-0e5c91d0-1cee] -- Succeeded. Changing status to `remote`
+3107 [2019-07-23 21:53:21.987] [foreground] [info] [local-302e64bf-3b73] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:21.988] [foreground] [info] [local-75cc5578-91d5] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:22.045] [foreground] [info] [local-75cc5578-91d5] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:22.045] [foreground] [info] [local-33f99c16-b0e2] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:22.102] [foreground] [info] [local-33f99c16-b0e2] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:22.102] [foreground] [info] [local-115d5dab-82a7] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:22.754] [foreground] [info] [local-115d5dab-82a7] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:22.755] [foreground] [info] [local-dd9b1cd4-e261] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:22.812] [foreground] [info] [local-dd9b1cd4-e261] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:22.812] [foreground] [info] [local-4da2a79a-00ce] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:22.876] [foreground] [info] [local-4da2a79a-00ce] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:22.876] [foreground] [info] [local-700cf435-f25d] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:23.194] [foreground] [info] [local-700cf435-f25d] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:23.194] [foreground] [info] [local-d68309f8-7d3f] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:23.512] [foreground] [info] [local-d68309f8-7d3f] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:23.513] [foreground] [info] [local-241ec9be-060d] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:23.568] [foreground] [info] [local-241ec9be-060d] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:23.569] [foreground] [info] [local-2d42bf9f-2cf5] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:23.625] [foreground] [info] [local-2d42bf9f-2cf5] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:23.626] [foreground] [info] [local-3b6feb53-9a62] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:24.157] [foreground] [info] [local-3b6feb53-9a62] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:24.158] [foreground] [info] [local-0016a9b3-3349] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:24.755] [foreground] [info] [local-0016a9b3-3349] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:24.756] [foreground] [info] [local-469c489c-f4c2] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:24.808] [foreground] [info] [local-469c489c-f4c2] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:24.808] [foreground] [info] [local-013d7931-d761] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:25.161] [foreground] [info] [local-013d7931-d761] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:25.162] [foreground] [info] [local-2c62b527-0c57] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:25.216] [foreground] [info] [local-2c62b527-0c57] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:25.217] [foreground] [info] [local-0a9651e9-1ba4] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:25.270] [foreground] [info] [local-0a9651e9-1ba4] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:25.271] [foreground] [info] [local-0f38a322-4267] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:25.879] [foreground] [info] [local-0f38a322-4267] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:25.880] [foreground] [info] [local-2e0f27e3-c362] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:25.936] [foreground] [info] [local-2e0f27e3-c362] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:25.936] [foreground] [info] [local-df9a1424-4b87] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:26.250] [foreground] [info] [local-df9a1424-4b87] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:26.251] [foreground] [info] [local-e9549130-0602] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:26.305] [foreground] [info] [local-e9549130-0602] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:26.305] [foreground] [info] [local-b0168c6b-2ee5] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:26.355] [foreground] [info] [local-b0168c6b-2ee5] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:26.355] [foreground] [info] [local-d11f32d7-f296] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:26.409] [foreground] [info] [local-d11f32d7-f296] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:26.411] [foreground] [info] [local-64c052b1-cdf1] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:26.469] [foreground] [info] [local-64c052b1-cdf1] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:26.470] [foreground] [info] [local-eff29e33-5ffe] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:26.799] [foreground] [info] [local-eff29e33-5ffe] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:26.800] [foreground] [info] [local-0e5c91d0-1cee] Running ChangeLabelsTask performRemote:
+3107 [2019-07-23 21:53:27.300] [metadataExpiration] [info] Scanning for expired metadata
+3107 [2019-07-23 21:53:27.300] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3107 [2019-07-23 21:53:27.416] [foreground] [info] [local-0e5c91d0-1cee] -- Succeeded. Changing status to `complete`
+3107 [2019-07-23 21:53:27.522] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1360202 to 1360298, uidnext 28348 to 28348
+3107 [2019-07-23 21:53:27.594] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1360202: 6 changed, 0 vanished
+3107 [2019-07-23 21:53:27.650] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3107 [2019-07-23 21:55:15.907] [background] [info] Syncing folder list...
+3107 [2019-07-23 21:55:16.059] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 21:55:18.575] [background] [info] - remote=8752, local=8752
+3107 [2019-07-23 21:55:18.700] [background] [info] Cleaning local cache and updating stats
+3107 [2019-07-23 21:55:18.731] [background] [info] -- 0 message bodies deleted from local cache.
+3107 [2019-07-23 21:55:18.837] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 21:55:18.934] [background] [info] - remote=0, local=0
+3107 [2019-07-23 21:55:18.980] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 21:55:19.081] [background] [info] - remote=2, local=2
+3107 [2019-07-23 21:55:19.083] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 21:55:19.106] [background] [info] Sync loop complete.
+3107 [2019-07-23 21:57:19.106] [background] [info] Syncing folder list...
+3107 [2019-07-23 21:57:19.245] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28348, Heavy: false
+3107 [2019-07-23 21:57:19.492] [background] [info] - remote=400, local=400
+3107 [2019-07-23 21:57:19.592] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 21:57:19.700] [background] [info] - remote=0, local=0
+3107 [2019-07-23 21:57:19.746] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 21:57:19.762] [background] [info] Sync loop complete.
+3107 [2019-07-23 21:59:19.762] [background] [info] Syncing folder list...
+3107 [2019-07-23 21:59:20.048] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 217, Heavy: false
+3107 [2019-07-23 21:59:20.154] [background] [info] - remote=2, local=2
+3107 [2019-07-23 21:59:20.156] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 21:59:20.175] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:01:20.176] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:01:20.375] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28348, Heavy: false
+3107 [2019-07-23 22:01:20.596] [background] [info] - remote=400, local=400
+3107 [2019-07-23 22:01:20.705] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 22:01:20.800] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:01:20.846] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 22:01:20.851] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:03:20.851] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:03:21.049] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 22:03:21.092] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:03:21.141] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 217, Heavy: false
+3107 [2019-07-23 22:03:21.259] [background] [info] - remote=2, local=2
+3107 [2019-07-23 22:03:21.262] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 22:03:21.282] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:05:21.282] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:05:21.407] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 22:05:23.732] [background] [info] - remote=8752, local=8752
+3107 [2019-07-23 22:05:23.924] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 22:05:24.018] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:05:24.064] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 22:05:24.161] [background] [info] - remote=2, local=2
+3107 [2019-07-23 22:05:24.162] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 22:05:24.174] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:07:24.174] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:07:24.300] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28348, Heavy: false
+3107 [2019-07-23 22:07:24.531] [background] [info] - remote=400, local=400
+3107 [2019-07-23 22:07:24.658] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 22:07:24.675] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:08:39.735] [metadata] [info] Metadata delta stream closed.
+3107 [2019-07-23 22:08:39.739] [metadata] [info] Metadata delta stream starting...
+3107 [2019-07-23 22:09:24.676] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:09:24.905] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 22:09:24.998] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:09:25.046] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 217, Heavy: false
+3107 [2019-07-23 22:09:25.195] [background] [info] - remote=2, local=2
+3107 [2019-07-23 22:09:25.198] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 22:09:25.217] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:11:25.218] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:11:25.372] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28348, Heavy: false
+3107 [2019-07-23 22:11:25.608] [background] [info] - remote=400, local=400
+3107 [2019-07-23 22:11:25.734] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 22:11:25.825] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:11:25.870] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 22:11:25.889] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:13:25.890] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:13:26.020] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28348, Heavy: false
+3107 [2019-07-23 22:13:26.274] [background] [info] - remote=400, local=400
+3107 [2019-07-23 22:13:26.451] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 22:13:26.544] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:13:26.590] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 217, Heavy: false
+3107 [2019-07-23 22:13:26.690] [background] [info] - remote=2, local=2
+3107 [2019-07-23 22:13:26.690] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 22:13:26.695] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:15:26.695] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:15:26.810] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 22:15:29.217] [background] [info] - remote=8752, local=8752
+3107 [2019-07-23 22:15:29.370] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 22:15:29.463] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:15:29.510] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3107 [2019-07-23 22:15:29.608] [background] [info] - remote=2, local=2
+3107 [2019-07-23 22:15:29.609] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 22:15:29.616] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:17:29.616] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:17:29.873] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 22:17:29.887] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:19:29.887] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:19:30.002] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28348, Heavy: false
+3107 [2019-07-23 22:19:30.257] [background] [info] - remote=400, local=400
+3107 [2019-07-23 22:19:30.338] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3107 [2019-07-23 22:19:30.427] [background] [info] - remote=0, local=0
+3107 [2019-07-23 22:19:30.472] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 217, Heavy: false
+3107 [2019-07-23 22:19:30.570] [background] [info] - remote=2, local=2
+3107 [2019-07-23 22:19:30.571] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3107 [2019-07-23 22:19:30.576] [background] [info] Sync loop complete.
+3107 [2019-07-23 22:21:27.806] [foreground] [info] Idle exited with code 0
+3107 [2019-07-23 22:21:27.861] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1360298 to 1360298, uidnext 28348 to 28348
+3107 [2019-07-23 22:21:27.921] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3107 [2019-07-23 22:21:30.576] [background] [info] Syncing folder list...
+3107 [2019-07-23 22:21:30.870] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3107 [2019-07-23 22:21:30.889] [background] [info] Sync loop complete.
