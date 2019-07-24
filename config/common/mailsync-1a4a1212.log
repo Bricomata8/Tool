@@ -35265,3 +35265,100 @@
 17186 [2019-07-24 18:18:17.774] [background] [info] Sync loop deleting unlinked messages with phase 2.
 17186 [2019-07-24 18:18:17.779] [background] [info] Sync loop complete.
 >>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
+3563 [2019-07-24 22:25:11.177] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3563 [2019-07-24 22:25:11.329] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+3563 [2019-07-24 22:25:11.334] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+3563 [2019-07-24 22:25:11.340] [metadata] [info] Metadata delta stream starting...
+3563 [2019-07-24 22:25:11.481] [background] [info] Marking all folders as `busy`
+3563 [2019-07-24 22:25:11.483] [background] [info] Syncing folder list...
+3563 [2019-07-24 22:25:11.776] [metadata] [info] Received metadata V1 for (message - h4wBnLYF6qNeKmhJiTzgEHwmGXwCWWLSLpDsvKSSZ)
+3563 [2019-07-24 22:25:11.776] [metadata] [info]  -- Local model is not present. Saving to waiting table.
+3563 [2019-07-24 22:25:12.359] [background] [info] Syncing folder list...
+3563 [2019-07-24 22:25:12.501] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28348 - 28358, Heavy: true
+3563 [2019-07-24 22:25:12.728] [background] [info] - remote=9, local=0
+3563 [2019-07-24 22:25:12.964] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1360298 to 1361691, uidnext 28348 to 28358
+3563 [2019-07-24 22:25:13.296] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1360298: 10 changed, 0 vanished
+3563 [2019-07-24 22:25:13.751] [foreground] [info] -- Attaching waiting metadata for send-later
+3563 [2019-07-24 22:25:14.311] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 27899 - 28358, Heavy: false
+3563 [2019-07-24 22:25:14.502] [background] [info] - remote=409, local=409
+3563 [2019-07-24 22:25:14.569] [background] [info] Cleaning local cache and updating stats
+3563 [2019-07-24 22:25:14.658] [background] [info] -- 0 message bodies deleted from local cache.
+3563 [2019-07-24 22:25:14.917] [main] [info] [local-c780bc15-b323] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:14.925] [main] [info] [local-c780bc15-b323] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:14.926] [main] [info] [local-73bb1c80-84d9] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:14.932] [main] [info] [local-73bb1c80-84d9] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:14.933] [main] [info] [local-47141129-b23a] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:14.936] [main] [info] [local-47141129-b23a] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:14.937] [main] [info] [local-0753220a-30b1] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:14.940] [main] [info] [local-0753220a-30b1] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:14.941] [main] [info] [local-bb0e9e88-2739] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:14.943] [main] [info] [local-bb0e9e88-2739] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:15.024] [main] [info] [local-b754b6ed-9f36] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:15.030] [main] [info] [local-b754b6ed-9f36] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:15.121] [main] [info] [local-e392d6c6-dddb] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:15.129] [main] [info] [local-e392d6c6-dddb] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:15.210] [main] [info] [local-e35ca211-275a] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:15.213] [main] [info] [local-e35ca211-275a] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:15.394] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2235, Heavy: false
+3563 [2019-07-24 22:25:15.513] [background] [info] - remote=0, local=0
+3563 [2019-07-24 22:25:15.513] [background] [info] Cleaning local cache and updating stats
+3563 [2019-07-24 22:25:15.539] [background] [info] -- 0 message bodies deleted from local cache.
+3563 [2019-07-24 22:25:15.611] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 217 - 218, Heavy: true
+3563 [2019-07-24 22:25:15.847] [background] [info] - remote=0, local=0
+3563 [2019-07-24 22:25:15.852] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 218, Heavy: false
+3563 [2019-07-24 22:25:16.001] [background] [info] - remote=0, local=2
+3563 [2019-07-24 22:25:16.001] [background] [info] Unlinking messages  WHERE remoteFolderId = ? AND remoteUID IN (?,?) no longer present in remote range.
+3563 [2019-07-24 22:25:16.049] [background] [info] -- 2 matches.
+3563 [2019-07-24 22:25:16.049] [background] [info] -- Unlinking "[Forum GDR Sécurité] offre de thèse CIFRE "Architecture de sécurité distribuée pour réseaux hostile"" (Whd1RC5MGqChMei4aKm9yPwWr7KdhYm39d5jLpLBk)
+3563 [2019-07-24 22:25:16.050] [background] [info] -- Unlinking "[rsd-forum] Internship at ISEP for IDEAC project (Smart Agriculture)" (V3UWwEVwRQ9gacw7u781k2EiVZkZ1wrVcTdzrpECv)
+3563 [2019-07-24 22:25:16.051] [background] [info] Cleaning local cache and updating stats
+3563 [2019-07-24 22:25:16.058] [background] [info] -- 0 message bodies deleted from local cache.
+3563 [2019-07-24 22:25:16.147] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3563 [2019-07-24 22:25:16.151] [background] [info] Sync loop complete.
+3563 [2019-07-24 22:25:16.310] [foreground] [info] [local-c780bc15-b323] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:16.420] [foreground] [info] [local-c780bc15-b323] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:16.421] [foreground] [info] [local-73bb1c80-84d9] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:16.682] [main] [info] [local-6dfcfbf6-7bca] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:16.703] [main] [info] [local-6dfcfbf6-7bca] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:16.703] [main] [info] [local-2cf2926b-cb93] Running ChangeLabelsTask performLocal:
+3563 [2019-07-24 22:25:16.706] [main] [info] [local-2cf2926b-cb93] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:17.031] [foreground] [info] [local-73bb1c80-84d9] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.032] [foreground] [info] [local-47141129-b23a] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.120] [foreground] [info] [local-47141129-b23a] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.120] [foreground] [info] [local-0753220a-30b1] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.290] [foreground] [info] [local-0753220a-30b1] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.290] [foreground] [info] [local-bb0e9e88-2739] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.369] [foreground] [info] [local-bb0e9e88-2739] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.370] [foreground] [info] [local-b754b6ed-9f36] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.468] [foreground] [info] [local-b754b6ed-9f36] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.468] [foreground] [info] [local-e392d6c6-dddb] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.536] [foreground] [info] [local-e392d6c6-dddb] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.536] [foreground] [info] [local-e35ca211-275a] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.677] [foreground] [info] [local-e35ca211-275a] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.677] [foreground] [info] [local-6dfcfbf6-7bca] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.748] [foreground] [info] [local-6dfcfbf6-7bca] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.748] [foreground] [info] [local-2cf2926b-cb93] Running ChangeLabelsTask performRemote:
+3563 [2019-07-24 22:25:17.880] [foreground] [info] [local-2cf2926b-cb93] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:17.951] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1361691 to 1361738, uidnext 28358 to 28358
+3563 [2019-07-24 22:25:18.051] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1361691: 1 changed, 0 vanished
+3563 [2019-07-24 22:25:18.095] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3563 [2019-07-24 22:25:21.766] [main] [info] [local-0c783a27-8620] Running ChangeUnreadTask performLocal:
+3563 [2019-07-24 22:25:21.780] [main] [info] [local-0c783a27-8620] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:22.140] [foreground] [info] Idle exited with code 0
+3563 [2019-07-24 22:25:22.147] [foreground] [info] [local-0c783a27-8620] Running ChangeUnreadTask performRemote:
+3563 [2019-07-24 22:25:22.477] [foreground] [info] [local-0c783a27-8620] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:22.538] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1361738 to 1361768, uidnext 28358 to 28358
+3563 [2019-07-24 22:25:22.767] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1361738: 1 changed, 0 vanished
+3563 [2019-07-24 22:25:22.829] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3563 [2019-07-24 22:25:26.334] [metadataExpiration] [info] Scanning for expired metadata
+3563 [2019-07-24 22:25:26.334] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3563 [2019-07-24 22:25:45.958] [main] [info] [local-1fd08453-2031] Running ExpungeAllInFolderTask performLocal:
+3563 [2019-07-24 22:25:45.960] [main] [info] [local-1fd08453-2031] -- Succeeded. Changing status to `remote`
+3563 [2019-07-24 22:25:46.304] [foreground] [info] Idle exited with code 0
+3563 [2019-07-24 22:25:46.346] [foreground] [info] [local-1fd08453-2031] Running ExpungeAllInFolderTask performRemote:
+3563 [2019-07-24 22:25:46.495] [foreground] [info] -- Expunged [Gmail]/Spam
+3563 [2019-07-24 22:25:46.534] [foreground] [info] -- Deleted 2 local messages
+3563 [2019-07-24 22:25:46.834] [foreground] [info] [local-1fd08453-2031] -- Succeeded. Changing status to `complete`
+3563 [2019-07-24 22:25:46.890] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1361768 to 1361817, uidnext 28358 to 28358
+3563 [2019-07-24 22:25:47.031] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1361768: 0 changed, 0 vanished
+3563 [2019-07-24 22:25:47.095] [foreground] [info] Idling on folder [Gmail]/Tous les messages

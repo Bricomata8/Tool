@@ -29505,3 +29505,65 @@
 25712 [2019-07-24 18:18:08.016] [background] [info] Sync loop deleting unlinked messages with phase 2.
 25712 [2019-07-24 18:18:08.017] [background] [info] Sync loop complete.
 >>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
+3572 [2019-07-24 22:25:11.179] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3572 [2019-07-24 22:25:11.325] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+3572 [2019-07-24 22:25:11.350] [metadata] [info] Metadata delta stream starting...
+3572 [2019-07-24 22:25:11.351] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+3572 [2019-07-24 22:25:11.506] [background] [info] Marking all folders as `busy`
+3572 [2019-07-24 22:25:11.507] [background] [info] Syncing folder list...
+3572 [2019-07-24 22:25:12.610] [background] [info] Syncing folder list...
+3572 [2019-07-24 22:25:13.069] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 578645 to 579512, uidnext 6219 to 6225
+3572 [2019-07-24 22:25:13.398] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 578645: 5 changed, 0 vanished
+3572 [2019-07-24 22:25:13.861] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 6219 - 6225, Heavy: true
+3572 [2019-07-24 22:25:14.115] [background] [info] - remote=5, local=1
+3572 [2019-07-24 22:25:14.407] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 5481 - 6225, Heavy: false
+3572 [2019-07-24 22:25:14.523] [main] [info] [local-101e67f1-9467] Running ChangeLabelsTask performLocal:
+3572 [2019-07-24 22:25:14.532] [main] [info] [local-101e67f1-9467] -- Succeeded. Changing status to `remote`
+3572 [2019-07-24 22:25:14.575] [main] [info] [local-e8e977c2-ad39] Running ChangeLabelsTask performLocal:
+3572 [2019-07-24 22:25:14.682] [main] [info] [local-e8e977c2-ad39] -- Succeeded. Changing status to `remote`
+3572 [2019-07-24 22:25:14.690] [background] [info] - remote=405, local=405
+3572 [2019-07-24 22:25:14.706] [background] [info] Cleaning local cache and updating stats
+3572 [2019-07-24 22:25:14.794] [background] [info] -- 0 message bodies deleted from local cache.
+3572 [2019-07-24 22:25:14.845] [foreground] [info] [local-101e67f1-9467] Running ChangeLabelsTask performRemote:
+3572 [2019-07-24 22:25:15.338] [main] [info] [local-e62f762e-cc55] Running ChangeLabelsTask performLocal:
+3572 [2019-07-24 22:25:15.351] [main] [info] [local-e62f762e-cc55] -- Succeeded. Changing status to `remote`
+3572 [2019-07-24 22:25:15.759] [foreground] [info] [local-101e67f1-9467] -- Succeeded. Changing status to `complete`
+3572 [2019-07-24 22:25:15.760] [foreground] [info] [local-e8e977c2-ad39] Running ChangeLabelsTask performRemote:
+3572 [2019-07-24 22:25:15.764] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1489, Heavy: false
+3572 [2019-07-24 22:25:16.089] [background] [info] - remote=1, local=1
+3572 [2019-07-24 22:25:16.089] [background] [info] Cleaning local cache and updating stats
+3572 [2019-07-24 22:25:16.112] [background] [info] -- 0 message bodies deleted from local cache.
+3572 [2019-07-24 22:25:16.161] [foreground] [info] [local-e8e977c2-ad39] -- Succeeded. Changing status to `complete`
+3572 [2019-07-24 22:25:16.161] [foreground] [info] [local-e62f762e-cc55] Running ChangeLabelsTask performRemote:
+3572 [2019-07-24 22:25:16.178] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 2038 - 2039, Heavy: true
+3572 [2019-07-24 22:25:16.239] [foreground] [info] [local-e62f762e-cc55] -- Succeeded. Changing status to `complete`
+3572 [2019-07-24 22:25:16.302] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 579512 to 579584, uidnext 6225 to 6225
+3572 [2019-07-24 22:25:16.356] [background] [info] - remote=1, local=0
+3572 [2019-07-24 22:25:16.401] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 2039, Heavy: false
+3572 [2019-07-24 22:25:16.467] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 579512: 1 changed, 0 vanished
+3572 [2019-07-24 22:25:16.479] [background] [info] - remote=1, local=1
+3572 [2019-07-24 22:25:16.479] [background] [info] Cleaning local cache and updating stats
+3572 [2019-07-24 22:25:16.517] [background] [info] -- 0 message bodies deleted from local cache.
+3572 [2019-07-24 22:25:16.559] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3572 [2019-07-24 22:25:16.560] [background] [info] Sync loop complete.
+3572 [2019-07-24 22:25:16.568] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3572 [2019-07-24 22:25:20.735] [main] [info] [local-1c89db91-6e5a] Running ChangeUnreadTask performLocal:
+3572 [2019-07-24 22:25:20.749] [main] [info] [local-1c89db91-6e5a] -- Succeeded. Changing status to `remote`
+3572 [2019-07-24 22:25:21.111] [foreground] [info] Idle exited with code 0
+3572 [2019-07-24 22:25:21.112] [foreground] [info] [local-1c89db91-6e5a] Running ChangeUnreadTask performRemote:
+3572 [2019-07-24 22:25:21.363] [foreground] [info] [local-1c89db91-6e5a] -- Succeeded. Changing status to `complete`
+3572 [2019-07-24 22:25:21.423] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 579584 to 579616, uidnext 6225 to 6225
+3572 [2019-07-24 22:25:21.597] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 579584: 1 changed, 0 vanished
+3572 [2019-07-24 22:25:21.636] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3572 [2019-07-24 22:25:26.352] [metadataExpiration] [info] Scanning for expired metadata
+3572 [2019-07-24 22:25:26.352] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3572 [2019-07-24 22:25:45.965] [main] [info] [local-8b579616-7f7b] Running ExpungeAllInFolderTask performLocal:
+3572 [2019-07-24 22:25:45.966] [main] [info] [local-8b579616-7f7b] -- Succeeded. Changing status to `remote`
+3572 [2019-07-24 22:25:46.316] [foreground] [info] Idle exited with code 0
+3572 [2019-07-24 22:25:46.319] [foreground] [info] [local-8b579616-7f7b] Running ExpungeAllInFolderTask performRemote:
+3572 [2019-07-24 22:25:46.847] [foreground] [info] -- Expunged [Gmail]/Spam
+3572 [2019-07-24 22:25:46.863] [foreground] [info] -- Deleted 1 local messages
+3572 [2019-07-24 22:25:47.163] [foreground] [info] [local-8b579616-7f7b] -- Succeeded. Changing status to `complete`
+3572 [2019-07-24 22:25:47.223] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 579616 to 579658, uidnext 6225 to 6225
+3572 [2019-07-24 22:25:47.348] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 579616: 0 changed, 0 vanished
+3572 [2019-07-24 22:25:47.380] [foreground] [info] Idling on folder [Gmail]/Tous les messages
