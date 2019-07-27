@@ -746,3 +746,46 @@ latexmk -h
 latexmk -h | grep font
 latexmk -h
 >>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
+svn-git https://github.com/Bricomata8/Redaction/tree/master/setup/lib/iot
+gedit
+shutdown
+sudo shutdown now
+./install 
+/media/aghiles/MATHWORKS_R2016B/install 
+matlab
+sudo ./matlab
+./matlab
+sudo nautilus
+./pull 
+matlab
+matlab
+atom
+git clone https://github.com/gmineo/Harvard-Data-Science-Professional.git
+mkdir tt
+cd tt
+httrack http://cs109.github.io/2015/
+gedit  AI.desktop 
+man nautilus
+nautilus -g 300x300
+nautilus -g 100
+nautilus --geometry=860x480
+nautilus -g=100x100
+nautilus -g 100x100
+nautilus -g 100x10
+nautilus -g 10x10
+nautilus -g 100x100
+nautilus
+nautilus -g 1920
+nautilus -g 800
+nautilus -g 1800
+nautilus --geometry=860x480
+nautilus --geometry=1920x800
+nautilus --geometry=8000x800
+nautilus --geometry=800x800
+matlab
+evince AMH4ZCA3/Debbah_Wireless\ AI.pdf 
+evince MD2KSR5N/Schaerer_SDNWisebed.pdf 
+evince GKJCG9IV/David\ et\ al_2015_Uppaal\ SMC\ tutorial.pdf 
+evince BBTMHNK2/
+evince BBTMHNK2/6lowpan.pdf 
+evince IAK6QCK3/Jeong\ et\ al.\ -\ 2018\ -\ Viewport\ Prediction\ Method\ of\ 360\ VR\ Video\ Using\ S.pdf 

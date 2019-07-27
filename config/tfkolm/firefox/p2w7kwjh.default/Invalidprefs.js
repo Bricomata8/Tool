@@ -13,22 +13,20 @@ user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.normandy.first_run", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 <<<<<<< HEAD
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1563819919);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1563819559);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1563819199);
-user_pref("app.update.lastUpdateTime.experiments-update-timer", 1563819799);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1563819439);
-user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1563819319);
-user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1563819679);
-=======
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1563872116);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1563911640);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1563869298);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1563897484);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1563911760);
 user_pref("app.update.lastUpdateTime.experiments-update-timer", 1563871851);
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1563894115);
+=======
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1563958636);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1563955698);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1563982477);
+user_pref("app.update.lastUpdateTime.experiments-update-timer", 1563958516);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1563976578);
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1563785490);
-user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1563871731);
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1563958131);
 user_pref("browser.cache.disk.capacity", 358400);
 user_pref("browser.cache.disk.filesystem_reported", 1);
 user_pref("browser.cache.disk.smart_size.first_run", false);
@@ -56,26 +54,26 @@ user_pref("browser.places.smartBookmarksVersion", 8);
 user_pref("browser.rights.3.shown", true);
 user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1562692901742");
 <<<<<<< HEAD
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1563819175727");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1563822775727");
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1563911614221");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1563915214221");
 =======
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1563897423908");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1563901023908");
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1563982454739");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1563986054739");
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("browser.search.countryCode", "FR");
 user_pref("browser.search.region", "FR");
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20190709221323");
 user_pref("browser.shell.checkDefaultBrowser", true);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
 <<<<<<< HEAD
-user_pref("browser.shell.mostRecentDateSetAsDefault", "1563819173");
-user_pref("browser.slowStartup.averageTime", 1486);
-user_pref("browser.slowStartup.samples", 2);
+user_pref("browser.shell.mostRecentDateSetAsDefault", "1563913433");
+user_pref("browser.slowStartup.averageTime", 1568);
+user_pref("browser.slowStartup.samples", 3);
 =======
-user_pref("browser.shell.mostRecentDateSetAsDefault", "1563899834");
-user_pref("browser.slowStartup.averageTime", 0);
-user_pref("browser.slowStartup.samples", 0);
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+user_pref("browser.shell.mostRecentDateSetAsDefault", "1563986020");
+user_pref("browser.slowStartup.averageTime", 1156);
+user_pref("browser.slowStartup.samples", 4);
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("browser.startup.homepage_override.buildID", "20190709221323");
 user_pref("browser.startup.homepage_override.mstone", "60.8.0");
 user_pref("browser.tabs.drawInTitlebar", true);
@@ -95,14 +93,14 @@ user_pref("distribution.iniFile.exists.appversion", "60.8.0");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("experiments.activeExperiment", false);
 user_pref("extensions.blocklist.lastModified", "Mon, 22 Jul 2019 15:40:26 GMT");
-user_pref("extensions.blocklist.pingCountTotal", 48);
-user_pref("extensions.blocklist.pingCountVersion", 7);
+user_pref("extensions.blocklist.pingCountTotal", 49);
+user_pref("extensions.blocklist.pingCountVersion", 8);
 user_pref("extensions.databaseSchema", 27);
 <<<<<<< HEAD
-user_pref("extensions.getAddons.cache.lastUpdate", 1563819920);
+user_pref("extensions.getAddons.cache.lastUpdate", 1563911641);
 =======
-user_pref("extensions.getAddons.cache.lastUpdate", 1563872117);
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+user_pref("extensions.getAddons.cache.lastUpdate", 1563958637);
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("extensions.getAddons.databaseSchema", 5);
 user_pref("extensions.lastAppBuildId", "20190709221323");
 user_pref("extensions.lastAppVersion", "60.8.0");
@@ -119,17 +117,17 @@ user_pref("extensions.webextensions.uuids", "{\"screenshots@mozilla.org\":\"c99f
 user_pref("findbar.highlightAll", true);
 user_pref("font.internaluseonly.changed", true);
 user_pref("gecko.handlerService.migrated", true);
-user_pref("idle.lastDailyNotification", 1563872767);
+user_pref("idle.lastDailyNotification", 1563977101);
 user_pref("lightweightThemes.persisted.footerURL", false);
 user_pref("lightweightThemes.persisted.headerURL", false);
 user_pref("lightweightThemes.selectedThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("lightweightThemes.usedThemes", "[]");
 user_pref("media.gmp-manager.buildID", "20190709221323");
 <<<<<<< HEAD
-user_pref("media.gmp-manager.lastCheck", 1563819249);
+user_pref("media.gmp-manager.lastCheck", 1563911711);
 =======
-user_pref("media.gmp-manager.lastCheck", 1563889170);
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+user_pref("media.gmp-manager.lastCheck", 1563975664);
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("media.gmp.storage.version.observed", 1);
 user_pref("narrate.rate", 100);
 user_pref("network.cookie.prefsMigrated", true);
@@ -139,8 +137,13 @@ user_pref("pdfjs.enabledCache.state", true);
 user_pref("pdfjs.migrationVersion", 2);
 user_pref("pdfjs.previousHandler.alwaysAskBeforeHandling", true);
 user_pref("pdfjs.previousHandler.preferredAction", 4);
+<<<<<<< HEAD
 user_pref("places.database.lastMaintenance", 1563353395);
-user_pref("places.history.expiration.transient_current_max_pages", 111382);
+user_pref("places.history.expiration.transient_current_max_pages", 111213);
+=======
+user_pref("places.database.lastMaintenance", 1563977101);
+user_pref("places.history.expiration.transient_current_max_pages", 111045);
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("print.print_bgimages", false);
 user_pref("print.print_evenpages", true);
 user_pref("print.print_margin_bottom", "0.5");
@@ -170,16 +173,6 @@ user_pref("reader.font_size", 6);
 user_pref("reader.line_height", 1);
 user_pref("security.sandbox.content.tempDirSuffix", "4f9f690b-f617-4623-97e5-13ec5d723065");
 <<<<<<< HEAD
-user_pref("services.blocklist.addons.checked", 1563819525);
-user_pref("services.blocklist.clock_skew_seconds", 34);
-user_pref("services.blocklist.gfx.checked", 1563819525);
-user_pref("services.blocklist.last_etag", "\"1563813277821\"");
-user_pref("services.blocklist.last_update_seconds", 1563819525);
-user_pref("services.blocklist.onecrl.checked", 1563819525);
-user_pref("services.blocklist.pinning.checked", 1563819525);
-user_pref("services.blocklist.plugins.checked", 1563819525);
-=======
-user_pref("services.blocklist.addons.checked", 1563869276);
 user_pref("services.blocklist.clock_skew_seconds", 22);
 user_pref("services.blocklist.gfx.checked", 1563869276);
 user_pref("services.blocklist.last_etag", "\"1563840010634\"");
@@ -187,8 +180,17 @@ user_pref("services.blocklist.last_update_seconds", 1563869276);
 user_pref("services.blocklist.onecrl.checked", 1563869276);
 user_pref("services.blocklist.pinning.checked", 1563869276);
 user_pref("services.blocklist.plugins.checked", 1563869276);
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+=======
+user_pref("services.blocklist.addons.checked", 1563955697);
+user_pref("services.blocklist.clock_skew_seconds", 1);
+user_pref("services.blocklist.gfx.checked", 1563955697);
+user_pref("services.blocklist.last_etag", "\"1563926412647\"");
+user_pref("services.blocklist.last_update_seconds", 1563955697);
+user_pref("services.blocklist.onecrl.checked", 1563955697);
+user_pref("services.blocklist.pinning.checked", 1563955697);
+user_pref("services.blocklist.plugins.checked", 1563955697);
 user_pref("services.sync.clients.lastSyncLocal", "0");
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("services.sync.declinedEngines", "");
 user_pref("services.sync.globalScore", 0);
 user_pref("services.sync.nextSync", 0);
@@ -198,10 +200,10 @@ user_pref("signon.importedFromSqlite", true);
 user_pref("storage.vacuum.last.index", 1);
 user_pref("storage.vacuum.last.places.sqlite", 1562680869);
 <<<<<<< HEAD
-user_pref("toolkit.startup.last_success", 1563819168);
+user_pref("toolkit.startup.last_success", 1563913427);
 =======
-user_pref("toolkit.startup.last_success", 1563899830);
->>>>>>> 784a15d7a39834804b0cb42d8a10f6d11a0900cc
+user_pref("toolkit.startup.last_success", 1563986016);
+>>>>>>> aa6ab19827b55558fbe87d270c2273ed7da2448d
 user_pref("toolkit.telemetry.cachedClientID", "08d83caf-3af0-4da2-bf52-66e4030d0307");
 user_pref("toolkit.telemetry.previousBuildID", "20190709221323");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);

@@ -119,8 +119,9 @@ export ONOS_ROOT="/home/aghiles/Aghiles/Program/gw/sdn/tool/onos"
 source $ONOS_ROOT/tools/dev/bash_profile
 alias trans='trans -b -t fr'
 alias xd='tracker tag -ts'
-alias matlab='/usr/local/MATLAB/R2016b/bin/matlab'
-alias matlabx='/usr/local/MATLAB/R2016b/bin/matlab -nodesktop -nosplash -r'
+
+export PATH=$PATH:/home/aghiles/Downloads/Matlab/bin:/usr/local/MATLAB/R2016b/bin
+alias matlabx='matlab -nodesktop -nosplash -r'
 
 export PATH=/home/aghiles/Downloads/Software/omnetpp-5.5.1/bin:$PATH
 export PATH=$PATH:/usr/local/wsnet-2.0/bin

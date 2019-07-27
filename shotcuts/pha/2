@@ -1,12 +1,13 @@
 #!/bin/bash
 
-#!/bin/sh
+
+export PATH=$PATH:/home/aghiles/Downloads/Matlab/bin:/usr/local/MATLAB/R2016b/bin
 
 title1="Redaction"
 
-titl1=/home/aghiles/Aghiles/Formation/IA/Analyse/matlab
+titl1=/home/aghiles/Aghiles/Program/plot_m_lora
 
-cmd="/usr/local/MATLAB/R2016b/bin/matlab"
+cmd="matlab"
 
 gnome-terminal \
 				--tab --title="$title1" --command="bash -c 'cd $titl1; $cmd; $SHELL'" 
