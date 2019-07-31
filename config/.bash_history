@@ -789,3 +789,232 @@ evince GKJCG9IV/David\ et\ al_2015_Uppaal\ SMC\ tutorial.pdf
 evince BBTMHNK2/
 evince BBTMHNK2/6lowpan.pdf 
 evince IAK6QCK3/Jeong\ et\ al.\ -\ 2018\ -\ Viewport\ Prediction\ Method\ of\ 360\ VR\ Video\ Using\ S.pdf 
+mkdir tty
+cd tty
+httrack https://seoc19.roc.cnam.fr/
+cd "/home/aghiles/Aghiles/Program/plot_r_genetic"
+R var_sel_gen_alg.r 
+man R
+R -f var_sel_gen_alg.r 
+sudo apt remove firefox-esr 
+sudo apt install firefox-esr 
+git clone https://github.com/slash6475/emma-cooja.git
+cd emma-cooja/ 
+bash install ..
+cd ..
+ant -f tools/cooja/build.xml run_bigmem
+git clone https://github.com/slash6475/emma.git
+cd emma
+bash install --dest=..
+cd ..
+git clone https://github.com/slash6475/emma.git
+cd emma
+bash install --dest=.
+./start.sh 
+./network.sh 
+sudo ./network.sh 
+find cfs-cofee-arch
+find cfs-cofee-arch.h
+whereis cfs-cofee-arch.h
+make all TARGET=avr-atmega128rfa1
+find cfs-cofee-arch
+find cfs-cofee-arch.h
+locate cfs-cofee-arch.h
+locat cfs-cofee-arch.h
+whereis cfs-cofee-arch.h
+https://github.com/slash6475/emma-node.git
+git clone https://github.com/slash6475/emma-node.git
+
+bash install .
+cd ..
+rm -r emma-node/
+git clone https://github.com/slash6475/emma-node.git
+cd emma-node/
+bash install contiki
+tree
+avr-objcopy -O ihex -R .eeprom -R .fuse -R .signature emma-node-example.avr-atmega128rfa1 emma-node-example.hex
+patch
+man patch
+git clone https://github.com/slash6475/emma-cooja.git
+cd emma-cooja/
+mkdir -p dist/dist
+bash install dist/dist
+make all TARGET=avr-atmega128rfa1
+bash install /home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/iot-lab/parts/contiki 
+*
+bash install /home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/iot-lab/parts/contiki 
+bash install /home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/iot-lab/parts/contiki
+cd "/home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/iot-lab/parts/contiki/cpu/cc2538"
+cd "/home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/iot-lab/parts/contiki/cpu/stm32w108"
+make all TARGET=avr-atmega128rfa1
+grep -ri,"cfs-coffee-arch.h"
+grep -ri "cfs-coffee-arch.h"
+grep -ri "cfs-coffee-arch"
+grep -ri "coffee"
+rm -rf obj_avr-atmega128rfa1/
+make all TARGET=avr-atmega128rfa1
+make all TARGET=zoul
+make all TARGET=avr-atmega128rfa1
+make all TARGET=zoul
+sudo make all TARGET=zoul
+make all TARGET=avr-atmega128rfa1
+make all TARGET=zoul
+sudo make all TARGET=zoul
+cd ../6lbr/1-border-router/
+./x-compile 
+java -jar emma-agent-loader.jar 
+git clone https://github.com/LiaDD/Fuzzy-Cognitive-Maps-FCMs.git
+cp */*.pdf ui/
+cp */*.ipynb ipynb/
+git clone https://github.com/cs109/2015lab6.git
+git clone https://github.com/cs109/2015lab1.git
+git clone https://github.com/cs109/2015lab2.git
+git clone https://github.com/cs109/2015lab3.git
+git clone https://github.com/cs109/2015lab4.git
+git clone https://github.com/cs109/2015lab5.git
+git clone https://github.com/cs109/2015lab7.git
+git clone https://github.com/cs109/2015lab8.git
+git clone https://github.com/cs109/2015lab9.git
+git clone https://github.com/cs109/2015lab10.git
+git clone https://github.com/cs109/2015lab11.git
+git clone https://github.com/cs109/2015lab12.git
+git clone https://github.com/cs109/2015lab13.git
+git clone https://github.com/cs109/2015lab14.git
+git clone https://github.com/cs109/2018-cs109b.git
+git clone https://github.com/cs109/a-2017.git
+pkill gedit
+sudo apt-get build-dep r-cran-lme4
+sudo apt-get install r-cran-lme4
+sudo apt-get remove r-cran-lme4
+sudo apt-get install r-cran-lme4
+sudo apt-get install r-api-3 r-cran-rcppeigen r-cran-minqa r-cran-lme4
+sudo apt-get install r-api r-cran-rcppeigen r-cran-minqa r-cran-lme4
+sudo apt-get install r-cran-rcppeigen r-cran-minqa r-cran-lme4
+subl
+cle "A Resource Oriented Framework for Service Choreog" À
+cle "A Resource Oriented Framework for Service Choreog" 0
+key "A Resource Oriented Framework for Service Choreog" 0
+cle "A Resource Oriented Framework for Service Choreog" 0
+cd "/home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/bin/web-view3D"
+gnome-terminal --tab -t tunnel -e "socat tcp-listen:9000,fork,reuseaddr exec:'ssh $USER@$SITE.iot-lab.info \"serial_aggregator\"'" --tab -t nodejs --profile demo --working-directory /home/fun/iot-lab/web-view3D -e "nodejs app.js && bash" &
+firefox localhost:3000
+sudo apt install mbed
+mbed import http://os.mbed.com/teams/mbed-os-examples/code/mbed-os-example-lorawan/
+make
+mkdir io
+cd io
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+sudo python get-pip.py
+sudo apt install python2.7 python-pip git mercurial
+pip install mbed-cli
+sudo pip install mbed-cli
+sudo pip install -U mbed-cli
+mbed import mbed-os-example-lorawan
+sudo pip install -r requirements.txt
+cd mbed-os-example-lorawan/
+sudo pip install -r requirements.txt
+mbed compile -m arduino -t ARM
+cd ..
+mkdir uu
+cd uu/
+sudo mbed import mbed-os-example-lorawan
+mbed compile -m maxime -t ARM
+cd mbed-os-example-lorawan/
+mbed compile -m maxime -t ARM
+sudo mbed compile -m maxime -t ARM
+whereis requirements.txt
+whereis "requirements.txt"
+cd mbed-os/
+sudo pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
+sudo pip install -r requirements.txt
+sudo pip install certifi 
+pipenv shell
+python --version && pipenv --version && pip --version && which python && which pip && which pipenv && env
+sudo apt update
+sudo apt upgrade
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove 
+sudo apt autoclean 
+sudo apt autoremove 
+sudo pip install -r requirements.txt
+sudo pip install kerberos
+sudo pip install kerberos==1.1.1
+sudo pip install kerberos
+cat requirements.txt 
+sudo pip install certifi==2017.4.17 
+sudo pip install -r requirements.txt
+sudo pip install docopt==0.4.0
+sudo pip install cryptography>=2.0.0
+sudo pip install cryptography==2.0.0
+sudo pip install gevent==1.1.0
+sudo pip install gevent==1.1.1
+sudo pip install -r requirements.txt
+sudo pip install idna<2.8,>=2.5
+sudo pip install idna==2.5
+sudo pip install pbr==1.3
+sudo pip install pbr!=0.7
+sudo pip install mbed-os-tools==0.0.6,
+sudo pip install mbed-os-tools==0.0.6
+sudo pip install -r requirements.txt
+sudo pip install mbed-os-tools==0.0.6
+sudo pip install mbed-greentea
+sudo pip install iotlabsshcli==0.2.3
+sudo pip install gevent==1.1
+sudo pip uninstall gevent
+sudo pip install -r requirements.txt
+sudo pip install mbed-greentea==1.6.5
+sudo pip install mbed-os-tools==0.0.8
+sudo pip install mbed-os-tools==0.0.6
+sudo pip install mbed-greentea
+sudo pip install pbr!=0.7
+sudo pip install pbr===0.6
+sudo pip install -r requirements.txt
+sudo pip install kerberos==1.1.1,
+sudo pip install kerberos==1.1.1
+sudo pip install kerberos==1.1.2
+sudo pip install requests-kerberos
+cd ..
+mbed compile -m -t ARM
+mbed compile -t ARM
+mbed-ls
+sudo pip install mbed-
+mbed-ls
+sudo pip install mbed-os-tools==0.0.6
+mbed-ls
+sudo pip install mbed-os-tools
+sudo pip install mbed-ls
+sudo pip install mbed-ls==1.0.0
+mbed-ls
+mbed compile -t ARM
+mbed compile -m native -t ARM
+mbed compile -m ARM_MPS2_M4 -t ARM
+mbed compile -m ARCH_BLE -t ARM
+riot
+npm install @riotjs/cli -g
+sudo npm install @riotjs/cli -g
+riot
+cd "/home/aghiles/Aghiles/Program/Engineering/boards_iot-lab/iot-lab/parts/RIOT/examples/my_project"
+../../dist/tools/tapsetup/tapsetup -c
+../../dist/tools/tapsetup/tapsetup -d
+make
+sudo apt-get install libc6-dev-i386
+make
+./bin/native/my_project.elf tap0
+sudo ./bin/native/my_project.elf tap0
+sudo ./bin/native/my_project.elf tap1
+sudo apt install git curl graphviz unzip wget zip build-essential automake gettext automake software-properties-common libc6-dev-i386
+sudo apt install lib32z1 lib32ncurses5 gcc-arm-none-eabi gdb-arm-none-eabi gcc gcc-msp430 libc6-i386 net-tools gcc-arm-none-eabi
+sudo apt -o Dpkg::Options::="--force-overwrite" install gdb-arm-none-eabi
+cp -R default my_project
+cd my_project
+gedit Makefile 
+mbed deploy
+cd mbed-os/
+pip install -r requirements.txt
+sudo pip install -r requirements.txt
+atom
+make
+gedit

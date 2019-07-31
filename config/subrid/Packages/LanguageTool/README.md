@@ -1,3 +1,5 @@
+<!--        "meta.*.latex",-->
+
 ### LanguageTool for Sublime Text 2/3
 
 #### Overview
