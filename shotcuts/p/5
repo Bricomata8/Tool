@@ -1,4 +1,11 @@
-#!/bin/bash
+#! /bin/sh
+mypath=`realpath $0`
+directory=`dirname $mypath`
+folder=`basename $directory`
+filename=`basename $0`
+filename=5
+folder=slide
 
-nautilus ~/Aghiles/Formation/Teaching
+ty="_$folder.sublime-project"
+subl -b --project /home/aghiles/Aghiles/Redaction/$filename/$filename$ty /home/aghiles/Aghiles/Redaction/$filename/$folder/$folder.tex
 

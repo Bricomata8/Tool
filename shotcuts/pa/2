@@ -1,35 +1,24 @@
-#!/bin/bash
+#!/bin/sh
+title1="Redaction"
+title2="Program"
+title3="Tool"
+title4="Teaching"
+title5="Formation"
+title6="Administration"
 
-INPUTb=`xsel`
-INPUT=`echo $INPUTb | tr -d '\n'`
-echo $INPUT
+titl1=Aghiles/Redaction*
+titl2=Aghiles/Program*
+titl3=Aghiles/Tool*
+titl4=Aghiles/Teaching*
+titl5=Aghiles/Formation*
+titl6=Aghiles/Administration*
 
+cmd="sh pull"
 
-xdg-open https://sci-hub.se/"$INPUT"
-
-#https://sci-hub.se/ May  2019
-#http://sci-hub.tw/ May 2019
-#http://sci-hub.tw 
-#http://sci-hub.la 
-#http://sci-hub.cn/
-#http://sci-hub.hk 
-#http://sci-hub.mn 
-#http://sci-hub.name 
-#http://sci-hub.tv
-#http://sci-hub.is
-#http://sci-hub.ru
-#http://sci-hub.hk 
-#http://sci-hub.cn
-#http://sci-hub.nu
-#http://sci-hub.gq
-#http://sci-hub.ga
-#http://tree.sci-hub.la
-#http://scihub22266oqcxt.onion.link
-#http://sci-hub.biz
-#http://80.82.77.83
-#https://sci-hub.mn/
-#http://sci-hub.la/
-#http://sci-hub.hk/
-#http://sci-hub.tv/
-#http://80.82.77.83/
-#http://80.82.77.84/
+gnome-terminal \
+	--tab --title="$title1" --command="bash -c 'cd $titl1; $cmd; $SHELL'" \
+	--tab --title="$title2" --command="bash -c 'cd $titl2; $cmd; $SHELL'" \
+	--tab --title="$title3" --command="bash -c 'cd $titl3; $cmd; $SHELL'" \
+	--tab --title="$title4" --command="bash -c 'cd $titl4; $cmd; $SHELL'" \
+	--tab --title="$title5" --command="bash -c 'cd $titl5; $cmd; $SHELL'" \
+	--tab --title="$title6" --command="bash -c 'cd $titl6; $cmd; $SHELL'" 

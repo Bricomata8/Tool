@@ -1018,3 +1018,34 @@ sudo pip install -r requirements.txt
 atom
 make
 gedit
+cl /home/aghiles/Aghiles/Redaction/setup/lib/iot
+cd /home/aghiles/Aghiles/Redaction/setup/lib/iot
+mendeleydesktop 
+grep -ri rules
+mkdir mail
+cd mail/
+git clone https://github.com/Foundry376/Mailspring.git
+grep -ri rules
+thunderbird
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+pkill mailspring 
+./shotcuts 
+xev | grep --line-buffered keysym
+dconf-editor
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+[A
+./shotcuts 
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+pkill subl
+ps -A
+ps -A | grep subl
+man subl
+subl
+cd ~/Aghiles/Redaction/setup/lib/iot/storage

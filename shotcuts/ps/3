@@ -1,11 +1,8 @@
 #! /bin/sh
 mypath=`realpath $0`
 directory=`dirname $mypath`
-folder=`basename $directory`
 filename=`basename $0`
-filename=3
-folder=paper
+echo $filename
+filename=lm-en
 
-ty="_$folder.sublime-project"
-subl -b --project /home/aghiles/Aghiles/Redaction/$filename/$filename$ty /home/aghiles/Aghiles/Redaction/$filename/$folder/$folder.tex
-
+gedit ~/Aghiles/Administration/Job_x_Search/Search_computer/cv/$filename/$filename.tex
