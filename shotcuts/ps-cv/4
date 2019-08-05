@@ -1,0 +1,8 @@
+#! /bin/sh
+mypath=`realpath $0`
+directory=`dirname $mypath`
+filename=`basename $0`
+echo $filename
+filename=lm-fr
+
+gedit ~/Aghiles/Administration/2-Job_Search/Search_computer/cv/$filename/$filename.tex
