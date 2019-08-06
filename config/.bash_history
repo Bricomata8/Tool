@@ -579,3 +579,4 @@ svn-git https://github.com/Bricomata8/Redaction/blob/master/setup/setup_slide.te
 svn-git https://github.com/Bricomata8/Redaction/blob/master/setup/setup.tex
 svn-git https://github.com/Bricomata8/Redaction/blob/master/0/slide
 grep -ri zotero
+gedit
