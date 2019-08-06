@@ -561,3 +561,21 @@ subl
 grep -ri 4_
 grep -ri "project":
 grep -ri "\"project\":"
+grep -ri "\title"
+grep -ri "title"
+grep -ri title
+grep -ri \\title
+grep -ri \title
+grep -ri "\title"
+grep -ri "title"
+svn-git  https://github.com/Bricomata8/Redaction/tree/master/0
+pkill subl
+subl
+svn-git  https://github.com/Bricomata8/Redaction/tree/master/0
+svn-git https://github.com/Bricomata8/Redaction/tree/master/setup
+svn-git https://github.com/Bricomata8/Redaction/blob/master/setup/setup.tex
+svn-git https://github.com/Bricomata8/Redaction/blob/master/setup/setup_paper.tex
+svn-git https://github.com/Bricomata8/Redaction/blob/master/setup/setup_slide.tex
+svn-git https://github.com/Bricomata8/Redaction/blob/master/setup/setup.tex
+svn-git https://github.com/Bricomata8/Redaction/blob/master/0/slide
+grep -ri zotero
