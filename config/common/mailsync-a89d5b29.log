@@ -9067,3 +9067,90 @@
  ***   clone
  ***
 
+11541 [2019-08-07 15:59:37.264] [main] [info] Identity created at 1551184549 - using ID Schema 1
+11541 [2019-08-07 15:59:37.266] [main] [info] ------------- Starting Sync (djoudi@lip6.fr) ---------------
+11541 [2019-08-07 15:59:37.280] [metadata] [info] Metadata delta stream starting...
+11541 [2019-08-07 15:59:37.282] [background] [info] Marking all folders as `busy`
+11541 [2019-08-07 15:59:37.282] [background] [info] Syncing folder list...
+11541 [2019-08-07 15:59:52.279] [metadataExpiration] [info] Scanning for expired metadata
+11541 [2019-08-07 15:59:52.280] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+11541 [2019-08-07 15:59:54.337] [background] [critical] 
+ ***
+ *** Mailspring GenericException occurred during program execution: 
+ *** {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorAuthentication","retryable":false,"what":"std::exception"}
+ ***
+
+11541 [2019-08-07 15:59:54.337] [background] [critical]  *** Stack trace:
+ ***   SyncWorker::syncFoldersAndLabels()
+ ***   runBackgroundSyncWorker()
+ ***   clone
+ ***
+
+11681 [2019-08-07 15:59:54.361] [main] [info] Identity created at 1551184549 - using ID Schema 1
+11681 [2019-08-07 15:59:54.364] [main] [info] ------------- Starting Sync (djoudi@lip6.fr) ---------------
+11681 [2019-08-07 15:59:54.368] [background] [info] Marking all folders as `busy`
+11681 [2019-08-07 15:59:54.369] [background] [info] Syncing folder list...
+11681 [2019-08-07 15:59:54.369] [metadata] [info] Metadata delta stream starting...
+11681 [2019-08-07 16:00:01.536] [background] [critical] 
+ ***
+ *** Mailspring GenericException occurred during program execution: 
+ *** {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorAuthentication","retryable":false,"what":"std::exception"}
+ ***
+
+11681 [2019-08-07 16:00:01.536] [background] [critical]  *** Stack trace:
+ ***   SyncWorker::syncFoldersAndLabels()
+ ***   runBackgroundSyncWorker()
+ ***   clone
+ ***
+
+11700 [2019-08-07 16:00:01.569] [main] [info] Identity created at 1551184549 - using ID Schema 1
+11700 [2019-08-07 16:00:01.571] [main] [info] ------------- Starting Sync (djoudi@lip6.fr) ---------------
+11700 [2019-08-07 16:00:01.576] [background] [info] Marking all folders as `busy`
+11700 [2019-08-07 16:00:01.576] [background] [info] Syncing folder list...
+11700 [2019-08-07 16:00:01.576] [metadata] [info] Metadata delta stream starting...
+11700 [2019-08-07 16:00:08.809] [background] [critical] 
+ ***
+ *** Mailspring GenericException occurred during program execution: 
+ *** {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorAuthentication","retryable":false,"what":"std::exception"}
+ ***
+
+11700 [2019-08-07 16:00:08.809] [background] [critical]  *** Stack trace:
+ ***   SyncWorker::syncFoldersAndLabels()
+ ***   runBackgroundSyncWorker()
+ ***   clone
+ ***
+
+11716 [2019-08-07 16:00:08.835] [main] [info] Identity created at 1551184549 - using ID Schema 1
+11716 [2019-08-07 16:00:08.837] [main] [info] ------------- Starting Sync (djoudi@lip6.fr) ---------------
+11716 [2019-08-07 16:00:08.840] [background] [info] Marking all folders as `busy`
+11716 [2019-08-07 16:00:08.840] [background] [info] Syncing folder list...
+11716 [2019-08-07 16:00:08.841] [metadata] [info] Metadata delta stream starting...
+11716 [2019-08-07 16:00:11.571] [background] [critical] 
+ ***
+ *** Mailspring GenericException occurred during program execution: 
+ *** {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorAuthentication","retryable":false,"what":"std::exception"}
+ ***
+
+11716 [2019-08-07 16:00:11.571] [background] [critical]  *** Stack trace:
+ ***   SyncWorker::syncFoldersAndLabels()
+ ***   runBackgroundSyncWorker()
+ ***   clone
+ ***
+
+11730 [2019-08-07 16:00:11.596] [main] [info] Identity created at 1551184549 - using ID Schema 1
+11730 [2019-08-07 16:00:11.599] [main] [info] ------------- Starting Sync (djoudi@lip6.fr) ---------------
+11730 [2019-08-07 16:00:11.605] [background] [info] Marking all folders as `busy`
+11730 [2019-08-07 16:00:11.605] [background] [info] Syncing folder list...
+11730 [2019-08-07 16:00:11.605] [] [info] Metadata delta stream starting...
+11730 [2019-08-07 16:00:14.755] [background] [critical] 
+ ***
+ *** Mailspring GenericException occurred during program execution: 
+ *** {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorAuthentication","retryable":false,"what":"std::exception"}
+ ***
+
+11730 [2019-08-07 16:00:14.755] [background] [critical]  *** Stack trace:
+ ***   SyncWorker::syncFoldersAndLabels()
+ ***   runBackgroundSyncWorker()
+ ***   clone
+ ***
+

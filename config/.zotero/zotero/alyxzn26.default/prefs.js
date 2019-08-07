@@ -8,10 +8,10 @@
  * To make a manual change to preferences, you can visit the URL about:config
  */
 
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1564638927);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1565191849);
 user_pref("app.update.lastUpdateTime.background-update-timer", 1565085333);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1564639047);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1565093191);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1565195000);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1565195120);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1565093071);
 user_pref("app.update.postupdate", true);
 user_pref("browser.cache.disk.capacity", 358400);
