@@ -581,3 +581,29 @@ svn-git https://github.com/Bricomata8/Redaction/blob/master/0/slide
 grep -ri zotero
 gedit
 pkill mailspring 
+pdf2txt
+key genetic 0
+key genetoc 0
+key genetic 0
+gedit search_Mendeley.desktop 
+cd translators/
+grep -ri "item.collection"
+grep -ri "item.folder"
+grep -ri "item."
+grep -ri "item\."
+grep -ri folder
+grep -ri collection
+grep -ri for
+grep -ri "Zotero\.Collection"
+grep -ri "Zotero\.NextCollection"
+cd translators/
+grep -ri getCollections
+cd translators/
+grep -ri groups
+cd Zotero/
+./zotero 
+grep -ri categories
+cd translators/
+grep -ri categories
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/WP8TRJWI/Bregell_2015_Hardware and software platform for Internet of Things.pdf"
+evince "/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/WP8TRJWI/Bregell - 2015 - Hardware and software platform for Internet of Thi.pdf"
