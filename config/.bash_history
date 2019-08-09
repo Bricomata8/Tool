@@ -607,3 +607,11 @@ cd translators/
 grep -ri categories
 evince "/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/WP8TRJWI/Bregell_2015_Hardware and software platform for Internet of Things.pdf"
 evince "/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/WP8TRJWI/Bregell - 2015 - Hardware and software platform for Internet of Thi.pdf"
+key background 0
+key "basic ADR" 0
+key "The authors in [9] slightly " 0
+key "authors in [9] slightly " 0
+key "slightly " 0
+cle "The basic ADR scheme provided by LoRaWAN estimates channel co" 0
+key "The basic ADR scheme provided by LoRaWAN estimates channel co" 0
+key "basic ADR scheme" 0
