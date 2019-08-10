@@ -615,3 +615,23 @@ key "slightly " 0
 cle "The basic ADR scheme provided by LoRaWAN estimates channel co" 0
 key "The basic ADR scheme provided by LoRaWAN estimates channel co" 0
 key "basic ADR scheme" 0
+compile3 hj.tex 
+./compile3 hj.tex 
+cd "/home/aghiles/Downloads/hj"
+./compile3 hj.tex 
+./compile3 
+cd "/home/aghiles/Downloads/hj"
+./compile3 hj.tex 
+cd "/home/aghiles/Downloads/hj"
+./compile3 hj.tex 
+cd "/home/aghiles/Downloads/hj"
+./compile3 hj.tex 
+cd "/home/aghiles/Downloads/hj"
+./compile3 hj.tex 
+pkill sublime_text 
+cd "/home/aghiles/Downloads/hj"
+./compile3 hj.tex 
+*
+./compile3 hj.tex 
+*
+./compile3 hj.tex 
