@@ -635,3 +635,39 @@ cd "/home/aghiles/Downloads/hj"
 ./compile3 hj.tex 
 *
 ./compile3 hj.tex 
+bash -c Aghiles/Tool/shotcuts/sa-*/)
+bash -c Aghiles/Tool/shotcuts/sa-*/\)
+bash -c "Aghiles/Tool/shotcuts/sa-*/)"
+bash -c Aghiles/Tool/shotcuts/sa-*/)
+ls
+bash -c Aghiles/Tool/shotcuts/sa-tools/)
+bash -c Aghiles/Tool/shotcuts/sa-tools/7
+bash -c ~/Aghiles/Tool/shotcuts/sa-tools/7
+bash -c ~/Aghiles/Tool/shotcuts/sa-tools/)
+bash -c "~/Aghiles/Tool/shotcuts/sa-tools/)"
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+cd "/home/aghiles/Aghiles/Tool/shotcuts/sa-tools"
+./6
+./shotcuts 
+./10
+bash -c ~/Aghiles/Tool/shotcuts/ph-*/10
+cd "/home/aghiles/Aghiles/Tool/shotcuts"
+./shotcuts 
+cle hetero 0
+key hetero 0
+cle hetero 0
+key hetero 0
+cle hetero 0
+./0
+mathpix
+mathpix-snipping-tool 
+/§fr
+./fr
+cd "/home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/cv"
+./fr
+grep -ri "res"
+grep -ri "res/"
+grep -ri "res\/"
+subl
+subl -b --project /home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/aghiles.sublime-project /home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/aghiles.tex

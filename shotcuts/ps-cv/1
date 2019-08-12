@@ -1,9 +1,3 @@
-#! /bin/sh
+#!/bin/sh
 
-mypath=`realpath $0`
-directory=`dirname $mypath`
-filename=`basename $0`
-echo $filename
-filename=cv-en
-
-gedit ~/Aghiles/Administration/2-Job_Search/Search_computer/cv/$filename/$filename.tex
+subl -b --project /home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/aghiles.sublime-project /home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/aghiles.tex
