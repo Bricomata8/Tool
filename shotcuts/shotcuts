@@ -95,7 +95,9 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[
 	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom91/',
 	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom92/',
 	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom93/',
-	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom94/'
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom94/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom95/',
+	'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom96/'
 ]"
 
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
@@ -146,6 +148,17 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/ name 'pa0'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/ command 'bash -c Aghiles/Tool/shotcuts/pa-*/0'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/ binding '<Primary><Alt>agrave'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom95/ name 'pa10'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom95/ command 'bash -c Aghiles/Tool/shotcuts/pa-*/10'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom95/ binding '<Primary><Alt>parenright'
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom96/ name 'pa11'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom96/ command 'bash -c Aghiles/Tool/shotcuts/pa-*/11'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom96/ binding '<Primary><Alt>equal'
+
+
+
 
 
 
@@ -239,7 +252,7 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom93/ name 'ph11'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom93/ command 'bash -c Aghiles/Tool/shotcuts/ph-*/11'
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom93/ binding '<Primary><Shift>='
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom93/ binding '<Primary><Shift>equal'
 
 
 
@@ -505,13 +518,13 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom89/ command 'bash -c Aghiles/Tool/shotcuts/sa-*/0'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom89/ binding '<Super><Alt>agrave'
 
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom90/ name 'sa)'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom90/ name 'sa10'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom90/ command 'bash -c Aghiles/Tool/shotcuts/sa-*/10'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom90/ binding '<Super><Alt>parenright'
 
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom91/ name 'sa='
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom91/ name 'sa11'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom91/ command 'bash -c Aghiles/Tool/shotcuts/sa-*/11'
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom91/ binding '<Super><Alt>='
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom91/ binding '<Super><Alt>equal'
 
 
 

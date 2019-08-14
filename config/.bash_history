@@ -671,3 +671,108 @@ grep -ri "res/"
 grep -ri "res\/"
 subl
 subl -b --project /home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/aghiles.sublime-project /home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/aghiles.tex
+pkill subl
+latex
+build
+grep -ri ar
+edit
+gedit
+key experimentation
+cle genetic 0
+cle genetic fuzzy 0
+mailspring 
+cle genetic fuzzy 0
+cle heterogen 0
+gedit
+perl make.pl 
+perl make.pl presentation.tex
+perl make.pl presentation
+sudo gedit L
+
+sudo apt install tikzit
+inkscape 
+inkscape2
+sudo apt install svg2tikz
+git clone https://github.com/kjellmf/svg2tikz.git
+cd
+svg2tikz 
+python setup.py 
+python setup.py install
+sudo python setup.py install
+inkscape 
+svg2tikz drawing-1.svg 
+inkscape 
+cd "/home/aghiles/Downloads/er"
+xx er.tex 
+xx er.tex 
+pdflatex --shell-escape testsvg.tex
+pdflatex --shell-escape er.tex
+cd Downloads/
+inkscape -D -z --file=image.svg --export-pdf=image.pdf --export-latex
+cd 
+inkscape -D -z --file=image.svg --export-pdf=image.pdf --export-latex
+cd "/home/aghiles/Downloads/er"
+xx er.tex 
+rm -rf bin/
+xx er.tex 
+pdflatex --shell-escape er.tex
+whereis inkscape
+inkscape -z -C -f./Flag_of_Mexico.svg -A./Flag_of_Mexico.pdf --export-latex
+xx er.tex 
+pdflatex --shell-escape er.tex
+pdflatex er.tex 
+lualatex --shell-escape testsvg.tex
+lualatex --shell-escape er.tex
+pdflatex --shell-escape er.tex
+inkscape -D -z --file=Flag_of_Mexico.svg --export-pdf=image.pdf --export-latex
+svgtopdf Flag_of_Mexico
+lualatex --shell-escape er.tex
+cd f
+lualatex --shell-escape er.tex
+pdflatex --shell-escape er.tex
+lualatex --shell-escape er.tex
+ImageMagick
+gimp
+lualatex --shell-escape er.tex
+inkscape"= -D -z -f./Flag_of_Mexico.svg -A./Flag_of_Mexico.pdf --export-latex
+lualatex --shell-escape er.tex
+inkscape -D -z -f./Flag_of_Mexico.svg -A./Flag_of_Mexico.pdf --export-latex
+lualatex --shell-escape er.tex
+pdflatex --shell-escape er.tex
+whereis imagemagik
+whereis imagemagi
+whereis imagema
+magik
+sudp apt install magick
+sudo apt install magick
+pdftops
+cd "/home/aghiles/Downloads/er/f"
+pdflatex --shell-escape er.tex
+nautilus &
+lualatex --shell-escape er.tex
+pdflatex --shell-escape er.tex
+lualatex --shell-escape ii.tex
+svgtopdf image
+svgtopdf Diagram1
+pdflatex --shell-escape er.tex
+pdflatex --shell-escape t.tex
+lualatex --shell-escape t.tex
+pdflatex --shell-escape er.tex
+ps2pdf Diagram1.eps 
+man ps2pdf
+ps2pdf14 Diagram1.eps 
+ps2pdf12 Diagram1.eps 
+ps2pdf Diagram1.eps 
+svgtopdf Diagram1
+svgtopdf Diagram1.eps 
+epstopdf
+epstopdf Diagram1.eps 
+cd "/home/aghiles/Downloads/gh"
+pdflatex --shell-escape gh.tex
+pkill dia 
+xx z.tex 
+key literature 
+key "solutions running on LoRa node should be as simple as possible as has been required in LoRaWAN specification."
+key selection
+grep -ri paper
+gre

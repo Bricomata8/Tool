@@ -4,8 +4,8 @@ directory=`dirname $mypath`
 folder=`basename $directory`
 filename=`basename $0`
 filename=0
-folder=paper
+folder=slide
 
-ty="_$folder.sublime-project"
-subl -b --project /home/aghiles/Aghiles/Redaction/$filename$ty /home/aghiles/Aghiles/Redaction/$folder/$folder.tex
+ty="$folder.sublime-project"
+subl -b --project /home/aghiles/Aghiles/Redaction/$ty /home/aghiles/Aghiles/Redaction/$folder/$folder.tex
 
