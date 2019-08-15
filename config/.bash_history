@@ -776,3 +776,9 @@ key "solutions running on LoRa node should be as simple as possible as has been 
 key selection
 grep -ri paper
 gre
+sudo apt-get install --reinstall cups
+sudo apt update
+sudo apt install --reinstall cups
+sudo apt install cups
+sudo apt autoremove 
+sudo apt upgrade
