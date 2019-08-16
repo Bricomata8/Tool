@@ -4,7 +4,7 @@
 		"/home/aghiles/Aghiles/Administration/2-Job_Search/Search_network/aghiles/src"
 	],
 	"last_version": 3207,
-	"last_window_id": 500,
+	"last_window_id": 503,
 	"log_indexing": false,
 	"settings":
 	{
@@ -27,6 +27,54 @@
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Traditional"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Script Builder"
+						]
+					],
+					[
+						"Packages/LaTeXTools/LaTeX.sublime-build",
+						"LuaLaTeX"
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -286,13 +334,15 @@
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
 				"height": 112.0,
 				"where_history":
 				[
+					"src",
+					"."
 				]
 			},
 			"find_state":
@@ -300,6 +350,7 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					"selection"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -326,6 +377,10 @@
 			"output.find_results":
 			{
 				"height": 0.0
+			},
+			"output.latextools":
+			{
+				"height": 104.0
 			},
 			"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"replace":
@@ -403,10 +458,67 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/aghiles/Aghiles/Tool/config/common/Local Storage/leveldb/002321.ldb",
+					"settings":
+					{
+						"buffer_size": 41412,
+						"encoding": "Hexadecimal",
+						"line_ending": "Unix"
+					}
+				}
 			],
-			"build_system": "",
+			"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Traditional"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Script Builder"
+						]
+					],
+					[
+						"Packages/LaTeXTools/LaTeX.sublime-build",
+						"LuaLaTeX"
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -538,6 +650,9 @@
 			],
 			"file_history":
 			[
+				"/home/aghiles/Aghiles/Tool/config/common/Local Storage/leveldb/002303.ldb",
+				"/home/aghiles/Aghiles/Tool/config/common/Local Storage/leveldb/MANIFEST-000001",
+				"/home/aghiles/Aghiles/Tool/config/common/Local Storage/leveldb/000005.ldb",
 				"/home/aghiles/Aghiles/Redaction/paper/paper.tex",
 				"/home/aghiles/Aghiles/Redaction/paper/src/4/1_introduction.tex",
 				"/home/aghiles/Aghiles/Redaction/paper/src/4/4_approach.tex",
@@ -662,20 +777,19 @@
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/0_0_authors.tex",
 				"/home/aghiles/Aghiles/Redaction/0/paper/src/0/4_standards.tex",
 				"/home/aghiles/snap/mailspring/common/Local Storage/leveldb/001674.ldb",
-				"/home/aghiles/snap/mailspring/common/edgehill.db-wal",
-				"/home/aghiles/snap/mailspring/common/GPUCache/data_1",
-				"/home/aghiles/snap/mailspring/common/Cache/0b35a196cdd78956_0",
-				"/home/aghiles/snap/mailspring/common/Local Storage/leveldb3/000753.ldb"
+				"/home/aghiles/snap/mailspring/common/edgehill.db-wal"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
 				"height": 112.0,
 				"where_history":
 				[
+					"src",
+					"."
 				]
 			},
 			"find_state":
@@ -683,6 +797,7 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					"selection"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -700,8 +815,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/aghiles/Aghiles/Tool/config/common/Local Storage/leveldb/002321.ldb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 41412,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -740,9 +884,13 @@
 			{
 				"height": 0.0
 			},
+			"output.latextools":
+			{
+				"height": 104.0
+			},
 			"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
-			"position": "0,0,0,0,0,960,27,1600,507,1920,1080",
-			"project": "/home/aghiles/Aghiles/Redaction/paper.sublime-project",
+			"position": "0,0,0,0,0,0,27,960,1043,1920,1080",
+			"project": "paper.sublime-project",
 			"replace":
 			{
 				"height": 44.0
@@ -800,8 +948,8 @@
 			"template_settings":
 			{
 			},
-			"window_id": 500,
-			"workspace_name": ""
+			"window_id": 501,
+			"workspace_name": "/home/aghiles/Aghiles/Redaction/paper.sublime-workspace"
 		}
 	],
 	"workspaces":
@@ -809,8 +957,8 @@
 		"recent_workspaces":
 		[
 			"/home/aghiles/Aghiles/Redaction/paper.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/poster.sublime-workspace",
-			"/home/aghiles/Aghiles/Redaction/slide.sublime-workspace"
+			"/home/aghiles/Aghiles/Redaction/slide.sublime-workspace",
+			"/home/aghiles/Aghiles/Redaction/poster.sublime-workspace"
 		]
 	}
 }

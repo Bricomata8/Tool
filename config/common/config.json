@@ -232,8 +232,8 @@
         "syncError": {
           "code": 134,
           "error": {
-            "stack": "Error: null15703 [2019-08-14 10:48:44.147] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n15703 [2019-08-14 10:48:44.147] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 15703 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
-            "message": "null15703 [2019-08-14 10:48:44.147] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n15703 [2019-08-14 10:48:44.147] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4: 15703 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
+            "stack": "Error: null5217 [2019-08-16 22:11:23.450] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n5217 [2019-08-16 22:11:23.450] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  5217 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:289:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
+            "message": "null5217 [2019-08-16 22:11:23.450] [background] [critical] \n ***\n *** Mailspring GenericException occurred during program execution: \n *** {\"debuginfo\":\"syncFoldersAndLabels - fetchAllFolders\",\"key\":\"ErrorAuthentication\",\"retryable\":false,\"what\":\"std::exception\"}\n ***\n\n5217 [2019-08-16 22:11:23.450] [background] [critical]  *** Stack trace:\n ***   SyncWorker::syncFoldersAndLabels()\n ***   runBackgroundSyncWorker()\n ***   clone\n ***\n\n/snap/mailspring/374/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 4:  5217 Aborted                 SASL_PATH=\"$(dirname $(realpath $0))\" LD_LIBRARY_PATH=\"$(dirname $(realpath $0));$LD_LIBRARY_PATH\" \"$(dirname $0)/mailsync.bin\" \"$@\"\n"
           },
           "signal": null
         },
@@ -298,13 +298,25 @@
         "__cls": "Account"
       }
     ],
-    "accountsVersion": 264,
+    "accountsVersion": 316,
     "plugins": {
       "open-tracking": {
         "defaultOn": false
       },
       "link-tracking": {
         "defaultOn": false
+      }
+    },
+    "signatures": {
+      "initial": {
+        "id": "initial",
+        "title": "Default",
+        "body": "<table cellPadding=\"0\" cellSpacing=\"0\"><tbody><tr><td style=\"vertical-align:top\"></td><td><div><strong>Aghiles,</strong></div><div style=\"font-size:0.9em;min-width:200px;max-width:400px;margin-top:4px;padding-top:4px\"><div><div></div><div></div></div></div></td></tr></tbody></table>",
+        "data": {
+          "title": "",
+          "templateName": "SignatureC",
+          "name": "Aghiles,"
+        }
       }
     }
   }

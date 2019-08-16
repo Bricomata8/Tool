@@ -782,3 +782,27 @@ sudo apt install --reinstall cups
 sudo apt install cups
 sudo apt autoremove 
 sudo apt upgrade
+pkill mailspring 
+grep -ri Divers
+sudo find / -iname "msgFilterRules.dat"
+nautilus /home/aghiles/.thunderbird/c5wyjfsv.default/ImapMail/imap.gmail.com
+nautilus /home/aghiles/.thunderbird/c5wyjfsv.default/ImapMail/imap.gmail-1.com
+thunderbird 
+pkill gnome-panel
+thunderbird 
+pkill mailspring 
+pkill 
+thunderbird 
+grep -ri Divers
+make
+cmake
+sudo add-apt-repository ppa:kubuntu-ppa/ppa
+sudo apt-search kexi
+sudo apt search kexi
+sudo apt install kexi
+kexi
+pkill mailspring 
+thunderbird 
+pkill mailspring 
+thunderbird 
+pkill mailspring 
