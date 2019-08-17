@@ -806,3 +806,4 @@ thunderbird
 pkill mailspring 
 thunderbird 
 pkill mailspring 
+grep -ri cv
