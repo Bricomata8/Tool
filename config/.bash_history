@@ -807,3 +807,130 @@ pkill mailspring
 thunderbird 
 pkill mailspring 
 grep -ri cv
+grep -ri figure2_
+grep -ri figure2
+../compile methodology.tex 
+./compile tikz/methodology
+compile figure1.tex 
+man nautilus
+nautilus . Downloads/
+nautilus --use-tabs . Downloads/
+nautilus --use-tabs "~/Aghiles/" "~/Downloads/"
+nautilus --tabs "~/Aghiles/" "~/Downloads/"
+man nautilus
+qdbus org.gnome.Nautilus /org/freedesktop/FileManager1 org.freedesktop.FileManager1.OpenLocations
+nautilus . Downloads/
+nautilus -n Aghiles/
+nautilus --continue Aghiles/
+man nautilus
+gedit nautab
+./nautab Aghiles Downloads
+sudo apt install wmctrl 
+./nautab Aghiles Downloads
+nautilus Aghiles Downloads/
+xdg-open Aghiles
+xdg-open Aghiles Downloads/
+xdg-open Aghiles Downloads
+xdg-settings 
+xdg-user-dir
+xdg-user-dir Aghiles
+man xdg-open 
+xdg-open Downloads/
+xdg-open "Downloads" "Aghiles"
+gnome-open
+sudo apt install gnome-open
+gnome-open
+gnome-shell
+sudo apt-get install xclip
+./nautab Aghiles Downloads
+./nautab Aghiles Downloads node_modules
+./nautab 'Aghiles' 'Downloads' 'node_modules'
+./nautab Aghiles Downloads
+./nautab Downloads
+./nautab Aghiles
+nautilus Aghiles/
+./nautab Downloads
+./nautab
+./nautab "Downloads"
+./nautab "~/Downloads"
+./nautab "Aghiles"
+./nautab "~/Downloads"
+./nautab 54
+./nautab "~/Downloads"
+./nautab 54
+./nautab "Aghiles"
+./nautab "~/Downloads"
+./nautab "~/Downloads" "Aghiles"
+./nautab "~/Downloads"
+./nautab 54
+./nautab "~/Downloads"
+wmctrl -xl
+xdotool key ctrl+t
+xdotool key ctrl+shift+t
+xclip -o -sel clip
+$(xclip -o -sel clip)
+oldclip="$(xclip -o -sel clip)"
+echo -n "$oldclip"
+wmctrl -xF -R nautilus.Nautilus && xdotool key ctrl+t ctrl+l ctrl+v Return
+xdotool key ctrl+t ctrl+l ctrl+v Return
+wmctrl -xF -R nautilus.Nautilus
+nautilus
+wmctrl -xF -R nautilus.Nautilus
+wmctrl -xF  nautilus.Nautilus
+nautilus
+echo -n "Downloads" | xclip -i -sel clip
+nautilus
+echo -n "Downloads" | xclip -i -sel clip
+nautilus Aghiles && xdotool key ctrl+t ctrl+l ctrl+v Return
+echo -n "Downloads" | xclip -i -sel clip
+nautilus Aghiles && xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus "Aghiles" && xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus Aghiles
+nautilus Aghiles; xdotool key ctrl+t ctrl+l ctrl+v Return
+xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus Aghiles/
+xdotool key ctrl+t ctrl+l ctrl+v Return
+wmctrl -a Firefox
+wmctrl -a firefox
+wmctrl -a nautab 
+wmctrl -l
+wmctrl -R firefox
+wmctrl -R Aghiles
+wmctrl -l
+wmctrl -a Administration
+wmctrl -R Administration
+nautilus Aghiles
+wmctrl -l
+nautilus
+wmctrl -l
+wmctrl -l
+oldclip="$(xclip -o -sel clip)"
+echo -n "/home/aghiles/Aghiles/Program/Experimentation" | xclip -i -sel clip
+nautilus "/home/aghiles/Aghiles/Program/Engineering" && wmctrl -R Engineering && xdotool key ctrl+t ctrl+l ctrl+v Return
+echo -n "$oldclip" | xclip -i -sel clip
+wmctrl -l
+oldclip="$(xclip -o -sel clip)"
+echo -n "/home/aghiles/Aghiles/Program/Experimentation" | xclip -i -sel clip
+nautilus "/home/aghiles/Aghiles/Program/Engineering" && wmctrl -R Engineering && xdotool key ctrl+t ctrl+l ctrl+v Return
+oldclip="$(xclip -o -sel clip)"
+echo -n "/home/aghiles/Aghiles/Program/Experimentation" | xclip -i -sel clip
+nautilus "/home/aghiles/Aghiles/Program/Engineering" & && wmctrl -R Engineering && xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus "/home/aghiles/Aghiles/Program/Engineering" &; wmctrl -R Engineering; xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus "/home/aghiles/Aghiles/Program/Engineering" && wmctrl -R Engineering && xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus "/home/aghiles/Aghiles/Program/Engineering" &
+wmctrl -R Engineering
+xdotool key ctrl+t ctrl+l ctrl+v Return
+oldclip="$(xclip -o -sel clip)"
+echo -n "/home/aghiles/Aghiles/Program/Experimentation" | xclip -i -sel clip
+nautilus "/home/aghiles/Aghiles/Program/Engineering" &
+wmctrl -R Engineering
+xdotool key ctrl+t ctrl+l ctrl+v Return
+nautilus "/home/aghiles/Aghiles/Program/Engineering"
+wmctrl -l
+nautilus Aghiles
+wmctrl -l
+wmctrl -R Engineering
+./nautab 
+folder=plot
+ty="$folder.sublime-project"
+
