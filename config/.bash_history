@@ -934,3 +934,13 @@ wmctrl -R Engineering
 folder=plot
 ty="$folder.sublime-project"
 
+cd ../../privacy/storage/
+pdftotext
+pdf2text
+pdftotext */*.pdf
+pdf2txt
+cle contagion 0
+evonce "TTIBW5GH/Yin et al. - 2012 - Modeling Group Emotion Based on Emotional Contagio.pdf"
+evince "TTIBW5GH/Yin et al. - 2012 - Modeling Group Emotion Based on Emotional Contagio.pdf"
+cle centrality 0
+evince "VV9SC8NF/Kourtellis - 2012 - On the Design of Socially-Aware Distributed System.pdf"
