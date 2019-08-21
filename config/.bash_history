@@ -945,3 +945,17 @@ evince "TTIBW5GH/Yin et al. - 2012 - Modeling Group Emotion Based on Emotional C
 cle centrality 0
 evince "VV9SC8NF/Kourtellis - 2012 - On the Design of Socially-Aware Distributed System.pdf"
 grep -ri plagia
+pacman -S cups
+systemctl start cups
+sudo apt install task-print-server
+sudo apt install cups
+sudo apt upgrade
+texdoc tikz
+texdoc pgf
+adb shell
+ls sdc
+adb shell
+pull /sdcard/cam .
+adn shell pull /sdcard/cam .
+adb shell pull /sdcard/cam .
+adb pull /sdcard/cam .
