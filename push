@@ -6,12 +6,11 @@ filename=`basename $directory`
 cd $directory
 
 #git config --global user.email "papierpourgithub@gmail.com"
-git remote set-url $filename https://BRICOMATA8@github.com/BRICOMATA8/$filename.git
+#git remote set-url $filename https://BRICOMATA8@github.com/BRICOMATA8/$filename.git
 #git remote set-url $filename git@github.com:BRICOMATA8/$filename.git
 
 git add -v .
 git commit -m "commit"
-#--amend --reset-author
 git push -u -f Tool master
 #firefox https://github.com/BRICOMATA8/$filename.git
 
