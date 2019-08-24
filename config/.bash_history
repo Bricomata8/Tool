@@ -1038,3 +1038,12 @@ git submodule update --init
 ls /dev/
 cat /etc/sudoers
 cat /etc/apt/sources.list
+cd "/home/aghiles/Aghiles/Tool/shotcuts/s-office"
+./2 
+cd "/home/aghiles/Aghiles/Tool/shotcuts/s-office"
+./2 
+*
+./2 
+pdftk hints.pdf cat 1-endeven output hints1.pdf
+pdftk paper22.pdf cat 1-endeven output hints1.pdf
+pdftk paper22.pdf cat 1-endodd output hints2.pdf
