@@ -114,8 +114,8 @@ fi
 
 ############################################################
 
-export PATH=$PATH:/home/aghiles/Aghiles/Tool/commands::/home/aghiles/Aghiles/Tool/commands/x
-export ONOS_ROOT="/home/aghiles/Aghiles/Program/gw_sdn/tool/onos"
+export PATH=$PATH:/home/aghiles/Aghiles/Tool/commands:/home/aghiles/Aghiles/Tool/commands/x
+export ONOS_ROOT="/home/aghiles/Aghiles/Program/sdn/tools/onos"
 source $ONOS_ROOT/tools/dev/bash_profile
 alias trans='trans -b -t fr'
 alias xd='tracker tag -ts'
@@ -125,6 +125,8 @@ alias matlabx='matlab -nodesktop -nosplash -r'
 
 export PATH=/home/aghiles/Downloads/Software/omnetpp-5.5.1/bin:$PATH
 export PATH=$PATH:/usr/local/wsnet-2.0/bin
+export osPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts/
+
 
 flash (){
 sudo dd $1 $2 bs=1M status=progress && sync

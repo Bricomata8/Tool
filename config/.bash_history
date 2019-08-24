@@ -959,3 +959,80 @@ pull /sdcard/cam .
 adn shell pull /sdcard/cam .
 adb shell pull /sdcard/cam .
 adb pull /sdcard/cam .
+coap
+coap-shell
+sudo chown aghiles *
+sudo chmod 777 ICSNC\ 2019.desktop 
+sudo chown aghiles ICSNC\ 2019.desktop 
+ls
+sudo chown aghiles "ICSNC 2019.desktop "
+export osPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts/
+sudo make 
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts/
+sudo make  TARGET="zoul"
+sudo make  TARGET="zoul"
+export osPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts/
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts
+echo $OSPATH
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts
+sudo make  TARGET="zoul"
+export OSPATH=/home/aghiles/Aghiles/Program/boards/iot-lab/parts
+sudo make  TARGET="zoul"
+targetos
+cd "/home/aghiles/Aghiles/Program/boards/6lbr/2-trafficlight-control"
+sudo make  TARGET="zoul"
+echo $PATH
+sudo cp targetos /user/bin
+sudo cp targetos /usr/bin
+sudo make  TARGET="zoul"
+targetos
+sudo make  TARGET="zoul"
+cd "/home/aghiles/Aghiles/Program/boards/6lbr/1-border-router"
+sudo make  TARGET="zoul"
+sudo rm /usr/bin/targetos 
+sudo ln -s /home/aghiles/Aghiles/Tool/commands/targetos /usr/bin
+ls /usr/bin/
+sudo make  TARGET="zoul"
+sudo make clean
+cd ../1
+sudo make  TARGET="zoul"
+./backup 
+arduino-compile Arduino_LoRa_temp/Arduino_LoRa_temp.ino 
+arduino-compile Arduino_LoRa_temp/Arduino_LoRa_temp
+arduino-compile Arduino_LoRa_temp
+cd boards_arduino/
+arduino-compile Arduino_LoRa_temp/Arduino_LoRa_temp.ino 
+ln -s /home/aghiles/Aghiles/Tool/config/arduino-cli.yaml /home/aghiles/.arduino15/arduino-cli.yaml 
+ln -s /home/aghiles/Aghiles/Tool/config/preferences.txt /home/aghiles/.arduino15/preferences.txt
+arduino-compile Arduino_LoRa_temp/Arduino_LoRa_temp.ino 
+arduino-compile Arduino_LoRa_temp/Arduino_LoRa_temp
+arduino-compile Arduino_LoRa_temp
+arduino-compile Arduino_LoRa_temp/Arduino_LoRa_temp.ino 
+arduino-compile Arduino_LoRa_GPS/Arduino_LoRa_GPS.ino 
+cd /home/aghiles/Aghiles/Program/boards_arduino
+arduino-compile Arduino_LoRa_GPS/Arduino_LoRa_GPS.ino 
+cd $OSPATH/contiki/examples/ipv6/slip-radio/
+echo $OSPATH
+targetos 
+echo $OSPATH
+OSPATH=`targetos`
+cd $OSPATH/contiki/examples/ipv6/slip-radio/
+git submodule update --init
+OSPATH=`targetos`
+cd $OSPATH/contiki/examples/ipv6/slip-radio/
+BOARD=remote make slip-radio.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+BOARD=remote 
+make slip-radio.upload PORT=/dev/ttyUSB0 TARGET="zoul"
+cd $OSPATH/contiki/examples/cc2538-common/mqtt-demo
+sudo make mqtt-demo.upload PORT=/dev/ttyUSB1 TARGET="zoul"
+git submodule update --init
+ls /dev/
