@@ -1036,3 +1036,5 @@ cd $OSPATH/contiki/examples/cc2538-common/mqtt-demo
 sudo make mqtt-demo.upload PORT=/dev/ttyUSB1 TARGET="zoul"
 git submodule update --init
 ls /dev/
+cat /etc/sudoers
+cat /etc/apt/sources.list
