@@ -1047,3 +1047,6 @@ cd "/home/aghiles/Aghiles/Tool/shotcuts/s-office"
 pdftk hints.pdf cat 1-endeven output hints1.pdf
 pdftk paper22.pdf cat 1-endeven output hints1.pdf
 pdftk paper22.pdf cat 1-endodd output hints2.pdf
+redis
+sudo apt install redis
+sudo apt install redis-server
