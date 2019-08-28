@@ -1051,3 +1051,8 @@ redis
 sudo apt install redis
 sudo apt install redis-server
 touch .hidden
+gedit ../lib/main.bib
+grep -ri common
+grep -ri "Redaction/common"
+gedit /home/aghiles/Aghiles/Redaction/lib/iot
+gedit /home/aghiles/Aghiles/Redaction/lib/iot.bib 

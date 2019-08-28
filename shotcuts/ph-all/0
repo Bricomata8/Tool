@@ -6,7 +6,7 @@ echo $INPUT
 
 paper="${INPUT#* }"
 
-cd "/home/aghiles/Aghiles/Redaction/setup/lib/iot/storage/"
+cd "/home/aghiles/Aghiles/Redaction/lib/iot/storage/"
 echo $paper
 evince "$paper"
 
