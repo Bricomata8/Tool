@@ -1050,3 +1050,4 @@ pdftk paper22.pdf cat 1-endodd output hints2.pdf
 redis
 sudo apt install redis
 sudo apt install redis-server
+touch .hidden
