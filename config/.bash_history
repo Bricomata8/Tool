@@ -1058,3 +1058,5 @@ gedit /home/aghiles/Aghiles/Redaction/lib/iot
 gedit /home/aghiles/Aghiles/Redaction/lib/iot.bib 
 mongorestore --gzip -d lora2msps ./lora2msps
 ln -s /media/aghiles/Private/Downloads/Documents /home/aghiles/Aghiles/Formation/Audio
+cd "/home/aghiles/Aghiles/Administration"
+./push 

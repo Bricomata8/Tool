@@ -27274,3 +27274,20 @@
 5680 [2019-09-03 14:11:55.467] [background] [info] - remote=0, local=0
 5680 [2019-09-03 14:11:55.467] [background] [info] Sync loop deleting unlinked messages with phase 1.
 5680 [2019-09-03 14:11:55.468] [background] [info] Sync loop complete.
+5680 [2019-09-03 14:13:35.569] [metadata] [info] Metadata delta stream closed.
+5680 [2019-09-03 14:13:35.570] [metadata] [info] Metadata delta stream starting...
+5680 [2019-09-03 14:13:55.468] [background] [info] Syncing folder list...
+5680 [2019-09-03 14:13:55.638] [background] [info] Sync loop deleting unlinked messages with phase 2.
+5680 [2019-09-03 14:13:55.639] [background] [info] Sync loop complete.
+5680 [2019-09-03 14:14:05.874] [metadata] [info] Metadata delta stream timed out.
+5680 [2019-09-03 14:14:05.885] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/256fd50d/streaming?p=linux&ih=imap.gmail.com&cursor=37046479","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5680 [2019-09-03 14:14:08.886] [metadata] [info] Metadata delta stream starting...
+5680 [2019-09-03 14:15:55.639] [background] [info] Syncing folder list...
+5680 [2019-09-03 14:15:55.724] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 46, Heavy: false
+5680 [2019-09-03 14:15:55.832] [background] [info] - remote=45, local=45
+5680 [2019-09-03 14:15:55.874] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+5680 [2019-09-03 14:15:55.960] [background] [info] - remote=0, local=0
+5680 [2019-09-03 14:15:56.001] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+5680 [2019-09-03 14:15:56.088] [background] [info] - remote=0, local=0
+5680 [2019-09-03 14:15:56.088] [background] [info] Sync loop deleting unlinked messages with phase 1.
+5680 [2019-09-03 14:15:56.088] [background] [info] Sync loop complete.
