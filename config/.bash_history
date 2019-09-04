@@ -1332,3 +1332,26 @@ cd ../2-trafficlight-control/
 sudo make clean
 cd ../3-sensors/
 sudo make clean
+git diff HEAD^ | patch --reverse
+git revert HEAD~5..HEAD
+ls
+git revert HEAD~5..HEAD
+git revert HEAD~51..HEAD
+git revert HEAD~1..HEAD
+git cherry-pick --abort
+git revert HEAD~1..HEAD
+git cherry-pick --quit
+git revert HEAD~1..HEAD
+./push 
+git revert HEAD~1..HEAD
+./push 
+git reset --hard HEAD~1
+git reset --hard HEAD~4
+./push 
+git clone https://BRICOMATA8@github.com/BRICOMATA8/$filename.git
+git clone https://BRICOMATA8@github.com/BRICOMATA8/Redaction.git
+./push
+cd Redaction
+./push
+cd zotero/
+sudo chmod -R u+x .

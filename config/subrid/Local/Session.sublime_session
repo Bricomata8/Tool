@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 3207,
-	"last_window_id": 8,
+	"last_window_id": 12,
 	"log_indexing": false,
 	"settings":
 	{
@@ -340,8 +340,6 @@
 				"height": 112.0,
 				"where_history":
 				[
-					"src",
-					"."
 				]
 			},
 			"find_state":
@@ -349,39 +347,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"$.*$",
-					"violet",
-					"eamer@blended",
-					"item",
-					"bregell_hardware_2015",
-					"Printbibliography",
-					"Redaction",
-					"setuo",
-					"Redac",
-					"redac",
-					"/home/aghiles/Aghiles/Redaction/common/",
-					"dedi",
-					"publi",
-					"src/",
-					"/",
-					"/0",
-					"/",
-					"src",
-					"src/",
-					"bytefield",
-					"page",
-					"pagenumbering",
-					"page",
-					"counter",
-					"0_0",
-					"../plot",
-					"\\res",
-					"tickzh",
-					"tikz",
-					"tikzh",
-					"pgfplotsset",
-					"figure2_",
-					"selection"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -389,10 +354,6 @@
 				"regex": true,
 				"replace_history":
 				[
-					"",
-					"/",
-					"/0",
-					""
 				],
 				"reverse": false,
 				"show_context": true,
@@ -493,8 +454,17 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "lib/iot.bib",
+					"settings":
+					{
+						"buffer_size": 609871,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
-			"build_system": "",
+			"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -673,9 +643,11 @@
 			},
 			"expanded_folders":
 			[
+				"/home/aghiles/Aghiles/Redaction/src"
 			],
 			"file_history":
 			[
+				"/home/aghiles/Aghiles/Redaction/lib/iot.bib",
 				"/home/aghiles/Aghiles/Redaction/src/paper.tex",
 				"/home/aghiles/Aghiles/Redaction/src/A-Survey IoT/00_technologies.tex",
 				"/home/aghiles/Aghiles/Redaction/src/A-Survey IoT/00_papers.tex",
@@ -695,7 +667,6 @@
 				"/home/aghiles/Aghiles/Redaction/src/setup/setup_rgb.tex",
 				"/home/aghiles/Aghiles/Redaction/src/02/02_sensors.tex",
 				"/home/aghiles/Aghiles/Redaction/src/11/authors.tex",
-				"/home/aghiles/Aghiles/Redaction/lib/iot.bib",
 				"/home/aghiles/Aghiles/Redaction/lib/main2.bib",
 				"/home/aghiles/Aghiles/Redaction/common/setup/setup_these.tex",
 				"/home/aghiles/Aghiles/Redaction/paper.tex",
@@ -807,13 +778,15 @@
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
 				"height": 112.0,
 				"where_history":
 				[
+					"src",
+					"."
 				]
 			},
 			"find_state":
@@ -821,6 +794,40 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"group",
+					"$.*$",
+					"violet",
+					"eamer@blended",
+					"item",
+					"bregell_hardware_2015",
+					"Printbibliography",
+					"Redaction",
+					"setuo",
+					"Redac",
+					"redac",
+					"/home/aghiles/Aghiles/Redaction/common/",
+					"dedi",
+					"publi",
+					"src/",
+					"/",
+					"/0",
+					"/",
+					"src",
+					"src/",
+					"bytefield",
+					"page",
+					"pagenumbering",
+					"page",
+					"counter",
+					"0_0",
+					"../plot",
+					"\\res",
+					"tickzh",
+					"tikz",
+					"tikzh",
+					"pgfplotsset",
+					"figure2_",
+					"selection"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -828,6 +835,10 @@
 				"regex": true,
 				"replace_history":
 				[
+					"",
+					"/",
+					"/0",
+					""
 				],
 				"reverse": false,
 				"show_context": true,
@@ -838,8 +849,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "lib/iot.bib",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 609871,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										424367,
+										424367
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/LaTeXTools/BibLaTeX.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 79350.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -883,8 +923,8 @@
 				"height": 214.0
 			},
 			"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
-			"position": "0,1,0,0,0,0,27,960,1043,1920,1080",
-			"project": "/home/aghiles/Aghiles/Redaction/paper.sublime-project",
+			"position": "0,0,0,0,0,0,27,960,1043,1920,1080",
+			"project": "paper.sublime-project",
 			"replace":
 			{
 				"height": 44.0
@@ -942,8 +982,8 @@
 			"template_settings":
 			{
 			},
-			"window_id": 8,
-			"workspace_name": ""
+			"window_id": 12,
+			"workspace_name": "/home/aghiles/Aghiles/Redaction/paper.sublime-workspace"
 		}
 	],
 	"workspaces":
