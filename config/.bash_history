@@ -1057,4 +1057,10 @@ grep -ri "Redaction/common"
 gedit /home/aghiles/Aghiles/Redaction/lib/iot
 gedit /home/aghiles/Aghiles/Redaction/lib/iot.bib 
 mongorestore --gzip -d lora2msps ./lora2msps
+<<<<<<< HEAD
 sudo chmod -R u+x .
+=======
+ln -s /media/aghiles/Private/Downloads/Documents /home/aghiles/Aghiles/Formation/Audio
+cd "/home/aghiles/Aghiles/Administration"
+./push 
+>>>>>>> f5d2448b49997fe405d783c6e0fd6744c71e313a
