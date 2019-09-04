@@ -1057,9 +1057,15 @@ grep -ri "Redaction/common"
 gedit /home/aghiles/Aghiles/Redaction/lib/iot
 gedit /home/aghiles/Aghiles/Redaction/lib/iot.bib 
 mongorestore --gzip -d lora2msps ./lora2msps
+<<<<<<< HEAD
+sudo chmod -R u+x .
+=======
 ln -s /media/aghiles/Private/Downloads/Documents /home/aghiles/Aghiles/Formation/Audio
 cd "/home/aghiles/Aghiles/Administration"
 ./push 
+<<<<<<< HEAD
+>>>>>>> f5d2448b49997fe405d783c6e0fd6744c71e313a
+=======
 ln -s /media/aghiles/Aghiles/Downloads/Documents /home/aghiles/Aghiles/Formation/Audio
 sudo make target=zoul
 grep -ri "CONTIKI = ../.."
@@ -1111,3 +1117,211 @@ make TARGET="zoul"
 cd contiki
 script_contiki 
 make TARGET="zoul"
+>>>>>>> 68d2d888d6af02dbdf4c7f39611eb90aa7b0a807
+sudo chmod -R u+x
+sudo chmod -R u+x .
+cd contiki/collect/
+make TARGET="zoul"
+make clean
+make TARGET="zoul"
+cd ../email/
+make TARGET="zoul"
+cd ../utlc/
+cd 1-border-router/
+make TARGET="zoul"
+script_riot 
+make TARGET="zoul"
+make
+sed -ir 's/RIOTBASE ?=\$\(shell targetos\)\/riot/RIOTBASE .=\$\(shell targetos\)\/RIOT/' */Makefile
+cd ..
+sed -ir 's/RIOTBASE ?=\$\(shell targetos\)\/riot/RIOTBASE .=\$\(shell targetos\)\/RIOT/' */Makefile
+sed -ir 's/RIOTBASE .=\$\(shell targetos\)\/riot/RIOTBASE ?=\$\(shell targetos\)\/RIOT/' */Makefile
+sed -ir 's/RIOTBASE .=\$\(shell targetos\)\/riot/RIOTBASE ?=\$\(shell targetos\)\/RIOT/' */*/Makefile
+sed -ir 's/RIOTBASE .=\$\(shell targetos\)\/riot/uytrfrse/' */*/Makefile
+sed -ir 's/RIOTBASE .=\$\(shell targetos\)\/riot/uytrfrse/' */Makefile
+sed -ir 's/RIOTBASE .=..shell targetos..riot/RIOTBASE ?=\$\(shell targetos\)\/RIOT/' */Makefile
+sed -ir 's/RIOTBASE .=..shell targetos..riot/RIOTBASE ?=\$\(shell targetos\)\/RIOT/' */*/Makefile
+sed -ir 's/RIOTBASE .=..shell targetos..riot/RIOTBASE ?=\$\(shell targetos\)\/RIOT/' */*/*/Makefile
+sudo chmod -R u+x .
+make
+make
+sudo make
+sudo targetos 
+sudo /home/aghiles/Aghiles/Tool/commands/targetos
+sudo make
+make
+make savetarget=zoul
+echo $TARGET
+make claen
+make clean
+make
+cd Aghiles/Program/boards/iot-lab/parts/contiki && make savetarget=zoul
+cd ~/Aghiles/Program/boards/iot-lab/parts/contiki && make savetarget=zoul
+cd ~/Aghiles/Program/boards/iot-lab/parts/contiki
+make savetarget=zoul
+make TARGET=zoul savetarget=zoul
+ls
+make Makefile.include TARGET=zoul savetarget=zoul
+make TARGET=zoul
+cd ../galileo/
+make TARGET=zoul
+cd ../sky-shell
+make TARGET=zoul
+make
+./sky-shell.sky 
+make
+make TARGET=zoul
+gedit example-shell
+gedit example-shell.c
+make TARGET=native
+pdftotext
+pdf2text
+pdf2txt
+cle "overage testBed"
+key "overage testBed"
+key "testBed"
+cle "testBed"
+cle "testbed"
+cle "lora"
+cle "overage testBed" 0
+cle "overage testBed" 0 | grep -i testbed
+ln -s /home/aghiles/Aghiles/Tool/config/.zotero  /home/aghiles/.zotero
+make
+sed -ir 's/CONTIKI=..shell targetos..contiki/CONTIKI=$(shell targetos)/contiki-ng/' */Makefile
+sed -ir 's/CONTIKI=..shell targetos..contiki/CONTIKI=\$\(shell targetos\)\/contiki-ng/' */Makefile
+sed -ir 's/CONTIKI=..shell targetos..contiki/CONTIKI=\$\(shell targetos\)\/contiki-ng/' */*/Makefile
+sed -ir 's/CONTIKI=..shell targetos..contiki/CONTIKI=\$\(shell targetos\)\/contiki-ng/' */*/*/Makefile
+sed -ir 's/CONTIKI=..shell targetos..contiki/CONTIKI=\$\(shell targetos\)\/contiki-ng/' */*/*/*/Makefile
+sed -ir 's/CONTIKI=..shell targetos..contiki/CONTIKI=\$\(shell targetos\)\/contiki-ng/' */*/*/*/*/Makefile
+make
+mbed-cli
+sudo pip install mbed-cli
+mbed-cli --version
+1.2.2
+mbed --version
+sudo pip install mbed-greentea
+sudo pip install mbed-host-tests
+sudo pip install mbed-ls
+sudo pip install mbed-test-wrapper
+ls
+mbed
+make TARGET=arduino
+sudo pip install -r requirements.txt
+sudo pip install colorama jinja2 intelhex junit_xml pyyaml mbed_host_tests mbed_greentea beautifulsoup4 fuzzywuzzy
+mbedls
+cd apps/mbed-cli-master/tools/bash_completion
+cd tools/
+sudo apt install mercurial -y
+hg --version
+sudo apt-get -y install lib32ncurses5
+pip install -r requirements.txt
+sudo pip install mbed-greentea
+sudo pip install mbed-host-tests
+sudo pip install mbed-ls
+sudo pip install mbed-test-wrapper
+tracert https://www.youtube.com/
+sudo apt install tracert
+dig https://www.youtube.com/
+sudo apt install nslookup
+sudo apt install dig
+ping yputibe.com
+ping youtube.com
+arduino-compile Arduino_LoRa_Gateway.ino
+arduino-exec
+arduino-exec Arduino_LoRa_Gateway.ino
+arduino-exec Arduino_LoRa_Gateway
+cd ..
+arduino-compile Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-exec Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-exec Arduino_LoRa_Gateway/Arduino_LoRa_Gateway
+cd Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway.ino
+arduino-exec Arduino_LoRa_Gateway
+cd ..
+arduino-exec Arduino_LoRa_Gateway
+arduino-exec Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+arduino-exec Arduino_LoRa_Gateway
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway.ino 
+arduino-exec Arduino_LoRa_Gateway.ino
+arduino-exec Arduino_LoRa_Gateway
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+cd ..
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino 
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+cd ..
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino 
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-exec compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-exec compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino 
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino -o `basename $PWD`
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino 
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $PWD
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino -o `basename $PWD.arduino.avr.uno`
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $PWD
+arduino-compile Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino 
+arduino-compile Arduino_LoRa_Gateway/Arduino_LoRa_Gateway
+arduino-exec Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway
+arduino-exec Arduino_LoRa_Gateway
+cd Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway.ino 
+arduino-exec Arduino_LoRa_Gateway.ino 
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Arduino_LoRa_Gateway
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $pw
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $pwd
+echo $pwd
+echo $PWD
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $PWD
+arduino-compile Arduino_LoRa_Gateway
+arduino-compile Arduino_LoRa_Gateway.ino
+arduino-exec compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino -o jh
+arduino-exec compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino -o jh
+arduino-cli compile --fqbn arduino:avr:uno Arduino_LoRa_Gateway.ino -o $direname
+direname
+dirname
+dirname .
+dirname ..
+basename
+basename .
+basename $PWD
+dirname $PWD
+arduino-compile 
+arduino-exec 
+arduino-compile 
+arduino-exec 
+cd ..
+cd Arduino_LoRa_Gatewaym/
+arduino-compile 
+arduino-compile Arduino_LoRa_Gateway
+arduino-exec 
+arduino-compile 
+arduino-exec 
+arduino-log 
+sudo apt install chromium
+chromium 
+cle genetic 0
+cle genetic 0 | grep fuzz
+pdftk cat 36-37 ui
+sudo apt install pdftk
+pdftk cat 36-37 paper.pdf 
+pdftk cat 36-37 paper.pdf output uh
+pdftk paper.pdf cat 36-37 output uh
+pdftk paper.pdf cat 36-37 output p.pdf

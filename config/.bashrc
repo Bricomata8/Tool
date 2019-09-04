@@ -132,6 +132,9 @@ flash (){
 sudo dd $1 $2 bs=1M status=progress && sync
 }
 
+
+#cd ~/Aghiles/Program/boards/contiki/collect && make savetarget=zoul
+
 # function to set terminal title  
 function set-title() {
   if [[ -z "$ORIG" ]]; then
@@ -141,10 +144,27 @@ function set-title() {
   PS1=${ORIG}${TITLE}
 }
 
-alias arduino-compile='arduino-cli compile --fqbn arduino:avr:uno'
-alias arduino-exec='arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno'
-alias arduino-log='set-title Arduino;screen /dev/ttyACM0 38400'
-alias arduino-update='arduino-cli core update-index'
+function arduino-compile() {
+	arduino-cli compile --fqbn arduino:avr:uno `basename $PWD.ino` -o `basename $PWD.arduino.avr.uno`
+}
+
+function arduino-exec() {
+	arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $PWD
+#	arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno $1
+}
+
+function arduino-log() {
+	set-title Arduino && screen /dev/ttyACM0 38400 $1
+}
+
+function arduino-update() {
+	arduino-cli core update-index $1
+}
+
+#alias arduino-compile='arduino-cli compile --fqbn arduino:avr:uno'
+#alias arduino-exec='arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno'
+#alias arduino-log='set-title Arduino;screen /dev/ttyACM0 38400'
+#alias arduino-update='arduino-cli core update-index'
 
 ## --------------------------------------------------
 ##------ NS3 + WAF + NetAnim
