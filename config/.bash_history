@@ -1063,4 +1063,58 @@ sudo chmod -R u+x .
 ln -s /media/aghiles/Private/Downloads/Documents /home/aghiles/Aghiles/Formation/Audio
 cd "/home/aghiles/Aghiles/Administration"
 ./push 
+<<<<<<< HEAD
 >>>>>>> f5d2448b49997fe405d783c6e0fd6744c71e313a
+=======
+ln -s /media/aghiles/Aghiles/Downloads/Documents /home/aghiles/Aghiles/Formation/Audio
+sudo make target=zoul
+grep -ri "CONTIKI = ../.."
+grep -ri "CONTIKI = ../.." contiki
+grep -ri " .*CONTIKI = ../.." contiki
+grep -ri "CONTIKI = ../.." contiki
+grep -ri "CONTIKI = ../../*" contiki
+grep -ri "CONTIKI = ../...*" contiki
+grep -ri " .*CONTIKI = ../...*" contiki
+grep -ri "\b.*CONTIKI = ../...*" contiki
+grep -ri "\bCONTIKI = ../...*" contiki
+sed -i  '1s/\bCONTIKI = ../...*/CONTIKI=\$\(shell targetos\)/contiki/' *.py
+sed -i  's/\bCONTIKI = ../...*/CONTIKI=\$\(shell targetos\)/contiki/' *.py
+sed -i  's/\bCONTIKI = ..\/...*\/CONTIKI=\$\(shell targetos\)\/contiki/' *.py
+sed -i  's/\bCONTIKI = ..\/...*\/CONTIKI=\$\(shell targetos\)\/contiki\/' *.py
+sed -i  '1s/\bCONTIKI = ..\/...*\/CONTIKI=\$\(shell targetos\)\/contiki\/' *.py
+sed -i  '1s\bCONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki\/' *.py
+sed -i  '1s/\bCONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki\/' *.py
+sed -i  '\bCONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki\/' *.py
+sed 's/\bCONTIKI = ..\/...*/ CONTIKI=\$\(shell targetos\)\/contiki/'
+cd contiki
+sed -r 's/\bCONTIKI = ..\/...*/ CONTIKI=\$\(shell targetos\)\/contiki/'
+sed -r 's/\bCONTIKI = ..\/...*/ CONTIKI=\$\(shell targetos\)\/contiki/' *
+sed -r 's/\bCONTIKI = ..\/...*/ CONTIKI=\$\(shell targetos\)\/contiki/' */*
+sed -r 's/\bCONTIKI = ..\/...*/ CONTIKI=\$\(shell targetos\)\/contiki/' */*/*
+sed -r 's/\bCONTIKI = ..\/...*/ CONTIKI=\$\(shell targetos\)\/contiki/' */*/Makefile
+sed -ir 's/CONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki/' */*/Makefile
+sed -ir 's/CONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki/' */*/*/Makefile
+sed -ir 's/CONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki/' */*/*/*/Makefile
+sed -ir 's/CONTIKI = ..\/...*/CONTIKI=\$\(shell targetos\)\/contiki/' */Makefile
+sudo make target=zoul
+sudo make clean
+make target=zoul
+~~~
+nautilus $
+nautilus &
+make clean 
+make TARGET="zoul"
+make clean 
+script_contiki */*/Makefile
+script_contiki */*/*/Makefile
+script_contiki */*/*/*/Makefile
+script_contiki */*/*/*/*/Makefile
+script_contiki "*/*//*/Makefile"
+script_contiki "*/*/*/Makefile"
+script_contiki "*/*/Makefile"
+script_contiki "*/Makefile"
+make TARGET="zoul"
+cd contiki
+script_contiki 
+make TARGET="zoul"
+>>>>>>> 68d2d888d6af02dbdf4c7f39611eb90aa7b0a807
