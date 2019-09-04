@@ -40651,3 +40651,28 @@
  ***   clone
  ***
 
+9604 [2019-09-04 23:10:47.443] [main] [info] Identity created at 1551184549 - using ID Schema 1
+9604 [2019-09-04 23:10:47.563] [main] [info] ------------- Starting Sync (aghiles.djoudi@univ-paris-est.fr) ---------------
+9604 [2019-09-04 23:10:47.566] [background] [info] Fetching XOAuth2 access token from Gmail for ea6d3656
+9604 [2019-09-04 23:10:47.568] [metadata] [info] Metadata delta stream starting...
+9604 [2019-09-04 23:10:47.737] [background] [info] Marking all folders as `busy`
+9604 [2019-09-04 23:10:47.738] [background] [info] Syncing folder list...
+9604 [2019-09-04 23:10:48.814] [background] [info] Syncing folder list...
+9604 [2019-09-04 23:10:49.027] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 13, Heavy: false
+9604 [2019-09-04 23:10:49.506] [background] [info] - remote=5, local=5
+9604 [2019-09-04 23:10:49.507] [background] [info] Cleaning local cache and updating stats
+9604 [2019-09-04 23:10:49.551] [background] [info] -- 0 message bodies deleted from local cache.
+9604 [2019-09-04 23:10:50.005] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+9604 [2019-09-04 23:10:50.069] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 9026 to 9026, uidnext 13 to 13
+9604 [2019-09-04 23:10:50.070] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+9604 [2019-09-04 23:10:50.291] [background] [info] - remote=0, local=0
+9604 [2019-09-04 23:10:50.291] [background] [info] Cleaning local cache and updating stats
+9604 [2019-09-04 23:10:50.320] [background] [info] -- 0 message bodies deleted from local cache.
+9604 [2019-09-04 23:10:50.490] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 8, Heavy: false
+9604 [2019-09-04 23:10:50.700] [background] [info] - remote=0, local=0
+9604 [2019-09-04 23:10:50.700] [background] [info] Cleaning local cache and updating stats
+9604 [2019-09-04 23:10:50.725] [background] [info] -- 0 message bodies deleted from local cache.
+9604 [2019-09-04 23:10:50.733] [background] [info] Sync loop deleting unlinked messages with phase 2.
+9604 [2019-09-04 23:10:50.733] [background] [info] Sync loop complete.
+9604 [2019-09-04 23:11:02.574] [metadataExpiration] [info] Scanning for expired metadata
+9604 [2019-09-04 23:11:02.574] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec

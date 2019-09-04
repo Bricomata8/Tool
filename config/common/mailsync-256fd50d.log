@@ -30092,3 +30092,28 @@
  ***   clone
  ***
 
+9595 [2019-09-04 23:10:47.442] [main] [info] Identity created at 1551184549 - using ID Schema 1
+9595 [2019-09-04 23:10:47.590] [main] [info] ------------- Starting Sync (aghiles.djoudi@esiee.fr) ---------------
+9595 [2019-09-04 23:10:47.596] [metadata] [info] Metadata delta stream starting...
+9595 [2019-09-04 23:10:47.598] [background] [info] Fetching XOAuth2 access token from Gmail for 256fd50d
+9595 [2019-09-04 23:10:47.743] [background] [info] Marking all folders as `busy`
+9595 [2019-09-04 23:10:47.744] [background] [info] Syncing folder list...
+9595 [2019-09-04 23:10:48.547] [background] [info] Syncing folder list...
+9595 [2019-09-04 23:10:48.647] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 46, Heavy: false
+9595 [2019-09-04 23:10:48.841] [background] [info] - remote=45, local=45
+9595 [2019-09-04 23:10:48.878] [background] [info] Cleaning local cache and updating stats
+9595 [2019-09-04 23:10:48.914] [background] [info] -- 0 message bodies deleted from local cache.
+9595 [2019-09-04 23:10:49.086] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+9595 [2019-09-04 23:10:49.134] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 9996 to 9996, uidnext 46 to 46
+9595 [2019-09-04 23:10:49.135] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+9595 [2019-09-04 23:10:49.235] [background] [info] - remote=0, local=0
+9595 [2019-09-04 23:10:49.235] [background] [info] Cleaning local cache and updating stats
+9595 [2019-09-04 23:10:49.264] [background] [info] -- 0 message bodies deleted from local cache.
+9595 [2019-09-04 23:10:49.415] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 1, Heavy: false
+9595 [2019-09-04 23:10:49.746] [background] [info] - remote=0, local=0
+9595 [2019-09-04 23:10:49.746] [background] [info] Cleaning local cache and updating stats
+9595 [2019-09-04 23:10:49.849] [background] [info] -- 0 message bodies deleted from local cache.
+9595 [2019-09-04 23:10:49.856] [background] [info] Sync loop deleting unlinked messages with phase 2.
+9595 [2019-09-04 23:10:49.856] [background] [info] Sync loop complete.
+9595 [2019-09-04 23:11:02.614] [metadataExpiration] [info] Scanning for expired metadata
+9595 [2019-09-04 23:11:02.614] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec

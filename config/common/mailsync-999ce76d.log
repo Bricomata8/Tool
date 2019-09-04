@@ -11485,3 +11485,66 @@
 6732 [2019-09-04 18:55:27.843] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
 6732 [2019-09-04 18:55:27.850] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
 6732 [2019-09-04 18:55:27.854] [metadata] [info] Metadata delta stream starting...
+9571 [2019-09-04 23:10:47.438] [main] [info] Identity created at 1551184549 - using ID Schema 1
+9571 [2019-09-04 23:10:47.579] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+9571 [2019-09-04 23:10:47.583] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+9571 [2019-09-04 23:10:47.585] [metadata] [info] Metadata delta stream starting...
+9571 [2019-09-04 23:10:47.712] [background] [info] Marking all folders as `busy`
+9571 [2019-09-04 23:10:47.713] [background] [info] Syncing folder list...
+9571 [2019-09-04 23:10:48.366] [background] [info] Syncing folder list...
+9571 [2019-09-04 23:10:48.524] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 6356 - 6358, Heavy: true
+9571 [2019-09-04 23:10:48.837] [background] [info] - remote=2, local=0
+9571 [2019-09-04 23:10:49.170] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 617769 to 617936, uidnext 6356 to 6358
+9571 [2019-09-04 23:10:49.395] [main] [info] [local-c9788452-91ce] Running ChangeLabelsTask performLocal:
+9571 [2019-09-04 23:10:49.406] [main] [info] [local-c9788452-91ce] -- Succeeded. Changing status to `remote`
+9571 [2019-09-04 23:10:49.520] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 617769: 2 changed, 0 vanished
+9571 [2019-09-04 23:10:49.523] [foreground] [warning] Ignoring changes to Web development, Computer shortcut keys, and more Pins popular on Pinterest, local data is newer 1567631449 < 1567717849
+9571 [2019-09-04 23:10:49.648] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 5860 - 6358, Heavy: false
+9571 [2019-09-04 23:10:49.653] [foreground] [info] Body for 1 messages already being fetched.
+9571 [2019-09-04 23:10:49.653] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+9571 [2019-09-04 23:10:49.749] [foreground] [info] Idle exited with code 0
+9571 [2019-09-04 23:10:49.750] [foreground] [info] [local-c9788452-91ce] Running ChangeLabelsTask performRemote:
+9571 [2019-09-04 23:10:50.048] [background] [info] - remote=402, local=402
+9571 [2019-09-04 23:10:50.051] [background] [info] - Fetching full headers for 1 (of 1 needed)
+9571 [2019-09-04 23:10:50.284] [foreground] [info] [local-c9788452-91ce] -- Succeeded. Changing status to `complete`
+9571 [2019-09-04 23:10:50.327] [background] [info] Cleaning local cache and updating stats
+9571 [2019-09-04 23:10:50.341] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 617936 to 617962, uidnext 6358 to 6358
+9571 [2019-09-04 23:10:50.381] [background] [info] -- 2 message bodies deleted from local cache.
+9571 [2019-09-04 23:10:50.475] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 617936: 1 changed, 0 vanished
+9571 [2019-09-04 23:10:50.487] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+9571 [2019-09-04 23:10:50.616] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1564, Heavy: false
+9571 [2019-09-04 23:10:50.715] [background] [info] - remote=2, local=2
+9571 [2019-09-04 23:10:50.715] [background] [info] Cleaning local cache and updating stats
+9571 [2019-09-04 23:10:50.756] [background] [info] -- 0 message bodies deleted from local cache.
+9571 [2019-09-04 23:10:50.844] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 2049, Heavy: false
+9571 [2019-09-04 23:10:50.938] [background] [info] - remote=0, local=0
+9571 [2019-09-04 23:10:50.938] [background] [info] Cleaning local cache and updating stats
+9571 [2019-09-04 23:10:50.962] [background] [info] -- 0 message bodies deleted from local cache.
+9571 [2019-09-04 23:10:50.969] [background] [info] Sync loop deleting unlinked messages with phase 2.
+9571 [2019-09-04 23:10:50.970] [background] [info] Sync loop complete.
+9571 [2019-09-04 23:11:02.589] [metadataExpiration] [info] Scanning for expired metadata
+9571 [2019-09-04 23:11:02.590] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+9571 [2019-09-04 23:11:19.274] [main] [info] [local-64c1a125-59e2] Running ChangeUnreadTask performLocal:
+9571 [2019-09-04 23:11:19.278] [main] [info] [local-64c1a125-59e2] -- Succeeded. Changing status to `remote`
+9571 [2019-09-04 23:11:19.634] [foreground] [info] Idle exited with code 0
+9571 [2019-09-04 23:11:19.638] [foreground] [info] [local-64c1a125-59e2] Running ChangeUnreadTask performRemote:
+9571 [2019-09-04 23:11:19.884] [foreground] [info] [local-64c1a125-59e2] -- Succeeded. Changing status to `complete`
+9571 [2019-09-04 23:11:20.034] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 617962 to 618055, uidnext 6358 to 6358
+9571 [2019-09-04 23:11:20.105] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 617962: 1 changed, 0 vanished
+9571 [2019-09-04 23:11:20.142] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+9571 [2019-09-04 23:12:24.221] [main] [info] [local-b3eb828f-d34b] Running ChangeFolderTask performLocal:
+9571 [2019-09-04 23:12:24.225] [main] [info] [local-b3eb828f-d34b] -- Succeeded. Changing status to `remote`
+9571 [2019-09-04 23:12:24.569] [foreground] [info] Idle exited with code 0
+9571 [2019-09-04 23:12:24.570] [foreground] [info] [local-b3eb828f-d34b] Running ChangeFolderTask performRemote:
+9571 [2019-09-04 23:12:24.887] [foreground] [info] [local-b3eb828f-d34b] -- Succeeded. Changing status to `complete`
+9571 [2019-09-04 23:12:25.006] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 618055 to 618084, uidnext 6358 to 6358
+9571 [2019-09-04 23:12:25.016] [main] [info] [local-1bd544c8-4e10] Running ChangeUnreadTask performLocal:
+9571 [2019-09-04 23:12:25.033] [main] [info] [local-1bd544c8-4e10] -- Succeeded. Changing status to `remote`
+9571 [2019-09-04 23:12:25.107] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 618055: 0 changed, 0 vanished
+9571 [2019-09-04 23:12:25.118] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+9571 [2019-09-04 23:12:25.406] [foreground] [info] Idle exited with code 0
+9571 [2019-09-04 23:12:25.407] [foreground] [info] [local-1bd544c8-4e10] Running ChangeUnreadTask performRemote:
+9571 [2019-09-04 23:12:25.630] [foreground] [info] [local-1bd544c8-4e10] -- Succeeded. Changing status to `complete`
+9571 [2019-09-04 23:12:25.705] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 618084 to 618116, uidnext 6358 to 6358
+9571 [2019-09-04 23:12:25.819] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 618084: 1 changed, 0 vanished
+9571 [2019-09-04 23:12:25.839] [foreground] [info] Idling on folder [Gmail]/Tous les messages

@@ -14,6 +14,9 @@
                    NC:value="http">
     <NC:handlerProp RDF:resource="urn:scheme:handler:http"/>
   </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:http"
+                   NC:useSystemDefault="true"
+                   NC:alwaysAsk="false" />
   <RDF:Description RDF:about="urn:scheme:handler:https"
                    NC:useSystemDefault="true"
                    NC:alwaysAsk="false" />
@@ -21,7 +24,4 @@
     <RDF:li RDF:resource="urn:scheme:http"/>
     <RDF:li RDF:resource="urn:scheme:https"/>
   </RDF:Seq>
-  <RDF:Description RDF:about="urn:scheme:handler:http"
-                   NC:useSystemDefault="true"
-                   NC:alwaysAsk="false" />
 </RDF:RDF>

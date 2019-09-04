@@ -12,6 +12,7 @@ ln -sf /home/aghiles/Aghiles/Tool/config/common /home/aghiles/snap/mailspring/
 
 rm -rf ~/.local/share/nautilus/scripts
 ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+chmod -R u+x ~/.local/share/nautilus/scripts
 
 rm -rf /home/aghiles/zotero
 ln -sf /home/aghiles/Aghiles/Tool/config/zotero /home/aghiles/.zotero

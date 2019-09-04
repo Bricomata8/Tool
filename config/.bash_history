@@ -1370,3 +1370,5 @@ ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
 cd /home/aghiles/Aghiles/Tool/config/common
 cd /home/aghiles/snap/mailspring/
 ls
+chmod -R u+x ~/.local/share/nautilus/scripts
+cd ~/.local/share/nautilus/scripts
