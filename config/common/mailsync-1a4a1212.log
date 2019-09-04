@@ -14697,3 +14697,142 @@
 4262 [2019-09-04 18:38:01.283] [background] [info] - remote=1, local=1
 4262 [2019-09-04 18:38:01.283] [background] [info] Sync loop deleting unlinked messages with phase 1.
 4262 [2019-09-04 18:38:01.292] [background] [info] Sync loop complete.
+4262 [2019-09-04 18:40:01.292] [background] [info] Syncing folder list...
+4262 [2019-09-04 18:40:01.431] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28195 - 28626, Heavy: false
+4262 [2019-09-04 18:40:01.698] [background] [info] - remote=400, local=400
+4262 [2019-09-04 18:40:01.873] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4262 [2019-09-04 18:40:01.881] [background] [info] Sync loop complete.
+4262 [2019-09-04 18:42:01.881] [background] [info] Syncing folder list...
+4262 [2019-09-04 18:42:02.008] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28195 - 28626, Heavy: false
+4262 [2019-09-04 18:42:02.164] [background] [info] - remote=400, local=400
+4262 [2019-09-04 18:42:02.255] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+4262 [2019-09-04 18:42:02.351] [background] [info] - remote=0, local=0
+4262 [2019-09-04 18:42:02.397] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+4262 [2019-09-04 18:42:02.500] [background] [info] - remote=1, local=1
+4262 [2019-09-04 18:42:02.501] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4262 [2019-09-04 18:42:02.509] [background] [info] Sync loop complete.
+4262 [2019-09-04 18:44:02.509] [background] [info] Syncing folder list...
+4262 [2019-09-04 18:44:02.789] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4262 [2019-09-04 18:44:02.795] [background] [info] Sync loop complete.
+4262 [2019-09-04 18:46:02.795] [background] [info] Syncing folder list...
+4262 [2019-09-04 18:46:02.920] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28195 - 28626, Heavy: false
+4262 [2019-09-04 18:46:03.180] [background] [info] - remote=400, local=400
+4262 [2019-09-04 18:46:03.277] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+4262 [2019-09-04 18:46:03.418] [background] [info] - remote=0, local=0
+4262 [2019-09-04 18:46:03.472] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+4262 [2019-09-04 18:46:03.594] [background] [info] - remote=1, local=1
+4262 [2019-09-04 18:46:03.595] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4262 [2019-09-04 18:46:03.602] [background] [info] Sync loop complete.
+4262 [2019-09-04 18:47:30.274] [metadata] [info] Metadata delta stream timed out.
+4262 [2019-09-04 18:47:30.287] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 3: 0x8C
+ ***
+
+4262 [2019-09-04 18:47:30.296] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+5531 [2019-09-04 18:47:33.289] [main] [info] Identity created at 1551184549 - using ID Schema 1
+5531 [2019-09-04 18:47:33.293] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+5531 [2019-09-04 18:47:33.301] [metadata] [info] Metadata delta stream starting...
+5531 [2019-09-04 18:47:33.302] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5531 [2019-09-04 18:47:48.298] [metadataExpiration] [info] Scanning for expired metadata
+5531 [2019-09-04 18:47:48.298] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5531 [2019-09-04 18:47:53.303] [metadata] [info] Metadata delta stream timed out.
+5531 [2019-09-04 18:47:53.326] [metadata] [info] Encountered error: {"debuginfo":"https://5","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5531 [2019-09-04 18:47:53.327] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5531 [2019-09-04 18:47:56.327] [metadata] [info] Metadata delta stream starting...
+5531 [2019-09-04 18:48:16.328] [metadata] [info] Metadata delta stream timed out.
+5531 [2019-09-04 18:48:16.339] [metadata] [info] Encountered error: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5531 [2019-09-04 18:48:19.339] [metadata] [info] Metadata delta stream starting...
+5531 [2019-09-04 18:48:39.341] [metadata] [info] Metadata delta stream timed out.
+5531 [2019-09-04 18:48:39.347] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37\u0000\u0001","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 5 sec.
+5531 [2019-09-04 18:48:44.347] [metadata] [info] Metadata delta stream starting...
+5531 [2019-09-04 18:49:04.348] [metadata] [info] Metadata delta stream timed out.
+5531 [2019-09-04 18:49:04.359] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 10 sec.
+5531 [2019-09-04 18:49:14.359] [metadata] [info] Metadata delta stream starting...
+5531 [2019-09-04 18:49:34.360] [metadata] [info] Metadata delta stream timed out.
+5531 [2019-09-04 18:49:34.371] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 20 sec.
+5531 [2019-09-04 18:49:53.327] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5531 [2019-09-04 18:49:54.371] [metadata] [info] Metadata delta stream starting...
+5531 [2019-09-04 18:50:13.342] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5531 [2019-09-04 18:50:14.373] [metadata] [info] Metadata delta stream timed out.
+5531 [2019-09-04 18:50:14.383] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xA0
+ ***
+
+5531 [2019-09-04 18:50:14.390] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+5739 [2019-09-04 18:50:14.417] [main] [info] Identity created at 1551184549 - using ID Schema 1
+5739 [2019-09-04 18:50:14.421] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+5739 [2019-09-04 18:50:14.428] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5739 [2019-09-04 18:50:14.428] [metadata] [info] Metadata delta stream starting...
+5739 [2019-09-04 18:50:29.423] [metadataExpiration] [info] Scanning for expired metadata
+5739 [2019-09-04 18:50:29.424] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5739 [2019-09-04 18:50:34.429] [metadata] [info] Metadata delta stream timed out.
+5739 [2019-09-04 18:50:34.445] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5739 [2019-09-04 18:50:34.452] [metadata] [info] Encountered error: {"debuginfo":"https://5","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5739 [2019-09-04 18:50:37.453] [metadata] [info] Metadata delta stream starting...
+5739 [2019-09-04 18:50:57.454] [metadata] [info] Metadata delta stream timed out.
+5739 [2019-09-04 18:50:57.465] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5739 [2019-09-04 18:51:00.465] [metadata] [info] Metadata delta stream starting...
+5739 [2019-09-04 18:51:20.466] [metadata] [info] Metadata delta stream timed out.
+5739 [2019-09-04 18:51:20.478] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xC0
+ ***
+
+5739 [2019-09-04 18:51:20.484] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+5829 [2019-09-04 18:51:20.511] [main] [info] Identity created at 1551184549 - using ID Schema 1
+5829 [2019-09-04 18:51:20.515] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+5829 [2019-09-04 18:51:20.522] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5829 [2019-09-04 18:51:20.522] [metadata] [info] Metadata delta stream starting...
+5829 [2019-09-04 18:51:35.518] [metadataExpiration] [info] Scanning for expired metadata
+5829 [2019-09-04 18:51:35.518] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5829 [2019-09-04 18:51:40.523] [metadata] [info] Metadata delta stream timed out.
+5829 [2019-09-04 18:51:40.539] [metadata] [info] Encountered error: {"debuginfo":"https://5","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5829 [2019-09-04 18:51:40.546] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5829 [2019-09-04 18:51:43.539] [metadata] [info] Metadata delta stream starting...
+5829 [2019-09-04 18:52:03.540] [metadata] [info] Metadata delta stream timed out.
+5829 [2019-09-04 18:52:03.550] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5829 [2019-09-04 18:52:06.551] [metadata] [info] Metadata delta stream starting...
+5829 [2019-09-04 18:52:26.553] [metadata] [info] Metadata delta stream timed out.
+5829 [2019-09-04 18:52:26.563] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xC0
+ ***
+
+5829 [2019-09-04 18:52:26.570] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+5937 [2019-09-04 18:52:26.595] [main] [info] Identity created at 1551184549 - using ID Schema 1
+5937 [2019-09-04 18:52:26.599] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+5937 [2019-09-04 18:52:26.606] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5937 [2019-09-04 18:52:26.607] [metadata] [info] Metadata delta stream starting...
+5937 [2019-09-04 18:52:41.602] [metadataExpiration] [info] Scanning for expired metadata
+5937 [2019-09-04 18:52:41.602] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5937 [2019-09-04 18:52:46.607] [metadata] [info] Metadata delta stream timed out.
+5937 [2019-09-04 18:52:46.623] [metadata] [info] Encountered error: {"debuginfo":"https://5","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5937 [2019-09-04 18:52:46.629] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5937 [2019-09-04 18:52:49.623] [metadata] [info] Metadata delta stream starting...
+5937 [2019-09-04 18:53:09.625] [metadata] [info] Metadata delta stream timed out.
+5937 [2019-09-04 18:53:09.636] [metadata] [info] Encountered error: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+5937 [2019-09-04 18:53:12.636] [metadata] [info] Metadata delta stream starting...
+5937 [2019-09-04 18:53:32.638] [metadata] [info] Metadata delta stream timed out.
+5937 [2019-09-04 18:53:32.649] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37\u0000\u0001","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 5 sec.
+5937 [2019-09-04 18:53:37.649] [metadata] [info] Metadata delta stream starting...
+5937 [2019-09-04 18:53:57.649] [metadata] [info] Metadata delta stream timed out.
+5937 [2019-09-04 18:53:57.660] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 10 sec.
+5937 [2019-09-04 18:54:07.661] [metadata] [info] Metadata delta stream starting...
