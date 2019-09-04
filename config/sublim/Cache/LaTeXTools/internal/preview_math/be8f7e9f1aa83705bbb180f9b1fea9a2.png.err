@@ -1,0 +1,666 @@
+Failed to run 'pdflatex' to create pdf to preview.
+
+
+Errors:
+/home/aghiles/Aghiles/Tool/config/subrid/Cache/LaTeXTools/internal/preview_math/be8f7e9f1aa83705bbb180f9b1fea9a2.tex:14: Undefined control sequence. [\ac]
+TeX STOPPED: File ended while scanning use of \frac{R_{c}{} \par \par \textbf {T}_{\textbf {s}} =& \frac {2^{\red {SF}}}
+TeX reports the error was in file: be8f7e9f1aa83705bbb180f9b1fea9a2.tex
+
+LaTeX document:
+-----BEGIN DOCUMENT-----
+
+\documentclass[preview,border=0.3pt]{standalone}
+% import xcolor if available and not already present
+\IfFileExists{xcolor.sty}{\usepackage{xcolor}}{}%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\IfFileExists{latexsym.sty}{\usepackage{latexsym}}{}
+\IfFileExists{mathtools.sty}{\usepackage{mathtools}}{}
+
+\begin{document}
+% set the foreground color
+\IfFileExists{xcolor.sty}{\color[HTML]{CCCCCC}}{}%
+\(
+\ac{SF}= log_{2} \frac{R_{c}{}
+
+
+\textbf{T}_{\textbf{s}}     =& \frac{2^{\red{SF}}}{\green{BW}_{[Hz]}}\\
+\ac{SR}_{\textbf{[sps]}}    =& \frac{\green{BW}}{2^{\red{SF}}}\\
+\ac{DR}_{\textbf{[bps]}}    =& \red{SF}*\frac{\green{BW}_{[Hz]}}{2^{\red{SF}}}*\yellow{CR}\\
+\ac{BR}_{\textbf{[bps]}}    =& \red{SF} * \frac{\frac{4}{4+\yellow{CR}}}{\frac{2 \red{SF}}{\green{BW}}}\\
+\ac{Sen}_{\textbf{[dBm]}}   =& -174+10 \log _{10} \green{BW} + NF + SNR\\
+\ac{SNR}_{\textbf{[dB]}}    =& 20.log(\frac{S}{N})\\
+\ac{BER}_{\textbf{[bps]}}   =& \frac{8}{15}.\frac{1}{16}.\sum{k=2}{16}{-1^{k}(\frac{16}{k})e^{20.SINR(\frac{1}{k}-1)}}\\
+\ac{BER}_{\textbf{[bps]}}   =& 10^{\alpha .e^{\ \beta \tiny\ac{SNR}}}\\
+\ac{PER}_{\textbf{[pps]}}   =& 1-(1-BER)^{n_{bits}}\\
+\ac{PRR}                    =& (1-\ac{BER})^{L}\\
+\end{align}
+
+
+\begin{align}
+\ac{RSSI} = & Tx_{power}.\frac{Rayleigh_{power}}{PL}\\
+\textbf{LoRa}=                                       & \frac{2^{S F}}{B W}\left((N P+4.25)+\left(S W+\max \left(\left\lceil\frac{8 P L-4 S F+28+16 C R C-20 I H}{4(S F-2 D E)}\right](C R+4), 0\right)\right)\right)\\
+\textbf{Lora}=                                       & n_{s}=8+max([\frac{8PL-4SF+8+CRC+H}{4*(SF-DE)}]*\frac{4}{CR})\\
+\textbf{Lora}=                                       & \frac{1}{R_{s}} \Bigg(n_{preamble} + \Bigg(SW + max\Bigg(\Bigg[\frac{8PL - 4SF + 28 + 16CRC -20IH}{4(SF-2DE)}\Bigg](CR+4),0\Bigg)\Bigg)\Bigg)\\
+\textbf{GFSK}=                                       & \frac{8}{R_{GFSK}}\Bigg(L_{preamble} + SW + PL + 2CRC\Bigg)\\
+\textbf{GFSK}=                                       & \frac{8}{D R}(N P+S W+P L+2 C R C)\\
+\end{align}
+
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabular}{|c|c?c|c|c|c|c|c?c|c|c|c|c|c?c|c|c|c|c|c?}
+	\textbf{SF} &                      & 07 & 08 & 09 & 10 & 11 & 12 & 07 & 08 & 09 & 10 & 11 & 12 & 07 & 08 & 09 & 10 & 11 & 12\\\hline
+	\           & \textbf{BW}          & \multicolumn{6}{c|}{125}     & \multicolumn{6}{c|}{250}     & \multicolumn{6}{c|}{500} \\\cline{1-20}
+	07          & \multirow{6}{*}{125} & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &   \\\cline{3-20}
+	08          &                      &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x \\\cline{3-20}
+	09          &                      &    &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &   \\\cline{3-20}
+	10          &                      &    &    &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &   \\\cline{3-20}
+	11          &                      &    &    &    &    & x  &    &    &    &    &    &    &    &    &    &    &    &    &   \\\cline{3-20}
+	12          &                      &    &    &    &    &    & x  &    &    &    &    &    &    &    &    &    &    &    &   \\\cmidrule[1pt]{1-20}
+
+	07          & \multirow{6}{*}{250} &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &    &    &   \\\cline{3-20}
+	08          &                      &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &    &   \\\cline{3-20}
+	09          &                      & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &   \\\cline{3-20}
+	10          &                      &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x \\\cline{3-20}
+	11          &                      &    &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &   \\\cline{3-20}
+	12          &                      &    &    &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &   \\\cmidrule[1pt]{1-20}
+
+	07          & \multirow{6}{*}{500} &    &    &    &    &    &    &    &    &    &    &    &    & x  &    &    &    &    &   \\\cline{3-20}
+	08          &                      &    &    &    &    &    &    &    &    &    &    &    &    &    & x  &    &    &    &   \\\cline{3-20}
+	09          &                      &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &    &    &   \\\cline{3-20}
+	10          &                      &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &    &   \\\cline{3-20}
+	11          &                      & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x  &   \\\cline{3-20}
+	12          &                      &    & x  &    &    &    &    &    &    &    & x  &    &    &    &    &    &    &    & x \\\cmidrule[1pt]{1-20}
+	\end{tabular}
+\caption{\label{tab:uyuy} uyuyuy}
+\end{table}
+
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L|L}
+	\              & LoRa[5]     & SigFox[6]         & NB-IoT [7] & Z-Wave[8] & Wi-Fi[9]   \\\hline
+	Cost           & 3−5e        & 2−5e              & 10−20e     & 8−12e     & < 2e       \\\hline
+	\ac{DR}      & <50 kbps    & <100 bps          & <200 kbps  & <40 kbps  & <300 Mbps  \\\hline
+	Autonomy       & <10 years   & <10 years         & <10 years  & <2 years  & <10 days   \\\hline
+	Range (urban)  & <5 km       & <10 km            & <1 km      & <100 m    & <40 m      \\\hline
+	Modulation     & CSS         & BPSK              & QPSK       & FSK       & BPSK/QAM   \\\hline
+	\ac{BW}      & 125/250 kHz & 100 Hz            & 200 kHz    & 300 kHz   & 20/40 MHz  \\\hline
+	Frequency (EU) & 868 MHz     & 868 MHz           & LTE bands  & 868 MHz   & 2.4/5.0 GHz\\\hline
+	Spectrum Cost  & Free        & Free              & Very High  & Free      & Free       \\\hline
+	Max. msg/day   & Unlimited   & 140(↑), 4(↓)      & Unlimited  & Unlimited & Unlimited  \\\hline
+	Max. payload   & 243 bytes   & 12(↑), 8(↓) bytes & 1600 bytes & 64 bytes  & 64 KB      \\\hline
+	\end{tabulary}
+\caption{\label{tab:terdjfy} Wireless technologies commonly used in smart buildings \cite{lopes_design_2019}}
+\end{table}
+
+\ac{BS}
+
+
+%\changefontsizes{6pt}
+\begin{table}[!ht]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L|L|L}
+	\bf{Characteristics}               & \bf{6LoWPAN}   & \bf{LoRaWAN}                    & \bf{SigFox}   & \bf{NB-IoT} & \textbf{INGENU} & \textbf{TELENSA}\\\hline
+	\bf{Proprietary}                   &                &                                 & \ok           &             &                 &                 \\\hline
+	\bf{Standar}                       & IETF           & LoRa Alliance                   &               & 3GPP        &                 &                 \\\hline
+	\multirow{2}{*}{$\ac{CF}_{[MHz]}$} & 902-929        & 902-928                         & 902           &             &                 &                 \\
+	\                                  & 868-868.6      & 863-870 and 434                 & 868           &             &                 &                 \\\hline
+	\multirow{3}{*}{$\bf{Channels }$}  & 0016 for 2400  & 80             for 915          & 25            &             &                 &                 \\
+	\                                  & 0010 for 915   & 10             for 868 and 780  &               &             &                 &                 \\
+	\                                  & 0001 for 868.3 &                                 &               &             &                 &                 \\\hline
+	\multirow{3}{*}{$\ac{BW}_{[MHz]}$} & 0005 for 2400  & 0.125 and 0.50 for 915          & 0.0001-0.0012 &             &                 &                 \\
+	\                                  & 0002 for 915   & 0.125 and 0.25 for 868 and 780  &               &             &                 &                 \\
+	\                                  & 0600 for 868.3 &                                 &               &             &                 &                 \\\hline
+	\multirow{3}{*}{$\ac{DR}_{[kbps]}$}& 0250 for 2400  & 0.00098-0.0219 for 915          & 0.1-0.6       &             &                 &                 \\
+	\                                  & 0040 for 915   & 0.250-0.05     for 868 and 780  &               &             &                 &                 \\
+	\                                  & 0020 for 868.3 &                                 &               &             &                 &                 \\\hline
+	\multirow{3}{*}{$\bf{Modulation}$} & QPSK for 2400  & LoRa           for 915          & BPSK and GFSK & QSPSK       &                 &                 \\
+	\                                  & BPSK for 915   & LoRa and GFSK  for 868  and 780 &               &             &                 &                 \\
+	\                                  & BPSK for 868.3 & \ac{CSS}                        &               &             &                 &                 \\
+	\                                  &                & unslotted ALOHA                 &unslotted ALOHA&             & CDMA-like       &                 \\\hline
+	\multirow{3}{*}{$\ac{CR}_{[dBm]}$} & -085 for 2400  & -137                            & -137          &             &                 &                 \\
+	\                                  & -092 for 915   &                                 &               &             &                 &                 \\
+	\                                  & -092 for 868.3 &                                 &               &             &                 &                 \\\hline
+	Topology                           &                & Star, Stars                     & Star          &             & Star, Tree      & Star            \\\hline
+	\ac{ADR}                           &                &       \ok                       & \ko           &             & \ok             & \ko             \\\hline
+	\ac{PL}                            &                & <250B (depends on SF)           & 12B(UL),8B(DL)&             & 10KB            &                 \\\hline
+	Handover                           &                & Multi \ac{BS}                   & Multi \ac{BS} &             &                 &                 \\\hline
+	Security                           &                & AES 128b                        & \ko           &             & 16B hash, AES 256b&               \\\hline
+	\ac{LS}                            &                & \ok                             & \ko           &             & \ko             & \ko             \\\hline
+	\ac{FEC}                           &                & AES 128b                        & \ko           &             & \ok             & \ok             \\\hline
+	\bf{Range}                         & 10-100 m       & 5-15 km                         & 10-50 km      & 1Km         &                 &                 \\\hline
+	\bf{Battery lifetime}              & 1-2 years      & <10 years                       & <10 years     & <10 years   &                 &                 \\\hline
+	\bf{Uplink}                        &                &                                 & 100bps        &             &                 &                 \\\hline
+	\bf{Downlink}                      &                &                                 & 8 bytes/msg   &             &                 &                 \\\hline
+	\bf{Cost}                          &                & 35e                             & 25e           & 1020e       &                 &                 \\\hline
+	\bf{max msg/day}                   &                & Unlimited                       & 140(UL),4(DL) & Unlimited   &                 &                 \\\hline
+	\bf{max Payload}                   &                & 243B                            & 12(UL),8(DL)  & 1600B       &                 &                 \\\hline
+
+	\end{tabulary}
+	\caption{\label{tab:LPWan_characteristics} LPWan Characteristics \cite{al-kashoash_comparison_2016}}
+\end{table}
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L}
+	\                                            & \textbf{SIGFOX}                               & \textbf{LORAWAN}                                              & \textbf{INGENU}                                 & \textbf{TELENSA} \\\hline                                                              
+	\textbf{Modulation}                          & UNB DBPSK( UL ), GFSK( DL )                   & CSS                                                           & RPMA-DSSS( UL ), CDMA( DL )                     & UNB 2-FSK \\\hline                                                             
+	\textbf{Band}                                & S UB -GH Z ISM:EU (868MHz), US(902MHz)        & S UB -GH Z ISM:EU (433MHz 868MHz), US (915MHz), Asia (430MHz) & ISM 2.4GHz                                      & S UB -GH Z bands including ISM:EU (868MHz), US (915MHz), Asia (430MHz) \\\hline
+	\textbf{\ac{DR}}                             & 100 bps( UL ), 600 bps( DL )                  & 0.3-37.5 kbps (L O Ra), 50 kbps (FSK)                         & 78kbps ( UL ), 19.5 kbps( DL )                  & 62.5 bps( UL ), 500 bps( DL ) \\\hline                                         
+	\textbf{Range}                               & 10 km ( URBAN ), 50 km ( RURAL )              & 5 km( URBAN ), 15 km ( RURAL )                                & 15 km ( URBAN )                                 & 1 km ( URBAN ) \\\hline                                                        
+	\textbf{Channels}                            & 360 channels                                  & 10 in EU, 64+8( UL ) and 8( DL ) in US plus multiple SFs      & 40 1MHz channels, up to 1200signals per channel & multiple channels \\\hline                                                     
+	\end{tabulary}
+\caption{\label{tab:edesf} \cite{raza_low_22}}
+\end{table}
+
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L|L|L}
+	\textbf{Standard}                & \textbf{802.15.4k}                  & \textbf{802.15.4g}      & \textbf{Weightless-W}      & \textbf{Weightless-N}                   & \textbf{Weightless-P}      & \textbf{DASH 7 Alliance}\\\hline
+	\textbf{Modulation}              & DSSS, FSK                           & MR-[FSK, OFDMA, OQPSK]  & 16-QAM, BPSK, QPSK, DBPSK  & UNB DBPSK                               & GMSK, offset-QPSK          & GFSK\\\hline
+	\textbf{\ac{BW}}                    & ISM S UB -GH Z, 2.4GHz              & ISM S UB -GH Z, 2.4GHz  & TV white spaces 470-790MHz & ISM S UB -GH Z EU (868MHz), US (915MHz) & S UB -GH Z ISM or licensed & UB -GH Z 433MHz, 868MHz, 915MHz\\\hline
+	\textbf{\ac{DR}}                 & 1.5 bps-128 kbps                    & 4.8 kbps-800 kbps       & 1 kbps-10 Mbps             & 30 kbps-100 kbps                        & 200 bps-100kbps            & 9.6,55.6,166.7 kbps\\\hline
+	\textbf{Range}                   & 5 km ( URBAN )                      & up to several kms       & 5 km ( URBAN )             & 3 km ( URBAN )                          & 2 km ( URBAN )             & 0-5 km ( URBAN )\\\hline
+	\textbf{MAC}                     & CSMA/CA, CSMA/CA or A LOHA with PCA & CSMA/CA                 & TDMA/FDMA                  & slotted A LOHA                          & TDMA/FDMA                  & CSMA/CA \\\hline
+	\textbf{Topology}                & star                                & tar, mesh, peer-to-peer & star                       & star                                    & star                       & tree, star\\\hline
+	\textbf{\ac{PL}}                 & 2047B                               & 2047B                   & >10B                       & 20B                                     & >10B                       & 256B \\\hline
+	\textbf{Security}                & AES 128b                            & AES 128b                & AES 128b                   & AES 128b                                & AES 128/256b               & AES 128b \\\hline
+	\textbf{Forward error correction}& \ok                                 & \ok                     & \ok                        & \ko                                     & \ok                        & \ok\\\hline
+	\end{tabulary}
+\caption{\label{tab:uyuy} \cite{raza_low_22}}
+\end{table}
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L|L|L}
+	\bf{Phy protocol}     & \bf{IEEE 802.15.4} & \bf{BLE}      & \bf{EPCglobal} & \bf{Z-Wave}              & \bf{LTE-M}           & \bf{ZigBee} \\\hline
+	\bf{Standard}    &                    & IEEE 802.15.1 &                &                          &                      & IEEE 802.15.4, ZigBee Alliance \\\hline
+	\bf{\ac{BW}(MHz)} & 868/915/2400       & 2400          & 860-960        & 868/908/2400             & 700-900              & \\\hline
+	\bf{MAC}      & TDMA, CSMA/CA      & TDMA          & ALOHA          & CSMA/CA                  & OFDMA                & \\\hline
+	\bf{\ac{DR} (bps)}  & 20/40/250 K        & 1024K         & varies 5-640K  & 40K                      & 1G (up), 500M (down) & \\\hline
+	\bf{Throughput}       &                    &               &                & 9.6, 40, 200kbps         &                      & \\\hline
+	\bf{Scalability}  & 65K nodes          & 5917 slaves   & -              & 232 nodes                & -                    & \\\hline
+	\bf{Range}            & 10-20m             & 10-100m       &                &                          &                      & \\\hline
+	\bf{Addressing}       & 8|16bit            & 16bit         &                &                          &                      & \\\hline
+	\end{tabulary}
+	\caption{\label{tab:IoT_cloud} IoT cloud platforms and their characteristics \cite{al-fuqaha_internet_24}}
+\end{table}
+
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{|p{6em}|L|L|L|L|}
+	\                           & \textbf{802.15.4}                   & \textbf{802.15.4e}                       & \textbf{802.15.4g}                & \textbf{802.15.4f}                      \\\hline
+	\textbf{\ac{CF}}          & 2.4Ghz (DSSS + oQPSK)               & 2.4Ghz (DSSS + oQPSK, CSS+DQPSK )        & 2.4Ghz (DSSS + oQPSK, CSS+DQPSK ) & 2.4Ghz (DSSS + oQPSK,CSS+DQPSK )        \\
+	\                           & 868Mhz (DSSS + BPSK)                & 868Mhz (DSSS + BPSK)                     & 868Mhz (DSSS + BPSK)              & 868Mhz (DSSS + BPSK)                    \\
+	\                           & 915Mhz (DSSS + BPSK)                & 915Mhz (DSSS + BPSK)                     & 915Mhz (DSSS + BPSK)              & 915Mhz (DSSS + BPSK) 3\sim 10Ghz (BPM+BPSK )\\
+	\textbf{\ac{DR}}          & Upto 250kbps                        & Upto 800kbps                             & Up to 800kbps                     &                                         \\
+	\textbf{Differences}        & -                                   & Time sync and channel hopping            & Phy Enhancements                  & Mac and Phy Enhancements                \\
+	\textbf{\ac{PL}}         & 127 bytes                           & N/A                                      & Up to 2047 bytes                  & N/A                                     \\
+	\textbf{Range}              & 1 – 75+ m                           & 1 – 75+ m                                & Upto 1km                          & N/A                                     \\
+	\textbf{Goals}              & General Low-power Sensing/Actuating & Industrial segments                      & Smart utilities                   & Active RFID                             \\
+	\textbf{Products}           & Many                                & Few                                      & Connode (6LoWPAN)                 & LeanTegra PowerMote                     \\\hline
+	\end{tabulary}
+\caption{\label{tab:IEEE_802.15.4_standards} IEEE 802.15.4 standards \cite{sarwar_iot_2015}}
+\end{table}
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L}
+	\textbf{SF} & Sensitivity[dBm] & \ac{DR}[kb/s] &  & \\\hline
+	6           &    -118              &     9.38            &  & \\\hline
+	7           &    -123              &                 &  & \\\hline
+	8           &    -126              &                 &  & \\\hline
+	9           &    -129              &                 &  & \\\hline
+	10          &    -132              &                 &  & \\\hline
+	11          &    -134.5              &                 &  & \\\hline
+	12          &    -137              &                 &  & \\\hline
+	\end{tabulary}
+\caption{\label{tab:1} hghg}
+\end{table}
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabular}{l|lll|lll|lll|l}
+	\textbf{\ac{SF}/\ac{BW}} & \multicolumn{3}{l}{\textbf{125kHz}}                   & \multicolumn{3}{l}{\textbf{250kHz} }             & \multicolumn{3}{l}{\textbf{500kHz} }             & \\\hline
+	\textbf{-}     & Sensitivity [dBm]                  & Bit Rate [kb/s]&   & Sensitivity                        & Data Rate &   & Sensitivity                        & Data Rate &   & \\
+	\textbf{6}     & -118                               &                &   & -115                               &           &   & -111                               &           &   & \\
+	\textbf{7}     & -123                               & 5.468          &   & -120                               &           &   & -116                               &           &   & \\
+	\textbf{8}     & -126                               & 3.125          &   & -123                               &           &   & -119                               &           &   & \\
+	\textbf{9}     & -129                               & 1.757          &   & -125                               &           &   & -122                               &           &   & \\
+	\textbf{10}    & -132                               & 0.976          &   & -128                               &           &   & -125                               &           &   & \\
+	\textbf{11}    & -133                               & 0.537          &   & -130                               &           &   & -128                               &           &   & \\
+	\textbf{12}    & -136                               & 0.293          &   & -133                               &           &   & -130                               &           &   & \\\hline
+	\end{tabular}
+\caption{\label{tab:EE} Receiver sensitivity [dBm]}
+\end{table}
+
+
+
+
+\cite{_evaluation_} Nous avons vu en effet plus haut qu’il a été démontré que la méthode CSMA est plus efficace pour le traitement des faibles trafics,
+	tandis que TDMA est nettement plus appropriée pour supporter les trafics intensesj.
+
+
+
+
+\begin{table}[h!]
+\scriptsize
+	\begin{tabular}{l|l|l|l|l|l|l}
+	\textbf{\ac{DR}}  & \multicolumn{3}{l}{\textbf{Modulation}} &                                 \multicolumn{2}{l}{\textbf{Max transmission unit}}                          & \textbf{\ac{BR}}  \\\hline
+	\                 & \textbf{\ac{SF}}                          & \textbf{\ac{BW} [kHz]} & \textbf{\ac{CR}} & \textbf{Total [B]}                                  & \textbf{Payload [B]} & x kbit/s \\\hline
+	0                 & 12                                        & 125               & 4/6         & 64                                                  & 51                   & 0.25     \\\hline
+	1                 & 11                                        & 125               & 4/6         & 64                                                  & 51                   & 0.44     \\\hline
+	2                 & 10                                        & 125               & 4/5         & 64                                                  & 51                   & 0.98     \\\hline
+	3                 & 9                                         & 125               & 4/5         & 128                                                 & 115                  & 1.76     \\\hline
+	4                 & 8                                         & 125               & 4/5         & 255                                                 & 242                  & 3.125    \\\hline
+	5                 & 7                                         & 125               & 4/5         & 255                                                 & 242                  & 5.47     \\\hline
+	6                 & 7                                         & 125               & 4/5         & 255                                                 & 242                  & 11       \\\hline
+	7                 &                                           & 125               & 4/5         & 255                                                 & 242                  & 50       \\\hline
+	\end{tabular}
+\caption{\label{tab:llo}oioioi }
+\end{table}
+
+%\section{Lora modules}
+%\begin{table}[h!]
+%\scriptsize
+%	\begin{tabulary}{\textwidth}{L|L|L|C|C|C|C|C}
+%	Ref                                & \textbf{Module}                                 & \textbf{Frequency       MHz} & \textbf{Tx power}       & \textbf{Rx power}     & \textbf{Sensitivity}      & \textbf{Channels} & \textbf{Distance}      \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Semtech SX1272}}        & 863-870 (EU)                 & \multirow{2}{*}{14 dBm} & \multirow{2}{*}{ dBm} & \multirow{2}{*}{-134 dBm} & 8                 & \multirow{2}{*}{22+ km}\\
+%	\                                &                                                   & 902-928 (US)                 &                         &                       &                           & 13                & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{rn2483}}                &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{rn2903}}                &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{rak811}}                &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Semtech sx1276}}        &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{rfm95}}                 &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{CMWX1ZZABZ-078}}        &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{LoPy4}}                 &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{mDot}}                  &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{xDot}}                  &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Laird RM192}}           &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Laird RM186}}           &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{CMWX1ZZABZ-078}}        &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Also Laird RM1xx}}      &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{iMST iM88x/iM98x}}      &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Mic SAM RN34/35}}       &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\multirow{2}{*}{\cite{_waspmote_}} & \multirow{2}{*}{\textbf{Semtech SX1278}}        &                              & \multirow{2}{*}{}       & \multirow{2}{*}{}     & \multirow{2}{*}{}         &                   & \multirow{2}{*}{}\\
+%	\                                  &                                                 &                              &                         &                       &                           &                   & \\\hline
+%	\end{tabulary}
+%\caption{\label{tab:sx1276} }
+%\end{table}
+
+% \changefontsizes{7pt}
+\begin{table}[h!]
+\scriptsize
+	\begin{tabulary}{\textwidth}{L|L|L|L|L|L}
+	\bf{Feature}                     & \bf{Wi-Fi}                                            & \bf{802.11p}                                          & \bf{UMTS}                        & \textbf{LTE}                      & \textbf{LTE-A}  \\\hline
+	\bf{Channel MHz}           & 20                                                    & 10                                                    & 5                                & 1.4, 3, 5, 10, 15, 20    & <100                 \\\hline
+	\bf{Frequency band(s) GHz}       & 2.4 , 5.2                                             & 5.86-5.92                                             & 0.7-2.6                          & 0.7-2.69                 & 0.45-4.99                 \\\hline
+	\bf{\ac{BR} Mb/s}               & 6-54                                                  & 3–27                                                  & 2                                & <300                & <1000                \\\hline
+	\bf{Range km}                    & <0.1                                                  & <1                                               & <10                         & <30                 & <30                  \\\hline
+	\bf{Capacity}                    & Medium                                                & Medium                                                & \ko                              & \ok                      & \ok                       \\\hline
+	\bf{Coverage}                    & Intermittent                                          & Intermittent                                          & Ubiquitous                       & Ubiquitous               & Ubiquitous                \\\hline
+	\bf{Mobility support km/h}       & \ko                                                   & Medium                                                & \ok                              & <350                & <350                 \\\hline
+	\bf{QoS support}                 & EDCA \scriptsize{Enhanced Distributed Channel Access} & EDCA \scriptsize{Enhanced Distributed Channel Access} & QoS classes and bearer selection & QCI and bearer selection & QCI and bearer selection  \\\hline
+	\bf{Broadcast/multicast support} & Native broadcast                                      & Native broadcast                                      & Through MBMS                     & Through eMBMS            & Through eMBMS             \\\hline
+	\bf{V2I support}                 & \ok                                                   & \ok                                                   & \ok                              & \ok                      & \ok                       \\\hline
+	\bf{V2V support}                 & Native (ad hoc)                                       & Native (ad hoc)                                       & \ko                              & \ko                      & Through D2D               \\\hline
+	\bf{Market penetration}          & \ok                                                   & \ko                                                   & \ok                              & \ok                      & \ok                       \\\hline
+	\bf{\ac{DR}}                   & <640 kbps                                        & 250 kbps                                              & 106–424 kbps                              & \ok                      & \ok                       \\\hline
+	\end{tabulary}
+	\caption{\label{tab:Tableppp} An example table.}
+\end{table}
+
+\section{IoT Security}
+
+\subsection{Blockchain}
+
+Blockchain Layers
+\begin{itemize}
+	\item Transaction \& contract layer
+	\item Validation layer (forward validation request)
+	\item Block Generation Layer (PoW,PoC, PoA PoS, PBFT)
+	\item Distribution Layer
+	\\
+\end{itemize}
+
+Consensus algorithms
+\begin{itemize}
+	\item Proof of Work (PoW)
+	\item Proof of Capacity (PoC)
+	\item Proof of Authority (PoA)
+	\item Proof of Stake (PoS)
+	\item Proof of Bizantine Fault Tolerant (PBFT)
+\end{itemize}
+
+
+\subsubsection{Summary and discussion}
+\)
+\end{document}
+
+-----END DOCUMENT-----
+
+Log file:
+-----BEGIN LOG-----
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.12)  17 JUL 2019 16:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**be8f7e9f1aa83705bbb180f9b1fea9a2.tex
+(./be8f7e9f1aa83705bbb180f9b1fea9a2.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
+alone
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count80
+\c@sapage=\count81
+
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2015/07/15 v1.2 Default configuration file for 'standalone
+' class
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.90 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen103
+)
+\pr@snippet=\count90
+\pr@box=\box26
+\pr@output=\toks16
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks18
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count106
+\calc@Cskip=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count107
+\l_MT_multwidth_dim=\dimen115
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen116
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen117
+\l_MT_above_intertext_sep=\dimen118
+\l_MT_below_intertext_sep=\dimen119
+\l_MT_above_shortintertext_sep=\dimen120
+\l_MT_below_shortintertext_sep=\dimen121
+)
+No file be8f7e9f1aa83705bbb180f9b1fea9a2.aux.
+\openout1 = `be8f7e9f1aa83705bbb180f9b1fea9a2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen122
+\scratchbox=\box29
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen123
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+! Undefined control sequence.
+l.14 \ac
+        {SF}= log_{2} \frac{R_{c}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Runaway argument?
+{R_{c}{} \par \par \textbf {T}_{\textbf {s}} =& \frac {2^{\red {SF}}}\ETC.
+! File ended while scanning use of \frac .
+<inserted text> 
+                \par 
+<*> be8f7e9f1aa83705bbb180f9b1fea9a2.tex
+                                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> be8f7e9f1aa83705bbb180f9b1fea9a2.tex
+                                        
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 3600 strings out of 493013
+ 49542 string characters out of 6135682
+ 113027 words of memory out of 5000000
+ 7108 multiletter control sequences out of 15000+600000
+ 5657 words of font info for 25 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,4n,56p,336b,134s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+
+-----END LOG-----

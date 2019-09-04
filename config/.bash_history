@@ -1355,3 +1355,18 @@ cd Redaction
 ./push
 cd zotero/
 sudo chmod -R u+x .
+ln -s /home/aghiles/Aghiles/Tool/config/.zotero /home/aghiles/.zotero
+ln -s /home/aghiles/Aghiles/Tool/config/mozilla /home/aghiles/.mozilla
+ln -s /home/aghiles/Aghiles/Tool/config/zotero /home/aghiles/.zotero
+ln -s /home/aghiles/Aghiles/Tool/config/sublim /home/aghiles/.config/sublime-text-3
+ln -s /home/aghiles/Aghiles/Tool/config/gedit/config  /home/aghiles/.config/gedit
+ln -s /home/aghiles/Aghiles/Tool/config/gedit/local-share /home/aghiles/.local/share/gedit 
+cd /home/aghiles/Aghiles/Program/boards/arduino
+ls
+ln -s /home/aghiles/Aghiles/Tool/config/arduino/arduino-cli.yaml /home/aghiles/.arduino15/arduino-cli.yaml
+ln -s /home/aghiles/Aghiles/Tool/config/arduino/preferences.txt /home/aghiles/.arduino15/preferences.txt
+rm -rf ~/.local/share/nautilus/scripts
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+cd /home/aghiles/Aghiles/Tool/config/common
+cd /home/aghiles/snap/mailspring/
+ls
