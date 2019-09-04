@@ -14836,3 +14836,28 @@
 5937 [2019-09-04 18:53:57.649] [metadata] [info] Metadata delta stream timed out.
 5937 [2019-09-04 18:53:57.660] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 10 sec.
 5937 [2019-09-04 18:54:07.661] [metadata] [info] Metadata delta stream starting...
+5937 [2019-09-04 18:54:27.662] [metadata] [info] Metadata delta stream timed out.
+5937 [2019-09-04 18:54:27.672] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37342144","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 20 sec.
+5937 [2019-09-04 18:54:46.630] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+5937 [2019-09-04 18:54:47.672] [metadata] [info] Metadata delta stream starting...
+5937 [2019-09-04 18:55:06.645] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5937 [2019-09-04 18:55:07.672] [metadata] [info] Metadata delta stream timed out.
+5937 [2019-09-04 18:55:07.684] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xA0
+ ***
+
+5937 [2019-09-04 18:55:07.692] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+6672 [2019-09-04 18:55:07.721] [main] [info] Identity created at 1551184549 - using ID Schema 1
+6672 [2019-09-04 18:55:07.725] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+6672 [2019-09-04 18:55:07.732] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+6672 [2019-09-04 18:55:07.733] [metadata] [info] Metadata delta stream starting...
+6672 [2019-09-04 18:55:22.729] [metadataExpiration] [info] Scanning for expired metadata
+6672 [2019-09-04 18:55:22.729] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+6672 [2019-09-04 18:55:27.735] [metadata] [info] Metadata delta stream timed out.
+6672 [2019-09-04 18:55:27.753] [metadata] [info] Encountered error: {"debuginfo":"https://5","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+6672 [2019-09-04 18:55:27.757] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}

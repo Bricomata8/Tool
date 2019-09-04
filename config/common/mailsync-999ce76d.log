@@ -11445,3 +11445,43 @@
 5856 [2019-09-04 18:53:41.700] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/999ce76d/streaming?p=linux&ih=imap.gmail.com&cursor=36633802","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 20 sec.
 5856 [2019-09-04 18:54:00.662] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
 5856 [2019-09-04 18:54:01.700] [metadata] [info] Metadata delta stream starting...
+5856 [2019-09-04 18:54:20.676] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+5856 [2019-09-04 18:54:21.700] [metadata] [info] Metadata delta stream timed out.
+5856 [2019-09-04 18:54:21.711] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xA0
+ ***
+
+5856 [2019-09-04 18:54:21.718] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+6345 [2019-09-04 18:54:21.746] [main] [info] Identity created at 1551184549 - using ID Schema 1
+6345 [2019-09-04 18:54:21.749] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+6345 [2019-09-04 18:54:21.757] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+6345 [2019-09-04 18:54:21.757] [metadata] [info] Metadata delta stream starting...
+6345 [2019-09-04 18:54:36.752] [metadataExpiration] [info] Scanning for expired metadata
+6345 [2019-09-04 18:54:36.752] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+6345 [2019-09-04 18:54:41.760] [metadata] [info] Metadata delta stream timed out.
+6345 [2019-09-04 18:54:41.773] [metadata] [info] Encountered error: {"debuginfo":"https://5","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+6345 [2019-09-04 18:54:41.781] [background] [info] Sleeping after exception: {"debuginfo":"","key":"Timeout was reached","retryable":true,"what":"std::exception"}
+6345 [2019-09-04 18:54:44.774] [metadata] [info] Metadata delta stream starting...
+6345 [2019-09-04 18:55:04.775] [metadata] [info] Metadata delta stream timed out.
+6345 [2019-09-04 18:55:04.786] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/999ce76d/streaming?p=linux&ih=imap.gmail.com&cursor=36633802","key":"Timeout was reached","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+6345 [2019-09-04 18:55:07.787] [metadata] [info] Metadata delta stream starting...
+6345 [2019-09-04 18:55:27.788] [metadata] [info] Metadata delta stream timed out.
+6345 [2019-09-04 18:55:27.799] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xC0
+ ***
+
+6345 [2019-09-04 18:55:27.807] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+6732 [2019-09-04 18:55:27.839] [main] [info] Identity created at 1551184549 - using ID Schema 1
+6732 [2019-09-04 18:55:27.843] [main] [info] ------------- Starting Sync (djaghiles@gmail.com) ---------------
+6732 [2019-09-04 18:55:27.850] [background] [info] Fetching XOAuth2 access token from Gmail for 999ce76d
+6732 [2019-09-04 18:55:27.854] [metadata] [info] Metadata delta stream starting...
