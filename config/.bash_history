@@ -1325,3 +1325,10 @@ pdftk cat 36-37 paper.pdf
 pdftk cat 36-37 paper.pdf output uh
 pdftk paper.pdf cat 36-37 output uh
 pdftk paper.pdf cat 36-37 output p.pdf
+sudo rm (rf obj_zoul
+sudo rm -rf obj_zoul
+sudo make clean
+cd ../2-trafficlight-control/
+sudo make clean
+cd ../3-sensors/
+sudo make clean
