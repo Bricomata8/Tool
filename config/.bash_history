@@ -1372,3 +1372,4 @@ cd /home/aghiles/snap/mailspring/
 ls
 chmod -R u+x ~/.local/share/nautilus/scripts
 cd ~/.local/share/nautilus/scripts
+arduino-compile 
