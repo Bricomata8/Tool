@@ -1373,3 +1373,27 @@ ls
 chmod -R u+x ~/.local/share/nautilus/scripts
 cd ~/.local/share/nautilus/scripts
 arduino-compile 
+git clone https://BRICOMATA8@github.com/BRICOMATA8/Tool.git
+rm -rf ~/.local/share/nautilus/scripts
+ln -sf /home/aghiles/Aghiles/Tool/config/scripts ~/.local/share/nautilus/
+chmod -R u+x ~/.local/share/nautilus/scripts
+rm -rf /home/aghiles/zotero
+ln -sf /home/aghiles/Aghiles/Tool/config/zotero /home/aghiles/.zotero
+ln -s /home/aghiles/Aghiles/Tool/config/mozilla /home/aghiles/.mozilla
+rm -rf /home/aghiles/.config/sublime-text-3
+ln -s /home/aghiles/Aghiles/Tool/config/sublim /home/aghiles/.config/sublime-text-3
+rm -rf /home/aghiles/.arduino15/arduino-cli.yaml
+rm -rf /home/aghiles/.arduino15/preferences.txt
+ln -s /home/aghiles/Aghiles/Tool/config/arduino/arduino-cli.yaml /home/aghiles/.arduino15/arduino-cli.yaml
+ln -s /home/aghiles/Aghiles/Tool/config/arduino/preferences.txt /home/aghiles/.arduino15/preferences.txt
+rm -rf /home/aghiles/.config/gedit
+rm -rf /home/aghiles/.local/share/gedit
+ln -s /home/aghiles/Aghiles/Tool/config/gedit/config  /home/aghiles/.config/gedit
+ln -s /home/aghiles/Aghiles/Tool/config/gedit/local-share /home/aghiles/.local/share/gedit 
+chmod -R u+x .
+arduino-compile 
+arduino-exec 
+arduino-log
+make TARGET=zoul
+arduino-exec 
+arduino-log
