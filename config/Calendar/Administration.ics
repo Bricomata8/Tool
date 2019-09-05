@@ -296,13 +296,18 @@ X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:Can't parse as DATE-TIME
 X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DTSTART 
  property. Removing entire property:
 DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:
+DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:
  20190701T132200
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DTSTART 
  property. Removing entire property:
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:
+DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:
  20190701T132200
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DTSTART 
  property. Removing entire property:
@@ -331,13 +336,18 @@ X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:Can't parse as DATE-TIME
 X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DTSTART 
  property. Removing entire property:
 DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:
+DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:
  20190701T132200
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DTSTART 
  property. Removing entire property:
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:
+DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:
  20190701T132200
+DTSTART;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DUE;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T132200
 DTEND;TZID=/freeassociation.sourceforge.net/Europe/Paris:20190701T142200
 SUMMARY:axa
@@ -458,7 +468,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20190904T163726Z-4550-1000-4542-0@dell
 DTSTAMP:20190904T163726Z
-DTSTART;VALUE=DATE:20191016
+DTSTART;VALUE=DATE:20191016T080000
+DUE;VALUE=DATE:20191016T080000
 DTEND;VALUE=DATE:20191017
 SUMMARY:Grand Prix FUTURE Days - Participez au concours d'innovation
 SEQUENCE:1

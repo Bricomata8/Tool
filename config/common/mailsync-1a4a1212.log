@@ -20467,3 +20467,1292 @@
 9059 [2019-09-05 11:50:47.287] [background] [info] - remote=1, local=1
 9059 [2019-09-05 11:50:47.288] [background] [info] Sync loop deleting unlinked messages with phase 1.
 9059 [2019-09-05 11:50:47.294] [background] [info] Sync loop complete.
+9059 [2019-09-05 11:52:47.295] [background] [info] Syncing folder list...
+9059 [2019-09-05 11:52:47.579] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+9059 [2019-09-05 11:52:49.970] [background] [info] - remote=8902, local=8902
+9059 [2019-09-05 11:52:50.058] [background] [info] - Fetching full headers for 1 (of 1 needed)
+9059 [2019-09-05 11:52:50.117] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567677170 < 1567755195
+9059 [2019-09-05 11:52:50.195] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+9059 [2019-09-05 11:52:50.285] [background] [info] - remote=0, local=0
+9059 [2019-09-05 11:52:50.330] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+9059 [2019-09-05 11:52:50.427] [background] [info] - remote=1, local=1
+9059 [2019-09-05 11:52:50.429] [background] [info] Sync loop deleting unlinked messages with phase 2.
+9059 [2019-09-05 11:52:50.441] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:08:17.089] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3223 [2019-09-05 13:08:17.213] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+3223 [2019-09-05 13:08:17.218] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 13:08:17.218] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+3223 [2019-09-05 13:08:17.330] [background] [info] Marking all folders as `busy`
+3223 [2019-09-05 13:08:17.332] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:08:18.125] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:08:18.239] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28632 - 28633, Heavy: true
+3223 [2019-09-05 13:08:18.458] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1416706 to 1416801, uidnext 28632 to 28633
+3223 [2019-09-05 13:08:18.565] [background] [info] - remote=1, local=0
+3223 [2019-09-05 13:08:18.706] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1416706: 1 changed, 0 vanished
+3223 [2019-09-05 13:08:19.302] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28209 - 28633, Heavy: false
+3223 [2019-09-05 13:08:19.332] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 13:08:19.533] [main] [info] [local-9dd32664-7562] Running ChangeLabelsTask performLocal:
+3223 [2019-09-05 13:08:19.546] [main] [info] [local-9dd32664-7562] -- Succeeded. Changing status to `remote`
+3223 [2019-09-05 13:08:19.615] [background] [info] - remote=401, local=401
+3223 [2019-09-05 13:08:19.772] [background] [info] Cleaning local cache and updating stats
+3223 [2019-09-05 13:08:19.865] [background] [info] -- 0 message bodies deleted from local cache.
+3223 [2019-09-05 13:08:19.889] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 13:08:19.889] [foreground] [info] [local-9dd32664-7562] Running ChangeLabelsTask performRemote:
+3223 [2019-09-05 13:08:20.393] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:08:20.770] [foreground] [info] [local-9dd32664-7562] -- Succeeded. Changing status to `complete`
+3223 [2019-09-05 13:08:20.791] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:08:20.791] [background] [info] Cleaning local cache and updating stats
+3223 [2019-09-05 13:08:20.823] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1416801 to 1416825, uidnext 28633 to 28633
+3223 [2019-09-05 13:08:20.870] [background] [info] -- 0 message bodies deleted from local cache.
+3223 [2019-09-05 13:08:20.881] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1416801: 1 changed, 0 vanished
+3223 [2019-09-05 13:08:20.931] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:08:20.954] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 13:08:21.023] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:08:21.023] [background] [info] Cleaning local cache and updating stats
+3223 [2019-09-05 13:08:21.049] [background] [info] -- 0 message bodies deleted from local cache.
+3223 [2019-09-05 13:08:21.057] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:08:21.062] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:08:32.249] [metadataExpiration] [info] Scanning for expired metadata
+3223 [2019-09-05 13:08:32.249] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3223 [2019-09-05 13:09:24.090] [main] [info] [local-eade2a9f-ad91] Running ChangeUnreadTask performLocal:
+3223 [2019-09-05 13:09:24.110] [main] [info] [local-eade2a9f-ad91] -- Succeeded. Changing status to `remote`
+3223 [2019-09-05 13:09:24.454] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 13:09:24.463] [foreground] [info] [local-eade2a9f-ad91] Running ChangeUnreadTask performRemote:
+3223 [2019-09-05 13:09:24.921] [foreground] [info] [local-eade2a9f-ad91] -- Succeeded. Changing status to `complete`
+3223 [2019-09-05 13:09:24.987] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1416825 to 1416903, uidnext 28633 to 28633
+3223 [2019-09-05 13:09:25.052] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1416825: 1 changed, 0 vanished
+3223 [2019-09-05 13:09:25.092] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 13:10:21.062] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:10:21.264] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:10:24.337] [background] [info] - remote=8903, local=8903
+3223 [2019-09-05 13:10:24.429] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 13:10:24.531] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567681824 < 1567755195
+3223 [2019-09-05 13:10:24.627] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:10:24.717] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:10:24.795] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:10:24.895] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:10:24.898] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:10:24.919] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:12:24.920] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:12:25.053] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:12:25.311] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:12:25.411] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:12:25.500] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:12:25.545] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:12:25.643] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:12:25.645] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:12:25.663] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:14:25.663] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:14:25.950] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:14:25.969] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:16:25.970] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:16:26.100] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:16:26.344] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:16:26.435] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:16:26.522] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:16:26.565] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:16:26.659] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:16:26.661] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:16:26.678] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:18:26.678] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:18:26.948] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:18:26.969] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:20:26.969] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:20:27.103] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:20:29.820] [background] [info] - remote=8903, local=8903
+3223 [2019-09-05 13:20:29.921] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 13:20:30.146] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567682429 < 1567755195
+3223 [2019-09-05 13:20:30.233] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:20:30.321] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:20:30.365] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:20:30.458] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:20:30.461] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:20:30.481] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:22:30.481] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:22:30.779] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:22:30.801] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:24:21.552] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 13:24:21.558] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 13:24:30.801] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:24:30.937] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:24:31.180] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:24:31.281] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:24:31.370] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:24:31.415] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:24:31.542] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:24:31.549] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:24:31.562] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:26:31.563] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:26:31.791] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:26:31.812] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:28:31.813] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:28:31.931] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:28:32.211] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:28:32.301] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:28:32.396] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:28:32.441] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:28:32.949] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:28:32.951] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:28:32.970] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:30:32.971] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:30:33.102] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:30:35.405] [background] [info] - remote=8903, local=8903
+3223 [2019-09-05 13:30:35.490] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 13:30:35.544] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567683035 < 1567755195
+3223 [2019-09-05 13:30:35.649] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:30:35.934] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:30:35.978] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:30:36.072] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:30:36.075] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:30:36.101] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:32:36.101] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:32:36.236] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:32:36.487] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:32:36.584] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:32:36.676] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:32:36.719] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:32:36.727] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:34:36.727] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:34:39.244] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:34:39.493] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:34:39.595] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:34:39.691] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:34:39.759] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:34:39.860] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:34:39.861] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:34:39.874] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:36:39.875] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:36:40.070] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:36:40.159] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:36:40.201] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:36:40.297] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:36:40.298] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:36:40.313] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:37:25.210] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 13:37:25.279] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1416903 to 1416928, uidnext 28633 to 28633
+3223 [2019-09-05 13:37:25.331] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1416903: 0 changed, 0 vanished
+3223 [2019-09-05 13:37:25.396] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 13:38:40.313] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:38:40.501] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:38:40.734] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:38:40.865] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:38:40.886] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:39:37.438] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 13:39:37.444] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 13:40:40.887] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:40:41.736] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:40:44.091] [background] [info] - remote=8903, local=8903
+3223 [2019-09-05 13:40:44.156] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 13:40:44.215] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567683644 < 1567755195
+3223 [2019-09-05 13:40:44.304] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:40:44.392] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:40:44.435] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:40:44.531] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:40:44.533] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:40:44.552] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:42:44.552] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:42:44.839] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:42:44.844] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:44:44.844] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:44:44.977] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28210 - 28633, Heavy: false
+3223 [2019-09-05 13:44:45.210] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:44:45.306] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:44:45.395] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:44:45.437] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:44:45.530] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:44:45.531] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:44:45.539] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:46:45.539] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:46:45.812] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:46:45.837] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:47:35.894] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 13:47:35.964] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1416928 to 1417002, uidnext 28633 to 28634
+3223 [2019-09-05 13:47:36.055] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1416928: 1 changed, 0 vanished
+3223 [2019-09-05 13:47:36.413] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 13:47:36.609] [main] [info] [local-3bbb9f9d-8c8e] Running ChangeLabelsTask performLocal:
+3223 [2019-09-05 13:47:36.612] [main] [info] [local-3bbb9f9d-8c8e] -- Succeeded. Changing status to `remote`
+3223 [2019-09-05 13:47:37.522] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 13:47:37.525] [foreground] [info] [local-3bbb9f9d-8c8e] Running ChangeLabelsTask performRemote:
+3223 [2019-09-05 13:47:38.194] [foreground] [info] [local-3bbb9f9d-8c8e] -- Succeeded. Changing status to `complete`
+3223 [2019-09-05 13:47:38.250] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417002 to 1417026, uidnext 28634 to 28634
+3223 [2019-09-05 13:47:38.312] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417002: 1 changed, 0 vanished
+3223 [2019-09-05 13:47:38.357] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 13:48:45.838] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:48:45.957] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 13:48:46.258] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:48:46.358] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:48:46.446] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:48:46.490] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:48:46.588] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:48:46.595] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:48:46.619] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:50:46.619] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:50:46.751] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:50:49.004] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 13:50:49.088] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 13:50:49.184] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567684249 < 1567755195
+3223 [2019-09-05 13:50:49.280] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:50:49.368] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:50:49.410] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 13:50:49.503] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:50:49.505] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:50:49.523] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:52:49.523] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:52:49.759] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:52:49.775] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:54:49.776] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:54:49.906] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 13:54:50.143] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:54:50.243] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:54:50.384] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:54:50.426] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:54:50.526] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:54:50.532] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:54:50.546] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:56:39.604] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 13:56:39.607] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 13:56:50.547] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:56:50.898] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 13:56:50.918] [background] [info] Sync loop complete.
+3223 [2019-09-05 13:58:50.918] [background] [info] Syncing folder list...
+3223 [2019-09-05 13:58:51.030] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 13:58:51.285] [background] [info] - remote=400, local=400
+3223 [2019-09-05 13:58:51.375] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 13:58:51.462] [background] [info] - remote=0, local=0
+3223 [2019-09-05 13:58:51.549] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 13:58:51.643] [background] [info] - remote=1, local=1
+3223 [2019-09-05 13:58:51.645] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 13:58:51.663] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:00:51.663] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:00:51.799] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:00:54.152] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 14:00:54.240] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 14:00:54.337] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567684854 < 1567755195
+3223 [2019-09-05 14:00:54.424] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:00:54.512] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:00:54.555] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:00:54.676] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:00:54.677] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:00:54.690] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:02:54.690] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:02:54.951] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:02:54.968] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:04:54.968] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:04:55.167] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:04:55.419] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:04:55.540] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:04:55.636] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:04:55.681] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:04:55.782] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:04:55.786] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:04:55.808] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:06:55.808] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:06:56.033] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:06:56.082] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:06:56.085] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:06:56.102] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:08:56.102] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+3223 [2019-09-05 14:08:56.184] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:08:56.289] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:08:56.520] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:08:56.561] [background] [info] Cleaning local cache and updating stats
+3223 [2019-09-05 14:08:56.611] [background] [info] -- 0 message bodies deleted from local cache.
+3223 [2019-09-05 14:08:56.747] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:08:56.834] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:08:56.834] [background] [info] Cleaning local cache and updating stats
+3223 [2019-09-05 14:08:56.844] [background] [info] -- 0 message bodies deleted from local cache.
+3223 [2019-09-05 14:08:56.897] [background] [info] Cleaning local cache and updating stats
+3223 [2019-09-05 14:08:56.907] [background] [info] -- 0 message bodies deleted from local cache.
+3223 [2019-09-05 14:08:56.917] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:08:56.922] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:10:56.922] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:10:57.054] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:10:59.342] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 14:10:59.431] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 14:10:59.518] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567685459 < 1567755195
+3223 [2019-09-05 14:10:59.588] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:10:59.676] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:10:59.720] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:10:59.824] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:10:59.825] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:10:59.832] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:12:59.833] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:13:00.035] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:13:00.124] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:13:00.167] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:13:00.263] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:13:00.264] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:13:00.277] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:15:00.277] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:15:00.387] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:15:00.632] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:15:00.774] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:15:00.787] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:15:26.741] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 14:15:26.745] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 14:15:38.541] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 14:15:38.606] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417026 to 1417035, uidnext 28634 to 28634
+3223 [2019-09-05 14:15:38.660] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417026: 0 changed, 0 vanished
+3223 [2019-09-05 14:15:38.719] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 14:17:00.788] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:17:01.000] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:17:01.133] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:17:01.179] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:17:01.274] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:17:01.276] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:17:01.296] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:19:01.297] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:19:01.430] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:19:01.663] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:19:01.801] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:19:01.817] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:21:01.818] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:21:01.967] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:21:04.077] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 14:21:04.161] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 14:21:04.229] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567686064 < 1567755195
+3223 [2019-09-05 14:21:04.316] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:21:04.404] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:21:04.458] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:21:04.551] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:21:04.552] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:21:04.558] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:23:04.558] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:23:04.818] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:23:04.838] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:25:04.838] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:25:04.974] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:25:05.212] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:25:05.313] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:25:05.399] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:25:05.443] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:25:05.535] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:25:05.537] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:25:05.558] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:27:05.559] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:27:05.843] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:27:05.863] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:29:05.863] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:29:05.992] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:29:06.240] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:29:06.338] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:29:06.425] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:29:06.468] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:29:06.768] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:29:06.768] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:29:06.774] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:31:06.774] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:31:06.935] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:31:09.173] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 14:31:09.268] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 14:31:09.335] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567686669 < 1567755195
+3223 [2019-09-05 14:31:09.420] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:31:09.506] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:31:09.550] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:31:09.643] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:31:09.645] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:31:09.662] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:32:37.425] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 14:32:37.430] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 14:33:09.662] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:33:09.886] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:33:09.903] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:34:52.345] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 14:34:52.352] [metadata] [info] Encountered error: {"debuginfo":"https://62475ada-59a4-476d-a355-12fe294b3c1a:@id.getmailspring.com/deltas/1a4a1212/streaming?p=linux&ih=imap.gmail.com&cursor=37366327","key":"Transferred a partial file","retryable":true,"what":"std::exception"}. Will retry in 3 sec.
+3223 [2019-09-05 14:34:55.353] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 14:35:09.904] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:35:10.015] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:35:10.244] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:35:10.330] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:35:10.424] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:35:10.465] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:35:10.555] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:35:10.557] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:35:10.567] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:37:10.567] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:37:10.847] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:37:10.860] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:39:10.861] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:39:11.010] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:39:11.252] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:39:11.345] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:39:11.433] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:39:11.477] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:39:11.569] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:39:11.571] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:39:11.586] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:41:11.587] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:41:11.696] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:41:13.862] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 14:41:13.947] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 14:41:14.003] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567687273 < 1567755195
+3223 [2019-09-05 14:41:14.083] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:41:14.171] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:41:14.214] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:41:14.307] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:41:14.309] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:41:14.322] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:43:14.323] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:43:14.579] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:43:14.597] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:43:38.886] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 14:43:38.942] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417035 to 1417035, uidnext 28634 to 28634
+3223 [2019-09-05 14:43:38.997] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 14:45:14.598] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:45:14.733] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:45:15.725] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:45:15.812] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:45:15.908] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:45:15.996] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:45:16.098] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:45:16.100] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:45:16.121] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:47:16.122] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:47:16.254] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:47:21.685] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:47:24.586] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:47:24.675] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:47:24.720] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:47:24.813] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:47:24.814] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:47:24.821] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:49:23.708] [metadata] [info] Metadata delta stream closed.
+3223 [2019-09-05 14:49:23.712] [metadata] [info] Metadata delta stream starting...
+3223 [2019-09-05 14:49:24.821] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:49:25.143] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:49:25.399] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:49:25.499] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:49:25.586] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:49:25.630] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:49:25.767] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:49:25.769] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:49:25.782] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:51:25.782] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:51:25.918] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:51:28.042] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 14:51:28.134] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 14:51:28.243] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567687888 < 1567755195
+3223 [2019-09-05 14:51:28.331] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:51:28.421] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:51:28.465] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 14:51:28.558] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:51:28.558] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:51:28.562] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:53:28.562] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:53:28.841] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:53:28.859] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:55:28.859] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:55:28.988] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:55:29.211] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:55:29.309] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:55:29.429] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:55:29.474] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:55:29.571] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:55:29.573] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:55:29.593] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:57:29.593] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:57:29.858] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 14:57:29.878] [background] [info] Sync loop complete.
+3223 [2019-09-05 14:59:29.879] [background] [info] Syncing folder list...
+3223 [2019-09-05 14:59:29.981] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28211 - 28634, Heavy: false
+3223 [2019-09-05 14:59:30.207] [background] [info] - remote=400, local=400
+3223 [2019-09-05 14:59:30.307] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 14:59:30.397] [background] [info] - remote=0, local=0
+3223 [2019-09-05 14:59:30.441] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 14:59:30.540] [background] [info] - remote=1, local=1
+3223 [2019-09-05 14:59:30.541] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 14:59:30.550] [background] [info] Sync loop complete.
+3223 [2019-09-05 15:01:30.550] [background] [info] Syncing folder list...
+3223 [2019-09-05 15:01:30.684] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 15:01:32.947] [background] [info] - remote=8904, local=8904
+3223 [2019-09-05 15:01:33.037] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3223 [2019-09-05 15:01:33.115] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567688493 < 1567755195
+3223 [2019-09-05 15:01:33.203] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 15:01:33.299] [background] [info] - remote=0, local=0
+3223 [2019-09-05 15:01:33.342] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3223 [2019-09-05 15:01:33.484] [background] [info] - remote=1, local=1
+3223 [2019-09-05 15:01:33.486] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 15:01:33.508] [background] [info] Sync loop complete.
+3223 [2019-09-05 15:02:16.127] [main] [info] [local-b9378e63-fa58] Running ChangeUnreadTask performLocal:
+3223 [2019-09-05 15:02:16.130] [main] [info] [local-b9378e63-fa58] -- Succeeded. Changing status to `remote`
+3223 [2019-09-05 15:02:16.473] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 15:02:16.475] [foreground] [info] [local-b9378e63-fa58] Running ChangeUnreadTask performRemote:
+3223 [2019-09-05 15:02:17.457] [foreground] [info] [local-b9378e63-fa58] -- Succeeded. Changing status to `complete`
+3223 [2019-09-05 15:02:17.522] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417035 to 1417066, uidnext 28634 to 28634
+3223 [2019-09-05 15:02:17.862] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417035: 1 changed, 0 vanished
+3223 [2019-09-05 15:02:17.964] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 15:03:18.105] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 15:03:18.269] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417066 to 1417136, uidnext 28634 to 28635
+3223 [2019-09-05 15:03:18.331] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417066: 1 changed, 0 vanished
+3223 [2019-09-05 15:03:18.763] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 15:03:18.916] [main] [info] [local-f39e8a04-a554] Running ChangeLabelsTask performLocal:
+3223 [2019-09-05 15:03:18.928] [main] [info] [local-f39e8a04-a554] -- Succeeded. Changing status to `remote`
+3223 [2019-09-05 15:03:19.350] [foreground] [info] Idle exited with code 0
+3223 [2019-09-05 15:03:19.356] [foreground] [info] [local-f39e8a04-a554] Running ChangeLabelsTask performRemote:
+3223 [2019-09-05 15:03:20.019] [foreground] [info] [local-f39e8a04-a554] -- Succeeded. Changing status to `complete`
+3223 [2019-09-05 15:03:20.184] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417136 to 1417163, uidnext 28635 to 28635
+3223 [2019-09-05 15:03:20.269] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417136: 1 changed, 0 vanished
+3223 [2019-09-05 15:03:20.303] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3223 [2019-09-05 15:03:33.508] [background] [info] Syncing folder list...
+3223 [2019-09-05 15:03:37.278] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+3223 [2019-09-05 15:03:37.526] [background] [info] - remote=400, local=400
+3223 [2019-09-05 15:03:37.633] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 15:03:37.723] [background] [info] - remote=0, local=0
+3223 [2019-09-05 15:03:37.768] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 15:03:37.882] [background] [info] - remote=1, local=1
+3223 [2019-09-05 15:03:37.883] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3223 [2019-09-05 15:03:37.889] [background] [info] Sync loop complete.
+3223 [2019-09-05 15:05:37.889] [background] [info] Syncing folder list...
+3223 [2019-09-05 15:05:38.018] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+3223 [2019-09-05 15:05:38.252] [background] [info] - remote=400, local=400
+3223 [2019-09-05 15:05:38.352] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3223 [2019-09-05 15:05:38.439] [background] [info] - remote=0, local=0
+3223 [2019-09-05 15:05:38.513] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3223 [2019-09-05 15:05:38.606] [background] [info] - remote=1, local=1
+3223 [2019-09-05 15:05:38.607] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3223 [2019-09-05 15:05:38.611] [background] [info] Sync loop complete.
+3223 [2019-09-05 15:07:10.765] [metadata] [info] Metadata delta stream timed out.
+3223 [2019-09-05 15:07:10.787] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xB0
+ ***
+
+3223 [2019-09-05 15:07:10.798] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+22117 [2019-09-05 15:07:10.829] [main] [info] Identity created at 1551184549 - using ID Schema 1
+22117 [2019-09-05 15:07:10.832] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+22117 [2019-09-05 15:07:10.839] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+22117 [2019-09-05 15:07:10.841] [metadata] [info] Metadata delta stream starting...
+22117 [2019-09-05 15:07:10.909] [background] [info] Marking all folders as `busy`
+22117 [2019-09-05 15:07:10.914] [background] [info] Syncing folder list...
+22117 [2019-09-05 15:07:11.309] [background] [info] Syncing folder list...
+22117 [2019-09-05 15:07:11.589] [background] [info] Sync loop deleting unlinked messages with phase 2.
+22117 [2019-09-05 15:07:11.618] [background] [info] Sync loop complete.
+22117 [2019-09-05 15:07:11.859] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417163 to 1417178, uidnext 28635 to 28635
+22117 [2019-09-05 15:07:11.997] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417163: 0 changed, 0 vanished
+22117 [2019-09-05 15:07:12.104] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+22117 [2019-09-05 15:07:25.837] [metadataExpiration] [info] Scanning for expired metadata
+22117 [2019-09-05 15:07:25.838] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+22117 [2019-09-05 15:09:11.618] [background] [info] Syncing folder list...
+22117 [2019-09-05 15:09:11.723] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+22117 [2019-09-05 15:09:11.950] [background] [info] - remote=400, local=400
+22117 [2019-09-05 15:09:12.007] [background] [info] Cleaning local cache and updating stats
+22117 [2019-09-05 15:09:12.044] [background] [info] -- 0 message bodies deleted from local cache.
+22117 [2019-09-05 15:09:12.137] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+22117 [2019-09-05 15:09:12.236] [background] [info] - remote=0, local=0
+22117 [2019-09-05 15:09:12.236] [background] [info] Cleaning local cache and updating stats
+22117 [2019-09-05 15:09:12.268] [background] [info] -- 0 message bodies deleted from local cache.
+22117 [2019-09-05 15:09:12.323] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+22117 [2019-09-05 15:09:12.422] [background] [info] - remote=1, local=1
+22117 [2019-09-05 15:09:12.422] [background] [info] Cleaning local cache and updating stats
+22117 [2019-09-05 15:09:12.454] [background] [info] -- 0 message bodies deleted from local cache.
+22117 [2019-09-05 15:09:12.467] [background] [info] Sync loop deleting unlinked messages with phase 1.
+22117 [2019-09-05 15:09:12.472] [background] [info] Sync loop complete.
+22117 [2019-09-05 15:11:12.473] [background] [info] Syncing folder list...
+22117 [2019-09-05 15:11:12.615] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+22117 [2019-09-05 15:11:12.864] [background] [info] - remote=400, local=400
+22117 [2019-09-05 15:11:13.008] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+22117 [2019-09-05 15:11:13.111] [background] [info] - remote=1, local=1
+22117 [2019-09-05 15:11:13.127] [background] [info] Sync loop deleting unlinked messages with phase 2.
+22117 [2019-09-05 15:11:13.147] [background] [info] Sync loop complete.
+22117 [2019-09-05 15:13:13.148] [background] [info] Syncing folder list...
+22117 [2019-09-05 15:13:13.287] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+22117 [2019-09-05 15:13:15.417] [background] [info] - remote=8905, local=8905
+22117 [2019-09-05 15:13:15.504] [background] [info] - Fetching full headers for 1 (of 1 needed)
+22117 [2019-09-05 15:13:15.562] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567689195 < 1567755195
+22117 [2019-09-05 15:13:15.702] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+22117 [2019-09-05 15:13:15.799] [background] [info] - remote=0, local=0
+22117 [2019-09-05 15:13:15.843] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+22117 [2019-09-05 15:13:15.938] [background] [info] - remote=1, local=1
+22117 [2019-09-05 15:13:15.940] [background] [info] Sync loop deleting unlinked messages with phase 1.
+22117 [2019-09-05 15:13:15.957] [background] [info] Sync loop complete.
+22117 [2019-09-05 15:14:47.864] [metadata] [info] Metadata delta stream timed out.
+22117 [2019-09-05 15:14:47.874] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8
+ ***
+
+22117 [2019-09-05 15:14:47.881] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+23397 [2019-09-05 15:14:47.906] [main] [info] Identity created at 1551184549 - using ID Schema 1
+23397 [2019-09-05 15:14:47.908] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+23397 [2019-09-05 15:14:47.912] [metadata] [info] Metadata delta stream starting...
+23397 [2019-09-05 15:14:47.913] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+23397 [2019-09-05 15:14:47.973] [background] [info] Marking all folders as `busy`
+23397 [2019-09-05 15:14:47.975] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:14:48.587] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:14:48.849] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:14:48.871] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:14:48.909] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417178 to 1417178, uidnext 28635 to 28635
+23397 [2019-09-05 15:14:48.976] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23397 [2019-09-05 15:15:02.914] [metadataExpiration] [info] Scanning for expired metadata
+23397 [2019-09-05 15:15:02.915] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23397 [2019-09-05 15:16:48.872] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:16:48.984] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:16:49.226] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:16:49.370] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:16:49.459] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:16:49.503] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:16:49.596] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:16:49.597] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:16:49.611] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:18:49.611] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:18:49.877] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:18:49.890] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:20:49.890] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:20:50.019] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:20:52.742] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:20:52.837] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:20:52.924] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:20:52.968] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:20:53.061] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:20:53.062] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:20:53.076] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:22:53.076] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:22:53.222] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:22:53.531] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:22:53.618] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:22:53.709] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:22:53.751] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:22:53.755] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:24:53.756] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:24:53.866] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:24:56.086] [background] [info] - remote=8905, local=8905
+23397 [2019-09-05 15:24:56.176] [background] [info] - Fetching full headers for 1 (of 1 needed)
+23397 [2019-09-05 15:24:56.784] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567689896 < 1567755195
+23397 [2019-09-05 15:24:56.880] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:24:56.976] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:24:57.020] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:24:57.112] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:24:57.115] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:24:57.133] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:26:57.133] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:26:57.239] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:26:57.506] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:26:57.632] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:26:57.720] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:26:57.766] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:26:57.772] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:28:57.772] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:28:58.030] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:28:58.135] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:28:58.136] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:28:58.141] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:29:54.000] [metadata] [info] Metadata delta stream closed.
+23397 [2019-09-05 15:29:54.005] [metadata] [info] Metadata delta stream starting...
+23397 [2019-09-05 15:30:58.141] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:30:58.248] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:30:58.473] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:30:58.563] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:30:58.653] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:30:58.696] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:30:58.700] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:32:58.700] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:32:58.930] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:32:59.028] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:32:59.030] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:32:59.047] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:34:59.048] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:34:59.170] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:35:01.501] [background] [info] - remote=8905, local=8905
+23397 [2019-09-05 15:35:01.577] [background] [info] - Fetching full headers for 1 (of 1 needed)
+23397 [2019-09-05 15:35:05.803] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567690501 < 1567755195
+23397 [2019-09-05 15:35:05.879] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:35:05.972] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:35:06.020] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:35:06.127] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:35:06.129] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:35:06.141] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:37:06.142] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:37:06.268] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:37:06.502] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:37:06.603] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:37:06.693] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:37:06.758] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:37:06.771] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:39:06.771] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:39:07.033] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:39:07.129] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:39:07.131] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:39:07.145] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:41:07.145] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:41:07.276] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:41:07.516] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:41:07.621] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:41:07.712] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:41:07.756] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:41:07.774] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:42:49.177] [foreground] [info] Idle exited with code 0
+23397 [2019-09-05 15:42:49.227] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417178 to 1417178, uidnext 28635 to 28635
+23397 [2019-09-05 15:42:49.293] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23397 [2019-09-05 15:43:07.774] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:43:08.020] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:43:08.118] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:43:08.119] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:43:08.132] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:45:08.133] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:45:08.243] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:45:10.536] [background] [info] - remote=8905, local=8905
+23397 [2019-09-05 15:45:10.620] [background] [info] - Fetching full headers for 1 (of 1 needed)
+23397 [2019-09-05 15:45:10.701] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567691110 < 1567755195
+23397 [2019-09-05 15:45:10.788] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:45:10.881] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:45:10.925] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:45:11.028] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:45:11.030] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:45:11.044] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:47:11.045] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:47:11.153] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:47:11.395] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:47:11.491] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:47:11.586] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:47:11.634] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:47:11.647] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:47:17.352] [metadata] [info] Metadata delta stream closed.
+23397 [2019-09-05 15:47:17.355] [metadata] [info] Metadata delta stream starting...
+23397 [2019-09-05 15:49:11.648] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:49:11.907] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:49:12.002] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:49:12.003] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:49:12.016] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:51:12.016] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:51:12.125] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28212 - 28635, Heavy: false
+23397 [2019-09-05 15:51:12.375] [background] [info] - remote=400, local=400
+23397 [2019-09-05 15:51:12.474] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:51:12.563] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:51:12.607] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:51:12.700] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:51:12.702] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:51:12.716] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:53:12.717] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:53:12.986] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:53:13.002] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:53:47.397] [foreground] [info] Idle exited with code 0
+23397 [2019-09-05 15:53:47.472] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417178 to 1417261, uidnext 28635 to 28636
+23397 [2019-09-05 15:53:47.579] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417178: 1 changed, 0 vanished
+23397 [2019-09-05 15:53:51.035] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23397 [2019-09-05 15:55:13.003] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:55:13.153] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:55:15.352] [background] [info] - remote=8906, local=8906
+23397 [2019-09-05 15:55:15.437] [background] [info] - Fetching full headers for 1 (of 1 needed)
+23397 [2019-09-05 15:55:15.493] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567691715 < 1567755195
+23397 [2019-09-05 15:55:15.568] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:55:15.663] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:55:15.706] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23397 [2019-09-05 15:55:15.816] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:55:15.818] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23397 [2019-09-05 15:55:15.831] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:57:15.832] [background] [info] Syncing folder list...
+23397 [2019-09-05 15:57:16.034] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+23397 [2019-09-05 15:57:16.121] [background] [info] - remote=0, local=0
+23397 [2019-09-05 15:57:16.165] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+23397 [2019-09-05 15:57:16.259] [background] [info] - remote=1, local=1
+23397 [2019-09-05 15:57:16.261] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23397 [2019-09-05 15:57:16.276] [background] [info] Sync loop complete.
+23397 [2019-09-05 15:57:44.296] [metadata] [info] Metadata delta stream timed out.
+23397 [2019-09-05 15:57:44.306] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xC0
+ ***
+
+23397 [2019-09-05 15:57:44.312] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+28803 [2019-09-05 15:57:44.335] [main] [info] Identity created at 1551184549 - using ID Schema 1
+28803 [2019-09-05 15:57:44.337] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+28803 [2019-09-05 15:57:44.341] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+28803 [2019-09-05 15:57:44.343] [metadata] [info] Metadata delta stream starting...
+28803 [2019-09-05 15:57:44.485] [background] [info] Marking all folders as `busy`
+28803 [2019-09-05 15:57:44.488] [background] [info] Syncing folder list...
+28803 [2019-09-05 15:57:44.929] [background] [info] Syncing folder list...
+28803 [2019-09-05 15:57:45.034] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 15:57:45.256] [background] [info] - remote=400, local=400
+28803 [2019-09-05 15:57:45.304] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417261 to 1417261, uidnext 28636 to 28636
+28803 [2019-09-05 15:57:45.349] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+28803 [2019-09-05 15:57:45.438] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 15:57:45.459] [background] [info] Sync loop complete.
+28803 [2019-09-05 15:57:59.340] [metadataExpiration] [info] Scanning for expired metadata
+28803 [2019-09-05 15:57:59.340] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+28803 [2019-09-05 15:59:45.459] [background] [info] Syncing folder list...
+28803 [2019-09-05 15:59:45.565] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 15:59:45.738] [background] [info] - remote=400, local=400
+28803 [2019-09-05 15:59:45.880] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 15:59:45.970] [background] [info] - remote=0, local=0
+28803 [2019-09-05 15:59:46.015] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 15:59:46.111] [background] [info] - remote=1, local=1
+28803 [2019-09-05 15:59:46.113] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 15:59:46.128] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:01:46.129] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:01:46.234] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 16:01:46.484] [background] [info] - remote=400, local=400
+28803 [2019-09-05 16:01:46.586] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 16:01:46.676] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:01:46.719] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 16:01:46.731] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:03:46.732] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:03:46.991] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 16:03:47.106] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:03:47.107] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 16:03:47.122] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:05:47.122] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:05:47.223] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+28803 [2019-09-05 16:05:49.490] [background] [info] - remote=8906, local=8906
+28803 [2019-09-05 16:05:49.576] [background] [info] - Fetching full headers for 1 (of 1 needed)
+28803 [2019-09-05 16:05:49.631] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567692349 < 1567755195
+28803 [2019-09-05 16:05:49.709] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+28803 [2019-09-05 16:05:49.809] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:05:49.891] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+28803 [2019-09-05 16:05:49.985] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:05:49.986] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 16:05:50.001] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:07:50.001] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:07:50.109] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 16:07:50.351] [background] [info] - remote=400, local=400
+28803 [2019-09-05 16:07:50.450] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 16:07:50.547] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:07:50.590] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 16:07:50.701] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:07:50.702] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 16:07:50.718] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:09:50.719] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:09:50.879] [background] [info] Cleaning local cache and updating stats
+28803 [2019-09-05 16:09:50.912] [background] [info] -- 0 message bodies deleted from local cache.
+28803 [2019-09-05 16:09:50.998] [background] [info] Cleaning local cache and updating stats
+28803 [2019-09-05 16:09:51.006] [background] [info] -- 0 message bodies deleted from local cache.
+28803 [2019-09-05 16:09:51.057] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 16:09:51.115] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:09:51.115] [background] [info] Cleaning local cache and updating stats
+28803 [2019-09-05 16:09:51.137] [background] [info] -- 0 message bodies deleted from local cache.
+28803 [2019-09-05 16:09:51.154] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 16:09:51.160] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:11:51.160] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:11:51.343] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 16:11:51.595] [background] [info] - remote=400, local=400
+28803 [2019-09-05 16:11:51.694] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 16:11:51.792] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:11:51.837] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 16:11:51.853] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:13:51.854] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:13:52.072] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 16:13:52.116] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:13:52.162] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 16:13:52.300] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:13:52.302] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 16:13:52.314] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:15:03.359] [metadata] [info] Metadata delta stream closed.
+28803 [2019-09-05 16:15:03.363] [metadata] [info] Metadata delta stream starting...
+28803 [2019-09-05 16:15:52.315] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:15:52.421] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+28803 [2019-09-05 16:15:54.737] [background] [info] - remote=8906, local=8906
+28803 [2019-09-05 16:15:54.824] [background] [info] - Fetching full headers for 1 (of 1 needed)
+28803 [2019-09-05 16:15:54.923] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567692954 < 1567755195
+28803 [2019-09-05 16:15:55.047] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+28803 [2019-09-05 16:15:55.136] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:15:55.180] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+28803 [2019-09-05 16:15:55.274] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:15:55.276] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 16:15:55.296] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:17:55.297] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:17:55.405] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 16:17:55.649] [background] [info] - remote=400, local=400
+28803 [2019-09-05 16:17:55.788] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 16:17:55.804] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:19:55.805] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:19:55.999] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 16:19:56.092] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:19:56.135] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 16:19:56.255] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:19:56.257] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 16:19:56.271] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:24:46.907] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:24:54.038] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+28803 [2019-09-05 16:24:54.280] [background] [info] - remote=400, local=400
+28803 [2019-09-05 16:24:54.402] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+28803 [2019-09-05 16:24:54.490] [background] [info] - remote=0, local=0
+28803 [2019-09-05 16:24:54.532] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+28803 [2019-09-05 16:24:54.625] [background] [info] - remote=1, local=1
+28803 [2019-09-05 16:24:54.625] [background] [info] Sync loop deleting unlinked messages with phase 2.
+28803 [2019-09-05 16:24:54.631] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:25:00.426] [main] [info] Waking all workers...
+28803 [2019-09-05 16:25:00.426] [background] [info] Marking all folders as `busy`
+28803 [2019-09-05 16:25:00.453] [background] [info] Syncing folder list...
+28803 [2019-09-05 16:25:00.468] [foreground] [info] Idle exited with code 0
+28803 [2019-09-05 16:25:00.515] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417261 to 1417261, uidnext 28636 to 28636
+28803 [2019-09-05 16:25:00.551] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+28803 [2019-09-05 16:25:00.701] [background] [info] Sync loop deleting unlinked messages with phase 1.
+28803 [2019-09-05 16:25:00.724] [background] [info] Sync loop complete.
+28803 [2019-09-05 16:25:01.443] [metadataExpiration] [info] Scanning for expired metadata
+28803 [2019-09-05 16:25:01.443] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+28803 [2019-09-05 16:25:16.951] [metadata] [info] Metadata delta stream timed out.
+28803 [2019-09-05 16:25:16.960] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 128: 0xC0
+ ***
+
+28803 [2019-09-05 16:25:16.966] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+31830 [2019-09-05 16:25:16.990] [main] [info] Identity created at 1551184549 - using ID Schema 1
+31830 [2019-09-05 16:25:16.993] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+31830 [2019-09-05 16:25:16.997] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+31830 [2019-09-05 16:25:16.998] [metadata] [info] Metadata delta stream starting...
+31830 [2019-09-05 16:25:17.071] [background] [info] Marking all folders as `busy`
+31830 [2019-09-05 16:25:17.076] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:25:17.524] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:25:17.801] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:25:17.818] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:25:18.054] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417261 to 1417261, uidnext 28636 to 28636
+31830 [2019-09-05 16:25:18.102] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+31830 [2019-09-05 16:25:31.999] [metadataExpiration] [info] Scanning for expired metadata
+31830 [2019-09-05 16:25:32.000] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+31830 [2019-09-05 16:27:17.818] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:27:18.011] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:27:20.438] [background] [info] - remote=8906, local=8906
+31830 [2019-09-05 16:27:20.528] [background] [info] - Fetching full headers for 1 (of 1 needed)
+31830 [2019-09-05 16:27:20.588] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567693640 < 1567755195
+31830 [2019-09-05 16:27:20.681] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:27:20.771] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:27:20.818] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:27:20.915] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:27:20.917] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:27:20.924] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:29:20.924] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:29:21.049] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+31830 [2019-09-05 16:29:21.319] [background] [info] - remote=400, local=400
+31830 [2019-09-05 16:29:21.420] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+31830 [2019-09-05 16:29:21.509] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:29:21.553] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+31830 [2019-09-05 16:29:21.652] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:29:21.653] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:29:21.661] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:31:21.661] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:31:21.984] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:31:22.005] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:33:22.005] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:33:22.137] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+31830 [2019-09-05 16:33:22.375] [background] [info] - remote=400, local=400
+31830 [2019-09-05 16:33:22.475] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+31830 [2019-09-05 16:33:22.563] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:33:22.609] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+31830 [2019-09-05 16:33:22.706] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:33:22.708] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:33:22.723] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:35:22.723] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:35:22.993] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:35:23.015] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:37:23.015] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:37:23.119] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:37:25.463] [background] [info] - remote=8906, local=8906
+31830 [2019-09-05 16:37:25.552] [background] [info] - Fetching full headers for 1 (of 1 needed)
+31830 [2019-09-05 16:37:25.627] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567694245 < 1567755195
+31830 [2019-09-05 16:37:25.713] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:37:25.811] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:37:25.856] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:37:25.951] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:37:25.953] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:37:25.962] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:39:25.962] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:39:26.071] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28213 - 28636, Heavy: false
+31830 [2019-09-05 16:39:26.304] [background] [info] - remote=400, local=400
+31830 [2019-09-05 16:39:26.400] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+31830 [2019-09-05 16:39:26.495] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:39:26.538] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+31830 [2019-09-05 16:39:26.631] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:39:26.633] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:39:26.648] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:41:26.648] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:41:26.928] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:41:26.948] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:41:43.451] [metadata] [info] Metadata delta stream closed.
+31830 [2019-09-05 16:41:43.455] [metadata] [info] Metadata delta stream starting...
+31830 [2019-09-05 16:41:46.359] [foreground] [info] Idle exited with code 0
+31830 [2019-09-05 16:41:46.418] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417261 to 1417313, uidnext 28636 to 28637
+31830 [2019-09-05 16:41:46.477] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417261: 1 changed, 0 vanished
+31830 [2019-09-05 16:41:46.723] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+31830 [2019-09-05 16:41:47.053] [main] [info] [local-48925c0d-c91b] Running ChangeLabelsTask performLocal:
+31830 [2019-09-05 16:41:47.062] [main] [info] [local-48925c0d-c91b] -- Succeeded. Changing status to `remote`
+31830 [2019-09-05 16:41:47.406] [foreground] [info] Idle exited with code 0
+31830 [2019-09-05 16:41:47.413] [foreground] [info] [local-48925c0d-c91b] Running ChangeLabelsTask performRemote:
+31830 [2019-09-05 16:41:48.167] [foreground] [info] [local-48925c0d-c91b] -- Succeeded. Changing status to `complete`
+31830 [2019-09-05 16:41:48.215] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417313 to 1417341, uidnext 28637 to 28637
+31830 [2019-09-05 16:41:48.280] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417313: 1 changed, 0 vanished
+31830 [2019-09-05 16:41:48.338] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+31830 [2019-09-05 16:43:26.949] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:43:27.143] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+31830 [2019-09-05 16:43:27.386] [background] [info] - remote=400, local=400
+31830 [2019-09-05 16:43:27.491] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+31830 [2019-09-05 16:43:27.578] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:43:27.623] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+31830 [2019-09-05 16:43:27.717] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:43:27.719] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:43:27.742] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:45:27.742] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:45:28.002] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:45:28.023] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:47:28.023] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:47:28.150] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:47:30.675] [background] [info] - remote=8907, local=8907
+31830 [2019-09-05 16:47:30.732] [background] [info] - Fetching full headers for 1 (of 1 needed)
+31830 [2019-09-05 16:47:30.826] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567694850 < 1567755195
+31830 [2019-09-05 16:47:30.915] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:47:31.002] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:47:31.046] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+31830 [2019-09-05 16:47:31.141] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:47:31.143] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:47:31.163] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:49:31.165] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:49:31.297] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+31830 [2019-09-05 16:49:31.528] [background] [info] - remote=400, local=400
+31830 [2019-09-05 16:49:31.623] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+31830 [2019-09-05 16:49:31.711] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:49:31.755] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:49:31.772] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:51:31.773] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:51:32.039] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+31830 [2019-09-05 16:51:32.133] [background] [info] - remote=1, local=1
+31830 [2019-09-05 16:51:32.136] [background] [info] Sync loop deleting unlinked messages with phase 1.
+31830 [2019-09-05 16:51:32.153] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:53:32.153] [background] [info] Syncing folder list...
+31830 [2019-09-05 16:53:32.285] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+31830 [2019-09-05 16:53:32.540] [background] [info] - remote=400, local=400
+31830 [2019-09-05 16:53:32.637] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+31830 [2019-09-05 16:53:32.726] [background] [info] - remote=0, local=0
+31830 [2019-09-05 16:53:32.770] [background] [info] Sync loop deleting unlinked messages with phase 2.
+31830 [2019-09-05 16:53:32.793] [background] [info] Sync loop complete.
+31830 [2019-09-05 16:54:08.426] [metadata] [info] Metadata delta stream closed.
+31830 [2019-09-05 16:54:08.436] [metadata] [critical] 
+ ***
+ *** A JSON exception occurred during program execution: 
+ *** [json.exception.type_error.316] invalid UTF-8 byte at index 0: 0xF8
+ ***
+
+31830 [2019-09-05 16:54:08.442] [metadata] [critical]  *** Stack trace:
+ ***   clone
+ ***
+
+3719 [2019-09-05 16:54:08.464] [main] [info] Identity created at 1551184549 - using ID Schema 1
+3719 [2019-09-05 16:54:08.466] [main] [info] ------------- Starting Sync (aghilesdjoudi@gmail.com) ---------------
+3719 [2019-09-05 16:54:08.469] [background] [info] Fetching XOAuth2 access token from Gmail for 1a4a1212
+3719 [2019-09-05 16:54:08.470] [metadata] [info] Metadata delta stream starting...
+3719 [2019-09-05 16:54:08.567] [background] [info] Marking all folders as `busy`
+3719 [2019-09-05 16:54:08.570] [background] [info] Syncing folder list...
+3719 [2019-09-05 16:54:08.997] [background] [info] Syncing folder list...
+3719 [2019-09-05 16:54:09.242] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 16:54:09.343] [background] [info] - remote=1, local=1
+3719 [2019-09-05 16:54:09.345] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 16:54:09.348] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417341 to 1417351, uidnext 28637 to 28637
+3719 [2019-09-05 16:54:09.362] [background] [info] Sync loop complete.
+3719 [2019-09-05 16:54:09.478] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417341: 0 changed, 0 vanished
+3719 [2019-09-05 16:54:09.551] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 16:54:23.469] [metadataExpiration] [info] Scanning for expired metadata
+3719 [2019-09-05 16:54:23.469] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3719 [2019-09-05 16:56:09.363] [background] [info] Syncing folder list...
+3719 [2019-09-05 16:56:09.476] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+3719 [2019-09-05 16:56:09.720] [background] [info] - remote=400, local=400
+3719 [2019-09-05 16:56:09.820] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 16:56:09.909] [background] [info] - remote=0, local=0
+3719 [2019-09-05 16:56:09.952] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 16:56:09.967] [background] [info] Sync loop complete.
+3719 [2019-09-05 16:58:09.968] [background] [info] Syncing folder list...
+3719 [2019-09-05 16:58:10.073] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 16:58:12.563] [background] [info] - remote=8907, local=8907
+3719 [2019-09-05 16:58:12.654] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3719 [2019-09-05 16:58:12.712] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567695492 < 1567755195
+3719 [2019-09-05 16:58:12.790] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 16:58:12.878] [background] [info] - remote=0, local=0
+3719 [2019-09-05 16:58:12.977] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 16:58:13.075] [background] [info] - remote=1, local=1
+3719 [2019-09-05 16:58:13.077] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 16:58:13.092] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:00:13.092] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:00:13.204] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+3719 [2019-09-05 17:00:13.553] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:00:13.630] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:00:13.717] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:00:13.759] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:00:13.762] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:02:13.763] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:02:14.028] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 17:02:14.123] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:02:14.126] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:02:14.143] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:04:14.144] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:04:14.253] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+3719 [2019-09-05 17:04:14.504] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:04:14.608] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:04:14.696] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:04:14.747] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:04:14.768] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:06:14.768] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:06:15.041] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 17:06:15.138] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:06:15.140] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:06:15.163] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:08:15.163] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:08:15.277] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:08:17.633] [background] [info] - remote=8907, local=8907
+3719 [2019-09-05 17:08:17.711] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3719 [2019-09-05 17:08:17.810] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567696097 < 1567755195
+3719 [2019-09-05 17:08:17.924] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:08:18.099] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:08:18.214] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:08:18.360] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:08:18.361] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:08:18.374] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:10:18.374] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:10:18.731] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28214 - 28637, Heavy: false
+3719 [2019-09-05 17:10:19.159] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:10:19.215] [background] [info] Cleaning local cache and updating stats
+3719 [2019-09-05 17:10:19.248] [background] [info] -- 0 message bodies deleted from local cache.
+3719 [2019-09-05 17:10:19.343] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:10:19.611] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:10:19.611] [background] [info] Cleaning local cache and updating stats
+3719 [2019-09-05 17:10:19.638] [background] [info] -- 0 message bodies deleted from local cache.
+3719 [2019-09-05 17:10:19.906] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 17:10:20.120] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:10:20.120] [background] [info] Cleaning local cache and updating stats
+3719 [2019-09-05 17:10:20.170] [background] [info] -- 0 message bodies deleted from local cache.
+3719 [2019-09-05 17:10:20.179] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:10:20.184] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:11:06.118] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:11:06.170] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417351 to 1417404, uidnext 28637 to 28638
+3719 [2019-09-05 17:11:06.229] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417351: 1 changed, 0 vanished
+3719 [2019-09-05 17:11:06.446] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:11:06.823] [main] [info] [local-c21661c5-8319] Running ChangeLabelsTask performLocal:
+3719 [2019-09-05 17:11:06.832] [main] [info] [local-c21661c5-8319] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:11:06.832] [main] [info] [local-77280965-6f7e] Running ChangeLabelsTask performLocal:
+3719 [2019-09-05 17:11:06.835] [main] [info] [local-77280965-6f7e] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:11:07.175] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:11:07.177] [foreground] [info] [local-c21661c5-8319] Running ChangeLabelsTask performRemote:
+3719 [2019-09-05 17:11:07.987] [foreground] [info] [local-c21661c5-8319] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:11:07.990] [foreground] [info] [local-77280965-6f7e] Running ChangeLabelsTask performRemote:
+3719 [2019-09-05 17:11:08.446] [foreground] [info] [local-77280965-6f7e] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:11:08.594] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417404 to 1417445, uidnext 28638 to 28638
+3719 [2019-09-05 17:11:08.652] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417404: 1 changed, 0 vanished
+3719 [2019-09-05 17:11:08.719] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:11:15.650] [main] [info] [local-4d2cbdca-67b7] Running ChangeUnreadTask performLocal:
+3719 [2019-09-05 17:11:15.689] [main] [info] [local-4d2cbdca-67b7] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:11:16.034] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:11:16.044] [foreground] [info] [local-4d2cbdca-67b7] Running ChangeUnreadTask performRemote:
+3719 [2019-09-05 17:11:16.794] [foreground] [info] [local-4d2cbdca-67b7] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:11:16.852] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417445 to 1417477, uidnext 28638 to 28638
+3719 [2019-09-05 17:11:16.944] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417445: 1 changed, 0 vanished
+3719 [2019-09-05 17:11:17.047] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:11:21.024] [main] [info] [local-c82eb5e9-3ad9] Running ChangeUnreadTask performLocal:
+3719 [2019-09-05 17:11:21.027] [main] [info] [local-c82eb5e9-3ad9] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:11:21.370] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:11:21.374] [foreground] [info] [local-c82eb5e9-3ad9] Running ChangeUnreadTask performRemote:
+3719 [2019-09-05 17:11:21.702] [foreground] [info] [local-c82eb5e9-3ad9] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:11:21.758] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417477 to 1417522, uidnext 28638 to 28638
+3719 [2019-09-05 17:11:21.819] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417477: 1 changed, 0 vanished
+3719 [2019-09-05 17:11:21.852] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:12:20.184] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:12:20.309] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28215 - 28638, Heavy: false
+3719 [2019-09-05 17:12:20.526] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:12:20.609] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:12:20.744] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:12:20.787] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:12:20.809] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:12:37.232] [metadata] [info] Metadata delta stream closed.
+3719 [2019-09-05 17:12:37.236] [metadata] [info] Metadata delta stream starting...
+3719 [2019-09-05 17:14:20.810] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:14:21.070] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:14:21.111] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:14:21.155] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 17:14:21.249] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:14:21.251] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:14:21.271] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:15:11.033] [main] [info] [local-787c9bd0-6fb7] Running ChangeUnreadTask performLocal:
+3719 [2019-09-05 17:15:11.052] [main] [info] [local-787c9bd0-6fb7] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:15:11.394] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:15:11.401] [foreground] [info] [local-787c9bd0-6fb7] Running ChangeUnreadTask performRemote:
+3719 [2019-09-05 17:15:11.703] [foreground] [info] [local-787c9bd0-6fb7] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:15:11.757] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417522 to 1417565, uidnext 28638 to 28638
+3719 [2019-09-05 17:15:11.814] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417522: 1 changed, 0 vanished
+3719 [2019-09-05 17:15:11.853] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:15:12.129] [main] [info] [local-7485096f-d1cc] Running ChangeUnreadTask performLocal:
+3719 [2019-09-05 17:15:12.148] [main] [info] [local-7485096f-d1cc] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:15:12.524] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:15:12.535] [foreground] [info] [local-7485096f-d1cc] Running ChangeUnreadTask performRemote:
+3719 [2019-09-05 17:15:12.932] [foreground] [info] [local-7485096f-d1cc] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:15:12.990] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417565 to 1417605, uidnext 28638 to 28638
+3719 [2019-09-05 17:15:13.092] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417565: 1 changed, 0 vanished
+3719 [2019-09-05 17:15:13.151] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:16:21.271] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:16:21.444] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28215 - 28638, Heavy: false
+3719 [2019-09-05 17:16:21.673] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:16:21.803] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:16:21.822] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:18:21.822] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:18:21.930] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:18:24.208] [background] [info] - remote=8908, local=8908
+3719 [2019-09-05 17:18:24.298] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3719 [2019-09-05 17:18:24.354] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567696704 < 1567755195
+3719 [2019-09-05 17:18:24.430] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:18:24.519] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:18:24.563] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:18:24.699] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:18:24.701] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:18:24.719] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:20:24.720] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:20:24.965] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:20:24.985] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:22:24.986] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:22:25.115] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28215 - 28638, Heavy: false
+3719 [2019-09-05 17:22:25.356] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:22:25.456] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:22:25.552] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:22:25.596] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 17:22:25.693] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:22:25.695] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:22:25.713] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:24:25.713] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:24:26.005] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 221, Heavy: false
+3719 [2019-09-05 17:24:26.054] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:24:26.056] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:24:26.076] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:26:26.077] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:26:26.195] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 28215 - 28638, Heavy: false
+3719 [2019-09-05 17:26:26.444] [background] [info] - remote=400, local=400
+3719 [2019-09-05 17:26:26.539] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 2368, Heavy: false
+3719 [2019-09-05 17:26:26.628] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:26:26.671] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:26:26.690] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:27:23.912] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:27:23.973] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417605 to 1417682, uidnext 28638 to 28639
+3719 [2019-09-05 17:27:24.031] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417605: 1 changed, 0 vanished
+3719 [2019-09-05 17:27:24.215] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:27:24.646] [main] [info] [local-bed18af6-76e7] Running ChangeLabelsTask performLocal:
+3719 [2019-09-05 17:27:24.649] [main] [info] [local-bed18af6-76e7] -- Succeeded. Changing status to `remote`
+3719 [2019-09-05 17:27:24.992] [foreground] [info] Idle exited with code 0
+3719 [2019-09-05 17:27:24.998] [foreground] [info] [local-bed18af6-76e7] Running ChangeLabelsTask performRemote:
+3719 [2019-09-05 17:27:25.621] [foreground] [info] [local-bed18af6-76e7] -- Succeeded. Changing status to `complete`
+3719 [2019-09-05 17:27:25.677] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1417682 to 1417705, uidnext 28639 to 28639
+3719 [2019-09-05 17:27:25.734] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1417682: 1 changed, 0 vanished
+3719 [2019-09-05 17:27:25.798] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3719 [2019-09-05 17:28:26.690] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:28:26.821] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:28:29.089] [background] [info] - remote=8909, local=8909
+3719 [2019-09-05 17:28:29.181] [background] [info] - Fetching full headers for 1 (of 1 needed)
+3719 [2019-09-05 17:28:29.234] [background] [warning] Ignoring changes to Re: [docs-labinfo] Cours Doctoral - Prof. TALEB - Aalto University, Finland (17 Juin et 18 Juin 2019, 14h - 17h, Salle 2V70, Copernic), local data is newer 1567697309 < 1567755195
+3719 [2019-09-05 17:28:29.307] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:28:29.394] [background] [info] - remote=0, local=0
+3719 [2019-09-05 17:28:29.438] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3719 [2019-09-05 17:28:29.532] [background] [info] - remote=1, local=1
+3719 [2019-09-05 17:28:29.534] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3719 [2019-09-05 17:28:29.541] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:30:29.541] [background] [info] Syncing folder list...
+3719 [2019-09-05 17:30:29.805] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3719 [2019-09-05 17:30:29.825] [background] [info] Sync loop complete.
+3719 [2019-09-05 17:31:21.966] [metadata] [info] Metadata delta stream closed.
+3719 [2019-09-05 17:31:21.970] [metadata] [info] Metadata delta stream starting...

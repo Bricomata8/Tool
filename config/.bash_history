@@ -1395,3 +1395,5 @@ arduino-compile
 arduino-exec 
 arduino-log
 make TARGET=zoul
+arduino-exec 
+arduino-log
