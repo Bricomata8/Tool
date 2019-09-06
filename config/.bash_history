@@ -1397,3 +1397,7 @@ arduino-log
 make TARGET=zoul
 arduino-exec 
 arduino-log
+pdfunite *.pdf contrat.pdf
+pdfunite *.pdf contrat.pdf
+git clone /media/aghiles/Aghiles/Administration
+pdfunite *.pdf
