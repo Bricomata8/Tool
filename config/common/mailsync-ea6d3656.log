@@ -43790,3 +43790,56 @@
 3785 [2019-09-06 07:29:33.300] [background] [info] - remote=0, local=0
 3785 [2019-09-06 07:29:33.301] [background] [info] Sync loop deleting unlinked messages with phase 1.
 3785 [2019-09-06 07:29:33.301] [background] [info] Sync loop complete.
+3785 [2019-09-06 07:31:33.301] [background] [info] Syncing folder list...
+3785 [2019-09-06 07:31:33.512] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 13, Heavy: false
+3785 [2019-09-06 07:31:33.814] [background] [info] - remote=5, local=5
+3785 [2019-09-06 07:31:33.950] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+3785 [2019-09-06 07:31:34.162] [background] [info] - remote=0, local=0
+3785 [2019-09-06 07:31:34.267] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 8, Heavy: false
+3785 [2019-09-06 07:31:34.478] [background] [info] - remote=0, local=0
+3785 [2019-09-06 07:31:34.479] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3785 [2019-09-06 07:31:34.479] [background] [info] Sync loop complete.
+4089 [2019-09-06 20:21:03.426] [main] [info] Identity created at 1551184549 - using ID Schema 1
+4089 [2019-09-06 20:21:03.539] [main] [info] ------------- Starting Sync (aghiles.djoudi@univ-paris-est.fr) ---------------
+4089 [2019-09-06 20:21:03.543] [metadata] [info] Metadata delta stream starting...
+4089 [2019-09-06 20:21:03.549] [background] [info] Fetching XOAuth2 access token from Gmail for ea6d3656
+4089 [2019-09-06 20:21:03.706] [background] [info] Marking all folders as `busy`
+4089 [2019-09-06 20:21:03.707] [background] [info] Syncing folder list...
+4089 [2019-09-06 20:21:05.512] [background] [info] Syncing folder list...
+4089 [2019-09-06 20:21:05.759] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 13, Heavy: false
+4089 [2019-09-06 20:21:06.102] [background] [info] - remote=5, local=5
+4089 [2019-09-06 20:21:06.111] [background] [info] Cleaning local cache and updating stats
+4089 [2019-09-06 20:21:06.176] [background] [info] -- 0 message bodies deleted from local cache.
+4089 [2019-09-06 20:21:06.335] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+4089 [2019-09-06 20:21:06.357] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 9140 to 9154, uidnext 13 to 13
+4089 [2019-09-06 20:21:06.554] [background] [info] - remote=0, local=0
+4089 [2019-09-06 20:21:06.554] [background] [info] Cleaning local cache and updating stats
+4089 [2019-09-06 20:21:06.600] [background] [info] -- 0 message bodies deleted from local cache.
+4089 [2019-09-06 20:21:06.690] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 9140: 0 changed, 0 vanished
+4089 [2019-09-06 20:21:06.797] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+4089 [2019-09-06 20:21:06.813] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 8, Heavy: false
+4089 [2019-09-06 20:21:07.022] [background] [info] - remote=0, local=0
+4089 [2019-09-06 20:21:07.022] [background] [info] Cleaning local cache and updating stats
+4089 [2019-09-06 20:21:07.057] [background] [info] -- 0 message bodies deleted from local cache.
+4089 [2019-09-06 20:21:07.069] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4089 [2019-09-06 20:21:07.070] [background] [info] Sync loop complete.
+4089 [2019-09-06 20:21:18.546] [metadataExpiration] [info] Scanning for expired metadata
+4089 [2019-09-06 20:21:18.546] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+4089 [2019-09-06 20:23:07.070] [background] [info] Syncing folder list...
+4089 [2019-09-06 20:23:07.280] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+4089 [2019-09-06 20:23:07.504] [background] [info] - remote=5, local=5
+4089 [2019-09-06 20:23:07.608] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+4089 [2019-09-06 20:23:07.914] [background] [info] - remote=0, local=0
+4089 [2019-09-06 20:23:08.017] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+4089 [2019-09-06 20:23:08.229] [background] [info] - remote=0, local=0
+4089 [2019-09-06 20:23:08.230] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4089 [2019-09-06 20:23:08.230] [background] [info] Sync loop complete.
+4089 [2019-09-06 20:25:08.230] [background] [info] Syncing folder list...
+4089 [2019-09-06 20:25:08.447] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 13, Heavy: false
+4089 [2019-09-06 20:25:08.785] [background] [info] - remote=5, local=5
+4089 [2019-09-06 20:25:08.889] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 1, Heavy: false
+4089 [2019-09-06 20:25:09.106] [background] [info] - remote=0, local=0
+4089 [2019-09-06 20:25:09.210] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 8, Heavy: false
+4089 [2019-09-06 20:25:09.527] [background] [info] - remote=0, local=0
+4089 [2019-09-06 20:25:09.528] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4089 [2019-09-06 20:25:09.528] [background] [info] Sync loop complete.
