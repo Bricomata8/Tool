@@ -1401,3 +1401,22 @@ pdfunite *.pdf contrat.pdf
 pdfunite *.pdf contrat.pdf
 git clone /media/aghiles/Aghiles/Administration
 pdfunite *.pdf
+pdf2txt 
+cle orchestr 0
+compile main.tex 
+compile3 main.tex 
+./compile
+grep -r riot
+grep -r operating
+grep -r os
+grep -r operatin
+grep -ri PT_THREAD
+grep -ri contiki
+grep -ri ricer_init
+grep -ri ricer_init
+grep -ri start_threads
+cd testCommunication/
+make
+cd Debug/
+make
+grep -ri cmd
