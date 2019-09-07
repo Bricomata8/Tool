@@ -8,10 +8,10 @@
  * To make a manual change to preferences, you can visit the URL about:config
  */
 
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1567715776);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1567856724);
 user_pref("app.update.lastUpdateTime.background-update-timer", 1567716016);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1567715896);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1567777472);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1567849419);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1567716136);
 user_pref("browser.cache.disk.capacity", 358400);
 user_pref("browser.cache.disk.filesystem_reported", 1);
@@ -20,13 +20,13 @@ user_pref("extensions.bootstrappedAddons", "{\"zutilo@www.wesailatdawn.com\":{\"
 user_pref("extensions.databaseSchema", 19);
 user_pref("extensions.e10s.rollout.hasAddon", false);
 user_pref("extensions.e10sBlockedByAddons", true);
-user_pref("extensions.enabledAddons", "zotfile%40columbia.edu:5.0.10,zoteroscholarcitations%40beloglazov.info:1.9.3,better-bibtex%40iris-advies.com:5.1.139,zoteroOpenOfficeIntegration%40zotero.org:5.0.20.SA.5.0.74");
+user_pref("extensions.enabledAddons", "zotfile%40columbia.edu:5.0.10,zoteroscholarcitations%40beloglazov.info:1.9.3,better-bibtex%40iris-advies.com:5.1.139,zoteroOpenOfficeIntegration%40zotero.org:5.0.20.SA.5.0.74,zoteroscihub%40elsevier.com:0.0.5");
 user_pref("extensions.lastAppVersion", "5.0.74");
 user_pref("extensions.lastPlatformVersion", "52.9.0");
 user_pref("extensions.pendingOperations", false);
 user_pref("extensions.ui.dictionary.hidden", true);
 user_pref("extensions.ui.locale.hidden", true);
-user_pref("extensions.xpiState", "{\"app-profile\":{\"zoteroscholarcitations@beloglazov.info\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zoteroscholarcitations@beloglazov.info.xpi\",\"e\":true,\"v\":\"1.9.3\",\"st\":1567668089000},\"zutilo@www.wesailatdawn.com\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zutilo@www.wesailatdawn.com.xpi\",\"e\":true,\"v\":\"3.2.0\",\"st\":1567772474000},\"zotfile@columbia.edu\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zotfile@columbia.edu.xpi\",\"e\":true,\"v\":\"5.0.10\",\"st\":1567777226000},\"better-bibtex@iris-advies.com\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/better-bibtex@iris-advies.com.xpi\",\"e\":true,\"v\":\"5.1.139\",\"st\":1567777226000}},\"app-global\":{\"zoteroOpenOfficeIntegration@zotero.org\":{\"d\":\"/home/aghiles/Aghiles/Redaction/lib/zotero/extensions/zoteroOpenOfficeIntegration@zotero.org\",\"e\":true,\"v\":\"5.0.20.SA.5.0.74\",\"st\":1567667578000,\"mt\":1567667578000}}}");
+user_pref("extensions.xpiState", "{\"app-profile\":{\"zutilo@www.wesailatdawn.com\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zutilo@www.wesailatdawn.com.xpi\",\"e\":true,\"v\":\"3.2.0\",\"st\":1567715776000},\"zoteroscholarcitations@beloglazov.info\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zoteroscholarcitations@beloglazov.info.xpi\",\"e\":true,\"v\":\"1.9.3\",\"st\":1567626964000},\"zotfile@columbia.edu\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zotfile@columbia.edu.xpi\",\"e\":true,\"v\":\"5.0.10\",\"st\":1567794387000},\"better-bibtex@iris-advies.com\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/better-bibtex@iris-advies.com.xpi\",\"e\":true,\"v\":\"5.1.139\",\"st\":1567794387000},\"zoteroscihub@elsevier.com\":{\"d\":\"/home/aghiles/.zotero/zotero/xrf3f13u.default/extensions/zoteroscihub@elsevier.com.xpi\",\"e\":true,\"v\":\"0.0.5\",\"st\":1567856751000}},\"app-global\":{\"zoteroOpenOfficeIntegration@zotero.org\":{\"d\":\"/home/aghiles/Aghiles/Redaction/lib/zotero/extensions/zoteroOpenOfficeIntegration@zotero.org\",\"e\":true,\"v\":\"5.0.20.SA.5.0.74\",\"st\":1566443811000,\"mt\":1566443811000}}}");
 user_pref("extensions.zotero.dataDir", "/home/aghiles/Aghiles/Redaction/lib/iot");
 user_pref("extensions.zotero.export.lastTranslator", "f895aa0d-f28e-47fe-b247-2ea77c6ed583");
 user_pref("extensions.zotero.export.quickCopy.setting", "export=a515a220-6fef-45ea-9842-8025dfebcc8f");
@@ -34,18 +34,20 @@ user_pref("extensions.zotero.export.translatorSettings", "{\"exportNotes\":false
 user_pref("extensions.zotero.firstRun.skipFirefoxProfileAccessCheck", true);
 user_pref("extensions.zotero.firstRun2", false);
 user_pref("extensions.zotero.ignoreLegacyDataDir.auto", true);
-user_pref("extensions.zotero.lastViewedFolder", "L1");
+user_pref("extensions.zotero.lastViewedFolder", "C413");
 user_pref("extensions.zotero.newItemTypeMRU", "7,34,4");
 user_pref("extensions.zotero.pane.persist", "{\"zotero-collections-pane\":{},\"zotero-tags-splitter\":{\"state\":\"\"},\"zotero-tag-selector-container\":{\"height\":\"285\"},\"zotero-collections-splitter\":{},\"zotero-layout-switcher\":{\"orient\":\"horizontal\"},\"zotero-items-pane\":{},\"zotero-items-tree\":{\"current-view-group\":\"default\"},\"zotero-items-column-title\":{\"width\":\"947\",\"ordinal\":\"1\",\"hidden\":\"false\"},\"zotero-items-column-citekey\":{\"ordinal\":\"63\",\"hidden\":\"true\"},\"zotero-items-column-firstCreator\":{\"width\":\"115\",\"ordinal\":\"3\",\"hidden\":\"false\"},\"zotero-items-column-itemType\":{\"width\":\"99\",\"ordinal\":\"5\",\"hidden\":\"false\"},\"zotero-items-column-date\":{\"ordinal\":\"7\",\"hidden\":\"true\"},\"zotero-items-column-year\":{\"width\":\"42\",\"ordinal\":\"9\",\"hidden\":\"false\",\"sortActive\":\"true\",\"sortDirection\":\"ascending\"},\"zotero-items-column-publisher\":{\"ordinal\":\"11\",\"hidden\":\"true\"},\"zotero-items-column-publicationTitle\":{\"ordinal\":\"13\",\"hidden\":\"true\"},\"zotero-items-column-journalAbbreviation\":{\"ordinal\":\"15\",\"hidden\":\"true\"},\"zotero-items-column-language\":{\"ordinal\":\"17\",\"hidden\":\"true\"},\"zotero-items-column-accessDate\":{\"ordinal\":\"19\",\"hidden\":\"true\"},\"zotero-items-column-libraryCatalog\":{\"ordinal\":\"21\",\"hidden\":\"true\"},\"zotero-items-column-callNumber\":{\"ordinal\":\"23\",\"hidden\":\"true\"},\"zotero-items-column-rights\":{\"ordinal\":\"25\",\"hidden\":\"true\"},\"zotero-items-column-dateAdded\":{\"ordinal\":\"27\",\"hidden\":\"true\"},\"zotero-items-column-dateModified\":{\"ordinal\":\"29\",\"hidden\":\"true\"},\"zotero-items-column-archive\":{\"ordinal\":\"31\",\"hidden\":\"true\"},\"zotero-items-column-archiveLocation\":{\"ordinal\":\"33\",\"hidden\":\"true\"},\"zotero-items-column-place\":{\"ordinal\":\"35\",\"hidden\":\"true\"},\"zotero-items-column-volume\":{\"ordinal\":\"37\",\"hidden\":\"true\"},\"zotero-items-column-edition\":{\"ordinal\":\"39\",\"hidden\":\"true\"},\"zotero-items-column-pages\":{\"ordinal\":\"41\",\"hidden\":\"true\"},\"zotero-items-column-issue\":{\"ordinal\":\"43\",\"hidden\":\"true\"},\"zotero-items-column-series\":{\"ordinal\":\"45\",\"hidden\":\"true\"},\"zotero-items-column-seriesTitle\":{\"ordinal\":\"47\",\"hidden\":\"true\"},\"zotero-items-column-court\":{\"ordinal\":\"49\",\"hidden\":\"true\"},\"zotero-items-column-medium\":{\"ordinal\":\"51\",\"hidden\":\"true\"},\"zotero-items-column-genre\":{\"ordinal\":\"53\",\"hidden\":\"true\"},\"zotero-items-column-system\":{\"ordinal\":\"55\",\"hidden\":\"true\"},\"zotero-items-column-extra\":{\"width\":\"57\",\"ordinal\":\"57\",\"hidden\":\"false\"},\"zotero-items-column-hasAttachment\":{\"ordinal\":\"59\",\"hidden\":\"false\"},\"zotero-items-column-numNotes\":{\"ordinal\":\"61\",\"hidden\":\"true\"},\"zotero-items-splitter\":{\"orient\":\"horizontal\"},\"zotero-item-pane\":{}}");
 user_pref("extensions.zotero.prefVersion", 2);
 user_pref("extensions.zotero.purge.tags", true);
 user_pref("extensions.zotero.recentSaveTargets", "[{\"id\":\"C300\",\"sessionID\":\"ZQFQpGoH\"},{\"id\":\"C391\",\"sessionID\":\"xmNJVwVM\"}]");
 user_pref("extensions.zotero.search.quicksearch-mode", "titleCreatorYear");
-user_pref("extensions.zotero.sourceList.persist", "{\"L1\":true,\"P1\":false,\"C391\":true,\"C256\":true,\"C512\":true}");
+user_pref("extensions.zotero.sourceList.persist", "{\"L1\":true,\"P1\":false,\"C256\":true,\"C493\":true,\"C413\":true}");
 user_pref("extensions.zotero.translators.better-bibtex.autoExport", "off");
 user_pref("extensions.zotero.translators.better-bibtex.citekeyFormat", "[zotero:clean]");
 user_pref("extensions.zotero.translators.better-bibtex.jabrefFormat", 4);
 user_pref("extensions.zotero.useDataDir", true);
+user_pref("extensions.zotero.zoteroscihub.automatic_pdf_download", true);
+user_pref("extensions.zotero.zoteroscihub.scihub_url", "https://sci-hub.tw/");
 user_pref("extensions.zoteroOpenOfficeIntegration.installed", true);
 user_pref("extensions.zoteroOpenOfficeIntegration.unopkgPaths", "{\"/usr/bin/unopkg\":true,\"/usr/lib/libreoffice/program/unopkg\":true}");
 user_pref("extensions.zoteroOpenOfficeIntegration.version", "5.0.20.SA.5.0.74");

@@ -1420,3 +1420,12 @@ make
 cd Debug/
 make
 grep -ri cmd
+grep -ri arduPi
+grep -ri rapidjson
+grep -ri aes-python-lib
+grep -ri bcm2835 
+gedit lora_gateway.cpp 
+g++ -lrt -lpthread lora_gateway.o arduPi.o SX1272.o -o lora_gateway
+g++ -lrt -lpthread lib/lora_gateway.o lib/arduPi.o lib/SX1272.o -o lora_gateway
+make lora_gateway
+sudo chown -R aghiles .
